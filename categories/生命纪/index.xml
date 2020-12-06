@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生命纪 on 学无止境@一点一滴</title>
+    <link>http://yibie.github.io/categories/%E7%94%9F%E5%91%BD%E7%BA%AA/</link>
+    <description>Recent content in 生命纪 on 学无止境@一点一滴</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="http://yibie.github.io/categories/%E7%94%9F%E5%91%BD%E7%BA%AA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2021 年，痛风给了我一个大锤</title>
+      <link>http://yibie.github.io/post/thinkaboutmetabolicarthritis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://yibie.github.io/post/thinkaboutmetabolicarthritis/</guid>
+      <description>痛风的学名叫代谢性关节炎，顾名思义，身体的新陈代谢出了问题，无法把尿酸完全排解出体外，所以导致的。 痛风很痛，以后都不想再经历了 我在 11 月 30 日从</description>
+    </item>
+    
+  </channel>
+</rss>

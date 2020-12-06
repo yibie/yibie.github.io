@@ -155,4 +155,16 @@
     <priority>0.5</priority>
   </url>
   
+  <url>
+    <loc>http://yibie.github.io/post/thinkaboutmetabolicarthritis/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/categories/%E7%94%9F%E5%91%BD%E7%BA%AA/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
 </urlset>
