@@ -3,21 +3,35 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2020-12-10T23:46:32+08:00</lastmod>
+    <lastmod>2020-12-27T13:20:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2020-12-10T23:46:32+08:00</lastmod>
+    <lastmod>2020-12-27T13:20:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/</loc>
-    <lastmod>2020-12-10T23:46:32+08:00</lastmod>
+    <lastmod>2020-12-27T13:20:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/categories/%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2020-12-27T13:20:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/whenyouinmiddleage/</loc>
+    <lastmod>2020-12-27T13:20:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -81,13 +95,6 @@
   <url>
     <loc>http://yibie.github.io/categories/%E7%94%9F%E5%91%BD%E7%BA%AA/</loc>
     <lastmod>2020-11-29T22:22:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/categories/%E6%80%9D%E8%80%83/</loc>
-    <lastmod>2020-10-05T12:15:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
