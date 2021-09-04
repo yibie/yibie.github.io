@@ -3,34 +3,41 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2021-02-19T20:59:00+08:00</lastmod>
+    <lastmod>2021-09-04T19:30:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2021-02-19T20:59:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/post/readforunkown/</loc>
-    <lastmod>2021-02-19T20:59:00+08:00</lastmod>
+    <lastmod>2021-09-04T19:30:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/</loc>
-    <lastmod>2021-02-19T20:59:00+08:00</lastmod>
+    <lastmod>2021-09-04T19:30:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/narrativeeconomics/</loc>
+    <lastmod>2021-09-04T19:30:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/categories/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2021-09-04T19:30:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/readforunkown/</loc>
     <lastmod>2021-02-19T20:59:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -193,20 +200,6 @@
   <url>
     <loc>http://yibie.github.io/post/%E7%BA%AA%E5%BF%B5%E9%99%B6%E9%86%89/</loc>
     <lastmod>2020-08-31T21:46:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/think/%E6%83%B3%E6%B3%95/</loc>
-    <lastmod>2020-08-18T04:00:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/think/</loc>
-    <lastmod>2020-08-18T04:00:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
