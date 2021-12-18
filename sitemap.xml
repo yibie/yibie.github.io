@@ -3,34 +3,41 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2021-12-17T23:20:47+08:00</lastmod>
+    <lastmod>2021-12-18T16:24:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2021-12-17T23:20:47+08:00</lastmod>
+    <lastmod>2021-12-18T16:24:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/</loc>
-    <lastmod>2021-12-17T23:20:47+08:00</lastmod>
+    <lastmod>2021-12-18T16:24:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://yibie.github.io/post/beyond-smart/</loc>
-    <lastmod>2021-12-17T23:20:47+08:00</lastmod>
+    <loc>http://yibie.github.io/post/how-does-the-marrrage-can-be-like/</loc>
+    <lastmod>2021-12-18T16:24:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/categories/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2021-12-18T16:24:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/beyond-smart/</loc>
     <lastmod>2021-12-17T23:20:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
