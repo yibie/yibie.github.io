@@ -3,21 +3,35 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2022-01-01T21:42:30+08:00</lastmod>
+    <lastmod>2022-01-01T22:06:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2022-01-01T21:42:30+08:00</lastmod>
+    <lastmod>2022-01-01T22:06:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/be-a-normal-and-confident-people/</loc>
+    <lastmod>2022-01-01T22:06:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/</loc>
-    <lastmod>2022-01-01T21:42:30+08:00</lastmod>
+    <lastmod>2022-01-01T22:06:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/categories/%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2022-01-01T22:06:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -270,13 +284,6 @@
   <url>
     <loc>http://yibie.github.io/post/designboomtechpredictions2021/</loc>
     <lastmod>2020-12-30T00:05:46+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/categories/%E6%80%9D%E8%80%83/</loc>
-    <lastmod>2020-12-27T13:20:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

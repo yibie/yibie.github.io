@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 学无止境@一点一滴</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Jan 2022 21:42:30 +0800</lastBuildDate><atom:link href="http://yibie.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jan 2022 22:06:35 +0800</lastBuildDate><atom:link href="http://yibie.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>思考</title>
+      <link>http://yibie.github.io/categories/%E6%80%9D%E8%80%83/</link>
+      <pubDate>Sat, 01 Jan 2022 22:06:35 +0800</pubDate>
+      
+      <guid>http://yibie.github.io/categories/%E6%80%9D%E8%80%83/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>阅读</title>
       <link>http://yibie.github.io/categories/%E9%98%85%E8%AF%BB/</link>
@@ -40,15 +49,6 @@
       <pubDate>Mon, 15 Feb 2021 00:13:41 +0800</pubDate>
       
       <guid>http://yibie.github.io/categories/%E6%8A%95%E8%B5%84/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>思考</title>
-      <link>http://yibie.github.io/categories/%E6%80%9D%E8%80%83/</link>
-      <pubDate>Sun, 27 Dec 2020 13:20:00 +0800</pubDate>
-      
-      <guid>http://yibie.github.io/categories/%E6%80%9D%E8%80%83/</guid>
       <description></description>
     </item>
     
