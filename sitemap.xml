@@ -3,27 +3,41 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2022-01-15T15:45:47+08:00</lastmod>
+    <lastmod>2022-01-16T12:02:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2022-01-15T15:45:47+08:00</lastmod>
+    <lastmod>2022-01-16T12:02:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://yibie.github.io/post/be-a-normal-and-confident-people-2/</loc>
-    <lastmod>2022-01-15T15:45:47+08:00</lastmod>
+    <loc>http://yibie.github.io/post/the-fake-beauty-camel/</loc>
+    <lastmod>2022-01-16T12:02:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/</loc>
+    <lastmod>2022-01-16T12:02:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/categories/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/</loc>
+    <lastmod>2022-01-16T12:02:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/be-a-normal-and-confident-people-2/</loc>
     <lastmod>2022-01-15T15:45:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -88,13 +102,6 @@
   <url>
     <loc>http://yibie.github.io/post/beyond-smart/</loc>
     <lastmod>2021-12-17T23:20:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/post/the-fake-beauty-camel/</loc>
-    <lastmod>2021-12-16T00:43:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
