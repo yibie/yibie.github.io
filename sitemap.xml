@@ -1,473 +1,340 @@
-<?xml-stylesheet type="text/xsl" href="http://yibie.github.io/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://yibie.github.io/categories/</loc>
     <lastmod>2022-01-17T02:06:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/</loc>
     <lastmod>2022-01-17T02:06:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/respon-to-think-about-notetaking-tools/</loc>
     <lastmod>2022-01-17T02:06:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/</loc>
     <lastmod>2022-01-17T02:06:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/categories/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/</loc>
     <lastmod>2022-01-17T02:06:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/the-fake-beauty-camel/</loc>
     <lastmod>2022-01-16T12:07:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/be-a-normal-and-confident-people-2/</loc>
     <lastmod>2022-01-15T15:45:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/categories/%E6%80%9D%E8%80%83/</loc>
     <lastmod>2022-01-15T15:45:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/categories/%E4%B8%8D%E6%AD%A3%E7%BB%8F/</loc>
     <lastmod>2022-01-15T14:20:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/how-to-photography-chocolate-stamp-/</loc>
     <lastmod>2022-01-15T14:20:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/be-a-normal-and-confident-people/</loc>
     <lastmod>2022-01-01T22:06:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/five-hard-dilemmas-about-cross-border-e-commerce/</loc>
     <lastmod>2022-01-01T21:42:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/categories/%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2022-01-01T21:42:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/cray-new-ideas/</loc>
     <lastmod>2022-01-01T21:28:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/how-does-the-marrrage-can-be-like/</loc>
     <lastmod>2021-12-18T16:24:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/beyond-smart/</loc>
     <lastmod>2021-12-17T23:20:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/how-does-amazon-define-the-cheating-behavior/</loc>
     <lastmod>2021-12-14T00:07:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/the-brands-that-wonder-play-with-costumers-were-gone/</loc>
     <lastmod>2021-12-13T23:51:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/dont-use-violence-to-self/</loc>
     <lastmod>2021-12-13T01:39:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/the-pharse-of-data-by-bilibli/</loc>
     <lastmod>2021-12-12T17:05:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/how-the-chinese-startup-sales-on-tiktok/</loc>
     <lastmod>2021-12-12T17:05:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/why-starbuck-sales-evan/</loc>
     <lastmod>2021-12-04T10:54:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/digitization-of-the-sport-brand-anta/</loc>
     <lastmod>2021-11-20T09:13:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/ideas-is-from-working/</loc>
     <lastmod>2021-11-20T09:12:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/three-type-of-pain/</loc>
     <lastmod>2021-11-20T09:11:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/when-you-are-manager-but-you-stuffs-are-not-so-good/</loc>
     <lastmod>2021-11-09T08:02:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/uniqlo-open-a-flagship-store-at-beijing/</loc>
     <lastmod>2021-11-09T08:01:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/howtofindouttalents/</loc>
     <lastmod>2021-10-30T11:18:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/issueaboutunperfectly/</loc>
     <lastmod>2021-10-15T14:41:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/lego2021halfyearfinancalreport/</loc>
     <lastmod>2021-10-15T14:38:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/categories/%E5%86%99%E4%BD%9C/</loc>
     <lastmod>2021-10-01T20:15:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/about-the-third-generation-of-photography/</loc>
     <lastmod>2021-10-01T20:15:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/issueaboutliziqi/</loc>
     <lastmod>2021-09-28T16:21:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/whensuzukitoshiotalksabouthiswork/</loc>
     <lastmod>2021-09-08T08:57:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/storyabtputyourshoeswithothers/</loc>
     <lastmod>2021-09-05T22:34:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/narrativeeconomics/</loc>
     <lastmod>2021-09-04T19:30:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/readforunkown/</loc>
     <lastmod>2021-02-19T20:59:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/communicatwithheart/</loc>
     <lastmod>2021-02-19T08:31:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/categories/%E6%8A%95%E8%B5%84/</loc>
     <lastmod>2021-02-15T00:13:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/investingrulesbylonecapital/</loc>
     <lastmod>2021-02-15T00:13:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/companyresearchbylongcapital/</loc>
     <lastmod>2021-02-14T10:59:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/thinkabouwhenandwhybuffetinvest/</loc>
     <lastmod>2021-02-09T22:56:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/yemingguipositionbrandstoryprotocl/</loc>
     <lastmod>2021-01-23T09:39:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/30rulesaboutmarginofsafety/</loc>
     <lastmod>2021-01-02T09:51:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/designboomtechpredictions2021/</loc>
     <lastmod>2020-12-30T00:05:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/whenyouinmiddleage/</loc>
     <lastmod>2020-12-27T13:20:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/mybodyshapetoobad/</loc>
     <lastmod>2020-12-10T23:46:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/thelonglifeofjapanesecompany/</loc>
     <lastmod>2020-12-09T23:30:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/readaboutlivesocalandshopping/</loc>
     <lastmod>2020-12-08T22:49:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/categories/%E5%BF%83%E5%AD%A6/</loc>
     <lastmod>2020-12-07T23:16:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/how-to-treat-metabolicarthritis-by-philosophy-of-the-mind/</loc>
     <lastmod>2020-12-07T23:16:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/thinkaboutmetabolicarthritis/</loc>
     <lastmod>2020-11-29T22:22:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/%E5%BF%83%E5%AD%A6%E6%9C%89%E5%85%B3/</loc>
     <lastmod>2020-11-29T22:22:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/categories/%E7%94%9F%E5%91%BD%E7%BA%AA/</loc>
     <lastmod>2020-11-29T22:22:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/%E8%AF%BB%E6%9D%A8%E7%85%A7%E5%8F%B2%E8%AE%B0%E7%9A%84%E8%AF%BB%E6%B3%95/</loc>
     <lastmod>2020-10-05T12:14:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/%E8%AF%BB%E7%8E%8B%E9%98%B3%E6%98%8E%E7%A4%BA%E5%BC%9F%E7%AB%8B%E5%BF%97%E8%AF%B4/</loc>
     <lastmod>2020-10-05T12:15:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/%E6%8A%95%E8%B5%84%E5%A4%87%E5%BF%98%E5%BD%95%E7%A7%91%E6%8A%80%E6%9D%BF%E5%9D%97%E7%BB%8F%E5%8E%86%E4%BA%86-3-%E5%91%A8%E7%9A%84%E4%BD%8E%E8%BF%B7%E5%90%8E%E6%98%AF%E5%90%A6%E6%9C%89%E5%A4%8D%E8%8B%8F%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7/</loc>
     <lastmod>2020-09-21T13:53:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/%E7%AC%94%E8%AE%B0%E7%A9%B6%E6%9E%81%E4%B9%8B%E5%AE%BF%E5%8A%A0%E8%B4%BA%E5%B1%8B%E7%9A%84%E7%99%BE%E5%B9%B4%E6%84%9F%E5%8A%A8/</loc>
     <lastmod>2020-09-01T14:06:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/%E7%BA%AA%E5%BF%B5%E9%99%B6%E9%86%89/</loc>
     <lastmod>2020-08-31T21:46:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/%E8%BF%87%E7%A8%8B%E5%B0%B1%E6%98%AF%E7%AD%94%E6%A1%88/</loc>
     <lastmod>2020-08-18T04:11:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/my-first-post/</loc>
     <lastmod>2020-08-15T20:07:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/categories/category/</loc>
     <lastmod>2020-08-15T19:49:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/categories/subcategory/</loc>
     <lastmod>2020-08-15T19:49:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/tags/tag1/</loc>
     <lastmod>2020-08-15T19:49:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/tags/tag2/</loc>
     <lastmod>2020-08-15T19:49:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/tags/</loc>
     <lastmod>2020-08-15T19:49:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://yibie.github.io/post/welcome/</loc>
     <lastmod>2020-08-15T19:49:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
-  
 </urlset>
