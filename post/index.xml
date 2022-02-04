@@ -6,11 +6,11 @@
     <description>Recent content in Posts on 学无止境</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Feb 2022 11:27:44 +0800</lastBuildDate><atom:link href="http://yibie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Feb 2022 11:37:52 +0800</lastBuildDate><atom:link href="http://yibie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>图床：把 Github 当做博客图床</title>
       <link>http://yibie.github.io/post/how-to-make-github-to-be-your-blog-image-server/</link>
-      <pubDate>Fri, 04 Feb 2022 11:27:44 +0800</pubDate>
+      <pubDate>Fri, 04 Feb 2022 11:37:52 +0800</pubDate>
       
       <guid>http://yibie.github.io/post/how-to-make-github-to-be-your-blog-image-server/</guid>
       <description>我之前的博客基本以纯文字为主，但最近因为博客新开了「产品」和「技巧」这两个分类，为了「把事情说明白」，发现还是需要「文字+图片」。由于本博客</description>
