@@ -3,34 +3,41 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2022-02-27T21:40:14+08:00</lastmod>
+    <lastmod>2022-02-27T22:30:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2022-02-27T21:40:14+08:00</lastmod>
+    <lastmod>2022-02-27T22:30:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/</loc>
-    <lastmod>2022-02-27T21:40:14+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/post/internet-likes-dark-forest/</loc>
-    <lastmod>2022-02-27T21:40:14+08:00</lastmod>
+    <lastmod>2022-02-27T22:30:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/categories/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/</loc>
+    <lastmod>2022-02-27T22:30:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/you-couldnt-known-every-facts/</loc>
+    <lastmod>2022-02-27T22:30:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/internet-likes-dark-forest/</loc>
     <lastmod>2022-02-27T21:40:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
