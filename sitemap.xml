@@ -3,21 +3,35 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2022-02-27T22:30:59+08:00</lastmod>
+    <lastmod>2022-03-06T20:01:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2022-02-27T22:30:59+08:00</lastmod>
+    <lastmod>2022-03-06T20:01:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/categories/%E4%BA%A7%E5%93%81/</loc>
+    <lastmod>2022-03-06T20:01:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/chengxinbestchoice-closed/</loc>
+    <lastmod>2022-03-06T20:01:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/</loc>
-    <lastmod>2022-02-27T22:30:59+08:00</lastmod>
+    <lastmod>2022-03-06T20:01:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -102,13 +116,6 @@
   <url>
     <loc>http://yibie.github.io/categories/%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2022-02-04T11:37:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/categories/%E4%BA%A7%E5%93%81/</loc>
-    <lastmod>2022-01-31T20:56:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
