@@ -6,7 +6,16 @@
     <description>Recent content in 产品 on 学无止境</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Mar 2022 20:01:25 +0800</lastBuildDate><atom:link href="http://yibie.github.io/categories/%E4%BA%A7%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Mar 2022 23:04:47 +0800</lastBuildDate><atom:link href="http://yibie.github.io/categories/%E4%BA%A7%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>苹果：Mac Studio 为何不能更换普通的 SSD 硬盘</title>
+      <link>http://yibie.github.io/post/why-mac-studio-can-not-change-ssds/</link>
+      <pubDate>Sat, 26 Mar 2022 23:04:47 +0800</pubDate>
+      
+      <guid>http://yibie.github.io/post/why-mac-studio-can-not-change-ssds/</guid>
+      <description>极客风范浓厚醇正的 ArsTechnica 也注意到 Mac Studio 不能随意更换 SSD 硬盘一事。它给出了一个很简单的答案： 所有 SSD 硬盘的结构至少包含 2 样东西，用于存储数据 NAND 芯片和 SSD 控</description>
+    </item>
+    
     <item>
       <title>产品：橙心优选的关停，说明电商不是公式</title>
       <link>http://yibie.github.io/post/chengxinbestchoice-closed/</link>
