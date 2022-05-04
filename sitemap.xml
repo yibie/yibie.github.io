@@ -3,21 +3,35 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2022-05-02T00:29:27+08:00</lastmod>
+    <lastmod>2022-05-04T17:28:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2022-05-02T00:29:27+08:00</lastmod>
+    <lastmod>2022-05-04T17:28:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/</loc>
-    <lastmod>2022-05-02T00:29:27+08:00</lastmod>
+    <lastmod>2022-05-04T17:28:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/categories/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/</loc>
+    <lastmod>2022-05-04T17:28:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/about-jony-ivy-leaves-apple/</loc>
+    <lastmod>2022-05-04T17:28:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -32,13 +46,6 @@
   <url>
     <loc>http://yibie.github.io/categories/%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2022-05-02T00:29:27+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/categories/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/</loc>
-    <lastmod>2022-04-30T23:14:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
