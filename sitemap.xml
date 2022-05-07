@@ -3,21 +3,35 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2022-05-04T17:28:22+08:00</lastmod>
+    <lastmod>2022-05-07T09:18:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2022-05-04T17:28:22+08:00</lastmod>
+    <lastmod>2022-05-07T09:18:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/hanmeilin-health-care-methods/</loc>
+    <lastmod>2022-05-07T09:18:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/</loc>
-    <lastmod>2022-05-04T17:28:22+08:00</lastmod>
+    <lastmod>2022-05-07T09:18:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/categories/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2022-05-07T09:18:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -38,13 +52,6 @@
   
   <url>
     <loc>http://yibie.github.io/post/didongsheng-talks-about-chinese-version-ubi/</loc>
-    <lastmod>2022-05-02T00:29:27+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/categories/%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2022-05-02T00:29:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
