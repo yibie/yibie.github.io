@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 学无止境</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 May 2022 23:12:32 +0800</lastBuildDate><atom:link href="http://yibie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 May 2022 23:23:16 +0800</lastBuildDate><atom:link href="http://yibie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PhotoShop：如何画优美的曲线</title>
+      <link>http://yibie.github.io/post/how-to-draw-bezier-curve/</link>
+      <pubDate>Sun, 08 May 2022 23:23:16 +0800</pubDate>
+      
+      <guid>http://yibie.github.io/post/how-to-draw-bezier-curve/</guid>
+      <description>原来 PhotoShop 里的钢笔工具，是贝济埃曲线（又称贝塞尔曲线）的应用，所以用好钢笔工具，应该用符合绘制贝济埃曲线的方法，这样子会比较容易得到好的结果。 通</description>
+    </item>
+    
     <item>
       <title>Wi-F：如何寻找 Wi-Fi 密码</title>
       <link>http://yibie.github.io/post/how-to-find-wifi-password/</link>
