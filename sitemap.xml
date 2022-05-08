@@ -3,21 +3,42 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2022-05-07T09:35:17+08:00</lastmod>
+    <lastmod>2022-05-08T23:12:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2022-05-07T09:35:17+08:00</lastmod>
+    <lastmod>2022-05-08T23:12:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/how-to-find-wifi-password/</loc>
+    <lastmod>2022-05-08T23:12:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/</loc>
-    <lastmod>2022-05-07T09:35:17+08:00</lastmod>
+    <lastmod>2022-05-08T23:12:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/categories/%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2022-05-08T23:12:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/how-to-draw-be%CC%81zier-curve/</loc>
+    <lastmod>2022-05-08T23:11:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -234,13 +255,6 @@
   
   <url>
     <loc>http://yibie.github.io/post/how-to-make-github-to-be-your-blog-image-server/</loc>
-    <lastmod>2022-02-04T11:37:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/categories/%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2022-02-04T11:37:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

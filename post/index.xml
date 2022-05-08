@@ -6,7 +6,25 @@
     <description>Recent content in Posts on 学无止境</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 May 2022 09:35:17 +0800</lastBuildDate><atom:link href="http://yibie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 May 2022 23:12:32 +0800</lastBuildDate><atom:link href="http://yibie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wi-F：如何寻找 Wi-Fi 密码</title>
+      <link>http://yibie.github.io/post/how-to-find-wifi-password/</link>
+      <pubDate>Sun, 08 May 2022 23:12:32 +0800</pubDate>
+      
+      <guid>http://yibie.github.io/post/how-to-find-wifi-password/</guid>
+      <description>Windows 进入 “网络和共享中心” 菜单。右键单击 Wi-Fi 网络连接图标→“无线网络属性”。点击 “显示字符” 字段，显示 Wi-Fi 网络密码。 macOS 所有密码都存储在钥匙串应用程</description>
+    </item>
+    
+    <item>
+      <title>PhotoShop：如何画优美的曲线</title>
+      <link>http://yibie.github.io/post/how-to-draw-be%CC%81zier-curve/</link>
+      <pubDate>Sun, 08 May 2022 23:11:32 +0800</pubDate>
+      
+      <guid>http://yibie.github.io/post/how-to-draw-be%CC%81zier-curve/</guid>
+      <description>原来 PhotoShop 里的钢笔工具，是贝济埃曲线（又称贝塞尔曲线）的应用，所以用好钢笔工具，应该用符合绘制贝济埃曲线的方法，这样子会比较容易得到好的结果。 通</description>
+    </item>
+    
     <item>
       <title>比特币环境学：挖矿活动如何影响美国小镇</title>
       <link>http://yibie.github.io/post/how-minning-bitcoin-desotry-a-town-of-america/</link>
