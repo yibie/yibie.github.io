@@ -3,34 +3,41 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2022-05-18T22:56:49+08:00</lastmod>
+    <lastmod>2022-05-27T17:32:26+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2022-05-18T22:56:49+08:00</lastmod>
+    <lastmod>2022-05-27T17:32:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/3-stages-of-bull-market/</loc>
+    <lastmod>2022-05-27T17:32:26+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/</loc>
-    <lastmod>2022-05-18T22:56:49+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/post/tim-oreilly-about-future/</loc>
-    <lastmod>2022-05-18T22:56:49+08:00</lastmod>
+    <lastmod>2022-05-27T17:32:26+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/categories/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2022-05-27T17:32:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/tim-oreilly-about-future/</loc>
     <lastmod>2022-05-18T22:56:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -100,13 +107,6 @@
   </url>
   
   <url>
-    <loc>http://yibie.github.io/categories/%E6%96%B0%E9%97%BB/</loc>
-    <lastmod>2022-05-07T09:35:17+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://yibie.github.io/post/how-minning-bitcoin-desotry-a-town-of-america/</loc>
     <lastmod>2022-05-07T09:35:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -114,14 +114,21 @@
   </url>
   
   <url>
-    <loc>http://yibie.github.io/post/about-which-knowledge-shuld-be-write-down/</loc>
-    <lastmod>2022-05-07T09:19:38+08:00</lastmod>
+    <loc>http://yibie.github.io/categories/%E6%96%B0%E9%97%BB/</loc>
+    <lastmod>2022-05-07T09:35:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/categories/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/</loc>
+    <lastmod>2022-05-07T09:19:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/about-which-knowledge-shuld-be-write-down/</loc>
     <lastmod>2022-05-07T09:19:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -506,14 +513,14 @@
   </url>
   
   <url>
-    <loc>http://yibie.github.io/categories/%E5%86%99%E4%BD%9C/</loc>
+    <loc>http://yibie.github.io/post/about-the-third-generation-of-photography/</loc>
     <lastmod>2021-10-01T20:15:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://yibie.github.io/post/about-the-third-generation-of-photography/</loc>
+    <loc>http://yibie.github.io/categories/%E5%86%99%E4%BD%9C/</loc>
     <lastmod>2021-10-01T20:15:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -562,14 +569,14 @@
   </url>
   
   <url>
-    <loc>http://yibie.github.io/categories/%E6%8A%95%E8%B5%84/</loc>
+    <loc>http://yibie.github.io/post/investingrulesbylonecapital/</loc>
     <lastmod>2021-02-15T00:13:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://yibie.github.io/post/investingrulesbylonecapital/</loc>
+    <loc>http://yibie.github.io/categories/%E6%8A%95%E8%B5%84/</loc>
     <lastmod>2021-02-15T00:13:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -639,14 +646,14 @@
   </url>
   
   <url>
-    <loc>http://yibie.github.io/categories/%E5%BF%83%E5%AD%A6/</loc>
+    <loc>http://yibie.github.io/post/how-to-treat-metabolicarthritis-by-philosophy-of-the-mind/</loc>
     <lastmod>2020-12-07T23:16:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://yibie.github.io/post/how-to-treat-metabolicarthritis-by-philosophy-of-the-mind/</loc>
+    <loc>http://yibie.github.io/categories/%E5%BF%83%E5%AD%A6/</loc>
     <lastmod>2020-12-07T23:16:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
