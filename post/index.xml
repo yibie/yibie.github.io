@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 学无止境</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 14 Aug 2022 18:04:57 +0800</lastBuildDate><atom:link href="http://yibie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Aug 2022 10:06:00 +0800</lastBuildDate><atom:link href="http://yibie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何衡量一个 idea 的商业价值</title>
+      <link>http://yibie.github.io/post/what-is-business-value/</link>
+      <pubDate>Sat, 20 Aug 2022 10:06:00 +0800</pubDate>
+      
+      <guid>http://yibie.github.io/post/what-is-business-value/</guid>
+      <description>深夜一点，手机「叮」的一声，看到朋友 T 发来短信，「什么是商业价值？」本来已昏昏沉沉的我，突然一个激灵，大脑突然变得清醒，开始不受控制，高速运</description>
+    </item>
+    
     <item>
       <title>曾经，红蓝黄绿紫</title>
       <link>http://yibie.github.io/post/thelastyear/</link>
@@ -176,15 +185,6 @@
       
       <guid>http://yibie.github.io/post/about-which-knowledge-shuld-be-write-down/</guid>
       <description>在即刻上，我表达了「隐性知识更值得记录」的观点—— 明面可总结为结构性知识的，不需太重点的记录，就好像工具书，有一个梗概索引，方便自己忘了之后</description>
-    </item>
-    
-    <item>
-      <title>苹果：为 Jony Ive 离开苹果叫好</title>
-      <link>http://yibie.github.io/post/about-jony-ivy-leaves-apple/</link>
-      <pubDate>Wed, 04 May 2022 17:28:22 +0800</pubDate>
-      
-      <guid>http://yibie.github.io/post/about-jony-ivy-leaves-apple/</guid>
-      <description>最近又出了一本关于苹果的新书，叫《AfterSteve》，主要内容整理自对 Jony Ive 访谈，知名科技评论家阑夕总结了这本书的内容： 财经记者 Tripp Mickle 出版了</description>
     </item>
     
   </channel>
