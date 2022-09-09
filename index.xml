@@ -6,7 +6,7 @@
     <description>Recent content on 学无止境</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 09 Sep 2022 12:19:39 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 09 Sep 2022 16:53:38 +0800</lastBuildDate>
     
         <atom:link href="http://yibie.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>如何在 M1 MacBook 上玩游戏</title>
       <link>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</link>
-      <pubDate>Fri, 09 Sep 2022 12:19:39 +0800</pubDate>
+      <pubDate>Fri, 09 Sep 2022 16:53:38 +0800</pubDate>
       
       <guid>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</guid>
       
@@ -23,12 +23,12 @@
 &lt;p&gt;直接下载 Steam 的 Mac 版，会失望的发现，很多好玩的游戏，平台只支持 Windows。所以，参考 2 条哔哩哔哩的视频教程，一步一步跟着走：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1yZ4y1D74K?vd_source=1f7b4ab69df0282a1f07c30f52428cfa&#34;&gt;【Mac 玩游戏】Crossover 21.1 教程 安装最新的 DXVK 玩 Windows 游戏&lt;/a&gt;
-阿婆主叫 js-john，是一名旅居日本的程序员，他还做了一个叫 &lt;a href=&#34;https://isign.ren/#/&#34;&gt;iSign签名网&lt;/a&gt; 的网站，帮人安装 App Store 以外的 App，而且可以帮助苹果开发者分成。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1yZ4y1D74K?vd_source=1f7b4ab69df0282a1f07c30f52428cfa&#34;&gt;【Mac 玩游戏】Crossover 21.1 教程 安装最新的 DXVK 玩 Windows 游戏&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;阿婆主叫 js-john，是一名旅居日本的程序员，他还做了一个叫 &lt;a href=&#34;https://isign.ren/#/&#34;&gt;iSign签名网&lt;/a&gt; 的网站，帮人安装 App Store 以外的 App，而且可以帮助苹果开发者分成。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://space.bilibili.com/131564072/channel/collectiondetail?sid=604200&#34;&gt;处之漠然的 CrossOver 教程合集&lt;/a&gt;
-阿婆主叫「处之漠然」，她的教程非常详细，如果担心自己的步骤出错了，可以对照着做。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://space.bilibili.com/131564072/channel/collectiondetail?sid=604200&#34;&gt;处之漠然的 CrossOver 教程合集&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;阿婆主叫「处之漠然」，她的教程非常详细，如果担心自己的步骤出错了，可以对照着做。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;要点&#34;&gt;要点&lt;/h3&gt;
@@ -59,22 +59,25 @@
 &lt;p&gt;除了 PC 大作之外，也可以考虑主机游戏，很多经典神作让玩家沉浸在无与伦比的体验中，值得一再回味。比如我之前沉迷的《皇家骑士团 2》。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/OpenEmu/OpenEmu&#34;&gt;OpenEmu: 🕹 Retro video game emulation for macOS&lt;/a&gt;
-神器，支持的老主机特别多，如果是喜欢玩老游戏的，直接入它。缺点是不支持 PS2、PS3 等比较新的主机。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/OpenEmu/OpenEmu&#34;&gt;OpenEmu: 🕹 Retro video game emulation for macOS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;神器，支持的老主机特别多，如果是喜欢玩老游戏的，直接入它。缺点是不支持 PS2、PS3 等比较新的主机。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1uB4y127WM?vd_source=1f7b4ab69df0282a1f07c30f52428cfa&#34;&gt;【Mac 玩游戏】以太模拟器现已推出 Apple Silicon Mac 版本 PS2 模拟器&lt;/a&gt;
-PS 2 模拟器就用它，流畅。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1uB4y127WM?vd_source=1f7b4ab69df0282a1f07c30f52428cfa&#34;&gt;【Mac 玩游戏】以太模拟器现已推出 Apple Silicon Mac 版本 PS2 模拟器&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PS 2 模拟器就用它，流畅。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://rpcs3.net/&#34;&gt;RPCS3 - The PlayStation 3 Emulator&lt;/a&gt;
-PS3 模拟器，今年更新了支持 M1 的版本。尚未尝试。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://rpcs3.net/&#34;&gt;RPCS3 - The PlayStation 3 Emulator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PS3 模拟器，今年更新了支持 M1 的版本。尚未尝试。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ko7rV18Wkig&#34;&gt;SWITCH EMULATION on Mac! Horizon OS gaming progress on M1/M2 Apple Silicon - &amp;hellip;&lt;/a&gt;
-还没在 M1 MacBook 上尝试过玩 Switch 游戏，大家可以看看这个视频，实现方式挺曲折的。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ko7rV18Wkig&#34;&gt;SWITCH EMULATION on Mac! Horizon OS gaming progress on M1/M2 Apple Silicon - &amp;hellip;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;还没在 M1 MacBook 上尝试过玩 Switch 游戏，大家可以看看这个视频，实现方式挺曲折的。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;云游戏&#34;&gt;云游戏&lt;/h2&gt;
+&lt;p&gt;忘了提，其实还有腾讯 START、微软 XGPU 等云游戏服务，不用占太多硬盘空间，对于普遍硬盘空间狭小的 MacBook 而言，也是比较合适的。&lt;/p&gt;
+&lt;p&gt;只不过，我一般处于一个网络条件比较差的地方，也就没有太多深入尝试。&lt;/p&gt;
 </description>
       
     </item>
