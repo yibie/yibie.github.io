@@ -6,7 +6,7 @@
     <description>Recent content on 学无止境</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 09 Sep 2022 11:37:40 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 09 Sep 2022 12:19:39 +0800</lastBuildDate>
     
         <atom:link href="http://yibie.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>如何在 M1 MacBook 上玩游戏</title>
       <link>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</link>
-      <pubDate>Fri, 09 Sep 2022 11:37:40 +0800</pubDate>
+      <pubDate>Fri, 09 Sep 2022 12:19:39 +0800</pubDate>
       
       <guid>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</guid>
       
@@ -37,21 +37,24 @@
 &lt;p&gt;CrossOver 需付费购买，自行准备好钱钱钱。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;CrossOver 要从海外官网购买和下载，地址在 &lt;a href=&#34;https://www.codeweavers.com/&#34;&gt;CodeWeavers&lt;/a&gt;。
-国内版是海外版的阉割版，功能不全，为了避免意外发生，最好是下载海外版。
-由于点击官网的购买按钮，会跳转到中文购买页面，请自备梯子，并开启全局模式。&lt;/p&gt;
+&lt;p&gt;CrossOver 要从海外官网购买和下载，地址在 &lt;a href=&#34;https://www.codeweavers.com/&#34;&gt;CodeWeavers&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;国内版是海外版的阉割版，功能不全，为了避免意外发生，最好是下载海外版。&lt;/p&gt;
+&lt;p&gt;由于点击官网的购买按钮，会跳转到中文购买页面，请自备梯子，并开启全局模式。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;必须更新视频中提到的 2 个插件：
-DXVK：&lt;a href=&#34;https://github.com/marzent/dxvk/releases&#34;&gt;https://github.com/marzent/dxvk/releases&lt;/a&gt;
-MoltenVK：&lt;a href=&#34;https://github.com/Gcenx/MoltenVK/releases&#34;&gt;https://github.com/Gcenx/MoltenVK/releases&lt;/a&gt;
-上不了 Github 的得自己想办法。&lt;/p&gt;
+&lt;p&gt;必须更新视频中提到的 2 个插件：&lt;/p&gt;
+&lt;p&gt;DXVK：&lt;a href=&#34;https://github.com/marzent/dxvk/releases&#34;&gt;https://github.com/marzent/dxvk/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MoltenVK：&lt;a href=&#34;https://github.com/Gcenx/MoltenVK/releases&#34;&gt;https://github.com/Gcenx/MoltenVK/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上不了 Github 的得自己想办法。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;关于游戏兼容性，可以查：
 &lt;a href=&#34;https://www.applegamingwiki.com/wiki/Home&#34;&gt;https://www.applegamingwiki.com/wiki/Home&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;one-more-thing&#34;&gt;one more thing…&lt;/h3&gt;
+&lt;p&gt;很神奇的是，用 Windows 虚拟机来玩游戏，要比 macOS 原生的流畅多了，发热也不严重。&lt;/p&gt;
+&lt;p&gt;只能说，大部分游戏对 macOS 的优化做得很差。&lt;/p&gt;
 &lt;h2 id=&#34;主机游戏&#34;&gt;主机游戏&lt;/h2&gt;
 &lt;p&gt;除了 PC 大作之外，也可以考虑主机游戏，很多经典神作让玩家沉浸在无与伦比的体验中，值得一再回味。比如我之前沉迷的《皇家骑士团 2》。&lt;/p&gt;
 &lt;ul&gt;
