@@ -6,10 +6,75 @@
     <description>Recent content on 学无止境</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 24 Aug 2022 10:16:32 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 09 Sep 2022 11:37:40 +0800</lastBuildDate>
     
         <atom:link href="http://yibie.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何在 M1 MacBook 上玩游戏</title>
+      <link>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</link>
+      <pubDate>Fri, 09 Sep 2022 11:37:40 +0800</pubDate>
+      
+      <guid>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</guid>
+      
+        <description>&lt;p&gt;因为把 Switch 留在了深圳，我不得不开发在 MacBook 上玩游戏的技能。&lt;/p&gt;
+&lt;h2 id=&#34;windows-游戏&#34;&gt;Windows 游戏&lt;/h2&gt;
+&lt;p&gt;直接下载 Steam 的 Mac 版，会失望的发现，很多好玩的游戏，平台只支持 Windows。所以，参考 2 条哔哩哔哩的视频教程，一步一步跟着走：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1yZ4y1D74K?vd_source=1f7b4ab69df0282a1f07c30f52428cfa&#34;&gt;【Mac 玩游戏】Crossover 21.1 教程 安装最新的 DXVK 玩 Windows 游戏&lt;/a&gt;
+阿婆主叫 js-john，是一名旅居日本的程序员，他还做了一个叫 &lt;a href=&#34;https://isign.ren/#/&#34;&gt;iSign签名网&lt;/a&gt; 的网站，帮人安装 App Store 以外的 App，而且可以帮助苹果开发者分成。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://space.bilibili.com/131564072/channel/collectiondetail?sid=604200&#34;&gt;处之漠然的 CrossOver 教程合集&lt;/a&gt;
+阿婆主叫「处之漠然」，她的教程非常详细，如果担心自己的步骤出错了，可以对照着做。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;要点&#34;&gt;要点&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CrossOver 需付费购买，自行准备好钱钱钱。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CrossOver 要从海外官网购买和下载，地址在 &lt;a href=&#34;https://www.codeweavers.com/&#34;&gt;CodeWeavers&lt;/a&gt;。
+国内版是海外版的阉割版，功能不全，为了避免意外发生，最好是下载海外版。
+由于点击官网的购买按钮，会跳转到中文购买页面，请自备梯子，并开启全局模式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;必须更新视频中提到的 2 个插件：
+DXVK：&lt;a href=&#34;https://github.com/marzent/dxvk/releases&#34;&gt;https://github.com/marzent/dxvk/releases&lt;/a&gt;
+MoltenVK：&lt;a href=&#34;https://github.com/Gcenx/MoltenVK/releases&#34;&gt;https://github.com/Gcenx/MoltenVK/releases&lt;/a&gt;
+上不了 Github 的得自己想办法。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;关于游戏兼容性，可以查：
+&lt;a href=&#34;https://www.applegamingwiki.com/wiki/Home&#34;&gt;https://www.applegamingwiki.com/wiki/Home&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;主机游戏&#34;&gt;主机游戏&lt;/h2&gt;
+&lt;p&gt;除了 PC 大作之外，也可以考虑主机游戏，很多经典神作让玩家沉浸在无与伦比的体验中，值得一再回味。比如我之前沉迷的《皇家骑士团 2》。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/OpenEmu/OpenEmu&#34;&gt;OpenEmu: 🕹 Retro video game emulation for macOS&lt;/a&gt;
+神器，支持的老主机特别多，如果是喜欢玩老游戏的，直接入它。缺点是不支持 PS2、PS3 等比较新的主机。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1uB4y127WM?vd_source=1f7b4ab69df0282a1f07c30f52428cfa&#34;&gt;【Mac 玩游戏】以太模拟器现已推出 Apple Silicon Mac 版本 PS2 模拟器&lt;/a&gt;
+PS 2 模拟器就用它，流畅。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://rpcs3.net/&#34;&gt;RPCS3 - The PlayStation 3 Emulator&lt;/a&gt;
+PS3 模拟器，今年更新了支持 M1 的版本。尚未尝试。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ko7rV18Wkig&#34;&gt;SWITCH EMULATION on Mac! Horizon OS gaming progress on M1/M2 Apple Silicon - &amp;hellip;&lt;/a&gt;
+还没在 M1 MacBook 上尝试过玩 Switch 游戏，大家可以看看这个视频，实现方式挺曲折的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>逛南头古城</title>
@@ -474,28 +539,6 @@ BDO 有几个特点：&lt;/p&gt;
 &lt;p&gt;进入 “网络和共享中心” 菜单。右键单击 Wi-Fi 网络连接图标→“无线网络属性”。点击 “显示字符” 字段，显示 Wi-Fi 网络密码。&lt;/p&gt;
 &lt;h2 id=&#34;macos&#34;&gt;macOS&lt;/h2&gt;
 &lt;p&gt;所有密码都存储在钥匙串应用程序中。使用 Spotlight 搜索 “Keychain Access”。打开该应用程序，在保存的凭证列表中找到 Wi-Fi 网络名称。双击它，然后在字段中点击查看密码（这需要输入操作系统密码）。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>比特币环境学：挖矿活动如何影响美国小镇</title>
-      <link>http://yibie.github.io/post/how-minning-bitcoin-desotry-a-town-of-america/</link>
-      <pubDate>Sat, 07 May 2022 09:35:17 +0800</pubDate>
-      
-      <guid>http://yibie.github.io/post/how-minning-bitcoin-desotry-a-town-of-america/</guid>
-      
-        <description>&lt;h2 id=&#34;比特币挖矿消耗大量电力&#34;&gt;比特币挖矿消耗大量电力&lt;/h2&gt;
-&lt;p&gt;其中一個熱點是紐約州普拉茨堡（Plattsburgh），因為當地鄰近水力發電場，是美國電費最便宜的地區之一。全球知名的挖礦機構 Coinmint 子公司就租了一間平價雜貨連鎖店，在店舖架設各種各樣的伺服器，24 小時接駁電源運行礦機。&lt;/p&gt;
-&lt;p&gt;後來，Coinmint 子公司想在鄰近的商場開分部，普拉茨堡的電力部門負責人 Bill Treacy 要求公司於新的供電設施投資 14 萬美元，該公司很快就答應。往後，他們經常消耗 10 兆瓦的電力，相等於 4,000 戶居民的用電量。接著，愈來愈多挖礦機構希望落戶普拉茨堡，其中有人接洽過 Treacy，看看電力部門能否供應 5,000 兆瓦的電力（相等於全紐約州每日用電量的 4 分之 1）。在高峰時期，普拉茨堡幾乎每週都收到一宗挖礦申請。&lt;/p&gt;
-&lt;h2 id=&#34;挖矿消耗电力过高-甚至影响了当地本地居民的正常用电&#34;&gt;挖矿消耗电力过高，甚至影响了当地本地居民的正常用电&lt;/h2&gt;
-&lt;p&gt;2018 年 1 月，普拉茨堡遇上寒流， &lt;code&gt;居民紛紛開暖爐取熱，市鎮用電量很快就超過水力發電設施的極限&lt;/code&gt; ，被迫要向其他地方高價買電，有居民一個月的電費突然上漲 30 至 40 美元，當時人們都不知道問題所在。冬天結束後，人們就發現另一問題。由於礦機需要大型風扇散熱，以避免當機，過程中會產生令人煩厭的高頻聲響，居民形容聲音就像小型飛機準備起飛時的雜音，有居民更表示所在公寓會因礦機的噪音而震動起來。&lt;/p&gt;
-&lt;h2 id=&#34;挖矿公司提供的就业机会比麦当劳还少&#34;&gt;挖矿公司提供的就业机会比麦当劳还少&lt;/h2&gt;
-&lt;p&gt;紐約州立大學經濟學教授兼普拉茨堡鎮長 Colin Read 批評， &lt;code&gt;這些挖礦公司牟取暴利的同時，根本無法令居民受惠，當地最大型挖礦場製造的就業機會還不如一間麥當勞。&lt;/code&gt; 而且普拉茨堡沒有市收入稅（city income tax），挖礦公司又大多數只租不買場地，不用繳交物業稅。他就任鎮長後，推出多項政策，例如要求「高密度用戶」繳交更高租金，又要求挖礦機構付上相等於兩個月電費的安全保證金，同時更改樓宇安全和噪音管制條例。&lt;/p&gt;
-&lt;h2 id=&#34;比特币挖矿所造成的二氧化碳排放量并不低&#34;&gt;比特币挖矿所造成的二氧化碳排放量并不低&lt;/h2&gt;
-&lt;p&gt;普拉茨堡的新規例推出後，該鎮對挖礦公司的吸引力馬上大減。很多機構一度搬到鄰近的馬塞納鎮（Massena），但到 2021 年該鎮也不堪負荷，禁止新的挖礦機構落戶當地。然而，只要挖礦能牟取暴利，投資者只會把問題轉移到其他地方。同年，中國以減少碳排放為名，禁絕挖礦活動，挖礦公司就改往哈薩克等依然靠煤發電的國家。 &lt;code&gt;Read 的研究估計，到 2020 年代末，加密貨幣每年會額外造成 3,250 萬公噸的二氧化碳。&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;挖矿公司因为需要电力和场地-但不需要人力-反而赶走了本地的其它商业&#34;&gt;挖矿公司因为需要电力和场地、但不需要人力，反而赶走了本地的其它商业&lt;/h2&gt;
-&lt;p&gt;除了環境問題，挖礦公司也窒礙地區經濟。在一些固額供電的地區，挖礦活動可以造成能源短缺，嚴重的話要配額供電甚至停電，影響地區商業運作。而且挖礦公司可能以高價租地，趕絕一些能夠聘請更多人的企業。而在 2016 年到 18 年間，紐約上州的挖礦活動就令中小企每年多付 1.65 億美元電費，令個人和家庭多付 7,900 萬。當投資者牟取暴利，成本最終會轉嫁給普羅市民。&lt;/p&gt;
 </description>
       
     </item>

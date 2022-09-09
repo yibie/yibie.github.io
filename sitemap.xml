@@ -3,14 +3,35 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2022-08-24T10:16:32+08:00</lastmod>
+    <lastmod>2022-09-09T11:37:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2022-08-24T10:16:32+08:00</lastmod>
+    <lastmod>2022-09-09T11:37:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/categories/%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2022-09-09T11:37:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</loc>
+    <lastmod>2022-09-09T11:37:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/</loc>
+    <lastmod>2022-09-09T11:37:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -24,13 +45,6 @@
   
   <url>
     <loc>http://yibie.github.io/categories/%E7%94%9F%E5%91%BD%E7%BA%AA/</loc>
-    <lastmod>2022-08-24T10:16:32+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/</loc>
     <lastmod>2022-08-24T10:16:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -199,13 +213,6 @@
   
   <url>
     <loc>http://yibie.github.io/post/how-to-draw-bezier-curve/</loc>
-    <lastmod>2022-05-08T23:23:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/categories/%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2022-05-08T23:23:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

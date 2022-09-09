@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 学无止境</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 24 Aug 2022 10:16:32 +0800</lastBuildDate><atom:link href="http://yibie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Sep 2022 11:37:40 +0800</lastBuildDate><atom:link href="http://yibie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在 M1 MacBook 上玩游戏</title>
+      <link>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</link>
+      <pubDate>Fri, 09 Sep 2022 11:37:40 +0800</pubDate>
+      
+      <guid>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</guid>
+      <description>因为把 Switch 留在了深圳，我不得不开发在 MacBook 上玩游戏的技能。 Windows 游戏 直接下载 Steam 的 Mac 版，会失望的发现，很多好玩的游戏，平台只支持 Windows。所以，参</description>
+    </item>
+    
     <item>
       <title>逛南头古城</title>
       <link>http://yibie.github.io/post/travel-to-nantougucheng/</link>
@@ -176,15 +185,6 @@
       
       <guid>http://yibie.github.io/post/how-to-find-wifi-password/</guid>
       <description>Windows 进入 “网络和共享中心” 菜单。右键单击 Wi-Fi 网络连接图标→“无线网络属性”。点击 “显示字符” 字段，显示 Wi-Fi 网络密码。 macOS 所有密码都存储在钥匙串应用程</description>
-    </item>
-    
-    <item>
-      <title>比特币环境学：挖矿活动如何影响美国小镇</title>
-      <link>http://yibie.github.io/post/how-minning-bitcoin-desotry-a-town-of-america/</link>
-      <pubDate>Sat, 07 May 2022 09:35:17 +0800</pubDate>
-      
-      <guid>http://yibie.github.io/post/how-minning-bitcoin-desotry-a-town-of-america/</guid>
-      <description>比特币挖矿消耗大量电力 其中一個熱點是紐約州普拉茨堡（Plattsburgh），因為當地鄰近水力發電場，是美國電費最便宜的地區之一。全球知名的</description>
     </item>
     
   </channel>
