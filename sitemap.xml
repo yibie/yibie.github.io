@@ -3,34 +3,41 @@
   
   <url>
     <loc>http://yibie.github.io/categories/</loc>
-    <lastmod>2022-09-09T16:53:38+08:00</lastmod>
+    <lastmod>2022-09-10T23:06:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/post/</loc>
-    <lastmod>2022-09-09T16:53:38+08:00</lastmod>
+    <lastmod>2022-09-10T23:06:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/categories/%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2022-09-09T16:53:38+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</loc>
-    <lastmod>2022-09-09T16:53:38+08:00</lastmod>
+    <lastmod>2022-09-10T23:06:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://yibie.github.io/</loc>
+    <lastmod>2022-09-10T23:06:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/about-learning-lisp/</loc>
+    <lastmod>2022-09-10T23:06:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</loc>
     <lastmod>2022-09-09T16:53:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
