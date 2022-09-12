@@ -2,551 +2,936 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>学无止境</title>
-    <link>http://yibie.github.io/</link>
+    <link>https://www.gtdstudy.com/</link>
     <description>Recent content on 学无止境</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 10 Sep 2022 23:06:59 +0800</lastBuildDate>
-    
-        <atom:link href="http://yibie.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Sep 2022 23:06:59 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>最近学习 Lisp 进度顺利</title>
-      <link>http://yibie.github.io/post/about-learning-lisp/</link>
+      <link>https://www.gtdstudy.com/post/about-learning-lisp/</link>
       <pubDate>Sat, 10 Sep 2022 23:06:59 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/about-learning-lisp/</guid>
-      
-        <description>&lt;p&gt;近期更换了学习 lisp 的教材，进度可喜可贺，虽不能独立写出 package，然而在看 lisp 的代码时，开始具备一定的阅读能力，知道是什么顺序，大概会是什么作用。如果不知道，还可以直接查询函数。&lt;/p&gt;
-&lt;p&gt;近期的学习教材主要是《Practical Common Lisp》，我认为它的安排很好，一上来先教人安装了 lisp 的生产环境之后，就直接以一个「专辑数据库」为例子，让人直接上手，并从一步步的步骤中，理解自己所编写的代码，如何变成程序。对于一名非程序员来说，这种方式，可以很快地通过实操来理解代码的作用，找到感觉。&lt;/p&gt;
-&lt;p&gt;这和学习《 ANSI Common Lisp 中文版》的感受大不一样。ANSI Common Lisp，非常完整，十分细致，甚至有后面的练习题，来帮助人深入思考。但它太学术了，在学习过程中，总是不知道学了之后，用这些语法或函数能发挥什么作用。&lt;/p&gt;
-&lt;p&gt;所以我现在是《Practical Common Lisp》和 《 ANSI Common Lisp 中文版》一起结合来看。首先阅读前者，通过前者举的例子，来理解逻辑；而函数实际应用的细节，则查询后者——在逻辑理解了的情况下，阅读后者，往往很快就能理解，而且能够有一定的发散。这样子学，记得牢，学得快。&lt;/p&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/about-learning-lisp/</guid>
+      <description>近期更换了学习 lisp 的教材，进度可喜可贺，虽不能独立写出 package，然而在看 lisp 的代码时，开始具备一定的阅读能力，知道是什么顺序，大概会是什么</description>
     </item>
     
     <item>
       <title>如何在 M1 MacBook 上玩游戏</title>
-      <link>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</link>
+      <link>https://www.gtdstudy.com/post/how-to-play-games-with-m1-macbook/</link>
       <pubDate>Fri, 09 Sep 2022 16:53:38 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</guid>
-      
-        <description>&lt;p&gt;因为把 Switch 留在了深圳，我不得不开发在 MacBook 上玩游戏的技能。&lt;/p&gt;
-&lt;h2 id=&#34;windows-游戏&#34;&gt;Windows 游戏&lt;/h2&gt;
-&lt;p&gt;直接下载 Steam 的 Mac 版，会失望的发现，很多好玩的游戏，平台只支持 Windows。所以，参考 2 条哔哩哔哩的视频教程，一步一步跟着走：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1yZ4y1D74K?vd_source=1f7b4ab69df0282a1f07c30f52428cfa&#34;&gt;【Mac 玩游戏】Crossover 21.1 教程 安装最新的 DXVK 玩 Windows 游戏&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;阿婆主叫 js-john，是一名旅居日本的程序员，他还做了一个叫 &lt;a href=&#34;https://isign.ren/#/&#34;&gt;iSign签名网&lt;/a&gt; 的网站，帮人安装 App Store 以外的 App，而且可以帮助苹果开发者分成。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://space.bilibili.com/131564072/channel/collectiondetail?sid=604200&#34;&gt;处之漠然的 CrossOver 教程合集&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;阿婆主叫「处之漠然」，她的教程非常详细，如果担心自己的步骤出错了，可以对照着做。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;要点&#34;&gt;要点&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;CrossOver 需付费购买，自行准备好钱钱钱。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CrossOver 要从海外官网购买和下载，地址在 &lt;a href=&#34;https://www.codeweavers.com/&#34;&gt;CodeWeavers&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;国内版是海外版的阉割版，功能不全，为了避免意外发生，最好是下载海外版。&lt;/p&gt;
-&lt;p&gt;由于点击官网的购买按钮，会跳转到中文购买页面，请自备梯子，并开启全局模式。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;必须更新视频中提到的 2 个插件：&lt;/p&gt;
-&lt;p&gt;DXVK：&lt;a href=&#34;https://github.com/marzent/dxvk/releases&#34;&gt;https://github.com/marzent/dxvk/releases&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;MoltenVK：&lt;a href=&#34;https://github.com/Gcenx/MoltenVK/releases&#34;&gt;https://github.com/Gcenx/MoltenVK/releases&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;上不了 Github 的得自己想办法。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;关于游戏兼容性，可以查：
-&lt;a href=&#34;https://www.applegamingwiki.com/wiki/Home&#34;&gt;https://www.applegamingwiki.com/wiki/Home&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;one-more-thing&#34;&gt;one more thing…&lt;/h3&gt;
-&lt;p&gt;很神奇的是，用 Windows 虚拟机来玩游戏，要比 macOS 原生的流畅多了，发热也不严重。&lt;/p&gt;
-&lt;p&gt;只能说，大部分游戏对 macOS 的优化做得很差。&lt;/p&gt;
-&lt;h2 id=&#34;主机游戏&#34;&gt;主机游戏&lt;/h2&gt;
-&lt;p&gt;除了 PC 大作之外，也可以考虑主机游戏，很多经典神作让玩家沉浸在无与伦比的体验中，值得一再回味。比如我之前沉迷的《皇家骑士团 2》。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/OpenEmu/OpenEmu&#34;&gt;OpenEmu: 🕹 Retro video game emulation for macOS&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;神器，支持的老主机特别多，如果是喜欢玩老游戏的，直接入它。缺点是不支持 PS2、PS3 等比较新的主机。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1uB4y127WM?vd_source=1f7b4ab69df0282a1f07c30f52428cfa&#34;&gt;【Mac 玩游戏】以太模拟器现已推出 Apple Silicon Mac 版本 PS2 模拟器&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;PS 2 模拟器就用它，流畅。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://rpcs3.net/&#34;&gt;RPCS3 - The PlayStation 3 Emulator&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;PS3 模拟器，今年更新了支持 M1 的版本。尚未尝试。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ko7rV18Wkig&#34;&gt;SWITCH EMULATION on Mac! Horizon OS gaming progress on M1/M2 Apple Silicon - &amp;hellip;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;还没在 M1 MacBook 上尝试过玩 Switch 游戏，大家可以看看这个视频，实现方式挺曲折的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;云游戏&#34;&gt;云游戏&lt;/h2&gt;
-&lt;p&gt;忘了提，其实还有腾讯 START、微软 XGPU 等云游戏服务，不用占太多硬盘空间，对于普遍硬盘空间狭小的 MacBook 而言，也是比较合适的。&lt;/p&gt;
-&lt;p&gt;只不过，我一般处于一个网络条件比较差的地方，也就没有太多深入尝试。&lt;/p&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/how-to-play-games-with-m1-macbook/</guid>
+      <description>因为把 Switch 留在了深圳，我不得不开发在 MacBook 上玩游戏的技能。 Windows 游戏 直接下载 Steam 的 Mac 版，会失望的发现，很多好玩的游戏，平台只支持 Windows。所以，参</description>
     </item>
     
     <item>
       <title>逛南头古城</title>
-      <link>http://yibie.github.io/post/travel-to-nantougucheng/</link>
+      <link>https://www.gtdstudy.com/post/travel-to-nantougucheng/</link>
       <pubDate>Wed, 24 Aug 2022 10:16:32 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/travel-to-nantougucheng/</guid>
-      
-        <description>&lt;p&gt;几年前，我曾经和阿薰来过南头古城，参加深港双年展。当时，南头古城的旧改开发，只有瓮城到县衙中间的一条直街有一些新鲜铺子。现在整个南头古城，一横一竖，变化非常大，已经变成了各类新鲜业态的集中地，各类小吃不必提，一个个小小的咖啡馆各具特色，还有古着店、设计买手店、独立设计师店等等，让南头古城充满了潮流气质。&lt;/p&gt;
-&lt;p&gt;带我逛南头古城的高老师，在这里扎了 2 年，他跟我说，万科泊寓很用心的经营年轻租客的社群关系，也为南头古城增加了人情的温度，所谓的社区感，不就来自于日常微笑的相互点头，随口聊聊么？我想南头古城可以避免丽江过度商业化的悲剧，缺乏人文作为基地的新潮，最终不可避免空洞。晚上，高老师给了一张泊寓的试住体验券，让我住一晚上，体验古城夜景。可惜晚上开会，直到 10 点多才下楼，此时古城人潮开始散去，各类小店开始关门，看着他们一边关门，一边相互点头执意，在温黄的灯光下，心情渐渐柔和。&lt;/p&gt;
-&lt;p&gt;向别人介绍深圳有什么特产，我总觉得困难，对比起其它一线城市，深圳这个地方以拼搏精神而著称，但总不能跟别人说深圳特产是工作狂吧？现在南头古城变得如此新鲜，这里面的一间间小店，我突然间发现，可以向别人介绍，深圳还有一个新鲜去处，叫南头古城。&lt;/p&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/travel-to-nantougucheng/</guid>
+      <description>几年前，我曾经和阿薰来过南头古城，参加深港双年展。当时，南头古城的旧改开发，只有瓮城到县衙中间的一条直街有一些新鲜铺子。现在整个南头古城，一</description>
     </item>
     
     <item>
       <title>如何衡量一个 idea 的商业价值</title>
-      <link>http://yibie.github.io/post/what-is-business-value/</link>
+      <link>https://www.gtdstudy.com/post/what-is-business-value/</link>
       <pubDate>Sat, 20 Aug 2022 10:06:00 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/what-is-business-value/</guid>
-      
-        <description>&lt;p&gt;深夜一点，手机「叮」的一声，看到朋友 T 发来短信，「什么是商业价值？」本来已昏昏沉沉的我，突然一个激灵，大脑突然变得清醒，开始不受控制，高速运转。这也是一个曾经令我非常困惑的问题。&lt;/p&gt;
-&lt;p&gt;先不说 T 礼貌不礼貌，他看上去已经为该问题困扰许久。我能理解，这个世界上有很多词汇，我第一次看到它时，以为自己看懂了，但如果别人让我来解释它，我得思考很久才能说出个一二三四来。而「商业价值」，就属于这种一看就懂，一讲就卡壳的类型。&lt;/p&gt;
-&lt;p&gt;不同角度来看「商业价值」，会有不同的解释。T 现在想做自己的事业，在跟别人讨论的时候，别人说他的 idea，商业价值不够。所以，我会从进入某种行业，开展某种事业的角度来解释商业价值。它有可能和现在的教材不一样——因为它有一个很强的目的性，就是如何衡量我持续做的某件事情的价值，它是否足以让我全身心投入超过 5 年的时间。&lt;/p&gt;
-&lt;h2 id=&#34;商业价值第一点-面向目标群体的不可替代性&#34;&gt;商业价值第一点：面向目标群体的不可替代性&lt;/h2&gt;
-&lt;p&gt;无论多小的商业组织，它所提供的产品或服务，都得具备一定的「不可替代性」。&lt;/p&gt;
-&lt;p&gt;即便是一家街边的小吃摊，它也得有非常吸引人的小吃，才能一直吸引顾客回头消费。对于大企业而言，它能所提供的商业价值则非常多元。但即便是这样，它们也得保持自己的产品和服务具备「不可替代性」。典型的商业例子，就是苹果取代了诺基亚，成为手机市场一哥，但从市场占有率来看，三星才是手机市场一哥。苹果和三星，各自对自己的消费群体提供了不可替代的价值。苹果的 App Store，让不同设备协同的 Hands-on，三星的 Galaxy Note 系列，Galaxy Fold 系列等等。&lt;/p&gt;
-&lt;p&gt;我们经常也能看到，同样的领域，也能出现不同的巨头。就以零售为例，就可以衍生出山姆会员店、华润万家、银泰百货等不同的业态。这些巨头所面向的消费群体，不能说是一致的。所以，他们各自对自己的目标群体，有着不可替代的价值，才能吸引这些回头客不停地购买。&lt;/p&gt;
-&lt;h2 id=&#34;商业价值第二点-对目标群体具备影响力&#34;&gt;商业价值第二点：对目标群体具备影响力&lt;/h2&gt;
-&lt;p&gt;如果一个东西，只能给自己用，那么这件东西就不能称之为产品、商品，它顶多只能称之为「个人作品」，是无法放到市场上进行交易的。&lt;/p&gt;
-&lt;p&gt;一个东西，能够称之为产品、商品，意味着它对于别人，具备交换价值，在古代也许别人愿意拿别的东西来跟你交换，在现代则是拿出金钱来跟你交换。那么，如果愿意交换的人越来越多，那么很显然，这个产品或服务的价值会变得越来越大。换言之，具备商业价值的 idea，得对目标群体具备影响力，让他们能够一眼看到就发生兴趣，在体验之后，向别人推荐。&lt;/p&gt;
-&lt;p&gt;好的产品、服务，它自带口碑，不需要多做动作，自然就会有人帮它传播。如果越来越多人帮这款产品、这项服务传播，那么显然，它所具备的商业价值也越大。&lt;/p&gt;
-&lt;h2 id=&#34;商业价值第三点-拥有对抗时间的持续力&#34;&gt;商业价值第三点：拥有对抗时间的持续力&lt;/h2&gt;
-&lt;p&gt;如果一个 idea 它的有效期，只能维持 3 个月，那它顶多就是一个短期的策划，不能说具备多大的商业价值。&lt;/p&gt;
-&lt;p&gt;很多公司都是围绕一项产品、一项服务建立，如果一个 idea 有效期很短，那么这家公司就不得不在中间进行多次转型，当然有很多公司在经历了转型之后，有了更好的发展，但有更多公司转型往往不顺利，最终倒闭。然而，在孵化一个 idea 之前，就应该让 idea 本身具备可以对抗时间的持续力，减少反复折腾的成本，令公司拥有更强健的现金流，以备意外风险来临，比如说当前的疫情。&lt;/p&gt;
-&lt;p&gt;很多大公司已经存在很多年了，它们也许已经历过多次转型，开拓多项业务，但是可以看到的，好的 idea 能够让它们早期获得更加快速的发展，令公司积累更多资本试错，以及储备好渡过转型期的粮草，和宝贵的完成战略转型的时间。&lt;/p&gt;
-&lt;p&gt;举一个例子，沃尔玛一开始是建设在美国城乡结合部的百货超市，当时做零售的百货，并没有注意到美国城镇居民的消费需求日益高涨，因此沃尔玛趁着其它百货公司没有注意的时候，迅速地扩张，直到它完全占领这一部分的市场。在完成了市场占领后，沃尔玛拥有充足的现金流，面对后来者 Costco 的挑战，沃尔玛才拥有足够的金钱、人才、精力、时间，来开拓「山姆会员店」这一形态，面对竞争。&lt;/p&gt;
-&lt;p&gt;以上，就是我认为，衡量一个 idea 商业价值的 3 个角度。未必正确，供大家参考，接受大家的反驳。&lt;/p&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/what-is-business-value/</guid>
+      <description>深夜一点，手机「叮」的一声，看到朋友 T 发来短信，「什么是商业价值？」本来已昏昏沉沉的我，突然一个激灵，大脑突然变得清醒，开始不受控制，高速运</description>
     </item>
     
     <item>
       <title>曾经，红蓝黄绿紫</title>
-      <link>http://yibie.github.io/post/thelastyear/</link>
+      <link>https://www.gtdstudy.com/post/thelastyear/</link>
       <pubDate>Sun, 14 Aug 2022 18:04:57 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/thelastyear/</guid>
-      
-        <description>&lt;p&gt;前两天，香港珍宝舫在南海沉没。满大街的媒体标题写着「一个年代远去」的感叹。2020 年开始的疫情风暴，锤死多少洋洋自得，飙升的法拍房数量背后是难以启齿的难堪，不再敢提起光荣与梦想。活下去吧，活下去吧，几乎每个人都在说。&lt;/p&gt;
-&lt;p&gt;这个国家和民族走入中年，就在 2020 年。曾经，红蓝黄绿紫，世界多姿彩。少年不识愁滋味，三年过了，突然间一种中年化的表情，出现在人人的脸上，言谈里。&lt;/p&gt;
-&lt;p&gt;沉重的空气，在肺里灌铅，却不得不呼吸着。生活也需要点幽默感。但也许这还不是最坏的年代。每一年都是下一年更好的年代。笑不出来，没有这个心情。压力，让眉间逐渐拧成川字，嘴角也难以上翘，脸皮下的肌肉像是打了肉毒杆菌，僵硬。&lt;/p&gt;
-&lt;p&gt;想呼唤伟大的精神，但发出了嘤嘤的声音，迅疾地，被嘈杂的催促声盖过，「快点！快点！再快点！」钱成为了所有的理想，美德就像套套一样，即用即弃。烂掉的白菜躺在红砖地面上。&lt;/p&gt;
-&lt;p&gt;每个人都不想死，每个人都想活着，人人都品味着几乎一样的沉重。&lt;/p&gt;
-&lt;p&gt;未来的我们，围坐一桌，谈起当年「疫情」，如暗号一般，所有人都吹嘘起几乎一模一样的故事。&lt;/p&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/thelastyear/</guid>
+      <description>前两天，香港珍宝舫在南海沉没。满大街的媒体标题写着「一个年代远去」的感叹。2020 年开始的疫情风暴，锤死多少洋洋自得，飙升的法拍房数量背后是</description>
     </item>
     
     <item>
       <title>我，西西弗斯</title>
-      <link>http://yibie.github.io/post/sisyphean/</link>
+      <link>https://www.gtdstudy.com/post/sisyphean/</link>
       <pubDate>Mon, 20 Jun 2022 13:45:12 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/sisyphean/</guid>
-      
-        <description>&lt;p&gt;看着眼前的石头从我的手中滑走，不知几千几百次滚到山脚，等着我再一次把它推到山顶。但是，我，西西弗斯，距离山顶永远只差最后一步。&lt;/p&gt;
-&lt;p&gt;石头，已经经历了不知多少次的滚动，从最初的棱棱角角，到现在几乎成为标准几何里的球体，由于每天都被我推着滚上山，石头表面已非常光滑，看不到所谓历史的痕迹，它就好像最初我见到的那样新鲜。没有青苔，没有疤痕，只是很奇怪，普通的石头即便在河流里，经过漫长的时间，体积也会逐渐变小，而它只有越变越光滑，体积却一点变化都没有。&lt;/p&gt;
-&lt;p&gt;现在是我短暂的休息时间，我用文字写一点断断续续的思考。我经历着漫长的苦刑，这不是考验，是希腊众神对我的惩罚。他们欺骗我，说只要我把石头推到山顶，我就可以从苦海中解脱。但他们又偷偷地给石头下了个诅咒，只要到山顶的前一刻，它就会自动地从我手中脱离，滚到山底，等着我再一次把它滚上来。&lt;/p&gt;
-&lt;p&gt;这座山是一座标准的丘陵，也不是非常的陡峭，坡度大概是 40° 左右，把石头从山脚推到山顶，大约是需要 4.5 小时左右，中间可以在山顶休息一小会，但不能太久，太久会有处罚的神雷从天而降，让我浑身疼痛，并且破除我身上「永不劳累」的祝福，好让我在下一次推石头上山时，感受到肉体痛苦的叹息。&lt;/p&gt;
-&lt;p&gt;山顶上，刻满我计算推石头次数的记号。每一次石头掉下山顶，我都在这里计算一次。不过，有一段时间，我内心麻木，只剩下推石头这个动作。我推啊推，不知日出日落，不知酷暑严寒，我听不到任何声音，甚至连想法都消失了。推石头上山，石头掉，下山，再推石头，石头再掉，下山，再推……&lt;/p&gt;
-&lt;p&gt;一直到，我觉得耳边传来一个愤怒的声音，不停地喊着，我要自杀！我要自杀！我要自杀！越来越响。这声音听着非常熟悉，我环顾四周，这里并没有别人。声音从何而来？我一边迷惑着，一边听着，一边推着。后来我甚至不顾神罚，停下推石头，山上下找这个声音的来源。我他妈的想让他闭嘴，不要干扰我推石头的工作。这是一个必须完成的工作。我找来找去，一无所获。神罚一次次降下，让我累得一动都不想动。结果这段日子里，我陷入了另外一个循环，推石头上山，找声音，神罚降下，累得不想动，神罚再降，起来推石头，累得不想动，神罚再三地降……&lt;/p&gt;
-&lt;p&gt;这是一个更痛苦的循环。我想自杀我想自杀我想自杀，这个声音又来了，而且更痛苦了……毕竟，是被电的时候，发出的声音。这时，我才发现，这声音根本就不是别人的，而是我嘴巴在不停的念念叨叨。真是吓了我一跳，明明好好推着石头，不必受累也不必痛苦，天很清地很明，我干嘛要自杀？！我到底，还是不是我了？看了看双手双脚，都在，掐一掐，会疼；只剩下嘴巴自己不停的动。我怀疑，不知哪一个看我不顺眼的神明乱下诅咒。&lt;/p&gt;
-&lt;p&gt;但我是谁，西西弗斯，一个把神都骗得团团转的人。我会枯燥无味的推石头游戏，而放弃吗？绝不。我得活得有滋有味，让着天和地，都见证我的快活。如果连小鸟都不能作陪，野花野草也渺无踪迹，甚至连天上的太阳都被薄雾遮去自己的样子，也不能妨碍我与我自己携手玩乐，只需要不把自己当成自己，甚至有时候当成另外一个人，自己和自己下棋，也是美事一桩，也足以琢磨出好玩的意思来。感谢曾经来访的阿拉伯人，他们为我带来了东方的「围棋」，还教会了我规则。我给自己定了一个自己对弈的棋局目标，那就是，下一盘永远都下不完的棋。为达到这个目标，我可是绞尽脑汁，无论是执黑子，还是执白子，拼尽老命让自己的棋多活一会儿。现在这一局棋，我已经下了一年了。&lt;/p&gt;
-&lt;p&gt;神可以命令我不得自由，可以命令我一辈子都做一个推石头的苦力，让我永远都达不到目标，尝尽内心苦楚，但祂影响不了我找自己的乐子。哈！&lt;/p&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/sisyphean/</guid>
+      <description>看着眼前的石头从我的手中滑走，不知几千几百次滚到山脚，等着我再一次把它推到山顶。但是，我，西西弗斯，距离山顶永远只差最后一步。 石头，已经经历</description>
     </item>
     
     <item>
       <title>公关：危机公关应对 5S 原则</title>
-      <link>http://yibie.github.io/post/public-relationship-5s-princple/</link>
+      <link>https://www.gtdstudy.com/post/public-relationship-5s-princple/</link>
       <pubDate>Sun, 19 Jun 2022 09:23:46 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/public-relationship-5s-princple/</guid>
-      
-        <description>&lt;p&gt;1、速度第一原则 (SPEED)&lt;/p&gt;
-&lt;p&gt;2、承担责任原则（SHOULDER THE MATTER）&lt;/p&gt;
-&lt;p&gt;3、真诚沟通原则 (SINCERITY)&lt;/p&gt;
-&lt;p&gt;4、系统运行原则 (SYSTEM)&lt;/p&gt;
-&lt;p&gt;5、权威证实原则 (STANDARD)&lt;/p&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/public-relationship-5s-princple/</guid>
+      <description>1、速度第一原则 (SPEED) 2、承担责任原则（SHOULDER THE MATTER） 3、真诚沟通原则 (SINCERITY) 4、系统运行原则 (SYSTEM) 5、权威证实原则 (STANDARD)</description>
     </item>
     
     <item>
       <title>领导力：亚马逊 14 条领导力原则</title>
-      <link>http://yibie.github.io/post/amazon-leadership-handbook/</link>
+      <link>https://www.gtdstudy.com/post/amazon-leadership-handbook/</link>
       <pubDate>Sat, 18 Jun 2022 17:53:21 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/amazon-leadership-handbook/</guid>
-      
-        <description>&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;痴迷客户&lt;/li&gt;
-&lt;li&gt;主人翁精神&lt;/li&gt;
-&lt;li&gt;创新与简化&lt;/li&gt;
-&lt;li&gt;决策正确&lt;/li&gt;
-&lt;li&gt;自我批评&lt;/li&gt;
-&lt;li&gt;招聘和培养最优人才&lt;/li&gt;
-&lt;li&gt;坚持最高标准&lt;/li&gt;
-&lt;li&gt;大胆思考&lt;/li&gt;
-&lt;li&gt;崇尚行动&lt;/li&gt;
-&lt;li&gt;节俭&lt;/li&gt;
-&lt;li&gt;赢得信任&lt;/li&gt;
-&lt;li&gt;刨根问底&lt;/li&gt;
-&lt;li&gt;敢于谏言，服从大局&lt;/li&gt;
-&lt;li&gt;达成业绩。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/amazon-leadership-handbook/</guid>
+      <description>痴迷客户 主人翁精神 创新与简化 决策正确 自我批评 招聘和培养最优人才 坚持最高标准 大胆思考 崇尚行动 节俭 赢得信任 刨根问底 敢于谏言，服从大局 达成业绩。</description>
     </item>
     
     <item>
       <title>商业： 17 个品牌收购运营管理公司</title>
-      <link>http://yibie.github.io/post/17-brand-acquisition-companys/</link>
+      <link>https://www.gtdstudy.com/post/17-brand-acquisition-companys/</link>
       <pubDate>Sat, 18 Jun 2022 17:34:41 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/17-brand-acquisition-companys/</guid>
-      
-        <description>&lt;p&gt;关注国外的消费品行业新闻，经常能发现某某品牌运营管理公司，收购了某某新消费品牌。我认为，这其实是顺应资本市场的玩法，也是很多新消费品牌较为理想的退出通道，这当然是因为美国的上市规则影响下的产物。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Thrasio&lt;/li&gt;
-&lt;li&gt;Perch&lt;/li&gt;
-&lt;li&gt;Growve&lt;/li&gt;
-&lt;li&gt;Acquco&lt;/li&gt;
-&lt;li&gt;Win Brands Group&lt;/li&gt;
-&lt;li&gt;Unybrands&lt;/li&gt;
-&lt;li&gt;Elevate Brands&lt;/li&gt;
-&lt;li&gt;Heyday&lt;/li&gt;
-&lt;li&gt;Benitago Group&lt;/li&gt;
-&lt;li&gt;Berlin Brands Group&lt;/li&gt;
-&lt;li&gt;SellerX&lt;/li&gt;
-&lt;li&gt;Branded&lt;/li&gt;
-&lt;li&gt;factory14&lt;/li&gt;
-&lt;li&gt;Heroes&lt;/li&gt;
-&lt;li&gt;Rainforest&lt;/li&gt;
-&lt;li&gt;Una Brands&lt;/li&gt;
-&lt;li&gt;Valoreo&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/17-brand-acquisition-companys/</guid>
+      <description>关注国外的消费品行业新闻，经常能发现某某品牌运营管理公司，收购了某某新消费品牌。我认为，这其实是顺应资本市场的玩法，也是很多新消费品牌较为理</description>
     </item>
     
     <item>
       <title>创意：写首诗吧</title>
-      <link>http://yibie.github.io/post/ideas-make-a-poem/</link>
+      <link>https://www.gtdstudy.com/post/ideas-make-a-poem/</link>
       <pubDate>Fri, 03 Jun 2022 10:21:37 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/ideas-make-a-poem/</guid>
-      
-        <description>&lt;p&gt;进入  Next Studios 公众号，可以打开 Make a Poem。尝试一下这个写诗游戏。它可以很快地让人创作出一首诗。&lt;/p&gt;
-&lt;h2 id=&#34;提供词盘&#34;&gt;提供词盘&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;首先，提供玩家挑选并组成诗句的词库被称为“词盘”。提供词盘的作者非常丰富，有些是从经典化的现当代作家作品中提炼出来的，比如徐志摩、刘慈欣、伊朗著名导演阿巴斯；有些是青年诗人、说唱歌手自己从过去的作品中挖掘出来的，比如王子瓜、沼蛙、小老虎等等。玩家可以通过“灵感”和“朝花夕拾”两种不同的组合规则，将那些词句片段组成自己的诗。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;可以用在哪里&#34;&gt;可以用在哪里？&lt;/h2&gt;
-&lt;p&gt;可以作为一种游戏化营销手段，放在不同的场合。&lt;/p&gt;
-&lt;p&gt;比如诗歌评选，获得积分。比如用户定制包装，或者小纸条，可以作为手信给用户带走等。&lt;/p&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/ideas-make-a-poem/</guid>
+      <description>进入 Next Studios 公众号，可以打开 Make a Poem。尝试一下这个写诗游戏。它可以很快地让人创作出一首诗。 提供词盘 首先，提供玩家挑选并组成诗句的词库被称为“</description>
     </item>
     
     <item>
       <title>网络孤独感：我们更像是一个顾客，拿时间与精力在赛博空间里购买认同感</title>
-      <link>http://yibie.github.io/post/the-internet-make-people-feel-more-lonelier-than-ever/</link>
+      <link>https://www.gtdstudy.com/post/the-internet-make-people-feel-more-lonelier-than-ever/</link>
       <pubDate>Tue, 31 May 2022 10:52:44 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/the-internet-make-people-feel-more-lonelier-than-ever/</guid>
-      
-        <description>&lt;p&gt;机核网刊登一篇&lt;a href=&#34;https://www.gcores.com/articles/151702&#34;&gt;文章&lt;/a&gt;，很是感慨，说「互联网彼此让人感觉更加遥远了」。&lt;/p&gt;
-&lt;h2 id=&#34;每个社交区块就好像小泡泡&#34;&gt;每个社交区块就好像小泡泡&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我发现这些社交区块，像一个个小小的泡泡，大家只在这个小泡泡里社交。&lt;/p&gt;
-&lt;p&gt;我们有两个解决办法，一个是把泡泡吹大，一个是寻找更多的小泡泡。目前来看，我感觉第二个办法正在被频繁的使用，但我觉得这个办法或许并不是很有效，因为我们对社交是有深度要求的，而一个个小泡泡难以让我们进行深层次的交流。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;网络孤独感的来源&#34;&gt;网络孤独感的来源&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;城市存在的本身就包含了极强的目的性，而这“目的性”会影响到每一个在城市生活的人。大家在特定的场合与时间都有自己存在的“目的”，这就让我们也会对在场的其他人也有相应的期待。而这份期待，会让我们忽略别人的其他方面。我觉得这就是我们的孤独来源。&lt;/p&gt;
-&lt;p&gt;互联网和城市一样，本身都具有极强的目的性，但不同的是互联网的效率更高。互联网让我们能以前所未有的速度找到自己的同好，但换句话说就是互联网以前所未有的速度把我们的生活碎片化了。&lt;/p&gt;
-&lt;p&gt;喜欢区分内人和外人是人的一个生物本能。我们对圈内人更有好感，而互联网细化我们的兴趣爱好的过程中我们就有了无数个小圈子，或者叫小泡泡。[……]表面上我们接触了那么多和我们有相同爱好的人，我们为什么还那么孤独呢？因为实际上我们没有接触彼此，我们不了解对方，我们仅仅是彼此的一个头像，一个网络昵称，以及几句话。 &lt;code&gt;我们更像是一个顾客，拿时间与精力在赛博空间里购买认同感。&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/the-internet-make-people-feel-more-lonelier-than-ever/</guid>
+      <description>机核网刊登一篇文章，很是感慨，说「互联网彼此让人感觉更加遥远了」。 每个社交区块就好像小泡泡 我发现这些社交区块，像一个个小小的泡泡，大家只在这</description>
     </item>
     
     <item>
       <title>表格：Rows，可以与互联网服务打通的线上表格工具</title>
-      <link>http://yibie.github.io/post/rows-a-web-base-spreadsheet-for-markting/</link>
+      <link>https://www.gtdstudy.com/post/rows-a-web-base-spreadsheet-for-markting/</link>
       <pubDate>Sun, 29 May 2022 19:42:19 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/rows-a-web-base-spreadsheet-for-markting/</guid>
-      
-        <description>&lt;p&gt;网址：&lt;a href=&#34;https://rows.com/&#34;&gt;https://rows.com/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;定位&#34;&gt;定位&lt;/h2&gt;
-&lt;p&gt;Rows 是面向市场营销人员的线上表格工具，强调与社交媒体融合， 可以实时的获取相关的数据，比如关注数多寡，点赞量多寡等。&lt;/p&gt;
-&lt;p&gt;也可以充当爬虫，比如说，它可以和 Linkedin 结合，根据数据标签直接检索出相关的结果，直接得到。例子在&lt;a href=&#34;https://rows.com/startup-study/my-spreadsheets/50-fastest-growing-startups-in-portugal-2f5cmpUL7jJfGGR2mMEuWY/live&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;使用体验&#34;&gt;使用体验&lt;/h2&gt;
-&lt;p&gt;类似苹果自己出的 Numbers，同一个 sheet 里面可以显示多个表单。基于自己的功能，开发了不同的公式，可以灵活运用。&lt;/p&gt;
-&lt;p&gt;Rows 还可以直接根据数据，直接生成图表，展示在数据表的下方，更加直观。&lt;/p&gt;
-&lt;h2 id=&#34;与-airtable-的差异&#34;&gt;与 Airtable 的差异&lt;/h2&gt;
-&lt;p&gt;Rows 整合了社交媒体，比如 Twitter、Facebook 的同步器（integration），而 Airtable 也有。那么它们的异同在哪里？&lt;/p&gt;
-&lt;p&gt;先看看 Airtable 的 Twitter 同步器&lt;a href=&#34;https://www.airtable.com/integrations/twitter&#34;&gt;例子&lt;/a&gt;，它更关注可以获取的内容，却没有关注量等方面的数据。而 Rows 则不关注内容，而是关注数据。&lt;/p&gt;
-&lt;p&gt;另外，Rows 根据数据会直接生成图表，让人直接明确看到数据的变化。可以说，和 Airtable 相比，Rows 确实更加针对市场营销人员来设计。&lt;/p&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/rows-a-web-base-spreadsheet-for-markting/</guid>
+      <description>网址：https://rows.com/ 定位 Rows 是面向市场营销人员的线上表格工具，强调与社交媒体融合， 可以实时的获取相关的数据，比如关注数多寡</description>
     </item>
     
     <item>
       <title>股市：牛市的 3 个阶段</title>
-      <link>http://yibie.github.io/post/3-stages-of-bull-market/</link>
+      <link>https://www.gtdstudy.com/post/3-stages-of-bull-market/</link>
       <pubDate>Fri, 27 May 2022 17:32:26 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/3-stages-of-bull-market/</guid>
-      
-        <description>&lt;p&gt;大名鼎鼎的投资者霍华德·马克思（Howard Marks），每次发布投资备忘录，都会被金融行业津津乐道。在最新的投资备忘录中，他谈到了牛市的 3 个阶段。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;第一个阶段：只有少数有远见的人相信，事情开始变得好转&lt;/p&gt;
-&lt;p&gt;第二个阶段：大部分投资者意识到，增长实实在在发生着&lt;/p&gt;
-&lt;p&gt;第三个阶段：所有人都认为，事情在变好，永远&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;但，霍华德·马克思说，在牛市最后的顶点到来时，大部分人认为股价上涨是积极的迹象，但只有少数人意识到，股价上涨等同向于未来的收益过度预支，预示着股市的逆转，和当前的状态不可持续。&lt;/p&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/3-stages-of-bull-market/</guid>
+      <description>大名鼎鼎的投资者霍华德·马克思（Howard Marks），每次发布投资备忘录，都会被金融行业津津乐道。在最新的投资备忘录中，他谈到了牛市的 3</description>
     </item>
     
     <item>
       <title>未来：循序渐进，然后突然爆发的变革</title>
-      <link>http://yibie.github.io/post/tim-oreilly-about-future/</link>
+      <link>https://www.gtdstudy.com/post/tim-oreilly-about-future/</link>
       <pubDate>Wed, 18 May 2022 22:56:49 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/tim-oreilly-about-future/</guid>
-      
-        <description>&lt;p&gt;蒂姆·奥莱利，是美国著名的未来学家，也同时是世界上最大的互联网技术类书籍出版商 O&amp;rsquo;REILLY 的创始人。&lt;/p&gt;
-&lt;p&gt;19 年 1 月时，他在个人网站上写了一篇趋势预测，目前来看，每一项都命中了：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;AI 和算法无所不在&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;其他地方正在竞相超越美国&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;中国与非洲发生的变革&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;下一代农业技术革命&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;气候变化&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;基因工程&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;神经接口&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在线学习&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;对政府的信任危机&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/tim-oreilly-about-future/</guid>
+      <description>蒂姆·奥莱利，是美国著名的未来学家，也同时是世界上最大的互联网技术类书籍出版商 O&amp;rsquo;REILLY 的创始人。 19 年 1 月时，他在个人网站上写了一篇趋势预测，目前来</description>
     </item>
     
     <item>
       <title>新消费：新消费回归传统</title>
-      <link>http://yibie.github.io/post/caixin-comments-to-chinese-new-brand/</link>
+      <link>https://www.gtdstudy.com/post/caixin-comments-to-chinese-new-brand/</link>
       <pubDate>Mon, 16 May 2022 22:30:48 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/caixin-comments-to-chinese-new-brand/</guid>
-      
-        <description>&lt;p&gt;评点：来自财新的大稿，近几年，一群 TMT 跨界投资者高举高打，以「市销率」衡量消费品项目，造成了许多神话和幻象。现在，潮水退去，居然谁都在裸泳。&lt;/p&gt;
-&lt;h2 id=&#34;新消费品牌竞争度过早期&#34;&gt;新消费品牌竞争度过早期&lt;/h2&gt;
-&lt;p&gt;据咨询公司贝恩调研统计，2018 年被其纳入追踪的 46 个本土新生势力品牌中，在 2018 年至 2020 年的三年间，仅有 17 个品牌维持了原有增长速度（年增速超过 10%），另有 17 个品牌未实现增长，且未能跑赢品类增速。&lt;/p&gt;
-&lt;p&gt;据贝恩上述调研，2016 年在市场上活跃的彩妆品牌，到 2021 年底，近 30% 不复存在；而当下彩妆品牌中，40% 成立不到五年；2016 年所有的护肤品品牌中，12% 已悄然退市；现有品牌中的 35%，在过去五年内才进入市场。&lt;/p&gt;
-&lt;h2 id=&#34;跨界而来的-tmt-投资理念验证失败-过高估值需-2-年消化&#34;&gt;跨界而来的 TMT 投资理念验证失败，过高估值需 2 年消化&lt;/h2&gt;
-&lt;p&gt;2020 年，从 TMT（科技、媒体和通信）投资领域跨界而来的投资人，带来了与传统消费企业不同的估值体系—— &lt;code&gt;市销率估值&lt;/code&gt; ，包容了新消费品牌烧钱不盈利的状态。但与互联网平台型公司不同，以利润换规模、达到相对垄断的模式在消费品行业很难行得通。&lt;/p&gt;
-&lt;p&gt;「消费新品牌的打法是『轻资产』模式，大部分是来自线上运营体系的流量成本，这些成本没有所谓的『规模效应』。随着流量变贵，成本反而上升了。」邓旻表示。&lt;/p&gt;
-&lt;p&gt;2021 年下半年以来，部分品牌未能兑现原定业绩，打击了投资者追高估值的信心，加上一系列政策和地缘政治事件影响，新消费投融资相比一年前显著趋冷。多名消费领域投资人对财新表示， &lt;code&gt;目前行业处于等待大部分消费项目消化高估值的状态，这一过程或需两年以上。&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;新消费品牌的增长引擎-电商逐渐熄火&#34;&gt;新消费品牌的增长引擎——电商逐渐熄火&lt;/h2&gt;
-&lt;p&gt;资本退潮与业绩放缓互为因果。一家风险投资机构的消费领域投资人告诉财新，此前 &lt;code&gt;新消费品牌的很多增长都是牺牲利润、短期做大 GMV 的结果&lt;/code&gt; ，如今不敢大手大脚花钱了，或者融资已经出现短缺，增速自然放缓。&lt;/p&gt;
-&lt;p&gt;「 &lt;code&gt;国内消费领域已经不知道投什么好了&lt;/code&gt; ，现在更关注『出海』品牌。零售大盘表现不好，『淘系』去年不涨了，抖音很多人越做越亏。」一名元气森林的投资人表示。&lt;/p&gt;
-&lt;p&gt;前述消费投资人亦告诉财新，从 2021 年的「6・ 18」大促就能看出，电商平台增长乏力，这意味要吃存量，即同品类其他品牌的份额。「如果本来就是新品类，此前还可以伴随着大盘成长，现在等于失去了大环境增长趋势的助力。另一个现实问题是，消费已经热了两年，很多项目『深口袋』基金已经投了一遍，还能找谁投下一轮？」&lt;/p&gt;
-&lt;h2 id=&#34;品类明星美妆类目-增速甚至低于同期社会总零售&#34;&gt;品类明星美妆类目，增速甚至低于同期社会总零售&lt;/h2&gt;
-&lt;p&gt;据国家统计局数据，2021 年全国化妆品零售额 4026 亿元，同比增长 14.0%，高于 2020 年 9.5% 的增速。但受限于整体消费放缓，从 2021 年下半年到 2022 年前两个月，化妆品零售额的月度同比增速始终维持在个位数，3 月更同比下降 6.3%；2021 年 7 月–9 月受疫情影响显著，增速甚至低于同期社会零售总额。&lt;/p&gt;
-&lt;p&gt;「美妆行业放缓，但也有不少客户逆势增长，2021 年底以来订单上涨和下降的客户大概一半一半。」申英杰表示，美妆行业竞争激烈，科丝美诗内部有榜单，订单量进入前 40 名的客户每年至少有三分之一要更新。&lt;/p&gt;
-&lt;p&gt;2021 年天猫「双十一」，完美日记的销量从连续两年的彩妆类榜首下滑至第四，被国际知名品牌重新超越。黄锦峰对财新称：「经济大环境对美妆行业的影响比较大，大家的消费信心和能力都受到影响。疫情也导致口红、底妆用量下降。」&lt;/p&gt;
-&lt;p&gt;「2021 年上半年甚至到三季度时，整个市场增长还是非常迅猛，但四季度降温确实也非常显著。」一名花西子人士对财新回忆称。&lt;/p&gt;
-&lt;h2 id=&#34;元气森林-增速未达目标&#34;&gt;元气森林，增速未达目标&lt;/h2&gt;
-&lt;p&gt;元气森林完成了无糖气泡水的「市场教育」，甚至其模仿者都一度融资不断。但经过一年厮杀，气泡水市场格局趋于稳定，小品牌被大量出清。一家成立于 2021 年的气泡水公司的销售人士告诉财新，该气泡水产品营销投入 2000 万元，但第一批生产的 200 万件产品大部分没卖出去，项目面临被砍掉。 &lt;code&gt;一名阿里文娱板块人士也对财新表示，旗下气泡水产品 2021 年只卖了 1000 万元&lt;/code&gt; ，现在准备切换赛道，大概率选果汁品类。&lt;/p&gt;
-&lt;p&gt;元气森林在 2021 年 4 月估值达 60 亿美元，彼时年销售额不足 30 亿元，尚未实现整体盈利，对应市销率约 13 倍；半年后估值翻至 2.5 倍，达 150 亿美元。高估值下，元气森林 2021 年的业绩却未达 75 亿元的目标，增速仅 160%，不及达标所需的 167%； &lt;code&gt;2022 年一季度业绩更是大幅放缓，仅增长 50%。&lt;/code&gt; 财新在 2 月时从数名投资人和公司内部了解到，元气森林销售未达标是因为目标过于激进，旗下乳茶产品因涉嫌虚假宣传也影响了销售。&lt;/p&gt;
-&lt;h2 id=&#34;新消费品牌融资熄火-在韧性更强的国际大牌面前无法继续平替叙事-只能回归正常打法&#34;&gt;新消费品牌融资熄火，在韧性更强的国际大牌面前无法继续平替叙事，只能回归正常打法&lt;/h2&gt;
-&lt;p&gt;「2020 年，找我们下单或打样的美妆品牌有 800 家，2021 年也有 600 多家，大部分想在互联网渠道销售，以彩妆为主，市面上什么火就跟风什么。」申英杰对财新称，从 2021 年初开始，彩妆行业越来越「内卷」，国产品牌大打价格战。&lt;/p&gt;
-&lt;p&gt;黄锦峰表示，国际品牌沉淀多年的产品力和品牌力经得住市场考验，「如今它们又放低身段，把价格打下来、把费用打出去，市场竞争非常激烈」。一名美妆从业人士也对财新称：「 &lt;code&gt;小红书上的营销投入，排在前列的都是雅诗兰黛这些国际大牌&lt;/code&gt; 。除此之外，国际品牌还有更强的产品开发能力和全球化渠道。」&lt;/p&gt;
-&lt;p&gt;「大牌平替路线已经很饱和了，新来者很难有竞争力。」申英杰告诉财新，一味追求平价的路线也已不符合政策预期，「十四五」规划对化妆品领域的要求是，培养出本土的高端品牌。&lt;/p&gt;
-&lt;p&gt;研发是建立竞争差异的关键所在。前述花西子人士认为，在营销投放后，关键考验是留存和复购，而复购的重点则是产品力。目前，品牌对重金投入工厂仍在考虑。「如果只是用自有工厂简单替代外部代工，无关差异化的产品打造，可能意义不大。中国化妆品产业的整个供应链体系非常先进。」&lt;/p&gt;
-&lt;p&gt;与其他很多行业类似，原料涨价对美妆行业也影响巨大。据申英杰介绍，2021 年 3 月以来，脂肪酸、氧化硅等清洁类产品原料涨价，导致洗面奶去年价格至少涨了 30%；近几个月俄乌冲突局势导致石油涨价，连带化妆品所需的包装材料价格大涨。&lt;/p&gt;
-&lt;p&gt;申英杰告诉财新，科丝美诗与完美日记正在合资建厂，分别持股 51%、49%，科丝美诗负责管理运营。这一合作模式，对代工方而言，锁定了头部企业的大订单；对品牌方而言，产能更加稳定，也能压低生产成本。&lt;/p&gt;
-&lt;p&gt;「 &lt;code&gt;归根结底还是要回到正路上，扎扎实实地做消费者忠诚度培育，做个 10 年、20 年、100 年的品牌。在资本推动下赚快钱、运作上市的路子，很难做品牌。&lt;/code&gt; 」一名美妆从业人士称。&lt;/p&gt;
-&lt;h2 id=&#34;大量美妆类新品牌在烧钱投放后-并没有烧出品牌力-复购寥寥-销量转化后继乏力&#34;&gt;大量美妆类新品牌在烧钱投放后，并没有烧出品牌力，复购寥寥，销量转化后继乏力&lt;/h2&gt;
-&lt;p&gt;邓旻表示，新消费品牌增速放缓、成本变高，营销成本的增长换不回同等幅度的销售额增长。「随着红利变贵，线上渠道效率在降低，ROI（投产比）在过去一年降低了三到四成。」&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;最近一两年，新消费品牌在小红书、抖音等渠道上广告投放的 ROI 明显降低，1.5 倍、1.2 倍已是不错的回报。「ROI 是销售额和营销费用的比较。考虑到成本，1.2 倍基本上也是亏钱的。&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;投入过多成本在营销方面，是国产美妆新品牌加剧亏损的「黑洞」所在。完美日记母公司逸仙电商在 2020 年、2021 年两年间，累计亏损 42.29 亿元；过去三年，逸仙电商的营销费用占比从 2019 年的 41.27% 攀升至 2021 年的 68.59%，是蚕食其利润的直接原因。&lt;/p&gt;
-&lt;h2 id=&#34;流量型玩法失灵-品牌建设需要长时间营造&#34;&gt;流量型玩法失灵，品牌建设需要长时间营造&lt;/h2&gt;
-&lt;p&gt;对美妆行业来说，营销是必需的投入。美妆消费者多有在购买前看用户评价的习惯，因此在产品上新等重要时点，找各类内容平台铺设「种草」笔记，再买热搜和流量曝光，已经成了不可省略的行业常规。&lt;/p&gt;
-&lt;p&gt;对于成长初期的品牌而言，社交媒体平台上的流量型投放，比线下品牌型广告更能立竿见影地带动销量。前述消费投资人认为，消费品建立品牌需要长时间或高密度的曝光，是日积月累的过程， &lt;code&gt;对于消费者而言，一两年很难形成品牌记忆。&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;不过，流量型玩法也有着明显的「天花板」。前述线下广告营销人士认为：「 &lt;code&gt;尽管在网上投放流量型广告能做到精准分发，但缺点是不利于『破圈』，而且在投放到一定规模或品类竞争趋于激烈时，流量成本会显著上升。&lt;/code&gt; 」&lt;/p&gt;
-&lt;p&gt;「我们觉得，企业营收在 2 亿元以下体量时，更多精力放在线上精准营销、KOL（意见领袖）『种草』，可以把销量跑起来；但 &lt;code&gt;到了 2 亿元–10 亿元阶段，至少要将 30% 的营销费用投在品牌广告上&lt;/code&gt; ，比如用两三个月去拍一条广告片，或创办线下活动、进行跨界合作等。」前述线下广告营销人士称。&lt;/p&gt;
-&lt;h2 id=&#34;美妆品牌营销的基本路径-小红书-传统电商-带货主播&#34;&gt;美妆品牌营销的基本路径：小红书 =&amp;gt; 传统电商 =&amp;gt; 带货主播&lt;/h2&gt;
-&lt;p&gt;电商平台之间的竞争也暗流涌动。2021 年，「淘系」GMV 出现负增长，抖音成了品牌营销的热门战场。行业数据机构艾媒咨询 CEO 张毅对财新表示：「花西子先从小红书做起，消费者的购买欲望培养起来后，将购买渠道落地到天猫、淘宝、京东等电商平台，再靠带货主播李佳琦带动转化，这一定程度上代表了美妆品牌营销的基本路径。」&lt;/p&gt;
-&lt;p&gt;「抖音刚开始做电商，流量增速很大，有大批新用户涌入。在这种内容电商上，找对方法，还是能有增量的。」邓旻认为，另一方面，「企业未来增长最重要的是形成品牌，提高复购率和用户留存，通过全渠道更好地建立自己的会员体系」。&lt;/p&gt;
-&lt;h2 id=&#34;美妆营销另一选择-线下门店与私域结合&#34;&gt;美妆营销另一选择：线下门店与私域结合&lt;/h2&gt;
-&lt;p&gt;与线下门店或电商销售相结合的私域运营，是美妆营销的另一战场。国货美妆中，完美日记、花西子、WowColor 等都在微信、淘宝等平台上进行会员制的运营，在社群内推送优惠或上新产品等。&lt;/p&gt;
-&lt;p&gt;上述美妆集合店经理对财新称，在疫情期间，她所在门店的客流量环比下降了四成左右，但得益于打折促销和对线上老客户的维护，销量和利润分别只下降了 10% 和 15% 左右。「 &lt;code&gt;线上销量占比大概 10%，包括社群和小程序两种渠道，疫情期间销售额涨了 40%&lt;/code&gt; ；线上会员基本覆盖了全部客户，可以通过购买记录去识别他们的喜好。」&lt;/p&gt;
-&lt;h2 id=&#34;新消费品牌走向线下零售-线下渠道覆盖的广度-深度无可替代&#34;&gt;新消费品牌走向线下零售，线下渠道覆盖的广度、深度无可替代&lt;/h2&gt;
-&lt;p&gt;一家风险投资机构的消费领域投资人表示，线上渠道的优势在于结构简单，没有中间商，能更好评估消费群体和市场策略。「对新品牌而言，一开始就铺传统渠道，既不知道商品卖给了谁，也不知道是否受欢迎，如果依靠传统的市场调研，数据可能失真或过时。」&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;但线下渠道覆盖的广度、深度无可替代&lt;/code&gt; ，一旦品牌寻求扩量，进入传统渠道是必经之路。「多级分销体系就像海绵， &lt;code&gt;每级分销商都能吃货&lt;/code&gt; ，可以减轻品牌方的库存和资金流压力。」前述投资人认为，线上需要品牌方自己的库存来备货，遇到大促容易爆仓；而在线下流通环境里，只要消费端埋单，可以迅速做大规模。&lt;/p&gt;
-&lt;h2 id=&#34;新消费者开拓线下零售-得流着血才能做好&#34;&gt;新消费者开拓线下零售，得流着血才能做好&lt;/h2&gt;
-&lt;p&gt;在全渠道覆盖面和铺货速度上， 老牌饮料品牌仍拥有绝对优势， &lt;code&gt;在一个省的业务员就能超过 1000 人，最低下沉至村一级&lt;/code&gt; ，而传统渠道的搭建尤其考验「人情世故」，新品牌并非短期内砸钱猛攻就能赶超。&lt;/p&gt;
-&lt;p&gt;元气森林 2021 年的重点任务是像传统饮料企业一样搭建全面的线下渠道，但在当年四季度，多名元气森林人士告诉财新，这一过程中出现了很多困难与混乱，包括串货、下沉市场不认可等，元气森林的线下渠道只能算是「幼儿园水平」。&lt;/p&gt;
-&lt;p&gt;2022 年一季度结束，元气森林用「初告完成」来形容全国线下渠道体系的搭建：线下终端数量达到 100 万个，覆盖全国 800 多座城市。但这一数据实际仍无法与饮料大品牌相比， &lt;code&gt;它们的终端数量通常是元气森林的五六倍&lt;/code&gt; 。据凯度统计，中国有近 700 万家零售门店。&lt;/p&gt;
-&lt;p&gt;伴随着线下扩张而来的是渠道管控的挑战。财新于 2022 年 2 月、3 月走访北京多个零售渠道发现，元气森林在部分夫妻店、小型超市的售价从一直以来的 6 元降至 5.5 元；在特卖折扣店「嗨特购」售价低至 3.6 元，生产日期有旧有新，最新的距离生产日期只有 40 天。&lt;/p&gt;
-&lt;p&gt;一名元气森林经销商告诉财新，2022 年一季度，元气森林在北京市场有些「乱套」，部分气泡水出厂价是以前常规价格的六七折。「通常原因是产品日期不够新，经销商不愿进货，只能折价。零售商对允收期（进货日期距离产品生产日期）一般要求不超过保质期的三分之一，元气的保质期是九个月，因此经销商需要允收期两个月内的产品，以确保库存安全。」他解释称。&lt;/p&gt;
-&lt;p&gt;前述经销商认为，根源可能是元气森林的产能规划有误，淡季的市场需求没有那么多，导致产品堆积需要清货，包括进特卖渠道。一名元气森林人士亦称，元气森林从 2021 年四季度起，压仓现象明显，春节前工厂开工率很低。&lt;/p&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/caixin-comments-to-chinese-new-brand/</guid>
+      <description>评点：来自财新的大稿，近几年，一群 TMT 跨界投资者高举高打，以「市销率」衡量消费品项目，造成了许多神话和幻象。现在，潮水退去，居然谁都在裸泳。 新</description>
     </item>
     
     <item>
       <title>沟通：论废话</title>
-      <link>http://yibie.github.io/post/talks-about-nonsense/</link>
+      <link>https://www.gtdstudy.com/post/talks-about-nonsense/</link>
       <pubDate>Mon, 16 May 2022 13:33:53 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/talks-about-nonsense/</guid>
-      
-        <description>&lt;p&gt;作者朱自清&lt;/p&gt;
-&lt;h2 id=&#34;无用即是废&#34;&gt;无用即是废&lt;/h2&gt;
-&lt;p&gt;“废话！”“别费话！”“少说费话！”都是些不客气的语句，用来批评或阻止别人的话的。这可以是严厉的申斥，可以只是亲密的玩笑，要看参加的人，说的话，和用这些语句的口气。“废”和“费”两个不同的字，一般好像表示同样的意思，其实有分别。 &lt;code&gt;旧小说里似乎多用“费话”，现代才多用“废话”。前者着重在啰唆，啰唆所以无用；后者着重在无用，无用就觉啰唆。&lt;/code&gt; 平常说“废物”，“废料”，都指斥无用，“废话”正是一类。“费”是“白费”，“浪费”，虽然指斥，还是就原说话人自己着想，好像还在给他打算似的。“废”却是听话的人直截指斥，不再拐那个弯儿，细味起来该是更不客气些。不过约定俗成，我们还是用“废”为正字。&lt;/p&gt;
-&lt;h2 id=&#34;无用而有用-废话实际沟通感情&#34;&gt;无用而有用，废话实际沟通感情&lt;/h2&gt;
-&lt;p&gt;道家教人“得意而忘言”，言既该忘，到头儿岂非废话？佛家告人真如“不可说”，禅宗更指出“开口便错”：所有言说，到头儿全是废话。他们说言不足以尽意，根本怀疑语言，所以有这种话。说这种话时虽然自己暂时超出人外言外，可是还得有这种话，还得用言来“忘言”，说那“不可说”的。这虽然可以不算矛盾，却是不可解的连环。所有的话到头来都是废话，可是人活着得说些废话，到头来废话还是不可废的。道学家教人少作诗文，说是“玩物丧志”，说是“害道”，那么诗文成了废话，这所谓诗文指表情的作品而言。但是诗文是否真是废话呢？&lt;/p&gt;
-&lt;p&gt;跟着道家佛家站在高一层看，道学家一切的话也都不免废话；让我们自己在人内言内看，诗文也并不真是废话。人有情有理，一般的看，理就在情中，所以俗话说“讲情理”。俗话也可以说“讲理”，“讲道理”，其实讲的还是“情理”；不然讲死理或死讲理怎么会叫做“不通人情”呢？道学家只看在理上，想要将情抹杀，诗文所以成了废话。但谁能无情？ &lt;code&gt;谁不活在情里？人一辈子多半在表情的活着；人一辈子好像总在说理，叙事，其实很少同时不在不知不觉中表情的。&lt;/code&gt; “天气好！”“吃饭了？”岂不都是废话？可是老在人嘴里说着。看个朋友商量事儿，有时得闲闲说来，言归正传，写信也常如此。外交辞令更是不着边际的多。——战国时触詟说赵太后，也正仗着那一番废话。再说人生是个动，行是动，言也是动；人一辈子一半是行，一半是言。一辈子说话作文，若是都说道理，那有这么多道理？况且谁能老是那么矜持着？ &lt;code&gt;人生其实多一半在说废话。诗文就是这种废话。&lt;/code&gt; &lt;code&gt;得有点废话，我们才活得有意思。&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;废话让人放下-休息&#34;&gt;废话让人放下、休息&lt;/h2&gt;
-&lt;p&gt;有但诗文，就是儿歌，民谣，故事，笑话，甚至无意义的接字歌，绕口令等等，也都给人安慰，让人活得有意思。所以儿童和民众爱这些废话，不但儿童和民众，文人，读书人也渐渐爱上了这些。英国吉士特顿曾经提倡“无意义的话”，并曾推荐那本《无意义的书》，正是儿歌等等的选本。这些其实就可以译为“废话”和“废话书”，不过这些废话是无意义的。吉士特顿大概觉得那些有意义的废话还不够“废”的，所以百尺竿头更进一步。在繁剧的现代生活里，这种无意义的废话倒是可以慰情，可以给我们休息，让我们暂时忘记一切。这是受用，也就是让我们活得有意思。——就是说理，有时也用得着废话，如逻辑家无意义的例句“张三是大于”，“人类是黑的”等。 &lt;code&gt;这些废话最见出所谓无用之用；那些有意义的，其实也都以无用为用。&lt;/code&gt; 有人曾称一些学者为“有用的废物”，我们也不妨如法炮制，称这些有意义的和无意义的废话为“有用的废话”。废是无用，到头来不可废，就又是有用了。&lt;/p&gt;
-&lt;h2 id=&#34;废话不废-空话真空-少说空话&#34;&gt;废话不废，空话真空，少说空话&lt;/h2&gt;
-&lt;p&gt;话说回来，废话都有用么？也不然。汉代申公说，“为政不在多言，顾力行何如耳。”“多言”就是废话。为政该表现于行事，空言不能起信；无论怎么好听，怎么有道理，不能兑现的支票总是废物，不能实践的空言总是废话。这种巧语花言到头来只教人感到欺骗，生出怨望，我们无须“多言”，大家都明白这种废话真是废话。有些人说话爱跑野马，闹得“游骑无归”。有些人作文“下笔千言，离题万里”。但是离题万里跑野马，若能别开生面，倒也很有意思。只怕老在圈儿外兜圈子，兜来兜去老在圈儿外，那就千言万语也是白饶，只教人又腻味又着急。这种才是“知难”；正为不知，所以总说不到紧要去处。这种也真是废话。还有人爱重复别人的话。别人演说，他给提纲挈领；别人谈话，他也给提纲挈领。若是那演说谈话够复杂的或者够杂乱的，我们倒也乐意有人这么来一下。可是别人说得清清楚楚的，他还要来一下，甚至你自己和他谈话，他也要对你来一下——妙在丝毫不觉，老那么津津有味的，真教人啼笑皆非。其实谁能不重复别人的话，古人的，今人的？但是得变化，加上时代的色彩，境地的色彩，或者自我的色彩，总让人觉着有点儿新鲜玩意儿才成。不然真是废话，无用的废话！&lt;/p&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/talks-about-nonsense/</guid>
+      <description>作者朱自清 无用即是废 “废话！”“别费话！”“少说费话！”都是些不客气的语句，用来批评或阻止别人的话的。这可以是严厉的申斥，可以只是亲密的玩笑</description>
     </item>
     
     <item>
       <title>科幻：BDO，巨大沉默物</title>
-      <link>http://yibie.github.io/post/bdo/</link>
+      <link>https://www.gtdstudy.com/post/bdo/</link>
       <pubDate>Sun, 15 May 2022 14:47:45 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/bdo/</guid>
-      
-        <description>&lt;p&gt;来自《读库》的《巨大沉默物》，是科幻小说中的概念：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;BDO，big dumb object，巨大的、沉默的物体。它最早是 1993 年澳大利亚学者彼得·尼科尔斯（Peter Nicholls）在《科幻百科全书》（The Encyclopedia of Science Fiction）中杜撰的一个概念，后来逐渐广为人知。
-BDO 有几个特点：&lt;/p&gt;
-&lt;p&gt;一、它是“被制造”的（非自然产物）；&lt;/p&gt;
-&lt;p&gt;二、它不是“人类制造”的；&lt;/p&gt;
-&lt;p&gt;三、它的制造者通常不会出现，呈现被遗弃或关闭的状态；&lt;/p&gt;
-&lt;p&gt;四、它非常大，人类可以进入探索。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/bdo/</guid>
+      <description>来自《读库》的《巨大沉默物》，是科幻小说中的概念： BDO，big dumb object，巨大的、沉默的物体。它最早是 1993 年澳大利亚学者彼得·尼科尔斯（</description>
     </item>
     
     <item>
       <title>你做过不在乎结果的项目吗？</title>
-      <link>http://yibie.github.io/post/do-you-runed-some-project-that-you-dont-care-result/</link>
+      <link>https://www.gtdstudy.com/post/do-you-runed-some-project-that-you-dont-care-result/</link>
       <pubDate>Sat, 14 May 2022 14:25:24 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/do-you-runed-some-project-that-you-dont-care-result/</guid>
-      
-        <description>&lt;p&gt;这个问题来自阮一峰所写的《科技爱好者周刊（第 195 期）》。他逛 Hacker News 这一社区时，看到有人提问，「你做过不在乎结果的项目吗？」，引起了大量的回帖。&lt;/p&gt;
-&lt;p&gt;阮一峰说，中国的职业程序员极少会处于纯粹个出于兴趣去做无所谓结果的个人项目，原因是 996 式工作，压力很大，大家变得实际，每个项目追求明确的结果，“要么为了考核、绩效和晋升，要么为了赚钱。”&lt;/p&gt;
-&lt;p&gt;阮一峰认为，不管多忙也应该留点时间放在自己的兴趣项目上，哪怕得不到任何结果。他列举了 2 点原因，而我对第二点原因深表赞同：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;很多人没有意识到这一点，一般都是作者塑造作品，但是有些作品可以塑造作者。 你做着做着，变成了跟原来不一样的人。&lt;/p&gt;
-&lt;p&gt;许多知名程序员，刚入行时其实都很普通，看不出特别之处，但是他在追求自己兴趣的过程中，逐渐意识到了，自己是什么样的人，想要完成什么，从此找到了自我，全身心投入，成就了一番事业。&lt;/p&gt;
-&lt;p&gt;有一句话说，&amp;ldquo;你可以活成自己想要的样子&amp;rdquo;。这句话的前提是，你得知道那是什么样子。兴趣项目就有这个作用，让你认识自己、塑造自己，壮大追求梦想的决心。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果你问我有没有做过不在乎结果的项目？我会回答你，我做过不在乎结果的项目。&lt;/p&gt;
-&lt;p&gt;我的第一个不在乎结果的项目，就是这全名为「学无止境@一点一滴」的个人博客。从 2008 年发表第一篇开始，2009 年开始以每周更新一到两篇。这个博客后来 RSS 订阅量达到了 15 万。要知道，这个博客图片都无，纯文字内容，可说是将性冷淡贯彻到底，不说十多万订阅量，即便只有几百个，都令我十分意外。&lt;/p&gt;
-&lt;p&gt;当时，我设立「学无止境」，是因为遇到挫折，我不知道自己能成什么样子，也是从那时起，失眠常常在夜晚陪伴我，直到最近这两年它才放心离开。我不因目的而设立个人博客，然而，我因个人博客收获良多。仔细回忆一下，我有很多个小梦想，很早就实现了，归根结底，得感谢「学无止境」。&lt;/p&gt;
-&lt;p&gt;在刚毕业的时候，我的一个小梦想是成为一名记者。在老家的三线城市，我舅舅把我带到当地报业集团的老总面前，我内心紧张慌乱，老总让我倒杯茶，拿着茶杯时手抖不已，结果那自然是不了了之。然后，经过朋友介绍，跑去了背景去豆瓣应聘，应聘前吸取了教训，制作了一份 PPT，受到 HR 的广泛好评。但我最终没有去成豆瓣。&lt;/p&gt;
-&lt;p&gt;毕业后待业在家期间，我也有一直在更新自己的博客，某一天夜里，QQ 上提示有新加好友，我通过了之后，对方很热情地向我介绍，他正在做一个科技博客，叫小众拇指设备，后来这一博客后来更名为「爱范儿」。无论是在老家，还是在北京求职，我都有为爱范儿免费写稿，当时是出于兴趣，没有想过获得明确的结果或回报。可以说，爱范儿是我做的第二个不在乎结果的项目。&lt;/p&gt;
-&lt;p&gt;后来，随着爱范儿的流量逐步增加，影响力越来越大，获得了投资，逐步转向公司化运营。然后，我从北京回到广州，正式成为爱范儿的职员，后来我负责 iSeed 报道栏目，采访了不少国内的创业者和项目。我得偿所愿了，成为一名记者。&lt;/p&gt;
-&lt;p&gt;在广州，我还完成了好几个小梦想：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;认识了《梦断代码》的作者韩磊。因为这本书，我之前在「学无止境」上发起了 Chandler 中文化项目，好几个认识和不认识的报名，最终我通过这件事验证了自己即便英文不行，也可以搞定英文项目，树立了信心。第一次见韩磊那天，他正把自己代理的金枪鱼鱼腹分享给我；&lt;/li&gt;
-&lt;li&gt;做了一个社区产品。也不知道有没有人记得 MindStore 这个名字，它的日 PV 在 15000 左右，每天产品提交量平均每天 15-30 不等， 可以说是在国内排名第二的类 ProductHunt 社区。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/do-you-runed-some-project-that-you-dont-care-result/</guid>
+      <description>这个问题来自阮一峰所写的《科技爱好者周刊（第 195 期）》。他逛 Hacker News 这一社区时，看到有人提问，「你做过不在乎结果的项目吗？」，引起了大量的回帖。 阮</description>
     </item>
     
     <item>
       <title>健康：樊登分享韩美林大师早上 3 分钟养生功</title>
-      <link>http://yibie.github.io/post/hanmeilin-health-care-methods/</link>
+      <link>https://www.gtdstudy.com/post/hanmeilin-health-care-methods/</link>
       <pubDate>Mon, 09 May 2022 12:19:42 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/hanmeilin-health-care-methods/</guid>
-      
-        <description>&lt;p&gt;韩美林大师有 2 个作品大家耳熟能详，一是 2008 年奥运福娃，二是中国航空公司的 LOGO。樊登说 10 年前采访大师时，发现他当时 80 多岁了没有一根白头发，从十几岁到现在没有感冒一次。他的保养功法——&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;早上醒来后，在床上伸懒腰，3-4 次，把身体的筋抻开&lt;/li&gt;
-&lt;li&gt;拉筋后，侧身躺着，把双腿膝盖抱在胸前，把胸腔里闷气吹出去&lt;/li&gt;
-&lt;li&gt;起床后，搓脸，上下太极搓，来回不知多少下，总之感到脸发热&lt;/li&gt;
-&lt;li&gt;捏耳朵，不知捏多少下，估计也是捏到耳朵感觉有点热热的&lt;/li&gt;
-&lt;li&gt;用手捏成一个拳头，敲打背后的大椎穴，也就是脖子下面鼓起来的地方，力度可适当加强，敲到自己的头感觉嗡嗡震&lt;/li&gt;
-&lt;li&gt;拿木头梳子梳头&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      
+      <guid>https://www.gtdstudy.com/post/hanmeilin-health-care-methods/</guid>
+      <description>韩美林大师有 2 个作品大家耳熟能详，一是 2008 年奥运福娃，二是中国航空公司的 LOGO。樊登说 10 年前采访大师时，发现他当时 80 多岁了没有一根白头发，从</description>
     </item>
     
     <item>
       <title>PhotoShop：如何画优美的曲线</title>
-      <link>http://yibie.github.io/post/how-to-draw-bezier-curve/</link>
+      <link>https://www.gtdstudy.com/post/how-to-draw-bezier-curve/</link>
       <pubDate>Sun, 08 May 2022 23:23:16 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/how-to-draw-bezier-curve/</guid>
+      <guid>https://www.gtdstudy.com/post/how-to-draw-bezier-curve/</guid>
+      <description>原来 PhotoShop 里的钢笔工具，是贝济埃曲线（又称贝塞尔曲线）的应用，所以用好钢笔工具，应该用符合绘制贝济埃曲线的方法，这样子会比较容易得到好的结果。 通</description>
+    </item>
+    
+    <item>
+      <title>Wi-F：如何寻找 Wi-Fi 密码</title>
+      <link>https://www.gtdstudy.com/post/how-to-find-wifi-password/</link>
+      <pubDate>Sun, 08 May 2022 23:12:32 +0800</pubDate>
       
-        <description>&lt;p&gt;原来 PhotoShop 里的钢笔工具，是贝济埃曲线（又称贝塞尔曲线）的应用，所以用好钢笔工具，应该用符合绘制贝济埃曲线的方法，这样子会比较容易得到好的结果。&lt;/p&gt;
-&lt;p&gt;通过 B 站的 &lt;a href=&#34;https://www.bilibili.com/video/BV19i4y1c76i/?spm_id_from=autoNext&#34;&gt;oooooohmygosh&lt;/a&gt; 学习到，画贝济埃曲线的规范：
-1、尽量让节点放在「极值点」的位置
-2、让节点和手柄保持水平或垂直对齐&lt;/p&gt;
-&lt;p&gt;这样只需要调整手柄长度，拟合自己想要的曲率。&lt;/p&gt;
-&lt;h2 id=&#34;小知识&#34;&gt;小知识&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/1091769&#34;&gt;贝塞尔曲线&lt;/a&gt;于 1962，由法国工程师皮埃尔·贝塞尔（Pierre Bézier）所广泛发表，他运用贝塞尔曲线来为汽车的主体进行设计。贝塞尔曲线最初由 Paul de Casteljau 于 1959 年运用 de Casteljau 演算法开发，以稳定数值的方法求出贝兹曲线。中文名贝塞尔曲线外文名(Bézier curve&lt;/p&gt;
-</description>
+      <guid>https://www.gtdstudy.com/post/how-to-find-wifi-password/</guid>
+      <description>Windows 进入 “网络和共享中心” 菜单。右键单击 Wi-Fi 网络连接图标→“无线网络属性”。点击 “显示字符” 字段，显示 Wi-Fi 网络密码。 macOS 所有密码都存储在钥匙串应用程</description>
+    </item>
+    
+    <item>
+      <title>比特币环境学：挖矿活动如何影响美国小镇</title>
+      <link>https://www.gtdstudy.com/post/how-minning-bitcoin-desotry-a-town-of-america/</link>
+      <pubDate>Sat, 07 May 2022 09:35:17 +0800</pubDate>
       
+      <guid>https://www.gtdstudy.com/post/how-minning-bitcoin-desotry-a-town-of-america/</guid>
+      <description>比特币挖矿消耗大量电力 其中一個熱點是紐約州普拉茨堡（Plattsburgh），因為當地鄰近水力發電場，是美國電費最便宜的地區之一。全球知名的</description>
+    </item>
+    
+    <item>
+      <title>知识：隐性知识更值得记录</title>
+      <link>https://www.gtdstudy.com/post/about-which-knowledge-shuld-be-write-down/</link>
+      <pubDate>Sat, 07 May 2022 09:19:38 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/about-which-knowledge-shuld-be-write-down/</guid>
+      <description>在即刻上，我表达了「隐性知识更值得记录」的观点—— 明面可总结为结构性知识的，不需太重点的记录，就好像工具书，有一个梗概索引，方便自己忘了之后</description>
+    </item>
+    
+    <item>
+      <title>苹果：为 Jony Ive 离开苹果叫好</title>
+      <link>https://www.gtdstudy.com/post/about-jony-ivy-leaves-apple/</link>
+      <pubDate>Wed, 04 May 2022 17:28:22 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/about-jony-ivy-leaves-apple/</guid>
+      <description>最近又出了一本关于苹果的新书，叫《AfterSteve》，主要内容整理自对 Jony Ive 访谈，知名科技评论家阑夕总结了这本书的内容： 财经记者 Tripp Mickle 出版了</description>
+    </item>
+    
+    <item>
+      <title>经济：翟东升讨论「未来起点收入」</title>
+      <link>https://www.gtdstudy.com/post/didongsheng-talks-about-chinese-version-ubi/</link>
+      <pubDate>Mon, 02 May 2022 00:29:27 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/didongsheng-talks-about-chinese-version-ubi/</guid>
+      <description>翟东升是谁？我不必多言，他写出《平行与竞争：双循环时代的中国治理》，让「双循环」一词流行。目前，他已是国家重要智囊。对内的经济战略，对外国际</description>
+    </item>
+    
+    <item>
+      <title>金句记录 2022-04-30</title>
+      <link>https://www.gtdstudy.com/post/gold-quotation-2022-04-30/</link>
+      <pubDate>Sat, 30 Apr 2022 23:14:40 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/gold-quotation-2022-04-30/</guid>
+      <description>互联网批评太快，击溃创造 「批评」轻松又快速，「创造」困难又缓慢。——华尔街商学院心理学家 Adam Grant 为什么互联网的舆论环境只会走向更差，而很难变得更</description>
+    </item>
+    
+    <item>
+      <title>企业家：日本当代的企业家——小林一三</title>
+      <link>https://www.gtdstudy.com/post/japanese-entrepreneur-kobayashi-ichizo/</link>
+      <pubDate>Wed, 13 Apr 2022 20:49:21 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/japanese-entrepreneur-kobayashi-ichizo/</guid>
+      <description>如果说松下是开创了日本电器这一行业，那么小林一三富于大胆创新精神，则引领了日本的娱乐业、铁道事业、百货业、房地产行业，而且，每一行他都以耳目</description>
+    </item>
+    
+    <item>
+      <title>饮食：烧鹅应该怎样吃？</title>
+      <link>https://www.gtdstudy.com/post/how-to-eat-roast-goose-by-correct-way/</link>
+      <pubDate>Wed, 13 Apr 2022 09:21:39 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/how-to-eat-roast-goose-by-correct-way/</guid>
+      <description>香港前《饮食男女》的执行编辑吕嘉俊认为，一碟新鲜热辣的烧鹅刚端上桌，首先不应夹鹅髀。 正确的烧鹅欣赏顺序是： 第一，燒鵝新鮮上桌，先吃鵝腩，吃其</description>
+    </item>
+    
+    <item>
+      <title>中年：一句话总结油腻感</title>
+      <link>https://www.gtdstudy.com/post/how-to-summary-of-one-man-in-middle-age/</link>
+      <pubDate>Wed, 13 Apr 2022 09:06:39 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/how-to-summary-of-one-man-in-middle-age/</guid>
+      <description>来自 Twitter @Chih-Hao Tsai 中年人專注自己的興趣，分享樂在其中之味，都好。但是擺出一副全天下你最懂的姿態，就混蛋了，以及顯老了。</description>
+    </item>
+    
+    <item>
+      <title>苹果：Mac Studio 为何不能更换普通的 SSD 硬盘</title>
+      <link>https://www.gtdstudy.com/post/why-mac-studio-can-not-change-ssds/</link>
+      <pubDate>Sat, 26 Mar 2022 23:04:47 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/why-mac-studio-can-not-change-ssds/</guid>
+      <description>极客风范浓厚醇正的 ArsTechnica 也注意到 Mac Studio 不能随意更换 SSD 硬盘一事。它给出了一个很简单的答案： 所有 SSD 硬盘的结构至少包含 2 样东西，用于存储数据 NAND 芯片和 SSD 控</description>
+    </item>
+    
+    <item>
+      <title>信息素养：简易假消息免疫指南</title>
+      <link>https://www.gtdstudy.com/post/how-to-avoid-fake-news/</link>
+      <pubDate>Sat, 26 Mar 2022 11:59:19 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/how-to-avoid-fake-news/</guid>
+      <description>来自知识星球创始人吴鲁加。他在个人公众号上写了一篇《简易假消息免疫指南》，提到了简易的 4 步。我认为第一步最重要，就是首先让自己冷静下来。 当你</description>
+    </item>
+    
+    <item>
+      <title>MEME：meme 最佳中文化应该是「梗」</title>
+      <link>https://www.gtdstudy.com/post/what-is-meme-chinese-mean/</link>
+      <pubDate>Mon, 21 Mar 2022 14:38:56 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/what-is-meme-chinese-mean/</guid>
+      <description>来自即刻用户 Luuuuk 评论 我之前写过一篇《叙事经济学》的读后感，meme 总被翻译成「谜因」等看上去高大上的词汇，但所实话的，除了提升了理解的难度之外</description>
+    </item>
+    
+    <item>
+      <title>互联网：搜索视频化、社交化大势所趋</title>
+      <link>https://www.gtdstudy.com/post/search-seo-video-social/</link>
+      <pubDate>Mon, 21 Mar 2022 14:09:14 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/search-seo-video-social/</guid>
+      <description>文章来自 BOSS 直聘策略产品负人闫泽华​。 搜索视频化 - 可检索资源变丰富 视频化，丰富了内容的供给。脱离了足够的供给，我们就不太可能让用户满意。图文、</description>
+    </item>
+    
+    <item>
+      <title>小家电：2022 年小家电及智能家居兴趣人群洞察报告</title>
+      <link>https://www.gtdstudy.com/post/2022-household-appliances-market/</link>
+      <pubDate>Sat, 12 Mar 2022 18:47:48 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/2022-household-appliances-market/</guid>
+      <description>原文来自36kr 报告基于巨量算数的调研数据。 小家电潜在消费人群在 2022 年增长 2021 年 6 月，总体小家电兴趣用户数环比增长 24.17%，较疫情前（202</description>
+    </item>
+    
+    <item>
+      <title>行业：共享充电宝断电</title>
+      <link>https://www.gtdstudy.com/post/shared-power-bank-dieing/</link>
+      <pubDate>Sat, 12 Mar 2022 18:47:30 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/shared-power-bank-dieing/</guid>
+      <description>原文来自界面。 共享充电宝无壁垒，竞争白热化导致营销费用高企 拆解怪兽财报便会发现，其亏损主要是高昂的营销费用所致。2021 年 Q3，怪兽充电的营</description>
+    </item>
+    
+    <item>
+      <title>AR：超过 2 亿人在 Snapchat 上体验 AR</title>
+      <link>https://www.gtdstudy.com/post/snapchat-ar-business/</link>
+      <pubDate>Sat, 12 Mar 2022 18:47:10 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/snapchat-ar-business/</guid>
+      <description>原文来自36kr。 当前 Snapchat 是美国 Z 世代最常用的社交平台 eMarketer 发布的《美国 Z 世代用户科技与媒体使用情况报告》显示，Z世代用户每月最常使用的社交平台榜</description>
+    </item>
+    
+    <item>
+      <title>产品：橙心优选的关停，说明电商不是公式</title>
+      <link>https://www.gtdstudy.com/post/chengxinbestchoice-closed/</link>
+      <pubDate>Sun, 06 Mar 2022 20:01:25 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/chengxinbestchoice-closed/</guid>
+      <description>滴滴此前开辟的新业务「橙心优选」彻底关停。我作为一名忠实的滴滴用户，拍手叫好。 公司开拓新业务，初心都是一样的，「赚钱」。那么，直接产生交易的</description>
+    </item>
+    
+    <item>
+      <title>金句：不要奢求能看清所有事实</title>
+      <link>https://www.gtdstudy.com/post/you-couldnt-known-every-facts/</link>
+      <pubDate>Sun, 27 Feb 2022 22:30:59 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/you-couldnt-known-every-facts/</guid>
+      <description>不要奢求能看清所有事实，但也不要认为只有自己看到的一面才是事实。——caoz caoz 在公众号里吐槽「不尊重事实」的歪风邪气四处泛滥。他认为，正常的</description>
+    </item>
+    
+    <item>
+      <title>现在的互联网像是黑暗森林</title>
+      <link>https://www.gtdstudy.com/post/internet-likes-dark-forest/</link>
+      <pubDate>Sun, 27 Feb 2022 21:40:14 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/internet-likes-dark-forest/</guid>
+      <description>现在的互联网早就不是零几年大家憧憬的互联互惠的美好世界，更像一个黑暗森林，每一个可能发声异见的人，一旦暴露坐标很容易就会被消灭，消灭的是个体</description>
+    </item>
+    
+    <item>
+      <title>跨境电商：亚马逊推广成本猛增</title>
+      <link>https://www.gtdstudy.com/post/amazon-walmarts-ad-prices/</link>
+      <pubDate>Thu, 17 Feb 2022 19:42:38 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/amazon-walmarts-ad-prices/</guid>
+      <description>来自The Information。原文讲的是，是什么因素，导致亚马逊、沃尔玛之间的广告价格如此不同。 在这篇文章的开篇中，就提到了双方之间非常</description>
+    </item>
+    
+    <item>
+      <title>个人：找到自己的「组织力」</title>
+      <link>https://www.gtdstudy.com/post/find-you-social-energy/</link>
+      <pubDate>Thu, 17 Feb 2022 19:36:19 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/find-you-social-energy/</guid>
+      <description>我认为这几点建议十分有道理，重点还是得学会「如何真正的关注他人」。自己的社交圈子，当然是自己去组织。所以，自己的「组织力」很重要。另外就是，</description>
+    </item>
+    
+    <item>
+      <title>乔布斯：鲜为人知的狂热爱好</title>
+      <link>https://www.gtdstudy.com/post/steve-jobs-loves-shin-hanga/</link>
+      <pubDate>Thu, 17 Feb 2022 19:36:14 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/steve-jobs-loves-shin-hanga/</guid>
+      <description>根据 NHK 的纪录片《乔布斯鲜为人知的狂热爱好》，乔布斯非常喜欢日本的「新版画」这类艺术作品。 他第一次购买新版画，是在银座的兜屋画廊，当时的松岗春</description>
+    </item>
+    
+    <item>
+      <title>品牌：想和用户玩一玩的品牌动机消逝了</title>
+      <link>https://www.gtdstudy.com/post/the-brands-that-wonder-play-with-costumers-were-gone/</link>
+      <pubDate>Thu, 17 Feb 2022 19:34:55 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/the-brands-that-wonder-play-with-costumers-were-gone/</guid>
+      <description>本文来自即刻用户猫助，具信是多抓鱼的创始人（或者联合创始人？）： 今天一时兴起发了一条「就像是老朋友问候一下」的文字消息给用户。结果意外收获了</description>
+    </item>
+    
+    <item>
+      <title>优衣库：优衣库的创意部门</title>
+      <link>https://www.gtdstudy.com/post/about-uniqlo-global-creative-lab/</link>
+      <pubDate>Sun, 13 Feb 2022 21:39:12 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/about-uniqlo-global-creative-lab/</guid>
+      <description>来自即刻用户 卢丹 Ken： 优衣库有个叫 GCL(global creative lab)的部门 ，LifeWear 杂志以及很多跨文化性企划案就出自这个部门。 之前曾短暂参与这个部门的一</description>
+    </item>
+    
+    <item>
+      <title>公司：成都奥北，满袋换空袋满桶换空桶</title>
+      <link>https://www.gtdstudy.com/post/company-aobei/</link>
+      <pubDate>Wed, 09 Feb 2022 12:32:19 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/company-aobei/</guid>
+      <description>发现了一家有趣的公司，叫成都奥北，专注环保领域的公司，口号是： 「让进入焚烧厂和填埋场的垃圾变得少少的」。 你可以购买它家的回收袋或者其它环保产</description>
+    </item>
+    
+    <item>
+      <title>图床：把 Github 当做博客图床</title>
+      <link>https://www.gtdstudy.com/post/how-to-make-github-to-be-your-blog-image-server/</link>
+      <pubDate>Fri, 04 Feb 2022 11:37:52 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/how-to-make-github-to-be-your-blog-image-server/</guid>
+      <description>我之前的博客基本以纯文字为主，但最近因为博客新开了「产品」和「技巧」这两个分类，为了「把事情说明白」，发现还是需要「文字+图片」。由于本博客</description>
+    </item>
+    
+    <item>
+      <title>产品：睛姿腮红眼镜让“戴眼镜=化妆”</title>
+      <link>https://www.gtdstudy.com/post/a-new-type-glasses-of-jins/</link>
+      <pubDate>Mon, 31 Jan 2022 20:56:23 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/a-new-type-glasses-of-jins/</guid>
+      <description>博文新开一个名为「产品」的分类。用于记录我觉得好玩的新产品，同时也会附上我的点评。 根据日经中文网报道，日本的眼镜品牌晴姿开发了一种新型眼镜，</description>
+    </item>
+    
+    <item>
+      <title>稻盛和夫：穷人为什么难翻身</title>
+      <link>https://www.gtdstudy.com/post/why-poor-people-hard-to-get-rich/</link>
+      <pubDate>Sun, 30 Jan 2022 16:44:49 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/why-poor-people-hard-to-get-rich/</guid>
+      <description>来自稻盛和夫的书《给年轻人一点忠告》 成熟晚 他们中大多要到 30 多岁，才能明白社会的运行逻辑和人性，俗话说，穷人家的孩子早当家，其实哪里是早当家，</description>
+    </item>
+    
+    <item>
+      <title>资讯：特斯拉车内卡拉 OK 麦克风卖断货</title>
+      <link>https://www.gtdstudy.com/post/teslamic-sale-out/</link>
+      <pubDate>Sun, 30 Jan 2022 16:13:53 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/teslamic-sale-out/</guid>
+      <description>我在华尔街日报看到这则新闻。TeslaMic 的售价并不低，将近 1200 元人民币，对比淘宝的畅销款，贵了 3-4 倍。即便如此，中国的特斯拉车主还是心甘情愿</description>
+    </item>
+    
+    <item>
+      <title>PhotoShop：通过「色彩范围」工具来快速抠图的方法</title>
+      <link>https://www.gtdstudy.com/post/photoshop-tips-1-fast-cutout/</link>
+      <pubDate>Sat, 29 Jan 2022 20:28:54 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/photoshop-tips-1-fast-cutout/</guid>
+      <description>今天看了少数派的《Keynote 贺卡制作指南》，用里面的 PhotoShop 抠图小技巧，顺利地制作了属于自己的拜年贺卡。 技巧记录如下： 将图片导入 PhotoShop 在图层工具栏</description>
+    </item>
+    
+    <item>
+      <title>宠物： Z 世代养宠物养到倾家荡产</title>
+      <link>https://www.gtdstudy.com/post/poor-to-keep-up-cats-and-dogs/</link>
+      <pubDate>Thu, 27 Jan 2022 01:15:25 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/poor-to-keep-up-cats-and-dogs/</guid>
+      <description>原文 《宠物医院第三季》里头，拍到一些 95 后带宠物治病的真实日常。 一个生活在上海的年轻女孩，养了五只猫，每天跟它们相依为命。自己每个月 2000 多块钱的</description>
+    </item>
+    
+    <item>
+      <title>web3 的社会意义远低于 Web 2.0</title>
+      <link>https://www.gtdstudy.com/post/web3/</link>
+      <pubDate>Wed, 26 Jan 2022 02:01:50 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/web3/</guid>
+      <description>web3 的提法很好，但意义和当年的 Web 2.0 不可同日而语吧。如果硬要说 web3 是什么，我宁愿把它安放在苹果 iPhone 所开启的移动互联网变革——但这一变革只是复用了 Web 2.0</description>
+    </item>
+    
+    <item>
+      <title>巨人：《富兰克林传》</title>
+      <link>https://www.gtdstudy.com/post/franklin-biography/</link>
+      <pubDate>Mon, 24 Jan 2022 20:56:14 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/franklin-biography/</guid>
+      <description>富兰克林的十三种德行，以及习惯养成 富兰克林相信，「坏的习惯必须打破，好的习惯必须加以培养，然后我们才能希望我们的举止能够坚定不移始终如一地正</description>
+    </item>
+    
+    <item>
+      <title>双向链接笔记的局限性</title>
+      <link>https://www.gtdstudy.com/post/respon-to-think-about-notetaking-tools/</link>
+      <pubDate>Mon, 17 Jan 2022 02:06:25 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/respon-to-think-about-notetaking-tools/</guid>
+      <description>原贴很长：https://www.v2ex.com/t/825142#reply8 楼主讨论了「双向链接」笔记的局限性，他以自己一个知识点生长</description>
+    </item>
+    
+    <item>
+      <title>博文多了一个叫「社交」的分类</title>
+      <link>https://www.gtdstudy.com/post/the-fake-beauty-camel/</link>
+      <pubDate>Sun, 16 Jan 2022 12:07:21 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/the-fake-beauty-camel/</guid>
+      <description>我的确是一个不太会社交的人，朋友的生日也记不住许多。但自从去年，好朋友陈鲨鱼在即刻上 @ 了我一个关于跨境电商的问题，而我为了说明这个问题，制作</description>
+    </item>
+    
+    <item>
+      <title>做一个普通而自信的人（下）：最是难得平常心</title>
+      <link>https://www.gtdstudy.com/post/be-a-normal-and-confident-people-2/</link>
+      <pubDate>Sat, 15 Jan 2022 15:45:47 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/be-a-normal-and-confident-people-2/</guid>
+      <description>原本以为，我写完上篇之后，很快把下篇写完。但生活总有意外，比如说，昨天晚上一直在处理一张电商活动海报图，从没用过 PhotoShop 的我，硬着头皮，施展搜索大</description>
+    </item>
+    
+    <item>
+      <title>视频里的巧克力印章怎么拍？</title>
+      <link>https://www.gtdstudy.com/post/how-to-photography-chocolate-stamp-/</link>
+      <pubDate>Sat, 15 Jan 2022 14:20:23 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/how-to-photography-chocolate-stamp-/</guid>
+      <description>今天主要是 B 站上很有影响力的「影视飓风」分享他拍摄京东一则食物广告的过程，总结下来，美食广告片拍摄很难，因为它要把平平无奇的食材，排除非同一</description>
+    </item>
+    
+    <item>
+      <title>做一个普通而自信的人（上）：为什么我们不能做一个普通人？</title>
+      <link>https://www.gtdstudy.com/post/be-a-normal-and-confident-people/</link>
+      <pubDate>Sat, 01 Jan 2022 22:06:35 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/be-a-normal-and-confident-people/</guid>
+      <description>我经常不看脱口秀，但也知道杨笠那句出名的讽刺，「为什么有的男人看上去明明那么普通，却那么自信？」当然，她群嘲的对象，是那些不知好歹，一看到女</description>
+    </item>
+    
+    <item>
+      <title>跨境电商：国内跨境行业的 5 大症结</title>
+      <link>https://www.gtdstudy.com/post/five-hard-dilemmas-about-cross-border-e-commerce/</link>
+      <pubDate>Sat, 01 Jan 2022 21:42:30 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/five-hard-dilemmas-about-cross-border-e-commerce/</guid>
+      <description>关于跨境行业困境，看到一个非常好的总结。简而言之，产业升级必然不是一句口号，但它目前显得很空洞。因为在这个时代，我们还未像日本人 70、80 年</description>
+    </item>
+    
+    <item>
+      <title>摘录：Crazy new ideas</title>
+      <link>https://www.gtdstudy.com/post/cray-new-ideas/</link>
+      <pubDate>Sat, 01 Jan 2022 21:28:18 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/cray-new-ideas/</guid>
+      <description>本文来自公众号由鲸发布翻译。 Crazy New Ideas 有一种意见我非常害怕公开表达，那就是：如果我认识的某个人是一个领域的专家，又是一个很靠谱的人，提出了一个听</description>
+    </item>
+    
+    <item>
+      <title>爱情：人不要膜拜你向往的生活，而是要活出你的向往</title>
+      <link>https://www.gtdstudy.com/post/how-does-the-marrrage-can-be-like/</link>
+      <pubDate>Sat, 18 Dec 2021 16:24:07 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/how-does-the-marrrage-can-be-like/</guid>
+      <description>摘要 近期王力宏离婚事件沸沸扬扬，女苦主李靓蕾发了一封长信，控诉男方对家庭的不负责任，对自己的感情伤害。这类新闻，总让人觉得现代亲密关系十分脆</description>
+    </item>
+    
+    <item>
+      <title>摘录：Beyond Smart</title>
+      <link>https://www.gtdstudy.com/post/beyond-smart/</link>
+      <pubDate>Fri, 17 Dec 2021 23:20:47 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/beyond-smart/</guid>
+      <description>摘要 本文来自 Paul Graham，由公众号硅发布翻译简写。本文提出了一个非常好的观点，那就是聪明并没有什么厉害的，厉害的是拥有「新想法」，同时还提</description>
+    </item>
+    
+    <item>
+      <title>亚马逊：亚马逊是如何判断中国商家刷单的</title>
+      <link>https://www.gtdstudy.com/post/how-does-amazon-define-the-cheating-behavior/</link>
+      <pubDate>Tue, 14 Dec 2021 00:07:32 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/how-does-amazon-define-the-cheating-behavior/</guid>
+      <description>来自 YouTuber 爱讲故事的老胖子 https://www.youtube.com/watch?v=96xVyZe%5FiOY 他提到，亚马逊判断中国卖家作弊，是进行同类商品的评论数量对比。以原产地商品的最高评论数为上限，若来自中国的商品评论数</description>
+    </item>
+    
+    <item>
+      <title>语录：自己也不对自己使用暴力</title>
+      <link>https://www.gtdstudy.com/post/dont-use-violence-to-self/</link>
+      <pubDate>Mon, 13 Dec 2021 01:39:39 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/dont-use-violence-to-self/</guid>
+      <description>更重要的是自己也不对自己使用暴力。 来自： https://hutusi.com/articles/nonviolent-communication 这句话来自，博客胡涂说重读《非暴力沟通》之后的感悟。我认为很有启发。和他一样，我在第一次阅读《非暴</description>
+    </item>
+    
+    <item>
+      <title>B 站商业化的基本数据</title>
+      <link>https://www.gtdstudy.com/post/the-pharse-of-data-by-bilibli/</link>
+      <pubDate>Sun, 12 Dec 2021 17:05:51 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/the-pharse-of-data-by-bilibli/</guid>
+      <description>来自群响刘思毅，仅供参考： 刚刚和一个 B 站的 up 主会员电话了一波。 B 站的单条视频需要 8min 以上，大概需要 5000 字以上的逐字稿，且需要较强的中视频富媒体剪</description>
+    </item>
+    
+    <item>
+      <title>B 站商业化的基本数据</title>
+      <link>https://www.gtdstudy.com/post/how-the-chinese-startup-sales-on-tiktok/</link>
+      <pubDate>Sun, 12 Dec 2021 17:05:03 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/how-the-chinese-startup-sales-on-tiktok/</guid>
+      <description>来自群响刘思毅，仅供参考： 刚刚和一个 B 站的 up 主会员电话了一波。 B 站的单条视频需要 8min 以上，大概需要 5000 字以上的逐字稿，且需要较强的中视频富媒体剪</description>
+    </item>
+    
+    <item>
+      <title>消费心理：依云在星巴克卖得这么差，为什么这家著名的咖啡贩卖公司还在卖依云？</title>
+      <link>https://www.gtdstudy.com/post/why-starbuck-sales-evan/</link>
+      <pubDate>Sat, 04 Dec 2021 10:54:02 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/why-starbuck-sales-evan/</guid>
+      <description>https://zhuanlan.zhihu.com/p/25274607 3 个错误答案 回答这个问题，先要过滤掉三个错误的答案。 第一个是，星巴克这么做存在一定的随意性。可以肯定，星巴克这样成熟的公司选择把什么商品放</description>
+    </item>
+    
+    <item>
+      <title>数字化转型：安踏数字化转型</title>
+      <link>https://www.gtdstudy.com/post/digitization-of-the-sport-brand-anta/</link>
+      <pubDate>Sat, 20 Nov 2021 09:13:58 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/digitization-of-the-sport-brand-anta/</guid>
+      <description>https://page.om.qq.com/page/OTyr5xeUY2xWQTptkiGcJmGw0 数字化转型取得阶段性的胜利 安踏体育用品有限公司（以下简称“安踏集团”）从 2020 年下半年开始，全面推进数字化转型战略，已经取得了阶段性成果。安踏</description>
+    </item>
+    
+    <item>
+      <title>灵感：灵感来自工作过程</title>
+      <link>https://www.gtdstudy.com/post/ideas-is-from-working/</link>
+      <pubDate>Sat, 20 Nov 2021 09:12:44 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/ideas-is-from-working/</guid>
+      <description>出处：https://readingoutpost.com/writing-as-weapon/ 美國畫家查克．克洛斯（Chuck Close）</description>
+    </item>
+    
+    <item>
+      <title>人生：人的痛苦来自 3 种信念</title>
+      <link>https://www.gtdstudy.com/post/three-type-of-pain/</link>
+      <pubDate>Sat, 20 Nov 2021 09:11:56 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/three-type-of-pain/</guid>
+      <description>心理学家阿尔伯特.埃利斯说： 1.我必须要把事情做好，得到表扬，否则我就很烂。 2.别人必须喜欢我，必须对我好，或者对我公平。否则就很糟糕。 3.</description>
+    </item>
+    
+    <item>
+      <title>阅读：在管理中，遇到自己看着不爽，又暂时干不掉的员工怎么办呢？</title>
+      <link>https://www.gtdstudy.com/post/when-you-are-manager-but-you-stuffs-are-not-so-good/</link>
+      <pubDate>Tue, 09 Nov 2021 08:02:42 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/when-you-are-manager-but-you-stuffs-are-not-so-good/</guid>
+      <description>我们在管理员工的时候，遇到自己看着不爽，但是能力或者业绩突出，暂时又换不掉的员工怎么办？ 如果放任不管，任由这样发展下去，那么有一天会为这次懈</description>
+    </item>
+    
+    <item>
+      <title>消息：优衣库在北京三里屯开了家「复合式明日生活馆」</title>
+      <link>https://www.gtdstudy.com/post/uniqlo-open-a-flagship-store-at-beijing/</link>
+      <pubDate>Tue, 09 Nov 2021 08:01:25 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/uniqlo-open-a-flagship-store-at-beijing/</guid>
+      <description>什么是「复合式明日生活馆」？ 迅销集团全球执行董事、优衣库大中华区首席市场官吴品慧对此做出了解答：“一方面，我们想要通过沉浸式的体验，更好地呈</description>
+    </item>
+    
+    <item>
+      <title>阅读：创业公司如何找到最好的人才</title>
+      <link>https://www.gtdstudy.com/post/howtofindouttalents/</link>
+      <pubDate>Sat, 30 Oct 2021 11:18:49 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/howtofindouttalents/</guid>
+      <description>原文https://mp.weixin.qq.com/s/B4eIqZkfU1owdKE1vdtEgQ 本文值得一读再读 什么是好的人才 我在前文</description>
+    </item>
+    
+    <item>
+      <title>阅读：“不完美”焦虑：我们一定要成为更好的自己吗？</title>
+      <link>https://www.gtdstudy.com/post/issueaboutunperfectly/</link>
+      <pubDate>Fri, 15 Oct 2021 14:41:33 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/issueaboutunperfectly/</guid>
+      <description>原文：https://mp.weixin.qq.com/s/wIdyeUGFi7RrydM6cnlowQ 不完美的焦虑 为什么追求完美？功利化的</description>
+    </item>
+    
+    <item>
+      <title>消息：乐高公布 2021 年上半年财务报告</title>
+      <link>https://www.gtdstudy.com/post/lego2021halfyearfinancalreport/</link>
+      <pubDate>Fri, 15 Oct 2021 14:38:22 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/lego2021halfyearfinancalreport/</guid>
+      <description>销售额增长 46% 和去年同期相比，今年上半年乐高集团收入增长了 46%，达到 230 亿丹麦克朗；零售额增长了 36%，超过玩具行业整体水平。 同时集团在全球和</description>
+    </item>
+    
+    <item>
+      <title>摄影的第三个世代</title>
+      <link>https://www.gtdstudy.com/post/about-the-third-generation-of-photography/</link>
+      <pubDate>Fri, 01 Oct 2021 20:15:47 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/about-the-third-generation-of-photography/</guid>
+      <description>这篇文章本来是为《离线》的一期以「滤镜」为主题的特刊而写。由于我今年工作任务繁重，实在抽不出时间完成这一主题，因此在今年 6 月退出写作组。在退</description>
+    </item>
+    
+    <item>
+      <title>阅读：“资本真的是好手段”，从李子柒事件看网红经济利益博弈</title>
+      <link>https://www.gtdstudy.com/post/issueaboutliziqi/</link>
+      <pubDate>Tue, 28 Sep 2021 16:21:14 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/issueaboutliziqi/</guid>
+      <description>https://www.thepaper.cn/newsDetail%5Fforward%5F14697555 结论 形象地说，她成为了 MCN 机构产业链中的一个“工具人”。倘若李子柒品牌得到市场广泛认可后，杭州微念再逐步弱化李佳佳本人的作用，她前期的努力也</description>
+    </item>
+    
+    <item>
+      <title>铃木敏夫谈他如何让吉卜力的电影大卖</title>
+      <link>https://www.gtdstudy.com/post/whensuzukitoshiotalksabouthiswork/</link>
+      <pubDate>Wed, 08 Sep 2021 08:57:53 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/whensuzukitoshiotalksabouthiswork/</guid>
+      <description>最近我很喜欢读日本企业家写的书，相比国内甚至美国的企业家所出的书，内容往往非常实在，也非常真诚。包括最近阅读的这一本《吉卜力的伙伴们：我是这</description>
+    </item>
+    
+    <item>
+      <title>换位思考故事一则</title>
+      <link>https://www.gtdstudy.com/post/storyabtputyourshoeswithothers/</link>
+      <pubDate>Sun, 05 Sep 2021 22:34:44 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/storyabtputyourshoeswithothers/</guid>
+      <description>忘记是读哪本书看到的了： 一群城里人生活优越，无忧无虑，于是想到了体验部落生活。在当地导游的带领下，来到了阿米西族人生活的地方，亲眼目睹了那里</description>
+    </item>
+    
+    <item>
+      <title>当你通过叙事，而预测到未来</title>
+      <link>https://www.gtdstudy.com/post/narrativeeconomics/</link>
+      <pubDate>Sat, 04 Sep 2021 19:30:33 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/narrativeeconomics/</guid>
+      <description>叙事经济学是什么？ 《叙事经济学》的作者是在耶鲁的经济学教授罗伯特·希勒（Robert J. Shiller），他在 2013 年获得诺贝尔经济学奖，被入选为</description>
+    </item>
+    
+    <item>
+      <title>为未知而读书</title>
+      <link>https://www.gtdstudy.com/post/readforunkown/</link>
+      <pubDate>Fri, 19 Feb 2021 20:59:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/readforunkown/</guid>
+      <description>《一流的人读书，都在哪里划线？》，本书既讨论读书的方法，也推荐一些很棒的书，我比较侧重方法，简要的概括： 为了学习而读书，学习是让自己培养自己</description>
+    </item>
+    
+    <item>
+      <title>用心传达：每周一封邮件</title>
+      <link>https://www.gtdstudy.com/post/communicatwithheart/</link>
+      <pubDate>Fri, 19 Feb 2021 08:31:07 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/communicatwithheart/</guid>
+      <description>读完岩田松雄的《秒懂传达力》。先介绍作者何许人也——岩田松雄每加入一家公司，就能够令那家公司扭亏为盈，就好像稻盛和夫一样。2000 年，他加入</description>
+    </item>
+    
+    <item>
+      <title>雷公的投资体系摘录</title>
+      <link>https://www.gtdstudy.com/post/investingrulesbylonecapital/</link>
+      <pubDate>Mon, 15 Feb 2021 00:13:41 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/investingrulesbylonecapital/</guid>
+      <description>《给投资者估值》 人都有优缺点，别浪费太多时间去修正你的缺点，而应尽其所能的将优点发挥到极致！ 超出个人专长（边际）的事情尽量不参与。人无完人，</description>
+    </item>
+    
+    <item>
+      <title>雷公投资：企业基本面研究纲要</title>
+      <link>https://www.gtdstudy.com/post/companyresearchbylongcapital/</link>
+      <pubDate>Sun, 14 Feb 2021 10:59:02 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/companyresearchbylongcapital/</guid>
+      <description>本文是去年为招聘研究员时写的一个《买方研究报告纲要》，是我研究企业基本面时经常关 注的一些要点。由于原文较长，本文对其作出了必要删减，保留一些</description>
+    </item>
+    
+    <item>
+      <title>從底層邏輯看巴菲特核心重倉股的思路、原則和條件</title>
+      <link>https://www.gtdstudy.com/post/thinkabouwhenandwhybuffetinvest/</link>
+      <pubDate>Tue, 09 Feb 2021 22:56:22 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/thinkabouwhenandwhybuffetinvest/</guid>
+      <description>作者：董宝珍 巴菲特重仓股的共同特性应该就是巴菲特选股的思路、原则和条件，以下是巴菲特核心重仓股的共同特征： 第一、产品需求永无止尽的快速消费品</description>
+    </item>
+    
+    <item>
+      <title>「桂氏三角形定位模块」</title>
+      <link>https://www.gtdstudy.com/post/yemingguipositionbrandstoryprotocl/</link>
+      <pubDate>Sat, 23 Jan 2021 09:39:47 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/yemingguipositionbrandstoryprotocl/</guid>
+      <description>产品定位 | 一个小小的差异远比一个大大需求更具销售魅力 对谁__________ 我是__________ 给你__________ 统计学 类别 （产品</description>
+    </item>
+    
+    <item>
+      <title>安全边际三十条</title>
+      <link>https://www.gtdstudy.com/post/30rulesaboutmarginofsafety/</link>
+      <pubDate>Sat, 02 Jan 2021 09:51:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/30rulesaboutmarginofsafety/</guid>
+      <description>本文来自 SMC 中国基金的管理合伙人邵庆晓的系列微博，名为「安全边际三十条」。著名的公众号一条此前曾报道了邵庆晓的豪宅和她的生活。 一、价值投资并不</description>
+    </item>
+    
+    <item>
+      <title>designboom TECH predictions 2021</title>
+      <link>https://www.gtdstudy.com/post/designboomtechpredictions2021/</link>
+      <pubDate>Wed, 30 Dec 2020 00:05:46 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/designboomtechpredictions2021/</guid>
+      <description>原文地址：https://www.designboom.com/technology/predictions-2021-commute-ho</description>
+    </item>
+    
+    <item>
+      <title>青年们正在经历的中年危机</title>
+      <link>https://www.gtdstudy.com/post/whenyouinmiddleage/</link>
+      <pubDate>Sun, 27 Dec 2020 13:20:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/whenyouinmiddleage/</guid>
+      <description>最近蛋壳公寓暴雷，不光投资人蒙受巨大损失，还令大量在一线城市就业的青年流离失所。引爆了青年人的中年危机。我想我不必解释中年危机是什么。但那些</description>
+    </item>
+    
+    <item>
+      <title>我身材太差，只能去当服装测评师</title>
+      <link>https://www.gtdstudy.com/post/mybodyshapetoobad/</link>
+      <pubDate>Thu, 10 Dec 2020 23:46:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/mybodyshapetoobad/</guid>
+      <description>原文地址：https://www.shangyexinzhi.com/article/2995232.html 本文来自电商报，介绍目前电商出</description>
+    </item>
+    
+    <item>
+      <title>经历战争、瘟疫和王朝变迁：日本千年老铺的成功秘诀</title>
+      <link>https://www.gtdstudy.com/post/thelonglifeofjapanesecompany/</link>
+      <pubDate>Wed, 09 Dec 2020 23:30:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/thelonglifeofjapanesecompany/</guid>
+      <description>原文地址：https://cn.nytimes.com/business/20201204/japan-old-companies/ 日本存在</description>
+    </item>
+    
+    <item>
+      <title>Live, Social, and Shoppable: The Future of Video</title>
+      <link>https://www.gtdstudy.com/post/readaboutlivesocalandshopping/</link>
+      <pubDate>Tue, 08 Dec 2020 22:48:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/readaboutlivesocalandshopping/</guid>
+      <description>原文地址：https://a16z.com/2020/12/07/social-strikes-back-video/ 这篇文章来自顶级投资机</description>
+    </item>
+    
+    <item>
+      <title>我该如何以心学的方式对待痛风</title>
+      <link>https://www.gtdstudy.com/post/how-to-treat-metabolicarthritis-by-philosophy-of-the-mind/</link>
+      <pubDate>Mon, 07 Dec 2020 23:16:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/how-to-treat-metabolicarthritis-by-philosophy-of-the-mind/</guid>
+      <description>上午发布了一篇以生命观的角度，来看待第一次痛风。这篇文章顾名思义，就是解释如何以心学的角度，来对待自己第一次痛风这件事。这篇文章可能是有点奇</description>
+    </item>
+    
+    <item>
+      <title>2021 年，痛风给了我一个大锤</title>
+      <link>https://www.gtdstudy.com/post/thinkaboutmetabolicarthritis/</link>
+      <pubDate>Sun, 29 Nov 2020 22:22:52 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/thinkaboutmetabolicarthritis/</guid>
+      <description>痛风的学名叫代谢性关节炎，顾名思义，身体的新陈代谢出了问题，无法把尿酸完全排解出体外，所以导致的。 痛风很痛，以后都不想再经历了 我在 11 月 30 日从</description>
+    </item>
+    
+    <item>
+      <title>初识心学</title>
+      <link>https://www.gtdstudy.com/post/%E5%BF%83%E5%AD%A6%E6%9C%89%E5%85%B3/</link>
+      <pubDate>Sun, 29 Nov 2020 22:22:52 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/%E5%BF%83%E5%AD%A6%E6%9C%89%E5%85%B3/</guid>
+      <description>我今年十一的时候，认真学习了心学，终于找到了一个适合自己，可帮助自己找到自我的落脚点，以及正确地应对外界万事万物的方式。 首先儒家的目标，「存</description>
+    </item>
+    
+    <item>
+      <title>读杨照《史记的读法》</title>
+      <link>https://www.gtdstudy.com/post/%E8%AF%BB%E6%9D%A8%E7%85%A7%E5%8F%B2%E8%AE%B0%E7%9A%84%E8%AF%BB%E6%B3%95/</link>
+      <pubDate>Mon, 05 Oct 2020 00:04:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/%E8%AF%BB%E6%9D%A8%E7%85%A7%E5%8F%B2%E8%AE%B0%E7%9A%84%E8%AF%BB%E6%B3%95/</guid>
+      <description>读完《史记的读法》，震撼。 过去疑惑伯夷叔齐为何如此受司马迁看重，终于对该问题找到了一点解答的方法。 关于伯夷叔齐的背景，没什么特别大不了的。过</description>
+    </item>
+    
+    <item>
+      <title>读王阳明《示弟立志说》</title>
+      <link>https://www.gtdstudy.com/post/%E8%AF%BB%E7%8E%8B%E9%98%B3%E6%98%8E%E7%A4%BA%E5%BC%9F%E7%AB%8B%E5%BF%97%E8%AF%B4/</link>
+      <pubDate>Sat, 03 Oct 2020 16:21:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/%E8%AF%BB%E7%8E%8B%E9%98%B3%E6%98%8E%E7%A4%BA%E5%BC%9F%E7%AB%8B%E5%BF%97%E8%AF%B4/</guid>
+      <description>王阳明的《示弟立志说》这篇文章十分经典，它解决了关于「立志」的几大问题：为何立志？立志了又如何？如何立志？读完就明白了王阳明对立志的观点。立</description>
+    </item>
+    
+    <item>
+      <title>投资备忘录：科技板块经历了 3 周的低迷后，是否有复苏的可能性？</title>
+      <link>https://www.gtdstudy.com/post/%E6%8A%95%E8%B5%84%E5%A4%87%E5%BF%98%E5%BD%95%E7%A7%91%E6%8A%80%E6%9D%BF%E5%9D%97%E7%BB%8F%E5%8E%86%E4%BA%86-3-%E5%91%A8%E7%9A%84%E4%BD%8E%E8%BF%B7%E5%90%8E%E6%98%AF%E5%90%A6%E6%9C%89%E5%A4%8D%E8%8B%8F%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7/</link>
+      <pubDate>Mon, 21 Sep 2020 13:48:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/%E6%8A%95%E8%B5%84%E5%A4%87%E5%BF%98%E5%BD%95%E7%A7%91%E6%8A%80%E6%9D%BF%E5%9D%97%E7%BB%8F%E5%8E%86%E4%BA%86-3-%E5%91%A8%E7%9A%84%E4%BD%8E%E8%BF%B7%E5%90%8E%E6%98%AF%E5%90%A6%E6%9C%89%E5%A4%8D%E8%8B%8F%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7/</guid>
+      <description>（1）应当如何理解过去 2-3 周科技板块低迷的情况，它到底由什么因素导致的。 我的答案是： 投资者情绪 股票价格是投资者对未来期望的折现。8 月财报月，集</description>
+    </item>
+    
+    <item>
+      <title>笔记：《究极之宿——加贺屋的百年感动》</title>
+      <link>https://www.gtdstudy.com/post/%E7%AC%94%E8%AE%B0%E7%A9%B6%E6%9E%81%E4%B9%8B%E5%AE%BF%E5%8A%A0%E8%B4%BA%E5%B1%8B%E7%9A%84%E7%99%BE%E5%B9%B4%E6%84%9F%E5%8A%A8/</link>
+      <pubDate>Tue, 01 Sep 2020 13:59:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/%E7%AC%94%E8%AE%B0%E7%A9%B6%E6%9E%81%E4%B9%8B%E5%AE%BF%E5%8A%A0%E8%B4%BA%E5%B1%8B%E7%9A%84%E7%99%BE%E5%B9%B4%E6%84%9F%E5%8A%A8/</guid>
+      <description>在日本有一座十分传奇的旅馆，叫「加贺屋」，它获得无数殊荣，日本国民一生中想去住一次，曾经日本天皇天后亲自下榻，而且持续 30 年一直在日本的专家评</description>
+    </item>
+    
+    <item>
+      <title>纪念陶醉</title>
+      <link>https://www.gtdstudy.com/post/%E7%BA%AA%E5%BF%B5%E9%99%B6%E9%86%89/</link>
+      <pubDate>Mon, 31 Aug 2020 17:28:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/%E7%BA%AA%E5%BF%B5%E9%99%B6%E9%86%89/</guid>
+      <description>今天下午 4 点，突闻噩耗，好朋友陶醉昨晚因突发急性肺部感染导致呼吸衰竭在医院去世了。想到以后再也不能和他一起畅谈，十分心痛。 几年前，陶醉婚后不</description>
+    </item>
+    
+    <item>
+      <title>过程就是答案</title>
+      <link>https://www.gtdstudy.com/post/%E8%BF%87%E7%A8%8B%E5%B0%B1%E6%98%AF%E7%AD%94%E6%A1%88/</link>
+      <pubDate>Tue, 18 Aug 2020 03:58:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/%E8%BF%87%E7%A8%8B%E5%B0%B1%E6%98%AF%E7%AD%94%E6%A1%88/</guid>
+      <description>中餐博大精深，八大菜系争奇斗艳，每年甜咸汤圆之争每年引发笔战无数。走遍天下的中国胃们，欣赏海外美景时，最怀念的还是家里的一碗老火汤。 中餐，中</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://www.gtdstudy.com/post/my-first-post/</link>
+      <pubDate>Sat, 15 Aug 2020 20:07:54 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/my-first-post/</guid>
+      <description>欢迎来到陈一斌的博客。 在2007到2012年期间，我曾经运营一个名为「学无止境@一点一滴」的个人博客。 时隔8年，现在打算继续写个人博客，培养</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://www.gtdstudy.com/post/welcome/</link>
+      <pubDate>Sat, 15 Aug 2020 19:49:42 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/post/welcome/</guid>
+      <description></description>
     </item>
     
   </channel>

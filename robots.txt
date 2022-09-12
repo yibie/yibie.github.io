@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://yibie.github.io/sitemap.xml
+Sitemap: https://www.gtdstudy.com/sitemap.xml

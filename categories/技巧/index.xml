@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技巧 on 学无止境</title>
-    <link>http://yibie.github.io/categories/%E6%8A%80%E5%B7%A7/</link>
+    <link>https://www.gtdstudy.com/categories/%E6%8A%80%E5%B7%A7/</link>
     <description>Recent content in 技巧 on 学无止境</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 10 Sep 2022 23:06:59 +0800</lastBuildDate><atom:link href="http://yibie.github.io/categories/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Sep 2022 23:06:59 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/categories/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>最近学习 Lisp 进度顺利</title>
-      <link>http://yibie.github.io/post/about-learning-lisp/</link>
+      <link>https://www.gtdstudy.com/post/about-learning-lisp/</link>
       <pubDate>Sat, 10 Sep 2022 23:06:59 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/about-learning-lisp/</guid>
+      <guid>https://www.gtdstudy.com/post/about-learning-lisp/</guid>
       <description>近期更换了学习 lisp 的教材，进度可喜可贺，虽不能独立写出 package，然而在看 lisp 的代码时，开始具备一定的阅读能力，知道是什么顺序，大概会是什么</description>
     </item>
     
     <item>
       <title>如何在 M1 MacBook 上玩游戏</title>
-      <link>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</link>
+      <link>https://www.gtdstudy.com/post/how-to-play-games-with-m1-macbook/</link>
       <pubDate>Fri, 09 Sep 2022 16:53:38 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/how-to-play-games-with-m1-macbook/</guid>
+      <guid>https://www.gtdstudy.com/post/how-to-play-games-with-m1-macbook/</guid>
       <description>因为把 Switch 留在了深圳，我不得不开发在 MacBook 上玩游戏的技能。 Windows 游戏 直接下载 Steam 的 Mac 版，会失望的发现，很多好玩的游戏，平台只支持 Windows。所以，参</description>
     </item>
     
     <item>
       <title>PhotoShop：如何画优美的曲线</title>
-      <link>http://yibie.github.io/post/how-to-draw-bezier-curve/</link>
+      <link>https://www.gtdstudy.com/post/how-to-draw-bezier-curve/</link>
       <pubDate>Sun, 08 May 2022 23:23:16 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/how-to-draw-bezier-curve/</guid>
+      <guid>https://www.gtdstudy.com/post/how-to-draw-bezier-curve/</guid>
       <description>原来 PhotoShop 里的钢笔工具，是贝济埃曲线（又称贝塞尔曲线）的应用，所以用好钢笔工具，应该用符合绘制贝济埃曲线的方法，这样子会比较容易得到好的结果。 通</description>
     </item>
     
     <item>
       <title>Wi-F：如何寻找 Wi-Fi 密码</title>
-      <link>http://yibie.github.io/post/how-to-find-wifi-password/</link>
+      <link>https://www.gtdstudy.com/post/how-to-find-wifi-password/</link>
       <pubDate>Sun, 08 May 2022 23:12:32 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/how-to-find-wifi-password/</guid>
+      <guid>https://www.gtdstudy.com/post/how-to-find-wifi-password/</guid>
       <description>Windows 进入 “网络和共享中心” 菜单。右键单击 Wi-Fi 网络连接图标→“无线网络属性”。点击 “显示字符” 字段，显示 Wi-Fi 网络密码。 macOS 所有密码都存储在钥匙串应用程</description>
     </item>
     
     <item>
       <title>图床：把 Github 当做博客图床</title>
-      <link>http://yibie.github.io/post/how-to-make-github-to-be-your-blog-image-server/</link>
+      <link>https://www.gtdstudy.com/post/how-to-make-github-to-be-your-blog-image-server/</link>
       <pubDate>Fri, 04 Feb 2022 11:37:52 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/how-to-make-github-to-be-your-blog-image-server/</guid>
+      <guid>https://www.gtdstudy.com/post/how-to-make-github-to-be-your-blog-image-server/</guid>
       <description>我之前的博客基本以纯文字为主，但最近因为博客新开了「产品」和「技巧」这两个分类，为了「把事情说明白」，发现还是需要「文字+图片」。由于本博客</description>
     </item>
     
     <item>
       <title>PhotoShop：通过「色彩范围」工具来快速抠图的方法</title>
-      <link>http://yibie.github.io/post/photoshop-tips-1-fast-cutout/</link>
+      <link>https://www.gtdstudy.com/post/photoshop-tips-1-fast-cutout/</link>
       <pubDate>Sat, 29 Jan 2022 20:28:54 +0800</pubDate>
       
-      <guid>http://yibie.github.io/post/photoshop-tips-1-fast-cutout/</guid>
+      <guid>https://www.gtdstudy.com/post/photoshop-tips-1-fast-cutout/</guid>
       <description>今天看了少数派的《Keynote 贺卡制作指南》，用里面的 PhotoShop 抠图小技巧，顺利地制作了属于自己的拜年贺卡。 技巧记录如下： 将图片导入 PhotoShop 在图层工具栏</description>
     </item>
     
