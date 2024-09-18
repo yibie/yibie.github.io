@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 学无止境</title>
+    <title>Tags on Space Looming</title>
     <link>https://www.gtdstudy.com/tags/</link>
-    <description>Recent content in Tags on 学无止境</description>
+    <description>Recent content in Tags on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 18 Jun 2022 17:53:21 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -14,24 +14,27 @@
       
       <guid>https://www.gtdstudy.com/tags/%E9%A2%86%E5%AF%BC%E5%8A%9B/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
-      <title>tag1</title>
+      <title>Tag1</title>
       <link>https://www.gtdstudy.com/tags/tag1/</link>
       <pubDate>Sat, 15 Aug 2020 19:49:42 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/tags/tag1/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
-      <title>tag2</title>
+      <title>Tag2</title>
       <link>https://www.gtdstudy.com/tags/tag2/</link>
       <pubDate>Sat, 15 Aug 2020 19:49:42 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/tags/tag2/</guid>
       <description></description>
+      <content></content>
     </item>
     
   </channel>

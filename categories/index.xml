@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 学无止境</title>
+    <title>Categories on Space Looming</title>
     <link>https://www.gtdstudy.com/categories/</link>
-    <description>Recent content in Categories on 学无止境</description>
+    <description>Recent content in Categories on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 27 Sep 2022 08:37:46 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -14,6 +14,7 @@
       
       <guid>https://www.gtdstudy.com/categories/%E9%98%85%E8%AF%BB/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -23,6 +24,7 @@
       
       <guid>https://www.gtdstudy.com/categories/%E6%8A%80%E5%B7%A7/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -32,6 +34,7 @@
       
       <guid>https://www.gtdstudy.com/categories/%E7%94%9F%E5%91%BD%E7%BA%AA/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -41,6 +44,7 @@
       
       <guid>https://www.gtdstudy.com/categories/%E6%80%9D%E8%80%83/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -50,6 +54,7 @@
       
       <guid>https://www.gtdstudy.com/categories/%E5%86%99%E4%BD%9C/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -59,6 +64,7 @@
       
       <guid>https://www.gtdstudy.com/categories/%E5%B8%82%E5%9C%BA/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -68,6 +74,7 @@
       
       <guid>https://www.gtdstudy.com/categories/%E4%BA%A7%E5%93%81/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -77,6 +84,7 @@
       
       <guid>https://www.gtdstudy.com/categories/%E6%96%B0%E9%97%BB/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -86,6 +94,7 @@
       
       <guid>https://www.gtdstudy.com/categories/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -95,6 +104,7 @@
       
       <guid>https://www.gtdstudy.com/categories/%E4%B8%8D%E6%AD%A3%E7%BB%8F/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -104,6 +114,7 @@
       
       <guid>https://www.gtdstudy.com/categories/%E6%8A%95%E8%B5%84/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -113,24 +124,27 @@
       
       <guid>https://www.gtdstudy.com/categories/%E5%BF%83%E5%AD%A6/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
-      <title>category</title>
+      <title>Category</title>
       <link>https://www.gtdstudy.com/categories/category/</link>
       <pubDate>Sat, 15 Aug 2020 19:49:42 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/categories/category/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
-      <title>subcategory</title>
+      <title>Subcategory</title>
       <link>https://www.gtdstudy.com/categories/subcategory/</link>
       <pubDate>Sat, 15 Aug 2020 19:49:42 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/categories/subcategory/</guid>
       <description></description>
+      <content></content>
     </item>
     
   </channel>

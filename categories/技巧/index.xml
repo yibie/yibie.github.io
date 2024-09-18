@@ -1,64 +1,232 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>技巧 on 学无止境</title>
+    <title>技巧 on Space Looming</title>
     <link>https://www.gtdstudy.com/categories/%E6%8A%80%E5%B7%A7/</link>
-    <description>Recent content in 技巧 on 学无止境</description>
+    <description>Recent content in 技巧 on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 10 Sep 2022 23:06:59 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/categories/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>最近学习 Lisp 进度顺利</title>
-      <link>https://www.gtdstudy.com/post/about-learning-lisp/</link>
+      <link>https://www.gtdstudy.com/posts/about-learning-lisp/</link>
       <pubDate>Sat, 10 Sep 2022 23:06:59 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/post/about-learning-lisp/</guid>
-      <description>近期更换了学习 lisp 的教材，进度可喜可贺，虽不能独立写出 package，然而在看 lisp 的代码时，开始具备一定的阅读能力，知道是什么顺序，大概会是什么</description>
+      <guid>https://www.gtdstudy.com/posts/about-learning-lisp/</guid>
+      <description>&lt;p&gt;近期更换了学习 lisp 的教材，进度可喜可贺，虽不能独立写出 package，然而在看 lisp 的代码时，开始具备一定的阅读能力，知道是什么顺序，大概会是什么作用。如果不知道，还可以直接查询函数。&lt;/p&gt;
+&lt;p&gt;近期的学习教材主要是《Practical Common Lisp》，我认为它的安排很好，一上来先教人安装了 lisp 的生产环境之后，就直接以一个「专辑数据库」为例子，让人直接上手，并从一步步的步骤中，理解自己所编写的代码，如何变成程序。对于一名非程序员来说，这种方式，可以很快地通过实操来理解代码的作用，找到感觉。&lt;/p&gt;
+&lt;p&gt;这和学习《 ANSI Common Lisp 中文版》的感受大不一样。ANSI Common Lisp，非常完整，十分细致，甚至有后面的练习题，来帮助人深入思考。但它太学术了，在学习过程中，总是不知道学了之后，用这些语法或函数能发挥什么作用。&lt;/p&gt;
+&lt;p&gt;所以我现在是《Practical Common Lisp》和 《 ANSI Common Lisp 中文版》一起结合来看。首先阅读前者，通过前者举的例子，来理解逻辑；而函数实际应用的细节，则查询后者——在逻辑理解了的情况下，阅读后者，往往很快就能理解，而且能够有一定的发散。这样子学，记得牢，学得快。&lt;/p&gt;</description>
+      <content>&lt;p&gt;近期更换了学习 lisp 的教材，进度可喜可贺，虽不能独立写出 package，然而在看 lisp 的代码时，开始具备一定的阅读能力，知道是什么顺序，大概会是什么作用。如果不知道，还可以直接查询函数。&lt;/p&gt;
+&lt;p&gt;近期的学习教材主要是《Practical Common Lisp》，我认为它的安排很好，一上来先教人安装了 lisp 的生产环境之后，就直接以一个「专辑数据库」为例子，让人直接上手，并从一步步的步骤中，理解自己所编写的代码，如何变成程序。对于一名非程序员来说，这种方式，可以很快地通过实操来理解代码的作用，找到感觉。&lt;/p&gt;
+&lt;p&gt;这和学习《 ANSI Common Lisp 中文版》的感受大不一样。ANSI Common Lisp，非常完整，十分细致，甚至有后面的练习题，来帮助人深入思考。但它太学术了，在学习过程中，总是不知道学了之后，用这些语法或函数能发挥什么作用。&lt;/p&gt;
+&lt;p&gt;所以我现在是《Practical Common Lisp》和 《 ANSI Common Lisp 中文版》一起结合来看。首先阅读前者，通过前者举的例子，来理解逻辑；而函数实际应用的细节，则查询后者——在逻辑理解了的情况下，阅读后者，往往很快就能理解，而且能够有一定的发散。这样子学，记得牢，学得快。&lt;/p&gt;
+</content>
     </item>
     
     <item>
       <title>如何在 M1 MacBook 上玩游戏</title>
-      <link>https://www.gtdstudy.com/post/how-to-play-games-with-m1-macbook/</link>
+      <link>https://www.gtdstudy.com/posts/how-to-play-games-with-m1-macbook/</link>
       <pubDate>Fri, 09 Sep 2022 16:53:38 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/post/how-to-play-games-with-m1-macbook/</guid>
-      <description>因为把 Switch 留在了深圳，我不得不开发在 MacBook 上玩游戏的技能。 Windows 游戏 直接下载 Steam 的 Mac 版，会失望的发现，很多好玩的游戏，平台只支持 Windows。所以，参</description>
+      <guid>https://www.gtdstudy.com/posts/how-to-play-games-with-m1-macbook/</guid>
+      <description>&lt;p&gt;因为把 Switch 留在了深圳，我不得不开发在 MacBook 上玩游戏的技能。&lt;/p&gt;
+&lt;h2 id=&#34;windows-游戏&#34;&gt;Windows 游戏&lt;/h2&gt;
+&lt;p&gt;直接下载 Steam 的 Mac 版，会失望的发现，很多好玩的游戏，平台只支持 Windows。所以，参考 2 条哔哩哔哩的视频教程，一步一步跟着走：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1yZ4y1D74K?vd_source=1f7b4ab69df0282a1f07c30f52428cfa&#34;&gt;【Mac 玩游戏】Crossover 21.1 教程 安装最新的 DXVK 玩 Windows 游戏&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;阿婆主叫 js-john，是一名旅居日本的程序员，他还做了一个叫 &lt;a href=&#34;https://isign.ren/#/&#34;&gt;iSign签名网&lt;/a&gt; 的网站，帮人安装 App Store 以外的 App，而且可以帮助苹果开发者分成。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://space.bilibili.com/131564072/channel/collectiondetail?sid=604200&#34;&gt;处之漠然的 CrossOver 教程合集&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;阿婆主叫「处之漠然」，她的教程非常详细，如果担心自己的步骤出错了，可以对照着做。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;要点&#34;&gt;要点&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CrossOver 需付费购买，自行准备好钱钱钱。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CrossOver 要从海外官网购买和下载，地址在 &lt;a href=&#34;https://www.codeweavers.com/&#34;&gt;CodeWeavers&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;国内版是海外版的阉割版，功能不全，为了避免意外发生，最好是下载海外版。&lt;/p&gt;
+&lt;p&gt;由于点击官网的购买按钮，会跳转到中文购买页面，请自备梯子，并开启全局模式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;必须更新视频中提到的 2 个插件：&lt;/p&gt;
+&lt;p&gt;DXVK：&lt;a href=&#34;https://github.com/marzent/dxvk/releases&#34;&gt;https://github.com/marzent/dxvk/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MoltenVK：&lt;a href=&#34;https://github.com/Gcenx/MoltenVK/releases&#34;&gt;https://github.com/Gcenx/MoltenVK/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上不了 Github 的得自己想办法。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;关于游戏兼容性，可以查：
+&lt;a href=&#34;https://www.applegamingwiki.com/wiki/Home&#34;&gt;https://www.applegamingwiki.com/wiki/Home&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;one-more-thing&#34;&gt;one more thing…&lt;/h3&gt;
+&lt;p&gt;很神奇的是，用 Windows 虚拟机来玩游戏，要比 macOS 原生的流畅多了，发热也不严重。&lt;/p&gt;
+&lt;p&gt;只能说，大部分游戏对 macOS 的优化做得很差。&lt;/p&gt;
+&lt;h2 id=&#34;主机游戏&#34;&gt;主机游戏&lt;/h2&gt;
+&lt;p&gt;除了 PC 大作之外，也可以考虑主机游戏，很多经典神作让玩家沉浸在无与伦比的体验中，值得一再回味。比如我之前沉迷的《皇家骑士团 2》。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/OpenEmu/OpenEmu&#34;&gt;OpenEmu: 🕹 Retro video game emulation for macOS&lt;/a&gt;&lt;/p&gt;</description>
+      <content>&lt;p&gt;因为把 Switch 留在了深圳，我不得不开发在 MacBook 上玩游戏的技能。&lt;/p&gt;
+&lt;h2 id=&#34;windows-游戏&#34;&gt;Windows 游戏&lt;/h2&gt;
+&lt;p&gt;直接下载 Steam 的 Mac 版，会失望的发现，很多好玩的游戏，平台只支持 Windows。所以，参考 2 条哔哩哔哩的视频教程，一步一步跟着走：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1yZ4y1D74K?vd_source=1f7b4ab69df0282a1f07c30f52428cfa&#34;&gt;【Mac 玩游戏】Crossover 21.1 教程 安装最新的 DXVK 玩 Windows 游戏&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;阿婆主叫 js-john，是一名旅居日本的程序员，他还做了一个叫 &lt;a href=&#34;https://isign.ren/#/&#34;&gt;iSign签名网&lt;/a&gt; 的网站，帮人安装 App Store 以外的 App，而且可以帮助苹果开发者分成。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://space.bilibili.com/131564072/channel/collectiondetail?sid=604200&#34;&gt;处之漠然的 CrossOver 教程合集&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;阿婆主叫「处之漠然」，她的教程非常详细，如果担心自己的步骤出错了，可以对照着做。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;要点&#34;&gt;要点&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CrossOver 需付费购买，自行准备好钱钱钱。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CrossOver 要从海外官网购买和下载，地址在 &lt;a href=&#34;https://www.codeweavers.com/&#34;&gt;CodeWeavers&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;国内版是海外版的阉割版，功能不全，为了避免意外发生，最好是下载海外版。&lt;/p&gt;
+&lt;p&gt;由于点击官网的购买按钮，会跳转到中文购买页面，请自备梯子，并开启全局模式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;必须更新视频中提到的 2 个插件：&lt;/p&gt;
+&lt;p&gt;DXVK：&lt;a href=&#34;https://github.com/marzent/dxvk/releases&#34;&gt;https://github.com/marzent/dxvk/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MoltenVK：&lt;a href=&#34;https://github.com/Gcenx/MoltenVK/releases&#34;&gt;https://github.com/Gcenx/MoltenVK/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上不了 Github 的得自己想办法。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;关于游戏兼容性，可以查：
+&lt;a href=&#34;https://www.applegamingwiki.com/wiki/Home&#34;&gt;https://www.applegamingwiki.com/wiki/Home&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;one-more-thing&#34;&gt;one more thing…&lt;/h3&gt;
+&lt;p&gt;很神奇的是，用 Windows 虚拟机来玩游戏，要比 macOS 原生的流畅多了，发热也不严重。&lt;/p&gt;
+&lt;p&gt;只能说，大部分游戏对 macOS 的优化做得很差。&lt;/p&gt;
+&lt;h2 id=&#34;主机游戏&#34;&gt;主机游戏&lt;/h2&gt;
+&lt;p&gt;除了 PC 大作之外，也可以考虑主机游戏，很多经典神作让玩家沉浸在无与伦比的体验中，值得一再回味。比如我之前沉迷的《皇家骑士团 2》。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/OpenEmu/OpenEmu&#34;&gt;OpenEmu: 🕹 Retro video game emulation for macOS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;神器，支持的老主机特别多，如果是喜欢玩老游戏的，直接入它。缺点是不支持 PS2、PS3 等比较新的主机。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1uB4y127WM?vd_source=1f7b4ab69df0282a1f07c30f52428cfa&#34;&gt;【Mac 玩游戏】以太模拟器现已推出 Apple Silicon Mac 版本 PS2 模拟器&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PS 2 模拟器就用它，流畅。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://rpcs3.net/&#34;&gt;RPCS3 - The PlayStation 3 Emulator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PS3 模拟器，今年更新了支持 M1 的版本。尚未尝试。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ko7rV18Wkig&#34;&gt;SWITCH EMULATION on Mac! Horizon OS gaming progress on M1/M2 Apple Silicon - &amp;hellip;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;还没在 M1 MacBook 上尝试过玩 Switch 游戏，大家可以看看这个视频，实现方式挺曲折的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;云游戏&#34;&gt;云游戏&lt;/h2&gt;
+&lt;p&gt;忘了提，其实还有腾讯 START、微软 XGPU 等云游戏服务，不用占太多硬盘空间，对于普遍硬盘空间狭小的 MacBook 而言，也是比较合适的。&lt;/p&gt;
+&lt;p&gt;只不过，我一般处于一个网络条件比较差的地方，也就没有太多深入尝试。&lt;/p&gt;
+</content>
     </item>
     
     <item>
       <title>PhotoShop：如何画优美的曲线</title>
-      <link>https://www.gtdstudy.com/post/how-to-draw-bezier-curve/</link>
+      <link>https://www.gtdstudy.com/posts/how-to-draw-bezier-curve/</link>
       <pubDate>Sun, 08 May 2022 23:23:16 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/post/how-to-draw-bezier-curve/</guid>
-      <description>原来 PhotoShop 里的钢笔工具，是贝济埃曲线（又称贝塞尔曲线）的应用，所以用好钢笔工具，应该用符合绘制贝济埃曲线的方法，这样子会比较容易得到好的结果。 通</description>
+      <guid>https://www.gtdstudy.com/posts/how-to-draw-bezier-curve/</guid>
+      <description>&lt;p&gt;原来 PhotoShop 里的钢笔工具，是贝济埃曲线（又称贝塞尔曲线）的应用，所以用好钢笔工具，应该用符合绘制贝济埃曲线的方法，这样子会比较容易得到好的结果。&lt;/p&gt;
+&lt;p&gt;通过 B 站的 &lt;a href=&#34;https://www.bilibili.com/video/BV19i4y1c76i/?spm_id_from=autoNext&#34;&gt;oooooohmygosh&lt;/a&gt; 学习到，画贝济埃曲线的规范：
+1、尽量让节点放在「极值点」的位置
+2、让节点和手柄保持水平或垂直对齐&lt;/p&gt;
+&lt;p&gt;这样只需要调整手柄长度，拟合自己想要的曲率。&lt;/p&gt;
+&lt;h2 id=&#34;小知识&#34;&gt;小知识&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/1091769&#34;&gt;贝塞尔曲线&lt;/a&gt;于 1962，由法国工程师皮埃尔·贝塞尔（Pierre Bézier）所广泛发表，他运用贝塞尔曲线来为汽车的主体进行设计。贝塞尔曲线最初由 Paul de Casteljau 于 1959 年运用 de Casteljau 演算法开发，以稳定数值的方法求出贝兹曲线。中文名贝塞尔曲线外文名(Bézier curve&lt;/p&gt;</description>
+      <content>&lt;p&gt;原来 PhotoShop 里的钢笔工具，是贝济埃曲线（又称贝塞尔曲线）的应用，所以用好钢笔工具，应该用符合绘制贝济埃曲线的方法，这样子会比较容易得到好的结果。&lt;/p&gt;
+&lt;p&gt;通过 B 站的 &lt;a href=&#34;https://www.bilibili.com/video/BV19i4y1c76i/?spm_id_from=autoNext&#34;&gt;oooooohmygosh&lt;/a&gt; 学习到，画贝济埃曲线的规范：
+1、尽量让节点放在「极值点」的位置
+2、让节点和手柄保持水平或垂直对齐&lt;/p&gt;
+&lt;p&gt;这样只需要调整手柄长度，拟合自己想要的曲率。&lt;/p&gt;
+&lt;h2 id=&#34;小知识&#34;&gt;小知识&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/1091769&#34;&gt;贝塞尔曲线&lt;/a&gt;于 1962，由法国工程师皮埃尔·贝塞尔（Pierre Bézier）所广泛发表，他运用贝塞尔曲线来为汽车的主体进行设计。贝塞尔曲线最初由 Paul de Casteljau 于 1959 年运用 de Casteljau 演算法开发，以稳定数值的方法求出贝兹曲线。中文名贝塞尔曲线外文名(Bézier curve&lt;/p&gt;
+</content>
     </item>
     
     <item>
       <title>Wi-F：如何寻找 Wi-Fi 密码</title>
-      <link>https://www.gtdstudy.com/post/how-to-find-wifi-password/</link>
+      <link>https://www.gtdstudy.com/posts/how-to-find-wifi-password/</link>
       <pubDate>Sun, 08 May 2022 23:12:32 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/post/how-to-find-wifi-password/</guid>
-      <description>Windows 进入 “网络和共享中心” 菜单。右键单击 Wi-Fi 网络连接图标→“无线网络属性”。点击 “显示字符” 字段，显示 Wi-Fi 网络密码。 macOS 所有密码都存储在钥匙串应用程</description>
+      <guid>https://www.gtdstudy.com/posts/how-to-find-wifi-password/</guid>
+      <description>&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+&lt;p&gt;进入 “网络和共享中心” 菜单。右键单击 Wi-Fi 网络连接图标→“无线网络属性”。点击 “显示字符” 字段，显示 Wi-Fi 网络密码。&lt;/p&gt;
+&lt;h2 id=&#34;macos&#34;&gt;macOS&lt;/h2&gt;
+&lt;p&gt;所有密码都存储在钥匙串应用程序中。使用 Spotlight 搜索 “Keychain Access”。打开该应用程序，在保存的凭证列表中找到 Wi-Fi 网络名称。双击它，然后在字段中点击查看密码（这需要输入操作系统密码）。&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+&lt;p&gt;进入 “网络和共享中心” 菜单。右键单击 Wi-Fi 网络连接图标→“无线网络属性”。点击 “显示字符” 字段，显示 Wi-Fi 网络密码。&lt;/p&gt;
+&lt;h2 id=&#34;macos&#34;&gt;macOS&lt;/h2&gt;
+&lt;p&gt;所有密码都存储在钥匙串应用程序中。使用 Spotlight 搜索 “Keychain Access”。打开该应用程序，在保存的凭证列表中找到 Wi-Fi 网络名称。双击它，然后在字段中点击查看密码（这需要输入操作系统密码）。&lt;/p&gt;
+</content>
     </item>
     
     <item>
       <title>图床：把 Github 当做博客图床</title>
-      <link>https://www.gtdstudy.com/post/how-to-make-github-to-be-your-blog-image-server/</link>
+      <link>https://www.gtdstudy.com/posts/how-to-make-github-to-be-your-blog-image-server/</link>
       <pubDate>Fri, 04 Feb 2022 11:37:52 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/post/how-to-make-github-to-be-your-blog-image-server/</guid>
-      <description>我之前的博客基本以纯文字为主，但最近因为博客新开了「产品」和「技巧」这两个分类，为了「把事情说明白」，发现还是需要「文字+图片」。由于本博客</description>
+      <guid>https://www.gtdstudy.com/posts/how-to-make-github-to-be-your-blog-image-server/</guid>
+      <description>&lt;p&gt;我之前的博客基本以纯文字为主，但最近因为博客新开了「产品」和「技巧」这两个分类，为了「把事情说明白」，发现还是需要「文字+图片」。由于本博客没有采用博客服务（比如 WordPress），就存在图片放哪儿的问题。&lt;/p&gt;
+&lt;p&gt;幸运的是，我发现通过 PicGo 可以方便地将图片上传到 Github 上，只需要自己设置一个「仓库」，生成「token」即可。&lt;/p&gt;
+&lt;p&gt;1、首先，注册一个 Github 账号&lt;/p&gt;
+&lt;p&gt;2、新设一个仓库（New repository），或在原有的仓库之下，设立一个新的分支（New repo）。参考&lt;a href=&#34;https://raw.githubusercontent.com/yibie/blogimag/main/%E6%88%AA%E5%B1%8F2022-02-04%20%E4%B8%8A%E5%8D%8811.03.27.png&#34;&gt;图片&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;3、生成一个 token，生成一个 token 时，需要把「repo」选项全部勾上。参考 PicGo 的&lt;a href=&#34;https://picgo.github.io/PicGo-Doc/zh/guide/config.html#github%E5%9B%BE%E5%BA%8A&#34;&gt;教程&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;4、打开 PicGo 详细窗口，把 Github 作为图床选上。&lt;/p&gt;
+&lt;p&gt;以后需要的图片，就只需要拖动到 PicGo 的上传窗口，就能自动获取图片链接——PicGo 还支持直接导出 MarkDown 或 HTML 等格式。&lt;/p&gt;</description>
+      <content>&lt;p&gt;我之前的博客基本以纯文字为主，但最近因为博客新开了「产品」和「技巧」这两个分类，为了「把事情说明白」，发现还是需要「文字+图片」。由于本博客没有采用博客服务（比如 WordPress），就存在图片放哪儿的问题。&lt;/p&gt;
+&lt;p&gt;幸运的是，我发现通过 PicGo 可以方便地将图片上传到 Github 上，只需要自己设置一个「仓库」，生成「token」即可。&lt;/p&gt;
+&lt;p&gt;1、首先，注册一个 Github 账号&lt;/p&gt;
+&lt;p&gt;2、新设一个仓库（New repository），或在原有的仓库之下，设立一个新的分支（New repo）。参考&lt;a href=&#34;https://raw.githubusercontent.com/yibie/blogimag/main/%E6%88%AA%E5%B1%8F2022-02-04%20%E4%B8%8A%E5%8D%8811.03.27.png&#34;&gt;图片&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;3、生成一个 token，生成一个 token 时，需要把「repo」选项全部勾上。参考 PicGo 的&lt;a href=&#34;https://picgo.github.io/PicGo-Doc/zh/guide/config.html#github%E5%9B%BE%E5%BA%8A&#34;&gt;教程&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;4、打开 PicGo 详细窗口，把 Github 作为图床选上。&lt;/p&gt;
+&lt;p&gt;以后需要的图片，就只需要拖动到 PicGo 的上传窗口，就能自动获取图片链接——PicGo 还支持直接导出 MarkDown 或 HTML 等格式。&lt;/p&gt;
+</content>
     </item>
     
     <item>
       <title>PhotoShop：通过「色彩范围」工具来快速抠图的方法</title>
-      <link>https://www.gtdstudy.com/post/photoshop-tips-1-fast-cutout/</link>
+      <link>https://www.gtdstudy.com/posts/photoshop-tips-1-fast-cutout/</link>
       <pubDate>Sat, 29 Jan 2022 20:28:54 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/post/photoshop-tips-1-fast-cutout/</guid>
-      <description>今天看了少数派的《Keynote 贺卡制作指南》，用里面的 PhotoShop 抠图小技巧，顺利地制作了属于自己的拜年贺卡。 技巧记录如下： 将图片导入 PhotoShop 在图层工具栏</description>
+      <guid>https://www.gtdstudy.com/posts/photoshop-tips-1-fast-cutout/</guid>
+      <description>&lt;p&gt;今天看了少数派的《&lt;a href=&#34;https://sspai.com/post/71224&#34;&gt;Keynote 贺卡制作指南&lt;/a&gt;》，用里面的 PhotoShop 抠图小技巧，顺利地制作了属于自己的拜年贺卡。&lt;/p&gt;
+&lt;p&gt;技巧记录如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将图片导入 PhotoShop&lt;/li&gt;
+&lt;li&gt;在图层工具栏里，解锁图层&lt;/li&gt;
+&lt;li&gt;然后在「选择」菜单下找到「色彩范围」&lt;/li&gt;
+&lt;li&gt;唤出「色彩范围」工具栏之后，把拾色器放在抠图的对象上&lt;/li&gt;
+&lt;li&gt;如果发现要抠的对象，在工具栏下方的预览里显示，并不完全&lt;/li&gt;
+&lt;li&gt;可调整「色彩范围」工具栏里的「颜色容差」的数值，直到预览里展示完全&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;该技巧有局限性，它比较适合抠那种纯色的东西，比如 LOGO、ICON 等等，如果是色彩丰富一点的，就不行了。&lt;/p&gt;</description>
+      <content>&lt;p&gt;今天看了少数派的《&lt;a href=&#34;https://sspai.com/post/71224&#34;&gt;Keynote 贺卡制作指南&lt;/a&gt;》，用里面的 PhotoShop 抠图小技巧，顺利地制作了属于自己的拜年贺卡。&lt;/p&gt;
+&lt;p&gt;技巧记录如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将图片导入 PhotoShop&lt;/li&gt;
+&lt;li&gt;在图层工具栏里，解锁图层&lt;/li&gt;
+&lt;li&gt;然后在「选择」菜单下找到「色彩范围」&lt;/li&gt;
+&lt;li&gt;唤出「色彩范围」工具栏之后，把拾色器放在抠图的对象上&lt;/li&gt;
+&lt;li&gt;如果发现要抠的对象，在工具栏下方的预览里显示，并不完全&lt;/li&gt;
+&lt;li&gt;可调整「色彩范围」工具栏里的「颜色容差」的数值，直到预览里展示完全&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;该技巧有局限性，它比较适合抠那种纯色的东西，比如 LOGO、ICON 等等，如果是色彩丰富一点的，就不行了。&lt;/p&gt;
+</content>
     </item>
     
   </channel>

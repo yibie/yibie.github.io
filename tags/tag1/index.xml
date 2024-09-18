@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tag1 on 学无止境</title>
+    <title>Tag1 on Space Looming</title>
     <link>https://www.gtdstudy.com/tags/tag1/</link>
-    <description>Recent content in tag1 on 学无止境</description>
+    <description>Recent content in Tag1 on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 15 Aug 2020 19:49:42 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome</title>
-      <link>https://www.gtdstudy.com/post/welcome/</link>
+      <link>https://www.gtdstudy.com/posts/welcome/</link>
       <pubDate>Sat, 15 Aug 2020 19:49:42 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/post/welcome/</guid>
+      <guid>https://www.gtdstudy.com/posts/welcome/</guid>
       <description></description>
+      <content></content>
     </item>
     
   </channel>

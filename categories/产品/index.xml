@@ -1,46 +1,146 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>产品 on 学无止境</title>
+    <title>产品 on Space Looming</title>
     <link>https://www.gtdstudy.com/categories/%E4%BA%A7%E5%93%81/</link>
-    <description>Recent content in 产品 on 学无止境</description>
+    <description>Recent content in 产品 on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 May 2022 19:42:19 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/categories/%E4%BA%A7%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>表格：Rows，可以与互联网服务打通的线上表格工具</title>
-      <link>https://www.gtdstudy.com/post/rows-a-web-base-spreadsheet-for-markting/</link>
+      <link>https://www.gtdstudy.com/posts/rows-a-web-base-spreadsheet-for-markting/</link>
       <pubDate>Sun, 29 May 2022 19:42:19 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/post/rows-a-web-base-spreadsheet-for-markting/</guid>
-      <description>网址：https://rows.com/ 定位 Rows 是面向市场营销人员的线上表格工具，强调与社交媒体融合， 可以实时的获取相关的数据，比如关注数多寡</description>
+      <guid>https://www.gtdstudy.com/posts/rows-a-web-base-spreadsheet-for-markting/</guid>
+      <description>&lt;p&gt;网址：&lt;a href=&#34;https://rows.com/&#34;&gt;https://rows.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;定位&#34;&gt;定位&lt;/h2&gt;
+&lt;p&gt;Rows 是面向市场营销人员的线上表格工具，强调与社交媒体融合， 可以实时的获取相关的数据，比如关注数多寡，点赞量多寡等。&lt;/p&gt;
+&lt;p&gt;也可以充当爬虫，比如说，它可以和 Linkedin 结合，根据数据标签直接检索出相关的结果，直接得到。例子在&lt;a href=&#34;https://rows.com/startup-study/my-spreadsheets/50-fastest-growing-startups-in-portugal-2f5cmpUL7jJfGGR2mMEuWY/live&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;使用体验&#34;&gt;使用体验&lt;/h2&gt;
+&lt;p&gt;类似苹果自己出的 Numbers，同一个 sheet 里面可以显示多个表单。基于自己的功能，开发了不同的公式，可以灵活运用。&lt;/p&gt;
+&lt;p&gt;Rows 还可以直接根据数据，直接生成图表，展示在数据表的下方，更加直观。&lt;/p&gt;
+&lt;h2 id=&#34;与-airtable-的差异&#34;&gt;与 Airtable 的差异&lt;/h2&gt;
+&lt;p&gt;Rows 整合了社交媒体，比如 Twitter、Facebook 的同步器（integration），而 Airtable 也有。那么它们的异同在哪里？&lt;/p&gt;
+&lt;p&gt;先看看 Airtable 的 Twitter 同步器&lt;a href=&#34;https://www.airtable.com/integrations/twitter&#34;&gt;例子&lt;/a&gt;，它更关注可以获取的内容，却没有关注量等方面的数据。而 Rows 则不关注内容，而是关注数据。&lt;/p&gt;
+&lt;p&gt;另外，Rows 根据数据会直接生成图表，让人直接明确看到数据的变化。可以说，和 Airtable 相比，Rows 确实更加针对市场营销人员来设计。&lt;/p&gt;</description>
+      <content>&lt;p&gt;网址：&lt;a href=&#34;https://rows.com/&#34;&gt;https://rows.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;定位&#34;&gt;定位&lt;/h2&gt;
+&lt;p&gt;Rows 是面向市场营销人员的线上表格工具，强调与社交媒体融合， 可以实时的获取相关的数据，比如关注数多寡，点赞量多寡等。&lt;/p&gt;
+&lt;p&gt;也可以充当爬虫，比如说，它可以和 Linkedin 结合，根据数据标签直接检索出相关的结果，直接得到。例子在&lt;a href=&#34;https://rows.com/startup-study/my-spreadsheets/50-fastest-growing-startups-in-portugal-2f5cmpUL7jJfGGR2mMEuWY/live&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;使用体验&#34;&gt;使用体验&lt;/h2&gt;
+&lt;p&gt;类似苹果自己出的 Numbers，同一个 sheet 里面可以显示多个表单。基于自己的功能，开发了不同的公式，可以灵活运用。&lt;/p&gt;
+&lt;p&gt;Rows 还可以直接根据数据，直接生成图表，展示在数据表的下方，更加直观。&lt;/p&gt;
+&lt;h2 id=&#34;与-airtable-的差异&#34;&gt;与 Airtable 的差异&lt;/h2&gt;
+&lt;p&gt;Rows 整合了社交媒体，比如 Twitter、Facebook 的同步器（integration），而 Airtable 也有。那么它们的异同在哪里？&lt;/p&gt;
+&lt;p&gt;先看看 Airtable 的 Twitter 同步器&lt;a href=&#34;https://www.airtable.com/integrations/twitter&#34;&gt;例子&lt;/a&gt;，它更关注可以获取的内容，却没有关注量等方面的数据。而 Rows 则不关注内容，而是关注数据。&lt;/p&gt;
+&lt;p&gt;另外，Rows 根据数据会直接生成图表，让人直接明确看到数据的变化。可以说，和 Airtable 相比，Rows 确实更加针对市场营销人员来设计。&lt;/p&gt;
+</content>
     </item>
     
     <item>
       <title>苹果：Mac Studio 为何不能更换普通的 SSD 硬盘</title>
-      <link>https://www.gtdstudy.com/post/why-mac-studio-can-not-change-ssds/</link>
+      <link>https://www.gtdstudy.com/posts/why-mac-studio-can-not-change-ssds/</link>
       <pubDate>Sat, 26 Mar 2022 23:04:47 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/post/why-mac-studio-can-not-change-ssds/</guid>
-      <description>极客风范浓厚醇正的 ArsTechnica 也注意到 Mac Studio 不能随意更换 SSD 硬盘一事。它给出了一个很简单的答案： 所有 SSD 硬盘的结构至少包含 2 样东西，用于存储数据 NAND 芯片和 SSD 控</description>
+      <guid>https://www.gtdstudy.com/posts/why-mac-studio-can-not-change-ssds/</guid>
+      <description>&lt;p&gt;极客风范浓厚醇正的 &lt;a href=&#34;https://arstechnica.com/gadgets/2022/03/explaining-the-mac-studios-removable-ssds-and-why-you-cant-just-swap-them-out/&#34;&gt;ArsTechnica&lt;/a&gt; 也注意到 Mac Studio 不能随意更换 SSD 硬盘一事。它给出了一个很简单的答案：&lt;/p&gt;
+&lt;p&gt;所有 SSD 硬盘的结构至少包含 2 样东西，用于存储数据 NAND 芯片和 SSD 控制芯片。在 PC 上，SSD 硬盘基本都包含这两样，所以它们更换起来很方便。&lt;/p&gt;
+&lt;p&gt;但苹果在推出 T2 芯片之后，选择「功能集成到一个芯片里」，SSD 控制芯片的功能也不例外，被苹果集成在 T2，以及后续的 M1 系列里。&lt;/p&gt;
+&lt;p&gt;所以，Mac Studio 上的 SSD 硬盘，只有 NANO 芯片外加一个称为「raw NAND controller/bridge」的东西。而在实际测试的时候，即便采用和 Mac Studio 同样 NANO 芯片的 SSD 硬盘，Mac Studio 也无法识别。因此，很有可能 M1 里所设计的 SSD 控制功能，是将特定的 NAND 芯片和特定的系统设置搭配起来。因此，哪一方面不一致，都会导致 Mac Studio 无法识别 SSD 硬盘。&lt;/p&gt;
+&lt;p&gt;其实 Mac Studio 不能更换普通的 SSD 硬盘，并非什么大事，但我之所以感兴趣，是发现苹果的软硬结合达到了一个新的高度。M1 系列，我认为是奠定苹果在硬件方面进行创新的平台，然而，苹果并不单纯追求更快更强，而是不断尝试通过软件来定义硬件的功能，比如 Hand-On、AirPods 上特定推出的空间音频等等。这要求硬件本身功能具备平台性，可编程性——我想这是为什么苹果从 2011 年开始不断投入，研发芯片的原因。&lt;/p&gt;
+&lt;p&gt;以芯片作为平台，通过软件开发、定义、控制硬件的功能，这让苹果的创新具备更强的独特性，以及广泛性——从 M1 系列开始，苹果可以说，超越当今整整一个时代。&lt;/p&gt;</description>
+      <content>&lt;p&gt;极客风范浓厚醇正的 &lt;a href=&#34;https://arstechnica.com/gadgets/2022/03/explaining-the-mac-studios-removable-ssds-and-why-you-cant-just-swap-them-out/&#34;&gt;ArsTechnica&lt;/a&gt; 也注意到 Mac Studio 不能随意更换 SSD 硬盘一事。它给出了一个很简单的答案：&lt;/p&gt;
+&lt;p&gt;所有 SSD 硬盘的结构至少包含 2 样东西，用于存储数据 NAND 芯片和 SSD 控制芯片。在 PC 上，SSD 硬盘基本都包含这两样，所以它们更换起来很方便。&lt;/p&gt;
+&lt;p&gt;但苹果在推出 T2 芯片之后，选择「功能集成到一个芯片里」，SSD 控制芯片的功能也不例外，被苹果集成在 T2，以及后续的 M1 系列里。&lt;/p&gt;
+&lt;p&gt;所以，Mac Studio 上的 SSD 硬盘，只有 NANO 芯片外加一个称为「raw NAND controller/bridge」的东西。而在实际测试的时候，即便采用和 Mac Studio 同样 NANO 芯片的 SSD 硬盘，Mac Studio 也无法识别。因此，很有可能 M1 里所设计的 SSD 控制功能，是将特定的 NAND 芯片和特定的系统设置搭配起来。因此，哪一方面不一致，都会导致 Mac Studio 无法识别 SSD 硬盘。&lt;/p&gt;
+&lt;p&gt;其实 Mac Studio 不能更换普通的 SSD 硬盘，并非什么大事，但我之所以感兴趣，是发现苹果的软硬结合达到了一个新的高度。M1 系列，我认为是奠定苹果在硬件方面进行创新的平台，然而，苹果并不单纯追求更快更强，而是不断尝试通过软件来定义硬件的功能，比如 Hand-On、AirPods 上特定推出的空间音频等等。这要求硬件本身功能具备平台性，可编程性——我想这是为什么苹果从 2011 年开始不断投入，研发芯片的原因。&lt;/p&gt;
+&lt;p&gt;以芯片作为平台，通过软件开发、定义、控制硬件的功能，这让苹果的创新具备更强的独特性，以及广泛性——从 M1 系列开始，苹果可以说，超越当今整整一个时代。&lt;/p&gt;
+</content>
     </item>
     
     <item>
       <title>产品：橙心优选的关停，说明电商不是公式</title>
-      <link>https://www.gtdstudy.com/post/chengxinbestchoice-closed/</link>
+      <link>https://www.gtdstudy.com/posts/chengxinbestchoice-closed/</link>
       <pubDate>Sun, 06 Mar 2022 20:01:25 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/post/chengxinbestchoice-closed/</guid>
-      <description>滴滴此前开辟的新业务「橙心优选」彻底关停。我作为一名忠实的滴滴用户，拍手叫好。 公司开拓新业务，初心都是一样的，「赚钱」。那么，直接产生交易的</description>
+      <guid>https://www.gtdstudy.com/posts/chengxinbestchoice-closed/</guid>
+      <description>&lt;p&gt;滴滴此前开辟的新业务「橙心优选」彻底关停。我作为一名忠实的滴滴用户，拍手叫好。&lt;/p&gt;
+&lt;p&gt;公司开拓新业务，初心都是一样的，「赚钱」。那么，直接产生交易的「电商」往往是很多公司寄予厚望的方向。但是，互联网公司若不理解零售的逻辑，往往会犯下很严重的错误。在我看来，橙心优选是非常典型的例子。&lt;/p&gt;
+&lt;h2 id=&#34;为什么用户不愿意打开橙心优选&#34;&gt;为什么用户不愿意打开橙心优选？&lt;/h2&gt;
+&lt;p&gt;我对滴滴忠诚到什么地步呢？即便高德地图推出了更加便宜的叫车服务，我都不用，而宁愿继续使用滴滴。因此，当我听到滴滴要推橙心优选后，立马就在日常叫车的过程中体验到了。&lt;/p&gt;
+&lt;p&gt;但说实话，我完全不想点击橙心优选的页面。&lt;/p&gt;
+&lt;h4 id=&#34;用户难以切换认知&#34;&gt;用户难以切换认知&lt;/h4&gt;
+&lt;p&gt;一个叫车公司号召我在它的 App 里买东西，我要如何理解这件事情呢？我信任滴滴提供的叫车服务，但不代表我能够信任滴滴推出的一切服务。此外，为何我不选择已经存在的电商平台呢？淘宝天猫京东拼多多抖音唯品会，面对这些电商平台，橙心优选毫无优势。&lt;/p&gt;
+&lt;h4 id=&#34;过度干扰用户正常使用流程&#34;&gt;过度干扰用户正常使用流程&lt;/h4&gt;
+&lt;p&gt;在滴滴大力推广期间，橙心优选的体验越来越打扰。起初，进入滴滴的叫车页面时，橙心优选的页面，只是露出半截身子，吸引你去看它；后来，它干脆直接在你开始叫车前，直接插入自己的弹窗广告。你得把它叉掉了之后，才能点击叫车的按钮，特别恼火。&lt;/p&gt;
+&lt;h4 id=&#34;当一个人着急叫车时-他没兴趣看橙心优选&#34;&gt;当一个人着急叫车时，他没兴趣看橙心优选&lt;/h4&gt;
+&lt;p&gt;当一个人打算叫车时，实际上他的时间都是比较着急的；即便实际上时间宽裕，他的心理时间也是着急的。而橙心优选，就好像一个妓女，使劲对着急上厕所的嫖客搔首弄姿。用户不可能放弃自己打车的目的，而停下来一秒钟，来看橙心优选的页面。&lt;/p&gt;
+&lt;h2 id=&#34;橙心优选不应该把服务放在叫车之前&#34;&gt;橙心优选不应该把服务放在叫车之前&lt;/h2&gt;
+&lt;p&gt;把橙心优选的页面，粗暴地插入到用户叫车的流程之中，已知是失败的尝试。但是我从做产品的角度又可以理解这种安排的意图。因为滴滴是一个用过就走的 App，在叫完车之后，用户就不会再次打开滴滴，除非下一次叫车。只不过，用户在这里所实现的目的如此明确，养成的习惯如此高效，慢一点都不能。&lt;/p&gt;
+&lt;p&gt;总之，在用户着急的时候，不要和用户对着干。那么，在我们整个叫车过程中，什么时候心情是不着急的？就是刚好我上车之后。但是，如果用户用滴滴叫车之后，在下一次叫车之前就不会重复打开，橙心优选如何出现在用户上车之后呢？&lt;/p&gt;
+&lt;p&gt;我发现，滴滴此前在部分地区推广车内大屏，它主要用于播放广告，我在深圳叫车时见到不少。但从我第一次见到车内大屏，一直到现在，它上面播放的内容几乎没有变化，几乎没有广告主在上面进行投放。我的想法是，这个大屏是否可以再利用起来，为橙心优选服务？&lt;/p&gt;
+&lt;p&gt;这个想法暂时没有数据方面的支持。只不过，可以看到现在的新能源车厂很喜欢干重新定义车内空间这件事。此前，特斯拉的卡拉 OK 麦克风，上线第一天马上&lt;a href=&#34;http://gtdstudy.com/post/teslamic-sale-out/&#34;&gt;售罄了&lt;/a&gt;。这现象从侧面表明了，人上车之后，在到达目的地之前的这段时间里，无聊居多。橙心优选其实可以转换思路，将网约车的车内空间视为愉快的购物之旅。&lt;/p&gt;
+&lt;p&gt;当然，这样子切换之后，橙心优选就不可能是纯电商的体验，而有可能是电视购物广告的形式——在短时间内可以集中用户注意力，感到有趣的视频、音频的购物体验。&lt;/p&gt;
+&lt;h2 id=&#34;电商不是简单的-点击率-x-转化率&#34;&gt;电商不是简单的「点击率 x 转化率」&lt;/h2&gt;
+&lt;p&gt;不是随便一个互联网服务，加上一个卖货的模块，就能称之为「电商」。如果这么简单的话，中国的电商版图，不会这么多年下来，才多了几个竞争者。很多互联网公司对零售缺乏深刻认知的情况下，总以为电商就是「点击率 x 转化率」。&lt;/p&gt;
+&lt;p&gt;橙心优选的体验，从诞生到结束的过程中，变得越来越打扰，体现了对点击的渴望。但是如果用户不点击，那么就不是一个简单的按钮出现在哪里的问题。想把一个叫车服务变成购物场所，这中间跨越的鸿沟得多大？即便是腾讯，多次想把自己的社交工具往电商化的方向改造，然而也都经历了大量的挫折，一直到今天推出了视频号，也只能说走在电商化的路上，革命远远未成功。&lt;/p&gt;
+&lt;p&gt;零售有自己的逻辑，用户有自己的习惯，若是要在自己的业务逻辑中创造出对应的场景，就要顺应正确的逻辑和习惯。&lt;/p&gt;</description>
+      <content>&lt;p&gt;滴滴此前开辟的新业务「橙心优选」彻底关停。我作为一名忠实的滴滴用户，拍手叫好。&lt;/p&gt;
+&lt;p&gt;公司开拓新业务，初心都是一样的，「赚钱」。那么，直接产生交易的「电商」往往是很多公司寄予厚望的方向。但是，互联网公司若不理解零售的逻辑，往往会犯下很严重的错误。在我看来，橙心优选是非常典型的例子。&lt;/p&gt;
+&lt;h2 id=&#34;为什么用户不愿意打开橙心优选&#34;&gt;为什么用户不愿意打开橙心优选？&lt;/h2&gt;
+&lt;p&gt;我对滴滴忠诚到什么地步呢？即便高德地图推出了更加便宜的叫车服务，我都不用，而宁愿继续使用滴滴。因此，当我听到滴滴要推橙心优选后，立马就在日常叫车的过程中体验到了。&lt;/p&gt;
+&lt;p&gt;但说实话，我完全不想点击橙心优选的页面。&lt;/p&gt;
+&lt;h4 id=&#34;用户难以切换认知&#34;&gt;用户难以切换认知&lt;/h4&gt;
+&lt;p&gt;一个叫车公司号召我在它的 App 里买东西，我要如何理解这件事情呢？我信任滴滴提供的叫车服务，但不代表我能够信任滴滴推出的一切服务。此外，为何我不选择已经存在的电商平台呢？淘宝天猫京东拼多多抖音唯品会，面对这些电商平台，橙心优选毫无优势。&lt;/p&gt;
+&lt;h4 id=&#34;过度干扰用户正常使用流程&#34;&gt;过度干扰用户正常使用流程&lt;/h4&gt;
+&lt;p&gt;在滴滴大力推广期间，橙心优选的体验越来越打扰。起初，进入滴滴的叫车页面时，橙心优选的页面，只是露出半截身子，吸引你去看它；后来，它干脆直接在你开始叫车前，直接插入自己的弹窗广告。你得把它叉掉了之后，才能点击叫车的按钮，特别恼火。&lt;/p&gt;
+&lt;h4 id=&#34;当一个人着急叫车时-他没兴趣看橙心优选&#34;&gt;当一个人着急叫车时，他没兴趣看橙心优选&lt;/h4&gt;
+&lt;p&gt;当一个人打算叫车时，实际上他的时间都是比较着急的；即便实际上时间宽裕，他的心理时间也是着急的。而橙心优选，就好像一个妓女，使劲对着急上厕所的嫖客搔首弄姿。用户不可能放弃自己打车的目的，而停下来一秒钟，来看橙心优选的页面。&lt;/p&gt;
+&lt;h2 id=&#34;橙心优选不应该把服务放在叫车之前&#34;&gt;橙心优选不应该把服务放在叫车之前&lt;/h2&gt;
+&lt;p&gt;把橙心优选的页面，粗暴地插入到用户叫车的流程之中，已知是失败的尝试。但是我从做产品的角度又可以理解这种安排的意图。因为滴滴是一个用过就走的 App，在叫完车之后，用户就不会再次打开滴滴，除非下一次叫车。只不过，用户在这里所实现的目的如此明确，养成的习惯如此高效，慢一点都不能。&lt;/p&gt;
+&lt;p&gt;总之，在用户着急的时候，不要和用户对着干。那么，在我们整个叫车过程中，什么时候心情是不着急的？就是刚好我上车之后。但是，如果用户用滴滴叫车之后，在下一次叫车之前就不会重复打开，橙心优选如何出现在用户上车之后呢？&lt;/p&gt;
+&lt;p&gt;我发现，滴滴此前在部分地区推广车内大屏，它主要用于播放广告，我在深圳叫车时见到不少。但从我第一次见到车内大屏，一直到现在，它上面播放的内容几乎没有变化，几乎没有广告主在上面进行投放。我的想法是，这个大屏是否可以再利用起来，为橙心优选服务？&lt;/p&gt;
+&lt;p&gt;这个想法暂时没有数据方面的支持。只不过，可以看到现在的新能源车厂很喜欢干重新定义车内空间这件事。此前，特斯拉的卡拉 OK 麦克风，上线第一天马上&lt;a href=&#34;http://gtdstudy.com/post/teslamic-sale-out/&#34;&gt;售罄了&lt;/a&gt;。这现象从侧面表明了，人上车之后，在到达目的地之前的这段时间里，无聊居多。橙心优选其实可以转换思路，将网约车的车内空间视为愉快的购物之旅。&lt;/p&gt;
+&lt;p&gt;当然，这样子切换之后，橙心优选就不可能是纯电商的体验，而有可能是电视购物广告的形式——在短时间内可以集中用户注意力，感到有趣的视频、音频的购物体验。&lt;/p&gt;
+&lt;h2 id=&#34;电商不是简单的-点击率-x-转化率&#34;&gt;电商不是简单的「点击率 x 转化率」&lt;/h2&gt;
+&lt;p&gt;不是随便一个互联网服务，加上一个卖货的模块，就能称之为「电商」。如果这么简单的话，中国的电商版图，不会这么多年下来，才多了几个竞争者。很多互联网公司对零售缺乏深刻认知的情况下，总以为电商就是「点击率 x 转化率」。&lt;/p&gt;
+&lt;p&gt;橙心优选的体验，从诞生到结束的过程中，变得越来越打扰，体现了对点击的渴望。但是如果用户不点击，那么就不是一个简单的按钮出现在哪里的问题。想把一个叫车服务变成购物场所，这中间跨越的鸿沟得多大？即便是腾讯，多次想把自己的社交工具往电商化的方向改造，然而也都经历了大量的挫折，一直到今天推出了视频号，也只能说走在电商化的路上，革命远远未成功。&lt;/p&gt;
+&lt;p&gt;零售有自己的逻辑，用户有自己的习惯，若是要在自己的业务逻辑中创造出对应的场景，就要顺应正确的逻辑和习惯。&lt;/p&gt;
+</content>
     </item>
     
     <item>
       <title>产品：睛姿腮红眼镜让“戴眼镜=化妆”</title>
-      <link>https://www.gtdstudy.com/post/a-new-type-glasses-of-jins/</link>
+      <link>https://www.gtdstudy.com/posts/a-new-type-glasses-of-jins/</link>
       <pubDate>Mon, 31 Jan 2022 20:56:23 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/post/a-new-type-glasses-of-jins/</guid>
-      <description>博文新开一个名为「产品」的分类。用于记录我觉得好玩的新产品，同时也会附上我的点评。 根据日经中文网报道，日本的眼镜品牌晴姿开发了一种新型眼镜，</description>
+      <guid>https://www.gtdstudy.com/posts/a-new-type-glasses-of-jins/</guid>
+      <description>&lt;p&gt;博文新开一个名为「产品」的分类。用于记录我觉得好玩的新产品，同时也会附上我的点评。&lt;/p&gt;
+&lt;p&gt;根据&lt;a href=&#34;https://cn.nikkei.com/product/beautyahealth/47413-2022-01-26-05-00-12.html&#34;&gt;日经中文网&lt;/a&gt;报道，日本的眼镜品牌晴姿开发了一种新型眼镜，让女性消费者带上眼镜就自动拥有腮红妆，而不需要经过麻烦的化妆。&lt;/p&gt;
+&lt;p&gt;文中提到，韩国彩妆在日本流行，而且韩国彩妆的广告语是，「没时间的时候，只打腮红」。&lt;/p&gt;
+&lt;h2 id=&#34;产品的诞生来自一个问题-为什么只有女性不戴彩色镜片&#34;&gt;产品的诞生来自一个问题「为什么只有女性不戴彩色镜片？」&lt;/h2&gt;
+&lt;p&gt;睛姿的一位资深男员工问：“为什么只有女性不戴彩色镜片啊？”镜片部门的女员工回应称，日本人比欧美人更耐晒，也讨厌脸上留下眼镜的痕迹，可能没有需求。故事由此开始。&lt;/p&gt;
+&lt;p&gt;男员工又问：“那怎么才能创造出戴彩色眼镜的机会？”女员工给出的答案是做成“本身很可爱或者很好看的样子”。但这就遇到一个障碍，那就是最近日本的年轻女性戴彩色隐形眼镜，改变瞳孔的颜色。如果戴彩色眼镜，会妨碍彩色隐形眼镜。可能还是缺乏需求。&lt;/p&gt;
+&lt;p&gt;让睛资的这名男性员工改变思路的是一位快要生产的朋友的烦恼。女性进了医院，不能戴隐形眼镜，也不能化妆。这种情况下，彩色眼镜或许能派上用场。不过，传统的彩色镜片会遮住眼睛，因此会给人不自然的感觉。&lt;/p&gt;
+&lt;p&gt;此时，男员工想到了改变镜片彩色部分的位置。普通的彩色镜片要么整体一个颜色，要么颜色覆盖眼睛部分。有男员工表示，为了突出眼白，“把彩色部分放在镜片下部怎么样？”。&lt;/p&gt;
+&lt;p&gt;于是在镜片下部涂上指甲油，让女员工试戴。结果有了新发现，“黑眼圈遮住了”。负责镜片的女员工想起了关于化妆的格言——“没时间的时候，只打腮红”。&lt;/p&gt;
+&lt;h2 id=&#34;研发时必须和女性沟通&#34;&gt;研发时必须和女性沟通&lt;/h2&gt;
+&lt;p&gt;但睛姿在与镜片厂商沟通时却出现了问题，那就是调色。镜片厂商的男员工是专业做镜片的，很难理解睛姿提出的调色要求。跟他说：“蓝粉色”，对方却很难理解，简直不是开发镜片而是开发新化妆品。&lt;/p&gt;
+&lt;p&gt;镜片厂商把女员工拉进团队里，才终于能够顺畅沟通。做出来的是粉色、桃粉色、波尔多红 3 种镜片，在 2021 年 10 月上市销售。&lt;/p&gt;</description>
+      <content>&lt;p&gt;博文新开一个名为「产品」的分类。用于记录我觉得好玩的新产品，同时也会附上我的点评。&lt;/p&gt;
+&lt;p&gt;根据&lt;a href=&#34;https://cn.nikkei.com/product/beautyahealth/47413-2022-01-26-05-00-12.html&#34;&gt;日经中文网&lt;/a&gt;报道，日本的眼镜品牌晴姿开发了一种新型眼镜，让女性消费者带上眼镜就自动拥有腮红妆，而不需要经过麻烦的化妆。&lt;/p&gt;
+&lt;p&gt;文中提到，韩国彩妆在日本流行，而且韩国彩妆的广告语是，「没时间的时候，只打腮红」。&lt;/p&gt;
+&lt;h2 id=&#34;产品的诞生来自一个问题-为什么只有女性不戴彩色镜片&#34;&gt;产品的诞生来自一个问题「为什么只有女性不戴彩色镜片？」&lt;/h2&gt;
+&lt;p&gt;睛姿的一位资深男员工问：“为什么只有女性不戴彩色镜片啊？”镜片部门的女员工回应称，日本人比欧美人更耐晒，也讨厌脸上留下眼镜的痕迹，可能没有需求。故事由此开始。&lt;/p&gt;
+&lt;p&gt;男员工又问：“那怎么才能创造出戴彩色眼镜的机会？”女员工给出的答案是做成“本身很可爱或者很好看的样子”。但这就遇到一个障碍，那就是最近日本的年轻女性戴彩色隐形眼镜，改变瞳孔的颜色。如果戴彩色眼镜，会妨碍彩色隐形眼镜。可能还是缺乏需求。&lt;/p&gt;
+&lt;p&gt;让睛资的这名男性员工改变思路的是一位快要生产的朋友的烦恼。女性进了医院，不能戴隐形眼镜，也不能化妆。这种情况下，彩色眼镜或许能派上用场。不过，传统的彩色镜片会遮住眼睛，因此会给人不自然的感觉。&lt;/p&gt;
+&lt;p&gt;此时，男员工想到了改变镜片彩色部分的位置。普通的彩色镜片要么整体一个颜色，要么颜色覆盖眼睛部分。有男员工表示，为了突出眼白，“把彩色部分放在镜片下部怎么样？”。&lt;/p&gt;
+&lt;p&gt;于是在镜片下部涂上指甲油，让女员工试戴。结果有了新发现，“黑眼圈遮住了”。负责镜片的女员工想起了关于化妆的格言——“没时间的时候，只打腮红”。&lt;/p&gt;
+&lt;h2 id=&#34;研发时必须和女性沟通&#34;&gt;研发时必须和女性沟通&lt;/h2&gt;
+&lt;p&gt;但睛姿在与镜片厂商沟通时却出现了问题，那就是调色。镜片厂商的男员工是专业做镜片的，很难理解睛姿提出的调色要求。跟他说：“蓝粉色”，对方却很难理解，简直不是开发镜片而是开发新化妆品。&lt;/p&gt;
+&lt;p&gt;镜片厂商把女员工拉进团队里，才终于能够顺畅沟通。做出来的是粉色、桃粉色、波尔多红 3 种镜片，在 2021 年 10 月上市销售。&lt;/p&gt;
+</content>
     </item>
     
   </channel>
