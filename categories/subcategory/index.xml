@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subcategory on Space Looming</title>
-    <link>http://localhost:1313/categories/subcategory/</link>
+    <link>https://www.gtdstudy.com/categories/subcategory/</link>
     <description>Recent content in Subcategory on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Aug 2020 19:49:42 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/subcategory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Aug 2020 19:49:42 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/categories/subcategory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome</title>
-      <link>http://localhost:1313/posts/welcome/</link>
+      <link>https://www.gtdstudy.com/posts/welcome/</link>
       <pubDate>Sat, 15 Aug 2020 19:49:42 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/welcome/</guid>
+      <guid>https://www.gtdstudy.com/posts/welcome/</guid>
       <description></description>
       <content></content>
     </item>
