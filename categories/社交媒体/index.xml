@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>社交媒体 on Space Looming</title>
-    <link>https://www.gtdstudy.com/categories/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/</link>
+    <link>http://localhost:1313/categories/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/</link>
     <description>Recent content in 社交媒体 on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 May 2022 09:19:38 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/categories/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 May 2022 09:19:38 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>知识：隐性知识更值得记录</title>
-      <link>https://www.gtdstudy.com/posts/about-which-knowledge-shuld-be-write-down/</link>
+      <link>http://localhost:1313/posts/about-which-knowledge-shuld-be-write-down/</link>
       <pubDate>Sat, 07 May 2022 09:19:38 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/about-which-knowledge-shuld-be-write-down/</guid>
+      <guid>http://localhost:1313/posts/about-which-knowledge-shuld-be-write-down/</guid>
       <description>&lt;p&gt;在即刻上，我表达了「隐性知识更值得记录」的观点——&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;明面可总结为结构性知识的，不需太重点的记录，就好像工具书，有一个梗概索引，方便自己忘了之后回忆查找就行。非常值得重点记录的，是隐性的知识，尤其是那行关系重大的，这类知识不易获得，同时对框架有重要影响，随时可以因为这类知识而重塑整个架构。&lt;/p&gt;
@@ -68,10 +68,10 @@
     
     <item>
       <title>苹果：为 Jony Ive 离开苹果叫好</title>
-      <link>https://www.gtdstudy.com/posts/about-jony-ivy-leaves-apple/</link>
+      <link>http://localhost:1313/posts/about-jony-ivy-leaves-apple/</link>
       <pubDate>Wed, 04 May 2022 17:28:22 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/about-jony-ivy-leaves-apple/</guid>
+      <guid>http://localhost:1313/posts/about-jony-ivy-leaves-apple/</guid>
       <description>&lt;p&gt;最近又出了一本关于苹果的新书，叫《AfterSteve》，主要内容整理自对 Jony Ive 访谈，知名科技评论家阑夕总结了这本书的内容：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;财经记者 Tripp Mickle 出版了一本报道苹果公司的新书「乔布斯之后」（After Steve），小标题就更直率了，是「苹果如何成为一家价值万亿美元的公司，并失去了灵魂」。&lt;/p&gt;
@@ -152,10 +152,10 @@
     
     <item>
       <title>金句记录 2022-04-30</title>
-      <link>https://www.gtdstudy.com/posts/gold-quotation-2022-04-30/</link>
+      <link>http://localhost:1313/posts/gold-quotation-2022-04-30/</link>
       <pubDate>Sat, 30 Apr 2022 23:14:40 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/gold-quotation-2022-04-30/</guid>
+      <guid>http://localhost:1313/posts/gold-quotation-2022-04-30/</guid>
       <description>&lt;h2 id=&#34;互联网批评太快-击溃创造&#34;&gt;互联网批评太快，击溃创造&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;「批评」轻松又快速，「创造」困难又缓慢。——华尔街商学院心理学家 Adam Grant&lt;/p&gt;
@@ -189,10 +189,10 @@
     
     <item>
       <title>金句：不要奢求能看清所有事实</title>
-      <link>https://www.gtdstudy.com/posts/you-couldnt-known-every-facts/</link>
+      <link>http://localhost:1313/posts/you-couldnt-known-every-facts/</link>
       <pubDate>Sun, 27 Feb 2022 22:30:59 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/you-couldnt-known-every-facts/</guid>
+      <guid>http://localhost:1313/posts/you-couldnt-known-every-facts/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;不要奢求能看清所有事实，但也不要认为只有自己看到的一面才是事实。——&lt;a href=&#34;https://mp.weixin.qq.com/s/ah71IpLquTmffOuW8oPAPw&#34;&gt;caoz&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -224,10 +224,10 @@
     
     <item>
       <title>现在的互联网像是黑暗森林</title>
-      <link>https://www.gtdstudy.com/posts/internet-likes-dark-forest/</link>
+      <link>http://localhost:1313/posts/internet-likes-dark-forest/</link>
       <pubDate>Sun, 27 Feb 2022 21:40:14 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/internet-likes-dark-forest/</guid>
+      <guid>http://localhost:1313/posts/internet-likes-dark-forest/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;现在的互联网早就不是零几年大家憧憬的互联互惠的美好世界，更像一个黑暗森林，每一个可能发声异见的人，一旦暴露坐标很容易就会被消灭，消灭的是个体，谁消灭的呢，谁都清楚，但无法定位到具体的谁，这才可怕——来自豆瓣&lt;/p&gt;
 &lt;/blockquote&gt;</description>
@@ -239,10 +239,10 @@
     
     <item>
       <title>web3 的社会意义远低于 Web 2.0</title>
-      <link>https://www.gtdstudy.com/posts/web3/</link>
+      <link>http://localhost:1313/posts/web3/</link>
       <pubDate>Wed, 26 Jan 2022 02:01:50 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/web3/</guid>
+      <guid>http://localhost:1313/posts/web3/</guid>
       <description>&lt;p&gt;web3 的提法很好，但意义和当年的 Web 2.0 不可同日而语吧。如果硬要说 web3 是什么，我宁愿把它安放在苹果 iPhone 所开启的移动互联网变革——但这一变革只是复用了 Web 2.0 的技术，在一个适合更多场景的设备上运行。如果说，我是用 web3 来逃避金融监管来购买境外金融产品——那首先，这种投资行为本身是极高风险的；如果说，我是用 web3 来购买了某些艺术 NFT，那么我为什么因为买一个图片的使用权而支付这么高的代价？如果有的人以「博傻」的心态进场，我觉得最好还是让自己冷静一下。&lt;/p&gt;
 &lt;p&gt;另外区块链技术就一定能够去中心化吗？决定产品形态的，从来是，人使用技术和工具的方式。就好像 Signal 创始人所观察到的，人具有一种中心化的本能和趋势，因为去中心化的技术底层，就如天堑一样把大多数人拦在外面。所以结构就变成了「去中心化技术 + 中心化工具」的诡异局面。我不认为这样的方式，是逻辑自洽的。&lt;/p&gt;</description>
       <content>&lt;p&gt;web3 的提法很好，但意义和当年的 Web 2.0 不可同日而语吧。如果硬要说 web3 是什么，我宁愿把它安放在苹果 iPhone 所开启的移动互联网变革——但这一变革只是复用了 Web 2.0 的技术，在一个适合更多场景的设备上运行。如果说，我是用 web3 来逃避金融监管来购买境外金融产品——那首先，这种投资行为本身是极高风险的；如果说，我是用 web3 来购买了某些艺术 NFT，那么我为什么因为买一个图片的使用权而支付这么高的代价？如果有的人以「博傻」的心态进场，我觉得最好还是让自己冷静一下。&lt;/p&gt;
@@ -252,10 +252,10 @@
     
     <item>
       <title>双向链接笔记的局限性</title>
-      <link>https://www.gtdstudy.com/posts/respon-to-think-about-notetaking-tools/</link>
+      <link>http://localhost:1313/posts/respon-to-think-about-notetaking-tools/</link>
       <pubDate>Mon, 17 Jan 2022 02:06:25 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/respon-to-think-about-notetaking-tools/</guid>
+      <guid>http://localhost:1313/posts/respon-to-think-about-notetaking-tools/</guid>
       <description>&lt;p&gt;原贴很长：&lt;a href=&#34;https://www.v2ex.com/t/825142#reply8&#34;&gt;https://www.v2ex.com/t/825142#reply8&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;楼主讨论了「双向链接」笔记的局限性，他以自己一个知识点生长的过程为例子，说明双向链接在归纳概念与概念之间的联系时，展现力是有缺陷的。&lt;/p&gt;
 &lt;p&gt;我赞同楼主的一句话，「笔记并不是只有多级标签，更重要的是网状的关联」，这符合我个人的体验。尽管有 Roam 用论文证明自己在学习上更有效率，但知识内化的效率，应该是所有工具都无法保证的。&lt;/p&gt;
@@ -349,10 +349,10 @@
     
     <item>
       <title>博文多了一个叫「社交」的分类</title>
-      <link>https://www.gtdstudy.com/posts/the-fake-beauty-camel/</link>
+      <link>http://localhost:1313/posts/the-fake-beauty-camel/</link>
       <pubDate>Sun, 16 Jan 2022 12:07:21 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/the-fake-beauty-camel/</guid>
+      <guid>http://localhost:1313/posts/the-fake-beauty-camel/</guid>
       <description>&lt;p&gt;我的确是一个不太会社交的人，朋友的生日也记不住许多。但自从去年，好朋友陈鲨鱼在即刻上 @ 了我一个关于跨境电商的问题，而我为了说明这个问题，制作了一张图片，发布到即刻上之后，猛然增加了许多关注。现在，已经积累到 1449 人。&lt;/p&gt;
 &lt;p&gt;因此，我在社交媒体上分享的欲望被大大激发了，一天高产时可输出 3-4 条。但我经历过 Web 2.0 大爆发时代，深深明白，你在任何社交媒体上发表的数据，都不是你的数据。假如某个论坛、某个小平台突然关闭，那么你在上面所存放的文字、图片、视频都会一夜之间消失。&lt;/p&gt;
 &lt;p&gt;「虾米音乐」的关闭，让我再一次经历痛苦。我是多年虾米网的用户，以至于每年都交会员费用，希望它不那么快倒闭。但高晓松瞎几把操作，逼走虾米音乐的创始人南瓜，自己又没能做成什么事情——除了三国志战略版他主动帮忙带流量，给我留下印象之外，其它的就没什么了。我对高晓松个人没有偏见，我喜欢他为老狼写的那几首歌，《恋恋风尘》与其说是一首歌，不如说是一首诗。但他搞死虾米音乐这件事，让我颇有怨念。那个只需要点击系统推荐音乐，就可以畅快在音乐世界里冲浪的美好时光，已成往事。&lt;/p&gt;

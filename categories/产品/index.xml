@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>产品 on Space Looming</title>
-    <link>https://www.gtdstudy.com/categories/%E4%BA%A7%E5%93%81/</link>
+    <link>http://localhost:1313/categories/%E4%BA%A7%E5%93%81/</link>
     <description>Recent content in 产品 on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 May 2022 19:42:19 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/categories/%E4%BA%A7%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 May 2022 19:42:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E4%BA%A7%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>表格：Rows，可以与互联网服务打通的线上表格工具</title>
-      <link>https://www.gtdstudy.com/posts/rows-a-web-base-spreadsheet-for-markting/</link>
+      <link>http://localhost:1313/posts/rows-a-web-base-spreadsheet-for-markting/</link>
       <pubDate>Sun, 29 May 2022 19:42:19 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/rows-a-web-base-spreadsheet-for-markting/</guid>
+      <guid>http://localhost:1313/posts/rows-a-web-base-spreadsheet-for-markting/</guid>
       <description>&lt;p&gt;网址：&lt;a href=&#34;https://rows.com/&#34;&gt;https://rows.com/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;定位&#34;&gt;定位&lt;/h2&gt;
 &lt;p&gt;Rows 是面向市场营销人员的线上表格工具，强调与社交媒体融合， 可以实时的获取相关的数据，比如关注数多寡，点赞量多寡等。&lt;/p&gt;
@@ -40,10 +40,10 @@
     
     <item>
       <title>苹果：Mac Studio 为何不能更换普通的 SSD 硬盘</title>
-      <link>https://www.gtdstudy.com/posts/why-mac-studio-can-not-change-ssds/</link>
+      <link>http://localhost:1313/posts/why-mac-studio-can-not-change-ssds/</link>
       <pubDate>Sat, 26 Mar 2022 23:04:47 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/why-mac-studio-can-not-change-ssds/</guid>
+      <guid>http://localhost:1313/posts/why-mac-studio-can-not-change-ssds/</guid>
       <description>&lt;p&gt;极客风范浓厚醇正的 &lt;a href=&#34;https://arstechnica.com/gadgets/2022/03/explaining-the-mac-studios-removable-ssds-and-why-you-cant-just-swap-them-out/&#34;&gt;ArsTechnica&lt;/a&gt; 也注意到 Mac Studio 不能随意更换 SSD 硬盘一事。它给出了一个很简单的答案：&lt;/p&gt;
 &lt;p&gt;所有 SSD 硬盘的结构至少包含 2 样东西，用于存储数据 NAND 芯片和 SSD 控制芯片。在 PC 上，SSD 硬盘基本都包含这两样，所以它们更换起来很方便。&lt;/p&gt;
 &lt;p&gt;但苹果在推出 T2 芯片之后，选择「功能集成到一个芯片里」，SSD 控制芯片的功能也不例外，被苹果集成在 T2，以及后续的 M1 系列里。&lt;/p&gt;
@@ -61,10 +61,10 @@
     
     <item>
       <title>产品：橙心优选的关停，说明电商不是公式</title>
-      <link>https://www.gtdstudy.com/posts/chengxinbestchoice-closed/</link>
+      <link>http://localhost:1313/posts/chengxinbestchoice-closed/</link>
       <pubDate>Sun, 06 Mar 2022 20:01:25 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/chengxinbestchoice-closed/</guid>
+      <guid>http://localhost:1313/posts/chengxinbestchoice-closed/</guid>
       <description>&lt;p&gt;滴滴此前开辟的新业务「橙心优选」彻底关停。我作为一名忠实的滴滴用户，拍手叫好。&lt;/p&gt;
 &lt;p&gt;公司开拓新业务，初心都是一样的，「赚钱」。那么，直接产生交易的「电商」往往是很多公司寄予厚望的方向。但是，互联网公司若不理解零售的逻辑，往往会犯下很严重的错误。在我看来，橙心优选是非常典型的例子。&lt;/p&gt;
 &lt;h2 id=&#34;为什么用户不愿意打开橙心优选&#34;&gt;为什么用户不愿意打开橙心优选？&lt;/h2&gt;
@@ -112,10 +112,10 @@
     
     <item>
       <title>产品：睛姿腮红眼镜让“戴眼镜=化妆”</title>
-      <link>https://www.gtdstudy.com/posts/a-new-type-glasses-of-jins/</link>
+      <link>http://localhost:1313/posts/a-new-type-glasses-of-jins/</link>
       <pubDate>Mon, 31 Jan 2022 20:56:23 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/a-new-type-glasses-of-jins/</guid>
+      <guid>http://localhost:1313/posts/a-new-type-glasses-of-jins/</guid>
       <description>&lt;p&gt;博文新开一个名为「产品」的分类。用于记录我觉得好玩的新产品，同时也会附上我的点评。&lt;/p&gt;
 &lt;p&gt;根据&lt;a href=&#34;https://cn.nikkei.com/product/beautyahealth/47413-2022-01-26-05-00-12.html&#34;&gt;日经中文网&lt;/a&gt;报道，日本的眼镜品牌晴姿开发了一种新型眼镜，让女性消费者带上眼镜就自动拥有腮红妆，而不需要经过麻烦的化妆。&lt;/p&gt;
 &lt;p&gt;文中提到，韩国彩妆在日本流行，而且韩国彩妆的广告语是，「没时间的时候，只打腮红」。&lt;/p&gt;
