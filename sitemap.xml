@@ -2,17 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.gtdstudy.com/posts/</loc>
-    <lastmod>2024-09-25T11:16:49+08:00</lastmod>
+    <loc>https://www.gtdstudy.com/categories/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.gtdstudy.com/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.gtdstudy.com/categories/til/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.gtdstudy.com/til/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.gtdstudy.com/posts/</loc>
     <lastmod>2024-09-25T11:16:49+08:00</lastmod>
   </url><url>
     <loc>https://www.gtdstudy.com/posts/can-not-cheat-life/</loc>
     <lastmod>2024-09-25T11:16:49+08:00</lastmod>
-  </url><url>
-    <loc>https://www.gtdstudy.com/categories/</loc>
-    <lastmod>2022-09-27T08:37:46+08:00</lastmod>
   </url><url>
     <loc>https://www.gtdstudy.com/posts/some-notes-from-dao/</loc>
     <lastmod>2022-09-27T08:37:46+08:00</lastmod>
