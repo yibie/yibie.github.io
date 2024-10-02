@@ -6021,22 +6021,22 @@ D. 融资融券出现剧烈变化;&lt;/p&gt;
     
     <item>
       <title>用 AI 辅助开发的经验二三则</title>
-      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/</link>
+      <link>https://www.gtdstudy.com/posts/what-i-learned-from-using-ai-develop-software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/</guid>
+      <guid>https://www.gtdstudy.com/posts/what-i-learned-from-using-ai-develop-software/</guid>
       <description>&lt;h2 id=&#34;缘起&#34;&gt;缘起&lt;/h2&gt;
 &lt;p&gt;2024 年的 8 月中旬, 我开始开发一个 Emacs 插件. 对 elisp 一窍不通的我, 通过 AI, 开始大家所说的 &amp;ldquo;自然语言编程&amp;rdquo;. 从那时起计算, 终于在 9 月 28 日发布了版本号为 0.3.5 的稳定版.&lt;/p&gt;
 &lt;p&gt;这是我人生中, 第一次开发出, 可以稳定运行的, 可供他人使用的软件产品, 不管盈利与否, 不管是否流行, 我都觉得意义重大. 换一个角度, 作为一个开源项目， org-zettel-ref-mode 已经收获 25 个 Star, 我无论如何, 都不能把它视为一个无人问津的产品.&lt;/p&gt;
 &lt;p&gt;这是我今年迈出的一小步, 后面是什么的一大步, 未来难以预料.&lt;/p&gt;
-&lt;h1 id=&#34;教训经验&#34;&gt;教训/经验&lt;/h1&gt;
+&lt;h2 id=&#34;教训经验&#34;&gt;教训/经验&lt;/h2&gt;
 &lt;p&gt;初碰软件开发, 还是不管懂不懂, 顶硬上, 碰到的问题自然是非常的多. 一个 Bug 刚修完, 另外 n 个 Bug 已经准备好跳出来了. 有段时间, 不断遇到 Bug, 不禁让我发出这样的感慨: &lt;strong&gt;Bug 都是人造的，Bug 在人在，人在 Bug 在，Bug 不在人还在&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;只要人在, Bug 一定会在. 总之目前, 我的心态, 已经放平. 这最重要的一点, 以平常心面对 Bug, 以及 Bug 总是会出现的情况 &amp;ndash; Bug 是反馈的一种, 只不过刚好, 它反馈的是, 你疏忽的一面. 所以, 面对 Bug 很重要, 就好像我们面对人生中大大小小的疏忽一样.&lt;/p&gt;</description>
       <content>&lt;h2 id=&#34;缘起&#34;&gt;缘起&lt;/h2&gt;
 &lt;p&gt;2024 年的 8 月中旬, 我开始开发一个 Emacs 插件. 对 elisp 一窍不通的我, 通过 AI, 开始大家所说的 &amp;ldquo;自然语言编程&amp;rdquo;. 从那时起计算, 终于在 9 月 28 日发布了版本号为 0.3.5 的稳定版.&lt;/p&gt;
 &lt;p&gt;这是我人生中, 第一次开发出, 可以稳定运行的, 可供他人使用的软件产品, 不管盈利与否, 不管是否流行, 我都觉得意义重大. 换一个角度, 作为一个开源项目， org-zettel-ref-mode 已经收获 25 个 Star, 我无论如何, 都不能把它视为一个无人问津的产品.&lt;/p&gt;
 &lt;p&gt;这是我今年迈出的一小步, 后面是什么的一大步, 未来难以预料.&lt;/p&gt;
-&lt;h1 id=&#34;教训经验&#34;&gt;教训/经验&lt;/h1&gt;
+&lt;h2 id=&#34;教训经验&#34;&gt;教训/经验&lt;/h2&gt;
 &lt;p&gt;初碰软件开发, 还是不管懂不懂, 顶硬上, 碰到的问题自然是非常的多. 一个 Bug 刚修完, 另外 n 个 Bug 已经准备好跳出来了. 有段时间, 不断遇到 Bug, 不禁让我发出这样的感慨: &lt;strong&gt;Bug 都是人造的，Bug 在人在，人在 Bug 在，Bug 不在人还在&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;只要人在, Bug 一定会在. 总之目前, 我的心态, 已经放平. 这最重要的一点, 以平常心面对 Bug, 以及 Bug 总是会出现的情况 &amp;ndash; Bug 是反馈的一种, 只不过刚好, 它反馈的是, 你疏忽的一面. 所以, 面对 Bug 很重要, 就好像我们面对人生中大大小小的疏忽一样.&lt;/p&gt;
 &lt;p&gt;1/ 遇到一个尝试多次, 但都无法修复的 Bug, 最适合的方法, 不是重复过去. 而是, 赶紧反思, 看看之前的方法可能存在的不足, 换一个角度, 再进行尝试. 一定不要一条道走到黑.&lt;/p&gt;
