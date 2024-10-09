@@ -105,6 +105,8 @@
 <meta property="og:image:height" content="627">
 
 
+  <meta property="article:published_time" content="2024-10-09 10:38:03 &#43;0800 CST" />
+
 
 
 
@@ -198,7 +200,7 @@
   <h1 class="post-title">
     <a href="https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/">用 AI 辅助开发的经验二三则</a>
   </h1>
-  <div class="post-meta"><span class="post-author">[Steve Chan]</span><span class="post-reading-time">2 min read (383 words)</span></div>
+  <div class="post-meta"><time class="post-date">2024-10-09</time><span class="post-author">[Steve Chan]</span><span class="post-reading-time">3 min read (432 words)</span></div>
 
   
   
@@ -233,6 +235,11 @@
 <p>重新回顾同步函数运行的步骤, 得益于之前将清理步骤单独封装成函数, 同步函数的结构很清晰, 很快我找到了导致问题的根源: 针对源文件需要同步的内容, 因为从设计上会分成 2 类, 所以我拆分了 2 个函数去定义, 同时函数里也包括了如何插入内容的步骤. 在这里, 起冲突的, 是两者插入内容的步骤, 一会儿我覆盖你, 一会儿你覆盖我, 就看函数在内存里, 谁被 CPU 先拎去执行.</p>
 <p>所以, 为什么会产生这种冲突呢? 原因是, 两个代码的对象, 实际上是同一个: 目标文件中的固定区域.</p>
 <p>以终为始, 既然如此, 那么两个函数就合并到一起: 我用另外一个函数, 将之前的 2 个函数都封装了在一起, 还将他们针对目标文件的操作从原来的函数里去掉, 然后封装到新函数中. 这个做法, 就好像专门用一辆车, 专门将人运送到固定的地点.</p>
+<p>4/ 功能一个一个地加, Bug 一个一个地修.</p>
+<p>不要一下子添加太多变量, 不但无助于自己的判断, 还更容易引发更多的 Bug. 程序界里的一个经典, 就是任何代码都有副作用. 而引入的变量, 是非常容易产生副作用的方式. 程序员不喜欢副作用, 不是因为副作用一定不好, 而在于副作用无法预期.</p>
+<p>副作用一多, 程序也非常不稳定 &ndash; 届时, 想找出崩溃的原因,很困难, 想象一下, 一个打满了结的绳子, 想找出绳头是多么不容易的事, 总想着抄起剪刀一把剪开.</p>
+<p>而用 Cursor 之类的工具来开发, 一个弊端是, AI 有的时候过度灵活, 经常自顾自地把变量改掉, 或者完全忽略掉之前开发过类似的功能与代码, 不光重复发明轮子, 还会带来过多的副作用. 因此, 使用 AI 开发, 最好是自己心中有框架, 让 AI 一步一步去实现.</p>
+<p>否则, 副作用一多, 相互影响, 我中有你, 你中有我, Debug 都不知道怎么下手.</p>
 <p>[1] <a href="https://github.com/yibie/org-zettel-ref-mode">org-zettle-ref-mode</a> 的主功能：1. 在阅读原文时， 打开另外一个名为 overview 的窗口. 2. 将笔记, 和标记文本, 同步到 overview 窗口中去. 3. 同步到 overveiw 的内容, 会自动保存为 org 笔记.</p>
 
       </div></div>
@@ -246,16 +253,10 @@
   </div>
   <div class="pagination__buttons">
     
-      <a href="https://www.gtdstudy.com/posts/welcome/" class="button inline prev">
-        Welcome
-      </a>
     
     
-      ::
-    
-    
-      <a href="https://www.gtdstudy.com/posts/what-i-learned-from-using-ai-develop-software/" class="button inline next">
-        用 AI 辅助开发的经验二三则
+      <a href="https://www.gtdstudy.com/posts/can-not-cheat-life/" class="button inline next">
+        吹不动了, 这个生活
       </a>
     
   </div>
