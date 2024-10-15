@@ -251,7 +251,159 @@
   
 
   
+    <head>
     
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
+    
+  </head>
+  <body>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+      
+      
+      
+    
+
+    <div id="waline"></div>
+    <script type="module">
+      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+      init({
+        el: '#waline',
+        serverURL: 'https://waline.mostima.blog',
+        lang: 'zh-CN',
+        emoji: [
+        '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+        '//unpkg.com/@waline/emojis@1.2.0/tieba',
+        '//unpkg.com/@waline/emojis@1.2.0/qq',
+        '//unpkg.com/@waline/emojis@1.2.0/alus',
+        '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+        'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+        ],
+        dark: 'html[class="scroll-smooth dark"]',
+
+      });
+    </script>
+
+
+    <style>
+       
+      :root {
+         
+        --waline-font-size: 16px;
+
+         
+        --waline-white: #ffff;
+         
+        --waline-light-grey: #999;
+         
+        --waline-dark-grey: #666;
+
+         
+        --waline-theme-color: #3b82f6;
+         
+        --waline-active-color: #2ecc71;
+
+         
+        --waline-color: #222;
+         
+        --waline-bgcolor: #fff;
+         
+        --waline-bgcolor-light: #f8f8f8;
+         
+        --waline-bgcolor-hover: #2ecc71;
+         
+        --waline-border-color: #ddd;
+         
+        --waline-disable-bgcolor: rgba(248, 248, 248, 0.4);
+         
+        --waline-disable-color:#bbb;
+         
+        --waline-code-bgcolor: #282c34;
+
+         
+        --waline-bq-color: #f0f0f0;
+
+         
+        --waline-avatar-size: 3.25rem;
+         
+        --waline-m-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
+
+         
+        --waline-badge-color: #3b82f6;
+         
+        --waline-badge-font-size: 12px;
+
+         
+        --waline-info-border: 1px solid #999;
+         
+        --waline-info-color: #999;
+         
+        --waline-info-font-size: 16px;
+           
+        --waline-info-bgcolor: rgba(235, 235, 235, 0.4);
+
+         
+        --waline-border: 1px solid var(--waline-border-color);
+         
+        --waline-avatar-radius: 50%;
+         
+        --waline-box-shadow: none;
+      }
+
+       
+      html[class="scroll-smooth dark"]{
+         
+        --waline-white: #000;
+          
+        --waline-light-grey: #999;
+         
+          
+        --waline-dark-grey: #999;
+
+         
+        --waline-color: #c2c2c2;
+          
+        --waline-bgcolor: #1E293B;
+          
+        --waline-bgcolor-light: #2A354F;
+          
+        --waline-border-color: #666;
+          
+        --waline-disable-bgcolor: rgba(68, 68, 68, 0.8);
+          
+        --waline-disable-color: #888;
+
+         
+        --waline-bq-color: #1F2D4B;
+
+         
+        --waline-info-bgcolor: rgba(31, 45, 75, 0.8);
+          
+        --waline-info-color: #888;
+         
+        --waline-info-border: 1px solid #d3d3d3;
+      }
+
+    </style>
+
+
+  </body>
 
   
 </article>
