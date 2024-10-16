@@ -107,13 +107,21 @@
       
       <guid>https://www.gtdstudy.com/til/</guid>
       <description>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2024-10-16&#34;&gt;2024-10-16&lt;/h1&gt;
+&lt;p&gt;在 Emacs 内, 不移动光标的情况下, 滚动行. 已经内置了 2 个命令:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sroll-up-line&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sroll-down-line&lt;/code&gt;&lt;/p&gt;
 &lt;h1 id=&#34;2024-10-07&#34;&gt;2024-10-07&lt;/h1&gt;
 &lt;p&gt;所有软件工程, 都要通过 Profiler 来测试性能. 在 Emacs 中, 测试性能可以通过简单的命令实现:&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;M-x profiler-start&lt;/del&gt; 启动性能测试, 然后选择 CPU 消耗, 内存消耗, CPU+内存消耗.&lt;/p&gt;</description>
+&lt;p&gt;&lt;code&gt;M-x profiler-start&lt;/code&gt; 启动性能测试, 然后选择 CPU 消耗, 内存消耗, CPU+内存消耗.&lt;/p&gt;</description>
       <content>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2024-10-16&#34;&gt;2024-10-16&lt;/h1&gt;
+&lt;p&gt;在 Emacs 内, 不移动光标的情况下, 滚动行. 已经内置了 2 个命令:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sroll-up-line&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sroll-down-line&lt;/code&gt;&lt;/p&gt;
 &lt;h1 id=&#34;2024-10-07&#34;&gt;2024-10-07&lt;/h1&gt;
 &lt;p&gt;所有软件工程, 都要通过 Profiler 来测试性能. 在 Emacs 中, 测试性能可以通过简单的命令实现:&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;M-x profiler-start&lt;/del&gt; 启动性能测试, 然后选择 CPU 消耗, 内存消耗, CPU+内存消耗.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;M-x profiler-start&lt;/code&gt; 启动性能测试, 然后选择 CPU 消耗, 内存消耗, CPU+内存消耗.&lt;/p&gt;
 </content>
     </item>
     
