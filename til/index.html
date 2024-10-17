@@ -7,11 +7,11 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="TIL = Today I learned
+2024-10-17 使用 Emacs 的 Register 方便工作 Emacs: Store anything with registers and bookmarks 这个视频讲解了 Emacs 中 Register 的运用. 之前也接触过这个概念, 但一直不理解它的作用. 看完这个视频, 就很了解了.
+Register 非常适合用来在工作时, 临时保存一些东西, 方便在工作过程中重复调用. 它可以储存的对象包括:
+文件中光标所在的位置. 当前窗口的布局. 一个需要重复查看/编辑的文件. (需要在配置中自定义命令) 由于 Register 是临时保存, 因此重启 Emacs, 寄存器里的内容将全部丢失. 此外, 如果新的对象保存到一个 Register 里, 其保存的原来的对象会马上丢失 &ndash; 需要经过确认.
+因此 Emacs 的 Register 真的非常适合处理临时性的任务. 如果希望突破临时保存的限制, 可以考虑 Emacs 里的 Bookmark 机制. 这两者好好结合, 可以创造非常高效率的工作环境.
 2024-10-16 在 Emacs 内, 不移动光标的情况下, 滚动行. 已经内置了 2 个命令:
-sroll-up-line
-sroll-down-line
-2024-10-07 所有软件工程, 都要通过 Profiler 来测试性能. 在 Emacs 中, 测试性能可以通过简单的命令实现:
-M-x profiler-start 启动性能测试, 然后选择 CPU 消耗, 内存消耗, CPU&#43;内存消耗.
 " />
 <meta name="keywords" content="" />
 
@@ -88,11 +88,11 @@ M-x profiler-start 启动性能测试, 然后选择 CPU 消耗, 内存消耗, CP
 <meta property="og:type" content="article" />
 <meta property="og:title" content="TIL">
 <meta property="og:description" content="TIL = Today I learned
+2024-10-17 使用 Emacs 的 Register 方便工作 Emacs: Store anything with registers and bookmarks 这个视频讲解了 Emacs 中 Register 的运用. 之前也接触过这个概念, 但一直不理解它的作用. 看完这个视频, 就很了解了.
+Register 非常适合用来在工作时, 临时保存一些东西, 方便在工作过程中重复调用. 它可以储存的对象包括:
+文件中光标所在的位置. 当前窗口的布局. 一个需要重复查看/编辑的文件. (需要在配置中自定义命令) 由于 Register 是临时保存, 因此重启 Emacs, 寄存器里的内容将全部丢失. 此外, 如果新的对象保存到一个 Register 里, 其保存的原来的对象会马上丢失 &ndash; 需要经过确认.
+因此 Emacs 的 Register 真的非常适合处理临时性的任务. 如果希望突破临时保存的限制, 可以考虑 Emacs 里的 Bookmark 机制. 这两者好好结合, 可以创造非常高效率的工作环境.
 2024-10-16 在 Emacs 内, 不移动光标的情况下, 滚动行. 已经内置了 2 个命令:
-sroll-up-line
-sroll-down-line
-2024-10-07 所有软件工程, 都要通过 Profiler 来测试性能. 在 Emacs 中, 测试性能可以通过简单的命令实现:
-M-x profiler-start 启动性能测试, 然后选择 CPU 消耗, 内存消耗, CPU&#43;内存消耗.
 " />
 <meta property="og:url" content="https://www.gtdstudy.com/til/" />
 <meta property="og:site_name" content="Space Looming" />
@@ -225,6 +225,16 @@ M-x profiler-start 启动性能测试, 然后选择 CPU 消耗, 内存消耗, CP
 
   <div class="post-content"><div>
         <p>TIL = Today I learned</p>
+<h1 id="2024-10-17-使用-emacs-的-register-方便工作">2024-10-17 使用 Emacs 的 Register 方便工作<a href="#2024-10-17-使用-emacs-的-register-方便工作" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><a href="https://www.youtube.com/watch?v=IygRp_9HTJk">Emacs: Store anything with registers and bookmarks</a> 这个视频讲解了 Emacs 中 Register 的运用. 之前也接触过这个概念, 但一直不理解它的作用. 看完这个视频, 就很了解了.</p>
+<p>Register 非常适合用来在工作时, 临时保存一些东西, 方便在工作过程中重复调用. 它可以储存的对象包括:</p>
+<ol>
+<li>文件中光标所在的位置.</li>
+<li>当前窗口的布局.</li>
+<li>一个需要重复查看/编辑的文件. (需要在配置中自定义命令)</li>
+</ol>
+<p>由于 Register 是临时保存, 因此重启 Emacs, 寄存器里的内容将全部丢失. 此外, 如果新的对象保存到一个 Register 里, 其保存的原来的对象会马上丢失 &ndash; 需要经过确认.</p>
+<p>因此 Emacs 的 Register 真的非常适合处理临时性的任务. 如果希望突破临时保存的限制, 可以考虑 Emacs 里的 Bookmark 机制. 这两者好好结合, 可以创造非常高效率的工作环境.</p>
 <h1 id="2024-10-16">2024-10-16<a href="#2024-10-16" class="hanchor" ariaLabel="Anchor">#</a> </h1>
 <p>在 Emacs 内, 不移动光标的情况下, 滚动行. 已经内置了 2 个命令:</p>
 <p><code>sroll-up-line</code></p>

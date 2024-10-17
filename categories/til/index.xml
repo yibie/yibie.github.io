@@ -14,14 +14,29 @@
       
       <guid>https://www.gtdstudy.com/til/</guid>
       <description>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2024-10-17-使用-emacs-的-register-方便工作&#34;&gt;2024-10-17 使用 Emacs 的 Register 方便工作&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=IygRp_9HTJk&#34;&gt;Emacs: Store anything with registers and bookmarks&lt;/a&gt; 这个视频讲解了 Emacs 中 Register 的运用. 之前也接触过这个概念, 但一直不理解它的作用. 看完这个视频, 就很了解了.&lt;/p&gt;
+&lt;p&gt;Register 非常适合用来在工作时, 临时保存一些东西, 方便在工作过程中重复调用. 它可以储存的对象包括:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;文件中光标所在的位置.&lt;/li&gt;
+&lt;li&gt;当前窗口的布局.&lt;/li&gt;
+&lt;li&gt;一个需要重复查看/编辑的文件. (需要在配置中自定义命令)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;由于 Register 是临时保存, 因此重启 Emacs, 寄存器里的内容将全部丢失. 此外, 如果新的对象保存到一个 Register 里, 其保存的原来的对象会马上丢失 &amp;ndash; 需要经过确认.&lt;/p&gt;
+&lt;p&gt;因此 Emacs 的 Register 真的非常适合处理临时性的任务. 如果希望突破临时保存的限制, 可以考虑 Emacs 里的 Bookmark 机制. 这两者好好结合, 可以创造非常高效率的工作环境.&lt;/p&gt;
 &lt;h1 id=&#34;2024-10-16&#34;&gt;2024-10-16&lt;/h1&gt;
-&lt;p&gt;在 Emacs 内, 不移动光标的情况下, 滚动行. 已经内置了 2 个命令:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;sroll-up-line&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;sroll-down-line&lt;/code&gt;&lt;/p&gt;
-&lt;h1 id=&#34;2024-10-07&#34;&gt;2024-10-07&lt;/h1&gt;
-&lt;p&gt;所有软件工程, 都要通过 Profiler 来测试性能. 在 Emacs 中, 测试性能可以通过简单的命令实现:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;M-x profiler-start&lt;/code&gt; 启动性能测试, 然后选择 CPU 消耗, 内存消耗, CPU+内存消耗.&lt;/p&gt;</description>
+&lt;p&gt;在 Emacs 内, 不移动光标的情况下, 滚动行. 已经内置了 2 个命令:&lt;/p&gt;</description>
       <content>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2024-10-17-使用-emacs-的-register-方便工作&#34;&gt;2024-10-17 使用 Emacs 的 Register 方便工作&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=IygRp_9HTJk&#34;&gt;Emacs: Store anything with registers and bookmarks&lt;/a&gt; 这个视频讲解了 Emacs 中 Register 的运用. 之前也接触过这个概念, 但一直不理解它的作用. 看完这个视频, 就很了解了.&lt;/p&gt;
+&lt;p&gt;Register 非常适合用来在工作时, 临时保存一些东西, 方便在工作过程中重复调用. 它可以储存的对象包括:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;文件中光标所在的位置.&lt;/li&gt;
+&lt;li&gt;当前窗口的布局.&lt;/li&gt;
+&lt;li&gt;一个需要重复查看/编辑的文件. (需要在配置中自定义命令)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;由于 Register 是临时保存, 因此重启 Emacs, 寄存器里的内容将全部丢失. 此外, 如果新的对象保存到一个 Register 里, 其保存的原来的对象会马上丢失 &amp;ndash; 需要经过确认.&lt;/p&gt;
+&lt;p&gt;因此 Emacs 的 Register 真的非常适合处理临时性的任务. 如果希望突破临时保存的限制, 可以考虑 Emacs 里的 Bookmark 机制. 这两者好好结合, 可以创造非常高效率的工作环境.&lt;/p&gt;
 &lt;h1 id=&#34;2024-10-16&#34;&gt;2024-10-16&lt;/h1&gt;
 &lt;p&gt;在 Emacs 内, 不移动光标的情况下, 滚动行. 已经内置了 2 个命令:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sroll-up-line&lt;/code&gt;&lt;/p&gt;
