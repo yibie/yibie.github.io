@@ -249,17 +249,26 @@
   
 
   
-    <div id="tcomment"></div>
-<script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
-<script>
-twikoo.init({
-  envId: 'https://oliver1314-comments-gtdstudy-com.hf.space', 
-  el: '#tcomment', 
+    <head>
   
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+  />
   
+</head>
+<body>
   
-})
-</script>
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://comments.gtdstudy.com',
+    });
+  </script>
+</body>
 
   
 </article>
