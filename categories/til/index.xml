@@ -14,6 +14,9 @@
       
       <guid>https://www.gtdstudy.com/til/</guid>
       <description>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2024-10-20-让大陆用户顺利访问部署在-vercel-上的网站程序&#34;&gt;2024-10-20 让大陆用户顺利访问部署在 Vercel 上的网站程序&lt;/h1&gt;
+&lt;p&gt;在域名服务商的 DNS 记录里使用:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cname-china.vercel-dns.com&lt;/code&gt;&lt;/p&gt;
 &lt;h1 id=&#34;2024-10-17-使用-emacs-的-register-方便工作&#34;&gt;2024-10-17 使用 Emacs 的 Register 方便工作&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=IygRp_9HTJk&#34;&gt;Emacs: Store anything with registers and bookmarks&lt;/a&gt; 这个视频讲解了 Emacs 中 Register 的运用. 之前也接触过这个概念, 但一直不理解它的作用. 看完这个视频, 就很了解了.&lt;/p&gt;
 &lt;p&gt;Register 非常适合用来在工作时, 临时保存一些东西, 方便在工作过程中重复调用. 它可以储存的对象包括:&lt;/p&gt;
@@ -23,10 +26,11 @@
 &lt;li&gt;一个需要重复查看/编辑的文件. (需要在配置中自定义命令)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;由于 Register 是临时保存, 因此重启 Emacs, 寄存器里的内容将全部丢失. 此外, 如果新的对象保存到一个 Register 里, 其保存的原来的对象会马上丢失 &amp;ndash; 不需要经过确认 &amp;ndash; 这时候不需要确认的机制反而是一个好机制.&lt;/p&gt;
-&lt;p&gt;因此 Emacs 的 Register 真的非常适合处理临时性的任务. 如果希望突破临时保存的限制, 可以考虑 Emacs 里的 Bookmark 机制. 这两者好好结合, 可以创造非常高效率的工作环境.&lt;/p&gt;
-&lt;h1 id=&#34;2024-10-16&#34;&gt;2024-10-16&lt;/h1&gt;
-&lt;p&gt;在 Emacs 内, 不移动光标的情况下, 滚动行. 已经内置了 2 个命令:&lt;/p&gt;</description>
+&lt;p&gt;因此 Emacs 的 Register 真的非常适合处理临时性的任务. 如果希望突破临时保存的限制, 可以考虑 Emacs 里的 Bookmark 机制. 这两者好好结合, 可以创造非常高效率的工作环境.&lt;/p&gt;</description>
       <content>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2024-10-20-让大陆用户顺利访问部署在-vercel-上的网站程序&#34;&gt;2024-10-20 让大陆用户顺利访问部署在 Vercel 上的网站程序&lt;/h1&gt;
+&lt;p&gt;在域名服务商的 DNS 记录里使用:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cname-china.vercel-dns.com&lt;/code&gt;&lt;/p&gt;
 &lt;h1 id=&#34;2024-10-17-使用-emacs-的-register-方便工作&#34;&gt;2024-10-17 使用 Emacs 的 Register 方便工作&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=IygRp_9HTJk&#34;&gt;Emacs: Store anything with registers and bookmarks&lt;/a&gt; 这个视频讲解了 Emacs 中 Register 的运用. 之前也接触过这个概念, 但一直不理解它的作用. 看完这个视频, 就很了解了.&lt;/p&gt;
 &lt;p&gt;Register 非常适合用来在工作时, 临时保存一些东西, 方便在工作过程中重复调用. 它可以储存的对象包括:&lt;/p&gt;
