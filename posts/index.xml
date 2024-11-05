@@ -6,7 +6,32 @@
     <description>Recent content in Posts on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Oct 2024 17:23:00 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Nov 2024 18:37:00 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最小练习单位</title>
+      <link>https://www.gtdstudy.com/posts/the-minimum-practice-unit/</link>
+      <pubDate>Tue, 05 Nov 2024 18:37:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/the-minimum-practice-unit/</guid>
+      <description>&lt;p&gt;之前, 我发展了一个概念, 叫 &amp;ldquo;&lt;a href=&#34;https://www.gtdstudy.com/posts/minimum-creation-unit/&#34;&gt;最小创造单位&lt;/a&gt;&amp;rdquo;. 它大概面对的情景是, 自己闲着, 不知道自己干点什么的时候, 想一想能够在很有限的时间里, 捣鼓点什么出来, 是一个无中生有的过程.&lt;/p&gt;
+&lt;p&gt;今天我想把 &amp;ldquo;最小单位&amp;rdquo; 这个概念, 再延伸一点, 叫 &amp;ldquo;最小练习单位&amp;rdquo;. 起因是, 每天需要学习的东西很多, 有时候会陷入犹豫, 在确定自己练习什么的时候, 太阳西下, 天色也昏沉. 此时惊觉, 一天已过.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;犹豫就会败北!&amp;rdquo; 所以, 我刻意地想提 &amp;ldquo;最小练习单位&amp;rdquo;, 将自己从踌躇不决的境地里拯救出来.&lt;/p&gt;
+&lt;p&gt;然后我观察了放多大牛的学习方式, 其中 Django 框架的作者(之一) Simon Willams 令我印象深刻.&lt;/p&gt;
+&lt;p&gt;他的博客内容量极大, 有好几个栏目, 可以从他自己制作的&lt;a href=&#34;https://simonwillison.net/2024/Oct/30/monthnotes/&#34;&gt;月报&lt;/a&gt;看到, 有包含观点的文章, 有记录自己新实验或者练习 TIL, 还有自己的开源项目的新版本更新等等. 这些还不止, 在博客的侧边栏, 还有他分享的, 自己每天看过觉得不错的网络文章.&lt;/p&gt;
+&lt;p&gt;如果说, 我想在现代社会里, 找到一个人, 像 Zettelkasten 发明人那么高产, 那么可能就是 Simon Willams 了.&lt;/p&gt;
+&lt;p&gt;在他的 &lt;a href=&#34;https://til.simonwillison.net/&#34;&gt;TIL&lt;/a&gt; (就是 Today I Learned 的意思) 栏目里, 会看到他从不间断地练习记录 &amp;ndash; 这些练习有的长, 有的很短. 在他繁忙的日常里, 他总会抽出一点时间出来, 去探索新鲜的玩意, 去掌握自己之前不知道的知识.&lt;/p&gt;</description>
+      <content>&lt;p&gt;之前, 我发展了一个概念, 叫 &amp;ldquo;&lt;a href=&#34;https://www.gtdstudy.com/posts/minimum-creation-unit/&#34;&gt;最小创造单位&lt;/a&gt;&amp;rdquo;. 它大概面对的情景是, 自己闲着, 不知道自己干点什么的时候, 想一想能够在很有限的时间里, 捣鼓点什么出来, 是一个无中生有的过程.&lt;/p&gt;
+&lt;p&gt;今天我想把 &amp;ldquo;最小单位&amp;rdquo; 这个概念, 再延伸一点, 叫 &amp;ldquo;最小练习单位&amp;rdquo;. 起因是, 每天需要学习的东西很多, 有时候会陷入犹豫, 在确定自己练习什么的时候, 太阳西下, 天色也昏沉. 此时惊觉, 一天已过.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;犹豫就会败北!&amp;rdquo; 所以, 我刻意地想提 &amp;ldquo;最小练习单位&amp;rdquo;, 将自己从踌躇不决的境地里拯救出来.&lt;/p&gt;
+&lt;p&gt;然后我观察了放多大牛的学习方式, 其中 Django 框架的作者(之一) Simon Willams 令我印象深刻.&lt;/p&gt;
+&lt;p&gt;他的博客内容量极大, 有好几个栏目, 可以从他自己制作的&lt;a href=&#34;https://simonwillison.net/2024/Oct/30/monthnotes/&#34;&gt;月报&lt;/a&gt;看到, 有包含观点的文章, 有记录自己新实验或者练习 TIL, 还有自己的开源项目的新版本更新等等. 这些还不止, 在博客的侧边栏, 还有他分享的, 自己每天看过觉得不错的网络文章.&lt;/p&gt;
+&lt;p&gt;如果说, 我想在现代社会里, 找到一个人, 像 Zettelkasten 发明人那么高产, 那么可能就是 Simon Willams 了.&lt;/p&gt;
+&lt;p&gt;在他的 &lt;a href=&#34;https://til.simonwillison.net/&#34;&gt;TIL&lt;/a&gt; (就是 Today I Learned 的意思) 栏目里, 会看到他从不间断地练习记录 &amp;ndash; 这些练习有的长, 有的很短. 在他繁忙的日常里, 他总会抽出一点时间出来, 去探索新鲜的玩意, 去掌握自己之前不知道的知识.&lt;/p&gt;
+&lt;p&gt;关于 &amp;ldquo;最小练习单位&amp;rdquo;, 我可能未必能够像 Simon Willams 那么高产, 但我觉得, 能够多向他靠拢一点, 也是一种幸福 &amp;ndash; 我不要求 &amp;ldquo;最小练习单位&amp;rdquo; 会让自己变得伟大, 仅仅在于, 让自己有一个刻意练习的时间, 尽管是 10 分钟, 只了解和练习 Vim 的一个移动操作, 也行.&lt;/p&gt;
+&lt;p&gt;一本好几百页的书, 一天是读不完的, 但如果拆分成一天读 10 页, 甚至是更少, 5 页, 只要能够持续读下去, 总有一天能够读完. 我认为这是 &amp;ldquo;最小练习单位&amp;rdquo; 的价值和意义所在.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>博客 = 人性的补完</title>
       <link>https://www.gtdstudy.com/posts/blog-the-complementation-of-humanity/</link>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>最小练习单位 :: Space Looming</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="之前, 我发展了一个概念, 叫 &ldquo;最小创造单位&rdquo;. 它大概面对的情景是, 自己闲着, 不知道自己干点什么的时候, 想一想能够在很有限的时间里, 捣鼓点什么出来, 是一个无中生有的过程.
+今天我想把 &ldquo;最小单位&rdquo; 这个概念, 再延伸一点, 叫 &ldquo;最小练习单位&rdquo;. 起因是, 每天需要学习的东西很多, 有时候会陷入犹豫, 在确定自己练习什么的时候, 太阳西下, 天色也昏沉. 此时惊觉, 一天已过.
+&ldquo;犹豫就会败北!&rdquo; 所以, 我刻意地想提 &ldquo;最小练习单位&rdquo;, 将自己从踌躇不决的境地里拯救出来.
+然后我观察了放多大牛的学习方式, 其中 Django 框架的作者(之一) Simon Willams 令我印象深刻.
+他的博客内容量极大, 有好几个栏目, 可以从他自己制作的月报看到, 有包含观点的文章, 有记录自己新实验或者练习 TIL, 还有自己的开源项目的新版本更新等等. 这些还不止, 在博客的侧边栏, 还有他分享的, 自己每天看过觉得不错的网络文章.
+如果说, 我想在现代社会里, 找到一个人, 像 Zettelkasten 发明人那么高产, 那么可能就是 Simon Willams 了.
+在他的 TIL (就是 Today I Learned 的意思) 栏目里, 会看到他从不间断地练习记录 &ndash; 这些练习有的长, 有的很短. 在他繁忙的日常里, 他总会抽出一点时间出来, 去探索新鲜的玩意, 去掌握自己之前不知道的知识.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://www.gtdstudy.com/posts/the-minimum-practice-unit/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/fonts.min.90c955c31dd7c0e05aae3d4f583d4d8a2af799d69c961337eaf2a825063a55dd.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/main.min.1d8be2dd1b5de9fdaed058c8c59fcf4485f36619574abfb47ed0cfda4812c16d.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/terminal.min.e62f50ff2fb6063fbd9a70fc579fdf5adfd78e34563025dc923f2c380d17ea18.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="https://www.gtdstudy.com/favicon.png">
+<link rel="apple-touch-icon" href="https://www.gtdstudy.com/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="[Steve Chan]" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="最小练习单位">
+<meta property="og:description" content="之前, 我发展了一个概念, 叫 &ldquo;最小创造单位&rdquo;. 它大概面对的情景是, 自己闲着, 不知道自己干点什么的时候, 想一想能够在很有限的时间里, 捣鼓点什么出来, 是一个无中生有的过程.
+今天我想把 &ldquo;最小单位&rdquo; 这个概念, 再延伸一点, 叫 &ldquo;最小练习单位&rdquo;. 起因是, 每天需要学习的东西很多, 有时候会陷入犹豫, 在确定自己练习什么的时候, 太阳西下, 天色也昏沉. 此时惊觉, 一天已过.
+&ldquo;犹豫就会败北!&rdquo; 所以, 我刻意地想提 &ldquo;最小练习单位&rdquo;, 将自己从踌躇不决的境地里拯救出来.
+然后我观察了放多大牛的学习方式, 其中 Django 框架的作者(之一) Simon Willams 令我印象深刻.
+他的博客内容量极大, 有好几个栏目, 可以从他自己制作的月报看到, 有包含观点的文章, 有记录自己新实验或者练习 TIL, 还有自己的开源项目的新版本更新等等. 这些还不止, 在博客的侧边栏, 还有他分享的, 自己每天看过觉得不错的网络文章.
+如果说, 我想在现代社会里, 找到一个人, 像 Zettelkasten 发明人那么高产, 那么可能就是 Simon Willams 了.
+在他的 TIL (就是 Today I Learned 的意思) 栏目里, 会看到他从不间断地练习记录 &ndash; 这些练习有的长, 有的很短. 在他繁忙的日常里, 他总会抽出一点时间出来, 去探索新鲜的玩意, 去掌握自己之前不知道的知识.
+" />
+<meta property="og:url" content="https://www.gtdstudy.com/posts/the-minimum-practice-unit/" />
+<meta property="og:site_name" content="Space Looming" />
+
+  <meta property="og:image" content="https://www.gtdstudy.com/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2024-11-05 18:37:00 &#43;0800 CST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    学无止境
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/friends">Friends</a></li>
+        
+      
+        
+          <li><a href="/now">Now</a></li>
+        
+      
+        
+          <li><a href="/posts">Posts</a></li>
+        
+      
+        
+          <li><a href="/til">TIL</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/friends" >Friends</a></li>
+        
+      
+        
+          <li><a href="/now" >Now</a></li>
+        
+      
+        
+          <li><a href="/posts" >Posts</a></li>
+        
+      
+        
+          <li><a href="/til" >TIL</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://www.gtdstudy.com/posts/the-minimum-practice-unit/">最小练习单位</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2024-11-05</time><span class="post-author">[Steve Chan]</span></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>之前, 我发展了一个概念, 叫 &ldquo;<a href="https://www.gtdstudy.com/posts/minimum-creation-unit/">最小创造单位</a>&rdquo;. 它大概面对的情景是, 自己闲着, 不知道自己干点什么的时候, 想一想能够在很有限的时间里, 捣鼓点什么出来, 是一个无中生有的过程.</p>
+<p>今天我想把 &ldquo;最小单位&rdquo; 这个概念, 再延伸一点, 叫 &ldquo;最小练习单位&rdquo;. 起因是, 每天需要学习的东西很多, 有时候会陷入犹豫, 在确定自己练习什么的时候, 太阳西下, 天色也昏沉. 此时惊觉, 一天已过.</p>
+<p>&ldquo;犹豫就会败北!&rdquo; 所以, 我刻意地想提 &ldquo;最小练习单位&rdquo;, 将自己从踌躇不决的境地里拯救出来.</p>
+<p>然后我观察了放多大牛的学习方式, 其中 Django 框架的作者(之一) Simon Willams 令我印象深刻.</p>
+<p>他的博客内容量极大, 有好几个栏目, 可以从他自己制作的<a href="https://simonwillison.net/2024/Oct/30/monthnotes/">月报</a>看到, 有包含观点的文章, 有记录自己新实验或者练习 TIL, 还有自己的开源项目的新版本更新等等. 这些还不止, 在博客的侧边栏, 还有他分享的, 自己每天看过觉得不错的网络文章.</p>
+<p>如果说, 我想在现代社会里, 找到一个人, 像 Zettelkasten 发明人那么高产, 那么可能就是 Simon Willams 了.</p>
+<p>在他的 <a href="https://til.simonwillison.net/">TIL</a> (就是 Today I Learned 的意思) 栏目里, 会看到他从不间断地练习记录 &ndash; 这些练习有的长, 有的很短. 在他繁忙的日常里, 他总会抽出一点时间出来, 去探索新鲜的玩意, 去掌握自己之前不知道的知识.</p>
+<p>关于 &ldquo;最小练习单位&rdquo;, 我可能未必能够像 Simon Willams 那么高产, 但我觉得, 能够多向他靠拢一点, 也是一种幸福 &ndash; 我不要求 &ldquo;最小练习单位&rdquo; 会让自己变得伟大, 仅仅在于, 让自己有一个刻意练习的时间, 尽管是 10 分钟, 只了解和练习 Vim 的一个移动操作, 也行.</p>
+<p>一本好几百页的书, 一天是读不完的, 但如果拆分成一天读 10 页, 甚至是更少, 5 页, 只要能够持续读下去, 总有一天能够读完. 我认为这是 &ldquo;最小练习单位&rdquo; 的价值和意义所在.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="https://www.gtdstudy.com/posts/blog-the-complementation-of-humanity/" class="button inline next">
+        博客 = 人性的补完
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    <head>
+  
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+  />
+  
+</head>
+<body>
+  
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://comments.gtdstudy.com',
+    });
+  </script>
+</body>
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2024 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
