@@ -212,12 +212,78 @@
       
       <guid>https://www.gtdstudy.com/til/</guid>
       <description>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2024-11-05-vim-命令---scoll--move&#34;&gt;2024-11-05 Vim 命令 - Scoll &amp;amp; Move&lt;/h1&gt;
+&lt;p&gt;C = Ctrl&lt;/p&gt;
+&lt;h3 id=&#34;scoll&#34;&gt;Scoll&lt;/h3&gt;
+&lt;p&gt;滚动
+一页
+C-f/b
+半页
+C-d/u
+一行
+C-e/y&lt;/p&gt;
+&lt;h3 id=&#34;navigation&#34;&gt;Navigation&lt;/h3&gt;
+&lt;p&gt;以词定位
+下一个单词的开头
+w/W 区别是 W 更加直接
+当前单词的末尾
+e/E
+上一个单词的开头
+b/B&lt;/p&gt;
+&lt;p&gt;以行定位
+去到行首
+0
+去到行尾
+$
+去到第一个非空字符
+^
+去到最后一个非空字符
+g_&lt;/p&gt;
+&lt;p&gt;以屏定位
+去到当前屏幕中的第一行
+H
+去到当前屏幕的中间一行
+M
+去到当前屏幕的最后一行
+L&lt;/p&gt;
 &lt;h1 id=&#34;2024-10-27-解决一个神出鬼没的-bug&#34;&gt;2024-10-27 解决一个神出鬼没的 Bug&lt;/h1&gt;
 &lt;p&gt;一句话说明问题: 升级 org-zettel-ref-mode 的数据库格式, 导致加载数据库的函数无法读取正确的数据库. 结果在内存里引发了一个错误链. 然而, 报错消息只显示 &amp;ldquo;let*: End of file during parsing&amp;rdquo;, 但无具体详细的报告 &amp;ndash; 直接误导了问题的解决方向.&lt;/p&gt;
-&lt;p&gt;辛苦的过程: 由于报错消息直接说明, 代码的括号匹配出问题. 所以一开始是检查代码的括号匹配, 到 Emacs 群里吐槽了一下自己头都要秃了, 顺便把代码发过去请教一下, 高手也回复说是括号匹配. 但括号匹配怎么都查不出问题来, 所以换一个方式, 怀疑 let* 导致了错误的加载. 于是把所有 let* 里引用的变量前面全部都恢复用 let. 报错仍然存在. 整个过程相当令人疲惫.&lt;/p&gt;
-&lt;p&gt;灵光一闪: 由于之前总结, 如果解决一个 Bug 的方式,重复了 3 次, Bug 依然存在, 那么就要赶紧想想是否别的地方出问题. 不要吊死在一个 Bug 上. 于是, 我想一想, 不妨直接运行导致报错消息的函数试一下看看, 撞大运了, 这一次 Emacs 提供了具体而详细的错误报告. 我终于可以分析问题哪里, 然后顺利解决.&lt;/p&gt;
-&lt;p&gt;这一个 Bug 出现得很诡异, 它非常隐蔽以后都得注意, 不要导致同样的问题出现.&lt;/p&gt;</description>
+&lt;p&gt;辛苦的过程: 由于报错消息直接说明, 代码的括号匹配出问题. 所以一开始是检查代码的括号匹配, 到 Emacs 群里吐槽了一下自己头都要秃了, 顺便把代码发过去请教一下, 高手也回复说是括号匹配. 但括号匹配怎么都查不出问题来, 所以换一个方式, 怀疑 let* 导致了错误的加载. 于是把所有 let* 里引用的变量前面全部都恢复用 let. 报错仍然存在. 整个过程相当令人疲惫.&lt;/p&gt;</description>
       <content>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2024-11-05-vim-命令---scoll--move&#34;&gt;2024-11-05 Vim 命令 - Scoll &amp;amp; Move&lt;/h1&gt;
+&lt;p&gt;C = Ctrl&lt;/p&gt;
+&lt;h3 id=&#34;scoll&#34;&gt;Scoll&lt;/h3&gt;
+&lt;p&gt;滚动
+一页
+C-f/b
+半页
+C-d/u
+一行
+C-e/y&lt;/p&gt;
+&lt;h3 id=&#34;navigation&#34;&gt;Navigation&lt;/h3&gt;
+&lt;p&gt;以词定位
+下一个单词的开头
+w/W 区别是 W 更加直接
+当前单词的末尾
+e/E
+上一个单词的开头
+b/B&lt;/p&gt;
+&lt;p&gt;以行定位
+去到行首
+0
+去到行尾
+$
+去到第一个非空字符
+^
+去到最后一个非空字符
+g_&lt;/p&gt;
+&lt;p&gt;以屏定位
+去到当前屏幕中的第一行
+H
+去到当前屏幕的中间一行
+M
+去到当前屏幕的最后一行
+L&lt;/p&gt;
 &lt;h1 id=&#34;2024-10-27-解决一个神出鬼没的-bug&#34;&gt;2024-10-27 解决一个神出鬼没的 Bug&lt;/h1&gt;
 &lt;p&gt;一句话说明问题: 升级 org-zettel-ref-mode 的数据库格式, 导致加载数据库的函数无法读取正确的数据库. 结果在内存里引发了一个错误链. 然而, 报错消息只显示 &amp;ldquo;let*: End of file during parsing&amp;rdquo;, 但无具体详细的报告 &amp;ndash; 直接误导了问题的解决方向.&lt;/p&gt;
 &lt;p&gt;辛苦的过程: 由于报错消息直接说明, 代码的括号匹配出问题. 所以一开始是检查代码的括号匹配, 到 Emacs 群里吐槽了一下自己头都要秃了, 顺便把代码发过去请教一下, 高手也回复说是括号匹配. 但括号匹配怎么都查不出问题来, 所以换一个方式, 怀疑 let* 导致了错误的加载. 于是把所有 let* 里引用的变量前面全部都恢复用 let. 报错仍然存在. 整个过程相当令人疲惫.&lt;/p&gt;
