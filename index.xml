@@ -3056,7 +3056,8 @@ BDO 有几个特点：&lt;/p&gt;
       
       <guid>https://www.gtdstudy.com/now/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;2024-10-15 为本博客添加评论系统 Waline.&lt;/li&gt;
+&lt;li&gt;2024-11-05 将 org-zettel-ref-mode 升级到 0.4, 增加了管理源文件的可视化面板, 非常好用&lt;/li&gt;
+&lt;li&gt;2024-10-15 为本博客添加评论系统 Waline&lt;/li&gt;
 &lt;li&gt;2024-10-14 为博客添加 Friends, 存放友情链接 (或者说, 朋友的博客)&lt;/li&gt;
 &lt;li&gt;2024-10-10 发布一个新的 emacs 包 &lt;a href=&#34;https://github.com/yibie/pos-tag-highlight&#34;&gt;pos-tag-highlight&lt;/a&gt;, 对英文段落里的动词, 介词进行加粗, 以提高英语的阅读效率&lt;/li&gt;
 &lt;li&gt;2024.09.28 org-zettel-ref-mdoe 升级到 0.3.3 Stable, 把一个小产品从 0-1 一直做到它可以持续稳定使用, 意义重大. 一直给我报 Bug 的 @jason&amp;ndash;liu, 终于关闭 issue 了.&lt;/li&gt;
@@ -3070,7 +3071,8 @@ BDO 有几个特点：&lt;/p&gt;
 &lt;li&gt;最近喜欢阅读小说&lt;/li&gt;
 &lt;/ul&gt;</description>
       <content>&lt;ul&gt;
-&lt;li&gt;2024-10-15 为本博客添加评论系统 Waline.&lt;/li&gt;
+&lt;li&gt;2024-11-05 将 org-zettel-ref-mode 升级到 0.4, 增加了管理源文件的可视化面板, 非常好用&lt;/li&gt;
+&lt;li&gt;2024-10-15 为本博客添加评论系统 Waline&lt;/li&gt;
 &lt;li&gt;2024-10-14 为博客添加 Friends, 存放友情链接 (或者说, 朋友的博客)&lt;/li&gt;
 &lt;li&gt;2024-10-10 发布一个新的 emacs 包 &lt;a href=&#34;https://github.com/yibie/pos-tag-highlight&#34;&gt;pos-tag-highlight&lt;/a&gt;, 对英文段落里的动词, 介词进行加粗, 以提高英语的阅读效率&lt;/li&gt;
 &lt;li&gt;2024.09.28 org-zettel-ref-mdoe 升级到 0.3.3 Stable, 把一个小产品从 0-1 一直做到它可以持续稳定使用, 意义重大. 一直给我报 Bug 的 @jason&amp;ndash;liu, 终于关闭 issue 了.&lt;/li&gt;
