@@ -278,69 +278,51 @@ Map 表的约束:
 <p>我：
 场景是这样的，新增加的 ref-id 未必会有对应的 overview-id。</p>
 <p>AI：
-啊,明白了。这是一个可选的一对一关系:</p>
-<ol>
-<li>映射的特点:</li>
+啊,明白了。这是一个可选的一对一关系:
+映射的特点:</p>
+<ul>
 <li>ref-id 可以没有对应的 overview-id (可选关系)</li>
 <li>但如果有映射,则是一对一的</li>
 <li>overview-id 一定对应一个 ref-id (必需关系)</li>
-<li>Map 表的约束:</li>
+</ul>
+<p>Map 表的约束:</p>
+<ul>
 <li>不是所有 ref-id 都需要在 Map 表中</li>
 <li>创建映射时只需检查 overview-id 是否已被使用</li>
 <li>overview-id 不能重复使用</li>
 <li>ref-id 已有映射时,新映射会替换旧映射</li>
-<li>业务场景:</li>
+</ul>
+<p>业务场景:</p>
+<ul>
 <li>新建 ref 时可以不立即创建 overview</li>
 <li>可以后续再为 ref 关联 overview</li>
 <li>可以更换 ref 对应的 overview</li>
 <li>overview 必须关联到某个 ref</li>
-</ol>
+</ul>
 <p>这样的理解更符合实际场景了吗？</p>
 <p>我：
 overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件</p>
 <p>AI：
 明白了,让我重新梳理这个关系:</p>
-<ol>
-<li>
 <p>从数据库角度:</p>
-</li>
-<li>
-<p>ref-id 可以没有对应的 overview-id</p>
-</li>
-<li>
-<p>overview-id 可以没有对应的 ref-id</p>
-</li>
-<li>
-<p>但如果存在映射,则是一对一的关系</p>
-</li>
-<li>
+<ul>
+<li>ref-id 可以没有对应的 overview-id</li>
+<li>overview-id 可以没有对应的 ref-id</li>
+<li>但如果存在映射,则是一对一的关系</li>
+</ul>
 <p>从业务逻辑角度:</p>
-</li>
-<li>
-<p>overview 文件必须对应一个 source 文件(业务规则)</p>
-</li>
-<li>
-<p>但这个对应关系可能还未在数据库中建立(数据状态)</p>
-</li>
-<li>
-<p>映射关系的建立是一个渐进的过程</p>
-</li>
-<li>
+<ul>
+<li>overview 文件必须对应一个 source 文件(业务规则)</li>
+<li>但这个对应关系可能还未在数据库中建立(数据状态)</li>
+<li>映射关系的建立是一个渐进的过程</li>
+</ul>
 <p>Map 表的职责:</p>
-</li>
-<li>
-<p>记录已建立的映射关系</p>
-</li>
-<li>
-<p>确保映射的一对一性</p>
-</li>
-<li>
-<p>不强制要求所有实体都必须有映射</p>
-</li>
-<li>
-<p>但提供检查机制发现&quot;孤立&quot;的 overview</p>
-</li>
-</ol>
+<ul>
+<li>记录已建立的映射关系</li>
+<li>确保映射的一对一性</li>
+<li>不强制要求所有实体都必须有映射</li>
+<li>但提供检查机制发现&quot;孤立&quot;的 overview</li>
+</ul>
 <p>经过几轮对话之后，数据库所面对的场景，才真正的抽象出来。</p>
 <p><strong>实际开发时通过测试用例来 Debug</strong></p>
 <p>由于数据库设计的操作复杂，又是读又是取，又是加载又是保存，加上需要从数据库中读取数据，保存数据的函数很多。因此，按照以往，直接修改函数很容易遗漏。</p>
