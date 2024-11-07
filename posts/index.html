@@ -195,6 +195,60 @@
     
       <article class="post on-list">
         <h2 class="post-title">
+          <a href="https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/">用 AI 辅助开发的经验二三则(2)</a>
+        </h2>
+        <div class="post-meta"><time class="post-date">2024-11-07</time><span class="post-author">[Steve Chan]</span></div>
+
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。</p>
+<p>OZR 新的版本，增加了一个新功能，用于管理引用来源文件的可视化面板。这句话看上去很简单，但背后的工作量并不小。前端改一个词，足以让后端跑断腿。出现产品经理被砍这样的新闻，也不必奇怪了。</p>
+<p>可视化面板，是很多产品里常见的特性，它的功能就是，让用户更加舒服地查看、管理特定的对象。在 OZR 里，其管理对象是，一个个被充当引用来源的参考文件。</p>
+<p>如果让你来设计这个面板，你觉得第一个问题会是什么？我一开始的反映是，文件应该以什么样的方式进行展示？但实际上，在我真正着手开发时，真正重要的问题是： <strong>在面板里展示的数据源来自哪里?</strong> <strong>在数据源发生了改动之后，如何确保原来的文件映射关系不变？</strong></p>
+<p>继续追问这两个问题，会发现，从工程上需要实现：</p>
+<ol>
+<li>将原本非格式化的数据转换成格式化数据，保存到数据库中，面板访问数据库才能既快又好地展现文件信息</li>
+<li>由于用户会在面板上编辑文件信息，因此面板上更新的数据，需要同步到数据库对应的字段中，进行信息层面的对齐，这样子才能确保面板在重新加载之后不会出现错误的信息</li>
+</ol>
+<p>从这 2 个问题继续追问，就会出现大量需要实现的工程细节。但最重要的一个问题是，需要使用一个怎么样的数据库，才能够满足以上需求。再深挖这个问题，就是数据库应当使用什么结构，能够满足当前的业务需求？再追问这个问题，就会回到业务层面上，实际业务的情景是什么？</p>
+<p><strong>设计数据库之前需要先探明业务情景</strong></p>
+<p>在没弄清楚实际业务发生的情形之前，我所尝试的各种实现数据库的方法，都是错的，各种 Bug 层出不穷，按下葫芦浮起瓢。最后我冷静下来，深究原因——保存与存取，总是出现问题。我得感谢之前<a href="https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/">开发的经验里</a>，让我牢牢记住一个原则：一个 Bug 如果修改 3 次都不成功，一定要转换思路，不要继续重复原来的方法。</p>
+<p>所以，我和 AI 对话，对实际的业务情景进行分析，寻找最适合的数据库结构。这个问题决定了数据库的读写方法——</p>
+<p>我：
+overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件</p>
+<p>AI：
+明白了,让我重新梳理这个关系:
+从数据库角度:
+ref-id 可以没有对应的 overview-id
+overview-id 可以没有对应的 ref-id
+但如果存在映射,则是一对一的关系
+从业务逻辑角度:
+overview 文件必须对应一个 source 文件(业务规则)
+但这个对应关系可能还未在数据库中建立(数据状态)
+映射关系的建立是一个渐进的过程
+Map 表的职责:
+记录已建立的映射关系
+确保映射的一对一性
+不强制要求所有实体都必须有映射
+但提供检查机制发现&quot;孤立&quot;的 overview
+这样的理解更准确了吗？</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/learned-from-using-ai-develop-software-2/">Read more</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
           <a href="https://www.gtdstudy.com/posts/the-minimum-practice-unit/">最小练习单位</a>
         </h2>
         <div class="post-meta"><time class="post-date">2024-11-05</time><span class="post-author">[Steve Chan]</span></div>
@@ -325,34 +379,6 @@
         
            <div>
             <a class="read-more button inline" href="/posts/learned-from-using-ai-develop-software/">Read more</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="https://www.gtdstudy.com/posts/can-not-cheat-life/">吹不动了, 这个生活</a>
-        </h2>
-        <div class="post-meta"><time class="post-date">2024-10-02</time><span class="post-author">[Steve Chan]</span></div>
-
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>之前在即刻上讲了一句, 有时候自己说出去的话, 很多是自我证明, 自我辩解而已 &ndash; 当张口说点我怎样怎样, 也带着点疲惫时, 就开始感到, 自己的生活, 开始吹不动了.</p>
-<p>不奇怪, 现在是凌晨将近 1 点, 此时一个人的情绪是怎样的颜色, 我不知道怎么形容, 总之不可能如白天一样高对比度, 略带一点灰. 理性是白天的, 夜晚应该留给非理性 &ndash; 这句话就非常白天, 带着判断, 带着思辨, 带着高对比度 &ndash; 对比这个对比那个, 白天的画面就是这样大红大绿, 缺乏中间的过渡色.</p>
-<p>有意义, 是必须的吗? 我也不知道. 只是突然想到这个问题. 每个人都好累啊, 为了证明这个意义. 经常的神经紧张, 好像亢奋, 但好像也不是, 希望不是李连杰得的甲亢吧. 果然, 酒是个好东西, 喝到迷迷糊糊, 那个已经紧绷了很久的左脑, 才终于被麻醉, 让右脑独自放肆.</p>
-<p>这时候, 无意义反倒像有意义, 好诡异的一句话, 也不知道怎么说出来的, 但不这么说, 好像也不对了. 理解的都理解, 不理解的, 那就算了吧.</p>
-<p>会有人和我一样感到, 吹不动了, 这个生活. 承认这一点, 反而让我轻松了不少. 这就是生活吧. 我们每个人每天都在面对的生活.</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/can-not-cheat-life/">Read more</a>
           </div>
         
       </article>

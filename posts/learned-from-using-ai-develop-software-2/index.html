@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>用 AI 辅助开发的经验二三则(2) :: Space Looming</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。
+OZR 新的版本，增加了一个新功能，用于管理引用来源文件的可视化面板。这句话看上去很简单，但背后的工作量并不小。前端改一个词，足以让后端跑断腿。出现产品经理被砍这样的新闻，也不必奇怪了。
+可视化面板，是很多产品里常见的特性，它的功能就是，让用户更加舒服地查看、管理特定的对象。在 OZR 里，其管理对象是，一个个被充当引用来源的参考文件。
+如果让你来设计这个面板，你觉得第一个问题会是什么？我一开始的反映是，文件应该以什么样的方式进行展示？但实际上，在我真正着手开发时，真正重要的问题是： 在面板里展示的数据源来自哪里? 在数据源发生了改动之后，如何确保原来的文件映射关系不变？
+继续追问这两个问题，会发现，从工程上需要实现：
+将原本非格式化的数据转换成格式化数据，保存到数据库中，面板访问数据库才能既快又好地展现文件信息 由于用户会在面板上编辑文件信息，因此面板上更新的数据，需要同步到数据库对应的字段中，进行信息层面的对齐，这样子才能确保面板在重新加载之后不会出现错误的信息 从这 2 个问题继续追问，就会出现大量需要实现的工程细节。但最重要的一个问题是，需要使用一个怎么样的数据库，才能够满足以上需求。再深挖这个问题，就是数据库应当使用什么结构，能够满足当前的业务需求？再追问这个问题，就会回到业务层面上，实际业务的情景是什么？
+设计数据库之前需要先探明业务情景
+在没弄清楚实际业务发生的情形之前，我所尝试的各种实现数据库的方法，都是错的，各种 Bug 层出不穷，按下葫芦浮起瓢。最后我冷静下来，深究原因——保存与存取，总是出现问题。我得感谢之前开发的经验里，让我牢牢记住一个原则：一个 Bug 如果修改 3 次都不成功，一定要转换思路，不要继续重复原来的方法。
+所以，我和 AI 对话，对实际的业务情景进行分析，寻找最适合的数据库结构。这个问题决定了数据库的读写方法——
+我： overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件
+AI： 明白了,让我重新梳理这个关系: 从数据库角度: ref-id 可以没有对应的 overview-id overview-id 可以没有对应的 ref-id 但如果存在映射,则是一对一的关系 从业务逻辑角度: overview 文件必须对应一个 source 文件(业务规则) 但这个对应关系可能还未在数据库中建立(数据状态) 映射关系的建立是一个渐进的过程 Map 表的职责: 记录已建立的映射关系 确保映射的一对一性 不强制要求所有实体都必须有映射 但提供检查机制发现&quot;孤立&quot;的 overview 这样的理解更准确了吗？
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/fonts.min.90c955c31dd7c0e05aae3d4f583d4d8a2af799d69c961337eaf2a825063a55dd.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/main.min.1d8be2dd1b5de9fdaed058c8c59fcf4485f36619574abfb47ed0cfda4812c16d.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/terminal.min.e62f50ff2fb6063fbd9a70fc579fdf5adfd78e34563025dc923f2c380d17ea18.css">
+
+  
+  <link rel="stylesheet" href="https://www.gtdstudy.com/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="https://www.gtdstudy.com/favicon.png">
+<link rel="apple-touch-icon" href="https://www.gtdstudy.com/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="[Steve Chan]" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="用 AI 辅助开发的经验二三则(2)">
+<meta property="og:description" content="最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。
+OZR 新的版本，增加了一个新功能，用于管理引用来源文件的可视化面板。这句话看上去很简单，但背后的工作量并不小。前端改一个词，足以让后端跑断腿。出现产品经理被砍这样的新闻，也不必奇怪了。
+可视化面板，是很多产品里常见的特性，它的功能就是，让用户更加舒服地查看、管理特定的对象。在 OZR 里，其管理对象是，一个个被充当引用来源的参考文件。
+如果让你来设计这个面板，你觉得第一个问题会是什么？我一开始的反映是，文件应该以什么样的方式进行展示？但实际上，在我真正着手开发时，真正重要的问题是： 在面板里展示的数据源来自哪里? 在数据源发生了改动之后，如何确保原来的文件映射关系不变？
+继续追问这两个问题，会发现，从工程上需要实现：
+将原本非格式化的数据转换成格式化数据，保存到数据库中，面板访问数据库才能既快又好地展现文件信息 由于用户会在面板上编辑文件信息，因此面板上更新的数据，需要同步到数据库对应的字段中，进行信息层面的对齐，这样子才能确保面板在重新加载之后不会出现错误的信息 从这 2 个问题继续追问，就会出现大量需要实现的工程细节。但最重要的一个问题是，需要使用一个怎么样的数据库，才能够满足以上需求。再深挖这个问题，就是数据库应当使用什么结构，能够满足当前的业务需求？再追问这个问题，就会回到业务层面上，实际业务的情景是什么？
+设计数据库之前需要先探明业务情景
+在没弄清楚实际业务发生的情形之前，我所尝试的各种实现数据库的方法，都是错的，各种 Bug 层出不穷，按下葫芦浮起瓢。最后我冷静下来，深究原因——保存与存取，总是出现问题。我得感谢之前开发的经验里，让我牢牢记住一个原则：一个 Bug 如果修改 3 次都不成功，一定要转换思路，不要继续重复原来的方法。
+所以，我和 AI 对话，对实际的业务情景进行分析，寻找最适合的数据库结构。这个问题决定了数据库的读写方法——
+我： overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件
+AI： 明白了,让我重新梳理这个关系: 从数据库角度: ref-id 可以没有对应的 overview-id overview-id 可以没有对应的 ref-id 但如果存在映射,则是一对一的关系 从业务逻辑角度: overview 文件必须对应一个 source 文件(业务规则) 但这个对应关系可能还未在数据库中建立(数据状态) 映射关系的建立是一个渐进的过程 Map 表的职责: 记录已建立的映射关系 确保映射的一对一性 不强制要求所有实体都必须有映射 但提供检查机制发现&quot;孤立&quot;的 overview 这样的理解更准确了吗？
+" />
+<meta property="og:url" content="https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/" />
+<meta property="og:site_name" content="Space Looming" />
+
+  <meta property="og:image" content="https://www.gtdstudy.com/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2024-11-07 14:00:00 &#43;0800 CST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    学无止境
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/friends">Friends</a></li>
+        
+      
+        
+          <li><a href="/now">Now</a></li>
+        
+      
+        
+          <li><a href="/posts">Posts</a></li>
+        
+      
+        
+          <li><a href="/til">TIL</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/friends" >Friends</a></li>
+        
+      
+        
+          <li><a href="/now" >Now</a></li>
+        
+      
+        
+          <li><a href="/posts" >Posts</a></li>
+        
+      
+        
+          <li><a href="/til" >TIL</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/">用 AI 辅助开发的经验二三则(2)</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2024-11-07</time><span class="post-author">[Steve Chan]</span></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。</p>
+<p>OZR 新的版本，增加了一个新功能，用于管理引用来源文件的可视化面板。这句话看上去很简单，但背后的工作量并不小。前端改一个词，足以让后端跑断腿。出现产品经理被砍这样的新闻，也不必奇怪了。</p>
+<p>可视化面板，是很多产品里常见的特性，它的功能就是，让用户更加舒服地查看、管理特定的对象。在 OZR 里，其管理对象是，一个个被充当引用来源的参考文件。</p>
+<p>如果让你来设计这个面板，你觉得第一个问题会是什么？我一开始的反映是，文件应该以什么样的方式进行展示？但实际上，在我真正着手开发时，真正重要的问题是： <strong>在面板里展示的数据源来自哪里?</strong> <strong>在数据源发生了改动之后，如何确保原来的文件映射关系不变？</strong></p>
+<p>继续追问这两个问题，会发现，从工程上需要实现：</p>
+<ol>
+<li>将原本非格式化的数据转换成格式化数据，保存到数据库中，面板访问数据库才能既快又好地展现文件信息</li>
+<li>由于用户会在面板上编辑文件信息，因此面板上更新的数据，需要同步到数据库对应的字段中，进行信息层面的对齐，这样子才能确保面板在重新加载之后不会出现错误的信息</li>
+</ol>
+<p>从这 2 个问题继续追问，就会出现大量需要实现的工程细节。但最重要的一个问题是，需要使用一个怎么样的数据库，才能够满足以上需求。再深挖这个问题，就是数据库应当使用什么结构，能够满足当前的业务需求？再追问这个问题，就会回到业务层面上，实际业务的情景是什么？</p>
+<p><strong>设计数据库之前需要先探明业务情景</strong></p>
+<p>在没弄清楚实际业务发生的情形之前，我所尝试的各种实现数据库的方法，都是错的，各种 Bug 层出不穷，按下葫芦浮起瓢。最后我冷静下来，深究原因——保存与存取，总是出现问题。我得感谢之前<a href="https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/">开发的经验里</a>，让我牢牢记住一个原则：一个 Bug 如果修改 3 次都不成功，一定要转换思路，不要继续重复原来的方法。</p>
+<p>所以，我和 AI 对话，对实际的业务情景进行分析，寻找最适合的数据库结构。这个问题决定了数据库的读写方法——</p>
+<p>我：
+overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件</p>
+<p>AI：
+明白了,让我重新梳理这个关系:
+从数据库角度:
+ref-id 可以没有对应的 overview-id
+overview-id 可以没有对应的 ref-id
+但如果存在映射,则是一对一的关系
+从业务逻辑角度:
+overview 文件必须对应一个 source 文件(业务规则)
+但这个对应关系可能还未在数据库中建立(数据状态)
+映射关系的建立是一个渐进的过程
+Map 表的职责:
+记录已建立的映射关系
+确保映射的一对一性
+不强制要求所有实体都必须有映射
+但提供检查机制发现&quot;孤立&quot;的 overview
+这样的理解更准确了吗？</p>
+<p>我：
+在我们的场景里，一个 ref-id 对应一个 overview-id。</p>
+<p>AI：
+啊,抱歉我理解错了。是的,在我们的场景中是一对一的关系。
+让我们重新分析 Map 表的工作机制:
+一对一映射的特点:
+每个 ref-id 只能对应一个 overview-id
+每个 overview-id 也只能对应一个 ref-id
+这意味着映射是双向唯一的
+Map 表的约束:
+创建新映射前需要检查 ref-id 是否已有映射
+创建新映射前需要检查 overview-id 是否已被映射
+更新映射时需要保证双向唯一性
+删除映射时需要同时解除双向关联
+查询优化:
+可以通过 ref-id 直接找到对应的 overview-id
+可以通过 overview-id 反查对应的 ref-id
+不需要复杂的多重映射处理
+这样的理解更准确吗</p>
+<p>我：
+场景是这样的，新增加的 ref-id 未必会有对应的 overview-id。</p>
+<p>AI：
+啊,明白了。这是一个可选的一对一关系:</p>
+<ol>
+<li>映射的特点:</li>
+<li>ref-id 可以没有对应的 overview-id (可选关系)</li>
+<li>但如果有映射,则是一对一的</li>
+<li>overview-id 一定对应一个 ref-id (必需关系)</li>
+<li>Map 表的约束:</li>
+<li>不是所有 ref-id 都需要在 Map 表中</li>
+<li>创建映射时只需检查 overview-id 是否已被使用</li>
+<li>overview-id 不能重复使用</li>
+<li>ref-id 已有映射时,新映射会替换旧映射</li>
+<li>业务场景:</li>
+<li>新建 ref 时可以不立即创建 overview</li>
+<li>可以后续再为 ref 关联 overview</li>
+<li>可以更换 ref 对应的 overview</li>
+<li>overview 必须关联到某个 ref</li>
+</ol>
+<p>这样的理解更符合实际场景了吗？</p>
+<p>我：
+overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件</p>
+<p>AI：
+明白了,让我重新梳理这个关系:</p>
+<ol>
+<li>
+<p>从数据库角度:</p>
+</li>
+<li>
+<p>ref-id 可以没有对应的 overview-id</p>
+</li>
+<li>
+<p>overview-id 可以没有对应的 ref-id</p>
+</li>
+<li>
+<p>但如果存在映射,则是一对一的关系</p>
+</li>
+<li>
+<p>从业务逻辑角度:</p>
+</li>
+<li>
+<p>overview 文件必须对应一个 source 文件(业务规则)</p>
+</li>
+<li>
+<p>但这个对应关系可能还未在数据库中建立(数据状态)</p>
+</li>
+<li>
+<p>映射关系的建立是一个渐进的过程</p>
+</li>
+<li>
+<p>Map 表的职责:</p>
+</li>
+<li>
+<p>记录已建立的映射关系</p>
+</li>
+<li>
+<p>确保映射的一对一性</p>
+</li>
+<li>
+<p>不强制要求所有实体都必须有映射</p>
+</li>
+<li>
+<p>但提供检查机制发现&quot;孤立&quot;的 overview</p>
+</li>
+</ol>
+<p>经过几轮对话之后，数据库所面对的场景，才真正的抽象出来。</p>
+<p><strong>实际开发时通过测试用例来 Debug</strong></p>
+<p>由于数据库设计的操作复杂，又是读又是取，又是加载又是保存，加上需要从数据库中读取数据，保存数据的函数很多。因此，按照以往，直接修改函数很容易遗漏。</p>
+<p>最佳实践是，通过测试用例，来找到还没修改和完善的地方。Emacs 自带 ert 这个测试框架，可以很完善的测试各种功能。有了测试用例配合测试，就可以非常清楚地知道问题出在哪里，直接检查对应的函数。节省了大量的时间，和精力——在 Debug 过程中，最痛苦的不是改 Bug 而是找到 Bug 的源头。</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="https://www.gtdstudy.com/posts/the-minimum-practice-unit/" class="button inline next">
+        最小练习单位
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    <head>
+  
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+  />
+  
+</head>
+<body>
+  
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://comments.gtdstudy.com',
+    });
+  </script>
+</body>
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2024 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

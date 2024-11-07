@@ -6,7 +6,167 @@
     <description>Recent content on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Nov 2024 18:37:00 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Nov 2024 14:00:00 +0800</lastBuildDate><atom:link href="https://www.gtdstudy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用 AI 辅助开发的经验二三则(2)</title>
+      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/</link>
+      <pubDate>Thu, 07 Nov 2024 14:00:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/</guid>
+      <description>&lt;p&gt;最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。&lt;/p&gt;
+&lt;p&gt;OZR 新的版本，增加了一个新功能，用于管理引用来源文件的可视化面板。这句话看上去很简单，但背后的工作量并不小。前端改一个词，足以让后端跑断腿。出现产品经理被砍这样的新闻，也不必奇怪了。&lt;/p&gt;
+&lt;p&gt;可视化面板，是很多产品里常见的特性，它的功能就是，让用户更加舒服地查看、管理特定的对象。在 OZR 里，其管理对象是，一个个被充当引用来源的参考文件。&lt;/p&gt;
+&lt;p&gt;如果让你来设计这个面板，你觉得第一个问题会是什么？我一开始的反映是，文件应该以什么样的方式进行展示？但实际上，在我真正着手开发时，真正重要的问题是： &lt;strong&gt;在面板里展示的数据源来自哪里?&lt;/strong&gt; &lt;strong&gt;在数据源发生了改动之后，如何确保原来的文件映射关系不变？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;继续追问这两个问题，会发现，从工程上需要实现：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将原本非格式化的数据转换成格式化数据，保存到数据库中，面板访问数据库才能既快又好地展现文件信息&lt;/li&gt;
+&lt;li&gt;由于用户会在面板上编辑文件信息，因此面板上更新的数据，需要同步到数据库对应的字段中，进行信息层面的对齐，这样子才能确保面板在重新加载之后不会出现错误的信息&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;从这 2 个问题继续追问，就会出现大量需要实现的工程细节。但最重要的一个问题是，需要使用一个怎么样的数据库，才能够满足以上需求。再深挖这个问题，就是数据库应当使用什么结构，能够满足当前的业务需求？再追问这个问题，就会回到业务层面上，实际业务的情景是什么？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设计数据库之前需要先探明业务情景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在没弄清楚实际业务发生的情形之前，我所尝试的各种实现数据库的方法，都是错的，各种 Bug 层出不穷，按下葫芦浮起瓢。最后我冷静下来，深究原因——保存与存取，总是出现问题。我得感谢之前&lt;a href=&#34;https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/&#34;&gt;开发的经验里&lt;/a&gt;，让我牢牢记住一个原则：一个 Bug 如果修改 3 次都不成功，一定要转换思路，不要继续重复原来的方法。&lt;/p&gt;
+&lt;p&gt;所以，我和 AI 对话，对实际的业务情景进行分析，寻找最适合的数据库结构。这个问题决定了数据库的读写方法——&lt;/p&gt;
+&lt;p&gt;我：
+overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件&lt;/p&gt;
+&lt;p&gt;AI：
+明白了,让我重新梳理这个关系:
+从数据库角度:
+ref-id 可以没有对应的 overview-id
+overview-id 可以没有对应的 ref-id
+但如果存在映射,则是一对一的关系
+从业务逻辑角度:
+overview 文件必须对应一个 source 文件(业务规则)
+但这个对应关系可能还未在数据库中建立(数据状态)
+映射关系的建立是一个渐进的过程
+Map 表的职责:
+记录已建立的映射关系
+确保映射的一对一性
+不强制要求所有实体都必须有映射
+但提供检查机制发现&amp;quot;孤立&amp;quot;的 overview
+这样的理解更准确了吗？&lt;/p&gt;</description>
+      <content>&lt;p&gt;最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。&lt;/p&gt;
+&lt;p&gt;OZR 新的版本，增加了一个新功能，用于管理引用来源文件的可视化面板。这句话看上去很简单，但背后的工作量并不小。前端改一个词，足以让后端跑断腿。出现产品经理被砍这样的新闻，也不必奇怪了。&lt;/p&gt;
+&lt;p&gt;可视化面板，是很多产品里常见的特性，它的功能就是，让用户更加舒服地查看、管理特定的对象。在 OZR 里，其管理对象是，一个个被充当引用来源的参考文件。&lt;/p&gt;
+&lt;p&gt;如果让你来设计这个面板，你觉得第一个问题会是什么？我一开始的反映是，文件应该以什么样的方式进行展示？但实际上，在我真正着手开发时，真正重要的问题是： &lt;strong&gt;在面板里展示的数据源来自哪里?&lt;/strong&gt; &lt;strong&gt;在数据源发生了改动之后，如何确保原来的文件映射关系不变？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;继续追问这两个问题，会发现，从工程上需要实现：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将原本非格式化的数据转换成格式化数据，保存到数据库中，面板访问数据库才能既快又好地展现文件信息&lt;/li&gt;
+&lt;li&gt;由于用户会在面板上编辑文件信息，因此面板上更新的数据，需要同步到数据库对应的字段中，进行信息层面的对齐，这样子才能确保面板在重新加载之后不会出现错误的信息&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;从这 2 个问题继续追问，就会出现大量需要实现的工程细节。但最重要的一个问题是，需要使用一个怎么样的数据库，才能够满足以上需求。再深挖这个问题，就是数据库应当使用什么结构，能够满足当前的业务需求？再追问这个问题，就会回到业务层面上，实际业务的情景是什么？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设计数据库之前需要先探明业务情景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在没弄清楚实际业务发生的情形之前，我所尝试的各种实现数据库的方法，都是错的，各种 Bug 层出不穷，按下葫芦浮起瓢。最后我冷静下来，深究原因——保存与存取，总是出现问题。我得感谢之前&lt;a href=&#34;https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/&#34;&gt;开发的经验里&lt;/a&gt;，让我牢牢记住一个原则：一个 Bug 如果修改 3 次都不成功，一定要转换思路，不要继续重复原来的方法。&lt;/p&gt;
+&lt;p&gt;所以，我和 AI 对话，对实际的业务情景进行分析，寻找最适合的数据库结构。这个问题决定了数据库的读写方法——&lt;/p&gt;
+&lt;p&gt;我：
+overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件&lt;/p&gt;
+&lt;p&gt;AI：
+明白了,让我重新梳理这个关系:
+从数据库角度:
+ref-id 可以没有对应的 overview-id
+overview-id 可以没有对应的 ref-id
+但如果存在映射,则是一对一的关系
+从业务逻辑角度:
+overview 文件必须对应一个 source 文件(业务规则)
+但这个对应关系可能还未在数据库中建立(数据状态)
+映射关系的建立是一个渐进的过程
+Map 表的职责:
+记录已建立的映射关系
+确保映射的一对一性
+不强制要求所有实体都必须有映射
+但提供检查机制发现&amp;quot;孤立&amp;quot;的 overview
+这样的理解更准确了吗？&lt;/p&gt;
+&lt;p&gt;我：
+在我们的场景里，一个 ref-id 对应一个 overview-id。&lt;/p&gt;
+&lt;p&gt;AI：
+啊,抱歉我理解错了。是的,在我们的场景中是一对一的关系。
+让我们重新分析 Map 表的工作机制:
+一对一映射的特点:
+每个 ref-id 只能对应一个 overview-id
+每个 overview-id 也只能对应一个 ref-id
+这意味着映射是双向唯一的
+Map 表的约束:
+创建新映射前需要检查 ref-id 是否已有映射
+创建新映射前需要检查 overview-id 是否已被映射
+更新映射时需要保证双向唯一性
+删除映射时需要同时解除双向关联
+查询优化:
+可以通过 ref-id 直接找到对应的 overview-id
+可以通过 overview-id 反查对应的 ref-id
+不需要复杂的多重映射处理
+这样的理解更准确吗&lt;/p&gt;
+&lt;p&gt;我：
+场景是这样的，新增加的 ref-id 未必会有对应的 overview-id。&lt;/p&gt;
+&lt;p&gt;AI：
+啊,明白了。这是一个可选的一对一关系:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;映射的特点:&lt;/li&gt;
+&lt;li&gt;ref-id 可以没有对应的 overview-id (可选关系)&lt;/li&gt;
+&lt;li&gt;但如果有映射,则是一对一的&lt;/li&gt;
+&lt;li&gt;overview-id 一定对应一个 ref-id (必需关系)&lt;/li&gt;
+&lt;li&gt;Map 表的约束:&lt;/li&gt;
+&lt;li&gt;不是所有 ref-id 都需要在 Map 表中&lt;/li&gt;
+&lt;li&gt;创建映射时只需检查 overview-id 是否已被使用&lt;/li&gt;
+&lt;li&gt;overview-id 不能重复使用&lt;/li&gt;
+&lt;li&gt;ref-id 已有映射时,新映射会替换旧映射&lt;/li&gt;
+&lt;li&gt;业务场景:&lt;/li&gt;
+&lt;li&gt;新建 ref 时可以不立即创建 overview&lt;/li&gt;
+&lt;li&gt;可以后续再为 ref 关联 overview&lt;/li&gt;
+&lt;li&gt;可以更换 ref 对应的 overview&lt;/li&gt;
+&lt;li&gt;overview 必须关联到某个 ref&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这样的理解更符合实际场景了吗？&lt;/p&gt;
+&lt;p&gt;我：
+overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件&lt;/p&gt;
+&lt;p&gt;AI：
+明白了,让我重新梳理这个关系:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;从数据库角度:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ref-id 可以没有对应的 overview-id&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;overview-id 可以没有对应的 ref-id&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;但如果存在映射,则是一对一的关系&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;从业务逻辑角度:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;overview 文件必须对应一个 source 文件(业务规则)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;但这个对应关系可能还未在数据库中建立(数据状态)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;映射关系的建立是一个渐进的过程&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Map 表的职责:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;记录已建立的映射关系&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;确保映射的一对一性&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不强制要求所有实体都必须有映射&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;但提供检查机制发现&amp;quot;孤立&amp;quot;的 overview&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;经过几轮对话之后，数据库所面对的场景，才真正的抽象出来。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;实际开发时通过测试用例来 Debug&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;由于数据库设计的操作复杂，又是读又是取，又是加载又是保存，加上需要从数据库中读取数据，保存数据的函数很多。因此，按照以往，直接修改函数很容易遗漏。&lt;/p&gt;
+&lt;p&gt;最佳实践是，通过测试用例，来找到还没修改和完善的地方。Emacs 自带 ert 这个测试框架，可以很完善的测试各种功能。有了测试用例配合测试，就可以非常清楚地知道问题出在哪里，直接检查对应的函数。节省了大量的时间，和精力——在 Debug 过程中，最痛苦的不是改 Bug 而是找到 Bug 的源头。&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>最小练习单位</title>
       <link>https://www.gtdstudy.com/posts/the-minimum-practice-unit/</link>
@@ -215,136 +375,14 @@
 &lt;h1 id=&#34;2024-11-06-给-emacs-打-patch&#34;&gt;2024-11-06 给 Emacs 打 Patch&lt;/h1&gt;
 &lt;p&gt;From Telegram 群组 &amp;ldquo;Emacs_CN Lite 轻聊版&amp;rdquo; @Lucius_Chen&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/ 下的 &lt;a href=&#34;mailto:emacs-plus@31.rb&#34;&gt;emacs-plus@31.rb&lt;/a&gt; 需要 Path 栏下的 local_path 和 commit&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;patch 的话看你是用的什么，比如 emacs-plus 的话，需要把 patch 文件放在 /opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/patches/emacs-31&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;2024-11-05-vim-命令---scoll--move&#34;&gt;2024-11-05 Vim 命令 - Scoll &amp;amp; Move&lt;/h1&gt;
-&lt;p&gt;C = Ctrl&lt;/p&gt;
-&lt;h3 id=&#34;scoll&#34;&gt;Scoll&lt;/h3&gt;
-&lt;p&gt;滚动
-一页
-C-f/b
-半页
-C-d/u
-一行
-C-e/y&lt;/p&gt;
-&lt;h3 id=&#34;navigation&#34;&gt;Navigation&lt;/h3&gt;
-&lt;p&gt;以词定位&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;   下一个单词的开头
-                w/W 区别是 W 更加直接
-   当前单词的末尾
-                e/E 
-   上一个单词的开头
-                b/B
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;以行定位&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;   去到行首
-          0
-   去到行尾
-          $
-   去到第一个非空字符
-          ^
-   去到最后一个非空字符
-          g_
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;以屏定位&lt;/p&gt;</description>
+&lt;li&gt;/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/ 下的 &lt;a href=&#34;mailto:emacs-plus@31.rb&#34;&gt;emacs-plus@31.rb&lt;/a&gt; 需要 Path 栏下的 local_path 和 commit&lt;/li&gt;
+&lt;/ol&gt;</description>
       <content>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
 &lt;h1 id=&#34;2024-11-06-给-emacs-打-patch&#34;&gt;2024-11-06 给 Emacs 打 Patch&lt;/h1&gt;
 &lt;p&gt;From Telegram 群组 &amp;ldquo;Emacs_CN Lite 轻聊版&amp;rdquo; @Lucius_Chen&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/ 下的 &lt;a href=&#34;mailto:emacs-plus@31.rb&#34;&gt;emacs-plus@31.rb&lt;/a&gt; 需要 Path 栏下的 local_path 和 commit&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;patch 的话看你是用的什么，比如 emacs-plus 的话，需要把 patch 文件放在 /opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/patches/emacs-31&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/ 下的 &lt;a href=&#34;mailto:emacs-plus@31.rb&#34;&gt;emacs-plus@31.rb&lt;/a&gt; 需要 Path 栏下的 local_path 和 commit&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;2024-11-05-vim-命令---scoll--move&#34;&gt;2024-11-05 Vim 命令 - Scoll &amp;amp; Move&lt;/h1&gt;
-&lt;p&gt;C = Ctrl&lt;/p&gt;
-&lt;h3 id=&#34;scoll&#34;&gt;Scoll&lt;/h3&gt;
-&lt;p&gt;滚动
-一页
-C-f/b
-半页
-C-d/u
-一行
-C-e/y&lt;/p&gt;
-&lt;h3 id=&#34;navigation&#34;&gt;Navigation&lt;/h3&gt;
-&lt;p&gt;以词定位&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;   下一个单词的开头
-                w/W 区别是 W 更加直接
-   当前单词的末尾
-                e/E 
-   上一个单词的开头
-                b/B
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;以行定位&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;   去到行首
-          0
-   去到行尾
-          $
-   去到第一个非空字符
-          ^
-   去到最后一个非空字符
-          g_
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;以屏定位&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;   去到当前屏幕中的第一行
-                      H
-   去到当前屏幕的中间一行
-                      M
-   去到当前屏幕的最后一行
-                      L  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id=&#34;2024-10-27-解决一个神出鬼没的-bug&#34;&gt;2024-10-27 解决一个神出鬼没的 Bug&lt;/h1&gt;
-&lt;p&gt;一句话说明问题: 升级 org-zettel-ref-mode 的数据库格式, 导致加载数据库的函数无法读取正确的数据库. 结果在内存里引发了一个错误链. 然而, 报错消息只显示 &amp;ldquo;let*: End of file during parsing&amp;rdquo;, 但无具体详细的报告 &amp;ndash; 直接误导了问题的解决方向.&lt;/p&gt;
-&lt;p&gt;辛苦的过程: 由于报错消息直接说明, 代码的括号匹配出问题. 所以一开始是检查代码的括号匹配, 到 Emacs 群里吐槽了一下自己头都要秃了, 顺便把代码发过去请教一下, 高手也回复说是括号匹配. 但括号匹配怎么都查不出问题来, 所以换一个方式, 怀疑 let* 导致了错误的加载. 于是把所有 let* 里引用的变量前面全部都恢复用 let. 报错仍然存在. 整个过程相当令人疲惫.&lt;/p&gt;
-&lt;p&gt;灵光一闪: 由于之前总结, 如果解决一个 Bug 的方式,重复了 3 次, Bug 依然存在, 那么就要赶紧想想是否别的地方出问题. 不要吊死在一个 Bug 上. 于是, 我想一想, 不妨直接运行导致报错消息的函数试一下看看, 撞大运了, 这一次 Emacs 提供了具体而详细的错误报告. 我终于可以分析问题哪里, 然后顺利解决.&lt;/p&gt;
-&lt;p&gt;这一个 Bug 出现得很诡异, 它非常隐蔽以后都得注意, 不要导致同样的问题出现.&lt;/p&gt;
-&lt;p&gt;我让 Claude 帮我解读如下, 问题是数据库格式在我升级了之后, 没有接着升级数据库装载函数, 导致了如下问题, 由于问题存在于内存里, Emacs 未能捕捉到真正的问题:&lt;/p&gt;
-&lt;p&gt;通过查看错误堆栈和原始函数，我发现问题：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;错误堆栈顺序：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; ((data (&lt;span style=&#34;color:#a6e22e&#34;&gt;read&lt;/span&gt; (current-buffer)))) &lt;span style=&#34;color:#75715e&#34;&gt;; read 失败，返回 nil&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; ((temp-db (&lt;span style=&#34;color:#a6e22e&#34;&gt;make-hash-table&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;:test&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;equal&lt;/span&gt;)))
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(dolist (entry-data (plist-get data &lt;span style=&#34;color:#e6db74&#34;&gt;:entries&lt;/span&gt;)) &lt;span style=&#34;color:#75715e&#34;&gt;; data 是 nil, plist-get 返回 nil&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;关键问题：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;read&lt;/code&gt; 函数失败后返回 &lt;code&gt;nil&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;但代码继续执行，试图从 &lt;code&gt;nil&lt;/code&gt; 中获取 &lt;code&gt;:entries&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;而后续函数继续使用这些无效值&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;最关键的是，这个错误会传递到调用链：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;org-zettel-ref-db-load()
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-&amp;gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;let*&lt;/span&gt; (&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;)  &lt;span style=&#34;color:#75715e&#34;&gt;; org-zettel-ref-init 中的嵌套 let* &lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;导致 &lt;code&gt;org-zettel-ref-init&lt;/code&gt; 中的 &lt;code&gt;let*&lt;/code&gt; 无法正常执行，从而引发了 &amp;ldquo;let*: End of file during parsing&amp;rdquo; 错误。&lt;/p&gt;
-&lt;h1 id=&#34;2024-10-20-让大陆用户顺利访问部署在-vercel-上的网站程序&#34;&gt;2024-10-20 让大陆用户顺利访问部署在 Vercel 上的网站程序&lt;/h1&gt;
-&lt;p&gt;在域名服务商的 DNS 记录里使用:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;cname-china.vercel-dns.com&lt;/code&gt;&lt;/p&gt;
-&lt;h1 id=&#34;2024-10-17-使用-emacs-的-register-方便工作&#34;&gt;2024-10-17 使用 Emacs 的 Register 方便工作&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=IygRp_9HTJk&#34;&gt;Emacs: Store anything with registers and bookmarks&lt;/a&gt; 这个视频讲解了 Emacs 中 Register 的运用. 之前也接触过这个概念, 但一直不理解它的作用. 看完这个视频, 就很了解了.&lt;/p&gt;
-&lt;p&gt;Register 非常适合用来在工作时, 临时保存一些东西, 方便在工作过程中重复调用. 它可以储存的对象包括:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;文件中光标所在的位置.&lt;/li&gt;
-&lt;li&gt;当前窗口的布局.&lt;/li&gt;
-&lt;li&gt;一个需要重复查看/编辑的文件. (需要在配置中自定义命令)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;由于 Register 是临时保存, 因此重启 Emacs, 寄存器里的内容将全部丢失. 此外, 如果新的对象保存到一个 Register 里, 其保存的原来的对象会马上丢失 &amp;ndash; 不需要经过确认 &amp;ndash; 这时候不需要确认的机制反而是一个好机制.&lt;/p&gt;
-&lt;p&gt;因此 Emacs 的 Register 真的非常适合处理临时性的任务. 如果希望突破临时保存的限制, 可以考虑 Emacs 里的 Bookmark 机制. 这两者好好结合, 可以创造非常高效率的工作环境.&lt;/p&gt;
-&lt;h1 id=&#34;2024-10-16&#34;&gt;2024-10-16&lt;/h1&gt;
-&lt;p&gt;在 Emacs 内, 不移动光标的情况下, 滚动行. 已经内置了 2 个命令:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;sroll-up-line&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;sroll-down-line&lt;/code&gt;&lt;/p&gt;
-&lt;h1 id=&#34;2024-10-07&#34;&gt;2024-10-07&lt;/h1&gt;
-&lt;p&gt;所有软件工程, 都要通过 Profiler 来测试性能. 在 Emacs 中, 测试性能可以通过简单的命令实现:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;M-x profiler-start&lt;/code&gt; 启动性能测试, 然后选择 CPU 消耗, 内存消耗, CPU+内存消耗.&lt;/p&gt;
 </content>
     </item>
     
