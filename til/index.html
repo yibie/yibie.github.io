@@ -7,8 +7,11 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="TIL = Today I learned
-2024-11-06 给 Emacs 打 Patch From Telegram 群组 &ldquo;Emacs_CN Lite 轻聊版&rdquo; @Lucius_Chen
-/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/ 下的 emacs-plus@31.rb 需要 Path 栏下的 local_path 和 commit " />
+2024-11-06 给 Emacs 打 Patch 来源: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen
+在 /opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/ 下的 emacs-plus@31.rb 文件需要修改 Path 栏的 local_path 和 commit。
+如果需要打 patch，可以将 patch 文件放在： /opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/patches/emacs-31
+2024-11-05 Vim 命令 - Scroll &amp; Move Scroll 滚动一页: C-f / C-b 滚动半页: C-d / C-u 滚动一行: C-e / C-y Navigation 以词定位 下一个单词的开头: w / W（W 更加直接） 当前单词的末尾: e / E 上一个单词的开头: b / B 以行定位 去到行首: 0 去到行尾: $ 去到第一个非空字符: ^ 去到最后一个非空字符: g_ 以屏定位 去到当前屏幕中的第一行: H 去到当前屏幕的中间一行: M 去到当前屏幕的最后一行: L 2024-10-27 解决一个神出鬼没的 Bug 一句话说明问题 升级 org-zettel-ref-mode 的数据库格式导致加载数据库的函数无法读取正确的数据库，结果引发内存错误链。报错信息仅显示 “let*: End of file during parsing”，未提供具体细节。
+" />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
@@ -84,8 +87,11 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="TIL">
 <meta property="og:description" content="TIL = Today I learned
-2024-11-06 给 Emacs 打 Patch From Telegram 群组 &ldquo;Emacs_CN Lite 轻聊版&rdquo; @Lucius_Chen
-/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/ 下的 emacs-plus@31.rb 需要 Path 栏下的 local_path 和 commit " />
+2024-11-06 给 Emacs 打 Patch 来源: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen
+在 /opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/ 下的 emacs-plus@31.rb 文件需要修改 Path 栏的 local_path 和 commit。
+如果需要打 patch，可以将 patch 文件放在： /opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/patches/emacs-31
+2024-11-05 Vim 命令 - Scroll &amp; Move Scroll 滚动一页: C-f / C-b 滚动半页: C-d / C-u 滚动一行: C-e / C-y Navigation 以词定位 下一个单词的开头: w / W（W 更加直接） 当前单词的末尾: e / E 上一个单词的开头: b / B 以行定位 去到行首: 0 去到行尾: $ 去到第一个非空字符: ^ 去到最后一个非空字符: g_ 以屏定位 去到当前屏幕中的第一行: H 去到当前屏幕的中间一行: M 去到当前屏幕的最后一行: L 2024-10-27 解决一个神出鬼没的 Bug 一句话说明问题 升级 org-zettel-ref-mode 的数据库格式导致加载数据库的函数无法读取正确的数据库，结果引发内存错误链。报错信息仅显示 “let*: End of file during parsing”，未提供具体细节。
+" />
 <meta property="og:url" content="https://www.gtdstudy.com/til/" />
 <meta property="og:site_name" content="Space Looming" />
 
@@ -211,17 +217,129 @@
       <h2>
         Table of Contents
       </h2>
-      <nav id="TableOfContents"></nav>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#scroll">Scroll</a></li>
+    <li><a href="#navigation">Navigation</a>
+      <ul>
+        <li><a href="#以词定位">以词定位</a></li>
+        <li><a href="#以行定位">以行定位</a></li>
+        <li><a href="#以屏定位">以屏定位</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#一句话说明问题">一句话说明问题</a></li>
+    <li><a href="#辛苦的过程">辛苦的过程</a></li>
+    <li><a href="#灵光一闪">灵光一闪</a></li>
+    <li><a href="#问题分析">问题分析</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#register-的特点">Register 的特点</a></li>
+    <li><a href="#register-与-bookmark-的结合">Register 与 Bookmark 的结合</a></li>
+  </ul>
+</nav>
     </div>
   
 
   <div class="post-content"><div>
         <p>TIL = Today I learned</p>
 <h1 id="2024-11-06-给-emacs-打-patch">2024-11-06 给 Emacs 打 Patch<a href="#2024-11-06-给-emacs-打-patch" class="hanchor" ariaLabel="Anchor">#</a> </h1>
-<p>From Telegram 群组 &ldquo;Emacs_CN Lite 轻聊版&rdquo; @Lucius_Chen</p>
+<p><strong>来源</strong>: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen</p>
+<p>在 <code>/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/</code> 下的 <code>emacs-plus@31.rb</code> 文件需要修改 <code>Path</code> 栏的 <code>local_path</code> 和 <code>commit</code>。</p>
+<p>如果需要打 patch，可以将 patch 文件放在：
+<code>/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/patches/emacs-31</code></p>
+<hr>
+<h1 id="2024-11-05-vim-命令---scroll--move">2024-11-05 Vim 命令 - Scroll &amp; Move<a href="#2024-11-05-vim-命令---scroll--move" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="scroll">Scroll<a href="#scroll" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>滚动一页: <code>C-f</code> / <code>C-b</code></li>
+<li>滚动半页: <code>C-d</code> / <code>C-u</code></li>
+<li>滚动一行: <code>C-e</code> / <code>C-y</code></li>
+</ul>
+<h2 id="navigation">Navigation<a href="#navigation" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="以词定位">以词定位<a href="#以词定位" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>下一个单词的开头: <code>w</code> / <code>W</code>（<code>W</code> 更加直接）</li>
+<li>当前单词的末尾: <code>e</code> / <code>E</code></li>
+<li>上一个单词的开头: <code>b</code> / <code>B</code></li>
+</ul>
+<h3 id="以行定位">以行定位<a href="#以行定位" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>去到行首: <code>0</code></li>
+<li>去到行尾: <code>$</code></li>
+<li>去到第一个非空字符: <code>^</code></li>
+<li>去到最后一个非空字符: <code>g_</code></li>
+</ul>
+<h3 id="以屏定位">以屏定位<a href="#以屏定位" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>去到当前屏幕中的第一行: <code>H</code></li>
+<li>去到当前屏幕的中间一行: <code>M</code></li>
+<li>去到当前屏幕的最后一行: <code>L</code></li>
+</ul>
+<hr>
+<h1 id="2024-10-27-解决一个神出鬼没的-bug">2024-10-27 解决一个神出鬼没的 Bug<a href="#2024-10-27-解决一个神出鬼没的-bug" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="一句话说明问题">一句话说明问题<a href="#一句话说明问题" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>升级 <code>org-zettel-ref-mode</code> 的数据库格式导致加载数据库的函数无法读取正确的数据库，结果引发内存错误链。报错信息仅显示 “let*: End of file during parsing”，未提供具体细节。</p>
+<h2 id="辛苦的过程">辛苦的过程<a href="#辛苦的过程" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ol>
-<li>/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/ 下的 <a href="mailto:emacs-plus@31.rb">emacs-plus@31.rb</a> 需要 Path 栏下的 local_path 和 commit</li>
+<li>起初以为是代码括号匹配问题，检查后无果。</li>
+<li>Emacs 群中请教后仍未找到问题。</li>
+<li>尝试将所有 <code>let*</code> 改为 <code>let</code>，但问题依旧。</li>
 </ol>
+<h2 id="灵光一闪">灵光一闪<a href="#灵光一闪" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>总结经验后怀疑是别处问题。直接运行导致报错的函数，终于获得详细的错误报告，从而顺利解决问题。</p>
+<h2 id="问题分析">问题分析<a href="#问题分析" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>关键错误：</p>
+<ul>
+<li><code>read</code> 函数失败返回 <code>nil</code>。</li>
+<li>后续试图从 <code>nil</code> 中获取 <code>:entries</code>，导致问题传递。</li>
+</ul>
+<p>调用链分析：</p>
+<ol>
+<li><code>org-zettel-ref-db-load()</code></li>
+<li>内部 <code>let*</code> 执行失败，触发错误。</li>
+</ol>
+<hr>
+<h1 id="2024-10-20-让大陆用户顺利访问部署在-vercel-上的网站程序">2024-10-20 让大陆用户顺利访问部署在 Vercel 上的网站程序<a href="#2024-10-20-让大陆用户顺利访问部署在-vercel-上的网站程序" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>在域名服务商的 DNS 记录中使用：
+<code>cname-china.vercel-dns.com</code></p>
+<hr>
+<h1 id="2024-10-17-使用-emacs-的-register-方便工作">2024-10-17 使用 Emacs 的 Register 方便工作<a href="#2024-10-17-使用-emacs-的-register-方便工作" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>观看视频 <em>Emacs: Store anything with registers and bookmarks</em> 后，更清楚 Register 的作用。</p>
+<h2 id="register-的特点">Register 的特点<a href="#register-的特点" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>临时保存：
+<ul>
+<li>光标位置</li>
+<li>窗口布局</li>
+<li>文件（需自定义命令）</li>
+</ul>
+</li>
+<li>内容会随 Emacs 重启或被覆盖而丢失。</li>
+<li>快速覆盖机制适合处理临时性任务。</li>
+</ul>
+<h2 id="register-与-bookmark-的结合">Register 与 Bookmark 的结合<a href="#register-与-bookmark-的结合" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Register 适合临时任务，Bookmark 可用于长期保存，高效结合使用能提升工作效率。</p>
+<hr>
+<h1 id="2024-10-16-不移动光标的情况下滚动行">2024-10-16 不移动光标的情况下滚动行<a href="#2024-10-16-不移动光标的情况下滚动行" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Emacs 内置了两个命令：</p>
+<ul>
+<li><code>scroll-up-line</code></li>
+<li><code>scroll-down-line</code></li>
+</ul>
+<hr>
+<h1 id="2024-10-07-软件工程的性能测试">2024-10-07 软件工程的性能测试<a href="#2024-10-07-软件工程的性能测试" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>所有软件工程都应通过 Profiler 测试性能。Emacs 中可以通过以下命令实现：</p>
+<ul>
+<li>启动性能测试: <code>M-x profiler-start</code>
+<ul>
+<li>选择 CPU 消耗、内存消耗，或 CPU+内存消耗。</li>
+</ul>
+</li>
+</ul>
 
       </div></div>
 
