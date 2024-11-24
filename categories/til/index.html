@@ -208,6 +208,39 @@
         <div class="post-content">
           
             <p>TIL = Today I learned</p>
+<h1 id="2024-11-24-ant-design-组件基本分类">2024-11-24 Ant Design 组件基本分类</h1>
+<h2 id="架构设计">架构设计</h2>
+<ul>
+<li>分层
+<ul>
+<li>基础组件</li>
+<li>样式体系</li>
+<li>复合组件</li>
+<li>业务组件</li>
+</ul>
+</li>
+<li>解耦
+<ul>
+<li>对于每个组件都要定义：样式、ts 类型、基础操作、工具方法</li>
+</ul>
+</li>
+<li>响应式设计</li>
+</ul>
+<h2 id="状态管理">状态管理</h2>
+<ul>
+<li>状态管理
+<ul>
+<li>全局状态：在 react 使用 Context、useSyncExternailStore</li>
+<li>局部状态：受控组件，非受控组件</li>
+</ul>
+</li>
+</ul>
+<h2 id="样式体系与主题设计">样式体系与主题设计</h2>
+<ul>
+<li>Color Tokens : 颜色色值系统</li>
+<li>样式模块化方案：css-in-js、emotion（建议试一试）、styled-compontents</li>
+<li>样式优先级与覆盖：控制样式优先级</li>
+</ul>
 <h1 id="2024-11-06-给-emacs-打-patch">2024-11-06 给 Emacs 打 Patch</h1>
 <p><strong>来源</strong>: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen</p>
 <p>在 <code>/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/</code> 下的 <code>emacs-plus@31.rb</code> 文件需要修改 <code>Path</code> 栏的 <code>local_path</code> 和 <code>commit</code>。</p>

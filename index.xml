@@ -373,6 +373,39 @@ overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一
       
       <guid>https://www.gtdstudy.com/til/</guid>
       <description>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2024-11-24-ant-design-组件基本分类&#34;&gt;2024-11-24 Ant Design 组件基本分类&lt;/h1&gt;
+&lt;h2 id=&#34;架构设计&#34;&gt;架构设计&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;分层
+&lt;ul&gt;
+&lt;li&gt;基础组件&lt;/li&gt;
+&lt;li&gt;样式体系&lt;/li&gt;
+&lt;li&gt;复合组件&lt;/li&gt;
+&lt;li&gt;业务组件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;解耦
+&lt;ul&gt;
+&lt;li&gt;对于每个组件都要定义：样式、ts 类型、基础操作、工具方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;响应式设计&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;状态管理&#34;&gt;状态管理&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;状态管理
+&lt;ul&gt;
+&lt;li&gt;全局状态：在 react 使用 Context、useSyncExternailStore&lt;/li&gt;
+&lt;li&gt;局部状态：受控组件，非受控组件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;样式体系与主题设计&#34;&gt;样式体系与主题设计&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Color Tokens : 颜色色值系统&lt;/li&gt;
+&lt;li&gt;样式模块化方案：css-in-js、emotion（建议试一试）、styled-compontents&lt;/li&gt;
+&lt;li&gt;样式优先级与覆盖：控制样式优先级&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;2024-11-06-给-emacs-打-patch&#34;&gt;2024-11-06 给 Emacs 打 Patch&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen&lt;/p&gt;
 &lt;p&gt;在 &lt;code&gt;/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/&lt;/code&gt; 下的 &lt;code&gt;emacs-plus@31.rb&lt;/code&gt; 文件需要修改 &lt;code&gt;Path&lt;/code&gt; 栏的 &lt;code&gt;local_path&lt;/code&gt; 和 &lt;code&gt;commit&lt;/code&gt;。&lt;/p&gt;
@@ -411,6 +444,39 @@ overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一
 &lt;h2 id=&#34;一句话说明问题&#34;&gt;一句话说明问题&lt;/h2&gt;
 &lt;p&gt;升级 &lt;code&gt;org-zettel-ref-mode&lt;/code&gt; 的数据库格式导致加载数据库的函数无法读取正确的数据库，结果引发内存错误链。报错信息仅显示 “let*: End of file during parsing”，未提供具体细节。&lt;/p&gt;</description>
       <content>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2024-11-24-ant-design-组件基本分类&#34;&gt;2024-11-24 Ant Design 组件基本分类&lt;/h1&gt;
+&lt;h2 id=&#34;架构设计&#34;&gt;架构设计&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;分层
+&lt;ul&gt;
+&lt;li&gt;基础组件&lt;/li&gt;
+&lt;li&gt;样式体系&lt;/li&gt;
+&lt;li&gt;复合组件&lt;/li&gt;
+&lt;li&gt;业务组件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;解耦
+&lt;ul&gt;
+&lt;li&gt;对于每个组件都要定义：样式、ts 类型、基础操作、工具方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;响应式设计&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;状态管理&#34;&gt;状态管理&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;状态管理
+&lt;ul&gt;
+&lt;li&gt;全局状态：在 react 使用 Context、useSyncExternailStore&lt;/li&gt;
+&lt;li&gt;局部状态：受控组件，非受控组件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;样式体系与主题设计&#34;&gt;样式体系与主题设计&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Color Tokens : 颜色色值系统&lt;/li&gt;
+&lt;li&gt;样式模块化方案：css-in-js、emotion（建议试一试）、styled-compontents&lt;/li&gt;
+&lt;li&gt;样式优先级与覆盖：控制样式优先级&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;2024-11-06-给-emacs-打-patch&#34;&gt;2024-11-06 给 Emacs 打 Patch&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen&lt;/p&gt;
 &lt;p&gt;在 &lt;code&gt;/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/&lt;/code&gt; 下的 &lt;code&gt;emacs-plus@31.rb&lt;/code&gt; 文件需要修改 &lt;code&gt;Path&lt;/code&gt; 栏的 &lt;code&gt;local_path&lt;/code&gt; 和 &lt;code&gt;commit&lt;/code&gt;。&lt;/p&gt;
@@ -496,8 +562,8 @@ overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一
 &lt;li&gt;&lt;code&gt;scroll-down-line&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h1 id=&#34;2024-10-07-软件工程的性能测试&#34;&gt;2024-10-07 软件工程的性能测试&lt;/h1&gt;
-&lt;p&gt;所有软件工程都应通过 Profiler 测试性能。Emacs 中可以通过以下命令实现：&lt;/p&gt;
+&lt;p&gt;#https://www.v2ex.com/t/1087594#reply28 2024-10-07 软件工程的性能测试
+所有软件工程都应通过 Profiler 测试性能。Emacs 中可以通过以下命令实现：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;启动性能测试: &lt;code&gt;M-x profiler-start&lt;/code&gt;
 &lt;ul&gt;
