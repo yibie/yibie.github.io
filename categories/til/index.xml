@@ -14,6 +14,9 @@
       
       <guid>https://www.gtdstudy.com/til/</guid>
       <description>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2024-12-17-使用shift--方向键在-emacs-calendar-里自由选择日期&#34;&gt;2024-12-17 使用「Shift + 方向键」在 Emacs Calendar 里自由选择日期&lt;/h1&gt;
+&lt;p&gt;在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 +1、+2 这种方式来选择未来的日期。&lt;/p&gt;
+&lt;p&gt;这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift + 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。&lt;/p&gt;
 &lt;h1 id=&#34;2024-11-24-ant-design-组件基本分类&#34;&gt;2024-11-24 Ant Design 组件基本分类&lt;/h1&gt;
 &lt;h2 id=&#34;架构设计&#34;&gt;架构设计&lt;/h2&gt;
 &lt;ul&gt;
@@ -49,42 +52,11 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;2024-11-06-给-emacs-打-patch&#34;&gt;2024-11-06 给 Emacs 打 Patch&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen&lt;/p&gt;
-&lt;p&gt;在 &lt;code&gt;/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/&lt;/code&gt; 下的 &lt;code&gt;emacs-plus@31.rb&lt;/code&gt; 文件需要修改 &lt;code&gt;Path&lt;/code&gt; 栏的 &lt;code&gt;local_path&lt;/code&gt; 和 &lt;code&gt;commit&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;如果需要打 patch，可以将 patch 文件放在：
-&lt;code&gt;/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/patches/emacs-31&lt;/code&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;2024-11-05-vim-命令---scroll--move&#34;&gt;2024-11-05 Vim 命令 - Scroll &amp;amp; Move&lt;/h1&gt;
-&lt;h2 id=&#34;scroll&#34;&gt;Scroll&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;滚动一页: &lt;code&gt;C-f&lt;/code&gt; / &lt;code&gt;C-b&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;滚动半页: &lt;code&gt;C-d&lt;/code&gt; / &lt;code&gt;C-u&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;滚动一行: &lt;code&gt;C-e&lt;/code&gt; / &lt;code&gt;C-y&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;navigation&#34;&gt;Navigation&lt;/h2&gt;
-&lt;h3 id=&#34;以词定位&#34;&gt;以词定位&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;下一个单词的开头: &lt;code&gt;w&lt;/code&gt; / &lt;code&gt;W&lt;/code&gt;（&lt;code&gt;W&lt;/code&gt; 更加直接）&lt;/li&gt;
-&lt;li&gt;当前单词的末尾: &lt;code&gt;e&lt;/code&gt; / &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;上一个单词的开头: &lt;code&gt;b&lt;/code&gt; / &lt;code&gt;B&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;以行定位&#34;&gt;以行定位&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;去到行首: &lt;code&gt;0&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;去到行尾: &lt;code&gt;$&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;去到第一个非空字符: &lt;code&gt;^&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;去到最后一个非空字符: &lt;code&gt;g_&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;以屏定位&#34;&gt;以屏定位&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;去到当前屏幕中的第一行: &lt;code&gt;H&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;去到当前屏幕的中间一行: &lt;code&gt;M&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;去到当前屏幕的最后一行: &lt;code&gt;L&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;2024-10-27-解决一个神出鬼没的-bug&#34;&gt;2024-10-27 解决一个神出鬼没的 Bug&lt;/h1&gt;
-&lt;h2 id=&#34;一句话说明问题&#34;&gt;一句话说明问题&lt;/h2&gt;
-&lt;p&gt;升级 &lt;code&gt;org-zettel-ref-mode&lt;/code&gt; 的数据库格式导致加载数据库的函数无法读取正确的数据库，结果引发内存错误链。报错信息仅显示 “let*: End of file during parsing”，未提供具体细节。&lt;/p&gt;</description>
+&lt;p&gt;在 &lt;code&gt;/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/&lt;/code&gt; 下的 &lt;code&gt;emacs-plus@31.rb&lt;/code&gt; 文件需要修改 &lt;code&gt;Path&lt;/code&gt; 栏的 &lt;code&gt;local_path&lt;/code&gt; 和 &lt;code&gt;commit&lt;/code&gt;。&lt;/p&gt;</description>
       <content>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2024-12-17-使用shift--方向键在-emacs-calendar-里自由选择日期&#34;&gt;2024-12-17 使用「Shift + 方向键」在 Emacs Calendar 里自由选择日期&lt;/h1&gt;
+&lt;p&gt;在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 +1、+2 这种方式来选择未来的日期。&lt;/p&gt;
+&lt;p&gt;这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift + 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。&lt;/p&gt;
 &lt;h1 id=&#34;2024-11-24-ant-design-组件基本分类&#34;&gt;2024-11-24 Ant Design 组件基本分类&lt;/h1&gt;
 &lt;h2 id=&#34;架构设计&#34;&gt;架构设计&lt;/h2&gt;
 &lt;ul&gt;

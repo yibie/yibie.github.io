@@ -208,6 +208,9 @@
         <div class="post-content">
           
             <p>TIL = Today I learned</p>
+<h1 id="2024-12-17-使用shift--方向键在-emacs-calendar-里自由选择日期">2024-12-17 使用「Shift + 方向键」在 Emacs Calendar 里自由选择日期</h1>
+<p>在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 +1、+2 这种方式来选择未来的日期。</p>
+<p>这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift + 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。</p>
 <h1 id="2024-11-24-ant-design-组件基本分类">2024-11-24 Ant Design 组件基本分类</h1>
 <h2 id="架构设计">架构设计</h2>
 <ul>
@@ -244,40 +247,6 @@
 <h1 id="2024-11-06-给-emacs-打-patch">2024-11-06 给 Emacs 打 Patch</h1>
 <p><strong>来源</strong>: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen</p>
 <p>在 <code>/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/</code> 下的 <code>emacs-plus@31.rb</code> 文件需要修改 <code>Path</code> 栏的 <code>local_path</code> 和 <code>commit</code>。</p>
-<p>如果需要打 patch，可以将 patch 文件放在：
-<code>/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/patches/emacs-31</code></p>
-<hr>
-<h1 id="2024-11-05-vim-命令---scroll--move">2024-11-05 Vim 命令 - Scroll &amp; Move</h1>
-<h2 id="scroll">Scroll</h2>
-<ul>
-<li>滚动一页: <code>C-f</code> / <code>C-b</code></li>
-<li>滚动半页: <code>C-d</code> / <code>C-u</code></li>
-<li>滚动一行: <code>C-e</code> / <code>C-y</code></li>
-</ul>
-<h2 id="navigation">Navigation</h2>
-<h3 id="以词定位">以词定位</h3>
-<ul>
-<li>下一个单词的开头: <code>w</code> / <code>W</code>（<code>W</code> 更加直接）</li>
-<li>当前单词的末尾: <code>e</code> / <code>E</code></li>
-<li>上一个单词的开头: <code>b</code> / <code>B</code></li>
-</ul>
-<h3 id="以行定位">以行定位</h3>
-<ul>
-<li>去到行首: <code>0</code></li>
-<li>去到行尾: <code>$</code></li>
-<li>去到第一个非空字符: <code>^</code></li>
-<li>去到最后一个非空字符: <code>g_</code></li>
-</ul>
-<h3 id="以屏定位">以屏定位</h3>
-<ul>
-<li>去到当前屏幕中的第一行: <code>H</code></li>
-<li>去到当前屏幕的中间一行: <code>M</code></li>
-<li>去到当前屏幕的最后一行: <code>L</code></li>
-</ul>
-<hr>
-<h1 id="2024-10-27-解决一个神出鬼没的-bug">2024-10-27 解决一个神出鬼没的 Bug</h1>
-<h2 id="一句话说明问题">一句话说明问题</h2>
-<p>升级 <code>org-zettel-ref-mode</code> 的数据库格式导致加载数据库的函数无法读取正确的数据库，结果引发内存错误链。报错信息仅显示 “let*: End of file during parsing”，未提供具体细节。</p>
           
         </div>
 

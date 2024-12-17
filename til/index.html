@@ -7,10 +7,10 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="TIL = Today I learned
+2024-12-17 使用「Shift &#43; 方向键」在 Emacs Calendar 里自由选择日期 在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 &#43;1、&#43;2 这种方式来选择未来的日期。
+这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift &#43; 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。
 2024-11-24 Ant Design 组件基本分类 架构设计 分层 基础组件 样式体系 复合组件 业务组件 解耦 对于每个组件都要定义：样式、ts 类型、基础操作、工具方法 响应式设计 状态管理 状态管理 全局状态：在 react 使用 Context、useSyncExternailStore 局部状态：受控组件，非受控组件 样式体系与主题设计 Color Tokens : 颜色色值系统 样式模块化方案：css-in-js、emotion（建议试一试）、styled-compontents 样式优先级与覆盖：控制样式优先级 2024-11-06 给 Emacs 打 Patch 来源: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen
 在 /opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/ 下的 emacs-plus@31.rb 文件需要修改 Path 栏的 local_path 和 commit。
-如果需要打 patch，可以将 patch 文件放在： /opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/patches/emacs-31
-2024-11-05 Vim 命令 - Scroll &amp; Move Scroll 滚动一页: C-f / C-b 滚动半页: C-d / C-u 滚动一行: C-e / C-y Navigation 以词定位 下一个单词的开头: w / W（W 更加直接） 当前单词的末尾: e / E 上一个单词的开头: b / B 以行定位 去到行首: 0 去到行尾: $ 去到第一个非空字符: ^ 去到最后一个非空字符: g_ 以屏定位 去到当前屏幕中的第一行: H 去到当前屏幕的中间一行: M 去到当前屏幕的最后一行: L 2024-10-27 解决一个神出鬼没的 Bug 一句话说明问题 升级 org-zettel-ref-mode 的数据库格式导致加载数据库的函数无法读取正确的数据库，结果引发内存错误链。报错信息仅显示 “let*: End of file during parsing”，未提供具体细节。
 " />
 <meta name="keywords" content="" />
 
@@ -87,10 +87,10 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="TIL">
 <meta property="og:description" content="TIL = Today I learned
+2024-12-17 使用「Shift &#43; 方向键」在 Emacs Calendar 里自由选择日期 在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 &#43;1、&#43;2 这种方式来选择未来的日期。
+这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift &#43; 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。
 2024-11-24 Ant Design 组件基本分类 架构设计 分层 基础组件 样式体系 复合组件 业务组件 解耦 对于每个组件都要定义：样式、ts 类型、基础操作、工具方法 响应式设计 状态管理 状态管理 全局状态：在 react 使用 Context、useSyncExternailStore 局部状态：受控组件，非受控组件 样式体系与主题设计 Color Tokens : 颜色色值系统 样式模块化方案：css-in-js、emotion（建议试一试）、styled-compontents 样式优先级与覆盖：控制样式优先级 2024-11-06 给 Emacs 打 Patch 来源: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen
 在 /opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/ 下的 emacs-plus@31.rb 文件需要修改 Path 栏的 local_path 和 commit。
-如果需要打 patch，可以将 patch 文件放在： /opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/patches/emacs-31
-2024-11-05 Vim 命令 - Scroll &amp; Move Scroll 滚动一页: C-f / C-b 滚动半页: C-d / C-u 滚动一行: C-e / C-y Navigation 以词定位 下一个单词的开头: w / W（W 更加直接） 当前单词的末尾: e / E 上一个单词的开头: b / B 以行定位 去到行首: 0 去到行尾: $ 去到第一个非空字符: ^ 去到最后一个非空字符: g_ 以屏定位 去到当前屏幕中的第一行: H 去到当前屏幕的中间一行: M 去到当前屏幕的最后一行: L 2024-10-27 解决一个神出鬼没的 Bug 一句话说明问题 升级 org-zettel-ref-mode 的数据库格式导致加载数据库的函数无法读取正确的数据库，结果引发内存错误链。报错信息仅显示 “let*: End of file during parsing”，未提供具体细节。
 " />
 <meta property="og:url" content="https://www.gtdstudy.com/til/" />
 <meta property="og:site_name" content="Space Looming" />
@@ -216,6 +216,9 @@
 
   <div class="post-content"><div>
         <p>TIL = Today I learned</p>
+<h1 id="2024-12-17-使用shift--方向键在-emacs-calendar-里自由选择日期">2024-12-17 使用「Shift + 方向键」在 Emacs Calendar 里自由选择日期<a href="#2024-12-17-使用shift--方向键在-emacs-calendar-里自由选择日期" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 +1、+2 这种方式来选择未来的日期。</p>
+<p>这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift + 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。</p>
 <h1 id="2024-11-24-ant-design-组件基本分类">2024-11-24 Ant Design 组件基本分类<a href="#2024-11-24-ant-design-组件基本分类" class="hanchor" ariaLabel="Anchor">#</a> </h1>
 <h2 id="架构设计">架构设计<a href="#架构设计" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ul>
