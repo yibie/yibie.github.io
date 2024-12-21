@@ -195,6 +195,39 @@
     
       <article class="post on-list">
         <h2 class="post-title">
+          <a href="https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/">用 AI 辅助开发的经验二三则(3)</a>
+        </h2>
+        <div class="post-meta"><time class="post-date">2024-12-21</time><span class="post-author">[Steve Chan]</span></div>
+
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <p>早两日，我发布了 org-supertag，一个新的 Emacs 第三方扩展包。本来这个项目，我计划是 3-5 天完成，结果花费的时间比预计要超出 3 倍有多。不禁让我想起了一个段子：不管下属报的时间期限多长，总之乘以 3 倍就对了。</p>
+<p><strong>多出来的时间花在哪儿了？</strong></p>
+<p>先简单介绍 org-supertag 是干嘛的，它借鉴了 Tana 强大的 Super Tag 功能，增强 Org-mode 原本的标签系统。强大这个描述，转换视角，往往意味着复杂。不过对于我来说，梳理 Tana 的功能，以及理清它概念之间的<a href="https://emacs-china.org/t/emacs-tana-supertag/28407/4">关系</a>，并没有花我太长时间</p>
+<p>花费较多的时间的一个地方，是设计决策、测试设计。</p>
+<p>囿于 Emacs 本身是独立的，它的图形表达能力，和交互方式都有自己的独特性，我花了不少时间在探索它们的边界上——我最终实现了一个配置 Tag 模板的可视化面板，操作倒不怎么麻烦，但开发量巨大，功能只是设定标签名字，以及定义属于它的属性段而已，代码行数突破 1k，很夸张。一想到以后还要维护这么一 <del>坨</del> 堆代码，头皮发麻，果断放弃。</p>
+<p>我最后回归使用底栏菜单 + 选项的方式。这种方式的优点上实现快，代码简单，但缺点也很明显，如果需要的操作较多，那么操作步骤会非常多，麻烦到我自己都不想用。我不得不绞尽脑汁，思考交互流程，一点一点的测试和改进。包括我刚才提到的，大大小小的测试方案，有差不多 5 种。不论是思考，还是实现，都花费不少时间。</p>
+<p>另外花费较多的地方，是重构。</p>
+<p>既不意外，又很意外的，意外总归会来。我之所以要放弃 Demo，是因为它完全以文件为储存，这种方式优点很多，但缺点是数据量一大，速度就会全方位的下滑，甚至到了一个人难以忍受的程度。不管是 Obisidan 还是 Emacs 上大名鼎鼎的 Org-roam，都存在这样的问题，用户的抱怨，我见过不少。基于这个理由重构，我觉得没问题。但之后的重构，多多少少我觉得有点乱来——我一共重构了 6 版……</p>
+<p>刚才谈到 Demo，这算是第一版。然后我突然间迷信起 AI 能够搞定一切的狗屁说法来，我通过 NotebookLM 提炼 Tana 的功能特性，并总结成产品文档，然后让 Windsurf 帮我完整实现。果然没能达到预期，产生了一堆代码，但是无法通过实际测试。这花了 1 天时间。然后接下来，我又用 Cursor 用同样的流程，重复一次，也还是得到一堆无法正确执行的代码，又花了 1 天。</p>
+<p>但我不觉得 Cursor 和 Windsurf 要为重构失败负上主要责任。最主要的责任还在自己身上。因为心浮气躁，想着赶工，根本就没有静下心来，认真阅读 AI 提交的代码，理顺其中的节点。有一点点 Bug，就想马上推倒重来，反而陷入不断重复实现基础功能的循环里，中间浪费的时间更多。</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/learned-from-using-ai-develop-software-3/">Read more</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
           <a href="https://www.gtdstudy.com/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/">时至今日, 我们对论语的解读是如此单一</a>
         </h2>
         <div class="post-meta"><time class="post-date">2024-11-10</time><span class="post-author">[Steve Chan]</span></div>
@@ -330,53 +363,6 @@ Map 表的职责:
         
            <div>
             <a class="read-more button inline" href="/posts/blog-the-complementation-of-humanity/">Read more</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="https://www.gtdstudy.com/posts/minimum-creation-unit/">最小创造单位</a>
-        </h2>
-        <div class="post-meta"><time class="post-date">2024-10-18</time><span class="post-author">[Steve Chan]</span></div>
-
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>很多事情都可视为「最小创造单位」：</p>
-<pre><code>认真的写一篇帖子
-学习新的菜
-散步时绕多一个弯，试一试不同的路线
-随手拍一张自己觉得不错的照片
-把衣服叠整齐放好
-记录一个不成熟的灵感
-记住一个今天新学习到的词，或者句子
-研究一个今天才听说过的人
-看一个之前完全没兴趣的电影或电视剧
-看看最近流行的艺术形式
-为今天的穿着想新的搭配
-……
-</code></pre>
-<p>有一个豆瓣小组，叫《做一个具体的人》，我加入这个小组纯粹是被名字所吸引。我之前也不知道怎么做一个具体的人，像项飙所说的，当代人的生活在别处，不在此时，不在此地。在逐步探究这个问题的时候，愈发感觉到，自己主动、积极地创造生活，才能让自己作为一个人变得越来越具体。</p>
-<p>而创造自己的生活，最小的落脚点，就是我刚才举例的「最小创造单位」。</p>
-<p>生活不是线性叙事，它是一时一刻组成的。而我觉得，在正常的工作之余，用「最小创造单位」填满柴米油盐之外的时刻，可以一石三鸟：</p>
-<pre><code>为自己提供一个高创意的环境/心境，我相信心境也是环境要素之一
-越实践「最小创造单位」，越能提高对自己的肯定，自信心大增
-更多的创造，让自己拥有更多与别人分享的故事，经验，是提高自己社会价值的好方法
-最后一点也是最重要的一点，能够让自己的生活有滋有味，心情开朗
-</code></pre>
-<p>最后一句话，让自己活得有意思，开开心心，我以为是对自己负责的最大体现，关于这一点，我坚信「最小创造单位」是最小基石。</p>
-<p>注：豆瓣小组的正确名字是《「做具体的人」共进会》，之前凭印象名字写错了，但为了不影响原文的阅读，以备注的方式进行提醒。</p>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/posts/minimum-creation-unit/">Read more</a>
           </div>
         
       </article>
