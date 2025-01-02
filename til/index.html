@@ -7,11 +7,10 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="TIL = Today I learned
-2024-12-17 加快 macOS 里光标的移动速度 找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。
+2025-01-02 让 org-mode 的 tag 一直处于 Emacs 窗口的最右方 (add-to-list &#39;font-lock-extra-managed-props &#39;display) (font-lock-add-keywords &#39;org-mode `((&#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]&#43;:\\)$&#34; (1 `(face nil display (space :align-to (- right ,(org-string-width (match-string 2)) 3))) prepend))) t) 2024-12-17 加快 macOS 里光标的移动速度 找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。
 效果拔群！
 2024-12-17 使用「Shift &#43; 方向键」在 Emacs Calendar 里自由选择日期 在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 &#43;1、&#43;2 这种方式来选择未来的日期。
 这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift &#43; 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。
-2024-11-24 Ant Design 组件基本分类 架构设计 分层 基础组件 样式体系 复合组件 业务组件 解耦 对于每个组件都要定义：样式、ts 类型、基础操作、工具方法 响应式设计 状态管理 状态管理 全局状态：在 react 使用 Context、useSyncExternailStore 局部状态：受控组件，非受控组件 样式体系与主题设计 Color Tokens : 颜色色值系统 样式模块化方案：css-in-js、emotion（建议试一试）、styled-compontents 样式优先级与覆盖：控制样式优先级 2024-11-06 给 Emacs 打 Patch 来源: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen
 " />
 <meta name="keywords" content="" />
 
@@ -88,11 +87,10 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="TIL">
 <meta property="og:description" content="TIL = Today I learned
-2024-12-17 加快 macOS 里光标的移动速度 找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。
+2025-01-02 让 org-mode 的 tag 一直处于 Emacs 窗口的最右方 (add-to-list &#39;font-lock-extra-managed-props &#39;display) (font-lock-add-keywords &#39;org-mode `((&#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]&#43;:\\)$&#34; (1 `(face nil display (space :align-to (- right ,(org-string-width (match-string 2)) 3))) prepend))) t) 2024-12-17 加快 macOS 里光标的移动速度 找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。
 效果拔群！
 2024-12-17 使用「Shift &#43; 方向键」在 Emacs Calendar 里自由选择日期 在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 &#43;1、&#43;2 这种方式来选择未来的日期。
 这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift &#43; 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。
-2024-11-24 Ant Design 组件基本分类 架构设计 分层 基础组件 样式体系 复合组件 业务组件 解耦 对于每个组件都要定义：样式、ts 类型、基础操作、工具方法 响应式设计 状态管理 状态管理 全局状态：在 react 使用 Context、useSyncExternailStore 局部状态：受控组件，非受控组件 样式体系与主题设计 Color Tokens : 颜色色值系统 样式模块化方案：css-in-js、emotion（建议试一试）、styled-compontents 样式优先级与覆盖：控制样式优先级 2024-11-06 给 Emacs 打 Patch 来源: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen
 " />
 <meta property="og:url" content="https://www.gtdstudy.com/til/" />
 <meta property="og:site_name" content="Space Looming" />
@@ -218,7 +216,14 @@
 
   <div class="post-content"><div>
         <p>TIL = Today I learned</p>
-<h1 id="2024-12-17-加快-macos-里光标的移动速度">2024-12-17 加快 macOS 里光标的移动速度<a href="#2024-12-17-加快-macos-里光标的移动速度" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h1 id="2025-01-02-让-org-mode-的-tag-一直处于-emacs-窗口的最右方">2025-01-02 让 org-mode 的 tag 一直处于 Emacs 窗口的最右方<a href="#2025-01-02-让-org-mode-的-tag-一直处于-emacs-窗口的最右方" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<pre tabindex="0"><code>(add-to-list &#39;font-lock-extra-managed-props &#39;display)
+(font-lock-add-keywords &#39;org-mode
+                        `((&#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]+:\\)$&#34;
+                           (1 `(face nil
+                                     display (space :align-to (- right ,(org-string-width (match-string 2)) 3)))
+                              prepend))) t)
+</code></pre><h1 id="2024-12-17-加快-macos-里光标的移动速度">2024-12-17 加快 macOS 里光标的移动速度<a href="#2024-12-17-加快-macos-里光标的移动速度" class="hanchor" ariaLabel="Anchor">#</a> </h1>
 <p>找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。</p>
 <p>效果拔群！</p>
 <h1 id="2024-12-17-使用shift--方向键在-emacs-calendar-里自由选择日期">2024-12-17 使用「Shift + 方向键」在 Emacs Calendar 里自由选择日期<a href="#2024-12-17-使用shift--方向键在-emacs-calendar-里自由选择日期" class="hanchor" ariaLabel="Anchor">#</a> </h1>

@@ -14,49 +14,28 @@
       
       <guid>https://www.gtdstudy.com/til/</guid>
       <description>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
-&lt;h1 id=&#34;2024-12-17-加快-macos-里光标的移动速度&#34;&gt;2024-12-17 加快 macOS 里光标的移动速度&lt;/h1&gt;
+&lt;h1 id=&#34;2025-01-02-让-org-mode-的-tag-一直处于-emacs-窗口的最右方&#34;&gt;2025-01-02 让 org-mode 的 tag 一直处于 Emacs 窗口的最右方&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(add-to-list &amp;#39;font-lock-extra-managed-props &amp;#39;display)
+(font-lock-add-keywords &amp;#39;org-mode
+                        `((&amp;#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]+:\\)$&amp;#34;
+                           (1 `(face nil
+                                     display (space :align-to (- right ,(org-string-width (match-string 2)) 3)))
+                              prepend))) t)
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;2024-12-17-加快-macos-里光标的移动速度&#34;&gt;2024-12-17 加快 macOS 里光标的移动速度&lt;/h1&gt;
 &lt;p&gt;找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。&lt;/p&gt;
 &lt;p&gt;效果拔群！&lt;/p&gt;
 &lt;h1 id=&#34;2024-12-17-使用shift--方向键在-emacs-calendar-里自由选择日期&#34;&gt;2024-12-17 使用「Shift + 方向键」在 Emacs Calendar 里自由选择日期&lt;/h1&gt;
 &lt;p&gt;在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 +1、+2 这种方式来选择未来的日期。&lt;/p&gt;
-&lt;p&gt;这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift + 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。&lt;/p&gt;
-&lt;h1 id=&#34;2024-11-24-ant-design-组件基本分类&#34;&gt;2024-11-24 Ant Design 组件基本分类&lt;/h1&gt;
-&lt;h2 id=&#34;架构设计&#34;&gt;架构设计&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;分层
-&lt;ul&gt;
-&lt;li&gt;基础组件&lt;/li&gt;
-&lt;li&gt;样式体系&lt;/li&gt;
-&lt;li&gt;复合组件&lt;/li&gt;
-&lt;li&gt;业务组件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;解耦
-&lt;ul&gt;
-&lt;li&gt;对于每个组件都要定义：样式、ts 类型、基础操作、工具方法&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;响应式设计&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;状态管理&#34;&gt;状态管理&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;状态管理
-&lt;ul&gt;
-&lt;li&gt;全局状态：在 react 使用 Context、useSyncExternailStore&lt;/li&gt;
-&lt;li&gt;局部状态：受控组件，非受控组件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;样式体系与主题设计&#34;&gt;样式体系与主题设计&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Color Tokens : 颜色色值系统&lt;/li&gt;
-&lt;li&gt;样式模块化方案：css-in-js、emotion（建议试一试）、styled-compontents&lt;/li&gt;
-&lt;li&gt;样式优先级与覆盖：控制样式优先级&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;2024-11-06-给-emacs-打-patch&#34;&gt;2024-11-06 给 Emacs 打 Patch&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen&lt;/p&gt;</description>
+&lt;p&gt;这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift + 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。&lt;/p&gt;</description>
       <content>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
-&lt;h1 id=&#34;2024-12-17-加快-macos-里光标的移动速度&#34;&gt;2024-12-17 加快 macOS 里光标的移动速度&lt;/h1&gt;
+&lt;h1 id=&#34;2025-01-02-让-org-mode-的-tag-一直处于-emacs-窗口的最右方&#34;&gt;2025-01-02 让 org-mode 的 tag 一直处于 Emacs 窗口的最右方&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(add-to-list &amp;#39;font-lock-extra-managed-props &amp;#39;display)
+(font-lock-add-keywords &amp;#39;org-mode
+                        `((&amp;#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]+:\\)$&amp;#34;
+                           (1 `(face nil
+                                     display (space :align-to (- right ,(org-string-width (match-string 2)) 3)))
+                              prepend))) t)
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;2024-12-17-加快-macos-里光标的移动速度&#34;&gt;2024-12-17 加快 macOS 里光标的移动速度&lt;/h1&gt;
 &lt;p&gt;找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。&lt;/p&gt;
 &lt;p&gt;效果拔群！&lt;/p&gt;
 &lt;h1 id=&#34;2024-12-17-使用shift--方向键在-emacs-calendar-里自由选择日期&#34;&gt;2024-12-17 使用「Shift + 方向键」在 Emacs Calendar 里自由选择日期&lt;/h1&gt;
