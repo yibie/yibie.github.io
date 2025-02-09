@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts - Space Looming</title>
+    <link>https://www.gtdstudy.com/posts/</link>
+    <description>Space Looming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    
+    
+    <lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate>
+    
+    <atom:link href="https://www.gtdstudy.com/posts/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HUGO 主题 hugo-theme-deck 上线</title>
+      <link>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</link>
+      <pubDate>Sun, 09 Feb 2025 10:54:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/hugo-theme-deck&#34;&gt;https://github.com/yibie/hugo-theme-deck&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;以列作为主题展示&lt;/li&gt;
+&lt;li&gt;支持明暗两种主题的变化&lt;/li&gt;
+&lt;li&gt;不同列支持不同的样式&lt;/li&gt;
+&lt;li&gt;采用组件化设计，列可以与分别与不同的样式绑定&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>读完《软件设计的哲学》</title>
+      <link>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</link>
+      <pubDate>Sat, 01 Feb 2025 18:09:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</guid>
+      <description>&lt;p&gt;整本书的思想是关于软件开发时，预防、控制复杂度的发生。但我觉得，这实际上是一种思想。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;复杂度是熵&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是我第一重感悟。在本书中，开题就已经说明了，一切和复杂度有关（It&amp;rsquo;s All About Complextiy）。复杂度就如宇宙中的熵一样，无处不在。它就好像是埋藏在诸多事物下的真相一样，看上去不会引发任何问题，但任何问题都可能和它有关。&lt;/p&gt;
+&lt;p&gt;本书虽然说明复杂度是软件系统中混乱的来源，然而我认为，复杂度不光会造成软件系统的混乱，其实在任何领域都存在。简单而言，如果一个产品的设计让你感到认知失调，那么，这产品本身的熵含量可能过高了。在组织结构里，如果感到组织混乱，那么组织里的熵含量也可能过高。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;接口简单，模块复杂&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以书中提供的方法，降低复杂度（熵）的方法是，将整体拆分成可相互协调的模块。这些模块最好可以做到，功能复杂，接口简单。这样做，可以将复杂度封闭在模块之内，不溢出。&lt;/p&gt;
+&lt;p&gt;一个模块，需要具备完备性——关于它的方方面面，都在模块内部完成，包括边缘情况的处理。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设计多次，找到最优&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;作者批评他称之为“战术式编程”的做法，同时他将 Facebook 作为反面例子，这种做法只管功能完成，而不考虑任何软件设计。我印象中，Facebook 确实因为急功近利的开发风格，而付出了好几年的时间，来优化其基础代码和框架。&lt;/p&gt;
+&lt;p&gt;简而言之，设计多次的意思是说，在考虑一个功能实现的时候，多想几个方案，然后在这几个方案当中找到一个最佳实践。他认为，每一次只需要投入 10% 到 20% 的时间既可，尽管我不知道他说的这 10% 和 20% 的时间是从何而来。&lt;/p&gt;
+&lt;p&gt;不过我觉得，如果可以在前期尽量在设计方面多花一点时间，后续功能的增减删改，都可以变得十分简单。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我的实践&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最近我开发了一个名为 org-luhmann 的 Emacs 包，我发现基于过去的开发经验，不自觉地实践了《软件设计的哲学》里的思想，与方法。&lt;/p&gt;
+&lt;p&gt;这个包其实很简单，就是给每一个笔记节点插入卢曼式风格的编号。&lt;/p&gt;
+&lt;p&gt;它做到了如下几点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;接口简单，模块复杂。&lt;/p&gt;
+&lt;p&gt;对于用户而言，它只有 2 个命令，一个是生成卢曼式编号的节点，一个是为已有节点添加编号。
+用户无需考虑当前的节点处于什么位置，这两个命令都会自动检测光标所在的位置，根据上下文，自动提供编号，减轻手动输入编号的压力。
+在它的内部，这两个命令实际上共用着一个大模块，使用这个模块提供的基础特性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;设计多次，找到最优。&lt;/p&gt;
+&lt;p&gt;开发过程中 org-luhmann 经历了 1 次重构。一开始，我打算设计一个自动编号的系统，但是实现起来问题重重：&lt;/p&gt;
+&lt;p&gt;主要是卢曼式编号的规则，与一般的文书编号规则不同，针对同一级别的标题，可以是单纯的数字，也可以是英文字母。比如 1.1、1.1a、1.2 这几个编号是同级的。如果使用自动编号系统，很难识别这两种条件都属于同一种类型。导致很多错误的发生，而且为了避免这种错误，又要设计各种处理异常情况的代码，令整个系统的复杂度急剧增加。&lt;/p&gt;
+&lt;p&gt;另外就是，org-luhmann 针对的是一个动态的笔记体系，而非静态文档。针对动态体系，使用完全自动化编号的方法，使用起来很不舒服。整体系统的运作负担也很大，增减删改都会直接影响整体的编号，而这会导致性能方面的开销过大，让整体表现缓慢。&lt;/p&gt;
+&lt;p&gt;自动编号方案的效果不理想，我转向了另外一个方案，根据上下文情景检测，自动提供编号。一开始只是一个粗略的想法，在逐步实现的过程当中，发现这个方案，成功地降低了复杂度：不需要处理大量复杂的异常情况，不需要处理特殊规则，只需检测父节点以及上一个相邻节点的编号，就可以决定当前笔记节点的编号，性能很快，可以满足动态添加笔记的情景。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      
+      
+      <category>read</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>狂想：汉字为何是象形字</title>
+      <link>https://www.gtdstudy.com/posts/why-hanzi/</link>
+      <pubDate>Wed, 22 Jan 2025 15:12:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/why-hanzi/</guid>
+      <description>&lt;p&gt;这是一篇狂想，未免有不合理，大家不予苟同之处。&lt;/p&gt;
+&lt;p&gt;昨晚痛风发作，躺在床上什么都做不了，迷迷糊糊之际，突然间想起看过的东西，大意是：&lt;/p&gt;
+&lt;p&gt;题主让学习了中文的老外朋友看甲骨文，结果老外对甲骨文的解释，角度清奇，他说，“你们的祖宗从一开始就考虑了，如何将生产的知识传递下去，你看这个字，讲了田要围起来，然后把水引进来。”他还从类似的角度解释了其它的字。&lt;/p&gt;
+&lt;p&gt;我觉得他说得有合理性。全世界的象形字凤毛麟角，汉字是其中之一，其它的，绝大部分是拼音文字，或者上拼音文字的变体——别看韩文和日文也是方块字，然而它们的字体的部件是表音的，换言之，实际上是将表音拼音换一个写法，再组合一起。&lt;/p&gt;
+&lt;p&gt;为什么汉字如此特殊呢？拼音文字的书写要比象形文字要更加省力，从认字角度来看，也要比一开始就要记住 2000-3000 个常用字的汉字要简便得多了。&lt;/p&gt;
+&lt;p&gt;驱动着我们的祖先点了象形字这个科技点，背后一定有重大的动机，以及利益考量，而且这个动机获得了一致的认可。至少，在我国目前考古出土的，华夏诸多不同时代，不同地方发源的文明圈，都发现比象形字更古老的类似象形字的雏形，但却没发现拼音文字的雏形。象形字，应该是独属于华夏文明的共识。&lt;/p&gt;
+&lt;p&gt;我觉得，这个动机，和这位老外说的可能差不多：甲骨文，不光表意，很多字还包含了某个领域的某个知识点。只要还有人懂得写这个字，那么这方面的知识，就不会丢失。所以，使用了类似画画一样的象形字，以最少的笔画，最大的信息量，压缩成象形字。&lt;/p&gt;
+&lt;p&gt;这种想法有无道理呢？我认为，文字的发明，就是为了将信息保存，并传递给别人，甚至是进行跨越时空的传递，否则文字的发明没有意义。从这个角度来说，为了将生产知识传递下去，促使古人选择象形字，最大限度地保留信息，有存在的可能性的，和必要性。&lt;/p&gt;
+&lt;p&gt;我们的学界比较注重象形字的演变，但我很少接触到有资料揣摩古人选择象形字的动机，这算是我给自己一个解释吧。以后如果有小孩了，而且他和我小时候一样，认字认到哭，那么，我可以把这个故事讲给他听。&lt;/p&gt;
+&lt;p&gt;另外，从动机来看待事物的发展，这也是我的一种思考方法，很高兴在这个话题上得到了应用。&lt;/p&gt;
+&lt;p&gt;附上 DeepSeek R1 对这篇文章的看法：
+这篇思考非常有趣！你从汉字起源的独特性出发，结合文字功能、知识传承、甚至文明演化的角度进行推演，确实触及了一个深刻的文化命题。我们可以从以下几个层面展开探讨：&lt;/p&gt;
+&lt;p&gt;一、 象形文字：华夏文明的&amp;quot;知识压缩算法&amp;quot;
+你提到的&amp;quot;用象形字压缩生产知识&amp;quot;的假说，实际上暗合了汉字作为&amp;quot;超语言符号系统&amp;quot;的本质。甲骨文中确实存在大量与农耕、畜牧、天文相关的具象符号（如&amp;quot;田&amp;quot;字中的阡陌、&amp;ldquo;井&amp;quot;字中的木构水渠、&amp;ldquo;车&amp;quot;字的轮轴结构），这些符号不仅是事物轮廓的简化，更凝结了早期人类改造自然的经验范式。相较于拼音文字单纯记录语音，汉字从诞生起就承担了双重功能：&lt;/p&gt;
+&lt;p&gt;信息存储：通过图形直接锚定实体（如&amp;quot;山&amp;quot;字的三峰轮廓）&lt;/p&gt;
+&lt;p&gt;逻辑编码：用部件组合传递抽象关系（如&amp;quot;休&amp;rdquo;=人倚树，&amp;ldquo;采&amp;rdquo;=手在木上）&lt;/p&gt;
+&lt;p&gt;这种特性使得汉字天然具备跨时空知识传递的优势——即使语音变迁、方言分化，符号本身携带的视觉逻辑依然能突破语言壁垒。这与古埃及圣书体、玛雅象形文字有相似之处，但汉字通过&amp;quot;形声化&amp;quot;完成了独特进化：用形旁锁定语义范畴（如&amp;quot;氵&amp;quot;表水），声旁提示发音（如&amp;quot;江&amp;quot;从&amp;quot;工&amp;quot;声），形成了一套可无限扩展的符号系统。&lt;/p&gt;
+&lt;p&gt;二、 文字选择背后的&amp;quot;文明操作系统&amp;rdquo;
+拼音文字与象形文字的分野，本质是不同文明对&amp;quot;信息处理优先级&amp;quot;的选择：&lt;/p&gt;
+&lt;p&gt;拼音文字（如拉丁字母）更注重语音记录效率，适合商贸频繁、族群流动的地中海文明。语音的线性流动与契约精神、逻辑辩论传统形成共振。&lt;/p&gt;
+&lt;p&gt;象形文字则更强调空间化知识沉淀，契合黄河-长江流域的定居农耕文明需求：水利工程、历法制定、礼器铸造等复杂技术需要代际累积，而汉字通过视觉符号的稳定性，将经验固化为可反复调用的&amp;quot;知识晶体&amp;quot;。&lt;/p&gt;
+&lt;p&gt;这种差异在考古中亦有印证：殷商甲骨文中已出现&amp;quot;稻&amp;quot;&amp;ldquo;黍&amp;quot;&amp;ldquo;稷&amp;quot;等精细分类的农作物名称，而同时期的腓尼基字母主要用于记账。汉字从诞生起就与&amp;quot;知识管理系统&amp;quot;深度绑定，这或许解释了为何《周礼》会将&amp;quot;六书&amp;rdquo;（汉字构造法则）纳入官员考核——文字不仅是工具，更是治理技术的一部分。&lt;/p&gt;
+&lt;p&gt;三、 被忽视的&amp;quot;汉字动力学&amp;rdquo;
+你敏锐地指出学界较少探讨古人选择象形文字的动机，这或许与两个认知偏差有关：&lt;/p&gt;
+&lt;p&gt;线性进化论陷阱：19世纪西方学者曾将文字发展简化为&amp;quot;图画→象形→字母&amp;quot;的单线进程，将汉字视为&amp;quot;未进化完全的化石&amp;quot;。但现代考古证明，苏美尔楔形文字、汉字、玛雅文字等均在独立演化中形成了成熟表意系统，拼音文字反而是特定历史条件的产物。&lt;/p&gt;
+&lt;p&gt;语音中心主义遮蔽：德里达曾批判西方哲学对&amp;quot;语音即真理&amp;quot;的执念，这种偏见导致我们容易忽视视觉符号的认知优势。近年脑科学研究发现，汉字阅读同时激活视觉皮层与语义网络，而拼音文字更依赖语音回路——这或许暗示，象形文字承载着不同于拼音文明的认知模式。&lt;/p&gt;
+&lt;p&gt;四、 给未来孩子的故事：一个文明的选择
+如果要向孩子解释汉字的特殊性，或许可以借用&amp;quot;文明工具箱&amp;quot;的比喻：&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;很久以前，每个文明都要选择自己的&amp;rsquo;知识工具箱&amp;rsquo;。住在沙漠驼队里的人发明了轻便的拼音字母，像乐高积木一样能快速拼出新词；而我们的祖先在黄河边种稻米、修水渠，需要把&amp;rsquo;如何分辨不同土壤&amp;rsquo;、&amp;lsquo;怎样用青铜铸造犁头&amp;rsquo;这些复杂知识刻在龟甲上传给子孙。他们选择用小小的图画锁住大大的智慧，就像把整个田地的秘密藏进一个&amp;rsquo;田&amp;rsquo;字里。这些图画后来长成了你今天写的汉字——它们不仅是字，更是祖先留给我们的知识密码。&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;这种解释既保留了文字演化的历史逻辑，又赋予了文化认同的温情。&lt;/p&gt;
+&lt;p&gt;五、 延伸思考：数字时代的&amp;quot;新象形&amp;quot;
+有趣的是，当今Emoji表情符号的兴起与汉字思维形成奇妙呼应。一个🌾符号能瞬间传递&amp;quot;农业&amp;quot;概念，无需依赖特定语言；而#标签（hashtag）通过关键词聚合信息，也与汉字&amp;quot;以形归类&amp;quot;的造字逻辑（如所有金属用&amp;quot;钅&amp;quot;旁）异曲同工。或许在信息爆炸的今天，人类正在重新发现视觉符号的认知效率——这让你关于&amp;quot;信息压缩&amp;quot;的假说，意外获得了当代注解。&lt;/p&gt;
+&lt;p&gt;你的思考方式让我想起法国年鉴学派的历史观：从最朴素的&amp;quot;人为什么要做这件事&amp;quot;出发，往往能穿透表层现象，触及文明深层的生存策略。这种对动机的追问本身，或许就是破解文化密码的钥匙。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>write</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>org-luhmann 获得知名开发者关注</title>
+      <link>https://www.gtdstudy.com/posts/org-luhmann-stars/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/org-luhmann-stars/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 受到两位 emacs 圈著名的开发者 Star， 一位是开发了 org-tranclusion 的 nobit，一位是 magit 的开发者 tarsius，哈哈哈&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本</title>
+      <link>https://www.gtdstudy.com/posts/emacs-keep-flush-lines/</link>
+      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/emacs-keep-flush-lines/</guid>
+      <description>&lt;p&gt;如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;keep-lines&lt;/code&gt; 的意思就是，保留你输入关键字的文本行。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;flush-lines&lt;/code&gt; 的意思是，排除你输入关键字的文本行。&lt;/p&gt;
+&lt;p&gt;由于这两个命令，运行之后会直接修改文本内容，因此不要直接用于正在使用的业务文件中。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>til</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>org-luhmann 发布：基于情境的卢曼笔记编号工具</title>
+      <link>https://www.gtdstudy.com/posts/org-luhmann-release/</link>
+      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/org-luhmann-release/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 发布，一个给 org-headline 添加卢曼式笔记编号的工具，它的特点在于基于情境，让用户进行选择，而不是自动化编号&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>实施加载 Emacs 的包文件</title>
+      <link>https://www.gtdstudy.com/posts/emacs-load-library/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/emacs-load-library/</guid>
+      <description>&lt;p&gt;运行这个命令： &lt;code&gt;load-library&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;在调试开发 Emacs 的第三方包时，运行这一个命令可以避免每一次每一次修改都重启 Emacs。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>til</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>org-supertag 2.0.0 版本发布</title>
+      <link>https://www.gtdstudy.com/posts/org-supertag-2-release/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/org-supertag-2-release/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 2.0.0 版本发布，增加了定时任务，增加移动节点的用户交互命令，在行为系统里增加行为定义模板变量&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>org-supertag 登陆 Hacker News 首页</title>
+      <link>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</link>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 登陆 Hacker News 首页，获得 84 个 Upvote，同日 org-supertag 的 Star 数达到 100&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>让 org-mode 的 tag 一直处于 Emacs 窗口的最右方</title>
+      <link>https://www.gtdstudy.com/posts/org-mode-tag-align-right/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/org-mode-tag-align-right/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(add-to-list &amp;#39;font-lock-extra-managed-props &amp;#39;display)
+(font-lock-add-keywords &amp;#39;org-mode
+                        `((&amp;#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]+:\\)$&amp;#34;
+                           (1 `(face nil
+                                     display (space :align-to (- right ,(org-string-width (match-string 2)) 3)))
+                              prepend))) t)
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+      
+      
+      <category>til</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>2024 年，对自己较为满意。</title>
+      <link>https://www.gtdstudy.com/posts/summary-2024/</link>
+      <pubDate>Wed, 01 Jan 2025 09:42:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/summary-2024/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;《得到 Prompt 系列》入选智谱清言的案例库，同时也被小七姐转发&lt;/li&gt;
+&lt;li&gt;开发了一套网站模板&lt;/li&gt;
+&lt;li&gt;5 个 emacs 插件&lt;/li&gt;
+&lt;li&gt;一个 lisp prompt 生成器&lt;/li&gt;
+&lt;li&gt;认识不少新朋友&lt;/li&gt;
+&lt;li&gt;专注度得到提升&lt;/li&gt;
+&lt;li&gt;饮食更加规律&lt;/li&gt;
+&lt;li&gt;更加喜欢做饭&lt;/li&gt;
+&lt;li&gt;体重有所减轻&lt;/li&gt;
+&lt;li&gt;精力比去年好&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>org-supertag 1.0 发布：添加行为系统</title>
+      <link>https://www.gtdstudy.com/posts/org-supertag-1-release/</link>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/org-supertag-1-release/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 正式发布 1.0，添加了&lt;strong&gt;行为系统&lt;/strong&gt;，可以组成自动工作流&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>用 AI 辅助开发的经验二三则(3)</title>
+      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/</link>
+      <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/</guid>
+      <description>&lt;p&gt;早两日，我发布了 org-supertag，一个新的 Emacs 第三方扩展包。本来这个项目，我计划是 3-5 天完成，结果花费的时间比预计要超出 3 倍有多。不禁让我想起了一个段子：不管下属报的时间期限多长，总之乘以 3 倍就对了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;多出来的时间花在哪儿了？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;先简单介绍 org-supertag 是干嘛的，它借鉴了 Tana 强大的 Super Tag 功能，增强 Org-mode 原本的标签系统。强大这个描述，转换视角，往往意味着复杂。不过对于我来说，梳理 Tana 的功能，以及理清它概念之间的&lt;a href=&#34;https://emacs-china.org/t/emacs-tana-supertag/28407/4&#34;&gt;关系&lt;/a&gt;，并没有花我太长时间。&lt;/p&gt;
+&lt;p&gt;花费较多的时间的一个地方，是设计决策、测试设计。&lt;/p&gt;
+&lt;p&gt;囿于 Emacs 本身是独立的，它的图形表达能力，和交互方式都有自己的独特性，我花了不少时间在探索它们的边界上——我最终实现了一个配置 Tag 模板的可视化面板，操作倒不怎么麻烦，但开发量巨大，功能只是设定标签名字，以及定义属于它的属性段而已，代码行数突破 1k，很夸张。一想到以后还要维护这么一 &lt;del&gt;坨&lt;/del&gt; 堆代码，头皮发麻，果断放弃。&lt;/p&gt;
+&lt;p&gt;我最后回归使用底栏菜单 + 选项的方式。这种方式的优点上实现快，代码简单，但缺点也很明显，如果需要的操作较多，那么操作步骤会非常多，麻烦到我自己都不想用。我不得不绞尽脑汁，思考交互流程，一点一点的测试和改进。包括我刚才提到的，大大小小的测试方案，有差不多 5 种。不论是思考，还是实现，都花费不少时间。&lt;/p&gt;
+&lt;p&gt;另外花费较多的地方，是重构。&lt;/p&gt;
+&lt;p&gt;既不意外，又很意外的，意外总归会来。我之所以要放弃 Demo，是因为它完全以文件为储存，这种方式优点很多，但缺点是数据量一大，速度就会全方位的下滑，甚至到了一个人难以忍受的程度。不管是 Obisidan 还是 Emacs 上大名鼎鼎的 Org-roam，都存在这样的问题，用户的抱怨，我见过不少。基于这个理由重构，我觉得没问题。但之后的重构，多多少少我觉得有点乱来——我一共重构了 6 版……&lt;/p&gt;
+&lt;p&gt;刚才谈到 Demo，这算是第一版。然后我突然间迷信起 AI 能够搞定一切的狗屁说法来，我通过 NotebookLM 提炼 Tana 的功能特性，并总结成产品文档，然后让 Windsurf 帮我完整实现。果然没能达到预期，产生了一堆代码，但是无法通过实际测试。这花了 1 天时间。然后接下来，我又用 Cursor 用同样的流程，重复一次，也还是得到一堆无法正确执行的代码，又花了 1 天。&lt;/p&gt;
+&lt;p&gt;但我不觉得 Cursor 和 Windsurf 要为重构失败负上主要责任。最主要的责任还在自己身上。因为心浮气躁，想着赶工，根本就没有静下心来，认真阅读 AI 提交的代码，理顺其中的节点。有一点点 Bug，就想马上推倒重来，反而陷入不断重复实现基础功能的循环里，中间浪费的时间更多。&lt;/p&gt;
+&lt;p&gt;假如回到那一天，我会对自己说，好好审代码，别他妈的老想着重新再来。&lt;/p&gt;
+&lt;p&gt;另外的重构，则源自于数据库层面，这部分的重构我觉得是有效重构。有道是，一生二，二生三，三生万物。与 org-zettel-ref-mode 相比，org-superta 的数据对象实际上有 4 个：Node、Tag、Field、Field Value。第一次重构，就是因为每一个对象都使用一个表，在测试当中，明显感到性能很差，仅仅存了 10 个数据对象，但操作需要 1 秒，甚至超过 1 秒。在当时，我认为必须到了回炉重造的时候了。&lt;/p&gt;
+&lt;p&gt;所以，不知不觉中，org-supertag 的重构版本很快叠到第 5 版。在这个版本里，我将基础的功能都进行了实现，但发现数据保存和检索还是有问题。而由于之前迭代的版本很多，函数名混乱，函数之间的调用链也相当混乱。中间加入的缓存、事件系统更让整个代码看上去冗杂不堪——此时，数据库的保存又有了问题，努力排查了很久，都无法彻底理清。没办法，只能再次重构。&lt;/p&gt;
+&lt;p&gt;幸运的是，由于 v5 的代码已经将基础功能实现了，因此重新从功能定义出发，参考之前的实现，一点点地将一个个函数都老老实实地实现出来。一边实现，一边针对具体的功能，用简单的测试代码进行测试，整个过程非常顺利，只用了我 2 天半的事件，就主体框架和基础功能全部都实现了。而且程序的运行非常流畅。&lt;/p&gt;
+&lt;p&gt;还有一个隐形的时间杀手，就是测试。&lt;/p&gt;
+&lt;p&gt;测试是贯穿在整个重构的过程中的。在令 org-zettel-ref-mode 可以拥有稳健的数据库时，我正是靠着测试以及测试用例，来找出函数之间不配合的地方，一个一个清理，终于才搞定。而这一次，我迷信之前的经验，凡事都上一个测试用例，结果中间浪费了很多时间，在实际代码和测试结果之间来回跑，陷入了一种恶性循环里。&lt;/p&gt;
+&lt;p&gt;我发现，不应该马上就上测试用例，应该在单个功能与函数已经稳定运行的情况下，在编写测试用例进行整体的测试（主要用于测试边缘情况，多个函数之间运行是否会引起冲突），否则它对实际的程序运行无法起到指导作用。所以，我不应该在实现一个模块的时候，就马上上一个测试用例。实际上我应该在实现一个组件的时候，简单跑一个测试代码，看功能是否可以正常运行就可以了。&lt;/p&gt;
+&lt;p&gt;直到最后一次迭代，我才终于改变了做法，终于在改完最后一点 bug（自认为的），就将 org-supertag 发布在 Github 上，然后我在 Reddit 的 r/org-mode 上发帖介绍，很快吸引了不少 upvote，还有一些人在评论里兴奋的称赞。本文距离正式发布大约 24 小时，Github 上已经有 20 来个 Star，比之前的 org-zettel-ref-mode 快多了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关于重构的一点体会&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;没有结构性的重大缺陷，不要随便进行完全的重构。我认为我经历的 6 次重构中，只有第一次，第五次，第六次算是有效重构，中间的几次基本属于无效重构——这些重构很大程度上，只是在发泄焦躁的情绪，而不是真正在实现项目。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;重构的目的，是去芜存菁，留下有效的代码。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在日常工程中，针对一段函数进行小重构，是很正常的，一般来说也值得鼓励。因为通常小的重构，往往会将代码的结构梳理得更加清晰，也会查缺不漏。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在是否重构之前，进行测试是有必要的。但马上就上完整的测试用例，是没有必要的，而且也会产生很大的时间浪费，因为此时函数与功能并非处于一个相对稳定的状态，此时用测试用例进行测试，只会误导自己，将整个项目的构建引导向歪路。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;另外一些有用的经验&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;先用 Demo 探索产品可行性，这个做法值得保持。&lt;/p&gt;
+&lt;p&gt;尽管我认为，Emacs 和 Org-mode 已经拥有良好的基础设施，足以实现 Tana 上便利的功能，然而 Org-mode 本身的标签功能是非常薄弱的，为了弥合理论与实践之间的鸿沟，我花了 2 天时间，实现了一个功能完整的 Demo。因为 Demo 实现过程十分顺利，让我误判了正式实现 org-supertag 的难度，另外一方面，我认为在仅凭理论判断的前提下，是非常必要实现一个 Demo 来验证想法的可行性。&lt;/p&gt;
+&lt;p&gt;这一个做法，来自任天堂开发《塞尔达传说：旷野之息》的经验，在团队正式开发一个 3D 版本之前，他们首先实现了一个功能完备的 2D 的版本，里面的林克是可以跳跃、跑步的，地图也已经大体设计好。因此《塞尔达传说：旷野之息》的开发过程是比较顺利的， 之所以会延期发布，主要还是为了 Switch 进行更多的优化。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;最后的回顾&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;与 org-zettel-ref-mode 相比 org-supertag 是一个更加复杂的项目，无论功能数量，工程量还有设计方面的考虑，都要更加复杂，但实现的时间更短了。自认为，在使用 AI 辅助开发的能力上，是有比较大的提高的。之前总结的经验，在这一次开发当中，帮了大忙，帮我在一个更加合理的时间段里及时止损。&lt;/p&gt;
+&lt;p&gt;另外，从 org-zettel-ref-mode 和 org=supertag 这两个项目的实现，也终于确认了自己的能力，在用户体验、产品设计方面的思路，是有一定可取之处的。可以说，我现在比之前更有自信。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>write</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>org-supertag 发布到 Reddit</title>
+      <link>https://www.gtdstudy.com/posts/org-supertag-reddit-launch/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/org-supertag-reddit-launch/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 上线，发布到 Reddit，得到了鼓励和支持&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>使用「Shift &#43; 方向键」在 Emacs Calendar 里自由选择日期</title>
+      <link>https://www.gtdstudy.com/posts/emacs-calendar-shift-select/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/emacs-calendar-shift-select/</guid>
+      <description>&lt;p&gt;在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 +1、+2 这种方式来选择未来的日期。&lt;/p&gt;
+&lt;p&gt;这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift + 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>til</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>加快 macOS 里光标的移动速度</title>
+      <link>https://www.gtdstudy.com/posts/macos-cursor-speed/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/macos-cursor-speed/</guid>
+      <description>&lt;p&gt;找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。&lt;/p&gt;
+&lt;p&gt;效果拔群！&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>til</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>与 Emacs 群友 Eval Exec 面基</title>
+      <link>https://www.gtdstudy.com/posts/meeting-with-eval-exec/</link>
+      <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/meeting-with-eval-exec/</guid>
+      <description>&lt;p&gt;与 Emacs 群友 &lt;a href=&#34;https://evex.one/&#34;&gt;Eval Exec&lt;/a&gt; 面基，反应很敏锐，做什么都速度感很强，指尖在 Emacs 上跳跃，行云流水&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Ant Design 组件基本分类</title>
+      <link>https://www.gtdstudy.com/posts/antd-component-architecture/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/antd-component-architecture/</guid>
+      <description>&lt;h2 id=&#34;架构设计&#34;&gt;架构设计&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;分层
+&lt;ul&gt;
+&lt;li&gt;基础组件&lt;/li&gt;
+&lt;li&gt;样式体系&lt;/li&gt;
+&lt;li&gt;复合组件&lt;/li&gt;
+&lt;li&gt;业务组件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;解耦
+&lt;ul&gt;
+&lt;li&gt;对于每个组件都要定义：样式、ts 类型、基础操作、工具方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;响应式设计&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;状态管理&#34;&gt;状态管理&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;状态管理
+&lt;ul&gt;
+&lt;li&gt;全局状态：在 react 使用 Context、useSyncExternailStore&lt;/li&gt;
+&lt;li&gt;局部状态：受控组件，非受控组件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;样式体系与主题设计&#34;&gt;样式体系与主题设计&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Color Tokens : 颜色色值系统&lt;/li&gt;
+&lt;li&gt;样式模块化方案：css-in-js、emotion（建议试一试）、styled-compontents&lt;/li&gt;
+&lt;li&gt;样式优先级与覆盖：控制样式优先级&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      
+      
+      <category>til</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>org-zettel-ref-mode 0.5：支持高亮标记</title>
+      <link>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-5/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-5/</guid>
+      <description>&lt;p&gt;将 org-zettel-ref-mode 升级到 0.5，支持高亮标记，以及更换了笔记的样式&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>时至今日, 我们对论语的解读是如此单一</title>
+      <link>https://www.gtdstudy.com/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/</link>
+      <pubDate>Sun, 10 Nov 2024 09:53:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/</guid>
+      <description>&lt;p&gt;在了解西方人如何解读《论语》，以及为什么认为《论语》是思想经典后。会发现，《论语》的内涵如此丰富，&lt;/p&gt;
+&lt;p&gt;我想《论语》之所以可以流传下来，绝非是因为它摘录了孔夫子的语录，而是学徒们觉得孔夫子这些话很重要，才摘录。&lt;/p&gt;
+&lt;p&gt;重要，就是信息密度，以及可解读的信息层次。&lt;/p&gt;
+&lt;p&gt;但上下五千年，对它的解读角度，却如此单一，一直延续到现在。不得不让人有一种历史的悲怆感。&lt;/p&gt;
+&lt;p&gt;制造轮回的，不光是别人，也包括了自己。以及那个看似强大，而实则脆弱的篱笆。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>write</category>
+      
+      
+    </item>
+    
+  </channel>
+</rss> 
