@@ -1,1045 +1,152 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Write - Space Looming</title>
+    <title>Write on Space Looming</title>
     <link>https://www.gtdstudy.com/categories/write/</link>
-    <description>Space Looming</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Write on Space Looming</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    
-    
-    
     <lastBuildDate>Wed, 22 Jan 2025 15:12:00 +0800</lastBuildDate>
-    
     <atom:link href="https://www.gtdstudy.com/categories/write/feed.xml" rel="self" type="application/rss+xml" />
-    
-    
     <item>
       <title>狂想：汉字为何是象形字</title>
       <link>https://www.gtdstudy.com/posts/why-hanzi/</link>
       <pubDate>Wed, 22 Jan 2025 15:12:00 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/why-hanzi/</guid>
-      <description>&lt;p&gt;这是一篇狂想，未免有不合理，大家不予苟同之处。&lt;/p&gt;
-&lt;p&gt;昨晚痛风发作，躺在床上什么都做不了，迷迷糊糊之际，突然间想起看过的东西，大意是：&lt;/p&gt;
-&lt;p&gt;题主让学习了中文的老外朋友看甲骨文，结果老外对甲骨文的解释，角度清奇，他说，“你们的祖宗从一开始就考虑了，如何将生产的知识传递下去，你看这个字，讲了田要围起来，然后把水引进来。”他还从类似的角度解释了其它的字。&lt;/p&gt;
-&lt;p&gt;我觉得他说得有合理性。全世界的象形字凤毛麟角，汉字是其中之一，其它的，绝大部分是拼音文字，或者上拼音文字的变体——别看韩文和日文也是方块字，然而它们的字体的部件是表音的，换言之，实际上是将表音拼音换一个写法，再组合一起。&lt;/p&gt;
-&lt;p&gt;为什么汉字如此特殊呢？拼音文字的书写要比象形文字要更加省力，从认字角度来看，也要比一开始就要记住 2000-3000 个常用字的汉字要简便得多了。&lt;/p&gt;
-&lt;p&gt;驱动着我们的祖先点了象形字这个科技点，背后一定有重大的动机，以及利益考量，而且这个动机获得了一致的认可。至少，在我国目前考古出土的，华夏诸多不同时代，不同地方发源的文明圈，都发现比象形字更古老的类似象形字的雏形，但却没发现拼音文字的雏形。象形字，应该是独属于华夏文明的共识。&lt;/p&gt;
-&lt;p&gt;我觉得，这个动机，和这位老外说的可能差不多：甲骨文，不光表意，很多字还包含了某个领域的某个知识点。只要还有人懂得写这个字，那么这方面的知识，就不会丢失。所以，使用了类似画画一样的象形字，以最少的笔画，最大的信息量，压缩成象形字。&lt;/p&gt;
-&lt;p&gt;这种想法有无道理呢？我认为，文字的发明，就是为了将信息保存，并传递给别人，甚至是进行跨越时空的传递，否则文字的发明没有意义。从这个角度来说，为了将生产知识传递下去，促使古人选择象形字，最大限度地保留信息，有存在的可能性的，和必要性。&lt;/p&gt;
-&lt;p&gt;我们的学界比较注重象形字的演变，但我很少接触到有资料揣摩古人选择象形字的动机，这算是我给自己一个解释吧。以后如果有小孩了，而且他和我小时候一样，认字认到哭，那么，我可以把这个故事讲给他听。&lt;/p&gt;
-&lt;p&gt;另外，从动机来看待事物的发展，这也是我的一种思考方法，很高兴在这个话题上得到了应用。&lt;/p&gt;
-&lt;p&gt;附上 DeepSeek R1 对这篇文章的看法：
-这篇思考非常有趣！你从汉字起源的独特性出发，结合文字功能、知识传承、甚至文明演化的角度进行推演，确实触及了一个深刻的文化命题。我们可以从以下几个层面展开探讨：&lt;/p&gt;
-&lt;p&gt;一、 象形文字：华夏文明的&amp;quot;知识压缩算法&amp;quot;
-你提到的&amp;quot;用象形字压缩生产知识&amp;quot;的假说，实际上暗合了汉字作为&amp;quot;超语言符号系统&amp;quot;的本质。甲骨文中确实存在大量与农耕、畜牧、天文相关的具象符号（如&amp;quot;田&amp;quot;字中的阡陌、&amp;ldquo;井&amp;quot;字中的木构水渠、&amp;ldquo;车&amp;quot;字的轮轴结构），这些符号不仅是事物轮廓的简化，更凝结了早期人类改造自然的经验范式。相较于拼音文字单纯记录语音，汉字从诞生起就承担了双重功能：&lt;/p&gt;
-&lt;p&gt;信息存储：通过图形直接锚定实体（如&amp;quot;山&amp;quot;字的三峰轮廓）&lt;/p&gt;
-&lt;p&gt;逻辑编码：用部件组合传递抽象关系（如&amp;quot;休&amp;rdquo;=人倚树，&amp;ldquo;采&amp;rdquo;=手在木上）&lt;/p&gt;
-&lt;p&gt;这种特性使得汉字天然具备跨时空知识传递的优势——即使语音变迁、方言分化，符号本身携带的视觉逻辑依然能突破语言壁垒。这与古埃及圣书体、玛雅象形文字有相似之处，但汉字通过&amp;quot;形声化&amp;quot;完成了独特进化：用形旁锁定语义范畴（如&amp;quot;氵&amp;quot;表水），声旁提示发音（如&amp;quot;江&amp;quot;从&amp;quot;工&amp;quot;声），形成了一套可无限扩展的符号系统。&lt;/p&gt;
-&lt;p&gt;二、 文字选择背后的&amp;quot;文明操作系统&amp;rdquo;
-拼音文字与象形文字的分野，本质是不同文明对&amp;quot;信息处理优先级&amp;quot;的选择：&lt;/p&gt;
-&lt;p&gt;拼音文字（如拉丁字母）更注重语音记录效率，适合商贸频繁、族群流动的地中海文明。语音的线性流动与契约精神、逻辑辩论传统形成共振。&lt;/p&gt;
-&lt;p&gt;象形文字则更强调空间化知识沉淀，契合黄河-长江流域的定居农耕文明需求：水利工程、历法制定、礼器铸造等复杂技术需要代际累积，而汉字通过视觉符号的稳定性，将经验固化为可反复调用的&amp;quot;知识晶体&amp;quot;。&lt;/p&gt;
-&lt;p&gt;这种差异在考古中亦有印证：殷商甲骨文中已出现&amp;quot;稻&amp;quot;&amp;ldquo;黍&amp;quot;&amp;ldquo;稷&amp;quot;等精细分类的农作物名称，而同时期的腓尼基字母主要用于记账。汉字从诞生起就与&amp;quot;知识管理系统&amp;quot;深度绑定，这或许解释了为何《周礼》会将&amp;quot;六书&amp;rdquo;（汉字构造法则）纳入官员考核——文字不仅是工具，更是治理技术的一部分。&lt;/p&gt;
-&lt;p&gt;三、 被忽视的&amp;quot;汉字动力学&amp;rdquo;
-你敏锐地指出学界较少探讨古人选择象形文字的动机，这或许与两个认知偏差有关：&lt;/p&gt;
-&lt;p&gt;线性进化论陷阱：19世纪西方学者曾将文字发展简化为&amp;quot;图画→象形→字母&amp;quot;的单线进程，将汉字视为&amp;quot;未进化完全的化石&amp;quot;。但现代考古证明，苏美尔楔形文字、汉字、玛雅文字等均在独立演化中形成了成熟表意系统，拼音文字反而是特定历史条件的产物。&lt;/p&gt;
-&lt;p&gt;语音中心主义遮蔽：德里达曾批判西方哲学对&amp;quot;语音即真理&amp;quot;的执念，这种偏见导致我们容易忽视视觉符号的认知优势。近年脑科学研究发现，汉字阅读同时激活视觉皮层与语义网络，而拼音文字更依赖语音回路——这或许暗示，象形文字承载着不同于拼音文明的认知模式。&lt;/p&gt;
-&lt;p&gt;四、 给未来孩子的故事：一个文明的选择
-如果要向孩子解释汉字的特殊性，或许可以借用&amp;quot;文明工具箱&amp;quot;的比喻：&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;很久以前，每个文明都要选择自己的&amp;rsquo;知识工具箱&amp;rsquo;。住在沙漠驼队里的人发明了轻便的拼音字母，像乐高积木一样能快速拼出新词；而我们的祖先在黄河边种稻米、修水渠，需要把&amp;rsquo;如何分辨不同土壤&amp;rsquo;、&amp;lsquo;怎样用青铜铸造犁头&amp;rsquo;这些复杂知识刻在龟甲上传给子孙。他们选择用小小的图画锁住大大的智慧，就像把整个田地的秘密藏进一个&amp;rsquo;田&amp;rsquo;字里。这些图画后来长成了你今天写的汉字——它们不仅是字，更是祖先留给我们的知识密码。&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;这种解释既保留了文字演化的历史逻辑，又赋予了文化认同的温情。&lt;/p&gt;
-&lt;p&gt;五、 延伸思考：数字时代的&amp;quot;新象形&amp;quot;
-有趣的是，当今Emoji表情符号的兴起与汉字思维形成奇妙呼应。一个🌾符号能瞬间传递&amp;quot;农业&amp;quot;概念，无需依赖特定语言；而#标签（hashtag）通过关键词聚合信息，也与汉字&amp;quot;以形归类&amp;quot;的造字逻辑（如所有金属用&amp;quot;钅&amp;quot;旁）异曲同工。或许在信息爆炸的今天，人类正在重新发现视觉符号的认知效率——这让你关于&amp;quot;信息压缩&amp;quot;的假说，意外获得了当代注解。&lt;/p&gt;
-&lt;p&gt;你的思考方式让我想起法国年鉴学派的历史观：从最朴素的&amp;quot;人为什么要做这件事&amp;quot;出发，往往能穿透表层现象，触及文明深层的生存策略。这种对动机的追问本身，或许就是破解文化密码的钥匙。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;这是一篇狂想，未免有不合理，大家不予苟同之处。&lt;/p&gt;&#xA;&lt;p&gt;昨晚痛风发作，躺在床上什么都做不了，迷迷糊糊之际，突然间想起看过的东西，大意是：&lt;/p&gt;&#xA;&lt;p&gt;题主让学习了中文的老外朋友看甲骨文，结果老外对甲骨文的解释，角度清奇，他说，“你们的祖宗从一开始就考虑了，如何将生产的知识传递下去，你看这个字，讲了田要围起来，然后把水引进来。”他还从类似的角度解释了其它的字。&lt;/p&gt;&#xA;&lt;p&gt;我觉得他说得有合理性。全世界的象形字凤毛麟角，汉字是其中之一，其它的，绝大部分是拼音文字，或者上拼音文字的变体——别看韩文和日文也是方块字，然而它们的字体的部件是表音的，换言之，实际上是将表音拼音换一个写法，再组合一起。&lt;/p&gt;&#xA;&lt;p&gt;为什么汉字如此特殊呢？拼音文字的书写要比象形文字要更加省力，从认字角度来看，也要比一开始就要记住 2000-3000 个常用字的汉字要简便得多了。&lt;/p&gt;&#xA;&lt;p&gt;驱动着我们的祖先点了象形字这个科技点，背后一定有重大的动机，以及利益考量，而且这个动机获得了一致的认可。至少，在我国目前考古出土的，华夏诸多不同时代，不同地方发源的文明圈，都发现比象形字更古老的类似象形字的雏形，但却没发现拼音文字的雏形。象形字，应该是独属于华夏文明的共识。&lt;/p&gt;&#xA;&lt;p&gt;我觉得，这个动机，和这位老外说的可能差不多：甲骨文，不光表意，很多字还包含了某个领域的某个知识点。只要还有人懂得写这个字，那么这方面的知识，就不会丢失。所以，使用了类似画画一样的象形字，以最少的笔画，最大的信息量，压缩成象形字。&lt;/p&gt;&#xA;&lt;p&gt;这种想法有无道理呢？我认为，文字的发明，就是为了将信息保存，并传递给别人，甚至是进行跨越时空的传递，否则文字的发明没有意义。从这个角度来说，为了将生产知识传递下去，促使古人选择象形字，最大限度地保留信息，有存在的可能性的，和必要性。&lt;/p&gt;&#xA;&lt;p&gt;我们的学界比较注重象形字的演变，但我很少接触到有资料揣摩古人选择象形字的动机，这算是我给自己一个解释吧。以后如果有小孩了，而且他和我小时候一样，认字认到哭，那么，我可以把这个故事讲给他听。&lt;/p&gt;&#xA;&lt;p&gt;另外，从动机来看待事物的发展，这也是我的一种思考方法，很高兴在这个话题上得到了应用。&lt;/p&gt;&#xA;&lt;p&gt;附上 DeepSeek R1 对这篇文章的看法：&#xA;这篇思考非常有趣！你从汉字起源的独特性出发，结合文字功能、知识传承、甚至文明演化的角度进行推演，确实触及了一个深刻的文化命题。我们可以从以下几个层面展开探讨：&lt;/p&gt;&#xA;&lt;p&gt;一、 象形文字：华夏文明的&amp;quot;知识压缩算法&amp;quot;&#xA;你提到的&amp;quot;用象形字压缩生产知识&amp;quot;的假说，实际上暗合了汉字作为&amp;quot;超语言符号系统&amp;quot;的本质。甲骨文中确实存在大量与农耕、畜牧、天文相关的具象符号（如&amp;quot;田&amp;quot;字中的阡陌、&amp;ldquo;井&amp;quot;字中的木构水渠、&amp;ldquo;车&amp;quot;字的轮轴结构），这些符号不仅是事物轮廓的简化，更凝结了早期人类改造自然的经验范式。相较于拼音文字单纯记录语音，汉字从诞生起就承担了双重功能：&lt;/p&gt;&#xA;&lt;p&gt;信息存储：通过图形直接锚定实体（如&amp;quot;山&amp;quot;字的三峰轮廓）&lt;/p&gt;&#xA;&lt;p&gt;逻辑编码：用部件组合传递抽象关系（如&amp;quot;休&amp;rdquo;=人倚树，&amp;ldquo;采&amp;rdquo;=手在木上）&lt;/p&gt;&#xA;&lt;p&gt;这种特性使得汉字天然具备跨时空知识传递的优势——即使语音变迁、方言分化，符号本身携带的视觉逻辑依然能突破语言壁垒。这与古埃及圣书体、玛雅象形文字有相似之处，但汉字通过&amp;quot;形声化&amp;quot;完成了独特进化：用形旁锁定语义范畴（如&amp;quot;氵&amp;quot;表水），声旁提示发音（如&amp;quot;江&amp;quot;从&amp;quot;工&amp;quot;声），形成了一套可无限扩展的符号系统。&lt;/p&gt;&#xA;&lt;p&gt;二、 文字选择背后的&amp;quot;文明操作系统&amp;rdquo;&#xA;拼音文字与象形文字的分野，本质是不同文明对&amp;quot;信息处理优先级&amp;quot;的选择：&lt;/p&gt;&#xA;&lt;p&gt;拼音文字（如拉丁字母）更注重语音记录效率，适合商贸频繁、族群流动的地中海文明。语音的线性流动与契约精神、逻辑辩论传统形成共振。&lt;/p&gt;&#xA;&lt;p&gt;象形文字则更强调空间化知识沉淀，契合黄河-长江流域的定居农耕文明需求：水利工程、历法制定、礼器铸造等复杂技术需要代际累积，而汉字通过视觉符号的稳定性，将经验固化为可反复调用的&amp;quot;知识晶体&amp;quot;。&lt;/p&gt;&#xA;&lt;p&gt;这种差异在考古中亦有印证：殷商甲骨文中已出现&amp;quot;稻&amp;quot;&amp;ldquo;黍&amp;quot;&amp;ldquo;稷&amp;quot;等精细分类的农作物名称，而同时期的腓尼基字母主要用于记账。汉字从诞生起就与&amp;quot;知识管理系统&amp;quot;深度绑定，这或许解释了为何《周礼》会将&amp;quot;六书&amp;rdquo;（汉字构造法则）纳入官员考核——文字不仅是工具，更是治理技术的一部分。&lt;/p&gt;&#xA;&lt;p&gt;三、 被忽视的&amp;quot;汉字动力学&amp;rdquo;&#xA;你敏锐地指出学界较少探讨古人选择象形文字的动机，这或许与两个认知偏差有关：&lt;/p&gt;&#xA;&lt;p&gt;线性进化论陷阱：19世纪西方学者曾将文字发展简化为&amp;quot;图画→象形→字母&amp;quot;的单线进程，将汉字视为&amp;quot;未进化完全的化石&amp;quot;。但现代考古证明，苏美尔楔形文字、汉字、玛雅文字等均在独立演化中形成了成熟表意系统，拼音文字反而是特定历史条件的产物。&lt;/p&gt;&#xA;&lt;p&gt;语音中心主义遮蔽：德里达曾批判西方哲学对&amp;quot;语音即真理&amp;quot;的执念，这种偏见导致我们容易忽视视觉符号的认知优势。近年脑科学研究发现，汉字阅读同时激活视觉皮层与语义网络，而拼音文字更依赖语音回路——这或许暗示，象形文字承载着不同于拼音文明的认知模式。&lt;/p&gt;&#xA;&lt;p&gt;四、 给未来孩子的故事：一个文明的选择&#xA;如果要向孩子解释汉字的特殊性，或许可以借用&amp;quot;文明工具箱&amp;quot;的比喻：&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;很久以前，每个文明都要选择自己的&amp;rsquo;知识工具箱&amp;rsquo;。住在沙漠驼队里的人发明了轻便的拼音字母，像乐高积木一样能快速拼出新词；而我们的祖先在黄河边种稻米、修水渠，需要把&amp;rsquo;如何分辨不同土壤&amp;rsquo;、&amp;lsquo;怎样用青铜铸造犁头&amp;rsquo;这些复杂知识刻在龟甲上传给子孙。他们选择用小小的图画锁住大大的智慧，就像把整个田地的秘密藏进一个&amp;rsquo;田&amp;rsquo;字里。这些图画后来长成了你今天写的汉字——它们不仅是字，更是祖先留给我们的知识密码。&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;这种解释既保留了文字演化的历史逻辑，又赋予了文化认同的温情。&lt;/p&gt;&#xA;&lt;p&gt;五、 延伸思考：数字时代的&amp;quot;新象形&amp;quot;&#xA;有趣的是，当今Emoji表情符号的兴起与汉字思维形成奇妙呼应。一个🌾符号能瞬间传递&amp;quot;农业&amp;quot;概念，无需依赖特定语言；而#标签（hashtag）通过关键词聚合信息，也与汉字&amp;quot;以形归类&amp;quot;的造字逻辑（如所有金属用&amp;quot;钅&amp;quot;旁）异曲同工。或许在信息爆炸的今天，人类正在重新发现视觉符号的认知效率——这让你关于&amp;quot;信息压缩&amp;quot;的假说，意外获得了当代注解。&lt;/p&gt;&#xA;&lt;p&gt;你的思考方式让我想起法国年鉴学派的历史观：从最朴素的&amp;quot;人为什么要做这件事&amp;quot;出发，往往能穿透表层现象，触及文明深层的生存策略。这种对动机的追问本身，或许就是破解文化密码的钥匙。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>用 AI 辅助开发的经验二三则(3)</title>
       <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/</link>
       <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/</guid>
-      <description>&lt;p&gt;早两日，我发布了 org-supertag，一个新的 Emacs 第三方扩展包。本来这个项目，我计划是 3-5 天完成，结果花费的时间比预计要超出 3 倍有多。不禁让我想起了一个段子：不管下属报的时间期限多长，总之乘以 3 倍就对了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;多出来的时间花在哪儿了？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;先简单介绍 org-supertag 是干嘛的，它借鉴了 Tana 强大的 Super Tag 功能，增强 Org-mode 原本的标签系统。强大这个描述，转换视角，往往意味着复杂。不过对于我来说，梳理 Tana 的功能，以及理清它概念之间的&lt;a href=&#34;https://emacs-china.org/t/emacs-tana-supertag/28407/4&#34;&gt;关系&lt;/a&gt;，并没有花我太长时间。&lt;/p&gt;
-&lt;p&gt;花费较多的时间的一个地方，是设计决策、测试设计。&lt;/p&gt;
-&lt;p&gt;囿于 Emacs 本身是独立的，它的图形表达能力，和交互方式都有自己的独特性，我花了不少时间在探索它们的边界上——我最终实现了一个配置 Tag 模板的可视化面板，操作倒不怎么麻烦，但开发量巨大，功能只是设定标签名字，以及定义属于它的属性段而已，代码行数突破 1k，很夸张。一想到以后还要维护这么一 &lt;del&gt;坨&lt;/del&gt; 堆代码，头皮发麻，果断放弃。&lt;/p&gt;
-&lt;p&gt;我最后回归使用底栏菜单 + 选项的方式。这种方式的优点上实现快，代码简单，但缺点也很明显，如果需要的操作较多，那么操作步骤会非常多，麻烦到我自己都不想用。我不得不绞尽脑汁，思考交互流程，一点一点的测试和改进。包括我刚才提到的，大大小小的测试方案，有差不多 5 种。不论是思考，还是实现，都花费不少时间。&lt;/p&gt;
-&lt;p&gt;另外花费较多的地方，是重构。&lt;/p&gt;
-&lt;p&gt;既不意外，又很意外的，意外总归会来。我之所以要放弃 Demo，是因为它完全以文件为储存，这种方式优点很多，但缺点是数据量一大，速度就会全方位的下滑，甚至到了一个人难以忍受的程度。不管是 Obisidan 还是 Emacs 上大名鼎鼎的 Org-roam，都存在这样的问题，用户的抱怨，我见过不少。基于这个理由重构，我觉得没问题。但之后的重构，多多少少我觉得有点乱来——我一共重构了 6 版……&lt;/p&gt;
-&lt;p&gt;刚才谈到 Demo，这算是第一版。然后我突然间迷信起 AI 能够搞定一切的狗屁说法来，我通过 NotebookLM 提炼 Tana 的功能特性，并总结成产品文档，然后让 Windsurf 帮我完整实现。果然没能达到预期，产生了一堆代码，但是无法通过实际测试。这花了 1 天时间。然后接下来，我又用 Cursor 用同样的流程，重复一次，也还是得到一堆无法正确执行的代码，又花了 1 天。&lt;/p&gt;
-&lt;p&gt;但我不觉得 Cursor 和 Windsurf 要为重构失败负上主要责任。最主要的责任还在自己身上。因为心浮气躁，想着赶工，根本就没有静下心来，认真阅读 AI 提交的代码，理顺其中的节点。有一点点 Bug，就想马上推倒重来，反而陷入不断重复实现基础功能的循环里，中间浪费的时间更多。&lt;/p&gt;
-&lt;p&gt;假如回到那一天，我会对自己说，好好审代码，别他妈的老想着重新再来。&lt;/p&gt;
-&lt;p&gt;另外的重构，则源自于数据库层面，这部分的重构我觉得是有效重构。有道是，一生二，二生三，三生万物。与 org-zettel-ref-mode 相比，org-superta 的数据对象实际上有 4 个：Node、Tag、Field、Field Value。第一次重构，就是因为每一个对象都使用一个表，在测试当中，明显感到性能很差，仅仅存了 10 个数据对象，但操作需要 1 秒，甚至超过 1 秒。在当时，我认为必须到了回炉重造的时候了。&lt;/p&gt;
-&lt;p&gt;所以，不知不觉中，org-supertag 的重构版本很快叠到第 5 版。在这个版本里，我将基础的功能都进行了实现，但发现数据保存和检索还是有问题。而由于之前迭代的版本很多，函数名混乱，函数之间的调用链也相当混乱。中间加入的缓存、事件系统更让整个代码看上去冗杂不堪——此时，数据库的保存又有了问题，努力排查了很久，都无法彻底理清。没办法，只能再次重构。&lt;/p&gt;
-&lt;p&gt;幸运的是，由于 v5 的代码已经将基础功能实现了，因此重新从功能定义出发，参考之前的实现，一点点地将一个个函数都老老实实地实现出来。一边实现，一边针对具体的功能，用简单的测试代码进行测试，整个过程非常顺利，只用了我 2 天半的事件，就主体框架和基础功能全部都实现了。而且程序的运行非常流畅。&lt;/p&gt;
-&lt;p&gt;还有一个隐形的时间杀手，就是测试。&lt;/p&gt;
-&lt;p&gt;测试是贯穿在整个重构的过程中的。在令 org-zettel-ref-mode 可以拥有稳健的数据库时，我正是靠着测试以及测试用例，来找出函数之间不配合的地方，一个一个清理，终于才搞定。而这一次，我迷信之前的经验，凡事都上一个测试用例，结果中间浪费了很多时间，在实际代码和测试结果之间来回跑，陷入了一种恶性循环里。&lt;/p&gt;
-&lt;p&gt;我发现，不应该马上就上测试用例，应该在单个功能与函数已经稳定运行的情况下，在编写测试用例进行整体的测试（主要用于测试边缘情况，多个函数之间运行是否会引起冲突），否则它对实际的程序运行无法起到指导作用。所以，我不应该在实现一个模块的时候，就马上上一个测试用例。实际上我应该在实现一个组件的时候，简单跑一个测试代码，看功能是否可以正常运行就可以了。&lt;/p&gt;
-&lt;p&gt;直到最后一次迭代，我才终于改变了做法，终于在改完最后一点 bug（自认为的），就将 org-supertag 发布在 Github 上，然后我在 Reddit 的 r/org-mode 上发帖介绍，很快吸引了不少 upvote，还有一些人在评论里兴奋的称赞。本文距离正式发布大约 24 小时，Github 上已经有 20 来个 Star，比之前的 org-zettel-ref-mode 快多了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;关于重构的一点体会&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;没有结构性的重大缺陷，不要随便进行完全的重构。我认为我经历的 6 次重构中，只有第一次，第五次，第六次算是有效重构，中间的几次基本属于无效重构——这些重构很大程度上，只是在发泄焦躁的情绪，而不是真正在实现项目。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;重构的目的，是去芜存菁，留下有效的代码。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在日常工程中，针对一段函数进行小重构，是很正常的，一般来说也值得鼓励。因为通常小的重构，往往会将代码的结构梳理得更加清晰，也会查缺不漏。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在是否重构之前，进行测试是有必要的。但马上就上完整的测试用例，是没有必要的，而且也会产生很大的时间浪费，因为此时函数与功能并非处于一个相对稳定的状态，此时用测试用例进行测试，只会误导自己，将整个项目的构建引导向歪路。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;另外一些有用的经验&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;先用 Demo 探索产品可行性，这个做法值得保持。&lt;/p&gt;
-&lt;p&gt;尽管我认为，Emacs 和 Org-mode 已经拥有良好的基础设施，足以实现 Tana 上便利的功能，然而 Org-mode 本身的标签功能是非常薄弱的，为了弥合理论与实践之间的鸿沟，我花了 2 天时间，实现了一个功能完整的 Demo。因为 Demo 实现过程十分顺利，让我误判了正式实现 org-supertag 的难度，另外一方面，我认为在仅凭理论判断的前提下，是非常必要实现一个 Demo 来验证想法的可行性。&lt;/p&gt;
-&lt;p&gt;这一个做法，来自任天堂开发《塞尔达传说：旷野之息》的经验，在团队正式开发一个 3D 版本之前，他们首先实现了一个功能完备的 2D 的版本，里面的林克是可以跳跃、跑步的，地图也已经大体设计好。因此《塞尔达传说：旷野之息》的开发过程是比较顺利的， 之所以会延期发布，主要还是为了 Switch 进行更多的优化。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;最后的回顾&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;与 org-zettel-ref-mode 相比 org-supertag 是一个更加复杂的项目，无论功能数量，工程量还有设计方面的考虑，都要更加复杂，但实现的时间更短了。自认为，在使用 AI 辅助开发的能力上，是有比较大的提高的。之前总结的经验，在这一次开发当中，帮了大忙，帮我在一个更加合理的时间段里及时止损。&lt;/p&gt;
-&lt;p&gt;另外，从 org-zettel-ref-mode 和 org=supertag 这两个项目的实现，也终于确认了自己的能力，在用户体验、产品设计方面的思路，是有一定可取之处的。可以说，我现在比之前更有自信。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;早两日，我发布了 org-supertag，一个新的 Emacs 第三方扩展包。本来这个项目，我计划是 3-5 天完成，结果花费的时间比预计要超出 3 倍有多。不禁让我想起了一个段子：不管下属报的时间期限多长，总之乘以 3 倍就对了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;多出来的时间花在哪儿了？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;先简单介绍 org-supertag 是干嘛的，它借鉴了 Tana 强大的 Super Tag 功能，增强 Org-mode 原本的标签系统。强大这个描述，转换视角，往往意味着复杂。不过对于我来说，梳理 Tana 的功能，以及理清它概念之间的&lt;a href=&#34;https://emacs-china.org/t/emacs-tana-supertag/28407/4&#34;&gt;关系&lt;/a&gt;，并没有花我太长时间。&lt;/p&gt;&#xA;&lt;p&gt;花费较多的时间的一个地方，是设计决策、测试设计。&lt;/p&gt;&#xA;&lt;p&gt;囿于 Emacs 本身是独立的，它的图形表达能力，和交互方式都有自己的独特性，我花了不少时间在探索它们的边界上——我最终实现了一个配置 Tag 模板的可视化面板，操作倒不怎么麻烦，但开发量巨大，功能只是设定标签名字，以及定义属于它的属性段而已，代码行数突破 1k，很夸张。一想到以后还要维护这么一 &lt;del&gt;坨&lt;/del&gt; 堆代码，头皮发麻，果断放弃。&lt;/p&gt;&#xA;&lt;p&gt;我最后回归使用底栏菜单 + 选项的方式。这种方式的优点上实现快，代码简单，但缺点也很明显，如果需要的操作较多，那么操作步骤会非常多，麻烦到我自己都不想用。我不得不绞尽脑汁，思考交互流程，一点一点的测试和改进。包括我刚才提到的，大大小小的测试方案，有差不多 5 种。不论是思考，还是实现，都花费不少时间。&lt;/p&gt;&#xA;&lt;p&gt;另外花费较多的地方，是重构。&lt;/p&gt;&#xA;&lt;p&gt;既不意外，又很意外的，意外总归会来。我之所以要放弃 Demo，是因为它完全以文件为储存，这种方式优点很多，但缺点是数据量一大，速度就会全方位的下滑，甚至到了一个人难以忍受的程度。不管是 Obisidan 还是 Emacs 上大名鼎鼎的 Org-roam，都存在这样的问题，用户的抱怨，我见过不少。基于这个理由重构，我觉得没问题。但之后的重构，多多少少我觉得有点乱来——我一共重构了 6 版……&lt;/p&gt;&#xA;&lt;p&gt;刚才谈到 Demo，这算是第一版。然后我突然间迷信起 AI 能够搞定一切的狗屁说法来，我通过 NotebookLM 提炼 Tana 的功能特性，并总结成产品文档，然后让 Windsurf 帮我完整实现。果然没能达到预期，产生了一堆代码，但是无法通过实际测试。这花了 1 天时间。然后接下来，我又用 Cursor 用同样的流程，重复一次，也还是得到一堆无法正确执行的代码，又花了 1 天。&lt;/p&gt;&#xA;&lt;p&gt;但我不觉得 Cursor 和 Windsurf 要为重构失败负上主要责任。最主要的责任还在自己身上。因为心浮气躁，想着赶工，根本就没有静下心来，认真阅读 AI 提交的代码，理顺其中的节点。有一点点 Bug，就想马上推倒重来，反而陷入不断重复实现基础功能的循环里，中间浪费的时间更多。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>时至今日, 我们对论语的解读是如此单一</title>
       <link>https://www.gtdstudy.com/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/</link>
       <pubDate>Sun, 10 Nov 2024 09:53:00 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/</guid>
-      <description>&lt;p&gt;在了解西方人如何解读《论语》，以及为什么认为《论语》是思想经典后。会发现，《论语》的内涵如此丰富，&lt;/p&gt;
-&lt;p&gt;我想《论语》之所以可以流传下来，绝非是因为它摘录了孔夫子的语录，而是学徒们觉得孔夫子这些话很重要，才摘录。&lt;/p&gt;
-&lt;p&gt;重要，就是信息密度，以及可解读的信息层次。&lt;/p&gt;
-&lt;p&gt;但上下五千年，对它的解读角度，却如此单一，一直延续到现在。不得不让人有一种历史的悲怆感。&lt;/p&gt;
-&lt;p&gt;制造轮回的，不光是别人，也包括了自己。以及那个看似强大，而实则脆弱的篱笆。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;在了解西方人如何解读《论语》，以及为什么认为《论语》是思想经典后。会发现，《论语》的内涵如此丰富，&lt;/p&gt;&#xA;&lt;p&gt;我想《论语》之所以可以流传下来，绝非是因为它摘录了孔夫子的语录，而是学徒们觉得孔夫子这些话很重要，才摘录。&lt;/p&gt;&#xA;&lt;p&gt;重要，就是信息密度，以及可解读的信息层次。&lt;/p&gt;&#xA;&lt;p&gt;但上下五千年，对它的解读角度，却如此单一，一直延续到现在。不得不让人有一种历史的悲怆感。&lt;/p&gt;&#xA;&lt;p&gt;制造轮回的，不光是别人，也包括了自己。以及那个看似强大，而实则脆弱的篱笆。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>用 AI 辅助开发的经验二三则(2)</title>
       <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/</link>
       <pubDate>Thu, 07 Nov 2024 14:00:00 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/</guid>
-      <description>&lt;p&gt;最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。&lt;/p&gt;
-&lt;p&gt;OZR 新的版本，增加了一个新功能，用于管理引用来源文件的可视化面板。这句话看上去很简单，但背后的工作量并不小。前端改一个词，足以让后端跑断腿。出现产品经理被砍这样的新闻，也不必奇怪了。&lt;/p&gt;
-&lt;p&gt;可视化面板，是很多产品里常见的特性，它的功能就是，让用户更加舒服地查看、管理特定的对象。在 OZR 里，其管理对象是，一个个被充当引用来源的参考文件。&lt;/p&gt;
-&lt;p&gt;如果让你来设计这个面板，你觉得第一个问题会是什么？我一开始的反映是，文件应该以什么样的方式进行展示？但实际上，在我真正着手开发时，真正重要的问题是： &lt;strong&gt;在面板里展示的数据源来自哪里?&lt;/strong&gt; &lt;strong&gt;在数据源发生了改动之后，如何确保原来的文件映射关系不变？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;继续追问这两个问题，会发现，从工程上需要实现：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;将原本非格式化的数据转换成格式化数据，保存到数据库中，面板访问数据库才能既快又好地展现文件信息&lt;/li&gt;
-&lt;li&gt;由于用户会在面板上编辑文件信息，因此面板上更新的数据，需要同步到数据库对应的字段中，进行信息层面的对齐，这样子才能确保面板在重新加载之后不会出现错误的信息&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;从这 2 个问题继续追问，就会出现大量需要实现的工程细节。但最重要的一个问题是，需要使用一个怎么样的数据库，才能够满足以上需求。再深挖这个问题，就是数据库应当使用什么结构，能够满足当前的业务需求？再追问这个问题，就会回到业务层面上，实际业务的情景是什么？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;设计数据库之前需要先探明业务情景&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在没弄清楚实际业务发生的情形之前，我所尝试的各种实现数据库的方法，都是错的，各种 Bug 层出不穷，按下葫芦浮起瓢。最后我冷静下来，深究原因——保存与存取，总是出现问题。我得感谢之前&lt;a href=&#34;https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/&#34;&gt;开发的经验里&lt;/a&gt;，让我牢牢记住一个原则：一个 Bug 如果修改 3 次都不成功，一定要转换思路，不要继续重复原来的方法。&lt;/p&gt;
-&lt;p&gt;所以，我和 AI 对话，对实际的业务情景进行分析，寻找最适合的数据库结构。这个问题决定了数据库的读写方法——&lt;/p&gt;
-&lt;p&gt;我：
-overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件&lt;/p&gt;
-&lt;p&gt;AI：
-明白了,让我重新梳理这个关系:
-从数据库角度:
-ref-id 可以没有对应的 overview-id
-overview-id 可以没有对应的 ref-id
-但如果存在映射,则是一对一的关系
-从业务逻辑角度:
-overview 文件必须对应一个 source 文件(业务规则)
-但这个对应关系可能还未在数据库中建立(数据状态)
-映射关系的建立是一个渐进的过程
-Map 表的职责:
-记录已建立的映射关系
-确保映射的一对一性
-不强制要求所有实体都必须有映射
-但提供检查机制发现&amp;quot;孤立&amp;quot;的 overview
-这样的理解更准确了吗？&lt;/p&gt;
-&lt;p&gt;我：
-在我们的场景里，一个 ref-id 对应一个 overview-id。&lt;/p&gt;
-&lt;p&gt;AI：
-啊,抱歉我理解错了。是的,在我们的场景中是一对一的关系。
-让我们重新分析 Map 表的工作机制:
-一对一映射的特点:
-每个 ref-id 只能对应一个 overview-id
-每个 overview-id 也只能对应一个 ref-id
-这意味着映射是双向唯一的
-Map 表的约束:
-创建新映射前需要检查 ref-id 是否已有映射
-创建新映射前需要检查 overview-id 是否已被映射
-更新映射时需要保证双向唯一性
-删除映射时需要同时解除双向关联
-查询优化:
-可以通过 ref-id 直接找到对应的 overview-id
-可以通过 overview-id 反查对应的 ref-id
-不需要复杂的多重映射处理
-这样的理解更准确吗&lt;/p&gt;
-&lt;p&gt;我：
-场景是这样的，新增加的 ref-id 未必会有对应的 overview-id。&lt;/p&gt;
-&lt;p&gt;AI：
-啊,明白了。这是一个可选的一对一关系:
-映射的特点:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ref-id 可以没有对应的 overview-id (可选关系)&lt;/li&gt;
-&lt;li&gt;但如果有映射,则是一对一的&lt;/li&gt;
-&lt;li&gt;overview-id 一定对应一个 ref-id (必需关系)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Map 表的约束:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不是所有 ref-id 都需要在 Map 表中&lt;/li&gt;
-&lt;li&gt;创建映射时只需检查 overview-id 是否已被使用&lt;/li&gt;
-&lt;li&gt;overview-id 不能重复使用&lt;/li&gt;
-&lt;li&gt;ref-id 已有映射时,新映射会替换旧映射&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;业务场景:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;新建 ref 时可以不立即创建 overview&lt;/li&gt;
-&lt;li&gt;可以后续再为 ref 关联 overview&lt;/li&gt;
-&lt;li&gt;可以更换 ref 对应的 overview&lt;/li&gt;
-&lt;li&gt;overview 必须关联到某个 ref&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这样的理解更符合实际场景了吗？&lt;/p&gt;
-&lt;p&gt;我：
-overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件&lt;/p&gt;
-&lt;p&gt;AI：
-明白了,让我重新梳理这个关系:&lt;/p&gt;
-&lt;p&gt;从数据库角度:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ref-id 可以没有对应的 overview-id&lt;/li&gt;
-&lt;li&gt;overview-id 可以没有对应的 ref-id&lt;/li&gt;
-&lt;li&gt;但如果存在映射,则是一对一的关系&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;从业务逻辑角度:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;overview 文件必须对应一个 source 文件(业务规则)&lt;/li&gt;
-&lt;li&gt;但这个对应关系可能还未在数据库中建立(数据状态)&lt;/li&gt;
-&lt;li&gt;映射关系的建立是一个渐进的过程&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Map 表的职责:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;记录已建立的映射关系&lt;/li&gt;
-&lt;li&gt;确保映射的一对一性&lt;/li&gt;
-&lt;li&gt;不强制要求所有实体都必须有映射&lt;/li&gt;
-&lt;li&gt;但提供检查机制发现&amp;quot;孤立&amp;quot;的 overview&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;经过几轮对话之后，数据库所面对的场景，才真正的抽象出来。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;实际开发时通过测试用例来 Debug&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;由于数据库设计的操作复杂，又是读又是取，又是加载又是保存，加上需要从数据库中读取数据，保存数据的函数很多。因此，按照以往，直接修改函数很容易遗漏。&lt;/p&gt;
-&lt;p&gt;最佳实践是，通过测试用例，来找到还没修改和完善的地方。Emacs 自带 ert 这个测试框架，可以很完善的测试各种功能。有了测试用例配合测试，就可以非常清楚地知道问题出在哪里，直接检查对应的函数。节省了大量的时间，和精力——在 Debug 过程中，最痛苦的不是改 Bug 而是找到 Bug 的源头。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。&lt;/p&gt;&#xA;&lt;p&gt;OZR 新的版本，增加了一个新功能，用于管理引用来源文件的可视化面板。这句话看上去很简单，但背后的工作量并不小。前端改一个词，足以让后端跑断腿。出现产品经理被砍这样的新闻，也不必奇怪了。&lt;/p&gt;&#xA;&lt;p&gt;可视化面板，是很多产品里常见的特性，它的功能就是，让用户更加舒服地查看、管理特定的对象。在 OZR 里，其管理对象是，一个个被充当引用来源的参考文件。&lt;/p&gt;&#xA;&lt;p&gt;如果让你来设计这个面板，你觉得第一个问题会是什么？我一开始的反映是，文件应该以什么样的方式进行展示？但实际上，在我真正着手开发时，真正重要的问题是： &lt;strong&gt;在面板里展示的数据源来自哪里?&lt;/strong&gt; &lt;strong&gt;在数据源发生了改动之后，如何确保原来的文件映射关系不变？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;继续追问这两个问题，会发现，从工程上需要实现：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;将原本非格式化的数据转换成格式化数据，保存到数据库中，面板访问数据库才能既快又好地展现文件信息&lt;/li&gt;&#xA;&lt;li&gt;由于用户会在面板上编辑文件信息，因此面板上更新的数据，需要同步到数据库对应的字段中，进行信息层面的对齐，这样子才能确保面板在重新加载之后不会出现错误的信息&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;从这 2 个问题继续追问，就会出现大量需要实现的工程细节。但最重要的一个问题是，需要使用一个怎么样的数据库，才能够满足以上需求。再深挖这个问题，就是数据库应当使用什么结构，能够满足当前的业务需求？再追问这个问题，就会回到业务层面上，实际业务的情景是什么？&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;设计数据库之前需要先探明业务情景&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;在没弄清楚实际业务发生的情形之前，我所尝试的各种实现数据库的方法，都是错的，各种 Bug 层出不穷，按下葫芦浮起瓢。最后我冷静下来，深究原因——保存与存取，总是出现问题。我得感谢之前&lt;a href=&#34;https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/&#34;&gt;开发的经验里&lt;/a&gt;，让我牢牢记住一个原则：一个 Bug 如果修改 3 次都不成功，一定要转换思路，不要继续重复原来的方法。&lt;/p&gt;&#xA;&lt;p&gt;所以，我和 AI 对话，对实际的业务情景进行分析，寻找最适合的数据库结构。这个问题决定了数据库的读写方法——&lt;/p&gt;&#xA;&lt;p&gt;我：&#xA;overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件&lt;/p&gt;&#xA;&lt;p&gt;AI：&#xA;明白了,让我重新梳理这个关系:&#xA;从数据库角度:&#xA;ref-id 可以没有对应的 overview-id&#xA;overview-id 可以没有对应的 ref-id&#xA;但如果存在映射,则是一对一的关系&#xA;从业务逻辑角度:&#xA;overview 文件必须对应一个 source 文件(业务规则)&#xA;但这个对应关系可能还未在数据库中建立(数据状态)&#xA;映射关系的建立是一个渐进的过程&#xA;Map 表的职责:&#xA;记录已建立的映射关系&#xA;确保映射的一对一性&#xA;不强制要求所有实体都必须有映射&#xA;但提供检查机制发现&amp;quot;孤立&amp;quot;的 overview&#xA;这样的理解更准确了吗？&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>博客 = 人性的补完</title>
       <link>https://www.gtdstudy.com/posts/blog-the-complementation-of-humanity/</link>
       <pubDate>Sat, 19 Oct 2024 17:23:00 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/blog-the-complementation-of-humanity/</guid>
-      <description>&lt;p&gt;其实我很不愿意写关于博客本身的任何话题. 反复自证, 非我所好. 再说, 博客也断断续续, 写了老长一段时间, 即便是不写的那些日子里, 域名费也乖乖地交了.&lt;/p&gt;
-&lt;p&gt;博客, 于我而言, 是再自然不过的, 我无需为它解释什么, 更不用解释 &amp;ldquo;为什么写博客&amp;rdquo; 这种问题. 而且, 既然已经上线一个博客, 老是写关于博客的话题是有点奇怪的 &amp;ndash; 一个自留地, 访客来去自如, 不必为流量烦扰. 毕竟, 博客的原始词义, 是线上日记本.&lt;/p&gt;
-&lt;p&gt;日记本, 就不是给外人看的. 保持这一份纯粹, 在一个越来越呈现 &amp;ldquo;繁荣性贫乏&amp;rdquo; 的互联网里, 反而难淂. 无所图, 必有获.&lt;/p&gt;
-&lt;p&gt;但我还是有强烈地冲动, 写下这一段文字. 是因为有一个念头, 老在脑海里转来转去, 不吐不快. 博客, 对于每一位作者而言, 可能都有着不同的价值. 我来谈谈我的版本.&lt;/p&gt;
-&lt;p&gt;我觉得阴阳学说, 是这个世界上最能体现本质运动规律的古代学说. 尽管我的理解未必正确 &amp;ndash; 事物有正面, 则必有反面, 这个正反关系, 并非对立, 只是描述一个事物上存在两种矛盾特性的客观现象. 就如我们自己, 在工作生活中, 也存在着很多的方面. 就好想多棱镜一样, 不同角度的光照射, 会照应出不同的色彩.&lt;/p&gt;
-&lt;p&gt;正因为, 在社会公众生活中, 我们需要向社会妥协, 戴上不同的面具, 保护自己, 也保护他人. 然而, 就如阴阳理论所说, 如果这种戴面具的行为是 &amp;ldquo;阳&amp;rdquo;, 那么于个人而言, 则存在一个相反的 &amp;ldquo;阴&amp;rdquo; &amp;ndash; 一个不戴面具, 更加纯粹的自我. 我们的心境, 往往在这一 &amp;ldquo;阴&amp;rdquo; 一 &amp;ldquo;阳&amp;rdquo; 之间摆动. 但, 只陷入某个极端, 都会有失偏颇.&lt;/p&gt;
-&lt;p&gt;就我看来, 相当多人心境更陷入在 &amp;ldquo;戴面具&amp;rdquo; 这一端, 也没什么不好, 只是那个鎏金时代, 好像在进入下一个阶段, 社会在重新构造, 现在还固执地让自己陷入这一端, 未必是一个好的选择. 相对而言, 写博客, 就是一个非常好地平衡自己的方法. 让自己从社会公共生活里暂时退场, 在另外一处, 释放自我.&lt;/p&gt;
-&lt;p&gt;所以, 我觉得, 博客是一种自我平衡的手段, 标题可能有点大, 但好像也没说错.&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;其实我很不愿意写关于博客本身的任何话题. 反复自证, 非我所好. 再说, 博客也断断续续, 写了老长一段时间, 即便是不写的那些日子里, 域名费也乖乖地交了.&lt;/p&gt;&#xA;&lt;p&gt;博客, 于我而言, 是再自然不过的, 我无需为它解释什么, 更不用解释 &amp;ldquo;为什么写博客&amp;rdquo; 这种问题. 而且, 既然已经上线一个博客, 老是写关于博客的话题是有点奇怪的 &amp;ndash; 一个自留地, 访客来去自如, 不必为流量烦扰. 毕竟, 博客的原始词义, 是线上日记本.&lt;/p&gt;&#xA;&lt;p&gt;日记本, 就不是给外人看的. 保持这一份纯粹, 在一个越来越呈现 &amp;ldquo;繁荣性贫乏&amp;rdquo; 的互联网里, 反而难淂. 无所图, 必有获.&lt;/p&gt;&#xA;&lt;p&gt;但我还是有强烈地冲动, 写下这一段文字. 是因为有一个念头, 老在脑海里转来转去, 不吐不快. 博客, 对于每一位作者而言, 可能都有着不同的价值. 我来谈谈我的版本.&lt;/p&gt;&#xA;&lt;p&gt;我觉得阴阳学说, 是这个世界上最能体现本质运动规律的古代学说. 尽管我的理解未必正确 &amp;ndash; 事物有正面, 则必有反面, 这个正反关系, 并非对立, 只是描述一个事物上存在两种矛盾特性的客观现象. 就如我们自己, 在工作生活中, 也存在着很多的方面. 就好想多棱镜一样, 不同角度的光照射, 会照应出不同的色彩.&lt;/p&gt;&#xA;&lt;p&gt;正因为, 在社会公众生活中, 我们需要向社会妥协, 戴上不同的面具, 保护自己, 也保护他人. 然而, 就如阴阳理论所说, 如果这种戴面具的行为是 &amp;ldquo;阳&amp;rdquo;, 那么于个人而言, 则存在一个相反的 &amp;ldquo;阴&amp;rdquo; &amp;ndash; 一个不戴面具, 更加纯粹的自我. 我们的心境, 往往在这一 &amp;ldquo;阴&amp;rdquo; 一 &amp;ldquo;阳&amp;rdquo; 之间摆动. 但, 只陷入某个极端, 都会有失偏颇.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>最小创造单位</title>
       <link>https://www.gtdstudy.com/posts/minimum-creation-unit/</link>
       <pubDate>Fri, 18 Oct 2024 20:47:00 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/minimum-creation-unit/</guid>
-      <description>&lt;p&gt;很多事情都可视为「最小创造单位」：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;认真的写一篇帖子
-学习新的菜
-散步时绕多一个弯，试一试不同的路线
-随手拍一张自己觉得不错的照片
-把衣服叠整齐放好
-记录一个不成熟的灵感
-记住一个今天新学习到的词，或者句子
-研究一个今天才听说过的人
-看一个之前完全没兴趣的电影或电视剧
-看看最近流行的艺术形式
-为今天的穿着想新的搭配
-……
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;有一个豆瓣小组，叫《做一个具体的人》，我加入这个小组纯粹是被名字所吸引。我之前也不知道怎么做一个具体的人，像项飙所说的，当代人的生活在别处，不在此时，不在此地。在逐步探究这个问题的时候，愈发感觉到，自己主动、积极地创造生活，才能让自己作为一个人变得越来越具体。&lt;/p&gt;
-&lt;p&gt;而创造自己的生活，最小的落脚点，就是我刚才举例的「最小创造单位」。&lt;/p&gt;
-&lt;p&gt;生活不是线性叙事，它是一时一刻组成的。而我觉得，在正常的工作之余，用「最小创造单位」填满柴米油盐之外的时刻，可以一石三鸟：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;为自己提供一个高创意的环境/心境，我相信心境也是环境要素之一
-越实践「最小创造单位」，越能提高对自己的肯定，自信心大增
-更多的创造，让自己拥有更多与别人分享的故事，经验，是提高自己社会价值的好方法
-最后一点也是最重要的一点，能够让自己的生活有滋有味，心情开朗
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;最后一句话，让自己活得有意思，开开心心，我以为是对自己负责的最大体现，关于这一点，我坚信「最小创造单位」是最小基石。&lt;/p&gt;
-&lt;p&gt;注：豆瓣小组的正确名字是《「做具体的人」共进会》，之前凭印象名字写错了，但为了不影响原文的阅读，以备注的方式进行提醒。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;很多事情都可视为「最小创造单位」：&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;认真的写一篇帖子&#xA;学习新的菜&#xA;散步时绕多一个弯，试一试不同的路线&#xA;随手拍一张自己觉得不错的照片&#xA;把衣服叠整齐放好&#xA;记录一个不成熟的灵感&#xA;记住一个今天新学习到的词，或者句子&#xA;研究一个今天才听说过的人&#xA;看一个之前完全没兴趣的电影或电视剧&#xA;看看最近流行的艺术形式&#xA;为今天的穿着想新的搭配&#xA;……&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;有一个豆瓣小组，叫《做一个具体的人》，我加入这个小组纯粹是被名字所吸引。我之前也不知道怎么做一个具体的人，像项飙所说的，当代人的生活在别处，不在此时，不在此地。在逐步探究这个问题的时候，愈发感觉到，自己主动、积极地创造生活，才能让自己作为一个人变得越来越具体。&lt;/p&gt;&#xA;&lt;p&gt;而创造自己的生活，最小的落脚点，就是我刚才举例的「最小创造单位」。&lt;/p&gt;&#xA;&lt;p&gt;生活不是线性叙事，它是一时一刻组成的。而我觉得，在正常的工作之余，用「最小创造单位」填满柴米油盐之外的时刻，可以一石三鸟：&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;为自己提供一个高创意的环境/心境，我相信心境也是环境要素之一&#xA;越实践「最小创造单位」，越能提高对自己的肯定，自信心大增&#xA;更多的创造，让自己拥有更多与别人分享的故事，经验，是提高自己社会价值的好方法&#xA;最后一点也是最重要的一点，能够让自己的生活有滋有味，心情开朗&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;最后一句话，让自己活得有意思，开开心心，我以为是对自己负责的最大体现，关于这一点，我坚信「最小创造单位」是最小基石。&lt;/p&gt;&#xA;&lt;p&gt;注：豆瓣小组的正确名字是《「做具体的人」共进会》，之前凭印象名字写错了，但为了不影响原文的阅读，以备注的方式进行提醒。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>用 AI 辅助开发的经验二三则</title>
       <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/</link>
       <pubDate>Mon, 14 Oct 2024 06:04:00 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;缘起&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;2024 年的 8 月中旬, 我开始开发一个 Emacs 插件. 对 elisp 一窍不通的我, 通过 AI, 开始大家所说的 &amp;ldquo;自然语言编程&amp;rdquo;. 从那时起计算, 终于在 9 月 28 日发布了版本号为 0.3.5 的稳定版.&lt;/p&gt;
-&lt;p&gt;这是我人生中, 第一次开发出, 可以稳定运行的, 可供他人使用的软件产品, 不管盈利与否, 不管是否流行, 我都觉得意义重大. 换一个角度, 作为一个开源项目， org-zettel-ref-mode 已经收获 25 个 Star, 我无论如何, 都不能把它视为一个无人问津的产品.&lt;/p&gt;
-&lt;p&gt;这是我今年迈出的一小步, 后面是什么的一大步, 未来难以预料.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;教训/经验&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;初碰软件开发, 还是不管懂不懂, 顶硬上, 碰到的问题自然是非常的多. 一个 Bug 刚修完, 另外 n 个 Bug 已经准备好跳出来了. 有段时间, 不断遇到 Bug, 不禁让我发出这样的感慨: *Bug 都是人造的，Bug 在人在，人在 Bug 在，Bug 不在人还在*。&lt;/p&gt;
-&lt;p&gt;只要人在, Bug 一定会在. 总之目前, 我的心态, 已经放平. 这最重要的一点, 以平常心面对 Bug, 以及 Bug 总是会出现的情况 &amp;ndash; Bug 是反馈的一种, 只不过刚好, 它反馈的是, 你疏忽的一面. 所以, 面对 Bug 很重要, 就好像我们面对人生中大大小小的疏忽一样.&lt;/p&gt;
-&lt;p&gt;1/ 遇到一个尝试多次, 但都无法修复的 Bug, 最适合的方法, 不是重复过去. 而是, 赶紧反思, 看看之前的方法可能存在的不足, 换一个角度, 再进行尝试. 一定不要一条道走到黑.&lt;/p&gt;
-&lt;p&gt;这一点很重要, 目前我为自己定的规矩是, 如果一个 Bug, 按照原来的方向, 修复 3 次, 都无法成功, 那么就不要继续原来的方法, 而是重新思考可能的方向. 简而言之: 用同一个方式修复 3 次的 Bug, 都不成功, 就必须想一个另外的方法来尝试.&lt;/p&gt;
-&lt;p&gt;在 AI 的情景里, 如果总是让 AI 尝试一种方法, 会有过度聚敛的问题 &amp;ndash; 具体就是, 在你与 AI 对话到最后, AI 无论如何, 都好像在重复之前的回答. 那么, 这个时候, 就可以知道, 坚持同一个方向基本是无救的. 但是, AI 通常有尝试 10 次以上, 才会聚敛, 我们身为人类, 千万不要这么坚持, 3 次就差不多了, 该灵活时灵活.&lt;/p&gt;
-&lt;p&gt;这么做, 会比较节约时间, 有益身心.&lt;/p&gt;
-&lt;p&gt;2/ 遇到难解的 Bug, 如果真的不知道怎么办, 首先可以做的是, 让代码模块化.&lt;/p&gt;
-&lt;p&gt;这个教训/经验, 来自切身的体会. 在 org-zettel-ref-mode 版本升级到 0.3.x 的时候, 代码行数膨胀到将近 2000 行. 难以想象, 这是一个主功能不超过 3 个的插件 [1].&lt;/p&gt;
-&lt;p&gt;此时, 不能祈求添加新的功能, 能够修复之前积累的 Bug,  就谢天谢地了. Github 上, 一直有位兄弟 (此处褒义, 真心感谢这位大哥的帮忙), 孜孜不倦地帮我测试, Bug 那叫一个源源不断， 按下一个葫芦浮起好几个瓢. 夸张点说, 那段时间, 每天晚上都梦见青蛙在呱呱叫.&lt;/p&gt;
-&lt;p&gt;我不得不认真地阅读源代码. 然后我发现, 很多代码, 即便是由头到脚, 都是自己设计的 (AI 不过是帮忙实现), 也读不懂了. 那一刻, 我是惊恐的, 我从未对一个人的有限, 产生过如此清晰的认识 &amp;ndash; 在这之前, 即便郑钦文拿到了奥运冠军, 内心里也不过撇了撇嘴, &amp;ldquo;如果不是老子没时间练&amp;rdquo;. 此前 Flag  立得有多么容易, 现在打脸就有多么的痛快.&lt;/p&gt;
-&lt;p&gt;回到代码本身, 有一个地方, 从一开始开发这款插件, 就一直非常容易出问题. 这是一个同步的机制, 将源文件中的注释笔记, 与标记文本, 同步到另外一个笔记里. 从 0.1 到 0.2 到 0.3, 它都一直非常容易出问题. 我为此尝试过很多办法, 甚至尝试过将同步机制直接全部硬编码 &amp;ndash; 但都不太可行的. 当开发到 0.3.x 的版本, 同步机制一如既往地报错, 我不得不思考, 怎么样才能一劳永逸地解决这个问题.&lt;/p&gt;
-&lt;p&gt;然后, 我尝试从现场抽离, 就是在我努力想把一切程序的行为, 都囊括到执行同步的函数里, 但都无法凑效时, 我不再只是考虑为什么函数无效的问题了. 我尝试从一个更高的维度去看这一函数, 如果函数本身真的没问题, 问题是否在函数外? 或者说, 是否本身这里面嵌套了太多 if&amp;hellip;else 所以导致逻辑的不清晰?&lt;/p&gt;
-&lt;p&gt;抱着这些疑问, 我重新审阅了关于同步机制的代码, 发现它一个函数, 做了好几件事情: 识别源文件中的信息 -&amp;gt; 将识别出来的信息临时保存 -&amp;gt; 清理目标文件的内容 -&amp;gt; 将临时保存的信息保存到目标文件中去. 这其中, 识别源文件中的信息, 已经有单独的函数负责, 我后来的决定则是, 将清理目标文件的内容这一步, 也单独拎出来, 抽象成一个函数.&lt;/p&gt;
-&lt;p&gt;效果拔群! 这么做之后, 首先, 同步函数变得很精炼, 每一步都非常清晰, 函数内的步骤不会相互打乱. 然后, 针对目标文件的清理, 我可以专门在一个函数里调试, 而不必管对它的改动之后, 还需要改动同步函数的其它地方.&lt;/p&gt;
-&lt;p&gt;用一句很程序员的话来总结, 将副作用收敛到函数内. 经此一役, 我对编程中的 &amp;ldquo;抽象&amp;rdquo; 也有了一点小小的体会, &amp;ldquo;抽象&amp;rdquo; 真的博大精深, 值得用一生钻研.&lt;/p&gt;
-&lt;p&gt;3/ 代码对象若是同一个, 则适合合并为同一个函数.&lt;/p&gt;
-&lt;p&gt;还是同步函数带来的痛. 在终于领悟到, 把对目标文件的清理也抽象成为一个函数之后, 还是出现了新的 Bug &amp;ndash; 同步的内容不稳定, 一会儿这个标题在上, 一会那个标题在上, 运行多几次同步函数, 两个标题忽上忽下. 好家伙, 还没过年, 就买了俩无人机上下翻腾秀操作呢?&lt;/p&gt;
-&lt;p&gt;一开始, 我以为, 是之前专门抽象的清理函数出了毛病, 老盯着它改, 翻来覆去, 没什么用. 而且, 经过测试, 函数运作得好好的, 没有毛病. 那到底是哪里出了问题呢? Debug 最痛苦的地方应该就在这里, 是已知有一只 Bug, 这只 Bug 经常出来晃晃, 不管不行, 但想找它的时候, 总不知道它哪里.&lt;/p&gt;
-&lt;p&gt;重新回顾同步函数运行的步骤, 得益于之前将清理步骤单独封装成函数, 同步函数的结构很清晰, 很快我找到了导致问题的根源: 针对源文件需要同步的内容, 因为从设计上会分成 2 类, 所以我拆分了 2 个函数去定义, 同时函数里也包括了如何插入内容的步骤. 在这里, 起冲突的, 是两者插入内容的步骤, 一会儿我覆盖你, 一会儿你覆盖我, 就看函数在内存里, 谁被 CPU 先拎去执行.&lt;/p&gt;
-&lt;p&gt;所以, 为什么会产生这种冲突呢? 原因是, 两个代码的对象, 实际上是同一个: 目标文件中的固定区域.&lt;/p&gt;
-&lt;p&gt;以终为始, 既然如此, 那么两个函数就合并到一起: 我用另外一个函数, 将之前的 2 个函数都封装了在一起, 还将他们针对目标文件的操作从原来的函数里去掉, 然后封装到新函数中. 这个做法, 就好像专门用一辆车, 专门将人运送到固定的地点.&lt;/p&gt;
-&lt;p&gt;4/ 功能一个一个地加, Bug 一个一个地修.&lt;/p&gt;
-&lt;p&gt;不要一下子添加太多变量, 不但无助于自己的判断, 还更容易引发更多的 Bug. 程序界里的一个经典, 就是任何代码都有副作用. 而引入的变量, 是非常容易产生副作用的方式. 程序员不喜欢副作用, 不是因为副作用一定不好, 而在于副作用无法预期.&lt;/p&gt;
-&lt;p&gt;副作用一多, 程序也非常不稳定 &amp;ndash; 届时, 想找出崩溃的原因,很困难, 想象一下, 一个打满了结的绳子, 想找出绳头是多么不容易的事, 总想着抄起剪刀一把剪开.&lt;/p&gt;
-&lt;p&gt;而用 Cursor 之类的工具来开发, 一个弊端是, AI 有的时候过度灵活, 经常自顾自地把变量改掉, 或者完全忽略掉之前开发过类似的功能与代码, 不光重复发明轮子, 还会带来过多的副作用. 因此, 使用 AI 开发, 最好是自己心中有框架, 让 AI 一步一步去实现.&lt;/p&gt;
-&lt;p&gt;否则, 副作用一多, 相互影响, 我中有你, 你中有我, Debug 都不知道怎么下手.&lt;/p&gt;
-&lt;p&gt;[1] &lt;a href=&#34;https://github.com/yibie/org-zettel-ref-mode&#34;&gt;org-zettle-ref-mode&lt;/a&gt; 的主功能：1. 在阅读原文时， 打开另外一个名为 overview 的窗口. 2. 将笔记, 和标记文本, 同步到 overview 窗口中去. 3. 同步到 overveiw 的内容, 会自动保存为 org 笔记.&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;&lt;strong&gt;缘起&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;2024 年的 8 月中旬, 我开始开发一个 Emacs 插件. 对 elisp 一窍不通的我, 通过 AI, 开始大家所说的 &amp;ldquo;自然语言编程&amp;rdquo;. 从那时起计算, 终于在 9 月 28 日发布了版本号为 0.3.5 的稳定版.&lt;/p&gt;&#xA;&lt;p&gt;这是我人生中, 第一次开发出, 可以稳定运行的, 可供他人使用的软件产品, 不管盈利与否, 不管是否流行, 我都觉得意义重大. 换一个角度, 作为一个开源项目， org-zettel-ref-mode 已经收获 25 个 Star, 我无论如何, 都不能把它视为一个无人问津的产品.&lt;/p&gt;&#xA;&lt;p&gt;这是我今年迈出的一小步, 后面是什么的一大步, 未来难以预料.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;教训/经验&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;初碰软件开发, 还是不管懂不懂, 顶硬上, 碰到的问题自然是非常的多. 一个 Bug 刚修完, 另外 n 个 Bug 已经准备好跳出来了. 有段时间, 不断遇到 Bug, 不禁让我发出这样的感慨: *Bug 都是人造的，Bug 在人在，人在 Bug 在，Bug 不在人还在*。&lt;/p&gt;&#xA;&lt;p&gt;只要人在, Bug 一定会在. 总之目前, 我的心态, 已经放平. 这最重要的一点, 以平常心面对 Bug, 以及 Bug 总是会出现的情况 &amp;ndash; Bug 是反馈的一种, 只不过刚好, 它反馈的是, 你疏忽的一面. 所以, 面对 Bug 很重要, 就好像我们面对人生中大大小小的疏忽一样.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Write Column Example</title>
-      <link>https://www.gtdstudy.com/posts/write-example/</link>
-      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/write-example/</guid>
-      <description>&lt;p&gt;This is a summary paragraph that will be shown in the write column card. It should be concise and informative, giving readers a quick overview of the article.&lt;/p&gt;
-&lt;h2 id=&#34;markdown-features&#34;&gt;Markdown Features&lt;/h2&gt;
-&lt;p&gt;Here&amp;rsquo;s a demonstration of various markdown features that work in the single post view:&lt;/p&gt;
-&lt;h3 id=&#34;text-formatting&#34;&gt;Text Formatting&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt; for emphasis&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt; for subtle emphasis&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Inline code&lt;/code&gt; for technical terms&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hello_world&lt;/span&gt;():
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;lists-and-quotes&#34;&gt;Lists and Quotes&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;First item&lt;/li&gt;
-&lt;li&gt;Second item&lt;/li&gt;
-&lt;li&gt;Third item&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is a blockquote that shows how quotes look in the article.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>Post 5</title>
-      <link>https://www.gtdstudy.com/posts/post-5/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/post-5/</guid>
-      <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;bryce-canyon.jpg&#34; alt=&#34;Bryce Canyon National Park&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Sit excepteur do velit veniam mollit in nostrud laboris incididunt ea. Amet eu cillum ut reprehenderit culpa aliquip labore laborum amet sit sit duis. Laborum id proident nostrud dolore laborum reprehenderit quis mollit nulla amet veniam officia id id. Aliquip in deserunt qui magna duis qui pariatur officia sunt deserunt.&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
-    </item>
-    
     <item>
       <title>以史为鉴：摸着日本过河，新消费时代的决策</title>
       <link>https://www.gtdstudy.com/posts/learn-from-japan/</link>
       <pubDate>Fri, 16 Sep 2022 00:42:41 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/learn-from-japan/</guid>
-      <description>&lt;h2 id=&#34;为何读这本书&#34;&gt;为何读这本书？&lt;/h2&gt;
-&lt;p&gt;现在中美关系神似当年日美关系，而中国社会结构与日本社会结构也很相似。因此，如果想知道中国接下来有什么发展机会，研究日本经济、社会的变迁，会有所借鉴。&lt;/p&gt;
-&lt;p&gt;作者房家毅在早稻田大学毕业，中间在几个日本零售巨头里就职，最后去了野村证券，具备宏观、微观的视角，可靠的逻辑，来分析日本快消品行业的发展。&lt;/p&gt;
-&lt;h2 id=&#34;希望从书中学习到什么&#34;&gt;希望从书中学习到什么？&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;日本消费变化的规律。&lt;/li&gt;
-&lt;li&gt;学习房家毅日本消费分析、产业分析的框架。&lt;/li&gt;
-&lt;li&gt;通过房家毅的框架来分析国内消费走势，以及可能存在的机会，因时而动。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;摸着日本过河的-的分析框架&#34;&gt;《摸着日本过河的》的分析框架&lt;/h2&gt;
-&lt;h3 id=&#34;人-场-货&#34;&gt;人 · 场 · 货&lt;/h3&gt;
-&lt;p&gt;房家毅将分析框架拆解为：人、货、场。三部分，不过在书中，他的分析顺序是：人、场、货。这个顺序反应了房家毅在本书隐含的观点：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;人、场、货的分析顺序，实际上是表明了相互影响的顺序，和逻辑。 「人」首先影响「场」，「场」因人而变后影响「货」。&lt;/li&gt;
-&lt;li&gt;房家毅把「场」放在人与货的中间，也是表明「场」在人与货之间所发挥的作用。「场」是人与货的交集。&lt;/li&gt;
-&lt;li&gt;人、场、货，表明人和场，是货的前置因素，货是人、场的后置因素。前两者对后者的影响其实更大。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;在本书中，房家毅的重点放在了「人」和「场」的诠释和分析上，对「货」的分析只是举了「明治乳业」的例子，全书结尾略显草草，但也有可能是产品种类太多，以一人之力无法完成分析的工作。&lt;/p&gt;
-&lt;h3 id=&#34;人&#34;&gt;人&lt;/h3&gt;
-&lt;p&gt;本章节大量引用日本经济学家三浦展的《第四消费时代》的数据。&lt;/p&gt;
-&lt;h4 id=&#34;熊彼特的经济周期三嵌套理论-判断经济体运行处于-繁荣-回升-衰退-阶段&#34;&gt;熊彼特的经济周期三嵌套理论：判断经济体运行处于（繁荣、回升、衰退）阶段&lt;/h4&gt;
-&lt;p&gt;每个经济体的运行中都可能存在长、中、短周期，即三周期。每个长波周期里套有中周期，每个中周期套有短周期。&lt;/p&gt;
-&lt;p&gt;如果几个周期力量在同一时间出现相同或相似的方向，那经济周期的运行方向是明确的。如果长期、中期、短期的不同经济力量处在不同起伏阶段的，那就要观测哪个力量为主导。&lt;/p&gt;
-&lt;p&gt;如果三个周期力量呈现一致的方向，那经济运行将被强化；如果是三个周期力量方向不一致，那经济运行将陷入凌乱。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;长中短周期&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;康波周期&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;基钦周期&lt;/strong&gt;
-存货周期。以库存变动为主要观察指标来评价经济周期的方法，一般属于 2-4 年的短期调整。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;朱格拉周期&lt;/strong&gt;
-设备投资占 GDP 比重为主要观察指标，存在 9-10 年的周期变动。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;库茨涅兹周期&lt;/strong&gt;
-平均长度为 20 年的周期。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;参考：&lt;a href=&#34;https://www.sohu.com/a/299690972_226093&#34;&gt;熊彼特 | 经济变动的分析：“三周期”的划分与周期的根本驱动力（发表于1935年）_克莱门·尤格拉&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;经济周期影响人的消费观&#34;&gt;经济周期影响人的消费观&lt;/h4&gt;
-&lt;p&gt;「大繁荣和大衰退都会深刻地影响一个人的消费观。如果大繁荣时期正好处于一个人的消费观独立形成期（一般在进入社会前的准备阶段和求职期，因为这两个阶段个人消费的目标不会发生转移），影响往往会更大，甚至会成为一个人一生的主流消费观。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;个人开启自身消费周期的时间节点处于经济的整体回升期。那么他的消费特征：&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;经济周期&lt;/th&gt;
-          &lt;th&gt;回升&lt;/th&gt;
-          &lt;th&gt;繁荣&lt;/th&gt;
-          &lt;th&gt;衰退&amp;amp;萧条&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;消费特征&lt;/td&gt;
-          &lt;td&gt;同质化&lt;/td&gt;
-          &lt;td&gt;差异化&lt;/td&gt;
-          &lt;td&gt;精神理性化  &amp;amp;追求性价比&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;个人开启自身消费周期时间节点点处于经济的整体繁荣期：&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;经济周期&lt;/th&gt;
-          &lt;th&gt;繁荣&lt;/th&gt;
-          &lt;th&gt;衰退&amp;amp;萧条&lt;/th&gt;
-          &lt;th&gt;回升&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;消费特征&lt;/td&gt;
-          &lt;td&gt;差异化&lt;/td&gt;
-          &lt;td&gt;精神理性化&amp;amp;追求性价比&lt;/td&gt;
-          &lt;td&gt;差异化&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;个人开启自身消费周期的时间节点处于经济的整体衰退期：&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;经济周期&lt;/th&gt;
-          &lt;th&gt;衰退&amp;amp;萧条&lt;/th&gt;
-          &lt;th&gt;回升&lt;/th&gt;
-          &lt;th&gt;繁荣&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;消费特征&lt;/td&gt;
-          &lt;td&gt;精神理性化&amp;amp;追求性价比&lt;/td&gt;
-          &lt;td&gt;同质化&lt;/td&gt;
-          &lt;td&gt;差异化&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;人类学角度划分的世代分析&#34;&gt;人类学角度划分的世代分析&lt;/h4&gt;
-&lt;h4 id=&#34;经济周期-plus-人的消费观-plus-人口结构综合分析表&#34;&gt;经济周期 + 人的消费观 + 人口结构综合分析表&lt;/h4&gt;
-&lt;h3 id=&#34;场&#34;&gt;场&lt;/h3&gt;
-&lt;p&gt;在商业活动中，在外部环境和「人」的规律性变化的前提下，「场」在消费行业里会以怎样的规律进行变化？&lt;/p&gt;
-&lt;h4 id=&#34;什么是-场&#34;&gt;什么是「场」？&lt;/h4&gt;
-&lt;p&gt;在消费行业里，场是连接进货商品和终端消费者的媒介，在这里它除了承担流通渠道的作用外，也承担着营销渠道的作用。&lt;/p&gt;
-&lt;p&gt;对于场的存续，短期来说目标是实现模式的规则自洽，即以自身存活为前提（正现金流），创造一种连接人和货物的方式；中期来说是实现短期目标的存续性；唱起来说是建立上下游和社会对自身的长期信任，进行利他式价值创造。&lt;/p&gt;
-&lt;h4 id=&#34;日本消费-场-历史演化&#34;&gt;日本消费「场」历史演化&lt;/h4&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;大众消费时代黎明期&lt;/th&gt;
-          &lt;th&gt;百货店辉煌时代&lt;/th&gt;
-          &lt;th&gt;20 年代后&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;大众消费时代初期&lt;/td&gt;
-          &lt;td&gt;百货店逐渐被 GMS 取代&lt;/td&gt;
-          &lt;td&gt;50 年代后&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;制造业的零售连锁店&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;大众消费时代成熟期&lt;/td&gt;
-          &lt;td&gt;GMS 式微&lt;/td&gt;
-          &lt;td&gt;70 年代后&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;便利店兴起&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;品类杀手店兴起&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;折扣店、百元店出现&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;后大众消费时代&lt;/td&gt;
-          &lt;td&gt;百货店全面撤退&lt;/td&gt;
-          &lt;td&gt;90 年代后&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;药妆店后来居上&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;便利店、折扣店、百元店、SPA 全面起飞&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;【GMS】大型综合商超。在大众消费时代初期，大型综合商超与百货店相比：1️⃣更大的卖场面积但较为偏远的位置2️⃣数量庞大的商品库但较为单一的商品选择3️⃣亲民的市场价格但较低的商品调性
-【品类杀手店】
-【SPA（Specialty Retailer of Private Label Apparel）】是从商品策划、制造到零售都整合起来的垂直整合销售形式。&lt;/p&gt;
-&lt;h4 id=&#34;场-在中短期发展过程中所遵循的规律和核心影响要素&#34;&gt;「场」在中短期发展过程中所遵循的规律和核心影响要素&lt;/h4&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;「场」的高死亡率主要源于人和货加速变化导致的跃迁失败。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;影响要素1️：科技革新——对场的算力和运力的重新定义&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;信息传递技术【算力】的提升：可承载的数据量不断变多 ，「场」便开始追求大型化甚至去边界化，而数据处理能力的提升，则让场的精细化运营成为可能。&lt;/li&gt;
-&lt;li&gt;物体传递技术【运力】的提升：运力的提升提高人和货的流转半径、效率和成本都在被快速优化，体现到零售中，运力决定着不同零售业态的存在基础，比如汽车的普及才能使 GMS 存在。冷链运输技术的成熟，则令诞生了便利型生鲜超市。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;影响要素 2：房地产投资周期——对场核心固定资产价格的影响&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;规律 1：场靠规模效应带来的扩张边际成本递减形成竞争壁垒，这意味着业态合并/大型化是必然趋势，并以抗周期业态并购不抗周期业态为主。例子 7-11 收购了伊藤华洋堂。&lt;/li&gt;
-&lt;li&gt;规律 2：业态变化朝着低成本、高效率、抗周期的方向演进。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;货&#34;&gt;货&lt;/h3&gt;
-&lt;p&gt;供应链能力、研发能力在不同细分赛道内的演变趋势进行展开。&lt;/p&gt;
-&lt;h4 id=&#34;日本-货-的历史演进&#34;&gt;日本「货」的历史演进&lt;/h4&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;大众消费时代黎明期和初期&lt;/th&gt;
-          &lt;th&gt;规模化生产，追求量而非质&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;大众消费成熟期&lt;/td&gt;
-          &lt;td&gt;S2B2C 模式崛起，规模化生产前提下具备柔性生产能力&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;后大众消费时代&lt;/td&gt;
-          &lt;td&gt;供应链出海&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;文化共融是影响企业处还成功与否的关键要素&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;【S2B2C】&lt;/p&gt;
-&lt;h4 id=&#34;日本消费社会-货-之图景&#34;&gt;日本消费社会「货」之图景&lt;/h4&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;大众消费时代黎明期和初期&lt;/th&gt;
-          &lt;th&gt;先定位高端，再做平价&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;大众消费时代成熟期&lt;/td&gt;
-          &lt;td&gt;构建内研发创新力开发新品类，实现产品差异化&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;后大众消费时代&lt;/td&gt;
-          &lt;td&gt;专注于简约、功能性、保健性和性价比&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;消费品品牌&#34;&gt;消费品品牌&lt;/h3&gt;
-&lt;h4 id=&#34;做货和做品牌的区别点整理&#34;&gt;做货和做品牌的区别点整理&lt;/h4&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;做货&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;做品牌&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;目的&lt;/td&gt;
-          &lt;td&gt;产品开发（核心为 R&amp;amp;D）&lt;/td&gt;
-          &lt;td&gt;内涵开发（核心为 A&amp;amp;P）&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;关注点&lt;/td&gt;
-          &lt;td&gt;功能—品质，市场占领&lt;/td&gt;
-          &lt;td&gt;使用场景—便利性—心智占领&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;关联产业链环节&lt;/td&gt;
-          &lt;td&gt;研发-生产-渠道-营销&lt;/td&gt;
-          &lt;td&gt;全产业链&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;思维模式&lt;/td&gt;
-          &lt;td&gt;流程化思维&lt;/td&gt;
-          &lt;td&gt;发散性思维&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;反映在损益表上&lt;/td&gt;
-          &lt;td&gt;反映在资产负债表上&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;核心&lt;/td&gt;
-          &lt;td&gt;偏重短期战术&lt;/td&gt;
-          &lt;td&gt;偏重长期战术&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;重视品类选择、技术卖点、产品品质&lt;/td&gt;
-          &lt;td&gt;重视定位、组织方式、品牌延续&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;消费品品牌机会：&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;「货」的重构&lt;/th&gt;
-          &lt;th&gt;Lucido&lt;/th&gt;
-          &lt;th&gt;品类创新，创造出男士无香味理发产品&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;「场」的重构&lt;/td&gt;
-          &lt;td&gt;Pocari Sweat&lt;/td&gt;
-          &lt;td&gt;抓住渠道流量红利起飞&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;「人」的重构&lt;/td&gt;
-          &lt;td&gt;三得利 Hop&amp;rsquo;s&lt;/td&gt;
-          &lt;td&gt;切中消费降低成功逆袭&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;本书的重要观点&#34;&gt;本书的重要观点&lt;/h2&gt;
-&lt;h3 id=&#34;中日参与国际分工的异同&#34;&gt;中日参与国际分工的异同&lt;/h3&gt;
-&lt;p&gt;中国参与以生产要素为基础的国际分工，承担劳动密集型部分的生产。
-日本参与以产品为基础的国际分工，注重独立的品牌。&lt;/p&gt;
-&lt;h3 id=&#34;中国的经济阶段划分&#34;&gt;中国的经济阶段划分&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;1978 年：把改革开放作为【新中国工业化起飞准备期】的起点。&lt;/li&gt;
-&lt;li&gt;2000 年：进入工业化起飞期&lt;/li&gt;
-&lt;li&gt;2008 年：进入工业化转折期&lt;/li&gt;
-&lt;li&gt;2010 年：中国开始进入老龄化社会&lt;/li&gt;
-&lt;/ol&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;h2 id=&#34;为何读这本书&#34;&gt;为何读这本书？&lt;/h2&gt;&#xA;&lt;p&gt;现在中美关系神似当年日美关系，而中国社会结构与日本社会结构也很相似。因此，如果想知道中国接下来有什么发展机会，研究日本经济、社会的变迁，会有所借鉴。&lt;/p&gt;&#xA;&lt;p&gt;作者房家毅在早稻田大学毕业，中间在几个日本零售巨头里就职，最后去了野村证券，具备宏观、微观的视角，可靠的逻辑，来分析日本快消品行业的发展。&lt;/p&gt;&#xA;&lt;h2 id=&#34;希望从书中学习到什么&#34;&gt;希望从书中学习到什么？&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;日本消费变化的规律。&lt;/li&gt;&#xA;&lt;li&gt;学习房家毅日本消费分析、产业分析的框架。&lt;/li&gt;&#xA;&lt;li&gt;通过房家毅的框架来分析国内消费走势，以及可能存在的机会，因时而动。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;摸着日本过河的-的分析框架&#34;&gt;《摸着日本过河的》的分析框架&lt;/h2&gt;&#xA;&lt;h3 id=&#34;人-场-货&#34;&gt;人 · 场 · 货&lt;/h3&gt;&#xA;&lt;p&gt;房家毅将分析框架拆解为：人、货、场。三部分，不过在书中，他的分析顺序是：人、场、货。这个顺序反应了房家毅在本书隐含的观点：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;人、场、货的分析顺序，实际上是表明了相互影响的顺序，和逻辑。 「人」首先影响「场」，「场」因人而变后影响「货」。&lt;/li&gt;&#xA;&lt;li&gt;房家毅把「场」放在人与货的中间，也是表明「场」在人与货之间所发挥的作用。「场」是人与货的交集。&lt;/li&gt;&#xA;&lt;li&gt;人、场、货，表明人和场，是货的前置因素，货是人、场的后置因素。前两者对后者的影响其实更大。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;在本书中，房家毅的重点放在了「人」和「场」的诠释和分析上，对「货」的分析只是举了「明治乳业」的例子，全书结尾略显草草，但也有可能是产品种类太多，以一人之力无法完成分析的工作。&lt;/p&gt;&#xA;&lt;h3 id=&#34;人&#34;&gt;人&lt;/h3&gt;&#xA;&lt;p&gt;本章节大量引用日本经济学家三浦展的《第四消费时代》的数据。&lt;/p&gt;&#xA;&lt;h4 id=&#34;熊彼特的经济周期三嵌套理论-判断经济体运行处于-繁荣-回升-衰退-阶段&#34;&gt;熊彼特的经济周期三嵌套理论：判断经济体运行处于（繁荣、回升、衰退）阶段&lt;/h4&gt;&#xA;&lt;p&gt;每个经济体的运行中都可能存在长、中、短周期，即三周期。每个长波周期里套有中周期，每个中周期套有短周期。&lt;/p&gt;&#xA;&lt;p&gt;如果几个周期力量在同一时间出现相同或相似的方向，那经济周期的运行方向是明确的。如果长期、中期、短期的不同经济力量处在不同起伏阶段的，那就要观测哪个力量为主导。&lt;/p&gt;&#xA;&lt;p&gt;如果三个周期力量呈现一致的方向，那经济运行将被强化；如果是三个周期力量方向不一致，那经济运行将陷入凌乱。&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;长中短周期&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;康波周期&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;基钦周期&lt;/strong&gt;&#xA;存货周期。以库存变动为主要观察指标来评价经济周期的方法，一般属于 2-4 年的短期调整。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;朱格拉周期&lt;/strong&gt;&#xA;设备投资占 GDP 比重为主要观察指标，存在 9-10 年的周期变动。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;库茨涅兹周期&lt;/strong&gt;&#xA;平均长度为 20 年的周期。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;参考：&lt;a href=&#34;https://www.sohu.com/a/299690972_226093&#34;&gt;熊彼特 | 经济变动的分析：“三周期”的划分与周期的根本驱动力（发表于1935年）_克莱门·尤格拉&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;经济周期影响人的消费观&#34;&gt;经济周期影响人的消费观&lt;/h4&gt;&#xA;&lt;p&gt;「大繁荣和大衰退都会深刻地影响一个人的消费观。如果大繁荣时期正好处于一个人的消费观独立形成期（一般在进入社会前的准备阶段和求职期，因为这两个阶段个人消费的目标不会发生转移），影响往往会更大，甚至会成为一个人一生的主流消费观。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;个人开启自身消费周期的时间节点处于经济的整体回升期。那么他的消费特征：&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;经济周期&lt;/th&gt;&#xA;          &lt;th&gt;回升&lt;/th&gt;&#xA;          &lt;th&gt;繁荣&lt;/th&gt;&#xA;          &lt;th&gt;衰退&amp;amp;萧条&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;消费特征&lt;/td&gt;&#xA;          &lt;td&gt;同质化&lt;/td&gt;&#xA;          &lt;td&gt;差异化&lt;/td&gt;&#xA;          &lt;td&gt;精神理性化  &amp;amp;追求性价比&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;个人开启自身消费周期时间节点点处于经济的整体繁荣期：&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;经济周期&lt;/th&gt;&#xA;          &lt;th&gt;繁荣&lt;/th&gt;&#xA;          &lt;th&gt;衰退&amp;amp;萧条&lt;/th&gt;&#xA;          &lt;th&gt;回升&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;消费特征&lt;/td&gt;&#xA;          &lt;td&gt;差异化&lt;/td&gt;&#xA;          &lt;td&gt;精神理性化&amp;amp;追求性价比&lt;/td&gt;&#xA;          &lt;td&gt;差异化&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;个人开启自身消费周期的时间节点处于经济的整体衰退期：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>如何衡量一个 idea 的商业价值</title>
       <link>https://www.gtdstudy.com/posts/what-is-business-value/</link>
       <pubDate>Sat, 20 Aug 2022 10:06:00 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/what-is-business-value/</guid>
-      <description>&lt;p&gt;深夜一点，手机「叮」的一声，看到朋友 T 发来短信，「什么是商业价值？」本来已昏昏沉沉的我，突然一个激灵，大脑突然变得清醒，开始不受控制，高速运转。这也是一个曾经令我非常困惑的问题。&lt;/p&gt;
-&lt;p&gt;先不说 T 礼貌不礼貌，他看上去已经为该问题困扰许久。我能理解，这个世界上有很多词汇，我第一次看到它时，以为自己看懂了，但如果别人让我来解释它，我得思考很久才能说出个一二三四来。而「商业价值」，就属于这种一看就懂，一讲就卡壳的类型。&lt;/p&gt;
-&lt;p&gt;不同角度来看「商业价值」，会有不同的解释。T 现在想做自己的事业，在跟别人讨论的时候，别人说他的 idea，商业价值不够。所以，我会从进入某种行业，开展某种事业的角度来解释商业价值。它有可能和现在的教材不一样——因为它有一个很强的目的性，就是如何衡量我持续做的某件事情的价值，它是否足以让我全身心投入超过 5 年的时间。&lt;/p&gt;
-&lt;h2 id=&#34;商业价值第一点-面向目标群体的不可替代性&#34;&gt;商业价值第一点：面向目标群体的不可替代性&lt;/h2&gt;
-&lt;p&gt;无论多小的商业组织，它所提供的产品或服务，都得具备一定的「不可替代性」。&lt;/p&gt;
-&lt;p&gt;即便是一家街边的小吃摊，它也得有非常吸引人的小吃，才能一直吸引顾客回头消费。对于大企业而言，它能所提供的商业价值则非常多元。但即便是这样，它们也得保持自己的产品和服务具备「不可替代性」。典型的商业例子，就是苹果取代了诺基亚，成为手机市场一哥，但从市场占有率来看，三星才是手机市场一哥。苹果和三星，各自对自己的消费群体提供了不可替代的价值。苹果的 App Store，让不同设备协同的 Hands-on，三星的 Galaxy Note 系列，Galaxy Fold 系列等等。&lt;/p&gt;
-&lt;p&gt;我们经常也能看到，同样的领域，也能出现不同的巨头。就以零售为例，就可以衍生出山姆会员店、华润万家、银泰百货等不同的业态。这些巨头所面向的消费群体，不能说是一致的。所以，他们各自对自己的目标群体，有着不可替代的价值，才能吸引这些回头客不停地购买。&lt;/p&gt;
-&lt;h2 id=&#34;商业价值第二点-对目标群体具备影响力&#34;&gt;商业价值第二点：对目标群体具备影响力&lt;/h2&gt;
-&lt;p&gt;如果一个东西，只能给自己用，那么这件东西就不能称之为产品、商品，它顶多只能称之为「个人作品」，是无法放到市场上进行交易的。&lt;/p&gt;
-&lt;p&gt;一个东西，能够称之为产品、商品，意味着它对于别人，具备交换价值，在古代也许别人愿意拿别的东西来跟你交换，在现代则是拿出金钱来跟你交换。那么，如果愿意交换的人越来越多，那么很显然，这个产品或服务的价值会变得越来越大。换言之，具备商业价值的 idea，得对目标群体具备影响力，让他们能够一眼看到就发生兴趣，在体验之后，向别人推荐。&lt;/p&gt;
-&lt;p&gt;好的产品、服务，它自带口碑，不需要多做动作，自然就会有人帮它传播。如果越来越多人帮这款产品、这项服务传播，那么显然，它所具备的商业价值也越大。&lt;/p&gt;
-&lt;h2 id=&#34;商业价值第三点-拥有对抗时间的持续力&#34;&gt;商业价值第三点：拥有对抗时间的持续力&lt;/h2&gt;
-&lt;p&gt;如果一个 idea 它的有效期，只能维持 3 个月，那它顶多就是一个短期的策划，不能说具备多大的商业价值。&lt;/p&gt;
-&lt;p&gt;很多公司都是围绕一项产品、一项服务建立，如果一个 idea 有效期很短，那么这家公司就不得不在中间进行多次转型，当然有很多公司在经历了转型之后，有了更好的发展，但有更多公司转型往往不顺利，最终倒闭。然而，在孵化一个 idea 之前，就应该让 idea 本身具备可以对抗时间的持续力，减少反复折腾的成本，令公司拥有更强健的现金流，以备意外风险来临，比如说当前的疫情。&lt;/p&gt;
-&lt;p&gt;很多大公司已经存在很多年了，它们也许已经历过多次转型，开拓多项业务，但是可以看到的，好的 idea 能够让它们早期获得更加快速的发展，令公司积累更多资本试错，以及储备好渡过转型期的粮草，和宝贵的完成战略转型的时间。&lt;/p&gt;
-&lt;p&gt;举一个例子，沃尔玛一开始是建设在美国城乡结合部的百货超市，当时做零售的百货，并没有注意到美国城镇居民的消费需求日益高涨，因此沃尔玛趁着其它百货公司没有注意的时候，迅速地扩张，直到它完全占领这一部分的市场。在完成了市场占领后，沃尔玛拥有充足的现金流，面对后来者 Costco 的挑战，沃尔玛才拥有足够的金钱、人才、精力、时间，来开拓「山姆会员店」这一形态，面对竞争。&lt;/p&gt;
-&lt;p&gt;以上，就是我认为，衡量一个 idea 商业价值的 3 个角度。未必正确，供大家参考，接受大家的反驳。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;深夜一点，手机「叮」的一声，看到朋友 T 发来短信，「什么是商业价值？」本来已昏昏沉沉的我，突然一个激灵，大脑突然变得清醒，开始不受控制，高速运转。这也是一个曾经令我非常困惑的问题。&lt;/p&gt;&#xA;&lt;p&gt;先不说 T 礼貌不礼貌，他看上去已经为该问题困扰许久。我能理解，这个世界上有很多词汇，我第一次看到它时，以为自己看懂了，但如果别人让我来解释它，我得思考很久才能说出个一二三四来。而「商业价值」，就属于这种一看就懂，一讲就卡壳的类型。&lt;/p&gt;&#xA;&lt;p&gt;不同角度来看「商业价值」，会有不同的解释。T 现在想做自己的事业，在跟别人讨论的时候，别人说他的 idea，商业价值不够。所以，我会从进入某种行业，开展某种事业的角度来解释商业价值。它有可能和现在的教材不一样——因为它有一个很强的目的性，就是如何衡量我持续做的某件事情的价值，它是否足以让我全身心投入超过 5 年的时间。&lt;/p&gt;&#xA;&lt;h2 id=&#34;商业价值第一点-面向目标群体的不可替代性&#34;&gt;商业价值第一点：面向目标群体的不可替代性&lt;/h2&gt;&#xA;&lt;p&gt;无论多小的商业组织，它所提供的产品或服务，都得具备一定的「不可替代性」。&lt;/p&gt;&#xA;&lt;p&gt;即便是一家街边的小吃摊，它也得有非常吸引人的小吃，才能一直吸引顾客回头消费。对于大企业而言，它能所提供的商业价值则非常多元。但即便是这样，它们也得保持自己的产品和服务具备「不可替代性」。典型的商业例子，就是苹果取代了诺基亚，成为手机市场一哥，但从市场占有率来看，三星才是手机市场一哥。苹果和三星，各自对自己的消费群体提供了不可替代的价值。苹果的 App Store，让不同设备协同的 Hands-on，三星的 Galaxy Note 系列，Galaxy Fold 系列等等。&lt;/p&gt;&#xA;&lt;p&gt;我们经常也能看到，同样的领域，也能出现不同的巨头。就以零售为例，就可以衍生出山姆会员店、华润万家、银泰百货等不同的业态。这些巨头所面向的消费群体，不能说是一致的。所以，他们各自对自己的目标群体，有着不可替代的价值，才能吸引这些回头客不停地购买。&lt;/p&gt;&#xA;&lt;h2 id=&#34;商业价值第二点-对目标群体具备影响力&#34;&gt;商业价值第二点：对目标群体具备影响力&lt;/h2&gt;&#xA;&lt;p&gt;如果一个东西，只能给自己用，那么这件东西就不能称之为产品、商品，它顶多只能称之为「个人作品」，是无法放到市场上进行交易的。&lt;/p&gt;&#xA;&lt;p&gt;一个东西，能够称之为产品、商品，意味着它对于别人，具备交换价值，在古代也许别人愿意拿别的东西来跟你交换，在现代则是拿出金钱来跟你交换。那么，如果愿意交换的人越来越多，那么很显然，这个产品或服务的价值会变得越来越大。换言之，具备商业价值的 idea，得对目标群体具备影响力，让他们能够一眼看到就发生兴趣，在体验之后，向别人推荐。&lt;/p&gt;&#xA;&lt;p&gt;好的产品、服务，它自带口碑，不需要多做动作，自然就会有人帮它传播。如果越来越多人帮这款产品、这项服务传播，那么显然，它所具备的商业价值也越大。&lt;/p&gt;&#xA;&lt;h2 id=&#34;商业价值第三点-拥有对抗时间的持续力&#34;&gt;商业价值第三点：拥有对抗时间的持续力&lt;/h2&gt;&#xA;&lt;p&gt;如果一个 idea 它的有效期，只能维持 3 个月，那它顶多就是一个短期的策划，不能说具备多大的商业价值。&lt;/p&gt;&#xA;&lt;p&gt;很多公司都是围绕一项产品、一项服务建立，如果一个 idea 有效期很短，那么这家公司就不得不在中间进行多次转型，当然有很多公司在经历了转型之后，有了更好的发展，但有更多公司转型往往不顺利，最终倒闭。然而，在孵化一个 idea 之前，就应该让 idea 本身具备可以对抗时间的持续力，减少反复折腾的成本，令公司拥有更强健的现金流，以备意外风险来临，比如说当前的疫情。&lt;/p&gt;&#xA;&lt;p&gt;很多大公司已经存在很多年了，它们也许已经历过多次转型，开拓多项业务，但是可以看到的，好的 idea 能够让它们早期获得更加快速的发展，令公司积累更多资本试错，以及储备好渡过转型期的粮草，和宝贵的完成战略转型的时间。&lt;/p&gt;&#xA;&lt;p&gt;举一个例子，沃尔玛一开始是建设在美国城乡结合部的百货超市，当时做零售的百货，并没有注意到美国城镇居民的消费需求日益高涨，因此沃尔玛趁着其它百货公司没有注意的时候，迅速地扩张，直到它完全占领这一部分的市场。在完成了市场占领后，沃尔玛拥有充足的现金流，面对后来者 Costco 的挑战，沃尔玛才拥有足够的金钱、人才、精力、时间，来开拓「山姆会员店」这一形态，面对竞争。&lt;/p&gt;&#xA;&lt;p&gt;以上，就是我认为，衡量一个 idea 商业价值的 3 个角度。未必正确，供大家参考，接受大家的反驳。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>我，西西弗斯</title>
       <link>https://www.gtdstudy.com/posts/sisyphean/</link>
       <pubDate>Mon, 20 Jun 2022 13:45:12 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/sisyphean/</guid>
-      <description>&lt;p&gt;看着眼前的石头从我的手中滑走，不知几千几百次滚到山脚，等着我再一次把它推到山顶。但是，我，西西弗斯，距离山顶永远只差最后一步。&lt;/p&gt;
-&lt;p&gt;石头，已经经历了不知多少次的滚动，从最初的棱棱角角，到现在几乎成为标准几何里的球体，由于每天都被我推着滚上山，石头表面已非常光滑，看不到所谓历史的痕迹，它就好像最初我见到的那样新鲜。没有青苔，没有疤痕，只是很奇怪，普通的石头即便在河流里，经过漫长的时间，体积也会逐渐变小，而它只有越变越光滑，体积却一点变化都没有。&lt;/p&gt;
-&lt;p&gt;现在是我短暂的休息时间，我用文字写一点断断续续的思考。我经历着漫长的苦刑，这不是考验，是希腊众神对我的惩罚。他们欺骗我，说只要我把石头推到山顶，我就可以从苦海中解脱。但他们又偷偷地给石头下了个诅咒，只要到山顶的前一刻，它就会自动地从我手中脱离，滚到山底，等着我再一次把它滚上来。&lt;/p&gt;
-&lt;p&gt;这座山是一座标准的丘陵，也不是非常的陡峭，坡度大概是 40° 左右，把石头从山脚推到山顶，大约是需要 4.5 小时左右，中间可以在山顶休息一小会，但不能太久，太久会有处罚的神雷从天而降，让我浑身疼痛，并且破除我身上「永不劳累」的祝福，好让我在下一次推石头上山时，感受到肉体痛苦的叹息。&lt;/p&gt;
-&lt;p&gt;山顶上，刻满我计算推石头次数的记号。每一次石头掉下山顶，我都在这里计算一次。不过，有一段时间，我内心麻木，只剩下推石头这个动作。我推啊推，不知日出日落，不知酷暑严寒，我听不到任何声音，甚至连想法都消失了。推石头上山，石头掉，下山，再推石头，石头再掉，下山，再推……&lt;/p&gt;
-&lt;p&gt;一直到，我觉得耳边传来一个愤怒的声音，不停地喊着，我要自杀！我要自杀！我要自杀！越来越响。这声音听着非常熟悉，我环顾四周，这里并没有别人。声音从何而来？我一边迷惑着，一边听着，一边推着。后来我甚至不顾神罚，停下推石头，山上下找这个声音的来源。我他妈的想让他闭嘴，不要干扰我推石头的工作。这是一个必须完成的工作。我找来找去，一无所获。神罚一次次降下，让我累得一动都不想动。结果这段日子里，我陷入了另外一个循环，推石头上山，找声音，神罚降下，累得不想动，神罚再降，起来推石头，累得不想动，神罚再三地降……&lt;/p&gt;
-&lt;p&gt;这是一个更痛苦的循环。我想自杀我想自杀我想自杀，这个声音又来了，而且更痛苦了……毕竟，是被电的时候，发出的声音。这时，我才发现，这声音根本就不是别人的，而是我嘴巴在不停的念念叨叨。真是吓了我一跳，明明好好推着石头，不必受累也不必痛苦，天很清地很明，我干嘛要自杀？！我到底，还是不是我了？看了看双手双脚，都在，掐一掐，会疼；只剩下嘴巴自己不停的动。我怀疑，不知哪一个看我不顺眼的神明乱下诅咒。&lt;/p&gt;
-&lt;p&gt;但我是谁，西西弗斯，一个把神都骗得团团转的人。我会枯燥无味的推石头游戏，而放弃吗？绝不。我得活得有滋有味，让着天和地，都见证我的快活。如果连小鸟都不能作陪，野花野草也渺无踪迹，甚至连天上的太阳都被薄雾遮去自己的样子，也不能妨碍我与我自己携手玩乐，只需要不把自己当成自己，甚至有时候当成另外一个人，自己和自己下棋，也是美事一桩，也足以琢磨出好玩的意思来。感谢曾经来访的阿拉伯人，他们为我带来了东方的「围棋」，还教会了我规则。我给自己定了一个自己对弈的棋局目标，那就是，下一盘永远都下不完的棋。为达到这个目标，我可是绞尽脑汁，无论是执黑子，还是执白子，拼尽老命让自己的棋多活一会儿。现在这一局棋，我已经下了一年了。&lt;/p&gt;
-&lt;p&gt;神可以命令我不得自由，可以命令我一辈子都做一个推石头的苦力，让我永远都达不到目标，尝尽内心苦楚，但祂影响不了我找自己的乐子。哈！&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;看着眼前的石头从我的手中滑走，不知几千几百次滚到山脚，等着我再一次把它推到山顶。但是，我，西西弗斯，距离山顶永远只差最后一步。&lt;/p&gt;&#xA;&lt;p&gt;石头，已经经历了不知多少次的滚动，从最初的棱棱角角，到现在几乎成为标准几何里的球体，由于每天都被我推着滚上山，石头表面已非常光滑，看不到所谓历史的痕迹，它就好像最初我见到的那样新鲜。没有青苔，没有疤痕，只是很奇怪，普通的石头即便在河流里，经过漫长的时间，体积也会逐渐变小，而它只有越变越光滑，体积却一点变化都没有。&lt;/p&gt;&#xA;&lt;p&gt;现在是我短暂的休息时间，我用文字写一点断断续续的思考。我经历着漫长的苦刑，这不是考验，是希腊众神对我的惩罚。他们欺骗我，说只要我把石头推到山顶，我就可以从苦海中解脱。但他们又偷偷地给石头下了个诅咒，只要到山顶的前一刻，它就会自动地从我手中脱离，滚到山底，等着我再一次把它滚上来。&lt;/p&gt;&#xA;&lt;p&gt;这座山是一座标准的丘陵，也不是非常的陡峭，坡度大概是 40° 左右，把石头从山脚推到山顶，大约是需要 4.5 小时左右，中间可以在山顶休息一小会，但不能太久，太久会有处罚的神雷从天而降，让我浑身疼痛，并且破除我身上「永不劳累」的祝福，好让我在下一次推石头上山时，感受到肉体痛苦的叹息。&lt;/p&gt;&#xA;&lt;p&gt;山顶上，刻满我计算推石头次数的记号。每一次石头掉下山顶，我都在这里计算一次。不过，有一段时间，我内心麻木，只剩下推石头这个动作。我推啊推，不知日出日落，不知酷暑严寒，我听不到任何声音，甚至连想法都消失了。推石头上山，石头掉，下山，再推石头，石头再掉，下山，再推……&lt;/p&gt;&#xA;&lt;p&gt;一直到，我觉得耳边传来一个愤怒的声音，不停地喊着，我要自杀！我要自杀！我要自杀！越来越响。这声音听着非常熟悉，我环顾四周，这里并没有别人。声音从何而来？我一边迷惑着，一边听着，一边推着。后来我甚至不顾神罚，停下推石头，山上下找这个声音的来源。我他妈的想让他闭嘴，不要干扰我推石头的工作。这是一个必须完成的工作。我找来找去，一无所获。神罚一次次降下，让我累得一动都不想动。结果这段日子里，我陷入了另外一个循环，推石头上山，找声音，神罚降下，累得不想动，神罚再降，起来推石头，累得不想动，神罚再三地降……&lt;/p&gt;&#xA;&lt;p&gt;这是一个更痛苦的循环。我想自杀我想自杀我想自杀，这个声音又来了，而且更痛苦了……毕竟，是被电的时候，发出的声音。这时，我才发现，这声音根本就不是别人的，而是我嘴巴在不停的念念叨叨。真是吓了我一跳，明明好好推着石头，不必受累也不必痛苦，天很清地很明，我干嘛要自杀？！我到底，还是不是我了？看了看双手双脚，都在，掐一掐，会疼；只剩下嘴巴自己不停的动。我怀疑，不知哪一个看我不顺眼的神明乱下诅咒。&lt;/p&gt;&#xA;&lt;p&gt;但我是谁，西西弗斯，一个把神都骗得团团转的人。我会枯燥无味的推石头游戏，而放弃吗？绝不。我得活得有滋有味，让着天和地，都见证我的快活。如果连小鸟都不能作陪，野花野草也渺无踪迹，甚至连天上的太阳都被薄雾遮去自己的样子，也不能妨碍我与我自己携手玩乐，只需要不把自己当成自己，甚至有时候当成另外一个人，自己和自己下棋，也是美事一桩，也足以琢磨出好玩的意思来。感谢曾经来访的阿拉伯人，他们为我带来了东方的「围棋」，还教会了我规则。我给自己定了一个自己对弈的棋局目标，那就是，下一盘永远都下不完的棋。为达到这个目标，我可是绞尽脑汁，无论是执黑子，还是执白子，拼尽老命让自己的棋多活一会儿。现在这一局棋，我已经下了一年了。&lt;/p&gt;&#xA;&lt;p&gt;神可以命令我不得自由，可以命令我一辈子都做一个推石头的苦力，让我永远都达不到目标，尝尽内心苦楚，但祂影响不了我找自己的乐子。哈！&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>沟通：论废话</title>
       <link>https://www.gtdstudy.com/posts/talks-about-nonsense/</link>
       <pubDate>Mon, 16 May 2022 13:33:53 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/talks-about-nonsense/</guid>
-      <description>&lt;p&gt;作者朱自清&lt;/p&gt;
-&lt;h2 id=&#34;无用即是废&#34;&gt;无用即是废&lt;/h2&gt;
-&lt;p&gt;“废话！”“别费话！”“少说费话！”都是些不客气的语句，用来批评或阻止别人的话的。这可以是严厉的申斥，可以只是亲密的玩笑，要看参加的人，说的话，和用这些语句的口气。“废”和“费”两个不同的字，一般好像表示同样的意思，其实有分别。 &lt;code&gt;旧小说里似乎多用“费话”，现代才多用“废话”。前者着重在啰唆，啰唆所以无用；后者着重在无用，无用就觉啰唆。&lt;/code&gt; 平常说“废物”，“废料”，都指斥无用，“废话”正是一类。“费”是“白费”，“浪费”，虽然指斥，还是就原说话人自己着想，好像还在给他打算似的。“废”却是听话的人直截指斥，不再拐那个弯儿，细味起来该是更不客气些。不过约定俗成，我们还是用“废”为正字。&lt;/p&gt;
-&lt;h2 id=&#34;无用而有用-废话实际沟通感情&#34;&gt;无用而有用，废话实际沟通感情&lt;/h2&gt;
-&lt;p&gt;道家教人“得意而忘言”，言既该忘，到头儿岂非废话？佛家告人真如“不可说”，禅宗更指出“开口便错”：所有言说，到头儿全是废话。他们说言不足以尽意，根本怀疑语言，所以有这种话。说这种话时虽然自己暂时超出人外言外，可是还得有这种话，还得用言来“忘言”，说那“不可说”的。这虽然可以不算矛盾，却是不可解的连环。所有的话到头来都是废话，可是人活着得说些废话，到头来废话还是不可废的。道学家教人少作诗文，说是“玩物丧志”，说是“害道”，那么诗文成了废话，这所谓诗文指表情的作品而言。但是诗文是否真是废话呢？&lt;/p&gt;
-&lt;p&gt;跟着道家佛家站在高一层看，道学家一切的话也都不免废话；让我们自己在人内言内看，诗文也并不真是废话。人有情有理，一般的看，理就在情中，所以俗话说“讲情理”。俗话也可以说“讲理”，“讲道理”，其实讲的还是“情理”；不然讲死理或死讲理怎么会叫做“不通人情”呢？道学家只看在理上，想要将情抹杀，诗文所以成了废话。但谁能无情？ &lt;code&gt;谁不活在情里？人一辈子多半在表情的活着；人一辈子好像总在说理，叙事，其实很少同时不在不知不觉中表情的。&lt;/code&gt; “天气好！”“吃饭了？”岂不都是废话？可是老在人嘴里说着。看个朋友商量事儿，有时得闲闲说来，言归正传，写信也常如此。外交辞令更是不着边际的多。——战国时触詟说赵太后，也正仗着那一番废话。再说人生是个动，行是动，言也是动；人一辈子一半是行，一半是言。一辈子说话作文，若是都说道理，那有这么多道理？况且谁能老是那么矜持着？ &lt;code&gt;人生其实多一半在说废话。诗文就是这种废话。&lt;/code&gt; &lt;code&gt;得有点废话，我们才活得有意思。&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;废话让人放下-休息&#34;&gt;废话让人放下、休息&lt;/h2&gt;
-&lt;p&gt;有但诗文，就是儿歌，民谣，故事，笑话，甚至无意义的接字歌，绕口令等等，也都给人安慰，让人活得有意思。所以儿童和民众爱这些废话，不但儿童和民众，文人，读书人也渐渐爱上了这些。英国吉士特顿曾经提倡“无意义的话”，并曾推荐那本《无意义的书》，正是儿歌等等的选本。这些其实就可以译为“废话”和“废话书”，不过这些废话是无意义的。吉士特顿大概觉得那些有意义的废话还不够“废”的，所以百尺竿头更进一步。在繁剧的现代生活里，这种无意义的废话倒是可以慰情，可以给我们休息，让我们暂时忘记一切。这是受用，也就是让我们活得有意思。——就是说理，有时也用得着废话，如逻辑家无意义的例句“张三是大于”，“人类是黑的”等。 &lt;code&gt;这些废话最见出所谓无用之用；那些有意义的，其实也都以无用为用。&lt;/code&gt; 有人曾称一些学者为“有用的废物”，我们也不妨如法炮制，称这些有意义的和无意义的废话为“有用的废话”。废是无用，到头来不可废，就又是有用了。&lt;/p&gt;
-&lt;h2 id=&#34;废话不废-空话真空-少说空话&#34;&gt;废话不废，空话真空，少说空话&lt;/h2&gt;
-&lt;p&gt;话说回来，废话都有用么？也不然。汉代申公说，“为政不在多言，顾力行何如耳。”“多言”就是废话。为政该表现于行事，空言不能起信；无论怎么好听，怎么有道理，不能兑现的支票总是废物，不能实践的空言总是废话。这种巧语花言到头来只教人感到欺骗，生出怨望，我们无须“多言”，大家都明白这种废话真是废话。有些人说话爱跑野马，闹得“游骑无归”。有些人作文“下笔千言，离题万里”。但是离题万里跑野马，若能别开生面，倒也很有意思。只怕老在圈儿外兜圈子，兜来兜去老在圈儿外，那就千言万语也是白饶，只教人又腻味又着急。这种才是“知难”；正为不知，所以总说不到紧要去处。这种也真是废话。还有人爱重复别人的话。别人演说，他给提纲挈领；别人谈话，他也给提纲挈领。若是那演说谈话够复杂的或者够杂乱的，我们倒也乐意有人这么来一下。可是别人说得清清楚楚的，他还要来一下，甚至你自己和他谈话，他也要对你来一下——妙在丝毫不觉，老那么津津有味的，真教人啼笑皆非。其实谁能不重复别人的话，古人的，今人的？但是得变化，加上时代的色彩，境地的色彩，或者自我的色彩，总让人觉着有点儿新鲜玩意儿才成。不然真是废话，无用的废话！&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;作者朱自清&lt;/p&gt;&#xA;&lt;h2 id=&#34;无用即是废&#34;&gt;无用即是废&lt;/h2&gt;&#xA;&lt;p&gt;“废话！”“别费话！”“少说费话！”都是些不客气的语句，用来批评或阻止别人的话的。这可以是严厉的申斥，可以只是亲密的玩笑，要看参加的人，说的话，和用这些语句的口气。“废”和“费”两个不同的字，一般好像表示同样的意思，其实有分别。 &lt;code&gt;旧小说里似乎多用“费话”，现代才多用“废话”。前者着重在啰唆，啰唆所以无用；后者着重在无用，无用就觉啰唆。&lt;/code&gt; 平常说“废物”，“废料”，都指斥无用，“废话”正是一类。“费”是“白费”，“浪费”，虽然指斥，还是就原说话人自己着想，好像还在给他打算似的。“废”却是听话的人直截指斥，不再拐那个弯儿，细味起来该是更不客气些。不过约定俗成，我们还是用“废”为正字。&lt;/p&gt;&#xA;&lt;h2 id=&#34;无用而有用-废话实际沟通感情&#34;&gt;无用而有用，废话实际沟通感情&lt;/h2&gt;&#xA;&lt;p&gt;道家教人“得意而忘言”，言既该忘，到头儿岂非废话？佛家告人真如“不可说”，禅宗更指出“开口便错”：所有言说，到头儿全是废话。他们说言不足以尽意，根本怀疑语言，所以有这种话。说这种话时虽然自己暂时超出人外言外，可是还得有这种话，还得用言来“忘言”，说那“不可说”的。这虽然可以不算矛盾，却是不可解的连环。所有的话到头来都是废话，可是人活着得说些废话，到头来废话还是不可废的。道学家教人少作诗文，说是“玩物丧志”，说是“害道”，那么诗文成了废话，这所谓诗文指表情的作品而言。但是诗文是否真是废话呢？&lt;/p&gt;&#xA;&lt;p&gt;跟着道家佛家站在高一层看，道学家一切的话也都不免废话；让我们自己在人内言内看，诗文也并不真是废话。人有情有理，一般的看，理就在情中，所以俗话说“讲情理”。俗话也可以说“讲理”，“讲道理”，其实讲的还是“情理”；不然讲死理或死讲理怎么会叫做“不通人情”呢？道学家只看在理上，想要将情抹杀，诗文所以成了废话。但谁能无情？ &lt;code&gt;谁不活在情里？人一辈子多半在表情的活着；人一辈子好像总在说理，叙事，其实很少同时不在不知不觉中表情的。&lt;/code&gt; “天气好！”“吃饭了？”岂不都是废话？可是老在人嘴里说着。看个朋友商量事儿，有时得闲闲说来，言归正传，写信也常如此。外交辞令更是不着边际的多。——战国时触詟说赵太后，也正仗着那一番废话。再说人生是个动，行是动，言也是动；人一辈子一半是行，一半是言。一辈子说话作文，若是都说道理，那有这么多道理？况且谁能老是那么矜持着？ &lt;code&gt;人生其实多一半在说废话。诗文就是这种废话。&lt;/code&gt; &lt;code&gt;得有点废话，我们才活得有意思。&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;废话让人放下-休息&#34;&gt;废话让人放下、休息&lt;/h2&gt;&#xA;&lt;p&gt;有但诗文，就是儿歌，民谣，故事，笑话，甚至无意义的接字歌，绕口令等等，也都给人安慰，让人活得有意思。所以儿童和民众爱这些废话，不但儿童和民众，文人，读书人也渐渐爱上了这些。英国吉士特顿曾经提倡“无意义的话”，并曾推荐那本《无意义的书》，正是儿歌等等的选本。这些其实就可以译为“废话”和“废话书”，不过这些废话是无意义的。吉士特顿大概觉得那些有意义的废话还不够“废”的，所以百尺竿头更进一步。在繁剧的现代生活里，这种无意义的废话倒是可以慰情，可以给我们休息，让我们暂时忘记一切。这是受用，也就是让我们活得有意思。——就是说理，有时也用得着废话，如逻辑家无意义的例句“张三是大于”，“人类是黑的”等。 &lt;code&gt;这些废话最见出所谓无用之用；那些有意义的，其实也都以无用为用。&lt;/code&gt; 有人曾称一些学者为“有用的废物”，我们也不妨如法炮制，称这些有意义的和无意义的废话为“有用的废话”。废是无用，到头来不可废，就又是有用了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;废话不废-空话真空-少说空话&#34;&gt;废话不废，空话真空，少说空话&lt;/h2&gt;&#xA;&lt;p&gt;话说回来，废话都有用么？也不然。汉代申公说，“为政不在多言，顾力行何如耳。”“多言”就是废话。为政该表现于行事，空言不能起信；无论怎么好听，怎么有道理，不能兑现的支票总是废物，不能实践的空言总是废话。这种巧语花言到头来只教人感到欺骗，生出怨望，我们无须“多言”，大家都明白这种废话真是废话。有些人说话爱跑野马，闹得“游骑无归”。有些人作文“下笔千言，离题万里”。但是离题万里跑野马，若能别开生面，倒也很有意思。只怕老在圈儿外兜圈子，兜来兜去老在圈儿外，那就千言万语也是白饶，只教人又腻味又着急。这种才是“知难”；正为不知，所以总说不到紧要去处。这种也真是废话。还有人爱重复别人的话。别人演说，他给提纲挈领；别人谈话，他也给提纲挈领。若是那演说谈话够复杂的或者够杂乱的，我们倒也乐意有人这么来一下。可是别人说得清清楚楚的，他还要来一下，甚至你自己和他谈话，他也要对你来一下——妙在丝毫不觉，老那么津津有味的，真教人啼笑皆非。其实谁能不重复别人的话，古人的，今人的？但是得变化，加上时代的色彩，境地的色彩，或者自我的色彩，总让人觉着有点儿新鲜玩意儿才成。不然真是废话，无用的废话！&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>你做过不在乎结果的项目吗？</title>
       <link>https://www.gtdstudy.com/posts/do-you-runed-some-project-that-you-dont-care-result/</link>
       <pubDate>Sat, 14 May 2022 14:25:24 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/do-you-runed-some-project-that-you-dont-care-result/</guid>
-      <description>&lt;p&gt;这个问题来自阮一峰所写的《科技爱好者周刊（第 195 期）》。他逛 Hacker News 这一社区时，看到有人提问，「你做过不在乎结果的项目吗？」，引起了大量的回帖。&lt;/p&gt;
-&lt;p&gt;阮一峰说，中国的职业程序员极少会处于纯粹个出于兴趣去做无所谓结果的个人项目，原因是 996 式工作，压力很大，大家变得实际，每个项目追求明确的结果，“要么为了考核、绩效和晋升，要么为了赚钱。”&lt;/p&gt;
-&lt;p&gt;阮一峰认为，不管多忙也应该留点时间放在自己的兴趣项目上，哪怕得不到任何结果。他列举了 2 点原因，而我对第二点原因深表赞同：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;很多人没有意识到这一点，一般都是作者塑造作品，但是有些作品可以塑造作者。 你做着做着，变成了跟原来不一样的人。&lt;/p&gt;
-&lt;p&gt;许多知名程序员，刚入行时其实都很普通，看不出特别之处，但是他在追求自己兴趣的过程中，逐渐意识到了，自己是什么样的人，想要完成什么，从此找到了自我，全身心投入，成就了一番事业。&lt;/p&gt;
-&lt;p&gt;有一句话说，&amp;ldquo;你可以活成自己想要的样子&amp;rdquo;。这句话的前提是，你得知道那是什么样子。兴趣项目就有这个作用，让你认识自己、塑造自己，壮大追求梦想的决心。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果你问我有没有做过不在乎结果的项目？我会回答你，我做过不在乎结果的项目。&lt;/p&gt;
-&lt;p&gt;我的第一个不在乎结果的项目，就是这全名为「学无止境@一点一滴」的个人博客。从 2008 年发表第一篇开始，2009 年开始以每周更新一到两篇。这个博客后来 RSS 订阅量达到了 15 万。要知道，这个博客图片都无，纯文字内容，可说是将性冷淡贯彻到底，不说十多万订阅量，即便只有几百个，都令我十分意外。&lt;/p&gt;
-&lt;p&gt;当时，我设立「学无止境」，是因为遇到挫折，我不知道自己能成什么样子，也是从那时起，失眠常常在夜晚陪伴我，直到最近这两年它才放心离开。我不因目的而设立个人博客，然而，我因个人博客收获良多。仔细回忆一下，我有很多个小梦想，很早就实现了，归根结底，得感谢「学无止境」。&lt;/p&gt;
-&lt;p&gt;在刚毕业的时候，我的一个小梦想是成为一名记者。在老家的三线城市，我舅舅把我带到当地报业集团的老总面前，我内心紧张慌乱，老总让我倒杯茶，拿着茶杯时手抖不已，结果那自然是不了了之。然后，经过朋友介绍，跑去了背景去豆瓣应聘，应聘前吸取了教训，制作了一份 PPT，受到 HR 的广泛好评。但我最终没有去成豆瓣。&lt;/p&gt;
-&lt;p&gt;毕业后待业在家期间，我也有一直在更新自己的博客，某一天夜里，QQ 上提示有新加好友，我通过了之后，对方很热情地向我介绍，他正在做一个科技博客，叫小众拇指设备，后来这一博客后来更名为「爱范儿」。无论是在老家，还是在北京求职，我都有为爱范儿免费写稿，当时是出于兴趣，没有想过获得明确的结果或回报。可以说，爱范儿是我做的第二个不在乎结果的项目。&lt;/p&gt;
-&lt;p&gt;后来，随着爱范儿的流量逐步增加，影响力越来越大，获得了投资，逐步转向公司化运营。然后，我从北京回到广州，正式成为爱范儿的职员，后来我负责 iSeed 报道栏目，采访了不少国内的创业者和项目。我得偿所愿了，成为一名记者。&lt;/p&gt;
-&lt;p&gt;在广州，我还完成了好几个小梦想：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;认识了《梦断代码》的作者韩磊。因为这本书，我之前在「学无止境」上发起了 Chandler 中文化项目，好几个认识和不认识的报名，最终我通过这件事验证了自己即便英文不行，也可以搞定英文项目，树立了信心。第一次见韩磊那天，他正把自己代理的金枪鱼鱼腹分享给我；&lt;/li&gt;
-&lt;li&gt;做了一个社区产品。也不知道有没有人记得 MindStore 这个名字，它的日 PV 在 15000 左右，每天产品提交量平均每天 15-30 不等， 可以说是在国内排名第二的类 ProductHunt 社区。&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;这个问题来自阮一峰所写的《科技爱好者周刊（第 195 期）》。他逛 Hacker News 这一社区时，看到有人提问，「你做过不在乎结果的项目吗？」，引起了大量的回帖。&lt;/p&gt;&#xA;&lt;p&gt;阮一峰说，中国的职业程序员极少会处于纯粹个出于兴趣去做无所谓结果的个人项目，原因是 996 式工作，压力很大，大家变得实际，每个项目追求明确的结果，“要么为了考核、绩效和晋升，要么为了赚钱。”&lt;/p&gt;&#xA;&lt;p&gt;阮一峰认为，不管多忙也应该留点时间放在自己的兴趣项目上，哪怕得不到任何结果。他列举了 2 点原因，而我对第二点原因深表赞同：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;很多人没有意识到这一点，一般都是作者塑造作品，但是有些作品可以塑造作者。 你做着做着，变成了跟原来不一样的人。&lt;/p&gt;&#xA;&lt;p&gt;许多知名程序员，刚入行时其实都很普通，看不出特别之处，但是他在追求自己兴趣的过程中，逐渐意识到了，自己是什么样的人，想要完成什么，从此找到了自我，全身心投入，成就了一番事业。&lt;/p&gt;&#xA;&lt;p&gt;有一句话说，&amp;ldquo;你可以活成自己想要的样子&amp;rdquo;。这句话的前提是，你得知道那是什么样子。兴趣项目就有这个作用，让你认识自己、塑造自己，壮大追求梦想的决心。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;如果你问我有没有做过不在乎结果的项目？我会回答你，我做过不在乎结果的项目。&lt;/p&gt;&#xA;&lt;p&gt;我的第一个不在乎结果的项目，就是这全名为「学无止境@一点一滴」的个人博客。从 2008 年发表第一篇开始，2009 年开始以每周更新一到两篇。这个博客后来 RSS 订阅量达到了 15 万。要知道，这个博客图片都无，纯文字内容，可说是将性冷淡贯彻到底，不说十多万订阅量，即便只有几百个，都令我十分意外。&lt;/p&gt;&#xA;&lt;p&gt;当时，我设立「学无止境」，是因为遇到挫折，我不知道自己能成什么样子，也是从那时起，失眠常常在夜晚陪伴我，直到最近这两年它才放心离开。我不因目的而设立个人博客，然而，我因个人博客收获良多。仔细回忆一下，我有很多个小梦想，很早就实现了，归根结底，得感谢「学无止境」。&lt;/p&gt;&#xA;&lt;p&gt;在刚毕业的时候，我的一个小梦想是成为一名记者。在老家的三线城市，我舅舅把我带到当地报业集团的老总面前，我内心紧张慌乱，老总让我倒杯茶，拿着茶杯时手抖不已，结果那自然是不了了之。然后，经过朋友介绍，跑去了背景去豆瓣应聘，应聘前吸取了教训，制作了一份 PPT，受到 HR 的广泛好评。但我最终没有去成豆瓣。&lt;/p&gt;&#xA;&lt;p&gt;毕业后待业在家期间，我也有一直在更新自己的博客，某一天夜里，QQ 上提示有新加好友，我通过了之后，对方很热情地向我介绍，他正在做一个科技博客，叫小众拇指设备，后来这一博客后来更名为「爱范儿」。无论是在老家，还是在北京求职，我都有为爱范儿免费写稿，当时是出于兴趣，没有想过获得明确的结果或回报。可以说，爱范儿是我做的第二个不在乎结果的项目。&lt;/p&gt;&#xA;&lt;p&gt;后来，随着爱范儿的流量逐步增加，影响力越来越大，获得了投资，逐步转向公司化运营。然后，我从北京回到广州，正式成为爱范儿的职员，后来我负责 iSeed 报道栏目，采访了不少国内的创业者和项目。我得偿所愿了，成为一名记者。&lt;/p&gt;&#xA;&lt;p&gt;在广州，我还完成了好几个小梦想：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;认识了《梦断代码》的作者韩磊。因为这本书，我之前在「学无止境」上发起了 Chandler 中文化项目，好几个认识和不认识的报名，最终我通过这件事验证了自己即便英文不行，也可以搞定英文项目，树立了信心。第一次见韩磊那天，他正把自己代理的金枪鱼鱼腹分享给我；&lt;/li&gt;&#xA;&lt;li&gt;做了一个社区产品。也不知道有没有人记得 MindStore 这个名字，它的日 PV 在 15000 左右，每天产品提交量平均每天 15-30 不等， 可以说是在国内排名第二的类 ProductHunt 社区。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>知识：隐性知识更值得记录</title>
       <link>https://www.gtdstudy.com/posts/about-which-knowledge-shuld-be-write-down/</link>
       <pubDate>Sat, 07 May 2022 09:19:38 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/about-which-knowledge-shuld-be-write-down/</guid>
-      <description>&lt;p&gt;在即刻上，我表达了「隐性知识更值得记录」的观点——&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;明面可总结为结构性知识的，不需太重点的记录，就好像工具书，有一个梗概索引，方便自己忘了之后回忆查找就行。非常值得重点记录的，是隐性的知识，尤其是那行关系重大的，这类知识不易获得，同时对框架有重要影响，随时可以因为这类知识而重塑整个架构。&lt;/p&gt;
-&lt;p&gt;隐性的知识往往需要反复实践，测试，才能明确的结果，获取成本高，但有价值。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;后来得到了即友佛系也能赢的转发和认同——&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;就像我学的工商管理专业，学科知识真是太杂了，政治、经济、财务、金融、人力资源、计算机都有涉及。
-毕业后找工作一脸懵，几乎没有一个可以对口的工作，直呼上当呀。
-没想到自己创业后却大有用场，因为脑子里有印象，用到时几乎就是查字典。可以直接找到自己需要的知识，无论是工商注册、商标注册、人员招聘、市场营销、财务成本管理都能拿来复习一遍就用。
-真是帮了大忙了，这个专业倒有点为创业而生的感觉。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;趁着话题余兴，他把自己创业中的感悟分享了出来——&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;有这些知识加持，我的创业之路规避了不少坑。也有幸得以存活下来，虽然前后只花了几十万，却也成功运营了自己的 SaaS 品牌，而竞品却动辄需要几千万、上亿的融资。
-现在复盘下来，有几个点做得还是挺独特的：&lt;/p&gt;
-&lt;p&gt;1.有品牌意识。品牌名与公司名同岁，三个字的品牌名牢牢锁定了我这八年的业务。极大缩小了前期试错的范围，赢得了宝贵的时间，减少了资金的消耗。&lt;/p&gt;
-&lt;p&gt;2.有战略意识。知道竞品太强大后，本能地用了战略分析的方法，得出了要想存活必须走差异化战略。而做差异化加上得到里常听到的“产品经理”这个词，就意识到必须要学做产品的技能。就走上了自学产品经理之路，懂套路后效果非常明显。&lt;/p&gt;
-&lt;p&gt;3.有成本意识。因为略懂财务，又熟读《大败局》，知道现金流是企业生存命脉。而互联网公司最大的成本是人力成本。&lt;/p&gt;
-&lt;p&gt;第一年自己一个人，第二年招了一个技术做全栈。第四年业务上来后才招了视觉设计师、前端设计师。至此形成了最小化的产品团队，扩大规模主要靠向服务器要效率。&lt;/p&gt;
-&lt;p&gt;4.重构企业架构。为了责任明确，去管理化，设计了一个部门一个人的组织架构。如此就从机制上实现了，公司管理产品化。只需要各司其职，产品好了，公司自然就好了。因为不需要管理，现在才有了大把的追剧时间。&lt;/p&gt;
-&lt;p&gt;5.客户意识。只通过产品订阅收费盈利，将公司盈利与客户价值绑定，从根本上保证以客户为本。&lt;/p&gt;
-&lt;p&gt;6.股权意识。一开始就是为活不为大，弱水三千只取一瓢。知道自己的性格不适合跟人合伙，自始至终都是 100%控股。&lt;/p&gt;
-&lt;p&gt;在不确定的路上，自己坚持下来的可能性远大于多人共同坚持。也坚决不听那些投资人的忽悠，什么大公司的 1%远比小公司 100%股权更重要的鬼话。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;在即刻上，我表达了「隐性知识更值得记录」的观点——&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;明面可总结为结构性知识的，不需太重点的记录，就好像工具书，有一个梗概索引，方便自己忘了之后回忆查找就行。非常值得重点记录的，是隐性的知识，尤其是那行关系重大的，这类知识不易获得，同时对框架有重要影响，随时可以因为这类知识而重塑整个架构。&lt;/p&gt;&#xA;&lt;p&gt;隐性的知识往往需要反复实践，测试，才能明确的结果，获取成本高，但有价值。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;后来得到了即友佛系也能赢的转发和认同——&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;就像我学的工商管理专业，学科知识真是太杂了，政治、经济、财务、金融、人力资源、计算机都有涉及。&#xA;毕业后找工作一脸懵，几乎没有一个可以对口的工作，直呼上当呀。&#xA;没想到自己创业后却大有用场，因为脑子里有印象，用到时几乎就是查字典。可以直接找到自己需要的知识，无论是工商注册、商标注册、人员招聘、市场营销、财务成本管理都能拿来复习一遍就用。&#xA;真是帮了大忙了，这个专业倒有点为创业而生的感觉。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;趁着话题余兴，他把自己创业中的感悟分享了出来——&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;有这些知识加持，我的创业之路规避了不少坑。也有幸得以存活下来，虽然前后只花了几十万，却也成功运营了自己的 SaaS 品牌，而竞品却动辄需要几千万、上亿的融资。&#xA;现在复盘下来，有几个点做得还是挺独特的：&lt;/p&gt;&#xA;&lt;p&gt;1.有品牌意识。品牌名与公司名同岁，三个字的品牌名牢牢锁定了我这八年的业务。极大缩小了前期试错的范围，赢得了宝贵的时间，减少了资金的消耗。&lt;/p&gt;&#xA;&lt;p&gt;2.有战略意识。知道竞品太强大后，本能地用了战略分析的方法，得出了要想存活必须走差异化战略。而做差异化加上得到里常听到的“产品经理”这个词，就意识到必须要学做产品的技能。就走上了自学产品经理之路，懂套路后效果非常明显。&lt;/p&gt;&#xA;&lt;p&gt;3.有成本意识。因为略懂财务，又熟读《大败局》，知道现金流是企业生存命脉。而互联网公司最大的成本是人力成本。&lt;/p&gt;&#xA;&lt;p&gt;第一年自己一个人，第二年招了一个技术做全栈。第四年业务上来后才招了视觉设计师、前端设计师。至此形成了最小化的产品团队，扩大规模主要靠向服务器要效率。&lt;/p&gt;&#xA;&lt;p&gt;4.重构企业架构。为了责任明确，去管理化，设计了一个部门一个人的组织架构。如此就从机制上实现了，公司管理产品化。只需要各司其职，产品好了，公司自然就好了。因为不需要管理，现在才有了大把的追剧时间。&lt;/p&gt;&#xA;&lt;p&gt;5.客户意识。只通过产品订阅收费盈利，将公司盈利与客户价值绑定，从根本上保证以客户为本。&lt;/p&gt;&#xA;&lt;p&gt;6.股权意识。一开始就是为活不为大，弱水三千只取一瓢。知道自己的性格不适合跟人合伙，自始至终都是 100%控股。&lt;/p&gt;&#xA;&lt;p&gt;在不确定的路上，自己坚持下来的可能性远大于多人共同坚持。也坚决不听那些投资人的忽悠，什么大公司的 1%远比小公司 100%股权更重要的鬼话。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>企业家：日本当代的企业家——小林一三</title>
       <link>https://www.gtdstudy.com/posts/japanese-entrepreneur-kobayashi-ichizo/</link>
       <pubDate>Wed, 13 Apr 2022 20:49:21 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/japanese-entrepreneur-kobayashi-ichizo/</guid>
-      <description>&lt;p&gt;如果说松下是开创了日本电器这一行业，那么小林一三富于大胆创新精神，则引领了日本的娱乐业、铁道事业、百货业、房地产行业，而且，每一行他都以耳目一新的打法开创一片新天地：&lt;/p&gt;
-&lt;p&gt;1、将铁道事业和房地产结合在一起，在铁道沿线购置地皮，建设房屋，吸引消费者购买房产，确保了铁道有足够的人流，同时铁道作为人员的流通也令沿线的房产有了升值的保障；&lt;/p&gt;
-&lt;p&gt;2、与铁道事业结合的娱乐业，向日本国内引进、推广了西方歌剧文化，为此特地成立音乐学校和至今演出百年的宝冢歌剧团，深刻地影响日本国民的审美情趣；并最终成立了对日本娱乐业影响至深的「东宝」；&lt;/p&gt;
-&lt;p&gt;3、成立了阪急百货，以「物廉价美」而著称，并成为了铁道业，和百货业的运营典范。&lt;/p&gt;
-&lt;p&gt;小林一三一生富于「大众精神」，无论是设立运营铁道，娱乐业，还是百货，皆是着眼于大众，一生致力于向大众提供更加便利、实惠的服务。如果说松下创始人松下幸之助是日本电器行业的「运营之神」，那么小林一三就是日本铁道业、娱乐业、百货业的「运营之神」。他将跨业运营发挥到极致，世界著名经济学家科斯曾经总结出「企业的存在是降低交易成本」这一定律，小林一三出生于科斯之前，但他一生所开创的事业，完全是科斯定律的体现。&lt;/p&gt;
-&lt;p&gt;小林一三一生的转折点发生在他成立证券公司失败之后，当时，待他如师如父的岩下青周，把他带进铁道行业。后来，岩下青被污蔑贪污，而收到岩下关照的人却摆出一副毫不知情的嘴脸，小林一三极为愤怒，由此感慨：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;北浜银行在 1914 年（大正三年）发生了挤兑事件，并于该年 8 月宣布破产，岩下也被告发有渎职、伪造文书等不法行为，这就是世人所讲的“北浜银行重大贪污事件”。不过，岩下的罪状几乎都是不实之罪。而那些在过去深受岩下关照的实业家们，如今都装出一副毫不知情的嘴脸。小林对此感到非常愤怒，坦率地讲道：&lt;/p&gt;
-&lt;p&gt;大正 3 年间，发生了北浜银行事件，也发生了关于岩下清周本人的重大贪污案事件。当时，那些深受岩下先生关照的人，对于这件事的内容，都抱着“岩下会怎样都无所谓，只要自己好就行”的想法来行事，完全忘了曾经从岩下先生那里受到的恩惠。&lt;/p&gt;
-&lt;p&gt;因此，我也彻底认识到了人类这种生物。在你遇到紧急的时刻，都是不能依靠的，实在是过于薄情。在当今世道，我要做一个仰不愧于天，俯不愧于人，无论到哪也不会麻烦别人的人。只有靠自己才能堂堂正正地做自己想做的事情，除此之外，别无他法。自此之后，我也完全改变了对待人生的态度。我相信，我和我的事业至少是以此为契机才发生改变的。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;如果说松下是开创了日本电器这一行业，那么小林一三富于大胆创新精神，则引领了日本的娱乐业、铁道事业、百货业、房地产行业，而且，每一行他都以耳目一新的打法开创一片新天地：&lt;/p&gt;&#xA;&lt;p&gt;1、将铁道事业和房地产结合在一起，在铁道沿线购置地皮，建设房屋，吸引消费者购买房产，确保了铁道有足够的人流，同时铁道作为人员的流通也令沿线的房产有了升值的保障；&lt;/p&gt;&#xA;&lt;p&gt;2、与铁道事业结合的娱乐业，向日本国内引进、推广了西方歌剧文化，为此特地成立音乐学校和至今演出百年的宝冢歌剧团，深刻地影响日本国民的审美情趣；并最终成立了对日本娱乐业影响至深的「东宝」；&lt;/p&gt;&#xA;&lt;p&gt;3、成立了阪急百货，以「物廉价美」而著称，并成为了铁道业，和百货业的运营典范。&lt;/p&gt;&#xA;&lt;p&gt;小林一三一生富于「大众精神」，无论是设立运营铁道，娱乐业，还是百货，皆是着眼于大众，一生致力于向大众提供更加便利、实惠的服务。如果说松下创始人松下幸之助是日本电器行业的「运营之神」，那么小林一三就是日本铁道业、娱乐业、百货业的「运营之神」。他将跨业运营发挥到极致，世界著名经济学家科斯曾经总结出「企业的存在是降低交易成本」这一定律，小林一三出生于科斯之前，但他一生所开创的事业，完全是科斯定律的体现。&lt;/p&gt;&#xA;&lt;p&gt;小林一三一生的转折点发生在他成立证券公司失败之后，当时，待他如师如父的岩下青周，把他带进铁道行业。后来，岩下青被污蔑贪污，而收到岩下关照的人却摆出一副毫不知情的嘴脸，小林一三极为愤怒，由此感慨：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;北浜银行在 1914 年（大正三年）发生了挤兑事件，并于该年 8 月宣布破产，岩下也被告发有渎职、伪造文书等不法行为，这就是世人所讲的“北浜银行重大贪污事件”。不过，岩下的罪状几乎都是不实之罪。而那些在过去深受岩下关照的实业家们，如今都装出一副毫不知情的嘴脸。小林对此感到非常愤怒，坦率地讲道：&lt;/p&gt;&#xA;&lt;p&gt;大正 3 年间，发生了北浜银行事件，也发生了关于岩下清周本人的重大贪污案事件。当时，那些深受岩下先生关照的人，对于这件事的内容，都抱着“岩下会怎样都无所谓，只要自己好就行”的想法来行事，完全忘了曾经从岩下先生那里受到的恩惠。&lt;/p&gt;&#xA;&lt;p&gt;因此，我也彻底认识到了人类这种生物。在你遇到紧急的时刻，都是不能依靠的，实在是过于薄情。在当今世道，我要做一个仰不愧于天，俯不愧于人，无论到哪也不会麻烦别人的人。只有靠自己才能堂堂正正地做自己想做的事情，除此之外，别无他法。自此之后，我也完全改变了对待人生的态度。我相信，我和我的事业至少是以此为契机才发生改变的。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>AR：超过 2 亿人在 Snapchat 上体验 AR</title>
       <link>https://www.gtdstudy.com/posts/snapchat-ar-business/</link>
       <pubDate>Sat, 12 Mar 2022 18:47:10 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/snapchat-ar-business/</guid>
-      <description>&lt;p&gt;原文来自&lt;a href=&#34;https://36kr.com/p/1646086572794497&#34;&gt;36kr&lt;/a&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;当前-snapchat-是美国-z-世代最常用的社交平台&#34;&gt;当前 Snapchat 是美国 Z 世代最常用的社交平台&lt;/h2&gt;
-&lt;p&gt;eMarketer 发布的《美国 Z 世代用户科技与媒体使用情况报告》显示，Z世代用户每月最常使用的社交平台榜首位是【Snapchat(4200 万)】，接下来社交媒体的排名依次是 TikTok(3730 万)和 Instagram(3330 万)，根据预测，排名前三的平台未来还将会以不同的速度持续呈现增长，而目前的这个排名分布将会持续至 2025 年。Snapchat 表示，去年第三季度用户同比增长了 23%，这表明它目前处于持续高增长态势。&lt;/p&gt;
-&lt;h2 id=&#34;在-snapchat-上使用-ar-相关功能的人已经超过-2-亿&#34;&gt;在 Snapchat 上使用 AR 相关功能的人已经超过 2 亿&lt;/h2&gt;
-&lt;p&gt;在 Snapchat 上使用 AR 相关功能的用户已经超过【2 亿人】，他们平均每天使用 AR 功能的次数超过了【60 亿次】。&lt;/p&gt;
-&lt;p&gt;年轻用户，即在此前发布的《Snap 消费者 AR 报告》中被称作的“Snapchat 一代”，他们通过图像进行交流的可能性要比文字高出 150%。&lt;/p&gt;
-&lt;h2 id=&#34;snapchat-成为-ar-内容-plus-购物平台&#34;&gt;Snapchat 成为 AR 内容+购物平台&lt;/h2&gt;
-&lt;p&gt;在《Snap 消费者 AR 报告》中预测，到 2025 年，全球将有 75%的人成为常规 AR 内容的用户，该规模预计可达 43 亿人，其中年轻一代将占据大多数。他们既是 AR 内容的主力用户群、主要消费群体，也是 AR 产品创作的主要生产力。&lt;/p&gt;
-&lt;p&gt;《Snap 消费者 AR 报告》显示，Snapchat 上的游戏玩家超过 2 亿，其中 82%的人是受到周围人尤其是社交平台上好友的影响而开始体验的，近 70%的 Snapchatter 表示他们喜欢与朋友家人一起互动，在故事体验中，寻求与自我表达一致的群体和对象。&lt;/p&gt;
-&lt;p&gt;Snapchat 上的用户现在可以通过 AR 镜头直接从品牌下单购买产品，这是该应用最受欢迎的功能之一。&lt;/p&gt;
-&lt;p&gt;根据报告显示，用户与具有 AR 功能的产品进行交互可将产品的转化率提高 94％，如果提供 3D/AR，Z 世代们会对网上购物更感兴趣，对购买更有信心，还有 2/3 的消费者表示，在与品牌进行 AR 互动后他们愿意火速下单。&lt;/p&gt;
-&lt;p&gt;Ulta Beauty 和化妆品牌 MAC 就在 Snapchat 平台上测试了一种新的目录驱动型购物镜头，在功能上线两周的时间里，Ulta 创造了 600 万美元的销售额和超过 3000 万次产品试戴记录，而 MAC 的购物镜头被试戴了 130 万次。Snapchat 在 Marketing Dive 分享中说道，女性用户的购买量增加了 17 倍，购买意向增加了 9 倍，品牌知名度增加了 2.4 倍。&lt;/p&gt;
-&lt;h2 id=&#34;snapchat-的-ar-生意&#34;&gt;Snapchat 的 AR 生意&lt;/h2&gt;
-&lt;p&gt;Snapchat 逐渐形成了一套 AR 技术开发、AR 分发、内容创作以及商业化的链路。&lt;/p&gt;
-&lt;p&gt;Lens Studio 和 Lens Web Builder 等工具降低了开发者制作 AR 的技术门槛，使得开发者的 AR 创意想法不再受技术限制。&lt;/p&gt;
-&lt;p&gt;在分发上，Snapchat 平台、Spectacles 眼镜、Snap 相机等软硬件形成了多路分发路径，让 AR 创作者们的创意作品被看见、被传播；&lt;/p&gt;
-&lt;p&gt;内容生产上，Creator Marketplace 已成为了 AR 作品的交易市场，形成了一个由创作者和品牌共创的平台，在这个平台上，创作者们不仅可以发布作品，还能寻求品牌主的合作，让创意内容变现；&lt;/p&gt;
-&lt;p&gt;与此同时，AR 滤镜广告也为品牌提供了互动性更强的营销方式，通过沉浸式的体验提高品牌知名度，促进转化，成为社交平台的营销工具。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;原文来自&lt;a href=&#34;https://36kr.com/p/1646086572794497&#34;&gt;36kr&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;h2 id=&#34;当前-snapchat-是美国-z-世代最常用的社交平台&#34;&gt;当前 Snapchat 是美国 Z 世代最常用的社交平台&lt;/h2&gt;&#xA;&lt;p&gt;eMarketer 发布的《美国 Z 世代用户科技与媒体使用情况报告》显示，Z世代用户每月最常使用的社交平台榜首位是【Snapchat(4200 万)】，接下来社交媒体的排名依次是 TikTok(3730 万)和 Instagram(3330 万)，根据预测，排名前三的平台未来还将会以不同的速度持续呈现增长，而目前的这个排名分布将会持续至 2025 年。Snapchat 表示，去年第三季度用户同比增长了 23%，这表明它目前处于持续高增长态势。&lt;/p&gt;&#xA;&lt;h2 id=&#34;在-snapchat-上使用-ar-相关功能的人已经超过-2-亿&#34;&gt;在 Snapchat 上使用 AR 相关功能的人已经超过 2 亿&lt;/h2&gt;&#xA;&lt;p&gt;在 Snapchat 上使用 AR 相关功能的用户已经超过【2 亿人】，他们平均每天使用 AR 功能的次数超过了【60 亿次】。&lt;/p&gt;&#xA;&lt;p&gt;年轻用户，即在此前发布的《Snap 消费者 AR 报告》中被称作的“Snapchat 一代”，他们通过图像进行交流的可能性要比文字高出 150%。&lt;/p&gt;&#xA;&lt;h2 id=&#34;snapchat-成为-ar-内容-plus-购物平台&#34;&gt;Snapchat 成为 AR 内容+购物平台&lt;/h2&gt;&#xA;&lt;p&gt;在《Snap 消费者 AR 报告》中预测，到 2025 年，全球将有 75%的人成为常规 AR 内容的用户，该规模预计可达 43 亿人，其中年轻一代将占据大多数。他们既是 AR 内容的主力用户群、主要消费群体，也是 AR 产品创作的主要生产力。&lt;/p&gt;&#xA;&lt;p&gt;《Snap 消费者 AR 报告》显示，Snapchat 上的游戏玩家超过 2 亿，其中 82%的人是受到周围人尤其是社交平台上好友的影响而开始体验的，近 70%的 Snapchatter 表示他们喜欢与朋友家人一起互动，在故事体验中，寻求与自我表达一致的群体和对象。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>乔布斯：鲜为人知的狂热爱好</title>
       <link>https://www.gtdstudy.com/posts/steve-jobs-loves-shin-hanga/</link>
       <pubDate>Thu, 17 Feb 2022 19:36:14 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/steve-jobs-loves-shin-hanga/</guid>
-      <description>&lt;p&gt;根据 NHK 的纪录片《乔布斯鲜为人知的狂热爱好》，乔布斯非常喜欢日本的「新版画」这类艺术作品。&lt;/p&gt;
-&lt;p&gt;他第一次购买新版画，是在银座的兜屋画廊，当时的松岗春夫进行了接待。&lt;/p&gt;
-&lt;p&gt;乔布斯尤其喜欢川濑巴水的作品，他购入了一共 25 幅巴水的作品。他从买入第一幅新版画开始，一共买了 43 幅新版画，还预订了 33 幅。&lt;/p&gt;
-&lt;p&gt;如果想仔细了解和欣赏「新版画」，可以打开 Google 艺术与文化链接：&lt;a href=&#34;https://artsandculture.google.com/entity/m07gjf9?hl=zh&#34;&gt;https://artsandculture.google.com/entity/m07gjf9?hl=zh&lt;/a&gt;&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;根据 NHK 的纪录片《乔布斯鲜为人知的狂热爱好》，乔布斯非常喜欢日本的「新版画」这类艺术作品。&lt;/p&gt;&#xA;&lt;p&gt;他第一次购买新版画，是在银座的兜屋画廊，当时的松岗春夫进行了接待。&lt;/p&gt;&#xA;&lt;p&gt;乔布斯尤其喜欢川濑巴水的作品，他购入了一共 25 幅巴水的作品。他从买入第一幅新版画开始，一共买了 43 幅新版画，还预订了 33 幅。&lt;/p&gt;&#xA;&lt;p&gt;如果想仔细了解和欣赏「新版画」，可以打开 Google 艺术与文化链接：&lt;a href=&#34;https://artsandculture.google.com/entity/m07gjf9?hl=zh&#34;&gt;https://artsandculture.google.com/entity/m07gjf9?hl=zh&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>稻盛和夫：穷人为什么难翻身</title>
       <link>https://www.gtdstudy.com/posts/why-poor-people-hard-to-get-rich/</link>
       <pubDate>Sun, 30 Jan 2022 16:44:49 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/why-poor-people-hard-to-get-rich/</guid>
-      <description>&lt;p&gt;来自稻盛和夫的书《给年轻人一点忠告》&lt;/p&gt;
-&lt;h2 id=&#34;成熟晚&#34;&gt;成熟晚&lt;/h2&gt;
-&lt;p&gt;他们中大多要到 30 多岁，才能明白社会的运行逻辑和人性，俗话说，穷人家的孩子早当家，其实哪里是早当家，只是在极端环境下掌握了一些基本生存技巧而己。&lt;/p&gt;
-&lt;h2 id=&#34;没有建设性的指导&#34;&gt;没有建设性的指导&lt;/h2&gt;
-&lt;p&gt;一个几代人穷且老实的家庭，30 岁前最大阻力来自于家人；他们没有足够的认知层次和人脉去给出指引和帮助，甚至还会帮倒忙，很多穷人家叛逆的孩子反而容易成功，就是因为他们早早摆脱了原生家庭的束缚。&lt;/p&gt;
-&lt;h2 id=&#34;没有试错资本&#34;&gt;没有试错资本&lt;/h2&gt;
-&lt;p&gt;有钱家孩子可以试错，不断试，不断成长，一般家庭的孩子大部分错一次，就跌入谷底，从此起起伏伏，背负着家庭跌入轮回的循环。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;来自稻盛和夫的书《给年轻人一点忠告》&lt;/p&gt;&#xA;&lt;h2 id=&#34;成熟晚&#34;&gt;成熟晚&lt;/h2&gt;&#xA;&lt;p&gt;他们中大多要到 30 多岁，才能明白社会的运行逻辑和人性，俗话说，穷人家的孩子早当家，其实哪里是早当家，只是在极端环境下掌握了一些基本生存技巧而己。&lt;/p&gt;&#xA;&lt;h2 id=&#34;没有建设性的指导&#34;&gt;没有建设性的指导&lt;/h2&gt;&#xA;&lt;p&gt;一个几代人穷且老实的家庭，30 岁前最大阻力来自于家人；他们没有足够的认知层次和人脉去给出指引和帮助，甚至还会帮倒忙，很多穷人家叛逆的孩子反而容易成功，就是因为他们早早摆脱了原生家庭的束缚。&lt;/p&gt;&#xA;&lt;h2 id=&#34;没有试错资本&#34;&gt;没有试错资本&lt;/h2&gt;&#xA;&lt;p&gt;有钱家孩子可以试错，不断试，不断成长，一般家庭的孩子大部分错一次，就跌入谷底，从此起起伏伏，背负着家庭跌入轮回的循环。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>做一个普通而自信的人（下）：最是难得平常心</title>
       <link>https://www.gtdstudy.com/posts/be-a-normal-and-confident-people-2/</link>
       <pubDate>Sat, 15 Jan 2022 15:45:47 +0800</pubDate>
-      
       <guid>https://www.gtdstudy.com/posts/be-a-normal-and-confident-people-2/</guid>
-      <description>&lt;p&gt;原本以为，我写完上篇之后，很快把下篇写完。但生活总有意外，比如说，昨天晚上一直在处理一张电商活动海报图，从没用过 PhotoShop 的我，硬着头皮，施展搜索大法，找素材，拼拼凑凑，居然完成了这张图。效果不能和顶级的电商设计相比，至少效果还过得去，达到了可用、大方、美观的程度。&lt;/p&gt;
-&lt;p&gt;如果是以前的我，在遇到这种意外的时候，内心应该会骂声娘，「这种破事怎么发生在我的身上？」现在则不然，骂娘归骂娘，事情只要有一丝可能性可实现，还是努力去做。很多人选择不做，是因为担心最后花了时间，却还有承担责任，亏大发了。但我得说，世界有时候的确是不公平的。然而，从长期来看，只要人生旅途中，一直执行正确的策略，总归能够得到较为令人满意的结果。&lt;/p&gt;
-&lt;p&gt;假如，我一晚上做图，最终得不到自己满意的效果，我会不会感到失落呢？肯定会的。人之常情。但我现在会看看我自己到底是否已经尽了自己最大的努力。回顾这张电商活动海报图，在完全是现学现卖地理解 PhotoShop 上的每一个按钮的用途，以及直接搜索网络上的素材，并把现有的素材拼凑进去。这个过程，我确实做完所有自己能做的事情了，问心无愧。即便是其他人问起，如果这个图片实现的效果不够好，也可以直接回应，我已经做完所有能做的事情，那么这个结果就应该是一个正确的结果，无可指责。&lt;/p&gt;
-&lt;p&gt;我以做了一件之前没做过的事情，来描述「超然平静」是一种什么状态。遇到意外时，不动怒，冷静地看待，并找出可能的解决方法，执行它；若结果不如期望，只要发现自己已经尽力了，那么就，不光不责备而且还要告诉自己，已经做到了所有可以做的事情，反而值得给自己加一个鸡腿。很多人经常追求最终的结果，但忽略对自己实现过程的评价，这往往破坏原本平静的心境。要么令自己浮躁，去追求一些自己无法实现的目标；要么令自己低落，认为自己做啥啥不行。这两种情绪状态都不好，所以我认为要学会评价自己实现结果的过程。不要被不合理的期望裹挟，也不要为自己全力以赴之后但不完美的结果所伤害。&lt;/p&gt;
-&lt;p&gt;所以，文章的副标题写了我的主要观点，「最是难得平常心」。但如何理解平常心呢？我的解读，就是主标题「做一个普通而有自信的人」。这是一种自我认知：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;普通：承认自己不完美，不见得所有事情都能做好，不要强迫自己&lt;/li&gt;
-&lt;li&gt;自信：但也明确知道自己也具备能力，可以通过思考、努力，做到某些事情，要懂得鼓励自己&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我把最近的一次工作上的「小挑战」分享出来，因为这是平常生活工作中，经常遇到的典型场景。世界上大部分要自己去做的事情，很多时候是自己从来未遇过的，甚至未必就能预见到的。但也因为世事无常，所以世间才变得有趣。在克服这种困难时的自己，本身就值得赞赏。毕竟努力活着就很不容易了。&lt;/p&gt;
-&lt;p&gt;相比上篇，下篇就比较简短。我本来还准备写一写长篇大论。后来想了一想，其实没必要。总归其实就是一句话，用平常心来面对生活工作中的挑战，并在接受挑战的过程时学会评价，然后接受自己做了所有努力之后的结果。这样子，平常心就比较简单获得了。有了平静的心境之后，其实面对很多事情，都比较容易冷静下来，想解决办法。在一个不充满悲伤、愤怒等负面情绪状态下，想法是比较容易冒出来的。所以，不用担心，无惧风雨。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>write</category>
-      
-      
+      <description>&lt;p&gt;原本以为，我写完上篇之后，很快把下篇写完。但生活总有意外，比如说，昨天晚上一直在处理一张电商活动海报图，从没用过 PhotoShop 的我，硬着头皮，施展搜索大法，找素材，拼拼凑凑，居然完成了这张图。效果不能和顶级的电商设计相比，至少效果还过得去，达到了可用、大方、美观的程度。&lt;/p&gt;&#xA;&lt;p&gt;如果是以前的我，在遇到这种意外的时候，内心应该会骂声娘，「这种破事怎么发生在我的身上？」现在则不然，骂娘归骂娘，事情只要有一丝可能性可实现，还是努力去做。很多人选择不做，是因为担心最后花了时间，却还有承担责任，亏大发了。但我得说，世界有时候的确是不公平的。然而，从长期来看，只要人生旅途中，一直执行正确的策略，总归能够得到较为令人满意的结果。&lt;/p&gt;&#xA;&lt;p&gt;假如，我一晚上做图，最终得不到自己满意的效果，我会不会感到失落呢？肯定会的。人之常情。但我现在会看看我自己到底是否已经尽了自己最大的努力。回顾这张电商活动海报图，在完全是现学现卖地理解 PhotoShop 上的每一个按钮的用途，以及直接搜索网络上的素材，并把现有的素材拼凑进去。这个过程，我确实做完所有自己能做的事情了，问心无愧。即便是其他人问起，如果这个图片实现的效果不够好，也可以直接回应，我已经做完所有能做的事情，那么这个结果就应该是一个正确的结果，无可指责。&lt;/p&gt;&#xA;&lt;p&gt;我以做了一件之前没做过的事情，来描述「超然平静」是一种什么状态。遇到意外时，不动怒，冷静地看待，并找出可能的解决方法，执行它；若结果不如期望，只要发现自己已经尽力了，那么就，不光不责备而且还要告诉自己，已经做到了所有可以做的事情，反而值得给自己加一个鸡腿。很多人经常追求最终的结果，但忽略对自己实现过程的评价，这往往破坏原本平静的心境。要么令自己浮躁，去追求一些自己无法实现的目标；要么令自己低落，认为自己做啥啥不行。这两种情绪状态都不好，所以我认为要学会评价自己实现结果的过程。不要被不合理的期望裹挟，也不要为自己全力以赴之后但不完美的结果所伤害。&lt;/p&gt;&#xA;&lt;p&gt;所以，文章的副标题写了我的主要观点，「最是难得平常心」。但如何理解平常心呢？我的解读，就是主标题「做一个普通而有自信的人」。这是一种自我认知：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;普通：承认自己不完美，不见得所有事情都能做好，不要强迫自己&lt;/li&gt;&#xA;&lt;li&gt;自信：但也明确知道自己也具备能力，可以通过思考、努力，做到某些事情，要懂得鼓励自己&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;我把最近的一次工作上的「小挑战」分享出来，因为这是平常生活工作中，经常遇到的典型场景。世界上大部分要自己去做的事情，很多时候是自己从来未遇过的，甚至未必就能预见到的。但也因为世事无常，所以世间才变得有趣。在克服这种困难时的自己，本身就值得赞赏。毕竟努力活着就很不容易了。&lt;/p&gt;&#xA;&lt;p&gt;相比上篇，下篇就比较简短。我本来还准备写一写长篇大论。后来想了一想，其实没必要。总归其实就是一句话，用平常心来面对生活工作中的挑战，并在接受挑战的过程时学会评价，然后接受自己做了所有努力之后的结果。这样子，平常心就比较简单获得了。有了平静的心境之后，其实面对很多事情，都比较容易冷静下来，想解决办法。在一个不充满悲伤、愤怒等负面情绪状态下，想法是比较容易冒出来的。所以，不用担心，无惧风雨。&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>做一个普通而自信的人（上）：为什么我们不能做一个普通人？</title>
+      <link>https://www.gtdstudy.com/posts/be-a-normal-and-confident-people/</link>
+      <pubDate>Sat, 01 Jan 2022 22:06:35 +0800</pubDate>
+      <guid>https://www.gtdstudy.com/posts/be-a-normal-and-confident-people/</guid>
+      <description>&lt;p&gt;我经常不看脱口秀，但也知道杨笠那句出名的讽刺，「为什么有的男人看上去明明那么普通，却那么自信？」当然，她群嘲的对象，是那些不知好歹，一看到女的就精虫上脑，而且丝毫不懂得尊重女性的男人贱狗。而我，只是平静下来后，想谈谈我对待之后的工作和生活，所持有的人生态度。&lt;/p&gt;&#xA;&lt;p&gt;于一个常抱有少年中二幻想的男性而言，承认自己的普通，很难的。我记得，在初中时，学校会发一张学生证，上面有一处，写自我简介，我当时写的是，「不是一个普通人。」到初三临毕业，当时的同学这么评价我，「怪怪的。」当时的我听到这一点，心里还有点高兴，「怪」不就是不普通了吗？回首过去，我的「怪」并不是自己显得多么出色，而实际上是落在了不太与身边的同学互动上。同学不了解我，所以觉得我「怪」。当时情商着实不高，居然觉得高兴，现在看，有点可笑。&lt;/p&gt;&#xA;&lt;p&gt;之前知乎有个问题，「为什么有的人喜欢删掉自己过去发的微博或朋友圈？」下面有网友回答，那是因为，看到过去自己发的言论，觉得愚蠢而可笑，显得过于丢脸，忍不住把它们删掉，以免贻笑大方。所以，现在的自己，回望过去的自己，总会觉得多多少少有点可笑。我认为，这是正常的。假使我今天回首过去，不觉得之前做出的种种可笑行为可笑，那也就意味着，我在这段时间里，只是一味重复自己。苏格拉底说过，「未经过审视的人生是不值得的。」那么，嘲笑过去做了傻事的自己，这一定是在审视了。&lt;/p&gt;&#xA;&lt;p&gt;以上总结，觉得自己以前可笑，是任何一个稍微比之前进步一点点的人，正常的反应。那么，我以前可笑在哪里呢？刚才说的，被别人觉得怪，还洋洋自得，这是其中一种。另外还有好几种。比如说，无端端自大，认为自己什么都能做得好。我并不否认自己有擅长的方面，但这种自大，非常的消耗人的时间——什么都试试，无论对自己是否有帮助。兴趣爱好广泛，可以结交很多朋友，但不可否认，如果这些时间节省下来，老老实实地提高自己的技能，在某个专业领域，收获一群志友，其实会更好。任由自己的兴趣泛滥，坦白讲，除了在社交方面显得牛一点之外，对自己没有太大的帮助。从更深的层面讲，人与人的关系，是以兴趣合，但关系长久终究还是在于可以相互帮助。成为战友，要比成为玩伴，更有价值。&lt;/p&gt;&#xA;&lt;p&gt;但我以前不知道这个道理，肤浅的认为，只要有人注意到我或者夸我就好。这种肤浅后来发展到，觉得是因为自己衣着过于朴素，被人看不起。在收入每个月只有 8000 元工资的情况下，我去买 1500 元 Tumi 的背包。的确，这个背包，被同事注意到了，但也就是一两天的事情。然后，我就开始想，为什么这个背包这么好看，却没有人再夸我了？谈到这里，我已经羞耻得不想再写下去了。&lt;/p&gt;&#xA;&lt;p&gt;也由于这样的一种疑问，这种隐秘地想要炫富的心理，后来悄悄地被我自己掐灭了。这样的经历，让我认识到，他人对你的评价虽然很多时候会来自你的「炫富」，但最终其实还是来自与你的接触，与你的互动。说实话，这是一种矛盾心理，一方面我内心里极其讨厌被别人贴上各种各样的标签，因为我以前总觉得「自己的人生不设限」，被贴标签就好像被限制住了一样；但另一方面，我又很渴望某种标签，这种标签能够为我带来他人的认同。现在想想，也是本末倒置。总而言之，处于左右而不得安然处之的拧巴状态。就好像，《hello 树先生》里的王宝强那不知如何安放的手。&lt;/p&gt;&#xA;&lt;p&gt;最近阅读了日本作家中岛敦的短篇小说《山月记》，改编自我国唐代话本小说《太平广记》中的《人虎传》。这则故事不复杂，讲的是一个怀才不遇的人变成了老虎，后来在偶然间与朋友在山涧相遇，在老虎状态下，他抒发了一些自己的感慨。在山月记中，这头由人变成的老虎，面对朋友，他总结了自己的一生，以及为什么变成老虎的原因：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;在我还是人的时候，尽量避免与人交往，人们也因此说我倨傲不逊，妄自尊大。人们不知道，其实是我心中某种近似于羞耻心的东西在作怪。当然，曾被誉为乡党之鬼才的我，并非没有自尊心。然而，这种自尊心，无疑是一种怯弱的自尊心。我想以诗成名，却又不进而投师访友，相与切磋琢磨。与此同时，又不屑与凡夫俗子为伍。这都是我那怯弱的自尊心和妄自尊大的羞耻心在作怪。我深怕自己本非美玉，故而不敢加以刻苦琢磨，却又半信自己是块美玉，故又不肯庸庸碌碌，与瓦砾为伍。于是我渐渐地脱离凡尘，疏远世人，结果便是一任愤懑与羞恨日益助长内心那怯弱的自尊心。其实，任何人都是驯兽师，而那野兽，无非就是各人的性情而已。于我而言，这种妄自尊大的羞耻心就是野兽，就是猛虎。它毁了我自己，害苦了我的妻儿，伤害了我的友人，最后，又如此这般，将我的外形也变成了与内心相一致的模样。如今想来，我自己仅有的那么一点才华也都付之东流了。我常卖弄什么‘无所作为，则人生太长；欲有所为，则人生太短’的格言，其实我哪有什么远大的志向，无非是害怕暴露自己才华不足之卑劣的恐惧和不肯刻苦用功的无耻之怠惰而已。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;回到本文的标题，「做一个普通而自信的人」，这就是我接下来将对待工作和生活的态度。我为什么执着于「普通」一词呢？《人虎传》的这段话，说出了我的心声，我找不出比这段话更一针见血的。如果你看到这里，就知道，我是认为之前的我，多少带着浮躁。戒骄戒躁，这句话说得好，但是很难做到，我为此花了很多年的时间，探寻浮躁的来源——假如你认可人类是一种文化的集合，那么我的浮躁也受到社会的话语体系所影响。打小，父母就会检查考试分数，考差了，固然是自己不努力，但父母的表现就好像一旦考试不行，我整个人就完蛋一样。而学校里，到了期末考试，还会把每个人的考试分数做好排名，考得好不好直接在排行榜里展示。这往往成为校园歧视、霸凌的依据。尤其是，不光是自己的父母，别家的父母还会这么教育，「不要和差生来往。」所以，稍微考差一点的学生，连朋友都难找。这是实质上证明，人类学家项飚接受采访时提到的，「内卷的一个很重要的机制，就是没有退出机制，不允许你退出。」我认为，这是我国社会运转的底层规则之一。其实，要求人进步，并无关系，但要求人必须只有某几件事情上进步，才算得上是进步，就有些变态了。社会对人的评价体系如此单一，从小到大，哪里都是千军万马过独木桥。「万一自己不行了怎么办？」在寂静的凌晨，我一次又一次地面对这个问题，在回答不上来的羞愧、愤恨中辗转反侧。浮躁，我自己的感受中，经常受到恐惧的影响，「我不能这样……我不能那样……我必须怎样……」这种恐惧，让人无法平静下来，安心地发展自己的特长。这是为什么初中时的我会在学生证写上，「我不是一个普通的人」这样一句话。&lt;/p&gt;&#xA;&lt;p&gt;所以，当我有一天，内心突然反问自己，「为什么我们不能做一个普通人呢？」之前的这种为骄傲而骄傲的心态才发生了变化。但写到这里，我想可以稍微中断一下，把现在所总结的，作为本文的上篇。因为下篇，我才会去真正描述心态上的变化，以及它所带来的感受。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>消费心理：依云在星巴克卖得这么差，为什么这家著名的咖啡贩卖公司还在卖依云？</title>
+      <link>https://www.gtdstudy.com/posts/why-starbuck-sales-evan/</link>
+      <pubDate>Sat, 04 Dec 2021 10:54:02 +0800</pubDate>
+      <guid>https://www.gtdstudy.com/posts/why-starbuck-sales-evan/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25274607&#34;&gt;https://zhuanlan.zhihu.com/p/25274607&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;3-个错误答案&#34;&gt;3 个错误答案&lt;/h2&gt;&#xA;&lt;p&gt;回答这个问题，先要过滤掉三个错误的答案。&lt;/p&gt;&#xA;&lt;p&gt;第一个是，星巴克这么做存在一定的随意性。可以肯定，星巴克这样成熟的公司选择把什么商品放到它的橱窗里不是随机的。这是因为在咖啡厅里出现的任何一种产品都占据了有限的柜台橱窗和菜单位置，也就是说它们都存在机会成本。&lt;/p&gt;&#xA;&lt;p&gt;第二个，星巴克和生产依云矿泉水的公司之间存在某种关系。生产依云矿泉水的公司的产品线很丰富，星巴克完全没必要选择最糟糕的产品来合作。&lt;/p&gt;&#xA;&lt;p&gt;第三个，有的人认为依云满足了一些边缘用户的需求。即使在星巴克这种以咖啡为主题的创业项目谈判会所，也会有一些人专门为了喝水而来。但他们会点依云吗？并不会。你大可以向星巴克的服务员要一杯，这是免费的，而一瓶依云要 22 元。&lt;/p&gt;&#xA;&lt;p&gt;关于这个问题，我的公司做过小样本调查，依云是北京几家星巴克里卖得最差的产品。芝加哥大学的金融和行为科学教授理查德·泰勒把人们交易的动力称作交易效用，星巴克里依云的交易效用的确太低了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;依云是为新顾客准备的-引导消费者下单主营产品&#34;&gt;依云是为新顾客准备的：引导消费者下单主营产品&lt;/h2&gt;&#xA;&lt;p&gt;回到我们的问题上，既然如此，为什么星巴克还在卖依云。这对于很多餐饮经营者也许并不是很难的问题，依云是给那些星巴克的新顾客准备的。&lt;/p&gt;&#xA;&lt;p&gt;说是给新顾客准备的，并不是说星巴克希望他们购买更多的依云水，而是拿依云水垫底，让新顾客感觉星巴克的咖啡家族价格并不离谱。一瓶依云矿泉水的价格比星巴克绝大多数的主打产品要便宜一点——Tall 杯的美式咖啡价格是 25 元，依云是 22 元；在 Tall 杯卖 23 元的时候，依云卖 20 元。回想一下平时你点单的时候，是不是更倾向中间价位的商品？&lt;/p&gt;&#xA;&lt;p&gt;新顾客对于一张陌生的菜单，会倾向于选择价格适中偏低的产品，人们认为这种选择不会被看成傻瓜也不会被看成没见过世面——现在和你提初次去星巴克的这种感受，你可能已经陌生了，但回忆一下这个春节在北欧看斯堪的纳维亚语菜单的时候，仍然还是如此吧。&lt;/p&gt;&#xA;&lt;p&gt;一般来说，连锁餐厅对菜品都是有设计的，菜单上菜品的分类类似于波士顿矩阵（BCG Matrix）里所说的企业分类。它们分别是：明星类菜品，这种菜的利润高，成本却比较低，是餐厅最想让顾客买的；金牛类菜品，这类菜品成本高，利润也还不错；山猫类菜品，它们的成本不高，利润率不错，但是点单量很小；狗类菜品，这种菜品成本不低，利润不高，点的人也很少。&lt;/p&gt;&#xA;&lt;h2 id=&#34;狗类菜品对餐厅的作用-对消费价格进行引导&#34;&gt;狗类菜品对餐厅的作用：对消费价格进行引导&lt;/h2&gt;&#xA;&lt;p&gt;狗类菜品在餐厅有什么存在价值？它起到的作用就是，为咖啡馆里的明星类菜品导流。你不要以为狗类菜品只要足够差就可以了，“狗”也要具备一些条件，最重要的是和餐厅的明星类菜品和山猫类菜品形成比较直接的可比性，让顾客感觉到餐厅或者咖啡馆贩卖的明星类或者山猫类菜品具有更高的交易效用。依云矿泉水就是星巴克的“狗”类菜品。&lt;/p&gt;&#xA;&lt;p&gt;另外，依云水还有一个成为狗类菜品的优势，它的管理成本低——塑料瓶包装不易破损，产品保质期还长。一瓶依云水可以装扮成“狗”很长时间，直到它退休为止。&lt;/p&gt;</description>
+    </item>
   </channel>
-</rss> 
+</rss>
