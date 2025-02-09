@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TIL - Space Looming</title>
+<meta name="description"
+    content="TIL = Today I learned
+2025-01-21 Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本 如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。
+keep-lines 的意思就是，保留你输入关键字的文本行。
+flush-lines 的意思是，排除你输入关键字的文本行。
+由于这两个命令，运行之后会直接修改文本内容，因此不要直接用于正在使用的业务文件中。
+2025-01-20 实施加载 Emacs 的包文件 运行这个命令： load-library。
+在调试开发 Emacs 的第三方包时，运行这一个命令可以避免每一次每一次修改都重启 Emacs。
+2025-01-02 让 org-mode 的 tag 一直处于 Emacs 窗口的最右方 (add-to-list &#39;font-lock-extra-managed-props &#39;display) (font-lock-add-keywords &#39;org-mode `((&#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]&#43;:\\)$&#34; (1 `(face nil display (space :align-to (- right ,(org-string-width (match-string 2)) 3))) prepend))) t) 2024-12-17 加快 macOS 里光标的移动速度 找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。
+">
+
+
+<meta property="og:title"
+    content="TIL - Space Looming">
+<meta property="og:description"
+    content="TIL = Today I learned
+2025-01-21 Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本 如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。
+keep-lines 的意思就是，保留你输入关键字的文本行。
+flush-lines 的意思是，排除你输入关键字的文本行。
+由于这两个命令，运行之后会直接修改文本内容，因此不要直接用于正在使用的业务文件中。
+2025-01-20 实施加载 Emacs 的包文件 运行这个命令： load-library。
+在调试开发 Emacs 的第三方包时，运行这一个命令可以避免每一次每一次修改都重启 Emacs。
+2025-01-02 让 org-mode 的 tag 一直处于 Emacs 窗口的最右方 (add-to-list &#39;font-lock-extra-managed-props &#39;display) (font-lock-add-keywords &#39;org-mode `((&#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]&#43;:\\)$&#34; (1 `(face nil display (space :align-to (- right ,(org-string-width (match-string 2)) 3))) prepend))) t) 2024-12-17 加快 macOS 里光标的移动速度 找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。
+">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.gtdstudy.com/til/">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title"
+    content="TIL - Space Looming">
+<meta name="twitter:description"
+    content="TIL = Today I learned
+2025-01-21 Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本 如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。
+keep-lines 的意思就是，保留你输入关键字的文本行。
+flush-lines 的意思是，排除你输入关键字的文本行。
+由于这两个命令，运行之后会直接修改文本内容，因此不要直接用于正在使用的业务文件中。
+2025-01-20 实施加载 Emacs 的包文件 运行这个命令： load-library。
+在调试开发 Emacs 的第三方包时，运行这一个命令可以避免每一次每一次修改都重启 Emacs。
+2025-01-02 让 org-mode 的 tag 一直处于 Emacs 窗口的最右方 (add-to-list &#39;font-lock-extra-managed-props &#39;display) (font-lock-add-keywords &#39;org-mode `((&#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]&#43;:\\)$&#34; (1 `(face nil display (space :align-to (- right ,(org-string-width (match-string 2)) 3))) prepend))) t) 2024-12-17 加快 macOS 里光标的移动速度 找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。
+">
+
+
+
+<link rel="canonical" href="https://www.gtdstudy.com/til/">
+
+
+      <link rel="stylesheet" href="/css/main.min.81202436c8b1d32eaeea247906ae5d20f7c9ba833f6abad16fcd0ffd3e97912c.css" integrity="sha256-gSAkNsix0y6u6iR5Bq5dIPfJuoM/arrRb80P/T6XkSw=" crossorigin="anonymous">
+
+
+      <script src="/js/main.cae3d9eba4e54c3d685682c303a39b0cc30e2473ee5331e21ead03ee70507a6e.js" integrity="sha256-yuPZ66TlTD1oVoLDA6ObDMMOJHPuUzHiHq0D7nBQem4=" crossorigin="anonymous"></script>
+
+
+
+<script>
+    
+    (function () {
+        const theme = localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+    })();
+</script>
+
+
+
+<link rel="stylesheet" href="/css/main.min.css">
+
+
+
+  
+  <link rel="stylesheet" href="/css/main.min.css">
+  
+  <link rel="stylesheet" href="/css/mobile.min.css">
+</head>
+
+<body>
+  
+<header class="mobile-header">
+    <h1 class="mobile-header__title">Space Looming</h1>
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span class="menu-icon">☰</span>
+    </button>
+</header>
+  
+<header class="site-header">
+    <header class="site-header">
+    <div class="header-content">
+        
+        <div class="site-branding">
+            <h1 class="site-title">
+                <a href="https://www.gtdstudy.com/">Space Looming</a>
+            </h1>
+            
+            <p class="site-subtitle">无垠的太空中，传来宇宙的轰鸣</p>
+            
+        </div>
+
+        
+        <div class="site-bio">
+            
+            <div class="bio-content"><p>大家好，我是一个喜欢阅读、思考以及交流的人。</p>
+<p>最近在 AI 辅助编程方面取得了不少进展。</p>
+<p>我评测过很多产品，写过很多行业预测，写了不少 Prompt，开发了 4 个 Emacs Package。</p>
+</div>
+            
+        </div>
+
+        
+        <nav class="site-nav">
+            <ul class="menu-list">
+                
+                <li class="menu-item">
+                    <a href="/">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/posts">Posts</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/tags">Tags</a>
+                </li>
+                
+                
+                <li class="menu-item">
+                    <a href="/feed.xml">Rss</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        
+        <div class="theme-toggle">
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle__icon">🌓</span>
+            </button>
+        </div>
+
+        
+        <div class="site-footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="copyright">© 2025 Yibie</p>
+                    <p class="powered-by">Powered by <a href="https://gohugo.io" target="_blank">Hugo</a></p>
+                    <p class="theme-info">Theme <a href="https://github.com/yibie/hugo-theme-deck"
+                            target="_blank">Deck</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const html = document.documentElement;
+        const themeToggle = document.getElementById('theme-toggle');
+
+        
+        themeToggle.addEventListener('click', function () {
+            const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+
+        
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+        prefersDark.addListener((e) => {
+            if (!localStorage.getItem('theme')) {
+                const systemTheme = e.matches ? 'dark' : 'light';
+                html.setAttribute('data-theme', systemTheme);
+                localStorage.setItem('theme', systemTheme);
+            }
+        });
+    });
+</script>
+</header>
+
+  <main>
+    
+<article class="single-post">
+  <header class="post-header">
+    <h1 class="post-title">TIL</h1>
+
+    <div class="post-meta">
+      <time datetime="2024-10-01">
+        October 1, 2024
+      </time>
+
+      
+      <div class="post-categories">
+        
+        <span class="category">TIL</span>
+        
+      </div>
+      
+    </div>
+  </header>
+
+  <div class="post-content">
+    <p>TIL = Today I learned</p>
+<h1 id="2025-01-21-emacs-中综合使用-keep-lines-和-flush-lines-过滤多行文本">2025-01-21 Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本</h1>
+<p>如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。</p>
+<p><code>keep-lines</code> 的意思就是，保留你输入关键字的文本行。</p>
+<p><code>flush-lines</code> 的意思是，排除你输入关键字的文本行。</p>
+<p>由于这两个命令，运行之后会直接修改文本内容，因此不要直接用于正在使用的业务文件中。</p>
+<h1 id="2025-01-20-实施加载-emacs-的包文件">2025-01-20 实施加载 Emacs 的包文件</h1>
+<p>运行这个命令： <code>load-library</code>。</p>
+<p>在调试开发 Emacs 的第三方包时，运行这一个命令可以避免每一次每一次修改都重启 Emacs。</p>
+<h1 id="2025-01-02-让-org-mode-的-tag-一直处于-emacs-窗口的最右方">2025-01-02 让 org-mode 的 tag 一直处于 Emacs 窗口的最右方</h1>
+<pre tabindex="0"><code>(add-to-list &#39;font-lock-extra-managed-props &#39;display)
+(font-lock-add-keywords &#39;org-mode
+                        `((&#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]+:\\)$&#34;
+                           (1 `(face nil
+                                     display (space :align-to (- right ,(org-string-width (match-string 2)) 3)))
+                              prepend))) t)
+</code></pre><h1 id="2024-12-17-加快-macos-里光标的移动速度">2024-12-17 加快 macOS 里光标的移动速度</h1>
+<p>找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。</p>
+<p>效果拔群！</p>
+<h1 id="2024-12-17-使用shift--方向键在-emacs-calendar-里自由选择日期">2024-12-17 使用「Shift + 方向键」在 Emacs Calendar 里自由选择日期</h1>
+<p>在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 +1、+2 这种方式来选择未来的日期。</p>
+<p>这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift + 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。</p>
+<h1 id="2024-11-24-ant-design-组件基本分类">2024-11-24 Ant Design 组件基本分类</h1>
+<h2 id="架构设计">架构设计</h2>
+<ul>
+<li>分层
+<ul>
+<li>基础组件</li>
+<li>样式体系</li>
+<li>复合组件</li>
+<li>业务组件</li>
+</ul>
+</li>
+<li>解耦
+<ul>
+<li>对于每个组件都要定义：样式、ts 类型、基础操作、工具方法</li>
+</ul>
+</li>
+<li>响应式设计</li>
+</ul>
+<h2 id="状态管理">状态管理</h2>
+<ul>
+<li>状态管理
+<ul>
+<li>全局状态：在 react 使用 Context、useSyncExternailStore</li>
+<li>局部状态：受控组件，非受控组件</li>
+</ul>
+</li>
+</ul>
+<h2 id="样式体系与主题设计">样式体系与主题设计</h2>
+<ul>
+<li>Color Tokens : 颜色色值系统</li>
+<li>样式模块化方案：css-in-js、emotion（建议试一试）、styled-compontents</li>
+<li>样式优先级与覆盖：控制样式优先级</li>
+</ul>
+<h1 id="2024-11-06-给-emacs-打-patch">2024-11-06 给 Emacs 打 Patch</h1>
+<p><strong>来源</strong>: Telegram 群组 “Emacs_CN Lite 轻聊版” @Lucius_Chen</p>
+<p>在 <code>/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/</code> 下的 <code>emacs-plus@31.rb</code> 文件需要修改 <code>Path</code> 栏的 <code>local_path</code> 和 <code>commit</code>。</p>
+<p>如果需要打 patch，可以将 patch 文件放在：
+<code>/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/patches/emacs-31</code></p>
+<hr>
+<h1 id="2024-11-05-vim-命令---scroll--move">2024-11-05 Vim 命令 - Scroll &amp; Move</h1>
+<h2 id="scroll">Scroll</h2>
+<ul>
+<li>滚动一页: <code>C-f</code> / <code>C-b</code></li>
+<li>滚动半页: <code>C-d</code> / <code>C-u</code></li>
+<li>滚动一行: <code>C-e</code> / <code>C-y</code></li>
+</ul>
+<h2 id="navigation">Navigation</h2>
+<h3 id="以词定位">以词定位</h3>
+<ul>
+<li>下一个单词的开头: <code>w</code> / <code>W</code>（<code>W</code> 更加直接）</li>
+<li>当前单词的末尾: <code>e</code> / <code>E</code></li>
+<li>上一个单词的开头: <code>b</code> / <code>B</code></li>
+</ul>
+<h3 id="以行定位">以行定位</h3>
+<ul>
+<li>去到行首: <code>0</code></li>
+<li>去到行尾: <code>$</code></li>
+<li>去到第一个非空字符: <code>^</code></li>
+<li>去到最后一个非空字符: <code>g_</code></li>
+</ul>
+<h3 id="以屏定位">以屏定位</h3>
+<ul>
+<li>去到当前屏幕中的第一行: <code>H</code></li>
+<li>去到当前屏幕的中间一行: <code>M</code></li>
+<li>去到当前屏幕的最后一行: <code>L</code></li>
+</ul>
+<hr>
+<h1 id="2024-10-27-解决一个神出鬼没的-bug">2024-10-27 解决一个神出鬼没的 Bug</h1>
+<h2 id="一句话说明问题">一句话说明问题</h2>
+<p>升级 <code>org-zettel-ref-mode</code> 的数据库格式导致加载数据库的函数无法读取正确的数据库，结果引发内存错误链。报错信息仅显示 “let*: End of file during parsing”，未提供具体细节。</p>
+<h2 id="辛苦的过程">辛苦的过程</h2>
+<ol>
+<li>起初以为是代码括号匹配问题，检查后无果。</li>
+<li>Emacs 群中请教后仍未找到问题。</li>
+<li>尝试将所有 <code>let*</code> 改为 <code>let</code>，但问题依旧。</li>
+</ol>
+<h2 id="灵光一闪">灵光一闪</h2>
+<p>总结经验后怀疑是别处问题。直接运行导致报错的函数，终于获得详细的错误报告，从而顺利解决问题。</p>
+<h2 id="问题分析">问题分析</h2>
+<p>关键错误：</p>
+<ul>
+<li><code>read</code> 函数失败返回 <code>nil</code>。</li>
+<li>后续试图从 <code>nil</code> 中获取 <code>:entries</code>，导致问题传递。</li>
+</ul>
+<p>调用链分析：</p>
+<ol>
+<li><code>org-zettel-ref-db-load()</code></li>
+<li>内部 <code>let*</code> 执行失败，触发错误。</li>
+</ol>
+<hr>
+<h1 id="2024-10-20-让大陆用户顺利访问部署在-vercel-上的网站程序">2024-10-20 让大陆用户顺利访问部署在 Vercel 上的网站程序</h1>
+<p>在域名服务商的 DNS 记录中使用：
+<code>cname-china.vercel-dns.com</code></p>
+<hr>
+<h1 id="2024-10-17-使用-emacs-的-register-方便工作">2024-10-17 使用 Emacs 的 Register 方便工作</h1>
+<p>观看视频 <em>Emacs: Store anything with registers and bookmarks</em> 后，更清楚 Register 的作用。</p>
+<h2 id="register-的特点">Register 的特点</h2>
+<ul>
+<li>临时保存：
+<ul>
+<li>光标位置</li>
+<li>窗口布局</li>
+<li>文件（需自定义命令）</li>
+</ul>
+</li>
+<li>内容会随 Emacs 重启或被覆盖而丢失。</li>
+<li>快速覆盖机制适合处理临时性任务。</li>
+</ul>
+<h2 id="register-与-bookmark-的结合">Register 与 Bookmark 的结合</h2>
+<p>Register 适合临时任务，Bookmark 可用于长期保存，高效结合使用能提升工作效率。</p>
+<hr>
+<h1 id="2024-10-16-不移动光标的情况下滚动行">2024-10-16 不移动光标的情况下滚动行</h1>
+<p>Emacs 内置了两个命令：</p>
+<ul>
+<li><code>scroll-up-line</code></li>
+<li><code>scroll-down-line</code></li>
+</ul>
+<hr>
+<p>#https://www.v2ex.com/t/1087594#reply28 2024-10-07 软件工程的性能测试
+所有软件工程都应通过 Profiler 测试性能。Emacs 中可以通过以下命令实现：</p>
+<ul>
+<li>启动性能测试: <code>M-x profiler-start</code>
+<ul>
+<li>选择 CPU 消耗、内存消耗，或 CPU+内存消耗。</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+
+  
+</article>
+
+  </main>
+
+  
+  
+<div class="scroll-indicator" aria-hidden="true">👉</div>
+</body>
+
+</html>

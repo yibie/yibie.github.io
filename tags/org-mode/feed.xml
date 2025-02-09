@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Org-Mode - Space Looming</title>
+    <link>https://www.gtdstudy.com/tags/org-mode/</link>
+    <description>Space Looming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    
+    
+    <lastBuildDate>Sat, 21 Dec 2024 13:00:00 +0800</lastBuildDate>
+    
+    <atom:link href="https://www.gtdstudy.com/tags/org-mode/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>用 AI 辅助开发的经验二三则(3)</title>
+      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/</link>
+      <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/</guid>
+      <description>&lt;p&gt;早两日，我发布了 org-supertag，一个新的 Emacs 第三方扩展包。本来这个项目，我计划是 3-5 天完成，结果花费的时间比预计要超出 3 倍有多。不禁让我想起了一个段子：不管下属报的时间期限多长，总之乘以 3 倍就对了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;多出来的时间花在哪儿了？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;先简单介绍 org-supertag 是干嘛的，它借鉴了 Tana 强大的 Super Tag 功能，增强 Org-mode 原本的标签系统。强大这个描述，转换视角，往往意味着复杂。不过对于我来说，梳理 Tana 的功能，以及理清它概念之间的&lt;a href=&#34;https://emacs-china.org/t/emacs-tana-supertag/28407/4&#34;&gt;关系&lt;/a&gt;，并没有花我太长时间。&lt;/p&gt;
+&lt;p&gt;花费较多的时间的一个地方，是设计决策、测试设计。&lt;/p&gt;
+&lt;p&gt;囿于 Emacs 本身是独立的，它的图形表达能力，和交互方式都有自己的独特性，我花了不少时间在探索它们的边界上——我最终实现了一个配置 Tag 模板的可视化面板，操作倒不怎么麻烦，但开发量巨大，功能只是设定标签名字，以及定义属于它的属性段而已，代码行数突破 1k，很夸张。一想到以后还要维护这么一 &lt;del&gt;坨&lt;/del&gt; 堆代码，头皮发麻，果断放弃。&lt;/p&gt;
+&lt;p&gt;我最后回归使用底栏菜单 + 选项的方式。这种方式的优点上实现快，代码简单，但缺点也很明显，如果需要的操作较多，那么操作步骤会非常多，麻烦到我自己都不想用。我不得不绞尽脑汁，思考交互流程，一点一点的测试和改进。包括我刚才提到的，大大小小的测试方案，有差不多 5 种。不论是思考，还是实现，都花费不少时间。&lt;/p&gt;
+&lt;p&gt;另外花费较多的地方，是重构。&lt;/p&gt;
+&lt;p&gt;既不意外，又很意外的，意外总归会来。我之所以要放弃 Demo，是因为它完全以文件为储存，这种方式优点很多，但缺点是数据量一大，速度就会全方位的下滑，甚至到了一个人难以忍受的程度。不管是 Obisidan 还是 Emacs 上大名鼎鼎的 Org-roam，都存在这样的问题，用户的抱怨，我见过不少。基于这个理由重构，我觉得没问题。但之后的重构，多多少少我觉得有点乱来——我一共重构了 6 版……&lt;/p&gt;
+&lt;p&gt;刚才谈到 Demo，这算是第一版。然后我突然间迷信起 AI 能够搞定一切的狗屁说法来，我通过 NotebookLM 提炼 Tana 的功能特性，并总结成产品文档，然后让 Windsurf 帮我完整实现。果然没能达到预期，产生了一堆代码，但是无法通过实际测试。这花了 1 天时间。然后接下来，我又用 Cursor 用同样的流程，重复一次，也还是得到一堆无法正确执行的代码，又花了 1 天。&lt;/p&gt;
+&lt;p&gt;但我不觉得 Cursor 和 Windsurf 要为重构失败负上主要责任。最主要的责任还在自己身上。因为心浮气躁，想着赶工，根本就没有静下心来，认真阅读 AI 提交的代码，理顺其中的节点。有一点点 Bug，就想马上推倒重来，反而陷入不断重复实现基础功能的循环里，中间浪费的时间更多。&lt;/p&gt;
+&lt;p&gt;假如回到那一天，我会对自己说，好好审代码，别他妈的老想着重新再来。&lt;/p&gt;
+&lt;p&gt;另外的重构，则源自于数据库层面，这部分的重构我觉得是有效重构。有道是，一生二，二生三，三生万物。与 org-zettel-ref-mode 相比，org-superta 的数据对象实际上有 4 个：Node、Tag、Field、Field Value。第一次重构，就是因为每一个对象都使用一个表，在测试当中，明显感到性能很差，仅仅存了 10 个数据对象，但操作需要 1 秒，甚至超过 1 秒。在当时，我认为必须到了回炉重造的时候了。&lt;/p&gt;
+&lt;p&gt;所以，不知不觉中，org-supertag 的重构版本很快叠到第 5 版。在这个版本里，我将基础的功能都进行了实现，但发现数据保存和检索还是有问题。而由于之前迭代的版本很多，函数名混乱，函数之间的调用链也相当混乱。中间加入的缓存、事件系统更让整个代码看上去冗杂不堪——此时，数据库的保存又有了问题，努力排查了很久，都无法彻底理清。没办法，只能再次重构。&lt;/p&gt;
+&lt;p&gt;幸运的是，由于 v5 的代码已经将基础功能实现了，因此重新从功能定义出发，参考之前的实现，一点点地将一个个函数都老老实实地实现出来。一边实现，一边针对具体的功能，用简单的测试代码进行测试，整个过程非常顺利，只用了我 2 天半的事件，就主体框架和基础功能全部都实现了。而且程序的运行非常流畅。&lt;/p&gt;
+&lt;p&gt;还有一个隐形的时间杀手，就是测试。&lt;/p&gt;
+&lt;p&gt;测试是贯穿在整个重构的过程中的。在令 org-zettel-ref-mode 可以拥有稳健的数据库时，我正是靠着测试以及测试用例，来找出函数之间不配合的地方，一个一个清理，终于才搞定。而这一次，我迷信之前的经验，凡事都上一个测试用例，结果中间浪费了很多时间，在实际代码和测试结果之间来回跑，陷入了一种恶性循环里。&lt;/p&gt;
+&lt;p&gt;我发现，不应该马上就上测试用例，应该在单个功能与函数已经稳定运行的情况下，在编写测试用例进行整体的测试（主要用于测试边缘情况，多个函数之间运行是否会引起冲突），否则它对实际的程序运行无法起到指导作用。所以，我不应该在实现一个模块的时候，就马上上一个测试用例。实际上我应该在实现一个组件的时候，简单跑一个测试代码，看功能是否可以正常运行就可以了。&lt;/p&gt;
+&lt;p&gt;直到最后一次迭代，我才终于改变了做法，终于在改完最后一点 bug（自认为的），就将 org-supertag 发布在 Github 上，然后我在 Reddit 的 r/org-mode 上发帖介绍，很快吸引了不少 upvote，还有一些人在评论里兴奋的称赞。本文距离正式发布大约 24 小时，Github 上已经有 20 来个 Star，比之前的 org-zettel-ref-mode 快多了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关于重构的一点体会&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;没有结构性的重大缺陷，不要随便进行完全的重构。我认为我经历的 6 次重构中，只有第一次，第五次，第六次算是有效重构，中间的几次基本属于无效重构——这些重构很大程度上，只是在发泄焦躁的情绪，而不是真正在实现项目。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;重构的目的，是去芜存菁，留下有效的代码。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在日常工程中，针对一段函数进行小重构，是很正常的，一般来说也值得鼓励。因为通常小的重构，往往会将代码的结构梳理得更加清晰，也会查缺不漏。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在是否重构之前，进行测试是有必要的。但马上就上完整的测试用例，是没有必要的，而且也会产生很大的时间浪费，因为此时函数与功能并非处于一个相对稳定的状态，此时用测试用例进行测试，只会误导自己，将整个项目的构建引导向歪路。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;另外一些有用的经验&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;先用 Demo 探索产品可行性，这个做法值得保持。&lt;/p&gt;
+&lt;p&gt;尽管我认为，Emacs 和 Org-mode 已经拥有良好的基础设施，足以实现 Tana 上便利的功能，然而 Org-mode 本身的标签功能是非常薄弱的，为了弥合理论与实践之间的鸿沟，我花了 2 天时间，实现了一个功能完整的 Demo。因为 Demo 实现过程十分顺利，让我误判了正式实现 org-supertag 的难度，另外一方面，我认为在仅凭理论判断的前提下，是非常必要实现一个 Demo 来验证想法的可行性。&lt;/p&gt;
+&lt;p&gt;这一个做法，来自任天堂开发《塞尔达传说：旷野之息》的经验，在团队正式开发一个 3D 版本之前，他们首先实现了一个功能完备的 2D 的版本，里面的林克是可以跳跃、跑步的，地图也已经大体设计好。因此《塞尔达传说：旷野之息》的开发过程是比较顺利的， 之所以会延期发布，主要还是为了 Switch 进行更多的优化。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;最后的回顾&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;与 org-zettel-ref-mode 相比 org-supertag 是一个更加复杂的项目，无论功能数量，工程量还有设计方面的考虑，都要更加复杂，但实现的时间更短了。自认为，在使用 AI 辅助开发的能力上，是有比较大的提高的。之前总结的经验，在这一次开发当中，帮了大忙，帮我在一个更加合理的时间段里及时止损。&lt;/p&gt;
+&lt;p&gt;另外，从 org-zettel-ref-mode 和 org=supertag 这两个项目的实现，也终于确认了自己的能力，在用户体验、产品设计方面的思路，是有一定可取之处的。可以说，我现在比之前更有自信。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>write</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>用 AI 辅助开发的经验二三则(2)</title>
+      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/</link>
+      <pubDate>Thu, 07 Nov 2024 14:00:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/</guid>
+      <description>&lt;p&gt;最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。&lt;/p&gt;
+&lt;p&gt;OZR 新的版本，增加了一个新功能，用于管理引用来源文件的可视化面板。这句话看上去很简单，但背后的工作量并不小。前端改一个词，足以让后端跑断腿。出现产品经理被砍这样的新闻，也不必奇怪了。&lt;/p&gt;
+&lt;p&gt;可视化面板，是很多产品里常见的特性，它的功能就是，让用户更加舒服地查看、管理特定的对象。在 OZR 里，其管理对象是，一个个被充当引用来源的参考文件。&lt;/p&gt;
+&lt;p&gt;如果让你来设计这个面板，你觉得第一个问题会是什么？我一开始的反映是，文件应该以什么样的方式进行展示？但实际上，在我真正着手开发时，真正重要的问题是： &lt;strong&gt;在面板里展示的数据源来自哪里?&lt;/strong&gt; &lt;strong&gt;在数据源发生了改动之后，如何确保原来的文件映射关系不变？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;继续追问这两个问题，会发现，从工程上需要实现：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将原本非格式化的数据转换成格式化数据，保存到数据库中，面板访问数据库才能既快又好地展现文件信息&lt;/li&gt;
+&lt;li&gt;由于用户会在面板上编辑文件信息，因此面板上更新的数据，需要同步到数据库对应的字段中，进行信息层面的对齐，这样子才能确保面板在重新加载之后不会出现错误的信息&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;从这 2 个问题继续追问，就会出现大量需要实现的工程细节。但最重要的一个问题是，需要使用一个怎么样的数据库，才能够满足以上需求。再深挖这个问题，就是数据库应当使用什么结构，能够满足当前的业务需求？再追问这个问题，就会回到业务层面上，实际业务的情景是什么？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设计数据库之前需要先探明业务情景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在没弄清楚实际业务发生的情形之前，我所尝试的各种实现数据库的方法，都是错的，各种 Bug 层出不穷，按下葫芦浮起瓢。最后我冷静下来，深究原因——保存与存取，总是出现问题。我得感谢之前&lt;a href=&#34;https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/&#34;&gt;开发的经验里&lt;/a&gt;，让我牢牢记住一个原则：一个 Bug 如果修改 3 次都不成功，一定要转换思路，不要继续重复原来的方法。&lt;/p&gt;
+&lt;p&gt;所以，我和 AI 对话，对实际的业务情景进行分析，寻找最适合的数据库结构。这个问题决定了数据库的读写方法——&lt;/p&gt;
+&lt;p&gt;我：
+overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件&lt;/p&gt;
+&lt;p&gt;AI：
+明白了,让我重新梳理这个关系:
+从数据库角度:
+ref-id 可以没有对应的 overview-id
+overview-id 可以没有对应的 ref-id
+但如果存在映射,则是一对一的关系
+从业务逻辑角度:
+overview 文件必须对应一个 source 文件(业务规则)
+但这个对应关系可能还未在数据库中建立(数据状态)
+映射关系的建立是一个渐进的过程
+Map 表的职责:
+记录已建立的映射关系
+确保映射的一对一性
+不强制要求所有实体都必须有映射
+但提供检查机制发现&amp;quot;孤立&amp;quot;的 overview
+这样的理解更准确了吗？&lt;/p&gt;
+&lt;p&gt;我：
+在我们的场景里，一个 ref-id 对应一个 overview-id。&lt;/p&gt;
+&lt;p&gt;AI：
+啊,抱歉我理解错了。是的,在我们的场景中是一对一的关系。
+让我们重新分析 Map 表的工作机制:
+一对一映射的特点:
+每个 ref-id 只能对应一个 overview-id
+每个 overview-id 也只能对应一个 ref-id
+这意味着映射是双向唯一的
+Map 表的约束:
+创建新映射前需要检查 ref-id 是否已有映射
+创建新映射前需要检查 overview-id 是否已被映射
+更新映射时需要保证双向唯一性
+删除映射时需要同时解除双向关联
+查询优化:
+可以通过 ref-id 直接找到对应的 overview-id
+可以通过 overview-id 反查对应的 ref-id
+不需要复杂的多重映射处理
+这样的理解更准确吗&lt;/p&gt;
+&lt;p&gt;我：
+场景是这样的，新增加的 ref-id 未必会有对应的 overview-id。&lt;/p&gt;
+&lt;p&gt;AI：
+啊,明白了。这是一个可选的一对一关系:
+映射的特点:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ref-id 可以没有对应的 overview-id (可选关系)&lt;/li&gt;
+&lt;li&gt;但如果有映射,则是一对一的&lt;/li&gt;
+&lt;li&gt;overview-id 一定对应一个 ref-id (必需关系)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Map 表的约束:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不是所有 ref-id 都需要在 Map 表中&lt;/li&gt;
+&lt;li&gt;创建映射时只需检查 overview-id 是否已被使用&lt;/li&gt;
+&lt;li&gt;overview-id 不能重复使用&lt;/li&gt;
+&lt;li&gt;ref-id 已有映射时,新映射会替换旧映射&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;业务场景:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新建 ref 时可以不立即创建 overview&lt;/li&gt;
+&lt;li&gt;可以后续再为 ref 关联 overview&lt;/li&gt;
+&lt;li&gt;可以更换 ref 对应的 overview&lt;/li&gt;
+&lt;li&gt;overview 必须关联到某个 ref&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这样的理解更符合实际场景了吗？&lt;/p&gt;
+&lt;p&gt;我：
+overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一个 ref-id，因为有的 overview 文件不是从 ref 源文件夹中的文件创建。不过，从严格意义上来讲，一个 overview 文件，必须对应有一个 source 文件&lt;/p&gt;
+&lt;p&gt;AI：
+明白了,让我重新梳理这个关系:&lt;/p&gt;
+&lt;p&gt;从数据库角度:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ref-id 可以没有对应的 overview-id&lt;/li&gt;
+&lt;li&gt;overview-id 可以没有对应的 ref-id&lt;/li&gt;
+&lt;li&gt;但如果存在映射,则是一对一的关系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;从业务逻辑角度:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;overview 文件必须对应一个 source 文件(业务规则)&lt;/li&gt;
+&lt;li&gt;但这个对应关系可能还未在数据库中建立(数据状态)&lt;/li&gt;
+&lt;li&gt;映射关系的建立是一个渐进的过程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Map 表的职责:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;记录已建立的映射关系&lt;/li&gt;
+&lt;li&gt;确保映射的一对一性&lt;/li&gt;
+&lt;li&gt;不强制要求所有实体都必须有映射&lt;/li&gt;
+&lt;li&gt;但提供检查机制发现&amp;quot;孤立&amp;quot;的 overview&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;经过几轮对话之后，数据库所面对的场景，才真正的抽象出来。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;实际开发时通过测试用例来 Debug&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;由于数据库设计的操作复杂，又是读又是取，又是加载又是保存，加上需要从数据库中读取数据，保存数据的函数很多。因此，按照以往，直接修改函数很容易遗漏。&lt;/p&gt;
+&lt;p&gt;最佳实践是，通过测试用例，来找到还没修改和完善的地方。Emacs 自带 ert 这个测试框架，可以很完善的测试各种功能。有了测试用例配合测试，就可以非常清楚地知道问题出在哪里，直接检查对应的函数。节省了大量的时间，和精力——在 Debug 过程中，最痛苦的不是改 Bug 而是找到 Bug 的源头。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>write</category>
+      
+      
+    </item>
+    
+  </channel>
+</rss> 

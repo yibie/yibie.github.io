@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>用 AI 辅助开发的经验二三则 - Space Looming</title>
+<meta name="description"
+    content="缘起
+2024 年的 8 月中旬, 我开始开发一个 Emacs 插件. 对 elisp 一窍不通的我, 通过 AI, 开始大家所说的 &ldquo;自然语言编程&rdquo;. 从那时起计算, 终于在 9 月 28 日发布了版本号为 0.3.5 的稳定版.
+这是我人生中, 第一次开发出, 可以稳定运行的, 可供他人使用的软件产品, 不管盈利与否, 不管是否流行, 我都觉得意义重大. 换一个角度, 作为一个开源项目， org-zettel-ref-mode 已经收获 25 个 Star, 我无论如何, 都不能把它视为一个无人问津的产品.
+这是我今年迈出的一小步, 后面是什么的一大步, 未来难以预料.
+教训/经验
+初碰软件开发, 还是不管懂不懂, 顶硬上, 碰到的问题自然是非常的多. 一个 Bug 刚修完, 另外 n 个 Bug 已经准备好跳出来了. 有段时间, 不断遇到 Bug, 不禁让我发出这样的感慨: *Bug 都是人造的，Bug 在人在，人在 Bug 在，Bug 不在人还在*。
+只要人在, Bug 一定会在. 总之目前, 我的心态, 已经放平. 这最重要的一点, 以平常心面对 Bug, 以及 Bug 总是会出现的情况 &ndash; Bug 是反馈的一种, 只不过刚好, 它反馈的是, 你疏忽的一面. 所以, 面对 Bug 很重要, 就好像我们面对人生中大大小小的疏忽一样.
+">
+
+
+<meta property="og:title"
+    content="用 AI 辅助开发的经验二三则 - Space Looming">
+<meta property="og:description"
+    content="缘起
+2024 年的 8 月中旬, 我开始开发一个 Emacs 插件. 对 elisp 一窍不通的我, 通过 AI, 开始大家所说的 &ldquo;自然语言编程&rdquo;. 从那时起计算, 终于在 9 月 28 日发布了版本号为 0.3.5 的稳定版.
+这是我人生中, 第一次开发出, 可以稳定运行的, 可供他人使用的软件产品, 不管盈利与否, 不管是否流行, 我都觉得意义重大. 换一个角度, 作为一个开源项目， org-zettel-ref-mode 已经收获 25 个 Star, 我无论如何, 都不能把它视为一个无人问津的产品.
+这是我今年迈出的一小步, 后面是什么的一大步, 未来难以预料.
+教训/经验
+初碰软件开发, 还是不管懂不懂, 顶硬上, 碰到的问题自然是非常的多. 一个 Bug 刚修完, 另外 n 个 Bug 已经准备好跳出来了. 有段时间, 不断遇到 Bug, 不禁让我发出这样的感慨: *Bug 都是人造的，Bug 在人在，人在 Bug 在，Bug 不在人还在*。
+只要人在, Bug 一定会在. 总之目前, 我的心态, 已经放平. 这最重要的一点, 以平常心面对 Bug, 以及 Bug 总是会出现的情况 &ndash; Bug 是反馈的一种, 只不过刚好, 它反馈的是, 你疏忽的一面. 所以, 面对 Bug 很重要, 就好像我们面对人生中大大小小的疏忽一样.
+">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title"
+    content="用 AI 辅助开发的经验二三则 - Space Looming">
+<meta name="twitter:description"
+    content="缘起
+2024 年的 8 月中旬, 我开始开发一个 Emacs 插件. 对 elisp 一窍不通的我, 通过 AI, 开始大家所说的 &ldquo;自然语言编程&rdquo;. 从那时起计算, 终于在 9 月 28 日发布了版本号为 0.3.5 的稳定版.
+这是我人生中, 第一次开发出, 可以稳定运行的, 可供他人使用的软件产品, 不管盈利与否, 不管是否流行, 我都觉得意义重大. 换一个角度, 作为一个开源项目， org-zettel-ref-mode 已经收获 25 个 Star, 我无论如何, 都不能把它视为一个无人问津的产品.
+这是我今年迈出的一小步, 后面是什么的一大步, 未来难以预料.
+教训/经验
+初碰软件开发, 还是不管懂不懂, 顶硬上, 碰到的问题自然是非常的多. 一个 Bug 刚修完, 另外 n 个 Bug 已经准备好跳出来了. 有段时间, 不断遇到 Bug, 不禁让我发出这样的感慨: *Bug 都是人造的，Bug 在人在，人在 Bug 在，Bug 不在人还在*。
+只要人在, Bug 一定会在. 总之目前, 我的心态, 已经放平. 这最重要的一点, 以平常心面对 Bug, 以及 Bug 总是会出现的情况 &ndash; Bug 是反馈的一种, 只不过刚好, 它反馈的是, 你疏忽的一面. 所以, 面对 Bug 很重要, 就好像我们面对人生中大大小小的疏忽一样.
+">
+
+
+
+<link rel="canonical" href="https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/">
+
+
+      <link rel="stylesheet" href="/css/main.min.81202436c8b1d32eaeea247906ae5d20f7c9ba833f6abad16fcd0ffd3e97912c.css" integrity="sha256-gSAkNsix0y6u6iR5Bq5dIPfJuoM/arrRb80P/T6XkSw=" crossorigin="anonymous">
+
+
+      <script src="/js/main.cae3d9eba4e54c3d685682c303a39b0cc30e2473ee5331e21ead03ee70507a6e.js" integrity="sha256-yuPZ66TlTD1oVoLDA6ObDMMOJHPuUzHiHq0D7nBQem4=" crossorigin="anonymous"></script>
+
+
+
+<script>
+    
+    (function () {
+        const theme = localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+    })();
+</script>
+
+
+
+<link rel="stylesheet" href="/css/main.min.css">
+
+
+
+  
+  <link rel="stylesheet" href="/css/main.min.css">
+  
+  <link rel="stylesheet" href="/css/mobile.min.css">
+</head>
+
+<body>
+  
+<header class="mobile-header">
+    <h1 class="mobile-header__title">Space Looming</h1>
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span class="menu-icon">☰</span>
+    </button>
+</header>
+  
+<header class="site-header">
+    <header class="site-header">
+    <div class="header-content">
+        
+        <div class="site-branding">
+            <h1 class="site-title">
+                <a href="https://www.gtdstudy.com/">Space Looming</a>
+            </h1>
+            
+            <p class="site-subtitle">无垠的太空中，传来宇宙的轰鸣</p>
+            
+        </div>
+
+        
+        <div class="site-bio">
+            
+            <div class="bio-content"><p>大家好，我是一个喜欢阅读、思考以及交流的人。</p>
+<p>最近在 AI 辅助编程方面取得了不少进展。</p>
+<p>我评测过很多产品，写过很多行业预测，写了不少 Prompt，开发了 4 个 Emacs Package。</p>
+</div>
+            
+        </div>
+
+        
+        <nav class="site-nav">
+            <ul class="menu-list">
+                
+                <li class="menu-item">
+                    <a href="/">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/posts">Posts</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/tags">Tags</a>
+                </li>
+                
+                
+                <li class="menu-item">
+                    <a href="/feed.xml">Rss</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        
+        <div class="theme-toggle">
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle__icon">🌓</span>
+            </button>
+        </div>
+
+        
+        <div class="site-footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="copyright">© 2025 Yibie</p>
+                    <p class="powered-by">Powered by <a href="https://gohugo.io" target="_blank">Hugo</a></p>
+                    <p class="theme-info">Theme <a href="https://github.com/yibie/hugo-theme-deck"
+                            target="_blank">Deck</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const html = document.documentElement;
+        const themeToggle = document.getElementById('theme-toggle');
+
+        
+        themeToggle.addEventListener('click', function () {
+            const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+
+        
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+        prefersDark.addListener((e) => {
+            if (!localStorage.getItem('theme')) {
+                const systemTheme = e.matches ? 'dark' : 'light';
+                html.setAttribute('data-theme', systemTheme);
+                localStorage.setItem('theme', systemTheme);
+            }
+        });
+    });
+</script>
+</header>
+
+  <main>
+    
+<article class="single-post">
+  <header class="post-header">
+    <h1 class="post-title">用 AI 辅助开发的经验二三则</h1>
+
+    <div class="post-meta">
+      <time datetime="2024-10-14">
+        October 14, 2024
+      </time>
+
+      
+      <div class="post-categories">
+        
+        <span class="category">write</span>
+        
+      </div>
+      
+    </div>
+  </header>
+
+  <div class="post-content">
+    <p><strong>缘起</strong></p>
+<p>2024 年的 8 月中旬, 我开始开发一个 Emacs 插件. 对 elisp 一窍不通的我, 通过 AI, 开始大家所说的 &ldquo;自然语言编程&rdquo;. 从那时起计算, 终于在 9 月 28 日发布了版本号为 0.3.5 的稳定版.</p>
+<p>这是我人生中, 第一次开发出, 可以稳定运行的, 可供他人使用的软件产品, 不管盈利与否, 不管是否流行, 我都觉得意义重大. 换一个角度, 作为一个开源项目， org-zettel-ref-mode 已经收获 25 个 Star, 我无论如何, 都不能把它视为一个无人问津的产品.</p>
+<p>这是我今年迈出的一小步, 后面是什么的一大步, 未来难以预料.</p>
+<p><strong>教训/经验</strong></p>
+<p>初碰软件开发, 还是不管懂不懂, 顶硬上, 碰到的问题自然是非常的多. 一个 Bug 刚修完, 另外 n 个 Bug 已经准备好跳出来了. 有段时间, 不断遇到 Bug, 不禁让我发出这样的感慨: *Bug 都是人造的，Bug 在人在，人在 Bug 在，Bug 不在人还在*。</p>
+<p>只要人在, Bug 一定会在. 总之目前, 我的心态, 已经放平. 这最重要的一点, 以平常心面对 Bug, 以及 Bug 总是会出现的情况 &ndash; Bug 是反馈的一种, 只不过刚好, 它反馈的是, 你疏忽的一面. 所以, 面对 Bug 很重要, 就好像我们面对人生中大大小小的疏忽一样.</p>
+<p>1/ 遇到一个尝试多次, 但都无法修复的 Bug, 最适合的方法, 不是重复过去. 而是, 赶紧反思, 看看之前的方法可能存在的不足, 换一个角度, 再进行尝试. 一定不要一条道走到黑.</p>
+<p>这一点很重要, 目前我为自己定的规矩是, 如果一个 Bug, 按照原来的方向, 修复 3 次, 都无法成功, 那么就不要继续原来的方法, 而是重新思考可能的方向. 简而言之: 用同一个方式修复 3 次的 Bug, 都不成功, 就必须想一个另外的方法来尝试.</p>
+<p>在 AI 的情景里, 如果总是让 AI 尝试一种方法, 会有过度聚敛的问题 &ndash; 具体就是, 在你与 AI 对话到最后, AI 无论如何, 都好像在重复之前的回答. 那么, 这个时候, 就可以知道, 坚持同一个方向基本是无救的. 但是, AI 通常有尝试 10 次以上, 才会聚敛, 我们身为人类, 千万不要这么坚持, 3 次就差不多了, 该灵活时灵活.</p>
+<p>这么做, 会比较节约时间, 有益身心.</p>
+<p>2/ 遇到难解的 Bug, 如果真的不知道怎么办, 首先可以做的是, 让代码模块化.</p>
+<p>这个教训/经验, 来自切身的体会. 在 org-zettel-ref-mode 版本升级到 0.3.x 的时候, 代码行数膨胀到将近 2000 行. 难以想象, 这是一个主功能不超过 3 个的插件 [1].</p>
+<p>此时, 不能祈求添加新的功能, 能够修复之前积累的 Bug,  就谢天谢地了. Github 上, 一直有位兄弟 (此处褒义, 真心感谢这位大哥的帮忙), 孜孜不倦地帮我测试, Bug 那叫一个源源不断， 按下一个葫芦浮起好几个瓢. 夸张点说, 那段时间, 每天晚上都梦见青蛙在呱呱叫.</p>
+<p>我不得不认真地阅读源代码. 然后我发现, 很多代码, 即便是由头到脚, 都是自己设计的 (AI 不过是帮忙实现), 也读不懂了. 那一刻, 我是惊恐的, 我从未对一个人的有限, 产生过如此清晰的认识 &ndash; 在这之前, 即便郑钦文拿到了奥运冠军, 内心里也不过撇了撇嘴, &ldquo;如果不是老子没时间练&rdquo;. 此前 Flag  立得有多么容易, 现在打脸就有多么的痛快.</p>
+<p>回到代码本身, 有一个地方, 从一开始开发这款插件, 就一直非常容易出问题. 这是一个同步的机制, 将源文件中的注释笔记, 与标记文本, 同步到另外一个笔记里. 从 0.1 到 0.2 到 0.3, 它都一直非常容易出问题. 我为此尝试过很多办法, 甚至尝试过将同步机制直接全部硬编码 &ndash; 但都不太可行的. 当开发到 0.3.x 的版本, 同步机制一如既往地报错, 我不得不思考, 怎么样才能一劳永逸地解决这个问题.</p>
+<p>然后, 我尝试从现场抽离, 就是在我努力想把一切程序的行为, 都囊括到执行同步的函数里, 但都无法凑效时, 我不再只是考虑为什么函数无效的问题了. 我尝试从一个更高的维度去看这一函数, 如果函数本身真的没问题, 问题是否在函数外? 或者说, 是否本身这里面嵌套了太多 if&hellip;else 所以导致逻辑的不清晰?</p>
+<p>抱着这些疑问, 我重新审阅了关于同步机制的代码, 发现它一个函数, 做了好几件事情: 识别源文件中的信息 -&gt; 将识别出来的信息临时保存 -&gt; 清理目标文件的内容 -&gt; 将临时保存的信息保存到目标文件中去. 这其中, 识别源文件中的信息, 已经有单独的函数负责, 我后来的决定则是, 将清理目标文件的内容这一步, 也单独拎出来, 抽象成一个函数.</p>
+<p>效果拔群! 这么做之后, 首先, 同步函数变得很精炼, 每一步都非常清晰, 函数内的步骤不会相互打乱. 然后, 针对目标文件的清理, 我可以专门在一个函数里调试, 而不必管对它的改动之后, 还需要改动同步函数的其它地方.</p>
+<p>用一句很程序员的话来总结, 将副作用收敛到函数内. 经此一役, 我对编程中的 &ldquo;抽象&rdquo; 也有了一点小小的体会, &ldquo;抽象&rdquo; 真的博大精深, 值得用一生钻研.</p>
+<p>3/ 代码对象若是同一个, 则适合合并为同一个函数.</p>
+<p>还是同步函数带来的痛. 在终于领悟到, 把对目标文件的清理也抽象成为一个函数之后, 还是出现了新的 Bug &ndash; 同步的内容不稳定, 一会儿这个标题在上, 一会那个标题在上, 运行多几次同步函数, 两个标题忽上忽下. 好家伙, 还没过年, 就买了俩无人机上下翻腾秀操作呢?</p>
+<p>一开始, 我以为, 是之前专门抽象的清理函数出了毛病, 老盯着它改, 翻来覆去, 没什么用. 而且, 经过测试, 函数运作得好好的, 没有毛病. 那到底是哪里出了问题呢? Debug 最痛苦的地方应该就在这里, 是已知有一只 Bug, 这只 Bug 经常出来晃晃, 不管不行, 但想找它的时候, 总不知道它哪里.</p>
+<p>重新回顾同步函数运行的步骤, 得益于之前将清理步骤单独封装成函数, 同步函数的结构很清晰, 很快我找到了导致问题的根源: 针对源文件需要同步的内容, 因为从设计上会分成 2 类, 所以我拆分了 2 个函数去定义, 同时函数里也包括了如何插入内容的步骤. 在这里, 起冲突的, 是两者插入内容的步骤, 一会儿我覆盖你, 一会儿你覆盖我, 就看函数在内存里, 谁被 CPU 先拎去执行.</p>
+<p>所以, 为什么会产生这种冲突呢? 原因是, 两个代码的对象, 实际上是同一个: 目标文件中的固定区域.</p>
+<p>以终为始, 既然如此, 那么两个函数就合并到一起: 我用另外一个函数, 将之前的 2 个函数都封装了在一起, 还将他们针对目标文件的操作从原来的函数里去掉, 然后封装到新函数中. 这个做法, 就好像专门用一辆车, 专门将人运送到固定的地点.</p>
+<p>4/ 功能一个一个地加, Bug 一个一个地修.</p>
+<p>不要一下子添加太多变量, 不但无助于自己的判断, 还更容易引发更多的 Bug. 程序界里的一个经典, 就是任何代码都有副作用. 而引入的变量, 是非常容易产生副作用的方式. 程序员不喜欢副作用, 不是因为副作用一定不好, 而在于副作用无法预期.</p>
+<p>副作用一多, 程序也非常不稳定 &ndash; 届时, 想找出崩溃的原因,很困难, 想象一下, 一个打满了结的绳子, 想找出绳头是多么不容易的事, 总想着抄起剪刀一把剪开.</p>
+<p>而用 Cursor 之类的工具来开发, 一个弊端是, AI 有的时候过度灵活, 经常自顾自地把变量改掉, 或者完全忽略掉之前开发过类似的功能与代码, 不光重复发明轮子, 还会带来过多的副作用. 因此, 使用 AI 开发, 最好是自己心中有框架, 让 AI 一步一步去实现.</p>
+<p>否则, 副作用一多, 相互影响, 我中有你, 你中有我, Debug 都不知道怎么下手.</p>
+<p>[1] <a href="https://github.com/yibie/org-zettel-ref-mode">org-zettle-ref-mode</a> 的主功能：1. 在阅读原文时， 打开另外一个名为 overview 的窗口. 2. 将笔记, 和标记文本, 同步到 overview 窗口中去. 3. 同步到 overveiw 的内容, 会自动保存为 org 笔记.</p>
+
+  </div>
+
+  
+</article>
+
+  </main>
+
+  
+  
+<div class="scroll-indicator" aria-hidden="true">👉</div>
+</body>
+
+</html>

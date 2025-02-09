@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>最小练习单位 - Space Looming</title>
+<meta name="description"
+    content="之前, 我发展了一个概念, 叫 &ldquo;最小创造单位&rdquo;. 它大概面对的情景是, 自己闲着, 不知道自己干点什么的时候, 想一想能够在很有限的时间里, 捣鼓点什么出来, 是一个无中生有的过程.
+今天我想把 &ldquo;最小单位&rdquo; 这个概念, 再延伸一点, 叫 &ldquo;最小练习单位&rdquo;. 起因是, 每天需要学习的东西很多, 有时候会陷入犹豫, 在确定自己练习什么的时候, 太阳西下, 天色也昏沉. 此时惊觉, 一天已过.
+&ldquo;犹豫就会败北!&rdquo; 所以, 我刻意地想提 &ldquo;最小练习单位&rdquo;, 将自己从踌躇不决的境地里拯救出来.
+然后我观察了放多大牛的学习方式, 其中 Django 框架的作者(之一) Simon Willams 令我印象深刻.
+他的博客内容量极大, 有好几个栏目, 可以从他自己制作的月报看到, 有包含观点的文章, 有记录自己新实验或者练习 TIL, 还有自己的开源项目的新版本更新等等. 这些还不止, 在博客的侧边栏, 还有他分享的, 自己每天看过觉得不错的网络文章.
+如果说, 我想在现代社会里, 找到一个人, 像 Zettelkasten 发明人那么高产, 那么可能就是 Simon Willams 了.
+在他的 TIL (就是 Today I Learned 的意思) 栏目里, 会看到他从不间断地练习记录 &ndash; 这些练习有的长, 有的很短. 在他繁忙的日常里, 他总会抽出一点时间出来, 去探索新鲜的玩意, 去掌握自己之前不知道的知识.
+">
+
+
+<meta property="og:title"
+    content="最小练习单位 - Space Looming">
+<meta property="og:description"
+    content="之前, 我发展了一个概念, 叫 &ldquo;最小创造单位&rdquo;. 它大概面对的情景是, 自己闲着, 不知道自己干点什么的时候, 想一想能够在很有限的时间里, 捣鼓点什么出来, 是一个无中生有的过程.
+今天我想把 &ldquo;最小单位&rdquo; 这个概念, 再延伸一点, 叫 &ldquo;最小练习单位&rdquo;. 起因是, 每天需要学习的东西很多, 有时候会陷入犹豫, 在确定自己练习什么的时候, 太阳西下, 天色也昏沉. 此时惊觉, 一天已过.
+&ldquo;犹豫就会败北!&rdquo; 所以, 我刻意地想提 &ldquo;最小练习单位&rdquo;, 将自己从踌躇不决的境地里拯救出来.
+然后我观察了放多大牛的学习方式, 其中 Django 框架的作者(之一) Simon Willams 令我印象深刻.
+他的博客内容量极大, 有好几个栏目, 可以从他自己制作的月报看到, 有包含观点的文章, 有记录自己新实验或者练习 TIL, 还有自己的开源项目的新版本更新等等. 这些还不止, 在博客的侧边栏, 还有他分享的, 自己每天看过觉得不错的网络文章.
+如果说, 我想在现代社会里, 找到一个人, 像 Zettelkasten 发明人那么高产, 那么可能就是 Simon Willams 了.
+在他的 TIL (就是 Today I Learned 的意思) 栏目里, 会看到他从不间断地练习记录 &ndash; 这些练习有的长, 有的很短. 在他繁忙的日常里, 他总会抽出一点时间出来, 去探索新鲜的玩意, 去掌握自己之前不知道的知识.
+">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.gtdstudy.com/posts/the-minimum-practice-unit/">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title"
+    content="最小练习单位 - Space Looming">
+<meta name="twitter:description"
+    content="之前, 我发展了一个概念, 叫 &ldquo;最小创造单位&rdquo;. 它大概面对的情景是, 自己闲着, 不知道自己干点什么的时候, 想一想能够在很有限的时间里, 捣鼓点什么出来, 是一个无中生有的过程.
+今天我想把 &ldquo;最小单位&rdquo; 这个概念, 再延伸一点, 叫 &ldquo;最小练习单位&rdquo;. 起因是, 每天需要学习的东西很多, 有时候会陷入犹豫, 在确定自己练习什么的时候, 太阳西下, 天色也昏沉. 此时惊觉, 一天已过.
+&ldquo;犹豫就会败北!&rdquo; 所以, 我刻意地想提 &ldquo;最小练习单位&rdquo;, 将自己从踌躇不决的境地里拯救出来.
+然后我观察了放多大牛的学习方式, 其中 Django 框架的作者(之一) Simon Willams 令我印象深刻.
+他的博客内容量极大, 有好几个栏目, 可以从他自己制作的月报看到, 有包含观点的文章, 有记录自己新实验或者练习 TIL, 还有自己的开源项目的新版本更新等等. 这些还不止, 在博客的侧边栏, 还有他分享的, 自己每天看过觉得不错的网络文章.
+如果说, 我想在现代社会里, 找到一个人, 像 Zettelkasten 发明人那么高产, 那么可能就是 Simon Willams 了.
+在他的 TIL (就是 Today I Learned 的意思) 栏目里, 会看到他从不间断地练习记录 &ndash; 这些练习有的长, 有的很短. 在他繁忙的日常里, 他总会抽出一点时间出来, 去探索新鲜的玩意, 去掌握自己之前不知道的知识.
+">
+
+
+
+<link rel="canonical" href="https://www.gtdstudy.com/posts/the-minimum-practice-unit/">
+
+
+      <link rel="stylesheet" href="/css/main.min.81202436c8b1d32eaeea247906ae5d20f7c9ba833f6abad16fcd0ffd3e97912c.css" integrity="sha256-gSAkNsix0y6u6iR5Bq5dIPfJuoM/arrRb80P/T6XkSw=" crossorigin="anonymous">
+
+
+      <script src="/js/main.cae3d9eba4e54c3d685682c303a39b0cc30e2473ee5331e21ead03ee70507a6e.js" integrity="sha256-yuPZ66TlTD1oVoLDA6ObDMMOJHPuUzHiHq0D7nBQem4=" crossorigin="anonymous"></script>
+
+
+
+<script>
+    
+    (function () {
+        const theme = localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+    })();
+</script>
+
+
+
+<link rel="stylesheet" href="/css/main.min.css">
+
+
+
+  
+  <link rel="stylesheet" href="/css/main.min.css">
+  
+  <link rel="stylesheet" href="/css/mobile.min.css">
+</head>
+
+<body>
+  
+<header class="mobile-header">
+    <h1 class="mobile-header__title">Space Looming</h1>
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span class="menu-icon">☰</span>
+    </button>
+</header>
+  
+<header class="site-header">
+    <header class="site-header">
+    <div class="header-content">
+        
+        <div class="site-branding">
+            <h1 class="site-title">
+                <a href="https://www.gtdstudy.com/">Space Looming</a>
+            </h1>
+            
+            <p class="site-subtitle">无垠的太空中，传来宇宙的轰鸣</p>
+            
+        </div>
+
+        
+        <div class="site-bio">
+            
+            <div class="bio-content"><p>大家好，我是一个喜欢阅读、思考以及交流的人。</p>
+<p>最近在 AI 辅助编程方面取得了不少进展。</p>
+<p>我评测过很多产品，写过很多行业预测，写了不少 Prompt，开发了 4 个 Emacs Package。</p>
+</div>
+            
+        </div>
+
+        
+        <nav class="site-nav">
+            <ul class="menu-list">
+                
+                <li class="menu-item">
+                    <a href="/">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/posts">Posts</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/tags">Tags</a>
+                </li>
+                
+                
+                <li class="menu-item">
+                    <a href="/feed.xml">Rss</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        
+        <div class="theme-toggle">
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle__icon">🌓</span>
+            </button>
+        </div>
+
+        
+        <div class="site-footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="copyright">© 2025 Yibie</p>
+                    <p class="powered-by">Powered by <a href="https://gohugo.io" target="_blank">Hugo</a></p>
+                    <p class="theme-info">Theme <a href="https://github.com/yibie/hugo-theme-deck"
+                            target="_blank">Deck</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const html = document.documentElement;
+        const themeToggle = document.getElementById('theme-toggle');
+
+        
+        themeToggle.addEventListener('click', function () {
+            const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+
+        
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+        prefersDark.addListener((e) => {
+            if (!localStorage.getItem('theme')) {
+                const systemTheme = e.matches ? 'dark' : 'light';
+                html.setAttribute('data-theme', systemTheme);
+                localStorage.setItem('theme', systemTheme);
+            }
+        });
+    });
+</script>
+</header>
+
+  <main>
+    
+<article class="single-post">
+  <header class="post-header">
+    <h1 class="post-title">最小练习单位</h1>
+
+    <div class="post-meta">
+      <time datetime="2024-11-05">
+        November 5, 2024
+      </time>
+
+      
+    </div>
+  </header>
+
+  <div class="post-content">
+    <p>之前, 我发展了一个概念, 叫 &ldquo;<a href="https://www.gtdstudy.com/posts/minimum-creation-unit/">最小创造单位</a>&rdquo;. 它大概面对的情景是, 自己闲着, 不知道自己干点什么的时候, 想一想能够在很有限的时间里, 捣鼓点什么出来, 是一个无中生有的过程.</p>
+<p>今天我想把 &ldquo;最小单位&rdquo; 这个概念, 再延伸一点, 叫 &ldquo;最小练习单位&rdquo;. 起因是, 每天需要学习的东西很多, 有时候会陷入犹豫, 在确定自己练习什么的时候, 太阳西下, 天色也昏沉. 此时惊觉, 一天已过.</p>
+<p>&ldquo;犹豫就会败北!&rdquo; 所以, 我刻意地想提 &ldquo;最小练习单位&rdquo;, 将自己从踌躇不决的境地里拯救出来.</p>
+<p>然后我观察了放多大牛的学习方式, 其中 Django 框架的作者(之一) Simon Willams 令我印象深刻.</p>
+<p>他的博客内容量极大, 有好几个栏目, 可以从他自己制作的<a href="https://simonwillison.net/2024/Oct/30/monthnotes/">月报</a>看到, 有包含观点的文章, 有记录自己新实验或者练习 TIL, 还有自己的开源项目的新版本更新等等. 这些还不止, 在博客的侧边栏, 还有他分享的, 自己每天看过觉得不错的网络文章.</p>
+<p>如果说, 我想在现代社会里, 找到一个人, 像 Zettelkasten 发明人那么高产, 那么可能就是 Simon Willams 了.</p>
+<p>在他的 <a href="https://til.simonwillison.net/">TIL</a> (就是 Today I Learned 的意思) 栏目里, 会看到他从不间断地练习记录 &ndash; 这些练习有的长, 有的很短. 在他繁忙的日常里, 他总会抽出一点时间出来, 去探索新鲜的玩意, 去掌握自己之前不知道的知识.</p>
+<p>关于 &ldquo;最小练习单位&rdquo;, 我可能未必能够像 Simon Willams 那么高产, 但我觉得, 能够多向他靠拢一点, 也是一种幸福 &ndash; 我不要求 &ldquo;最小练习单位&rdquo; 会让自己变得伟大, 仅仅在于, 让自己有一个刻意练习的时间, 尽管是 10 分钟, 只了解和练习 Vim 的一个移动操作, 也行.</p>
+<p>一本好几百页的书, 一天是读不完的, 但如果拆分成一天读 10 页, 甚至是更少, 5 页, 只要能够持续读下去, 总有一天能够读完. 我认为这是 &ldquo;最小练习单位&rdquo; 的价值和意义所在.</p>
+
+  </div>
+
+  
+</article>
+
+  </main>
+
+  
+  
+<div class="scroll-indicator" aria-hidden="true">👉</div>
+</body>
+
+</html>
