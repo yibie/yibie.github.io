@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>痛苦 on Space Looming</title>
+    <title>痛苦 - Space Looming</title>
     <link>https://www.gtdstudy.com/tags/%E7%97%9B%E8%8B%A6/</link>
-    <description>Recent content in 痛苦 on Space Looming</description>
-    <generator>Hugo</generator>
+    <description>Space Looming</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    
+    
+    
     <lastBuildDate>Sat, 20 Nov 2021 09:11:56 +0800</lastBuildDate>
+    
     <atom:link href="https://www.gtdstudy.com/tags/%E7%97%9B%E8%8B%A6/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>人生：人的痛苦来自 3 种信念</title>
       <link>https://www.gtdstudy.com/posts/three-type-of-pain/</link>
       <pubDate>Sat, 20 Nov 2021 09:11:56 +0800</pubDate>
+      
       <guid>https://www.gtdstudy.com/posts/three-type-of-pain/</guid>
-      <description>&lt;p&gt;心理学家阿尔伯特.埃利斯说：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;我必须要把事情做好，得到表扬，否则我就很烂。&lt;/li&gt;&#xA;&lt;li&gt;别人必须喜欢我，必须对我好，或者对我公平。否则就很糟糕。&lt;/li&gt;&#xA;&lt;li&gt;世上的事情必须是容易的，一切都必须和我想象得样。否则就太糟糕了。&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>&lt;p&gt;心理学家阿尔伯特.埃利斯说：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;我必须要把事情做好，得到表扬，否则我就很烂。&lt;/li&gt;
+&lt;li&gt;别人必须喜欢我，必须对我好，或者对我公平。否则就很糟糕。&lt;/li&gt;
+&lt;li&gt;世上的事情必须是容易的，一切都必须和我想象得样。否则就太糟糕了。&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+      
+      
+      <category>summary</category>
+      
+      
     </item>
+    
   </channel>
-</rss>
+</rss> 

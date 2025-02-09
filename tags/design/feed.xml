@@ -1,19 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Design on Space Looming</title>
+    <title>Design - Space Looming</title>
     <link>https://www.gtdstudy.com/tags/design/</link>
-    <description>Recent content in Design on Space Looming</description>
-    <generator>Hugo</generator>
+    <description>Space Looming</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2025 20:50:00 +0800</lastBuildDate>
+    
+    
+    
+    <lastBuildDate>Sat, 01 Feb 2025 18:09:00 +0800</lastBuildDate>
+    
     <atom:link href="https://www.gtdstudy.com/tags/design/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>读完《软件设计的哲学》</title>
       <link>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</link>
       <pubDate>Sat, 01 Feb 2025 18:09:00 +0800</pubDate>
+      
       <guid>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</guid>
-      <description>&lt;p&gt;整本书的思想是关于软件开发时，预防、控制复杂度的发生。但我觉得，这实际上是一种思想。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;复杂度是熵&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;这是我第一重感悟。在本书中，开题就已经说明了，一切和复杂度有关（It&amp;rsquo;s All About Complextiy）。复杂度就如宇宙中的熵一样，无处不在。它就好像是埋藏在诸多事物下的真相一样，看上去不会引发任何问题，但任何问题都可能和它有关。&lt;/p&gt;&#xA;&lt;p&gt;本书虽然说明复杂度是软件系统中混乱的来源，然而我认为，复杂度不光会造成软件系统的混乱，其实在任何领域都存在。简单而言，如果一个产品的设计让你感到认知失调，那么，这产品本身的熵含量可能过高了。在组织结构里，如果感到组织混乱，那么组织里的熵含量也可能过高。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;接口简单，模块复杂&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;以书中提供的方法，降低复杂度（熵）的方法是，将整体拆分成可相互协调的模块。这些模块最好可以做到，功能复杂，接口简单。这样做，可以将复杂度封闭在模块之内，不溢出。&lt;/p&gt;&#xA;&lt;p&gt;一个模块，需要具备完备性——关于它的方方面面，都在模块内部完成，包括边缘情况的处理。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;设计多次，找到最优&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;作者批评他称之为“战术式编程”的做法，同时他将 Facebook 作为反面例子，这种做法只管功能完成，而不考虑任何软件设计。我印象中，Facebook 确实因为急功近利的开发风格，而付出了好几年的时间，来优化其基础代码和框架。&lt;/p&gt;&#xA;&lt;p&gt;简而言之，设计多次的意思是说，在考虑一个功能实现的时候，多想几个方案，然后在这几个方案当中找到一个最佳实践。他认为，每一次只需要投入 10% 到 20% 的时间既可，尽管我不知道他说的这 10% 和 20% 的时间是从何而来。&lt;/p&gt;&#xA;&lt;p&gt;不过我觉得，如果可以在前期尽量在设计方面多花一点时间，后续功能的增减删改，都可以变得十分简单。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;我的实践&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;最近我开发了一个名为 org-luhmann 的 Emacs 包，我发现基于过去的开发经验，不自觉地实践了《软件设计的哲学》里的思想，与方法。&lt;/p&gt;&#xA;&lt;p&gt;这个包其实很简单，就是给每一个笔记节点插入卢曼式风格的编号。&lt;/p&gt;&#xA;&lt;p&gt;它做到了如下几点：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;接口简单，模块复杂。&lt;/p&gt;&#xA;&lt;p&gt;对于用户而言，它只有 2 个命令，一个是生成卢曼式编号的节点，一个是为已有节点添加编号。&#xA;用户无需考虑当前的节点处于什么位置，这两个命令都会自动检测光标所在的位置，根据上下文，自动提供编号，减轻手动输入编号的压力。&#xA;在它的内部，这两个命令实际上共用着一个大模块，使用这个模块提供的基础特性。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;设计多次，找到最优。&lt;/p&gt;&#xA;&lt;p&gt;开发过程中 org-luhmann 经历了 1 次重构。一开始，我打算设计一个自动编号的系统，但是实现起来问题重重：&lt;/p&gt;&#xA;&lt;p&gt;主要是卢曼式编号的规则，与一般的文书编号规则不同，针对同一级别的标题，可以是单纯的数字，也可以是英文字母。比如 1.1、1.1a、1.2 这几个编号是同级的。如果使用自动编号系统，很难识别这两种条件都属于同一种类型。导致很多错误的发生，而且为了避免这种错误，又要设计各种处理异常情况的代码，令整个系统的复杂度急剧增加。&lt;/p&gt;&#xA;&lt;p&gt;另外就是，org-luhmann 针对的是一个动态的笔记体系，而非静态文档。针对动态体系，使用完全自动化编号的方法，使用起来很不舒服。整体系统的运作负担也很大，增减删改都会直接影响整体的编号，而这会导致性能方面的开销过大，让整体表现缓慢。&lt;/p&gt;&#xA;&lt;p&gt;自动编号方案的效果不理想，我转向了另外一个方案，根据上下文情景检测，自动提供编号。一开始只是一个粗略的想法，在逐步实现的过程当中，发现这个方案，成功地降低了复杂度：不需要处理大量复杂的异常情况，不需要处理特殊规则，只需检测父节点以及上一个相邻节点的编号，就可以决定当前笔记节点的编号，性能很快，可以满足动态添加笔记的情景。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;整本书的思想是关于软件开发时，预防、控制复杂度的发生。但我觉得，这实际上是一种思想。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;复杂度是熵&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是我第一重感悟。在本书中，开题就已经说明了，一切和复杂度有关（It&amp;rsquo;s All About Complextiy）。复杂度就如宇宙中的熵一样，无处不在。它就好像是埋藏在诸多事物下的真相一样，看上去不会引发任何问题，但任何问题都可能和它有关。&lt;/p&gt;
+&lt;p&gt;本书虽然说明复杂度是软件系统中混乱的来源，然而我认为，复杂度不光会造成软件系统的混乱，其实在任何领域都存在。简单而言，如果一个产品的设计让你感到认知失调，那么，这产品本身的熵含量可能过高了。在组织结构里，如果感到组织混乱，那么组织里的熵含量也可能过高。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;接口简单，模块复杂&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以书中提供的方法，降低复杂度（熵）的方法是，将整体拆分成可相互协调的模块。这些模块最好可以做到，功能复杂，接口简单。这样做，可以将复杂度封闭在模块之内，不溢出。&lt;/p&gt;
+&lt;p&gt;一个模块，需要具备完备性——关于它的方方面面，都在模块内部完成，包括边缘情况的处理。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设计多次，找到最优&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;作者批评他称之为“战术式编程”的做法，同时他将 Facebook 作为反面例子，这种做法只管功能完成，而不考虑任何软件设计。我印象中，Facebook 确实因为急功近利的开发风格，而付出了好几年的时间，来优化其基础代码和框架。&lt;/p&gt;
+&lt;p&gt;简而言之，设计多次的意思是说，在考虑一个功能实现的时候，多想几个方案，然后在这几个方案当中找到一个最佳实践。他认为，每一次只需要投入 10% 到 20% 的时间既可，尽管我不知道他说的这 10% 和 20% 的时间是从何而来。&lt;/p&gt;
+&lt;p&gt;不过我觉得，如果可以在前期尽量在设计方面多花一点时间，后续功能的增减删改，都可以变得十分简单。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我的实践&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最近我开发了一个名为 org-luhmann 的 Emacs 包，我发现基于过去的开发经验，不自觉地实践了《软件设计的哲学》里的思想，与方法。&lt;/p&gt;
+&lt;p&gt;这个包其实很简单，就是给每一个笔记节点插入卢曼式风格的编号。&lt;/p&gt;
+&lt;p&gt;它做到了如下几点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;接口简单，模块复杂。&lt;/p&gt;
+&lt;p&gt;对于用户而言，它只有 2 个命令，一个是生成卢曼式编号的节点，一个是为已有节点添加编号。
+用户无需考虑当前的节点处于什么位置，这两个命令都会自动检测光标所在的位置，根据上下文，自动提供编号，减轻手动输入编号的压力。
+在它的内部，这两个命令实际上共用着一个大模块，使用这个模块提供的基础特性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;设计多次，找到最优。&lt;/p&gt;
+&lt;p&gt;开发过程中 org-luhmann 经历了 1 次重构。一开始，我打算设计一个自动编号的系统，但是实现起来问题重重：&lt;/p&gt;
+&lt;p&gt;主要是卢曼式编号的规则，与一般的文书编号规则不同，针对同一级别的标题，可以是单纯的数字，也可以是英文字母。比如 1.1、1.1a、1.2 这几个编号是同级的。如果使用自动编号系统，很难识别这两种条件都属于同一种类型。导致很多错误的发生，而且为了避免这种错误，又要设计各种处理异常情况的代码，令整个系统的复杂度急剧增加。&lt;/p&gt;
+&lt;p&gt;另外就是，org-luhmann 针对的是一个动态的笔记体系，而非静态文档。针对动态体系，使用完全自动化编号的方法，使用起来很不舒服。整体系统的运作负担也很大，增减删改都会直接影响整体的编号，而这会导致性能方面的开销过大，让整体表现缓慢。&lt;/p&gt;
+&lt;p&gt;自动编号方案的效果不理想，我转向了另外一个方案，根据上下文情景检测，自动提供编号。一开始只是一个粗略的想法，在逐步实现的过程当中，发现这个方案，成功地降低了复杂度：不需要处理大量复杂的异常情况，不需要处理特殊规则，只需检测父节点以及上一个相邻节点的编号，就可以决定当前笔记节点的编号，性能很快，可以满足动态添加笔记的情景。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      
+      
+      <category>read</category>
+      
+      
     </item>
+    
   </channel>
-</rss>
+</rss> 
