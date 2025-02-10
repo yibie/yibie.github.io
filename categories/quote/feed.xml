@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quote - Space Looming</title>
-    <link>https://www.gtdstudy.com/categories/quote/</link>
+    <link>http://localhost:1313/categories/quote/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Tue, 31 May 2022 10:52:44 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/categories/quote/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/quote/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>网络孤独感：我们更像是一个顾客，拿时间与精力在赛博空间里购买认同感</title>
-      <link>https://www.gtdstudy.com/posts/the-internet-make-people-feel-more-lonelier-than-ever/</link>
+      <link>http://localhost:1313/posts/the-internet-make-people-feel-more-lonelier-than-ever/</link>
       <pubDate>Tue, 31 May 2022 10:52:44 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/the-internet-make-people-feel-more-lonelier-than-ever/</guid>
+      <guid>http://localhost:1313/posts/the-internet-make-people-feel-more-lonelier-than-ever/</guid>
       <description>&lt;p&gt;机核网刊登一篇&lt;a href=&#34;https://www.gcores.com/articles/151702&#34;&gt;文章&lt;/a&gt;，很是感慨，说「互联网彼此让人感觉更加遥远了」。&lt;/p&gt;
 &lt;h2 id=&#34;每个社交区块就好像小泡泡&#34;&gt;每个社交区块就好像小泡泡&lt;/h2&gt;
 &lt;blockquote&gt;
