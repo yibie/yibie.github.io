@@ -306,21 +306,60 @@
 
 <script>
     function slideToNextColumn() {
-        const deckScroll = document.querySelector('.deck-scroll');
-        const currentScroll = deckScroll.scrollLeft;
+        const container = document.querySelector('.deck-container');
         const columnWidth = window.innerWidth;
+        const maxScroll = container.scrollWidth - container.clientWidth;
 
         
-        const nextScroll = currentScroll + columnWidth;
+        const currentScroll = container.scrollLeft;
 
         
-        if (nextScroll >= deckScroll.scrollWidth) {
-            deckScroll.scrollTo({ left: 0, behavior: 'smooth' });
-        } else {
-            deckScroll.scrollTo({ left: nextScroll, behavior: 'smooth' });
+        let nextScroll = currentScroll + columnWidth;
+
+        
+        if (nextScroll > maxScroll) {
+            nextScroll = 0;
         }
+
+        
+        container.scrollTo({
+            left: nextScroll,
+            behavior: 'smooth'
+        });
     }
 </script>
+
+<style>
+     
+    .scroll-indicator {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        background: var(--color-primary);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
+        cursor: pointer;
+        z-index: 1000;
+        opacity: 0.8;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+
+    .scroll-indicator:hover {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
+    .scroll-indicator:active {
+        transform: scale(0.95);
+    }
+</style>
 </body>
 
 </html>
