@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本 - Space Looming</title>
@@ -22,7 +22,7 @@ flush-lines 的意思是，排除你输入关键字的文本行。
 由于这两个命令，运行之后会直接修改文本内容，因此不要直接用于正在使用的业务文件中。
 ">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.gtdstudy.com/posts/emacs-keep-flush-lines/">
+<meta property="og:url" content="http://localhost:1313/posts/emacs-keep-flush-lines/">
 
 
 
@@ -38,13 +38,13 @@ flush-lines 的意思是，排除你输入关键字的文本行。
 
 
 
-<link rel="canonical" href="https://www.gtdstudy.com/posts/emacs-keep-flush-lines/">
+<link rel="canonical" href="http://localhost:1313/posts/emacs-keep-flush-lines/">
 
 
-      <link rel="stylesheet" href="/css/main.min.3976ebc34cf243ed63558c5b243c035c01ae458ea3e3a5cb2766ce1847857aa9.css" integrity="sha256-OXbrw0zyQ&#43;1jVYxbJDwDXAGuRY6j46XLJ2bOGEeFeqk=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
 
 
-      <script src="/js/main.cae3d9eba4e54c3d685682c303a39b0cc30e2473ee5331e21ead03ee70507a6e.js" integrity="sha256-yuPZ66TlTD1oVoLDA6ObDMMOJHPuUzHiHq0D7nBQem4=" crossorigin="anonymous"></script>
+      <script src="/js/main.js"></script>
 
 
 
@@ -73,7 +73,38 @@ flush-lines 的意思是，排除你输入关键字的文本行。
   
 <header class="mobile-header">
     <h1 class="mobile-header__title">Space Looming</h1>
+    <button id="columnToggle" class="column-toggle" aria-label="Toggle Column">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+    </button>
 </header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const columnToggle = document.getElementById('columnToggle');
+        const deckScroll = document.querySelector('.deck-scroll');
+        let currentColumnIndex = 0;
+
+        
+        const columns = document.querySelectorAll('.deck-column');
+
+        columnToggle.addEventListener('click', function () {
+            currentColumnIndex = (currentColumnIndex + 1) % columns.length;
+
+            
+            const columnWidth = columns[0].offsetWidth;
+            deckScroll.scrollTo({
+                left: currentColumnIndex * columnWidth,
+                behavior: 'smooth'
+            });
+
+            
+            columnToggle.style.transform = `rotate(${currentColumnIndex * (360 / columns.length)}deg)`;
+        });
+    });
+</script>
   
 <header class="site-header">
     <header class="site-header">
@@ -81,7 +112,7 @@ flush-lines 的意思是，排除你输入关键字的文本行。
         
         <div class="site-branding">
             <h1 class="site-title">
-                <a href="https://www.gtdstudy.com/">Space Looming</a>
+                <a href="http://localhost:1313/">Space Looming</a>
             </h1>
             
             <p class="site-subtitle">无垠的太空中，传来宇宙的轰鸣</p>

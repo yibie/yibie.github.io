@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quotes - Space Looming</title>
-    <link>https://www.gtdstudy.com/categories/quotes/</link>
+    <link>http://localhost:1313/categories/quotes/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/categories/quotes/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/quotes/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The best way to predict the future is to invent it</title>
-      <link>https://www.gtdstudy.com/posts/quote-example/</link>
+      <link>http://localhost:1313/posts/quote-example/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/quote-example/</guid>
+      <guid>http://localhost:1313/posts/quote-example/</guid>
       <description>&lt;p&gt;Additional context or notes about this quote can be added here, but won&amp;rsquo;t be displayed in the quote column.&lt;/p&gt;
 
       </description>
@@ -32,10 +32,10 @@
     
     <item>
       <title>生活不是等待暴风雨过去，而是学会在雨中跳舞</title>
-      <link>https://www.gtdstudy.com/posts/example-quote/</link>
+      <link>http://localhost:1313/posts/example-quote/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/example-quote/</guid>
+      <guid>http://localhost:1313/posts/example-quote/</guid>
       <description>&lt;p&gt;生活不是等待暴风雨过去，而是学会在雨中跳舞。&lt;/p&gt;
 &lt;p&gt;测试&lt;/p&gt;
 
@@ -49,10 +49,10 @@
     
     <item>
       <title>更高级的哲人独处着，这并不是因为他想孤独，而是因为在他周围找不到他的同类。</title>
-      <link>https://www.gtdstudy.com/posts/some-notes-from-dao/</link>
+      <link>http://localhost:1313/posts/some-notes-from-dao/</link>
       <pubDate>Tue, 27 Sep 2022 08:37:46 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/some-notes-from-dao/</guid>
+      <guid>http://localhost:1313/posts/some-notes-from-dao/</guid>
       <description>&lt;h2 id=&#34;第三章&#34;&gt;第三章&lt;/h2&gt;
 &lt;p&gt;“丁元英自己端起酒喝了一杯，说：“你办事老总裁放心，但董事局不一定放心。董事局关心的不是老总裁的遗嘱，而是利润。同时，这里还有一个资历问题，对你也是一个潜在的障碍。退一步，让两个副总裁之间的矛盾上升为主要矛盾，让他们去内耗，等他们斗得两败俱伤的时候，企业必然会蒙受损失，此消彼长，有个比较。当董事局看清楚谁是争权的、谁是干事的，自然就众望所归了，你才有可能树立真正的权威。否则，你一登上拳台就会促使他们先结成联盟，你很可能是第一个牺牲品。”&lt;/p&gt;
 &lt;p&gt;韩楚风问：“他们要是不内耗呢？”&lt;/p&gt;
@@ -120,10 +120,10 @@
     
     <item>
       <title>「批评」轻松又快速，「创造」困难又缓慢</title>
-      <link>https://www.gtdstudy.com/posts/gold-quotation-2022-04-30/</link>
+      <link>http://localhost:1313/posts/gold-quotation-2022-04-30/</link>
       <pubDate>Sat, 30 Apr 2022 23:14:40 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/gold-quotation-2022-04-30/</guid>
+      <guid>http://localhost:1313/posts/gold-quotation-2022-04-30/</guid>
       <description>&lt;h2 id=&#34;互联网批评太快-击溃创造&#34;&gt;互联网批评太快，击溃创造&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;「批评」轻松又快速，「创造」困难又缓慢。——华尔街商学院心理学家 Adam Grant&lt;/p&gt;
@@ -149,10 +149,10 @@
     
     <item>
       <title>中年人專注自己的興趣，分享樂在其中之味，都好。但是擺出一副全天下你最懂的姿態，就混蛋了，以及顯老了。</title>
-      <link>https://www.gtdstudy.com/posts/how-to-summary-of-one-man-in-middle-age/</link>
+      <link>http://localhost:1313/posts/how-to-summary-of-one-man-in-middle-age/</link>
       <pubDate>Wed, 13 Apr 2022 09:06:39 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/how-to-summary-of-one-man-in-middle-age/</guid>
+      <guid>http://localhost:1313/posts/how-to-summary-of-one-man-in-middle-age/</guid>
       <description>&lt;p&gt;来自 Twitter &lt;a href=&#34;https://twitter.com/hao520/status/1489038593536716800&#34;&gt;@Chih-Hao Tsai&lt;/a&gt;&lt;/p&gt;
 
       </description>
@@ -165,10 +165,10 @@
     
     <item>
       <title>用户倾向于相信他自己选择相信的结果，而非全局最优的结果。</title>
-      <link>https://www.gtdstudy.com/posts/search-seo-video-social/</link>
+      <link>http://localhost:1313/posts/search-seo-video-social/</link>
       <pubDate>Mon, 21 Mar 2022 14:09:14 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/search-seo-video-social/</guid>
+      <guid>http://localhost:1313/posts/search-seo-video-social/</guid>
       <description>&lt;p&gt;文章来自 BOSS 直聘策略产品负人&lt;a href=&#34;https://mp.weixin.qq.com/s/W54f3gXcJHTegzGbIwT%5FSg&#34;&gt;闫泽华​&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;搜索视频化-可检索资源变丰富&#34;&gt;搜索视频化 - 可检索资源变丰富&lt;/h2&gt;
 &lt;p&gt;视频化，丰富了内容的供给。脱离了足够的供给，我们就不太可能让用户满意。图文、视频都是内容的载体。今天大面积的内容视频化，客观上繁荣了内容的供给。&lt;/p&gt;
@@ -189,10 +189,10 @@
     
     <item>
       <title>进场费率则从 1% 增长至 16.3%</title>
-      <link>https://www.gtdstudy.com/posts/shared-power-bank-dieing/</link>
+      <link>http://localhost:1313/posts/shared-power-bank-dieing/</link>
       <pubDate>Sat, 12 Mar 2022 18:47:30 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/shared-power-bank-dieing/</guid>
+      <guid>http://localhost:1313/posts/shared-power-bank-dieing/</guid>
       <description>&lt;p&gt;原文来自&lt;a href=&#34;https://www.jiemian.com/article/7200126.html&#34;&gt;界面&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;共享充电宝无壁垒-竞争白热化导致营销费用高企&#34;&gt;共享充电宝无壁垒，竞争白热化导致营销费用高企&lt;/h2&gt;
 &lt;p&gt;拆解怪兽财报便会发现，其亏损主要是高昂的营销费用所致。2021 年 Q3，怪兽充电的营销费用高达 8.14 亿元，占当季营收的 87.53%，同比增长 23.8%。这源于促进网络合作伙伴的激励费用增加，POI 覆盖率扩大和人员相关开支的增加而导致。&lt;/p&gt;
@@ -219,10 +219,10 @@
     
     <item>
       <title>不要奢求能看清所有事实，但也不要认为只有自己看到的一面才是事实。</title>
-      <link>https://www.gtdstudy.com/posts/you-couldnt-known-every-facts/</link>
+      <link>http://localhost:1313/posts/you-couldnt-known-every-facts/</link>
       <pubDate>Sun, 27 Feb 2022 22:30:59 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/you-couldnt-known-every-facts/</guid>
+      <guid>http://localhost:1313/posts/you-couldnt-known-every-facts/</guid>
       <description>&lt;p&gt;caoz 在公众号里吐槽「不尊重事实」的歪风邪气四处泛滥。他认为，正常的情况应该是：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;尊重事实，理解逻辑，基于事实和逻辑，而非情感和立场，进行判断，然后再阐述自己的立场，你反对谁谁谁也好，你支持谁谁谁也好，可以谈，但分清事实，理清逻辑，让判断不被这些情绪所干扰，然后才是表达立场。&lt;/p&gt;
@@ -244,10 +244,10 @@
     
     <item>
       <title>现在的互联网早就不是零几年大家憧憬的互联互惠的美好世界，更像一个黑暗森林，每一个可能发声异见的人，一旦暴露坐标很容易就会被消灭，消灭的是个体，谁消灭的呢，谁都清楚，但无法定位到具体的谁，这才可怕。</title>
-      <link>https://www.gtdstudy.com/posts/internet-likes-dark-forest/</link>
+      <link>http://localhost:1313/posts/internet-likes-dark-forest/</link>
       <pubDate>Sun, 27 Feb 2022 21:40:14 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/internet-likes-dark-forest/</guid>
+      <guid>http://localhost:1313/posts/internet-likes-dark-forest/</guid>
       <description>
       </description>
       
@@ -259,10 +259,10 @@
     
     <item>
       <title>想和用户玩一玩的品牌动机似乎已经从这个时代消失了</title>
-      <link>https://www.gtdstudy.com/posts/the-brands-that-wonder-play-with-costumers-were-gone/</link>
+      <link>http://localhost:1313/posts/the-brands-that-wonder-play-with-costumers-were-gone/</link>
       <pubDate>Thu, 17 Feb 2022 19:34:55 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/the-brands-that-wonder-play-with-costumers-were-gone/</guid>
+      <guid>http://localhost:1313/posts/the-brands-that-wonder-play-with-costumers-were-gone/</guid>
       <description>&lt;p&gt;本文来自即刻用户猫助，具信是多抓鱼的创始人（或者联合创始人？）：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;今天一时兴起发了一条「就像是老朋友问候一下」的文字消息给用户。结果意外收获了大量好评 repo。&lt;/p&gt;
@@ -282,10 +282,10 @@
     
     <item>
       <title>这家总部位于得州奥斯汀的公司在其中国官网上以 188 美元一对麦克风的价格开始提供这种无线产品后不到一个小时，TeslaMic 就被抢购一空。</title>
-      <link>https://www.gtdstudy.com/posts/teslamic-sale-out/</link>
+      <link>http://localhost:1313/posts/teslamic-sale-out/</link>
       <pubDate>Sun, 30 Jan 2022 16:13:53 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/teslamic-sale-out/</guid>
+      <guid>http://localhost:1313/posts/teslamic-sale-out/</guid>
       <description>&lt;p&gt;我在华尔街日报看到这则&lt;a href=&#34;https://cn.wsj.com/articles/%E7%89%B9%E6%96%AF%E6%8B%89%E8%BD%A6%E5%86%85%E5%8D%A1%E6%8B%89ok%E9%BA%A6%E5%85%8B%E9%A3%8E%E5%9C%A8%E4%B8%AD%E5%9B%BD%E4%B8%8A%E5%B8%82%E9%A6%96%E6%97%A5%E5%94%AE%E7%BD%84-11643426457&#34;&gt;新闻&lt;/a&gt;。TeslaMic 的售价并不低，将近 1200 元人民币，对比&lt;a href=&#34;https://s.taobao.com/search?q=%E8%BD%A6%E5%86%85%E9%BA%A6%E5%85%8B%E9%A3%8E&amp;amp;imgfile=&amp;amp;commend=all&amp;amp;ssid=s5-e&amp;amp;search%5Ftype=item&amp;amp;sourceId=tb.index&amp;amp;spm=a21bo.jianhua.201856-taobao-item.1&amp;amp;ie=utf8&amp;amp;initiative%5Fid=tbindexz%5F20170306&amp;amp;sort=sale-desc&#34;&gt;淘宝&lt;/a&gt;的畅销款，贵了 3-4 倍。即便如此，中国的特斯拉车主还是心甘情愿地掏出钞票，把它买回车里。即便 TeslaMic 是一款试水的产品，一开始的存货量并不多，它还是侧面反映了中国特斯拉车主对该品牌的认可度，而不管特斯拉去年爆出了多少负面新闻。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;中国消费者周五为特斯拉(Tesla Inc., TSLA)喝彩，该公司是一款能在汽车上唱卡拉 OK 的麦克风产品的新销售商。&lt;/p&gt;
@@ -305,10 +305,10 @@
     
     <item>
       <title>web3 的社会意义远低于 Web 2.0</title>
-      <link>https://www.gtdstudy.com/posts/web3/</link>
+      <link>http://localhost:1313/posts/web3/</link>
       <pubDate>Wed, 26 Jan 2022 02:01:50 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/web3/</guid>
+      <guid>http://localhost:1313/posts/web3/</guid>
       <description>&lt;p&gt;web3 的提法很好，但意义和当年的 Web 2.0 不可同日而语吧。如果硬要说 web3 是什么，我宁愿把它安放在苹果 iPhone 所开启的移动互联网变革——但这一变革只是复用了 Web 2.0 的技术，在一个适合更多场景的设备上运行。如果说，我是用 web3 来逃避金融监管来购买境外金融产品——那首先，这种投资行为本身是极高风险的；如果说，我是用 web3 来购买了某些艺术 NFT，那么我为什么因为买一个图片的使用权而支付这么高的代价？如果有的人以「博傻」的心态进场，我觉得最好还是让自己冷静一下。&lt;/p&gt;
 &lt;p&gt;另外区块链技术就一定能够去中心化吗？决定产品形态的，从来是，人使用技术和工具的方式。就好像 Signal 创始人所观察到的，人具有一种中心化的本能和趋势，因为去中心化的技术底层，就如天堑一样把大多数人拦在外面。所以结构就变成了「去中心化技术 + 中心化工具」的诡异局面。我不认为这样的方式，是逻辑自洽的。&lt;/p&gt;
 
@@ -322,10 +322,10 @@
     
     <item>
       <title>形容多级标签结构，最合适的词是「提纲挈领」、「纲举目张」、「以点带线、以线带面」。</title>
-      <link>https://www.gtdstudy.com/posts/respon-to-think-about-notetaking-tools/</link>
+      <link>http://localhost:1313/posts/respon-to-think-about-notetaking-tools/</link>
       <pubDate>Mon, 17 Jan 2022 02:06:25 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/respon-to-think-about-notetaking-tools/</guid>
+      <guid>http://localhost:1313/posts/respon-to-think-about-notetaking-tools/</guid>
       <description>&lt;p&gt;原贴很长：&lt;a href=&#34;https://www.v2ex.com/t/825142#reply8&#34;&gt;https://www.v2ex.com/t/825142#reply8&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;楼主讨论了「双向链接」笔记的局限性，他以自己一个知识点生长的过程为例子，说明双向链接在归纳概念与概念之间的联系时，展现力是有缺陷的。&lt;/p&gt;
 &lt;p&gt;我赞同楼主的一句话，「笔记并不是只有多级标签，更重要的是网状的关联」，这符合我个人的体验。尽管有 Roam 用论文证明自己在学习上更有效率，但知识内化的效率，应该是所有工具都无法保证的。&lt;/p&gt;
@@ -381,10 +381,10 @@
     
     <item>
       <title>如果你只受某一個人影響，大家會說你是下一個誰誰誰；但如果你偷學的對象有一百個，大家就會說你渾然天成。</title>
-      <link>https://www.gtdstudy.com/posts/copy-one-hundred-times/</link>
+      <link>http://localhost:1313/posts/copy-one-hundred-times/</link>
       <pubDate>Sat, 01 Jan 2022 21:28:18 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/copy-one-hundred-times/</guid>
+      <guid>http://localhost:1313/posts/copy-one-hundred-times/</guid>
       <description>&lt;p&gt;单纯原创性的想法，我觉得在当代社会，已经灭绝了。即便是在社会上有重大创新的事物，比如智能手机，也不能说它是原创的，触控屏不是原创的，更早出现的 PDA 已经使用触控屏多年；手机操作系统不是原创的，诺基亚的 Symbian OS 统治市场多年；移动互联网不是原创的，当时已经有 Web2.0 浪潮，Google、Facebook、Paypal 正如新星冉冉升起；App Store 不是原创的，Linux 里叫包管理器；浏览器不是原创的，Firefox 还在和 Chrome 一较长短……&lt;/p&gt;
 &lt;p&gt;比起是否有原创性想法，我觉得现在能提出想法的人都十分稀缺。孟岩在节目里讽刺的，「大部分人说不出来，可能是因为他（脑里）压根儿没有可以分享的东西。」我想和现在内容获取过于便利有关，答案扼杀了思考，消灭了观察。&lt;/p&gt;
 &lt;p&gt;所以，如果我觉得，如果想偷别人一个想法，然后去实践，那就去实践吧，最后再加点自己的辅料，那也是不同的风味。就好像蛋炒饭一样，在扬州就叫扬州炒饭，在漳州就叫漳州炒饭，都是蛋和饭，但可以有无限多种做法。&lt;/p&gt;
@@ -399,10 +399,10 @@
     
     <item>
       <title>自己也不对自己使用暴力</title>
-      <link>https://www.gtdstudy.com/posts/dont-use-violence-to-self/</link>
+      <link>http://localhost:1313/posts/dont-use-violence-to-self/</link>
       <pubDate>Mon, 13 Dec 2021 01:39:39 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/dont-use-violence-to-self/</guid>
+      <guid>http://localhost:1313/posts/dont-use-violence-to-self/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;更重要的是自己也不对自己使用暴力。
 来自： &lt;a href=&#34;https://hutusi.com/articles/nonviolent-communication&#34;&gt;https://hutusi.com/articles/nonviolent-communication&lt;/a&gt;&lt;/p&gt;
@@ -426,10 +426,10 @@
     
     <item>
       <title>靈感是給業餘人士用的，我們其他的人就只是每天出現並投入工作。如果你等著烏雲散去，或等著一道閃電擊中你的大腦，你就不會做出很多工作。所有最好的想法都來自於過程；它們來自於工作本身。</title>
-      <link>https://www.gtdstudy.com/posts/ideas-is-from-working/</link>
+      <link>http://localhost:1313/posts/ideas-is-from-working/</link>
       <pubDate>Sat, 20 Nov 2021 09:12:44 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/ideas-is-from-working/</guid>
+      <guid>http://localhost:1313/posts/ideas-is-from-working/</guid>
       <description>&lt;p&gt;出处：&lt;a href=&#34;https://readingoutpost.com/writing-as-weapon/&#34;&gt;https://readingoutpost.com/writing-as-weapon/&lt;/a&gt;&lt;/p&gt;
 
       </description>
@@ -442,10 +442,10 @@
     
     <item>
       <title>阿米西族人一直为这些好心的城里人担忧：城里人每天都被那些化学品包围着，无路可逃，太可怜了。阿米西族人一直在为城里人的健康担心，希望能够为城里人多做些事情，比如经常寄一些树叶和干果给城里人。</title>
-      <link>https://www.gtdstudy.com/posts/amish-people-worry-about-city-people/</link>
+      <link>http://localhost:1313/posts/amish-people-worry-about-city-people/</link>
       <pubDate>Sun, 05 Sep 2021 22:34:44 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/amish-people-worry-about-city-people/</guid>
+      <guid>http://localhost:1313/posts/amish-people-worry-about-city-people/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;一群城里人生活优越，无忧无虑，于是想到了体验部落生活。在当地导游的带领下，来到了阿米西族人生活的地方，亲眼目睹了那里的贫穷落后：没有电、煤气和自来水，没看过电视，没听过收音机，不知道电脑和 MP3，没用过洗发水、沐浴露和化妆品。城里人怀着怜悯之心，将自己所带的洗发水、沐浴露、化妆品、食品罐头等城里人认为的好东西一一分给了阿米西族人，而阿米西族人则送给城里人许多树叶和干果。回到城里，城里人为这一大堆树叶和干果发愁，害怕不干净或是有毒，可如果处理掉的话还得支付垃圾费。这样，城里人更加想念这些阿米西族人，还准备呼吁更多的好心人伸出援助之手来帮助阿米西族人，给他们寄送一些洗发水、食品罐头等用品以改善阿米西族人的生活。可令城里人没有想到的是，他们回来不久都收到了阿米西族人寄来的包裹，包裹里是城里人送给阿米西族人的洗发水、沐浴露、化妆品、罐头等。城里人不明白发生了什么事，马上联系了导游，结果让他们大吃一惊。从导游那里他们了解到，阿米西族人根本不敢用城里人送的东西，因为里面都含有化学物质。而且，阿米西族人一直为这些好心的城里人担忧：城里人每天都被那些化学品包围着，无路可逃，太可怜了。阿米西族人一直在为城里人的健康担心，希望能够为城里人多做些事情，比如经常寄一些树叶和干果给城里人。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -461,10 +461,10 @@
     
     <item>
       <title>阿米西族人一直为这些好心的城里人担忧：城里人每天都被那些化学品包围着，无路可逃，太可怜了。阿米西族人一直在为城里人的健康担心，希望能够为城里人多做些事情，比如经常寄一些树叶和干果给城里人。</title>
-      <link>https://www.gtdstudy.com/posts/storyabtputyourshoeswithothers/</link>
+      <link>http://localhost:1313/posts/storyabtputyourshoeswithothers/</link>
       <pubDate>Sat, 04 Sep 2021 22:34:44 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/storyabtputyourshoeswithothers/</guid>
+      <guid>http://localhost:1313/posts/storyabtputyourshoeswithothers/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;一群城里人生活优越，无忧无虑，于是想到了体验部落生活。在当地导游的带领下，来到了阿米西族人生活的地方，亲眼目睹了那里的贫穷落后：没有电、煤气和自来水，没看过电视，没听过收音机，不知道电脑和 MP3，没用过洗发水、沐浴露和化妆品。城里人怀着怜悯之心，将自己所带的洗发水、沐浴露、化妆品、食品罐头等城里人认为的好东西一一分给了阿米西族人，而阿米西族人则送给城里人许多树叶和干果。回到城里，城里人为这一大堆树叶和干果发愁，害怕不干净或是有毒，可如果处理掉的话还得支付垃圾费。这样，城里人更加想念这些阿米西族人，还准备呼吁更多的好心人伸出援助之手来帮助阿米西族人，给他们寄送一些洗发水、食品罐头等用品以改善阿米西族人的生活。可令城里人没有想到的是，他们回来不久都收到了阿米西族人寄来的包裹，包裹里是城里人送给阿米西族人的洗发水、沐浴露、化妆品、罐头等。城里人不明白发生了什么事，马上联系了导游，结果让他们大吃一惊。从导游那里他们了解到，阿米西族人根本不敢用城里人送的东西，因为里面都含有化学物质。而且，阿米西族人一直为这些好心的城里人担忧：城里人每天都被那些化学品包围着，无路可逃，太可怜了。阿米西族人一直在为城里人的健康担心，希望能够为城里人多做些事情，比如经常寄一些树叶和干果给城里人。&lt;/p&gt;
 &lt;/blockquote&gt;
