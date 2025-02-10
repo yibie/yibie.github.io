@@ -189,27 +189,28 @@ AI： 明白了,让我重新梳理这个关系: 从数据库角度: ref-id 可�
 
   <main>
     
-<article class="single-post">
-  <header class="post-header">
-    <h1 class="post-title">用 AI 辅助开发的经验二三则(2)</h1>
+<main class="single-main">
+  <article class="single-post">
+    <header class="post-header">
+      <h1 class="post-title">用 AI 辅助开发的经验二三则(2)</h1>
 
-    <div class="post-meta">
-      <time datetime="2024-11-07">
-        November 7, 2024
-      </time>
+      <div class="post-meta">
+        <time datetime=" 2024-11-07">
+          November 7, 2024
+        </time>
 
-      
-      <div class="post-categories">
         
-        <span class="category">write</span>
+        <div class="post-categories">
+          
+          <span class="category">write</span>
+          
+        </div>
         
       </div>
-      
-    </div>
-  </header>
+    </header>
 
-  <div class="post-content">
-    <p>最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。</p>
+    <div class="post-content">
+      <p>最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。</p>
 <p>OZR 新的版本，增加了一个新功能，用于管理引用来源文件的可视化面板。这句话看上去很简单，但背后的工作量并不小。前端改一个词，足以让后端跑断腿。出现产品经理被砍这样的新闻，也不必奇怪了。</p>
 <p>可视化面板，是很多产品里常见的特性，它的功能就是，让用户更加舒服地查看、管理特定的对象。在 OZR 里，其管理对象是，一个个被充当引用来源的参考文件。</p>
 <p>如果让你来设计这个面板，你觉得第一个问题会是什么？我一开始的反映是，文件应该以什么样的方式进行展示？但实际上，在我真正着手开发时，真正重要的问题是： <strong>在面板里展示的数据源来自哪里?</strong> <strong>在数据源发生了改动之后，如何确保原来的文件映射关系不变？</strong></p>
@@ -312,24 +313,25 @@ overview-id 一定对应一个 ref-id (必需关系) 也未必会有对应的一
 <p>由于数据库设计的操作复杂，又是读又是取，又是加载又是保存，加上需要从数据库中读取数据，保存数据的函数很多。因此，按照以往，直接修改函数很容易遗漏。</p>
 <p>最佳实践是，通过测试用例，来找到还没修改和完善的地方。Emacs 自带 ert 这个测试框架，可以很完善的测试各种功能。有了测试用例配合测试，就可以非常清楚地知道问题出在哪里，直接检查对应的函数。节省了大量的时间，和精力——在 Debug 过程中，最痛苦的不是改 Bug 而是找到 Bug 的源头。</p>
 
-  </div>
-
-  
-  <footer class="post-footer">
-    <div class="post-tags">
-      
-      <a href="/tags/ai" class="post-tag">ai</a>
-      
-      <a href="/tags/coding" class="post-tag">coding</a>
-      
-      <a href="/tags/emacs" class="post-tag">emacs</a>
-      
-      <a href="/tags/org-mode" class="post-tag">org-mode</a>
-      
     </div>
-  </footer>
-  
-</article>
+
+    
+    <footer class="post-footer">
+      <div class="post-tags">
+        
+        <a href="/tags/ai" class="post-tag">ai</a>
+        
+        <a href="/tags/coding" class="post-tag">coding</a>
+        
+        <a href="/tags/emacs" class="post-tag">emacs</a>
+        
+        <a href="/tags/org-mode" class="post-tag">org-mode</a>
+        
+      </div>
+    </footer>
+    
+  </article>
+</main>
 
   </main>
 
