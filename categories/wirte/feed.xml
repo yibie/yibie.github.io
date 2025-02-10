@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wirte - Space Looming</title>
-    <link>https://www.gtdstudy.com/categories/wirte/</link>
+    <link>http://localhost:1313/categories/wirte/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Fri, 03 Jun 2022 10:21:37 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/categories/wirte/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/wirte/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>创意：写首诗吧</title>
-      <link>https://www.gtdstudy.com/posts/ideas-make-a-poem/</link>
+      <link>http://localhost:1313/posts/ideas-make-a-poem/</link>
       <pubDate>Fri, 03 Jun 2022 10:21:37 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/ideas-make-a-poem/</guid>
+      <guid>http://localhost:1313/posts/ideas-make-a-poem/</guid>
       <description>&lt;p&gt;进入  Next Studios 公众号，可以打开 Make a Poem。尝试一下这个写诗游戏。它可以很快地让人创作出一首诗。&lt;/p&gt;
 &lt;h2 id=&#34;提供词盘&#34;&gt;提供词盘&lt;/h2&gt;
 &lt;blockquote&gt;

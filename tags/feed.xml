@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags - Space Looming</title>
-    <link>https://www.gtdstudy.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Sat, 01 Feb 2025 18:09:00 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/tags/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Design</title>
-      <link>https://www.gtdstudy.com/tags/design/</link>
+      <link>http://localhost:1313/tags/design/</link>
       <pubDate>Sat, 01 Feb 2025 18:09:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/design/</guid>
+      <guid>http://localhost:1313/tags/design/</guid>
       <description>
       </description>
       
@@ -27,10 +27,10 @@
     
     <item>
       <title>Software</title>
-      <link>https://www.gtdstudy.com/tags/software/</link>
+      <link>http://localhost:1313/tags/software/</link>
       <pubDate>Sat, 01 Feb 2025 18:09:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/software/</guid>
+      <guid>http://localhost:1313/tags/software/</guid>
       <description>
       </description>
       
@@ -38,10 +38,10 @@
     
     <item>
       <title>Ai</title>
-      <link>https://www.gtdstudy.com/tags/ai/</link>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description>
       </description>
       
@@ -49,10 +49,10 @@
     
     <item>
       <title>Coding</title>
-      <link>https://www.gtdstudy.com/tags/coding/</link>
+      <link>http://localhost:1313/tags/coding/</link>
       <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/coding/</guid>
+      <guid>http://localhost:1313/tags/coding/</guid>
       <description>
       </description>
       
@@ -60,10 +60,10 @@
     
     <item>
       <title>Emacs</title>
-      <link>https://www.gtdstudy.com/tags/emacs/</link>
+      <link>http://localhost:1313/tags/emacs/</link>
       <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/emacs/</guid>
+      <guid>http://localhost:1313/tags/emacs/</guid>
       <description>
       </description>
       
@@ -71,10 +71,10 @@
     
     <item>
       <title>Org-Mode</title>
-      <link>https://www.gtdstudy.com/tags/org-mode/</link>
+      <link>http://localhost:1313/tags/org-mode/</link>
       <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/org-mode/</guid>
+      <guid>http://localhost:1313/tags/org-mode/</guid>
       <description>
       </description>
       
@@ -82,10 +82,10 @@
     
     <item>
       <title>Writing</title>
-      <link>https://www.gtdstudy.com/tags/writing/</link>
+      <link>http://localhost:1313/tags/writing/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/writing/</guid>
+      <guid>http://localhost:1313/tags/writing/</guid>
       <description>
       </description>
       
@@ -93,10 +93,10 @@
     
     <item>
       <title>Blue</title>
-      <link>https://www.gtdstudy.com/tags/blue/</link>
+      <link>http://localhost:1313/tags/blue/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/blue/</guid>
+      <guid>http://localhost:1313/tags/blue/</guid>
       <description>
       </description>
       
@@ -104,10 +104,10 @@
     
     <item>
       <title>Bryce Canyon National Park</title>
-      <link>https://www.gtdstudy.com/tags/bryce-canyon-national-park/</link>
+      <link>http://localhost:1313/tags/bryce-canyon-national-park/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/bryce-canyon-national-park/</guid>
+      <guid>http://localhost:1313/tags/bryce-canyon-national-park/</guid>
       <description>
       </description>
       
@@ -115,10 +115,10 @@
     
     <item>
       <title>Green</title>
-      <link>https://www.gtdstudy.com/tags/green/</link>
+      <link>http://localhost:1313/tags/green/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/green/</guid>
+      <guid>http://localhost:1313/tags/green/</guid>
       <description>
       </description>
       
@@ -126,10 +126,10 @@
     
     <item>
       <title>Red</title>
-      <link>https://www.gtdstudy.com/tags/red/</link>
+      <link>http://localhost:1313/tags/red/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/red/</guid>
+      <guid>http://localhost:1313/tags/red/</guid>
       <description>
       </description>
       
@@ -137,10 +137,10 @@
     
     <item>
       <title>Travel</title>
-      <link>https://www.gtdstudy.com/tags/travel/</link>
+      <link>http://localhost:1313/tags/travel/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/travel/</guid>
+      <guid>http://localhost:1313/tags/travel/</guid>
       <description>
       </description>
       
@@ -148,10 +148,10 @@
     
     <item>
       <title>Leadership</title>
-      <link>https://www.gtdstudy.com/tags/leadership/</link>
+      <link>http://localhost:1313/tags/leadership/</link>
       <pubDate>Sat, 18 Jun 2022 17:53:21 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/leadership/</guid>
+      <guid>http://localhost:1313/tags/leadership/</guid>
       <description>
       </description>
       
@@ -159,10 +159,10 @@
     
     <item>
       <title>人生</title>
-      <link>https://www.gtdstudy.com/tags/%E4%BA%BA%E7%94%9F/</link>
+      <link>http://localhost:1313/tags/%E4%BA%BA%E7%94%9F/</link>
       <pubDate>Sat, 20 Nov 2021 09:11:56 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/%E4%BA%BA%E7%94%9F/</guid>
+      <guid>http://localhost:1313/tags/%E4%BA%BA%E7%94%9F/</guid>
       <description>
       </description>
       
@@ -170,10 +170,10 @@
     
     <item>
       <title>痛苦</title>
-      <link>https://www.gtdstudy.com/tags/%E7%97%9B%E8%8B%A6/</link>
+      <link>http://localhost:1313/tags/%E7%97%9B%E8%8B%A6/</link>
       <pubDate>Sat, 20 Nov 2021 09:11:56 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/%E7%97%9B%E8%8B%A6/</guid>
+      <guid>http://localhost:1313/tags/%E7%97%9B%E8%8B%A6/</guid>
       <description>
       </description>
       
@@ -181,10 +181,10 @@
     
     <item>
       <title>Investment</title>
-      <link>https://www.gtdstudy.com/tags/investment/</link>
+      <link>http://localhost:1313/tags/investment/</link>
       <pubDate>Tue, 09 Feb 2021 22:56:22 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/tags/investment/</guid>
+      <guid>http://localhost:1313/tags/investment/</guid>
       <description>
       </description>
       
