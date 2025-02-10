@@ -201,6 +201,21 @@ main {
   margin-left: var(--header-width);
   min-height: 100vh;
   padding: 0;
+  position: relative;
+  overflow: visible;
+}
+
+/* 3.3 Single Post Layout */
+.single-main {
+  padding: var(--content-padding-top) var(--content-side-padding);
+  max-width: 680px;
+  margin: 0 auto;
+  min-height: calc(100vh - var(--content-padding-top));
+  position: relative;
+}
+
+.single-post {
+  margin-bottom: 4rem;
 }
 
 /* 3.3 Footer */
@@ -627,15 +642,6 @@ body>footer .footer-content {
   margin: 0.25rem 0;
 }
 
-/* 单页文章样式 */
-.single-post {
-  max-width: 680px;
-  /* 减小内容宽度，提高可读性 */
-  margin: 0 auto;
-  padding: 3rem var(--spacing-unit);
-  background: var(--color-bg);
-}
-
 /* 文章头部 */
 .post-header {
   margin-bottom: 3rem;
@@ -660,7 +666,6 @@ body>footer .footer-content {
 /* 文章内容 */
 .post-content {
   font-family: Georgia, serif;
-  /* 使用衬线字体提高可读性 */
   font-size: 1.125rem;
   line-height: 1.8;
   color: var(--color-text);
