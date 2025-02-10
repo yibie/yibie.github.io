@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>做一个普通而自信的人（下）：最是难得平常心 - Space Looming</title>
@@ -28,7 +28,7 @@
 相比上篇，下篇就比较简短。我本来还准备写一写长篇大论。后来想了一想，其实没必要。总归其实就是一句话，用平常心来面对生活工作中的挑战，并在接受挑战的过程时学会评价，然后接受自己做了所有努力之后的结果。这样子，平常心就比较简单获得了。有了平静的心境之后，其实面对很多事情，都比较容易冷静下来，想解决办法。在一个不充满悲伤、愤怒等负面情绪状态下，想法是比较容易冒出来的。所以，不用担心，无惧风雨。
 ">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://localhost:1313/posts/be-a-normal-and-confident-people-2/">
+<meta property="og:url" content="https://www.gtdstudy.com/posts/be-a-normal-and-confident-people-2/">
 
 
 
@@ -47,13 +47,13 @@
 
 
 
-<link rel="canonical" href="http://localhost:1313/posts/be-a-normal-and-confident-people-2/">
+<link rel="canonical" href="https://www.gtdstudy.com/posts/be-a-normal-and-confident-people-2/">
 
 
-    <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="/css/main.min.3976ebc34cf243ed63558c5b243c035c01ae458ea3e3a5cb2766ce1847857aa9.css" integrity="sha256-OXbrw0zyQ&#43;1jVYxbJDwDXAGuRY6j46XLJ2bOGEeFeqk=" crossorigin="anonymous">
 
 
-      <script src="/js/main.js"></script>
+      <script src="/js/main.cae3d9eba4e54c3d685682c303a39b0cc30e2473ee5331e21ead03ee70507a6e.js" integrity="sha256-yuPZ66TlTD1oVoLDA6ObDMMOJHPuUzHiHq0D7nBQem4=" crossorigin="anonymous"></script>
 
 
 
@@ -82,38 +82,7 @@
   
 <header class="mobile-header">
     <h1 class="mobile-header__title">Space Looming</h1>
-    <button id="columnToggle" class="column-toggle" aria-label="Toggle Column">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-    </button>
 </header>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const columnToggle = document.getElementById('columnToggle');
-        const deckScroll = document.querySelector('.deck-scroll');
-        let currentColumnIndex = 0;
-
-        
-        const columns = document.querySelectorAll('.deck-column');
-
-        columnToggle.addEventListener('click', function () {
-            currentColumnIndex = (currentColumnIndex + 1) % columns.length;
-
-            
-            const columnWidth = columns[0].offsetWidth;
-            deckScroll.scrollTo({
-                left: currentColumnIndex * columnWidth,
-                behavior: 'smooth'
-            });
-
-            
-            columnToggle.style.transform = `rotate(${currentColumnIndex * (360 / columns.length)}deg)`;
-        });
-    });
-</script>
   
 <header class="site-header">
     <header class="site-header">
@@ -121,7 +90,7 @@
         
         <div class="site-branding">
             <h1 class="site-title">
-                <a href="http://localhost:1313/">Space Looming</a>
+                <a href="https://www.gtdstudy.com/">Space Looming</a>
             </h1>
             
             <p class="site-subtitle">无垠的太空中，传来宇宙的轰鸣</p>
@@ -249,7 +218,25 @@
 
   
   
-<div class="scroll-indicator" aria-hidden="true">👉</div>
+<button class="scroll-indicator" onclick="slideToNextColumn()" aria-label="Slide to next column">👉</button>
+
+<script>
+    function slideToNextColumn() {
+        const deckScroll = document.querySelector('.deck-scroll');
+        const currentScroll = deckScroll.scrollLeft;
+        const columnWidth = window.innerWidth;
+
+        
+        const nextScroll = currentScroll + columnWidth;
+
+        
+        if (nextScroll >= deckScroll.scrollWidth) {
+            deckScroll.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+            deckScroll.scrollTo({ left: nextScroll, behavior: 'smooth' });
+        }
+    }
+</script>
 </body>
 
 </html>

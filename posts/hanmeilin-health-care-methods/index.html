@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>健康：樊登分享韩美林大师早上 3 分钟养生功 - Space Looming</title>
@@ -16,7 +16,7 @@
     content="韩美林大师有 2 个作品大家耳熟能详，一是 2008 年奥运福娃，二是中国航空公司的 LOGO。樊登说 10 年前采访大师时，发现他当时 80 多岁了没有一根白头发，从十几岁到现在没有感冒一次。他的保养功法——
 早上醒来后，在床上伸懒腰，3-4 次，把身体的筋抻开 拉筋后，侧身躺着，把双腿膝盖抱在胸前，把胸腔里闷气吹出去 起床后，搓脸，上下太极搓，来回不知多少下，总之感到脸发热 捏耳朵，不知捏多少下，估计也是捏到耳朵感觉有点热热的 用手捏成一个拳头，敲打背后的大椎穴，也就是脖子下面鼓起来的地方，力度可适当加强，敲到自己的头感觉嗡嗡震 拿木头梳子梳头 ">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://localhost:1313/posts/hanmeilin-health-care-methods/">
+<meta property="og:url" content="https://www.gtdstudy.com/posts/hanmeilin-health-care-methods/">
 
 
 
@@ -29,13 +29,13 @@
 
 
 
-<link rel="canonical" href="http://localhost:1313/posts/hanmeilin-health-care-methods/">
+<link rel="canonical" href="https://www.gtdstudy.com/posts/hanmeilin-health-care-methods/">
 
 
-    <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="/css/main.min.3976ebc34cf243ed63558c5b243c035c01ae458ea3e3a5cb2766ce1847857aa9.css" integrity="sha256-OXbrw0zyQ&#43;1jVYxbJDwDXAGuRY6j46XLJ2bOGEeFeqk=" crossorigin="anonymous">
 
 
-      <script src="/js/main.js"></script>
+      <script src="/js/main.cae3d9eba4e54c3d685682c303a39b0cc30e2473ee5331e21ead03ee70507a6e.js" integrity="sha256-yuPZ66TlTD1oVoLDA6ObDMMOJHPuUzHiHq0D7nBQem4=" crossorigin="anonymous"></script>
 
 
 
@@ -64,38 +64,7 @@
   
 <header class="mobile-header">
     <h1 class="mobile-header__title">Space Looming</h1>
-    <button id="columnToggle" class="column-toggle" aria-label="Toggle Column">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-    </button>
 </header>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const columnToggle = document.getElementById('columnToggle');
-        const deckScroll = document.querySelector('.deck-scroll');
-        let currentColumnIndex = 0;
-
-        
-        const columns = document.querySelectorAll('.deck-column');
-
-        columnToggle.addEventListener('click', function () {
-            currentColumnIndex = (currentColumnIndex + 1) % columns.length;
-
-            
-            const columnWidth = columns[0].offsetWidth;
-            deckScroll.scrollTo({
-                left: currentColumnIndex * columnWidth,
-                behavior: 'smooth'
-            });
-
-            
-            columnToggle.style.transform = `rotate(${currentColumnIndex * (360 / columns.length)}deg)`;
-        });
-    });
-</script>
   
 <header class="site-header">
     <header class="site-header">
@@ -103,7 +72,7 @@
         
         <div class="site-branding">
             <h1 class="site-title">
-                <a href="http://localhost:1313/">Space Looming</a>
+                <a href="https://www.gtdstudy.com/">Space Looming</a>
             </h1>
             
             <p class="site-subtitle">无垠的太空中，传来宇宙的轰鸣</p>
@@ -229,7 +198,25 @@
 
   
   
-<div class="scroll-indicator" aria-hidden="true">👉</div>
+<button class="scroll-indicator" onclick="slideToNextColumn()" aria-label="Slide to next column">👉</button>
+
+<script>
+    function slideToNextColumn() {
+        const deckScroll = document.querySelector('.deck-scroll');
+        const currentScroll = deckScroll.scrollLeft;
+        const columnWidth = window.innerWidth;
+
+        
+        const nextScroll = currentScroll + columnWidth;
+
+        
+        if (nextScroll >= deckScroll.scrollWidth) {
+            deckScroll.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+            deckScroll.scrollTo({ left: nextScroll, behavior: 'smooth' });
+        }
+    }
+</script>
 </body>
 
 </html>

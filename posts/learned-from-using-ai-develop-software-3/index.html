@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>用 AI 辅助开发的经验二三则(3) - Space Looming</title>
@@ -34,7 +34,7 @@
 但我不觉得 Cursor 和 Windsurf 要为重构失败负上主要责任。最主要的责任还在自己身上。因为心浮气躁，想着赶工，根本就没有静下心来，认真阅读 AI 提交的代码，理顺其中的节点。有一点点 Bug，就想马上推倒重来，反而陷入不断重复实现基础功能的循环里，中间浪费的时间更多。
 ">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://localhost:1313/posts/learned-from-using-ai-develop-software-3/">
+<meta property="og:url" content="https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/">
 
 
 
@@ -56,13 +56,13 @@
 
 
 
-<link rel="canonical" href="http://localhost:1313/posts/learned-from-using-ai-develop-software-3/">
+<link rel="canonical" href="https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/">
 
 
-    <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="/css/main.min.3976ebc34cf243ed63558c5b243c035c01ae458ea3e3a5cb2766ce1847857aa9.css" integrity="sha256-OXbrw0zyQ&#43;1jVYxbJDwDXAGuRY6j46XLJ2bOGEeFeqk=" crossorigin="anonymous">
 
 
-      <script src="/js/main.js"></script>
+      <script src="/js/main.cae3d9eba4e54c3d685682c303a39b0cc30e2473ee5331e21ead03ee70507a6e.js" integrity="sha256-yuPZ66TlTD1oVoLDA6ObDMMOJHPuUzHiHq0D7nBQem4=" crossorigin="anonymous"></script>
 
 
 
@@ -91,38 +91,7 @@
   
 <header class="mobile-header">
     <h1 class="mobile-header__title">Space Looming</h1>
-    <button id="columnToggle" class="column-toggle" aria-label="Toggle Column">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-    </button>
 </header>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const columnToggle = document.getElementById('columnToggle');
-        const deckScroll = document.querySelector('.deck-scroll');
-        let currentColumnIndex = 0;
-
-        
-        const columns = document.querySelectorAll('.deck-column');
-
-        columnToggle.addEventListener('click', function () {
-            currentColumnIndex = (currentColumnIndex + 1) % columns.length;
-
-            
-            const columnWidth = columns[0].offsetWidth;
-            deckScroll.scrollTo({
-                left: currentColumnIndex * columnWidth,
-                behavior: 'smooth'
-            });
-
-            
-            columnToggle.style.transform = `rotate(${currentColumnIndex * (360 / columns.length)}deg)`;
-        });
-    });
-</script>
   
 <header class="site-header">
     <header class="site-header">
@@ -130,7 +99,7 @@
         
         <div class="site-branding">
             <h1 class="site-title">
-                <a href="http://localhost:1313/">Space Looming</a>
+                <a href="https://www.gtdstudy.com/">Space Looming</a>
             </h1>
             
             <p class="site-subtitle">无垠的太空中，传来宇宙的轰鸣</p>
@@ -301,7 +270,25 @@
 
   
   
-<div class="scroll-indicator" aria-hidden="true">👉</div>
+<button class="scroll-indicator" onclick="slideToNextColumn()" aria-label="Slide to next column">👉</button>
+
+<script>
+    function slideToNextColumn() {
+        const deckScroll = document.querySelector('.deck-scroll');
+        const currentScroll = deckScroll.scrollLeft;
+        const columnWidth = window.innerWidth;
+
+        
+        const nextScroll = currentScroll + columnWidth;
+
+        
+        if (nextScroll >= deckScroll.scrollWidth) {
+            deckScroll.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+            deckScroll.scrollTo({ left: nextScroll, behavior: 'smooth' });
+        }
+    }
+</script>
 </body>
 
 </html>

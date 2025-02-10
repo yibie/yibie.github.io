@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts - Space Looming</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://www.gtdstudy.com/posts/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/posts/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/posts/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HUGO 主题 hugo-theme-deck 上线</title>
-      <link>http://localhost:1313/posts/hugo-theme-deck-online/</link>
+      <link>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</link>
       <pubDate>Sun, 09 Feb 2025 10:54:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/hugo-theme-deck-online/</guid>
+      <guid>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/hugo-theme-deck&#34;&gt;https://github.com/yibie/hugo-theme-deck&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;以列作为主题展示&lt;/li&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>读完《软件设计的哲学》</title>
-      <link>http://localhost:1313/posts/finishing-reading-the-philosophy-of-software-design/</link>
+      <link>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</link>
       <pubDate>Sat, 01 Feb 2025 18:09:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/finishing-reading-the-philosophy-of-software-design/</guid>
+      <guid>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</guid>
       <description>&lt;p&gt;整本书的思想是关于软件开发时，预防、控制复杂度的发生。但我觉得，这实际上是一种思想。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;复杂度是熵&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;这是我第一重感悟。在本书中，开题就已经说明了，一切和复杂度有关（It&amp;rsquo;s All About Complextiy）。复杂度就如宇宙中的熵一样，无处不在。它就好像是埋藏在诸多事物下的真相一样，看上去不会引发任何问题，但任何问题都可能和它有关。&lt;/p&gt;
@@ -83,10 +83,10 @@
     
     <item>
       <title>狂想：汉字为何是象形字</title>
-      <link>http://localhost:1313/posts/why-hanzi/</link>
+      <link>https://www.gtdstudy.com/posts/why-hanzi/</link>
       <pubDate>Wed, 22 Jan 2025 15:12:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/why-hanzi/</guid>
+      <guid>https://www.gtdstudy.com/posts/why-hanzi/</guid>
       <description>&lt;p&gt;这是一篇狂想，未免有不合理，大家不予苟同之处。&lt;/p&gt;
 &lt;p&gt;昨晚痛风发作，躺在床上什么都做不了，迷迷糊糊之际，突然间想起看过的东西，大意是：&lt;/p&gt;
 &lt;p&gt;题主让学习了中文的老外朋友看甲骨文，结果老外对甲骨文的解释，角度清奇，他说，“你们的祖宗从一开始就考虑了，如何将生产的知识传递下去，你看这个字，讲了田要围起来，然后把水引进来。”他还从类似的角度解释了其它的字。&lt;/p&gt;
@@ -131,10 +131,10 @@
     
     <item>
       <title>org-luhmann 获得知名开发者关注</title>
-      <link>http://localhost:1313/posts/org-luhmann-stars/</link>
+      <link>https://www.gtdstudy.com/posts/org-luhmann-stars/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-luhmann-stars/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-luhmann-stars/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 受到两位 emacs 圈著名的开发者 Star， 一位是开发了 org-tranclusion 的 nobit，一位是 magit 的开发者 tarsius，哈哈哈&lt;/p&gt;
 
       </description>
@@ -147,10 +147,10 @@
     
     <item>
       <title>Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本</title>
-      <link>http://localhost:1313/posts/emacs-keep-flush-lines/</link>
+      <link>https://www.gtdstudy.com/posts/emacs-keep-flush-lines/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/emacs-keep-flush-lines/</guid>
+      <guid>https://www.gtdstudy.com/posts/emacs-keep-flush-lines/</guid>
       <description>&lt;p&gt;如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;keep-lines&lt;/code&gt; 的意思就是，保留你输入关键字的文本行。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;flush-lines&lt;/code&gt; 的意思是，排除你输入关键字的文本行。&lt;/p&gt;
@@ -166,10 +166,10 @@
     
     <item>
       <title>org-luhmann 发布：基于情境的卢曼笔记编号工具</title>
-      <link>http://localhost:1313/posts/org-luhmann-release/</link>
+      <link>https://www.gtdstudy.com/posts/org-luhmann-release/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-luhmann-release/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-luhmann-release/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 发布，一个给 org-headline 添加卢曼式笔记编号的工具，它的特点在于基于情境，让用户进行选择，而不是自动化编号&lt;/p&gt;
 
       </description>
@@ -182,10 +182,10 @@
     
     <item>
       <title>实施加载 Emacs 的包文件</title>
-      <link>http://localhost:1313/posts/emacs-load-library/</link>
+      <link>https://www.gtdstudy.com/posts/emacs-load-library/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/emacs-load-library/</guid>
+      <guid>https://www.gtdstudy.com/posts/emacs-load-library/</guid>
       <description>&lt;p&gt;运行这个命令： &lt;code&gt;load-library&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;在调试开发 Emacs 的第三方包时，运行这一个命令可以避免每一次每一次修改都重启 Emacs。&lt;/p&gt;
 
@@ -199,10 +199,10 @@
     
     <item>
       <title>org-supertag 2.0.0 版本发布</title>
-      <link>http://localhost:1313/posts/org-supertag-2-release/</link>
+      <link>https://www.gtdstudy.com/posts/org-supertag-2-release/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-supertag-2-release/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-supertag-2-release/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 2.0.0 版本发布，增加了定时任务，增加移动节点的用户交互命令，在行为系统里增加行为定义模板变量&lt;/p&gt;
 
       </description>
@@ -215,10 +215,10 @@
     
     <item>
       <title>org-supertag 登陆 Hacker News 首页</title>
-      <link>http://localhost:1313/posts/org-supertag-hacker-news/</link>
+      <link>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-supertag-hacker-news/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 登陆 Hacker News 首页，获得 84 个 Upvote，同日 org-supertag 的 Star 数达到 100&lt;/p&gt;
 
       </description>
@@ -231,10 +231,10 @@
     
     <item>
       <title>让 org-mode 的 tag 一直处于 Emacs 窗口的最右方</title>
-      <link>http://localhost:1313/posts/org-mode-tag-align-right/</link>
+      <link>https://www.gtdstudy.com/posts/org-mode-tag-align-right/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-mode-tag-align-right/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-mode-tag-align-right/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(add-to-list &amp;#39;font-lock-extra-managed-props &amp;#39;display)
 (font-lock-add-keywords &amp;#39;org-mode
                         `((&amp;#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]+:\\)$&amp;#34;
@@ -252,10 +252,10 @@
     
     <item>
       <title>2024 年，对自己较为满意。</title>
-      <link>http://localhost:1313/posts/summary-2024/</link>
+      <link>https://www.gtdstudy.com/posts/summary-2024/</link>
       <pubDate>Wed, 01 Jan 2025 09:42:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/summary-2024/</guid>
+      <guid>https://www.gtdstudy.com/posts/summary-2024/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;《得到 Prompt 系列》入选智谱清言的案例库，同时也被小七姐转发&lt;/li&gt;
 &lt;li&gt;开发了一套网站模板&lt;/li&gt;
@@ -279,10 +279,10 @@
     
     <item>
       <title>org-supertag 1.0 发布：添加行为系统</title>
-      <link>http://localhost:1313/posts/org-supertag-1-release/</link>
+      <link>https://www.gtdstudy.com/posts/org-supertag-1-release/</link>
       <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-supertag-1-release/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-supertag-1-release/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 正式发布 1.0，添加了&lt;strong&gt;行为系统&lt;/strong&gt;，可以组成自动工作流&lt;/p&gt;
 
       </description>
@@ -295,10 +295,10 @@
     
     <item>
       <title>用 AI 辅助开发的经验二三则(3)</title>
-      <link>http://localhost:1313/posts/learned-from-using-ai-develop-software-3/</link>
+      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/</link>
       <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/learned-from-using-ai-develop-software-3/</guid>
+      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/</guid>
       <description>&lt;p&gt;早两日，我发布了 org-supertag，一个新的 Emacs 第三方扩展包。本来这个项目，我计划是 3-5 天完成，结果花费的时间比预计要超出 3 倍有多。不禁让我想起了一个段子：不管下属报的时间期限多长，总之乘以 3 倍就对了。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;多出来的时间花在哪儿了？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;先简单介绍 org-supertag 是干嘛的，它借鉴了 Tana 强大的 Super Tag 功能，增强 Org-mode 原本的标签系统。强大这个描述，转换视角，往往意味着复杂。不过对于我来说，梳理 Tana 的功能，以及理清它概念之间的&lt;a href=&#34;https://emacs-china.org/t/emacs-tana-supertag/28407/4&#34;&gt;关系&lt;/a&gt;，并没有花我太长时间。&lt;/p&gt;
@@ -350,10 +350,10 @@
     
     <item>
       <title>org-supertag 发布到 Reddit</title>
-      <link>http://localhost:1313/posts/org-supertag-reddit-launch/</link>
+      <link>https://www.gtdstudy.com/posts/org-supertag-reddit-launch/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-supertag-reddit-launch/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-supertag-reddit-launch/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 上线，发布到 Reddit，得到了鼓励和支持&lt;/p&gt;
 
       </description>
@@ -366,10 +366,10 @@
     
     <item>
       <title>使用「Shift &#43; 方向键」在 Emacs Calendar 里自由选择日期</title>
-      <link>http://localhost:1313/posts/emacs-calendar-shift-select/</link>
+      <link>https://www.gtdstudy.com/posts/emacs-calendar-shift-select/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/emacs-calendar-shift-select/</guid>
+      <guid>https://www.gtdstudy.com/posts/emacs-calendar-shift-select/</guid>
       <description>&lt;p&gt;在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 +1、+2 这种方式来选择未来的日期。&lt;/p&gt;
 &lt;p&gt;这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift + 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。&lt;/p&gt;
 
@@ -383,10 +383,10 @@
     
     <item>
       <title>加快 macOS 里光标的移动速度</title>
-      <link>http://localhost:1313/posts/macos-cursor-speed/</link>
+      <link>https://www.gtdstudy.com/posts/macos-cursor-speed/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/macos-cursor-speed/</guid>
+      <guid>https://www.gtdstudy.com/posts/macos-cursor-speed/</guid>
       <description>&lt;p&gt;找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。&lt;/p&gt;
 &lt;p&gt;效果拔群！&lt;/p&gt;
 
@@ -400,10 +400,10 @@
     
     <item>
       <title>与 Emacs 群友 Eval Exec 面基</title>
-      <link>http://localhost:1313/posts/meeting-with-eval-exec/</link>
+      <link>https://www.gtdstudy.com/posts/meeting-with-eval-exec/</link>
       <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/meeting-with-eval-exec/</guid>
+      <guid>https://www.gtdstudy.com/posts/meeting-with-eval-exec/</guid>
       <description>&lt;p&gt;与 Emacs 群友 &lt;a href=&#34;https://evex.one/&#34;&gt;Eval Exec&lt;/a&gt; 面基，反应很敏锐，做什么都速度感很强，指尖在 Emacs 上跳跃，行云流水&lt;/p&gt;
 
       </description>
@@ -416,10 +416,10 @@
     
     <item>
       <title>Ant Design 组件基本分类</title>
-      <link>http://localhost:1313/posts/antd-component-architecture/</link>
+      <link>https://www.gtdstudy.com/posts/antd-component-architecture/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/antd-component-architecture/</guid>
+      <guid>https://www.gtdstudy.com/posts/antd-component-architecture/</guid>
       <description>&lt;h2 id=&#34;架构设计&#34;&gt;架构设计&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;分层
@@ -463,10 +463,10 @@
     
     <item>
       <title>org-zettel-ref-mode 0.5：支持高亮标记</title>
-      <link>http://localhost:1313/posts/org-zettel-ref-mode-0-5/</link>
+      <link>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-5/</link>
       <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-zettel-ref-mode-0-5/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-5/</guid>
       <description>&lt;p&gt;将 org-zettel-ref-mode 升级到 0.5，支持高亮标记，以及更换了笔记的样式&lt;/p&gt;
 
       </description>
@@ -479,10 +479,10 @@
     
     <item>
       <title>时至今日, 我们对论语的解读是如此单一</title>
-      <link>http://localhost:1313/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/</link>
+      <link>https://www.gtdstudy.com/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/</link>
       <pubDate>Sun, 10 Nov 2024 09:53:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/</guid>
+      <guid>https://www.gtdstudy.com/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/</guid>
       <description>&lt;p&gt;在了解西方人如何解读《论语》，以及为什么认为《论语》是思想经典后。会发现，《论语》的内涵如此丰富，&lt;/p&gt;
 &lt;p&gt;我想《论语》之所以可以流传下来，绝非是因为它摘录了孔夫子的语录，而是学徒们觉得孔夫子这些话很重要，才摘录。&lt;/p&gt;
 &lt;p&gt;重要，就是信息密度，以及可解读的信息层次。&lt;/p&gt;
