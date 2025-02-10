@@ -38,7 +38,7 @@
 <link rel="canonical" href="https://www.gtdstudy.com/posts/photoshop-tips-1-fast-cutout/">
 
 
-      <link rel="stylesheet" href="/css/main.min.44375f5c6ae0237a2da57422c7a5aadd549c93accc8230a3224aa487fe28fab1.css" integrity="sha256-RDdfXGrgI3otpXQix6Wq3VSck6zMgjCjIkqkh/4o&#43;rE=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/main.min.64d9858ea45ca5fdb2db49a4f58c110119197a45af7f31e9fdbddecc8c35311b.css" integrity="sha256-ZNmFjqRcpf2y20mk9YwRARkZekWvfzHp/b3ezIw1MRs=" crossorigin="anonymous">
 
 
       <script src="/js/main.cae3d9eba4e54c3d685682c303a39b0cc30e2473ee5331e21ead03ee70507a6e.js" integrity="sha256-yuPZ66TlTD1oVoLDA6ObDMMOJHPuUzHiHq0D7nBQem4=" crossorigin="anonymous"></script>
@@ -62,25 +62,15 @@
 
   
   <link rel="stylesheet" href="/css/main.min.css">
-  
-  <link rel="stylesheet" href="/css/mobile.min.css">
 </head>
 
 <body>
-  
-<header class="mobile-header">
-    <h1 class="mobile-header__title">
-        <a href="/" class="mobile-header__link">Space Looming</a>
-    </h1>
-</header>
-  
-<header class="site-header">
-    <header class="site-header">
+  <header class="site-header">
     <div class="header-content">
         
         <div class="site-branding">
             <h1 class="site-title">
-                <a href="https://www.gtdstudy.com/">Space Looming</a>
+                <a href="/">Space Looming</a>
             </h1>
             
             <p class="site-subtitle">无垠的太空中，传来宇宙的轰鸣</p>
@@ -88,14 +78,14 @@
         </div>
 
         
+        
         <div class="site-bio">
-            
             <div class="bio-content"><p>大家好，我是一个喜欢阅读、思考以及交流的人。</p>
 <p>最近在 AI 辅助编程方面取得了不少进展。</p>
 <p>我评测过很多产品，写过很多行业预测，写了不少 Prompt，开发了 4 个 Emacs Package。</p>
 </div>
-            
         </div>
+        
 
         
         <nav class="site-nav">
@@ -163,8 +153,6 @@
         });
     });
 </script>
-</header>
-
   <main>
     
 <div class="single-main">
@@ -207,67 +195,26 @@
 </div>
 
   </main>
-
-  
-  
-<button class="scroll-indicator" onclick="slideToNextColumn()" aria-label="Slide to next column">👉</button>
-
-<script>
-    function slideToNextColumn() {
-        const container = document.querySelector('.deck-container');
-        const columnWidth = window.innerWidth;
-        const maxScroll = container.scrollWidth - container.clientWidth;
-
+  <footer class="site-footer">
+    <div class="footer-content">
         
-        const currentScroll = container.scrollLeft;
+        <div class="footer-links">
+            
+            
+            
+            <a href="https://www.gtdstudy.com/feed.xml" target="_blank" rel="noopener" title="RSS Feed">
+                <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M6.18,15.64A2.18,2.18 0 0,1 8.36,17.82C8.36,19 7.38,20 6.18,20C5,20 4,19 4,17.82A2.18,2.18 0 0,1 6.18,15.64M4,4.44A15.56,15.56 0 0,1 19.56,20H16.73A12.73,12.73 0 0,0 4,7.27V4.44M4,10.1A9.9,9.9 0 0,1 13.9,20H11.07A7.07,7.07 0 0,0 4,12.93V10.1Z" />
+                </svg>
+            </a>
+            
+        </div>
+        <div class="copyright">
+            &copy; 2025 Space Looming
+        </div>
+    </div>
+</footer>
 
-        
-        let nextScroll = currentScroll + columnWidth;
-
-        
-        if (nextScroll > maxScroll) {
-            nextScroll = 0;
-        }
-
-        
-        container.scrollTo({
-            left: nextScroll,
-            behavior: 'smooth'
-        });
-    }
-</script>
-
-<style>
-     
-    .scroll-indicator {
-        position: fixed;
-        bottom: 1rem;
-        right: 1rem;
-        width: 2.5rem;
-        height: 2.5rem;
-        background: var(--color-primary);
-        color: white;
-        border: none;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.25rem;
-        cursor: pointer;
-        z-index: 1000;
-        opacity: 0.8;
-        transition: opacity 0.2s ease, transform 0.2s ease;
-    }
-
-    .scroll-indicator:hover {
-        opacity: 1;
-        transform: scale(1.1);
-    }
-
-    .scroll-indicator:active {
-        transform: scale(0.95);
-    }
-</style>
 </body>
 
 </html>
