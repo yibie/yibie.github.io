@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Now - Space Looming</title>
-    <link>http://localhost:1313/categories/now/</link>
+    <link>https://www.gtdstudy.com/categories/now/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Sun, 09 Feb 2025 10:54:00 +0800</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/categories/now/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/categories/now/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HUGO 主题 hugo-theme-deck 上线</title>
-      <link>http://localhost:1313/posts/hugo-theme-deck-online/</link>
+      <link>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</link>
       <pubDate>Sun, 09 Feb 2025 10:54:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/hugo-theme-deck-online/</guid>
+      <guid>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/hugo-theme-deck&#34;&gt;https://github.com/yibie/hugo-theme-deck&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;以列作为主题展示&lt;/li&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>org-luhmann 获得知名开发者关注</title>
-      <link>http://localhost:1313/posts/org-luhmann-stars/</link>
+      <link>https://www.gtdstudy.com/posts/org-luhmann-stars/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-luhmann-stars/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-luhmann-stars/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 受到两位 emacs 圈著名的开发者 Star， 一位是开发了 org-tranclusion 的 nobit，一位是 magit 的开发者 tarsius，哈哈哈&lt;/p&gt;
 
       </description>
@@ -54,10 +54,10 @@
     
     <item>
       <title>org-luhmann 发布：基于情境的卢曼笔记编号工具</title>
-      <link>http://localhost:1313/posts/org-luhmann-release/</link>
+      <link>https://www.gtdstudy.com/posts/org-luhmann-release/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-luhmann-release/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-luhmann-release/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 发布，一个给 org-headline 添加卢曼式笔记编号的工具，它的特点在于基于情境，让用户进行选择，而不是自动化编号&lt;/p&gt;
 
       </description>
@@ -70,10 +70,10 @@
     
     <item>
       <title>org-supertag 2.0.0 版本发布</title>
-      <link>http://localhost:1313/posts/org-supertag-2-release/</link>
+      <link>https://www.gtdstudy.com/posts/org-supertag-2-release/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-supertag-2-release/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-supertag-2-release/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 2.0.0 版本发布，增加了定时任务，增加移动节点的用户交互命令，在行为系统里增加行为定义模板变量&lt;/p&gt;
 
       </description>
@@ -86,10 +86,10 @@
     
     <item>
       <title>org-supertag 登陆 Hacker News 首页</title>
-      <link>http://localhost:1313/posts/org-supertag-hacker-news/</link>
+      <link>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-supertag-hacker-news/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 登陆 Hacker News 首页，获得 84 个 Upvote，同日 org-supertag 的 Star 数达到 100&lt;/p&gt;
 
       </description>
@@ -102,10 +102,10 @@
     
     <item>
       <title>2024 年，对自己较为满意。</title>
-      <link>http://localhost:1313/posts/summary-2024/</link>
+      <link>https://www.gtdstudy.com/posts/summary-2024/</link>
       <pubDate>Wed, 01 Jan 2025 09:42:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/summary-2024/</guid>
+      <guid>https://www.gtdstudy.com/posts/summary-2024/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;《得到 Prompt 系列》入选智谱清言的案例库，同时也被小七姐转发&lt;/li&gt;
 &lt;li&gt;开发了一套网站模板&lt;/li&gt;
@@ -129,10 +129,10 @@
     
     <item>
       <title>org-supertag 1.0 发布：添加行为系统</title>
-      <link>http://localhost:1313/posts/org-supertag-1-release/</link>
+      <link>https://www.gtdstudy.com/posts/org-supertag-1-release/</link>
       <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-supertag-1-release/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-supertag-1-release/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 正式发布 1.0，添加了&lt;strong&gt;行为系统&lt;/strong&gt;，可以组成自动工作流&lt;/p&gt;
 
       </description>
@@ -145,10 +145,10 @@
     
     <item>
       <title>org-supertag 发布到 Reddit</title>
-      <link>http://localhost:1313/posts/org-supertag-reddit-launch/</link>
+      <link>https://www.gtdstudy.com/posts/org-supertag-reddit-launch/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-supertag-reddit-launch/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-supertag-reddit-launch/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 上线，发布到 Reddit，得到了鼓励和支持&lt;/p&gt;
 
       </description>
@@ -161,10 +161,10 @@
     
     <item>
       <title>与 Emacs 群友 Eval Exec 面基</title>
-      <link>http://localhost:1313/posts/meeting-with-eval-exec/</link>
+      <link>https://www.gtdstudy.com/posts/meeting-with-eval-exec/</link>
       <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/meeting-with-eval-exec/</guid>
+      <guid>https://www.gtdstudy.com/posts/meeting-with-eval-exec/</guid>
       <description>&lt;p&gt;与 Emacs 群友 &lt;a href=&#34;https://evex.one/&#34;&gt;Eval Exec&lt;/a&gt; 面基，反应很敏锐，做什么都速度感很强，指尖在 Emacs 上跳跃，行云流水&lt;/p&gt;
 
       </description>
@@ -177,10 +177,10 @@
     
     <item>
       <title>org-zettel-ref-mode 0.5：支持高亮标记</title>
-      <link>http://localhost:1313/posts/org-zettel-ref-mode-0-5/</link>
+      <link>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-5/</link>
       <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-zettel-ref-mode-0-5/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-5/</guid>
       <description>&lt;p&gt;将 org-zettel-ref-mode 升级到 0.5，支持高亮标记，以及更换了笔记的样式&lt;/p&gt;
 
       </description>
@@ -193,10 +193,10 @@
     
     <item>
       <title>org-zettel-ref-mode 0.4：添加源文件管理面板</title>
-      <link>http://localhost:1313/posts/org-zettel-ref-mode-0-4/</link>
+      <link>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-4/</link>
       <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-zettel-ref-mode-0-4/</guid>
+      <guid>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-4/</guid>
       <description>&lt;p&gt;将 org-zettel-ref-mode 升级到 0.4，增加了管理源文件的可视化面板, 非常好用&lt;/p&gt;
 
       </description>
@@ -209,10 +209,10 @@
     
     <item>
       <title>博客添加 Waline 评论系统</title>
-      <link>http://localhost:1313/posts/blog-waline/</link>
+      <link>https://www.gtdstudy.com/posts/blog-waline/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/blog-waline/</guid>
+      <guid>https://www.gtdstudy.com/posts/blog-waline/</guid>
       <description>&lt;p&gt;为本博客添加评论系统 Waline&lt;/p&gt;
 
       </description>
@@ -225,10 +225,10 @@
     
     <item>
       <title>博客添加友情链接</title>
-      <link>http://localhost:1313/posts/blog-friends/</link>
+      <link>https://www.gtdstudy.com/posts/blog-friends/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/blog-friends/</guid>
+      <guid>https://www.gtdstudy.com/posts/blog-friends/</guid>
       <description>&lt;p&gt;为博客添加 Friends, 存放友情链接 (或者说, 朋友的博客)&lt;/p&gt;
 
       </description>
@@ -241,10 +241,10 @@
     
     <item>
       <title>发布 pos-tag-highlight：提高英语阅读效率的工具</title>
-      <link>http://localhost:1313/posts/pos-tag-highlight-release/</link>
+      <link>https://www.gtdstudy.com/posts/pos-tag-highlight-release/</link>
       <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/pos-tag-highlight-release/</guid>
+      <guid>https://www.gtdstudy.com/posts/pos-tag-highlight-release/</guid>
       <description>&lt;p&gt;发布一个新的 emacs 包 &lt;a href=&#34;https://github.com/yibie/pos-tag-highlight&#34;&gt;pos-tag-highlight&lt;/a&gt;, 对英文段落里的动词, 介词进行加粗, 以提高英语的阅读效率&lt;/p&gt;
 
       </description>
@@ -257,10 +257,10 @@
     
     <item>
       <title>Working on improving the Hugo Theme Deck</title>
-      <link>http://localhost:1313/posts/now-example/</link>
+      <link>https://www.gtdstudy.com/posts/now-example/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/now-example/</guid>
+      <guid>https://www.gtdstudy.com/posts/now-example/</guid>
       <description>&lt;p&gt;Working on improving the Hugo Theme Deck documentation and adding more example posts to demonstrate different column styles. 🚀&lt;/p&gt;
 
       </description>
@@ -273,10 +273,10 @@
     
     <item>
       <title>Go to Brayce Canyon National Park</title>
-      <link>http://localhost:1313/posts/post-3/</link>
+      <link>https://www.gtdstudy.com/posts/post-3/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
       
-      <guid>http://localhost:1313/posts/post-3/</guid>
+      <guid>https://www.gtdstudy.com/posts/post-3/</guid>
       <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;bryce-canyon.jpg&#34; alt=&#34;Bryce Canyon National Park&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Sit excepteur do velit veniam mollit in nostrud laboris incididunt ea. Amet eu cillum ut reprehenderit culpa aliquip labore laborum amet sit sit duis. Laborum id proident nostrud dolore laborum reprehenderit quis mollit nulla amet veniam officia id id. Aliquip in deserunt qui magna duis qui pariatur officia sunt deserunt.&lt;/p&gt;
@@ -291,10 +291,10 @@
     
     <item>
       <title>最近学习 Lisp 进度顺利</title>
-      <link>http://localhost:1313/posts/about-learning-lisp/</link>
+      <link>https://www.gtdstudy.com/posts/about-learning-lisp/</link>
       <pubDate>Sat, 10 Sep 2022 23:06:59 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/about-learning-lisp/</guid>
+      <guid>https://www.gtdstudy.com/posts/about-learning-lisp/</guid>
       <description>&lt;p&gt;近期更换了学习 lisp 的教材，进度可喜可贺，虽不能独立写出 package，然而在看 lisp 的代码时，开始具备一定的阅读能力，知道是什么顺序，大概会是什么作用。如果不知道，还可以直接查询函数。&lt;/p&gt;
 &lt;p&gt;近期的学习教材主要是《Practical Common Lisp》，我认为它的安排很好，一上来先教人安装了 lisp 的生产环境之后，就直接以一个「专辑数据库」为例子，让人直接上手，并从一步步的步骤中，理解自己所编写的代码，如何变成程序。对于一名非程序员来说，这种方式，可以很快地通过实操来理解代码的作用，找到感觉。&lt;/p&gt;
 &lt;p&gt;这和学习《 ANSI Common Lisp 中文版》的感受大不一样。ANSI Common Lisp，非常完整，十分细致，甚至有后面的练习题，来帮助人深入思考。但它太学术了，在学习过程中，总是不知道学了之后，用这些语法或函数能发挥什么作用。&lt;/p&gt;
@@ -310,10 +310,10 @@
     
     <item>
       <title>逛南头古城</title>
-      <link>http://localhost:1313/posts/travel-to-nantougucheng/</link>
+      <link>https://www.gtdstudy.com/posts/travel-to-nantougucheng/</link>
       <pubDate>Wed, 24 Aug 2022 10:16:32 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/travel-to-nantougucheng/</guid>
+      <guid>https://www.gtdstudy.com/posts/travel-to-nantougucheng/</guid>
       <description>&lt;p&gt;几年前，我曾经和阿薰来过南头古城，参加深港双年展。当时，南头古城的旧改开发，只有瓮城到县衙中间的一条直街有一些新鲜铺子。现在整个南头古城，一横一竖，变化非常大，已经变成了各类新鲜业态的集中地，各类小吃不必提，一个个小小的咖啡馆各具特色，还有古着店、设计买手店、独立设计师店等等，让南头古城充满了潮流气质。&lt;/p&gt;
 &lt;p&gt;带我逛南头古城的高老师，在这里扎了 2 年，他跟我说，万科泊寓很用心的经营年轻租客的社群关系，也为南头古城增加了人情的温度，所谓的社区感，不就来自于日常微笑的相互点头，随口聊聊么？我想南头古城可以避免丽江过度商业化的悲剧，缺乏人文作为基地的新潮，最终不可避免空洞。晚上，高老师给了一张泊寓的试住体验券，让我住一晚上，体验古城夜景。可惜晚上开会，直到 10 点多才下楼，此时古城人潮开始散去，各类小店开始关门，看着他们一边关门，一边相互点头执意，在温黄的灯光下，心情渐渐柔和。&lt;/p&gt;
 &lt;p&gt;向别人介绍深圳有什么特产，我总觉得困难，对比起其它一线城市，深圳这个地方以拼搏精神而著称，但总不能跟别人说深圳特产是工作狂吧？现在南头古城变得如此新鲜，这里面的一间间小店，我突然间发现，可以向别人介绍，深圳还有一个新鲜去处，叫南头古城。&lt;/p&gt;
@@ -328,10 +328,10 @@
     
     <item>
       <title>前两天，香港珍宝舫在南海沉没。满大街的媒体标题写着「一个年代远去」的感叹。2020 年开始的疫情风暴，锤死多少洋洋自得，飙升的法拍房数量背后是难以启齿的难堪，不再敢提起光荣与梦想。活下去吧，活下去吧，几乎每个人都在说。</title>
-      <link>http://localhost:1313/posts/thelastyear/</link>
+      <link>https://www.gtdstudy.com/posts/thelastyear/</link>
       <pubDate>Sun, 14 Aug 2022 18:04:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/thelastyear/</guid>
+      <guid>https://www.gtdstudy.com/posts/thelastyear/</guid>
       <description>&lt;p&gt;前两天，香港珍宝舫在南海沉没。满大街的媒体标题写着「一个年代远去」的感叹。2020 年开始的疫情风暴，锤死多少洋洋自得，飙升的法拍房数量背后是难以启齿的难堪，不再敢提起光荣与梦想。活下去吧，活下去吧，几乎每个人都在说。&lt;/p&gt;
 &lt;p&gt;这个国家和民族走入中年，就在 2020 年。曾经，红蓝黄绿紫，世界多姿彩。少年不识愁滋味，三年过了，突然间一种中年化的表情，出现在人人的脸上，言谈里。&lt;/p&gt;
 &lt;p&gt;沉重的空气，在肺里灌铅，却不得不呼吸着。生活也需要点幽默感。但也许这还不是最坏的年代。每一年都是下一年更好的年代。笑不出来，没有这个心情。压力，让眉间逐渐拧成川字，嘴角也难以上翘，脸皮下的肌肉像是打了肉毒杆菌，僵硬。&lt;/p&gt;
@@ -349,10 +349,10 @@
     
     <item>
       <title>为 Jony Ive 离开苹果叫好</title>
-      <link>http://localhost:1313/posts/about-jony-ivy-leaves-apple/</link>
+      <link>https://www.gtdstudy.com/posts/about-jony-ivy-leaves-apple/</link>
       <pubDate>Wed, 04 May 2022 17:28:22 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/about-jony-ivy-leaves-apple/</guid>
+      <guid>https://www.gtdstudy.com/posts/about-jony-ivy-leaves-apple/</guid>
       <description>&lt;p&gt;最近又出了一本关于苹果的新书，叫《After Steve》，主要内容整理自对 Jony Ive 访谈，知名科技评论家阑夕总结了这本书的内容：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;财经记者 Tripp Mickle 出版了一本报道苹果公司的新书「乔布斯之后」（After Steve），小标题就更直率了，是「苹果如何成为一家价值万亿美元的公司，并失去了灵魂」。&lt;/p&gt;

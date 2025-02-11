@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About - Space Looming</title>
-    <link>http://localhost:1313/categories/about/</link>
+    <link>https://www.gtdstudy.com/categories/about/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Tue, 15 Oct 2024 04:43:18 +0800</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/categories/about/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/categories/about/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://www.gtdstudy.com/about/</link>
       <pubDate>Tue, 15 Oct 2024 04:43:18 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://www.gtdstudy.com/about/</guid>
       <description>&lt;p&gt;正努力减肥的微胖子，喜欢用 Emacs 的非程序员，曾经也是个有名的博客&lt;/p&gt;
 &lt;p&gt;在无垠的太空中，听有节奏而低沉的轰鸣&lt;/p&gt;
 

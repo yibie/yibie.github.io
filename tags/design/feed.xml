@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design - Space Looming</title>
-    <link>http://localhost:1313/tags/design/</link>
+    <link>https://www.gtdstudy.com/tags/design/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Sat, 01 Feb 2025 18:09:00 +0800</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/tags/design/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/tags/design/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>读完《软件设计的哲学》</title>
-      <link>http://localhost:1313/posts/finishing-reading-the-philosophy-of-software-design/</link>
+      <link>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</link>
       <pubDate>Sat, 01 Feb 2025 18:09:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/finishing-reading-the-philosophy-of-software-design/</guid>
+      <guid>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</guid>
       <description>&lt;p&gt;整本书的思想是关于软件开发时，预防、控制复杂度的发生。但我觉得，这实际上是一种思想。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;复杂度是熵&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;这是我第一重感悟。在本书中，开题就已经说明了，一切和复杂度有关（It&amp;rsquo;s All About Complextiy）。复杂度就如宇宙中的熵一样，无处不在。它就好像是埋藏在诸多事物下的真相一样，看上去不会引发任何问题，但任何问题都可能和它有关。&lt;/p&gt;
