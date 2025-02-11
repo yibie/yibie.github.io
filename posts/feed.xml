@@ -15,6 +15,21 @@
     
     
     <item>
+      <title>很多人会问，无聊的时候，你会做什么？我觉得这个问法有点问题，如果是我，我会问：有什么时候，你会感到无聊？我觉得无聊只是一个感受，理解感受比消灭感受要重要。</title>
+      <link>https://www.gtdstudy.com/posts/what-do-you-do-when-you-feeling-boring/</link>
+      <pubDate>Tue, 11 Feb 2025 16:34:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/what-do-you-do-when-you-feeling-boring/</guid>
+      <description>
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
       <title>学到新词，处女作通病</title>
       <link>https://www.gtdstudy.com/posts/learned-a-new-concept-maide-work/</link>
       <pubDate>Tue, 11 Feb 2025 16:32:00 +0800</pubDate>
@@ -461,23 +476,6 @@
       <guid>https://www.gtdstudy.com/posts/emacs-calendar-shift-select/</guid>
       <description>&lt;p&gt;在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 +1、+2 这种方式来选择未来的日期。&lt;/p&gt;
 &lt;p&gt;这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift + 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>til</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>加快 macOS 里光标的移动速度</title>
-      <link>https://www.gtdstudy.com/posts/macos-cursor-speed/</link>
-      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/macos-cursor-speed/</guid>
-      <description>&lt;p&gt;找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。&lt;/p&gt;
-&lt;p&gt;效果拔群！&lt;/p&gt;
 
       </description>
       
