@@ -56,6 +56,22 @@
     </item>
     
     <item>
+      <title>Vim 使用 Ctrl &#43; o 回到之前的光标位置</title>
+      <link>https://www.gtdstudy.com/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</link>
+      <pubDate>Tue, 11 Feb 2025 10:08:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</guid>
+      <description>&lt;p&gt;如果想知道之前的光标位置的记录，可以输入 &lt;code&gt;:jumps&lt;/code&gt; 就能看到之前光标位置记录的列表。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>til</category>
+      
+      
+    </item>
+    
+    <item>
       <title>Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本</title>
       <link>https://www.gtdstudy.com/posts/emacs-keep-flush-lines/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
@@ -667,27 +683,6 @@
 &lt;p&gt;进入 “网络和共享中心” 菜单。右键单击 Wi-Fi 网络连接图标→“无线网络属性”。点击 “显示字符” 字段，显示 Wi-Fi 网络密码。&lt;/p&gt;
 &lt;h2 id=&#34;macos&#34;&gt;macOS&lt;/h2&gt;
 &lt;p&gt;所有密码都存储在钥匙串应用程序中。使用 Spotlight 搜索 “Keychain Access”。打开该应用程序，在保存的凭证列表中找到 Wi-Fi 网络名称。双击它，然后在字段中点击查看密码（这需要输入操作系统密码）。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>til</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>苹果：Mac Studio 为何不能更换普通的 SSD 硬盘</title>
-      <link>https://www.gtdstudy.com/posts/why-mac-studio-can-not-change-ssds/</link>
-      <pubDate>Sat, 26 Mar 2022 23:04:47 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/why-mac-studio-can-not-change-ssds/</guid>
-      <description>&lt;p&gt;极客风范浓厚醇正的 &lt;a href=&#34;https://arstechnica.com/gadgets/2022/03/explaining-the-mac-studios-removable-ssds-and-why-you-cant-just-swap-them-out/&#34;&gt;ArsTechnica&lt;/a&gt; 也注意到 Mac Studio 不能随意更换 SSD 硬盘一事。它给出了一个很简单的答案：&lt;/p&gt;
-&lt;p&gt;所有 SSD 硬盘的结构至少包含 2 样东西，用于存储数据 NAND 芯片和 SSD 控制芯片。在 PC 上，SSD 硬盘基本都包含这两样，所以它们更换起来很方便。&lt;/p&gt;
-&lt;p&gt;但苹果在推出 T2 芯片之后，选择「功能集成到一个芯片里」，SSD 控制芯片的功能也不例外，被苹果集成在 T2，以及后续的 M1 系列里。&lt;/p&gt;
-&lt;p&gt;所以，Mac Studio 上的 SSD 硬盘，只有 NANO 芯片外加一个称为「raw NAND controller/bridge」的东西。而在实际测试的时候，即便采用和 Mac Studio 同样 NANO 芯片的 SSD 硬盘，Mac Studio 也无法识别。因此，很有可能 M1 里所设计的 SSD 控制功能，是将特定的 NAND 芯片和特定的系统设置搭配起来。因此，哪一方面不一致，都会导致 Mac Studio 无法识别 SSD 硬盘。&lt;/p&gt;
-&lt;p&gt;其实 Mac Studio 不能更换普通的 SSD 硬盘，并非什么大事，但我之所以感兴趣，是发现苹果的软硬结合达到了一个新的高度。M1 系列，我认为是奠定苹果在硬件方面进行创新的平台，然而，苹果并不单纯追求更快更强，而是不断尝试通过软件来定义硬件的功能，比如 Hand-On、AirPods 上特定推出的空间音频等等。这要求硬件本身功能具备平台性，可编程性——我想这是为什么苹果从 2011 年开始不断投入，研发芯片的原因。&lt;/p&gt;
-&lt;p&gt;以芯片作为平台，通过软件开发、定义、控制硬件的功能，这让苹果的创新具备更强的独特性，以及广泛性——从 M1 系列开始，苹果可以说，超越当今整整一个时代。&lt;/p&gt;
 
       </description>
       

@@ -56,6 +56,22 @@
     </item>
     
     <item>
+      <title>Vim 使用 Ctrl &#43; o 回到之前的光标位置</title>
+      <link>https://www.gtdstudy.com/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</link>
+      <pubDate>Tue, 11 Feb 2025 10:08:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</guid>
+      <description>&lt;p&gt;如果想知道之前的光标位置的记录，可以输入 &lt;code&gt;:jumps&lt;/code&gt; 就能看到之前光标位置记录的列表。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>til</category>
+      
+      
+    </item>
+    
+    <item>
       <title>愿你 AI IDE 阅尽，归来仍是 VSCode.</title>
       <link>https://www.gtdstudy.com/posts/use-many-ai-ides-but-go-back-to-vscode/</link>
       <pubDate>Mon, 10 Feb 2025 11:10:00 +0800</pubDate>
@@ -466,53 +482,6 @@
       
       
       <category>now</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>Ant Design 组件基本分类</title>
-      <link>https://www.gtdstudy.com/posts/antd-component-architecture/</link>
-      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/antd-component-architecture/</guid>
-      <description>&lt;h2 id=&#34;架构设计&#34;&gt;架构设计&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;分层
-&lt;ul&gt;
-&lt;li&gt;基础组件&lt;/li&gt;
-&lt;li&gt;样式体系&lt;/li&gt;
-&lt;li&gt;复合组件&lt;/li&gt;
-&lt;li&gt;业务组件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;解耦
-&lt;ul&gt;
-&lt;li&gt;对于每个组件都要定义：样式、ts 类型、基础操作、工具方法&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;响应式设计&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;状态管理&#34;&gt;状态管理&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;状态管理
-&lt;ul&gt;
-&lt;li&gt;全局状态：在 react 使用 Context、useSyncExternailStore&lt;/li&gt;
-&lt;li&gt;局部状态：受控组件，非受控组件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;样式体系与主题设计&#34;&gt;样式体系与主题设计&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Color Tokens : 颜色色值系统&lt;/li&gt;
-&lt;li&gt;样式模块化方案：css-in-js、emotion（建议试一试）、styled-compontents&lt;/li&gt;
-&lt;li&gt;样式优先级与覆盖：控制样式优先级&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-      
-      
-      <category>til</category>
       
       
     </item>
