@@ -15,6 +15,43 @@
     
     
     <item>
+      <title>Vim 针对一段长文本的导航</title>
+      <link>https://www.gtdstudy.com/posts/vim-navigation-in-long-line/</link>
+      <pubDate>Tue, 11 Feb 2025 10:11:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/vim-navigation-in-long-line/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;gj&lt;/th&gt;
+          &lt;th&gt;向下滚动一行（视觉行）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;gk&lt;/td&gt;
+          &lt;td&gt;向上滚动一行（视觉行）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;g^&lt;/td&gt;
+          &lt;td&gt;跳转到当前视觉行的开头&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;g$&lt;/td&gt;
+          &lt;td&gt;跳转到当前视觉行的末尾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;gm&lt;/td&gt;
+          &lt;td&gt;跳转到当前视觉行的中间&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+      
+    </item>
+    
+    <item>
       <title>愿你 AI IDE 阅尽，归来仍是 VSCode.</title>
       <link>https://www.gtdstudy.com/posts/use-many-ai-ides-but-go-back-to-vscode/</link>
       <pubDate>Mon, 10 Feb 2025 11:10:00 +0800</pubDate>
@@ -472,22 +509,6 @@
       
       
       <category>til</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>org-zettel-ref-mode 0.5：支持高亮标记</title>
-      <link>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-5/</link>
-      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-5/</guid>
-      <description>&lt;p&gt;将 org-zettel-ref-mode 升级到 0.5，支持高亮标记，以及更换了笔记的样式&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
       
       
     </item>
