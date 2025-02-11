@@ -9,10 +9,51 @@
     
     
     
-    <lastBuildDate>Tue, 21 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2025 10:11:00 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/til/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vim 针对一段长文本的导航</title>
+      <link>https://www.gtdstudy.com/posts/vim-navigation-in-long-line/</link>
+      <pubDate>Tue, 11 Feb 2025 10:11:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/vim-navigation-in-long-line/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;gj&lt;/th&gt;
+          &lt;th&gt;向下滚动一行（视觉行）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;gk&lt;/td&gt;
+          &lt;td&gt;向上滚动一行（视觉行）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;g^&lt;/td&gt;
+          &lt;td&gt;跳转到当前视觉行的开头&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;g$&lt;/td&gt;
+          &lt;td&gt;跳转到当前视觉行的末尾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;gm&lt;/td&gt;
+          &lt;td&gt;跳转到当前视觉行的中间&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+      
+      
+      <category>til</category>
+      
+      
+    </item>
     
     <item>
       <title>Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本</title>
@@ -647,28 +688,6 @@
 &lt;p&gt;所以，Mac Studio 上的 SSD 硬盘，只有 NANO 芯片外加一个称为「raw NAND controller/bridge」的东西。而在实际测试的时候，即便采用和 Mac Studio 同样 NANO 芯片的 SSD 硬盘，Mac Studio 也无法识别。因此，很有可能 M1 里所设计的 SSD 控制功能，是将特定的 NAND 芯片和特定的系统设置搭配起来。因此，哪一方面不一致，都会导致 Mac Studio 无法识别 SSD 硬盘。&lt;/p&gt;
 &lt;p&gt;其实 Mac Studio 不能更换普通的 SSD 硬盘，并非什么大事，但我之所以感兴趣，是发现苹果的软硬结合达到了一个新的高度。M1 系列，我认为是奠定苹果在硬件方面进行创新的平台，然而，苹果并不单纯追求更快更强，而是不断尝试通过软件来定义硬件的功能，比如 Hand-On、AirPods 上特定推出的空间音频等等。这要求硬件本身功能具备平台性，可编程性——我想这是为什么苹果从 2011 年开始不断投入，研发芯片的原因。&lt;/p&gt;
 &lt;p&gt;以芯片作为平台，通过软件开发、定义、控制硬件的功能，这让苹果的创新具备更强的独特性，以及广泛性——从 M1 系列开始，苹果可以说，超越当今整整一个时代。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>til</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>图床：把 Github 当做博客图床</title>
-      <link>https://www.gtdstudy.com/posts/how-to-make-github-to-be-your-blog-image-server/</link>
-      <pubDate>Fri, 04 Feb 2022 11:37:52 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/how-to-make-github-to-be-your-blog-image-server/</guid>
-      <description>&lt;p&gt;我之前的博客基本以纯文字为主，但最近因为博客新开了「产品」和「技巧」这两个分类，为了「把事情说明白」，发现还是需要「文字+图片」。由于本博客没有采用博客服务（比如 WordPress），就存在图片放哪儿的问题。&lt;/p&gt;
-&lt;p&gt;幸运的是，我发现通过 PicGo 可以方便地将图片上传到 Github 上，只需要自己设置一个「仓库」，生成「token」即可。&lt;/p&gt;
-&lt;p&gt;1、首先，注册一个 Github 账号&lt;/p&gt;
-&lt;p&gt;2、新设一个仓库（New repository），或在原有的仓库之下，设立一个新的分支（New repo）。参考&lt;a href=&#34;https://raw.githubusercontent.com/yibie/blogimag/main/%E6%88%AA%E5%B1%8F2022-02-04%20%E4%B8%8A%E5%8D%8811.03.27.png&#34;&gt;图片&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;3、生成一个 token，生成一个 token 时，需要把「repo」选项全部勾上。参考 PicGo 的&lt;a href=&#34;https://picgo.github.io/PicGo-Doc/zh/guide/config.html#github%E5%9B%BE%E5%BA%8A&#34;&gt;教程&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;4、打开 PicGo 详细窗口，把 Github 作为图床选上。&lt;/p&gt;
-&lt;p&gt;以后需要的图片，就只需要拖动到 PicGo 的上传窗口，就能自动获取图片链接——PicGo 还支持直接导出 MarkDown 或 HTML 等格式。&lt;/p&gt;
 
       </description>
       
