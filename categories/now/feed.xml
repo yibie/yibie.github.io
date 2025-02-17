@@ -9,10 +9,30 @@
     
     
     
-    <lastBuildDate>Tue, 11 Feb 2025 16:41:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2025 16:10:00 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/now/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一直想着把 org-mode 笔记里有价值的部分，转换成图片，然后分享出去，之前都需要其它工具来完成，现在我开发了 org-headline-card，将 org 标题以及标题包含的内容转换成图片</title>
+      <link>https://www.gtdstudy.com/posts/publish-org-headline-card/</link>
+      <pubDate>Sat, 15 Feb 2025 16:10:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/publish-org-headline-card/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;可以自定义主题&lt;/li&gt;
+&lt;li&gt;内置多个主题&lt;/li&gt;
+&lt;li&gt;基于 PlantUML 实现&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
     
     <item>
       <title>如果某个新事物的出现，遭到某一个群体的集体的嘲讽、抵制、反对、厌恶——那么大概率值得跟，以上表现足证明新事物具备重新定义利益链的潜能</title>
@@ -327,25 +347,6 @@
       <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;bryce-canyon.jpg&#34; alt=&#34;Bryce Canyon National Park&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Sit excepteur do velit veniam mollit in nostrud laboris incididunt ea. Amet eu cillum ut reprehenderit culpa aliquip labore laborum amet sit sit duis. Laborum id proident nostrud dolore laborum reprehenderit quis mollit nulla amet veniam officia id id. Aliquip in deserunt qui magna duis qui pariatur officia sunt deserunt.&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>最近学习 Lisp 进度顺利</title>
-      <link>https://www.gtdstudy.com/posts/about-learning-lisp/</link>
-      <pubDate>Sat, 10 Sep 2022 23:06:59 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/about-learning-lisp/</guid>
-      <description>&lt;p&gt;近期更换了学习 lisp 的教材，进度可喜可贺，虽不能独立写出 package，然而在看 lisp 的代码时，开始具备一定的阅读能力，知道是什么顺序，大概会是什么作用。如果不知道，还可以直接查询函数。&lt;/p&gt;
-&lt;p&gt;近期的学习教材主要是《Practical Common Lisp》，我认为它的安排很好，一上来先教人安装了 lisp 的生产环境之后，就直接以一个「专辑数据库」为例子，让人直接上手，并从一步步的步骤中，理解自己所编写的代码，如何变成程序。对于一名非程序员来说，这种方式，可以很快地通过实操来理解代码的作用，找到感觉。&lt;/p&gt;
-&lt;p&gt;这和学习《 ANSI Common Lisp 中文版》的感受大不一样。ANSI Common Lisp，非常完整，十分细致，甚至有后面的练习题，来帮助人深入思考。但它太学术了，在学习过程中，总是不知道学了之后，用这些语法或函数能发挥什么作用。&lt;/p&gt;
-&lt;p&gt;所以我现在是《Practical Common Lisp》和 《 ANSI Common Lisp 中文版》一起结合来看。首先阅读前者，通过前者举的例子，来理解逻辑；而函数实际应用的细节，则查询后者——在逻辑理解了的情况下，阅读后者，往往很快就能理解，而且能够有一定的发散。这样子学，记得牢，学得快。&lt;/p&gt;
 
       </description>
       
