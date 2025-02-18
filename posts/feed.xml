@@ -15,6 +15,23 @@
     
     
     <item>
+      <title>我一直很想知道 Lex Fridman Podcast 到底采访了哪些嘉宾，以及这些嘉宾的博客或相关网站是什么，所以我做了一个脚本，来爬取他的 youtube 视频下的描述，自动生成文件，我将目前已经爬取到的内容，都放到 github 上了，一共 459 期，包括最新那期讨论 DeepSeek 的</title>
+      <link>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</link>
+      <pubDate>Mon, 17 Feb 2025 16:07:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/Lex-Fridman-Podcast/&#34;&gt;https://github.com/yibie/Lex-Fridman-Podcast/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;刚刚升级了脚本，清理了无关的内容，包括赞助人之类的。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
       <title>一直想着把 org-mode 笔记里有价值的部分，转换成图片，然后分享出去，之前都需要其它工具来完成，现在我开发了 org-headline-card，将 org 标题以及标题包含的内容转换成图片</title>
       <link>https://www.gtdstudy.com/posts/publish-org-headline-card/</link>
       <pubDate>Sat, 15 Feb 2025 16:10:00 +0800</pubDate>
@@ -422,33 +439,6 @@
       
       
       <category>til</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>2024 年，对自己较为满意。</title>
-      <link>https://www.gtdstudy.com/posts/summary-2024/</link>
-      <pubDate>Wed, 01 Jan 2025 09:42:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/summary-2024/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;《得到 Prompt 系列》入选智谱清言的案例库，同时也被小七姐转发&lt;/li&gt;
-&lt;li&gt;开发了一套网站模板&lt;/li&gt;
-&lt;li&gt;5 个 emacs 插件&lt;/li&gt;
-&lt;li&gt;一个 lisp prompt 生成器&lt;/li&gt;
-&lt;li&gt;认识不少新朋友&lt;/li&gt;
-&lt;li&gt;专注度得到提升&lt;/li&gt;
-&lt;li&gt;饮食更加规律&lt;/li&gt;
-&lt;li&gt;更加喜欢做饭&lt;/li&gt;
-&lt;li&gt;体重有所减轻&lt;/li&gt;
-&lt;li&gt;精力比去年好&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-      
-      
-      <category>now</category>
       
       
     </item>

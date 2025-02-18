@@ -9,10 +9,27 @@
     
     
     
-    <lastBuildDate>Sat, 15 Feb 2025 16:10:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 17 Feb 2025 16:07:00 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/now/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我一直很想知道 Lex Fridman Podcast 到底采访了哪些嘉宾，以及这些嘉宾的博客或相关网站是什么，所以我做了一个脚本，来爬取他的 youtube 视频下的描述，自动生成文件，我将目前已经爬取到的内容，都放到 github 上了，一共 459 期，包括最新那期讨论 DeepSeek 的</title>
+      <link>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</link>
+      <pubDate>Mon, 17 Feb 2025 16:07:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/Lex-Fridman-Podcast/&#34;&gt;https://github.com/yibie/Lex-Fridman-Podcast/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;刚刚升级了脚本，清理了无关的内容，包括赞助人之类的。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
     
     <item>
       <title>一直想着把 org-mode 笔记里有价值的部分，转换成图片，然后分享出去，之前都需要其它工具来完成，现在我开发了 org-headline-card，将 org 标题以及标题包含的内容转换成图片</title>
@@ -329,24 +346,6 @@
       
       <guid>https://www.gtdstudy.com/posts/now-example/</guid>
       <description>&lt;p&gt;Working on improving the Hugo Theme Deck documentation and adding more example posts to demonstrate different column styles. 🚀&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>Go to Brayce Canyon National Park</title>
-      <link>https://www.gtdstudy.com/posts/post-3/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/post-3/</guid>
-      <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;bryce-canyon.jpg&#34; alt=&#34;Bryce Canyon National Park&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Sit excepteur do velit veniam mollit in nostrud laboris incididunt ea. Amet eu cillum ut reprehenderit culpa aliquip labore laborum amet sit sit duis. Laborum id proident nostrud dolore laborum reprehenderit quis mollit nulla amet veniam officia id id. Aliquip in deserunt qui magna duis qui pariatur officia sunt deserunt.&lt;/p&gt;
 
       </description>
       
