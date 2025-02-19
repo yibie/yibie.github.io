@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quotes - Space Looming</title>
-    <link>https://www.gtdstudy.com/categories/quotes/</link>
+    <link>http://localhost:1313/categories/quotes/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Wed, 19 Feb 2025 21:09:30 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/categories/quotes/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/quotes/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>那是我的链接博客的目的：它是我发现的东西的持续记录——实际上是公开书签和我对这些东西为什么有趣的想法和评论的结合。</title>
-      <link>https://www.gtdstudy.com/posts/</link>
+      <link>http://localhost:1313/posts/</link>
       <pubDate>Wed, 19 Feb 2025 21:09:30 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/</guid>
+      <guid>http://localhost:1313/posts/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://simonwillison.net/&#34;&gt;Simon Willison’s Weblog&lt;/a&gt;&lt;/p&gt;
 
       </description>

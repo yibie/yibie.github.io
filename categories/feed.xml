@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories - Space Looming</title>
-    <link>https://www.gtdstudy.com/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Wed, 19 Feb 2025 21:09:30 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/categories/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quotes</title>
-      <link>https://www.gtdstudy.com/categories/quotes/</link>
+      <link>http://localhost:1313/categories/quotes/</link>
       <pubDate>Wed, 19 Feb 2025 21:09:30 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/categories/quotes/</guid>
+      <guid>http://localhost:1313/categories/quotes/</guid>
       <description>
       </description>
       
@@ -27,10 +27,10 @@
     
     <item>
       <title>About</title>
-      <link>https://www.gtdstudy.com/categories/about/</link>
+      <link>http://localhost:1313/categories/about/</link>
       <pubDate>Tue, 15 Oct 2024 04:43:18 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/categories/about/</guid>
+      <guid>http://localhost:1313/categories/about/</guid>
       <description>
       </description>
       
@@ -38,10 +38,10 @@
     
     <item>
       <title>TIL</title>
-      <link>https://www.gtdstudy.com/categories/til/</link>
+      <link>http://localhost:1313/categories/til/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/categories/til/</guid>
+      <guid>http://localhost:1313/categories/til/</guid>
       <description>
       </description>
       

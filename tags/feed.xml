@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags - Space Looming</title>
-    <link>https://www.gtdstudy.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,7 +11,7 @@
     
     
     
-    <atom:link href="https://www.gtdstudy.com/tags/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/feed.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
