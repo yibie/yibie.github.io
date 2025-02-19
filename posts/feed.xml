@@ -15,6 +15,48 @@
     
     
     <item>
+      <title>设置 org-refile 的行为</title>
+      <link>https://www.gtdstudy.com/posts/config-org-refile/</link>
+      <pubDate>Wed, 19 Feb 2025 18:52:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/config-org-refile/</guid>
+      <description>&lt;p&gt;来自 &lt;a href=&#34;https://www.reddit.com/r/emacs/comments/4366f9/comment/czg008y/&#34;&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;(setq org-refile-targets &amp;#39;((nil :maxlevel . 9)        ; 这里定义 org-refile 感知的 org 标题层级
+                                (org-agenda-files :maxlevel . 9)))
+(setq org-outline-path-complete-in-steps nil)         ; Refile in a single go
+(setq org-refile-use-outline-path t)                  ; 当重新定位时，会展示完整的路径
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+      
+      
+      <category>til</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>作为 Emacs 用户一直很羡慕 markdown 有很多丰富的插件，将网页直接保存为 md 文件，在朋友 J 的鼓励下，我开发了 Copy as Org-mode Chrome，解决了长久以来的困扰</title>
+      <link>https://www.gtdstudy.com/posts/publish-copy-as-org-mode-chrome/</link>
+      <pubDate>Tue, 18 Feb 2025 21:23:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/publish-copy-as-org-mode-chrome/</guid>
+      <description>&lt;p&gt;项目地址：&lt;a href=&#34;https://github.com/yibie/Copy-as-org-mode-chrome&#34;&gt;https://github.com/yibie/Copy-as-org-mode-chrome&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;直接将网页里的文本，直接转换成 org-mode 格式，拷贝到剪贴板&lt;/li&gt;
+&lt;li&gt;将网页直接保存为 org-mode 格式的文件下载到你指定的目录&lt;/li&gt;
+&lt;li&gt;将网址直接转换成 org-mode 格式并拷贝到剪贴板&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;该项目基于 &lt;a href=&#34;https://github.com/kuanyui&#34;&gt;kuanyui&lt;/a&gt; 的 &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/copy-as-org-mode/&#34;&gt;Copy as Org-mode&lt;/a&gt; 开发。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
+    
+    <item>
       <title>我一直很想知道 Lex Fridman Podcast 到底采访了哪些嘉宾，以及这些嘉宾的博客或相关网站是什么，所以我做了一个脚本，来爬取他的 youtube 视频下的描述，自动生成文件，我将目前已经爬取到的内容，都放到 github 上了，一共 459 期，包括最新那期讨论 DeepSeek 的</title>
       <link>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</link>
       <pubDate>Mon, 17 Feb 2025 16:07:00 +0800</pubDate>
@@ -402,43 +444,6 @@
       
       
       <category>now</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>org-supertag 登陆 Hacker News 首页</title>
-      <link>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</link>
-      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 登陆 Hacker News 首页，获得 84 个 Upvote，同日 org-supertag 的 Star 数达到 100&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>让 org-mode 的 tag 一直处于 Emacs 窗口的最右方</title>
-      <link>https://www.gtdstudy.com/posts/org-mode-tag-align-right/</link>
-      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/org-mode-tag-align-right/</guid>
-      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(add-to-list &amp;#39;font-lock-extra-managed-props &amp;#39;display)
-(font-lock-add-keywords &amp;#39;org-mode
-                        `((&amp;#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]+:\\)$&amp;#34;
-                           (1 `(face nil
-                                     display (space :align-to (- right ,(org-string-width (match-string 2)) 3)))
-                              prepend))) t)
-&lt;/code&gt;&lt;/pre&gt;
-      </description>
-      
-      
-      <category>til</category>
       
       
     </item>

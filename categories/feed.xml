@@ -9,15 +9,26 @@
     
     
     
-    <lastBuildDate>Mon, 17 Feb 2025 16:07:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2025 18:52:00 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>TIL</title>
+      <link>https://www.gtdstudy.com/categories/til/</link>
+      <pubDate>Wed, 19 Feb 2025 18:52:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/categories/til/</guid>
+      <description>
+      </description>
+      
+    </item>
+    
+    <item>
       <title>Now</title>
       <link>https://www.gtdstudy.com/categories/now/</link>
-      <pubDate>Mon, 17 Feb 2025 16:07:00 +0800</pubDate>
+      <pubDate>Tue, 18 Feb 2025 21:23:00 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/categories/now/</guid>
       <description>
@@ -42,17 +53,6 @@
       <pubDate>Tue, 11 Feb 2025 18:17:00 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/categories/quotes/</guid>
-      <description>
-      </description>
-      
-    </item>
-    
-    <item>
-      <title>TIL</title>
-      <link>https://www.gtdstudy.com/categories/til/</link>
-      <pubDate>Tue, 11 Feb 2025 10:11:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/categories/til/</guid>
       <description>
       </description>
       

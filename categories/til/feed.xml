@@ -9,10 +9,30 @@
     
     
     
-    <lastBuildDate>Tue, 11 Feb 2025 10:11:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2025 18:52:00 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/til/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>设置 org-refile 的行为</title>
+      <link>https://www.gtdstudy.com/posts/config-org-refile/</link>
+      <pubDate>Wed, 19 Feb 2025 18:52:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/config-org-refile/</guid>
+      <description>&lt;p&gt;来自 &lt;a href=&#34;https://www.reddit.com/r/emacs/comments/4366f9/comment/czg008y/&#34;&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;(setq org-refile-targets &amp;#39;((nil :maxlevel . 9)        ; 这里定义 org-refile 感知的 org 标题层级
+                                (org-agenda-files :maxlevel . 9)))
+(setq org-outline-path-complete-in-steps nil)         ; Refile in a single go
+(setq org-refile-use-outline-path t)                  ; 当重新定位时，会展示完整的路径
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+      
+      
+      <category>til</category>
+      
+      
+    </item>
     
     <item>
       <title>Vim 针对一段长文本的导航</title>
@@ -664,25 +684,6 @@
 &lt;p&gt;这样只需要调整手柄长度，拟合自己想要的曲率。&lt;/p&gt;
 &lt;h2 id=&#34;小知识&#34;&gt;小知识&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/1091769&#34;&gt;贝塞尔曲线&lt;/a&gt;于 1962，由法国工程师皮埃尔·贝塞尔（Pierre Bézier）所广泛发表，他运用贝塞尔曲线来为汽车的主体进行设计。贝塞尔曲线最初由 Paul de Casteljau 于 1959 年运用 de Casteljau 演算法开发，以稳定数值的方法求出贝兹曲线。中文名贝塞尔曲线外文名(Bézier curve&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>til</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>Wi-F：如何寻找 Wi-Fi 密码</title>
-      <link>https://www.gtdstudy.com/posts/how-to-find-wifi-password/</link>
-      <pubDate>Sun, 08 May 2022 23:12:32 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/how-to-find-wifi-password/</guid>
-      <description>&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
-&lt;p&gt;进入 “网络和共享中心” 菜单。右键单击 Wi-Fi 网络连接图标→“无线网络属性”。点击 “显示字符” 字段，显示 Wi-Fi 网络密码。&lt;/p&gt;
-&lt;h2 id=&#34;macos&#34;&gt;macOS&lt;/h2&gt;
-&lt;p&gt;所有密码都存储在钥匙串应用程序中。使用 Spotlight 搜索 “Keychain Access”。打开该应用程序，在保存的凭证列表中找到 Wi-Fi 网络名称。双击它，然后在字段中点击查看密码（这需要输入操作系统密码）。&lt;/p&gt;
 
       </description>
       
