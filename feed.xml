@@ -15,6 +15,17 @@
     
     
     <item>
+      <title>我新建了一个苹果备忘录，命名为“问题”，用来记录我脑海中所有盘旋的未知。已经有10条记录了，大部分是关于科技的未来和涌现出的疯狂机遇。在这个世界变化如此之快的时代，有时获得清晰的最佳方式不是追逐答案，而是加倍努力提出正确的问题。拥抱不确定性，与最引人入胜的未知作斗争，是我们磨砺视野、发现他人错过的空白的方式。</title>
+      <link>https://www.gtdstudy.com/posts/quote-i-created-a-notes-named-question/</link>
+      <pubDate>Wed, 19 Feb 2025 20:41:40 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/quote-i-created-a-notes-named-question/</guid>
+      <description>
+      </description>
+      
+    </item>
+    
+    <item>
       <title>设置 org-refile 的行为</title>
       <link>https://www.gtdstudy.com/posts/config-org-refile/</link>
       <pubDate>Wed, 19 Feb 2025 18:52:00 +0800</pubDate>
@@ -428,22 +439,6 @@
       
       
       <category>til</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>org-supertag 2.0.0 版本发布</title>
-      <link>https://www.gtdstudy.com/posts/org-supertag-2-release/</link>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/org-supertag-2-release/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 2.0.0 版本发布，增加了定时任务，增加移动节点的用户交互命令，在行为系统里增加行为定义模板变量&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
       
       
     </item>
