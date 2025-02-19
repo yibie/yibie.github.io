@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home - Space Looming</title>
-    <link>http://localhost:1313/</link>
+    <link>https://www.gtdstudy.com/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>那是我的链接博客的目的：它是我发现的东西的持续记录——实际上是公开书签和我对这些东西为什么有趣的想法和评论的结合。</title>
-      <link>http://localhost:1313/posts/</link>
+      <link>https://www.gtdstudy.com/posts/</link>
       <pubDate>Wed, 19 Feb 2025 21:09:30 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/</guid>
+      <guid>https://www.gtdstudy.com/posts/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://simonwillison.net/&#34;&gt;Simon Willison’s Weblog&lt;/a&gt;&lt;/p&gt;
 
       </description>
@@ -32,10 +32,10 @@
     
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://www.gtdstudy.com/about/</link>
       <pubDate>Tue, 15 Oct 2024 04:43:18 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://www.gtdstudy.com/about/</guid>
       <description>&lt;p&gt;正努力减肥的微胖子，喜欢用 Emacs 的非程序员，曾经也是个有名的博客&lt;/p&gt;
 &lt;p&gt;在无垠的太空中，听有节奏而低沉的轰鸣&lt;/p&gt;
 
@@ -49,10 +49,10 @@
     
     <item>
       <title>Friends</title>
-      <link>http://localhost:1313/friends/</link>
+      <link>https://www.gtdstudy.com/friends/</link>
       <pubDate>Tue, 15 Oct 2024 04:43:18 +0800</pubDate>
       
-      <guid>http://localhost:1313/friends/</guid>
+      <guid>https://www.gtdstudy.com/friends/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hiwannz.com/&#34;&gt;见字如面&lt;/a&gt;: Wannz, 一枚生活在天府之国的产品经理, 吃过 2 次饭, 待人真诚, 为人认真, 热爱生活&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.jiemin.com/&#34;&gt;黄杰敏的博客&lt;/a&gt;: 初中同学, 不放弃博客的青中年, 总能回忆起我已经淡忘的初中同学, 谈起互联网, 仍然眉飞色舞&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://evex.one/&#34;&gt;EXEC&lt;/a&gt;：一位出生自中国大西北高原, 极寒荒瀚之地的 西北狼 ! 嗷呜～～ (🐺 这是一声狼嚎～～)&lt;/p&gt;
@@ -63,10 +63,10 @@
     
     <item>
       <title>TIL</title>
-      <link>http://localhost:1313/til/</link>
+      <link>https://www.gtdstudy.com/til/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/til/</guid>
+      <guid>https://www.gtdstudy.com/til/</guid>
       <description>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
 &lt;h1 id=&#34;2025-01-21-emacs-中综合使用-keep-lines-和-flush-lines-过滤多行文本&#34;&gt;2025-01-21 Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本&lt;/h1&gt;
 &lt;p&gt;如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。&lt;/p&gt;

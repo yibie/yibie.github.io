@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.gtdstudy.com/categories/</loc>
     <lastmod>2025-02-19T21:09:30+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/quotes/</loc>
+    <loc>https://www.gtdstudy.com/categories/quotes/</loc>
     <lastmod>2025-02-19T21:09:30+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://www.gtdstudy.com/posts/</loc>
     <lastmod>2025-02-19T21:09:30+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/about/</loc>
+    <loc>https://www.gtdstudy.com/categories/about/</loc>
     <lastmod>2024-10-15T04:43:18+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://www.gtdstudy.com/about/</loc>
     <lastmod>2024-10-15T04:43:18+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/friends/</loc>
+    <loc>https://www.gtdstudy.com/friends/</loc>
     <lastmod>2024-10-15T04:43:18+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/til/</loc>
+    <loc>https://www.gtdstudy.com/categories/til/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/til/</loc>
+    <loc>https://www.gtdstudy.com/til/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.gtdstudy.com/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.gtdstudy.com/tags/</loc>
   </url>
 </urlset>
