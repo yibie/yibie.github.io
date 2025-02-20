@@ -15,6 +15,21 @@
     
     
     <item>
+      <title>历史总是放大一部分特征，同时又对另一部分特征视而不见</title>
+      <link>https://www.gtdstudy.com/posts/history-always-a-haha-mirror/history-always-a-haha-mirror/</link>
+      <pubDate>Thu, 20 Feb 2025 12:37:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/history-always-a-haha-mirror/history-always-a-haha-mirror/</guid>
+      <description>
+      </description>
+      
+      
+      <category>quotes</category>
+      
+      
+    </item>
+    
+    <item>
       <title>那是我的链接博客的目的：它是我发现的东西的持续记录——实际上是公开书签和我对这些东西为什么有趣的想法和评论的结合。</title>
       <link>https://www.gtdstudy.com/posts/quotes-from-simon-willison-the-purpose-of-link-blog/</link>
       <pubDate>Wed, 19 Feb 2025 21:14:00 +0800</pubDate>
@@ -425,25 +440,6 @@
       
       
       <category>now</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本</title>
-      <link>https://www.gtdstudy.com/posts/emacs-keep-flush-lines/</link>
-      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/emacs-keep-flush-lines/</guid>
-      <description>&lt;p&gt;如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;keep-lines&lt;/code&gt; 的意思就是，保留你输入关键字的文本行。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;flush-lines&lt;/code&gt; 的意思是，排除你输入关键字的文本行。&lt;/p&gt;
-&lt;p&gt;由于这两个命令，运行之后会直接修改文本内容，因此不要直接用于正在使用的业务文件中。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>til</category>
       
       
     </item>
