@@ -9,10 +9,37 @@
     
     
     
-    <lastBuildDate>Wed, 19 Feb 2025 18:52:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2025 16:38:00 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/til/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Org-mode 自带类似 Workflwoy 的 focus 功能</title>
+      <link>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</link>
+      <pubDate>Thu, 20 Feb 2025 16:38:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</guid>
+      <description>&lt;p&gt;以前把玩 Workflowy 的时候，有一个功能我很喜欢，但它没具体名字，在 Workflowy 的首页上，是这么介绍的：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Zoom into your notes and focus on just one part
+放大你的笔记，专注于某一部分&lt;/p&gt;
+&lt;p&gt;Clicking a bullet, zooms you into it and displays any indented items. This is how we view items as documents, by zooming into them.
+点击一个项目符号，系统会将你放大到该项目符号，并显示任何缩进的内容。这就是我们如何将条目视为文档，通过放大查看它们。&lt;/p&gt;
+&lt;p&gt;If a bullet has no indented items, you’ll see an empty page with the title of the bullet you clicked on.
+如果一个项目符号没有缩进的内容，你将看到一个空白页面，页面上显示你点击的项目符号的标题。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;没想到 org-mode 里直接内置类似的功能了，具体命令是 &lt;del&gt;org-narrow-to-subtree&lt;/del&gt;。执行这个命令之后，再执行 &lt;del&gt;widen&lt;/del&gt;，视图就可以恢复原装。&lt;/p&gt;
+&lt;p&gt;只需要将快捷键绑定到具体的命令上就可用：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(global-set-key (kbd &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C-c n&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;org-narrow-to-subtree&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(global-set-key (kbd &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C-c w&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;widen&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+      
+      
+      <category>til</category>
+      
+      
+    </item>
     
     <item>
       <title>设置 org-refile 的行为</title>
@@ -662,28 +689,6 @@
 &lt;h2 id=&#34;云游戏&#34;&gt;云游戏&lt;/h2&gt;
 &lt;p&gt;忘了提，其实还有腾讯 START、微软 XGPU 等云游戏服务，不用占太多硬盘空间，对于普遍硬盘空间狭小的 MacBook 而言，也是比较合适的。&lt;/p&gt;
 &lt;p&gt;只不过，我一般处于一个网络条件比较差的地方，也就没有太多深入尝试。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>til</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>PhotoShop：如何画优美的曲线</title>
-      <link>https://www.gtdstudy.com/posts/how-to-draw-bezier-curve/</link>
-      <pubDate>Sun, 08 May 2022 23:23:16 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/how-to-draw-bezier-curve/</guid>
-      <description>&lt;p&gt;原来 PhotoShop 里的钢笔工具，是贝济埃曲线（又称贝塞尔曲线）的应用，所以用好钢笔工具，应该用符合绘制贝济埃曲线的方法，这样子会比较容易得到好的结果。&lt;/p&gt;
-&lt;p&gt;通过 B 站的 &lt;a href=&#34;https://www.bilibili.com/video/BV19i4y1c76i/?spm_id_from=autoNext&#34;&gt;oooooohmygosh&lt;/a&gt; 学习到，画贝济埃曲线的规范：
-1、尽量让节点放在「极值点」的位置
-2、让节点和手柄保持水平或垂直对齐&lt;/p&gt;
-&lt;p&gt;这样只需要调整手柄长度，拟合自己想要的曲率。&lt;/p&gt;
-&lt;h2 id=&#34;小知识&#34;&gt;小知识&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF/1091769&#34;&gt;贝塞尔曲线&lt;/a&gt;于 1962，由法国工程师皮埃尔·贝塞尔（Pierre Bézier）所广泛发表，他运用贝塞尔曲线来为汽车的主体进行设计。贝塞尔曲线最初由 Paul de Casteljau 于 1959 年运用 de Casteljau 演算法开发，以稳定数值的方法求出贝兹曲线。中文名贝塞尔曲线外文名(Bézier curve&lt;/p&gt;
 
       </description>
       
