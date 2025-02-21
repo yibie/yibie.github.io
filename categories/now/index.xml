@@ -9,10 +9,29 @@
     
     
     
-    <lastBuildDate>Tue, 18 Feb 2025 21:23:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2025 21:37:00 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/now/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>发布 float-narrow-indriect</title>
+      <link>https://www.gtdstudy.com/posts/released-float-narrow-indirect/released-float-narrow-indirect/</link>
+      <pubDate>Fri, 21 Feb 2025 21:37:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/released-float-narrow-indirect/released-float-narrow-indirect/</guid>
+      <description>&lt;p&gt;项目地址：&lt;a href=&#34;https://github.com/yibie/float-narrow-indirect&#34;&gt;https://github.com/yibie/float-narrow-indirect&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 Emacs 中同时查看、对比或编辑文件的多个部分时，传统的分屏方式可能会让屏幕变得拥挤。float-narrow-indirect 提供了一个优雅的解决方案——它能让你将选中的文本区域&amp;quot;提取&amp;quot;到独立的浮动窗口中。&lt;/p&gt;
+&lt;p&gt;本次开发时间，2.5 小时左右。&lt;/p&gt;
+&lt;p&gt;开发，基于别人的项目升级、改造，绝逼更快。&lt;/p&gt;
+
+      </description>
+      
+      
+      <category>now</category>
+      
+      
+    </item>
     
     <item>
       <title>作为 Emacs 用户一直很羡慕 markdown 有很多丰富的插件，将网页直接保存为 md 文件，在朋友 J 的鼓励下，我开发了 Copy as Org-mode Chrome，解决了长久以来的困扰</title>
@@ -336,22 +355,6 @@
       
       <guid>https://www.gtdstudy.com/posts/blog-friends/</guid>
       <description>&lt;p&gt;为博客添加 Friends, 存放友情链接 (或者说, 朋友的博客)&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>发布 pos-tag-highlight：提高英语阅读效率的工具</title>
-      <link>https://www.gtdstudy.com/posts/pos-tag-highlight-release/</link>
-      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/pos-tag-highlight-release/</guid>
-      <description>&lt;p&gt;发布一个新的 emacs 包 &lt;a href=&#34;https://github.com/yibie/pos-tag-highlight&#34;&gt;pos-tag-highlight&lt;/a&gt;, 对英文段落里的动词, 介词进行加粗, 以提高英语的阅读效率&lt;/p&gt;
 
       </description>
       
