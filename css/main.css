@@ -1623,73 +1623,95 @@ pre code {
   padding: 0.5rem;
 }
 
-/* 分类卡片样式 */
+/* 分类卡片样式 - 使用 post-tag 的样式 */
 .taxonomy-card {
-  padding: 1.25rem;
-  background: var(--color-bg);
-  border: 2px solid var(--color-border);
-  /* 加粗边框 */
-  border-radius: 16px;
-  /* 更圆润的边角 */
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  /* 更柔和的动画 */
-  position: relative;
-  overflow: hidden;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  transition: transform 0.2s ease;
+  text-align: left;
+  /* 改为左对齐 */
 }
 
-/* 可爱的悬停效果 */
-.taxonomy-card:hover {
-  transform: translateY(-3px) scale(1.02);
-  /* 更明显的浮动效果 */
-  border-color: var(--color-primary);
-  box-shadow:
-    0 10px 20px rgba(0, 0, 0, 0.05),
-    0 4px 8px rgba(0, 0, 0, 0.04);
-}
-
-/* 标题样式 */
 .taxonomy-card__title {
-  font-size: 1.15rem;
-  margin: 0 0 0.75rem;
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
   line-height: 1.4;
-  text-align: center;
-  /* 居中对齐 */
 }
 
 .taxonomy-card__title a {
+  display: inline-flex;
+  /* 改为 inline-flex 以便更好控制内容 */
+  align-items: center;
+  padding: 0.3em 0.8em;
+  background: var(--color-gray);
   color: var(--color-text);
   text-decoration: none;
+  border-radius: 2em;
   transition: all 0.2s ease;
-  padding: 0.25rem 0.5rem;
-  border-radius: 8px;
-  display: inline-block;
+  opacity: 0.8;
 }
 
-.taxonomy-card__title a:hover {
-  color: var(--color-primary);
-  background: rgba(var(--color-primary-rgb), 0.05);
-  /* 添加背景色 */
+/* 彩色悬停效果 */
+.taxonomy-card:nth-of-type(5n+1) a:hover {
+  --tag-color: #e11d48;
+  background: var(--tag-color);
+  color: white;
+  transform: translateY(-1px);
+  opacity: 1;
 }
 
-/* 添加装饰性元素 */
-.taxonomy-card::before {
-  content: "#";
-  position: absolute;
-  top: 0.5rem;
-  left: 0.75rem;
-  font-size: 1.5rem;
-  opacity: 0.1;
-  color: var(--color-primary);
+.taxonomy-card:nth-of-type(5n+2) a:hover {
+  --tag-color: #2563eb;
+  background: var(--tag-color);
+  color: white;
+  transform: translateY(-1px);
+  opacity: 1;
+}
+
+.taxonomy-card:nth-of-type(5n+3) a:hover {
+  --tag-color: #16a34a;
+  background: var(--tag-color);
+  color: white;
+  transform: translateY(-1px);
+  opacity: 1;
+}
+
+.taxonomy-card:nth-of-type(5n+4) a:hover {
+  --tag-color: #ca8a04;
+  background: var(--tag-color);
+  color: white;
+  transform: translateY(-1px);
+  opacity: 1;
+}
+
+.taxonomy-card:nth-of-type(5n+5) a:hover {
+  --tag-color: #9333ea;
+  background: var(--tag-color);
+  color: white;
+  transform: translateY(-1px);
+  opacity: 1;
 }
 
 /* 暗色主题适配 */
-:root[data-theme="dark"] .taxonomy-card {
-  background: rgba(255, 255, 255, 0.02);
+:root[data-theme="dark"] .taxonomy-card:nth-of-type(5n+1) a:hover {
+  --tag-color: #fb7185;
 }
 
-:root[data-theme="dark"] .taxonomy-card:hover {
-  background: rgba(255, 255, 255, 0.04);
-  box-shadow:
-    0 10px 20px rgba(0, 0, 0, 0.2),
-    0 4px 8px rgba(0, 0, 0, 0.1);
+:root[data-theme="dark"] .taxonomy-card:nth-of-type(5n+2) a:hover {
+  --tag-color: #60a5fa;
+}
+
+:root[data-theme="dark"] .taxonomy-card:nth-of-type(5n+3) a:hover {
+  --tag-color: #4ade80;
+}
+
+:root[data-theme="dark"] .taxonomy-card:nth-of-type(5n+4) a:hover {
+  --tag-color: #facc15;
+}
+
+:root[data-theme="dark"] .taxonomy-card:nth-of-type(5n+5) a:hover {
+  --tag-color: #c084fc;
 }
