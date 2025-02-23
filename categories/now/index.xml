@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Now - Space Looming</title>
-    <link>http://localhost:1313/categories/now/</link>
-    <description>Space Looming</description>
+    <link>https://www.gtdstudy.com/categories/now/</link>
+    <description>Recent content in Now on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,226 +11,144 @@
     
     <lastBuildDate>Fri, 21 Feb 2025 21:37:00 +0800</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/categories/now/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/categories/now/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>发布 float-narrow-indriect</title>
-      <link>http://localhost:1313/posts/released-float-narrow-indirect/released-float-narrow-indirect/</link>
+      <link>https://www.gtdstudy.com/posts/released-float-narrow-indirect/released-float-narrow-indirect/</link>
       <pubDate>Fri, 21 Feb 2025 21:37:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/released-float-narrow-indirect/released-float-narrow-indirect/</guid>
+      <guid>https://www.gtdstudy.com/posts/released-float-narrow-indirect/released-float-narrow-indirect/</guid>
       <description>&lt;p&gt;项目地址：&lt;a href=&#34;https://github.com/yibie/float-narrow-indirect&#34;&gt;https://github.com/yibie/float-narrow-indirect&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在 Emacs 中同时查看、对比或编辑文件的多个部分时，传统的分屏方式可能会让屏幕变得拥挤。float-narrow-indirect 提供了一个优雅的解决方案——它能让你将选中的文本区域&amp;quot;提取&amp;quot;到独立的浮动窗口中。&lt;/p&gt;
 &lt;p&gt;本次开发时间，2.5 小时左右。&lt;/p&gt;
-&lt;p&gt;开发，基于别人的项目升级、改造，绝逼更快。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+&lt;p&gt;开发，基于别人的项目升级、改造，绝逼更快。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>作为 Emacs 用户一直很羡慕 markdown 有很多丰富的插件，将网页直接保存为 md 文件，在朋友 J 的鼓励下，我开发了 Copy as Org-mode Chrome，解决了长久以来的困扰</title>
-      <link>http://localhost:1313/posts/publish-copy-as-org-mode-chrome/</link>
+      <link>https://www.gtdstudy.com/posts/publish-copy-as-org-mode-chrome/</link>
       <pubDate>Tue, 18 Feb 2025 21:23:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/publish-copy-as-org-mode-chrome/</guid>
+      <guid>https://www.gtdstudy.com/posts/publish-copy-as-org-mode-chrome/</guid>
       <description>&lt;p&gt;项目地址：&lt;a href=&#34;https://github.com/yibie/Copy-as-org-mode-chrome&#34;&gt;https://github.com/yibie/Copy-as-org-mode-chrome&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;直接将网页里的文本，直接转换成 org-mode 格式，拷贝到剪贴板&lt;/li&gt;
 &lt;li&gt;将网页直接保存为 org-mode 格式的文件下载到你指定的目录&lt;/li&gt;
 &lt;li&gt;将网址直接转换成 org-mode 格式并拷贝到剪贴板&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;该项目基于 &lt;a href=&#34;https://github.com/kuanyui&#34;&gt;kuanyui&lt;/a&gt; 的 &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/copy-as-org-mode/&#34;&gt;Copy as Org-mode&lt;/a&gt; 开发。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+&lt;p&gt;该项目基于 &lt;a href=&#34;https://github.com/kuanyui&#34;&gt;kuanyui&lt;/a&gt; 的 &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/copy-as-org-mode/&#34;&gt;Copy as Org-mode&lt;/a&gt; 开发。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>我一直很想知道 Lex Fridman Podcast 到底采访了哪些嘉宾，以及这些嘉宾的博客或相关网站是什么，所以我做了一个脚本，来爬取他的 youtube 视频下的描述，自动生成文件，我将目前已经爬取到的内容，都放到 github 上了，一共 459 期，包括最新那期讨论 DeepSeek 的</title>
-      <link>http://localhost:1313/posts/publish-lex-fridman-podcast-list/</link>
+      <link>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</link>
       <pubDate>Mon, 17 Feb 2025 16:07:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/publish-lex-fridman-podcast-list/</guid>
+      <guid>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/Lex-Fridman-Podcast/&#34;&gt;https://github.com/yibie/Lex-Fridman-Podcast/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;刚刚升级了脚本，清理了无关的内容，包括赞助人之类的。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+&lt;p&gt;刚刚升级了脚本，清理了无关的内容，包括赞助人之类的。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>一直想着把 org-mode 笔记里有价值的部分，转换成图片，然后分享出去，之前都需要其它工具来完成，现在我开发了 org-headline-card，将 org 标题以及标题包含的内容转换成图片</title>
-      <link>http://localhost:1313/posts/publish-org-headline-card/</link>
+      <link>https://www.gtdstudy.com/posts/publish-org-headline-card/</link>
       <pubDate>Sat, 15 Feb 2025 16:10:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/publish-org-headline-card/</guid>
+      <guid>https://www.gtdstudy.com/posts/publish-org-headline-card/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;可以自定义主题&lt;/li&gt;
 &lt;li&gt;内置多个主题&lt;/li&gt;
 &lt;li&gt;基于 PlantUML 实现&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+&lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>如果某个新事物的出现，遭到某一个群体的集体的嘲讽、抵制、反对、厌恶——那么大概率值得跟，以上表现足证明新事物具备重新定义利益链的潜能</title>
-      <link>http://localhost:1313/posts/if-new-things-show-up/</link>
+      <link>https://www.gtdstudy.com/posts/if-new-things-show-up/</link>
       <pubDate>Tue, 11 Feb 2025 16:41:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/if-new-things-show-up/</guid>
-      <description>
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+      <guid>https://www.gtdstudy.com/posts/if-new-things-show-up/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>很多人会问，无聊的时候，你会做什么？我觉得这个问法有点问题，如果是我，我会问：有什么时候，你会感到无聊？我觉得无聊只是一个感受，理解感受比消灭感受要重要。</title>
-      <link>http://localhost:1313/posts/what-do-you-do-when-you-feeling-boring/</link>
+      <link>https://www.gtdstudy.com/posts/what-do-you-do-when-you-feeling-boring/</link>
       <pubDate>Tue, 11 Feb 2025 16:34:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/what-do-you-do-when-you-feeling-boring/</guid>
-      <description>
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+      <guid>https://www.gtdstudy.com/posts/what-do-you-do-when-you-feeling-boring/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>学到新词，处女作通病</title>
-      <link>http://localhost:1313/posts/learned-a-new-concept-maide-work/</link>
+      <link>https://www.gtdstudy.com/posts/learned-a-new-concept-maide-work/</link>
       <pubDate>Tue, 11 Feb 2025 16:32:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/learned-a-new-concept-maide-work/</guid>
+      <guid>https://www.gtdstudy.com/posts/learned-a-new-concept-maide-work/</guid>
       <description>&lt;p&gt;电影界的大部分导演在处女作的时候基本会把自己知道或者想要尝试的所有技法都尽量用到作品里去。&lt;/p&gt;
-&lt;p&gt;我觉得这个通病不光是导演才会有，只要是制作什么东西的人，在对待第一个作品的时候，都会有处女作通病。&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+&lt;p&gt;我觉得这个通病不光是导演才会有，只要是制作什么东西的人，在对待第一个作品的时候，都会有处女作通病。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>HUGO 主题 hugo-theme-deck 上线</title>
-      <link>http://localhost:1313/posts/hugo-theme-deck-online/</link>
+      <link>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</link>
       <pubDate>Sun, 09 Feb 2025 10:54:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/hugo-theme-deck-online/</guid>
+      <guid>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/hugo-theme-deck&#34;&gt;https://github.com/yibie/hugo-theme-deck&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;以列作为主题展示&lt;/li&gt;
 &lt;li&gt;支持明暗两种主题的变化&lt;/li&gt;
 &lt;li&gt;不同列支持不同的样式&lt;/li&gt;
 &lt;li&gt;采用组件化设计，列可以与分别与不同的样式绑定&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+&lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>org-luhmann 获得知名开发者关注</title>
-      <link>http://localhost:1313/posts/org-luhmann-stars/</link>
+      <link>https://www.gtdstudy.com/posts/org-luhmann-stars/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-luhmann-stars/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 受到两位 emacs 圈著名的开发者 Star， 一位是开发了 org-tranclusion 的 nobit，一位是 magit 的开发者 tarsius，哈哈哈&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+      <guid>https://www.gtdstudy.com/posts/org-luhmann-stars/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 受到两位 emacs 圈著名的开发者 Star， 一位是开发了 org-tranclusion 的 nobit，一位是 magit 的开发者 tarsius，哈哈哈&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>org-luhmann 发布：基于情境的卢曼笔记编号工具</title>
-      <link>http://localhost:1313/posts/org-luhmann-release/</link>
+      <link>https://www.gtdstudy.com/posts/org-luhmann-release/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-luhmann-release/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 发布，一个给 org-headline 添加卢曼式笔记编号的工具，它的特点在于基于情境，让用户进行选择，而不是自动化编号&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+      <guid>https://www.gtdstudy.com/posts/org-luhmann-release/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 发布，一个给 org-headline 添加卢曼式笔记编号的工具，它的特点在于基于情境，让用户进行选择，而不是自动化编号&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>org-supertag 2.0.0 版本发布</title>
-      <link>http://localhost:1313/posts/org-supertag-2-release/</link>
+      <link>https://www.gtdstudy.com/posts/org-supertag-2-release/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-supertag-2-release/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 2.0.0 版本发布，增加了定时任务，增加移动节点的用户交互命令，在行为系统里增加行为定义模板变量&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+      <guid>https://www.gtdstudy.com/posts/org-supertag-2-release/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 2.0.0 版本发布，增加了定时任务，增加移动节点的用户交互命令，在行为系统里增加行为定义模板变量&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>org-supertag 登陆 Hacker News 首页</title>
-      <link>http://localhost:1313/posts/org-supertag-hacker-news/</link>
+      <link>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-supertag-hacker-news/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 登陆 Hacker News 首页，获得 84 个 Upvote，同日 org-supertag 的 Star 数达到 100&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+      <guid>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 登陆 Hacker News 首页，获得 84 个 Upvote，同日 org-supertag 的 Star 数达到 100&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2024 年，对自己较为满意。</title>
-      <link>http://localhost:1313/posts/summary-2024/</link>
+      <link>https://www.gtdstudy.com/posts/summary-2024/</link>
       <pubDate>Wed, 01 Jan 2025 09:42:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/summary-2024/</guid>
+      <guid>https://www.gtdstudy.com/posts/summary-2024/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;《得到 Prompt 系列》入选智谱清言的案例库，同时也被小七姐转发&lt;/li&gt;
 &lt;li&gt;开发了一套网站模板&lt;/li&gt;
@@ -242,126 +160,191 @@
 &lt;li&gt;更加喜欢做饭&lt;/li&gt;
 &lt;li&gt;体重有所减轻&lt;/li&gt;
 &lt;li&gt;精力比去年好&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+&lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>org-supertag 1.0 发布：添加行为系统</title>
-      <link>http://localhost:1313/posts/org-supertag-1-release/</link>
+      <link>https://www.gtdstudy.com/posts/org-supertag-1-release/</link>
       <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-supertag-1-release/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 正式发布 1.0，添加了&lt;strong&gt;行为系统&lt;/strong&gt;，可以组成自动工作流&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+      <guid>https://www.gtdstudy.com/posts/org-supertag-1-release/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 正式发布 1.0，添加了&lt;strong&gt;行为系统&lt;/strong&gt;，可以组成自动工作流&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>org-supertag 发布到 Reddit</title>
-      <link>http://localhost:1313/posts/org-supertag-reddit-launch/</link>
+      <link>https://www.gtdstudy.com/posts/org-supertag-reddit-launch/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-supertag-reddit-launch/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 上线，发布到 Reddit，得到了鼓励和支持&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+      <guid>https://www.gtdstudy.com/posts/org-supertag-reddit-launch/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 上线，发布到 Reddit，得到了鼓励和支持&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>与 Emacs 群友 Eval Exec 面基</title>
-      <link>http://localhost:1313/posts/meeting-with-eval-exec/</link>
+      <link>https://www.gtdstudy.com/posts/meeting-with-eval-exec/</link>
       <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/meeting-with-eval-exec/</guid>
-      <description>&lt;p&gt;与 Emacs 群友 &lt;a href=&#34;https://evex.one/&#34;&gt;Eval Exec&lt;/a&gt; 面基，反应很敏锐，做什么都速度感很强，指尖在 Emacs 上跳跃，行云流水&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+      <guid>https://www.gtdstudy.com/posts/meeting-with-eval-exec/</guid>
+      <description>&lt;p&gt;与 Emacs 群友 &lt;a href=&#34;https://evex.one/&#34;&gt;Eval Exec&lt;/a&gt; 面基，反应很敏锐，做什么都速度感很强，指尖在 Emacs 上跳跃，行云流水&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>org-zettel-ref-mode 0.5：支持高亮标记</title>
-      <link>http://localhost:1313/posts/org-zettel-ref-mode-0-5/</link>
+      <link>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-5/</link>
       <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-zettel-ref-mode-0-5/</guid>
-      <description>&lt;p&gt;将 org-zettel-ref-mode 升级到 0.5，支持高亮标记，以及更换了笔记的样式&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+      <guid>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-5/</guid>
+      <description>&lt;p&gt;将 org-zettel-ref-mode 升级到 0.5，支持高亮标记，以及更换了笔记的样式&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>org-zettel-ref-mode 0.4：添加源文件管理面板</title>
-      <link>http://localhost:1313/posts/org-zettel-ref-mode-0-4/</link>
+      <link>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-4/</link>
       <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/org-zettel-ref-mode-0-4/</guid>
-      <description>&lt;p&gt;将 org-zettel-ref-mode 升级到 0.4，增加了管理源文件的可视化面板, 非常好用&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+      <guid>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-4/</guid>
+      <description>&lt;p&gt;将 org-zettel-ref-mode 升级到 0.4，增加了管理源文件的可视化面板, 非常好用&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>博客添加 Waline 评论系统</title>
-      <link>http://localhost:1313/posts/blog-waline/</link>
+      <link>https://www.gtdstudy.com/posts/blog-waline/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/blog-waline/</guid>
-      <description>&lt;p&gt;为本博客添加评论系统 Waline&lt;/p&gt;
-
-      </description>
-      
-      
-      <category>now</category>
-      
-      
+      <guid>https://www.gtdstudy.com/posts/blog-waline/</guid>
+      <description>&lt;p&gt;为本博客添加评论系统 Waline&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>博客添加友情链接</title>
-      <link>http://localhost:1313/posts/blog-friends/</link>
+      <link>https://www.gtdstudy.com/posts/blog-friends/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/blog-friends/</guid>
-      <description>&lt;p&gt;为博客添加 Friends, 存放友情链接 (或者说, 朋友的博客)&lt;/p&gt;
-
-      </description>
+      <guid>https://www.gtdstudy.com/posts/blog-friends/</guid>
+      <description>&lt;p&gt;为博客添加 Friends, 存放友情链接 (或者说, 朋友的博客)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>发布 pos-tag-highlight：提高英语阅读效率的工具</title>
+      <link>https://www.gtdstudy.com/posts/pos-tag-highlight-release/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
       
+      <guid>https://www.gtdstudy.com/posts/pos-tag-highlight-release/</guid>
+      <description>&lt;p&gt;发布一个新的 emacs 包 &lt;a href=&#34;https://github.com/yibie/pos-tag-highlight&#34;&gt;pos-tag-highlight&lt;/a&gt;, 对英文段落里的动词, 介词进行加粗, 以提高英语的阅读效率&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Working on improving the Hugo Theme Deck</title>
+      <link>https://www.gtdstudy.com/posts/now-example/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <category>now</category>
+      <guid>https://www.gtdstudy.com/posts/now-example/</guid>
+      <description>&lt;p&gt;Working on improving the Hugo Theme Deck documentation and adding more example posts to demonstrate different column styles. 🚀&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>最近学习 Lisp 进度顺利</title>
+      <link>https://www.gtdstudy.com/posts/about-learning-lisp/</link>
+      <pubDate>Sat, 10 Sep 2022 23:06:59 +0800</pubDate>
       
+      <guid>https://www.gtdstudy.com/posts/about-learning-lisp/</guid>
+      <description>&lt;p&gt;近期更换了学习 lisp 的教材，进度可喜可贺，虽不能独立写出 package，然而在看 lisp 的代码时，开始具备一定的阅读能力，知道是什么顺序，大概会是什么作用。如果不知道，还可以直接查询函数。&lt;/p&gt;
+&lt;p&gt;近期的学习教材主要是《Practical Common Lisp》，我认为它的安排很好，一上来先教人安装了 lisp 的生产环境之后，就直接以一个「专辑数据库」为例子，让人直接上手，并从一步步的步骤中，理解自己所编写的代码，如何变成程序。对于一名非程序员来说，这种方式，可以很快地通过实操来理解代码的作用，找到感觉。&lt;/p&gt;
+&lt;p&gt;这和学习《 ANSI Common Lisp 中文版》的感受大不一样。ANSI Common Lisp，非常完整，十分细致，甚至有后面的练习题，来帮助人深入思考。但它太学术了，在学习过程中，总是不知道学了之后，用这些语法或函数能发挥什么作用。&lt;/p&gt;
+&lt;p&gt;所以我现在是《Practical Common Lisp》和 《 ANSI Common Lisp 中文版》一起结合来看。首先阅读前者，通过前者举的例子，来理解逻辑；而函数实际应用的细节，则查询后者——在逻辑理解了的情况下，阅读后者，往往很快就能理解，而且能够有一定的发散。这样子学，记得牢，学得快。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>逛南头古城</title>
+      <link>https://www.gtdstudy.com/posts/travel-to-nantougucheng/</link>
+      <pubDate>Wed, 24 Aug 2022 10:16:32 +0800</pubDate>
       
+      <guid>https://www.gtdstudy.com/posts/travel-to-nantougucheng/</guid>
+      <description>&lt;p&gt;几年前，我曾经和阿薰来过南头古城，参加深港双年展。当时，南头古城的旧改开发，只有瓮城到县衙中间的一条直街有一些新鲜铺子。现在整个南头古城，一横一竖，变化非常大，已经变成了各类新鲜业态的集中地，各类小吃不必提，一个个小小的咖啡馆各具特色，还有古着店、设计买手店、独立设计师店等等，让南头古城充满了潮流气质。&lt;/p&gt;
+&lt;p&gt;带我逛南头古城的高老师，在这里扎了 2 年，他跟我说，万科泊寓很用心的经营年轻租客的社群关系，也为南头古城增加了人情的温度，所谓的社区感，不就来自于日常微笑的相互点头，随口聊聊么？我想南头古城可以避免丽江过度商业化的悲剧，缺乏人文作为基地的新潮，最终不可避免空洞。晚上，高老师给了一张泊寓的试住体验券，让我住一晚上，体验古城夜景。可惜晚上开会，直到 10 点多才下楼，此时古城人潮开始散去，各类小店开始关门，看着他们一边关门，一边相互点头执意，在温黄的灯光下，心情渐渐柔和。&lt;/p&gt;
+&lt;p&gt;向别人介绍深圳有什么特产，我总觉得困难，对比起其它一线城市，深圳这个地方以拼搏精神而著称，但总不能跟别人说深圳特产是工作狂吧？现在南头古城变得如此新鲜，这里面的一间间小店，我突然间发现，可以向别人介绍，深圳还有一个新鲜去处，叫南头古城。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>前两天，香港珍宝舫在南海沉没。满大街的媒体标题写着「一个年代远去」的感叹。2020 年开始的疫情风暴，锤死多少洋洋自得，飙升的法拍房数量背后是难以启齿的难堪，不再敢提起光荣与梦想。活下去吧，活下去吧，几乎每个人都在说。</title>
+      <link>https://www.gtdstudy.com/posts/thelastyear/</link>
+      <pubDate>Sun, 14 Aug 2022 18:04:57 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/thelastyear/</guid>
+      <description>&lt;p&gt;前两天，香港珍宝舫在南海沉没。满大街的媒体标题写着「一个年代远去」的感叹。2020 年开始的疫情风暴，锤死多少洋洋自得，飙升的法拍房数量背后是难以启齿的难堪，不再敢提起光荣与梦想。活下去吧，活下去吧，几乎每个人都在说。&lt;/p&gt;
+&lt;p&gt;这个国家和民族走入中年，就在 2020 年。曾经，红蓝黄绿紫，世界多姿彩。少年不识愁滋味，三年过了，突然间一种中年化的表情，出现在人人的脸上，言谈里。&lt;/p&gt;
+&lt;p&gt;沉重的空气，在肺里灌铅，却不得不呼吸着。生活也需要点幽默感。但也许这还不是最坏的年代。每一年都是下一年更好的年代。笑不出来，没有这个心情。压力，让眉间逐渐拧成川字，嘴角也难以上翘，脸皮下的肌肉像是打了肉毒杆菌，僵硬。&lt;/p&gt;
+&lt;p&gt;想呼唤伟大的精神，但发出了嘤嘤的声音，迅疾地，被嘈杂的催促声盖过，「快点！快点！再快点！」钱成为了所有的理想，美德就像套套一样，即用即弃。烂掉的白菜躺在红砖地面上。&lt;/p&gt;
+&lt;p&gt;每个人都不想死，每个人都想活着，人人都品味着几乎一样的沉重。&lt;/p&gt;
+&lt;p&gt;未来的我们，围坐一桌，谈起当年「疫情」，如暗号一般，所有人都吹嘘起几乎一模一样的故事。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>为 Jony Ive 离开苹果叫好</title>
+      <link>https://www.gtdstudy.com/posts/about-jony-ivy-leaves-apple/</link>
+      <pubDate>Wed, 04 May 2022 17:28:22 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/about-jony-ivy-leaves-apple/</guid>
+      <description>&lt;p&gt;最近又出了一本关于苹果的新书，叫《After Steve》，主要内容整理自对 Jony Ive 访谈，知名科技评论家阑夕总结了这本书的内容：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;财经记者 Tripp Mickle 出版了一本报道苹果公司的新书「乔布斯之后」（After Steve），小标题就更直率了，是「苹果如何成为一家价值万亿美元的公司，并失去了灵魂」。&lt;/p&gt;
+&lt;p&gt;为了宣传新书，Tripp Mickle 摘了一些素材，去 NYT 上发了篇文章，主要是写苹果前任首席设计师 Jony Ive 是怎么和 Tim Cook 不和并离开苹果的，细节很是丰富，而且怎么说呢，很适合改编成狗血的耽美剧：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Jony Ive 很不适应 Tim Cook 掌管苹果之后对于财务的计较，2014 年发布 Apple Watch 的时候，Jony Ive 希望在库比蒂诺礼堂外搭建一个奢华的白色帐篷，供应商为整场活动报价 2500 万美元，但是这笔支出被苹果的财务卡住了；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最后，要不要花 2500 万美元搭建帐篷的决策被送到了 Tim Cook 那里亲自开会拍板，Tim Cook 思忖许久，还是同意了 Jony Ive 的预算，但是 Jony Ive 事后对同事说，开会讨论要不要给他批这笔钱，是他最开始意识到苹果变得不一样的时刻，言下之意就是乔布斯肯定不会这么卡他的想法；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jony Ive 在 1997 年的时候，向乔布斯提议要给当时的 iMac 设计一个半透明的蓝绿色外壳，灵感来自澳大利亚悉尼邦迪海滩的水域，这个外壳的制造成本会是标准外壳的 3 倍，但是乔布斯什么都没说，直接就批准了费用的增加，并以其为核心卖点向消费者们推销；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;乔布斯的脾气不好人尽皆知，他经常在公司里发火，但是 Jony Ive 总能让乔布斯冷静下来，也只有当 Jony Ive 在办公室里的时候，乔布斯才会有意克制自己发脾气的情绪，他们两个经常一起吃饭，同时乔布斯也几乎每天都去设计工作室和 Jony Ive 聊天；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2005 年，因为担心惠普会把供应链主管 Tim Cook 挖走，乔布斯说服董事会，把 Tim Cook 升任 COO，并推荐他作为自己的继任者，与此同时，乔布斯也安抚 Jony Ive，保证设计团队继续会是公司一人之下的地位，苹果所有的产品都要给予 Jony Ive 最核心的介入权限，「不要让设计师们失望」也是这个时候苹果开发团队都要遵守的潜规则；&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>梗本身就是来去无踪，突然爆发，突然消失，造梗往往未必能成，梗在造梗之外</title>
+      <link>https://www.gtdstudy.com/posts/what-is-meme-chinese-mean/</link>
+      <pubDate>Mon, 21 Mar 2022 14:38:56 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/what-is-meme-chinese-mean/</guid>
+      <description>&lt;p&gt;来自即刻用户 Luuuuk&lt;/p&gt;
+&lt;h2 id=&#34;评论&#34;&gt;评论&lt;/h2&gt;
+&lt;p&gt;我之前写过一篇《叙事经济学》的读后感，meme 总被翻译成「谜因」等看上去高大上的词汇，但所实话的，除了提升了理解的难度之外，我完全看不出信雅达在哪里。&lt;/p&gt;
+&lt;p&gt;今天在即刻上看到 Luuuuk 对「文学是一种传播元素」的诠释，我突然发现「梗」，就是 meme 最恰当的「中文化」表达。&lt;/p&gt;
+&lt;p&gt;梗本身就是来去无踪，突然爆发，突然消失，造梗往往未必能成，梗在造梗之外，我觉得「梗」一字涵义基本包括了西方传播界对 meme 的定义和理解。&lt;/p&gt;
+&lt;h2 id=&#34;原文&#34;&gt;原文&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“文学”是一种【传播元素】。
+比如今天特别火的豆瓣“豆瓣疫情文学”以及肯德基“疯狂星期四文学”或者在很久之前微博特别火的 privilege 文学，都是用户自发传播的一种内容形态。
+为什么会传播？
+首先、是可模仿性，这些文体的背后，都是具有一定的表达规范性，比如疯狂星期四，或者是豆瓣疫情文学，都是具有一定的主题和表达规范。
+第二、创作门槛低，文案创作是操作性最简单的创作形式，用户可以生产专属的内容。
+第三、用户喜欢玩梗的背后，【映射的是人们对个性化的追求】。&lt;/p&gt;
+&lt;p&gt;这也是这个信息发达时代赋予人们的特质&lt;/p&gt;
+&lt;p&gt;他们把梗说出来 因为是特定语句 和平白文字不一样&lt;/p&gt;
+&lt;p&gt;潜藏心理是 我知道这个事情 我有不一样的地方&lt;/p&gt;
+&lt;p&gt;你说梗本身是不是那么有意思 应该不是&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>博文多了一个叫「社交」的分类</title>
+      <link>https://www.gtdstudy.com/posts/the-fake-beauty-camel/</link>
+      <pubDate>Sun, 16 Jan 2022 12:07:21 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/the-fake-beauty-camel/</guid>
+      <description>&lt;p&gt;我的确是一个不太会社交的人，朋友的生日也记不住许多。但自从去年，好朋友陈鲨鱼在即刻上 @ 了我一个关于跨境电商的问题，而我为了说明这个问题，制作了一张图片，发布到即刻上之后，猛然增加了许多关注。现在，已经积累到 1449 人。&lt;/p&gt;
+&lt;p&gt;因此，我在社交媒体上分享的欲望被大大激发了，一天高产时可输出 3-4 条。但我经历过 Web 2.0 大爆发时代，深深明白，你在任何社交媒体上发表的数据，都不是你的数据。假如某个论坛、某个小平台突然关闭，那么你在上面所存放的文字、图片、视频都会一夜之间消失。&lt;/p&gt;
+&lt;p&gt;「虾米音乐」的关闭，让我再一次经历痛苦。我是多年虾米网的用户，以至于每年都交会员费用，希望它不那么快倒闭。但高晓松瞎几把操作，逼走虾米音乐的创始人南瓜，自己又没能做成什么事情——除了三国志战略版他主动帮忙带流量，给我留下印象之外，其它的就没什么了。我对高晓松个人没有偏见，我喜欢他为老狼写的那几首歌，《恋恋风尘》与其说是一首歌，不如说是一首诗。但他搞死虾米音乐这件事，让我颇有怨念。那个只需要点击系统推荐音乐，就可以畅快在音乐世界里冲浪的美好时光，已成往事。&lt;/p&gt;
+&lt;p&gt;虽然说，虾米音乐后续提供了把数据导出的方式和方法，但说实话的，即便我把虾米音乐里所喜爱的专辑和艺人导出了又怎么样？虾米音乐的精髓，根本就不在于「记录」，而是基于兴趣的发现、探索。我因为虾米音乐精准的推荐，找回了很多以前自己听过觉得好听的歌，还借此发现了很多非常棒的音乐人和专辑。——同为虾米粉丝的朋友，告诉我，我在虾米音乐上听过的歌，记录是 10 万首。非常惊讶！我印象中没这么多，有可能他夸大了，但我记忆中是有几万首的数量。所以，我在虾米音乐上，丢失的不光是我所喜欢的音乐人和歌，其实，丢失了大量我对音乐的记忆，甚至是品味。&lt;/p&gt;
+&lt;p&gt;现在，我又有一个很喜欢的网络服务，叫「即刻」。它作为一个社群，聚集了很多我觉得气味相投的人，里面的人很认真的生活，努力分享自己所发现的，整体氛围光明向上，性格理性而温暖。我是的确非常喜欢它。但我又担心再次遭遇「虾米事故」，所以，我决定给自己的博客开一个分类，叫「社交媒体」。&lt;/p&gt;
+&lt;p&gt;这个分类，是用于保存我发表在各大社交媒体上的言论。那么多年以后，我就可以通过这些记录，观察自己的思想的演变，性格的演变，甚至可以找回一些初心也说不定。孔子云，「温故而知新，可以为师矣。」观察过去的自己，其实也是正确评价自己的一种方式。&lt;/p&gt;</description>
     </item>
     
   </channel>

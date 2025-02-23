@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Orgmode - Space Looming</title>
-    <link>http://localhost:1313/tags/orgmode/</link>
-    <description>Space Looming</description>
+    <link>https://www.gtdstudy.com/tags/orgmode/</link>
+    <description>Recent content in Orgmode on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Thu, 20 Feb 2025 16:38:00 +0800</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/tags/orgmode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/tags/orgmode/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Org-mode 自带类似 Workflwoy 的 focus 功能</title>
-      <link>http://localhost:1313/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</link>
+      <link>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</link>
       <pubDate>Thu, 20 Feb 2025 16:38:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</guid>
+      <guid>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</guid>
       <description>&lt;p&gt;以前把玩 Workflowy 的时候，有一个功能我很喜欢，但它没具体名字，在 Workflowy 的首页上，是这么介绍的：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Zoom into your notes and focus on just one part
@@ -29,16 +29,7 @@
 &lt;p&gt;If a bullet has no indented items, you’ll see an empty page with the title of the bullet you clicked on.
 如果一个项目符号没有缩进的内容，你将看到一个空白页面，页面上显示你点击的项目符号的标题。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;没想到 org-mode 里直接内置类似的功能了，具体命令是 =org-narrow-to-subtree=。执行这个命令之后，再执行 =widen=，视图就可以恢复原装。&lt;/p&gt;
-&lt;p&gt;只需要将快捷键绑定到具体的命令上就可用：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(global-set-key (kbd &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C-c n&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;org-narrow-to-subtree&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(global-set-key (kbd &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C-c w&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;widen&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-      </description>
-      
-      
-      <category>til</category>
-      
-      
+&lt;p&gt;只需要将快捷键绑定到具体的命令上就可用：&lt;/p&gt;</description>
     </item>
     
   </channel>
