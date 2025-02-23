@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts - Space Looming</title>
-    <link>https://www.gtdstudy.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>发布 float-narrow-indriect</title>
-      <link>https://www.gtdstudy.com/posts/released-float-narrow-indirect/released-float-narrow-indirect/</link>
+      <link>http://localhost:1313/posts/released-float-narrow-indirect/released-float-narrow-indirect/</link>
       <pubDate>Fri, 21 Feb 2025 21:37:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/released-float-narrow-indirect/released-float-narrow-indirect/</guid>
+      <guid>http://localhost:1313/posts/released-float-narrow-indirect/released-float-narrow-indirect/</guid>
       <description>&lt;p&gt;项目地址：&lt;a href=&#34;https://github.com/yibie/float-narrow-indirect&#34;&gt;https://github.com/yibie/float-narrow-indirect&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在 Emacs 中同时查看、对比或编辑文件的多个部分时，传统的分屏方式可能会让屏幕变得拥挤。float-narrow-indirect 提供了一个优雅的解决方案——它能让你将选中的文本区域&amp;quot;提取&amp;quot;到独立的浮动窗口中。&lt;/p&gt;
 &lt;p&gt;本次开发时间，2.5 小时左右。&lt;/p&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>Org-mode 自带类似 Workflwoy 的 focus 功能</title>
-      <link>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</link>
+      <link>http://localhost:1313/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</link>
       <pubDate>Thu, 20 Feb 2025 16:38:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</guid>
+      <guid>http://localhost:1313/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</guid>
       <description>&lt;p&gt;以前把玩 Workflowy 的时候，有一个功能我很喜欢，但它没具体名字，在 Workflowy 的首页上，是这么介绍的：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Zoom into your notes and focus on just one part
@@ -62,10 +62,10 @@
     
     <item>
       <title>历史总是放大一部分特征，同时又对另一部分特征视而不见</title>
-      <link>https://www.gtdstudy.com/posts/history-always-a-haha-mirror/history-always-a-haha-mirror/</link>
+      <link>http://localhost:1313/posts/history-always-a-haha-mirror/history-always-a-haha-mirror/</link>
       <pubDate>Thu, 20 Feb 2025 12:37:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/history-always-a-haha-mirror/history-always-a-haha-mirror/</guid>
+      <guid>http://localhost:1313/posts/history-always-a-haha-mirror/history-always-a-haha-mirror/</guid>
       <description>
       </description>
       
@@ -77,10 +77,10 @@
     
     <item>
       <title>那是我的链接博客的目的：它是我发现的东西的持续记录——实际上是公开书签和我对这些东西为什么有趣的想法和评论的结合。</title>
-      <link>https://www.gtdstudy.com/posts/quotes-from-simon-willison-the-purpose-of-link-blog/</link>
+      <link>http://localhost:1313/posts/quotes-from-simon-willison-the-purpose-of-link-blog/</link>
       <pubDate>Wed, 19 Feb 2025 21:14:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/quotes-from-simon-willison-the-purpose-of-link-blog/</guid>
+      <guid>http://localhost:1313/posts/quotes-from-simon-willison-the-purpose-of-link-blog/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://simonwillison.net/&#34;&gt;Simon Willison’s Weblog&lt;/a&gt;&lt;/p&gt;
 
       </description>
@@ -93,10 +93,10 @@
     
     <item>
       <title>我新建了一个苹果备忘录，命名为“问题”，用来记录我脑海中所有盘旋的未知。已经有10条记录了，大部分是关于科技的未来和涌现出的疯狂机遇。在这个世界变化如此之快的时代，有时获得清晰的最佳方式不是追逐答案，而是加倍努力提出正确的问题。拥抱不确定性，与最引人入胜的未知作斗争，是我们磨砺视野、发现他人错过的空白的方式。</title>
-      <link>https://www.gtdstudy.com/posts/quote-i-created-a-notes-named-question/</link>
+      <link>http://localhost:1313/posts/quote-i-created-a-notes-named-question/</link>
       <pubDate>Wed, 19 Feb 2025 21:09:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/quote-i-created-a-notes-named-question/</guid>
+      <guid>http://localhost:1313/posts/quote-i-created-a-notes-named-question/</guid>
       <description>
       </description>
       
@@ -108,10 +108,10 @@
     
     <item>
       <title>我认为一旦拥有了人形机器人和深度智能，基本上就拥有了无限的产品和服务。</title>
-      <link>https://www.gtdstudy.com/posts/quotes-from-elon-musk-money-will-be-meaningless-when-ai-and-robotic-economics-come-ture/</link>
+      <link>http://localhost:1313/posts/quotes-from-elon-musk-money-will-be-meaningless-when-ai-and-robotic-economics-come-ture/</link>
       <pubDate>Wed, 19 Feb 2025 21:09:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/quotes-from-elon-musk-money-will-be-meaningless-when-ai-and-robotic-economics-come-ture/</guid>
+      <guid>http://localhost:1313/posts/quotes-from-elon-musk-money-will-be-meaningless-when-ai-and-robotic-economics-come-ture/</guid>
       <description>&lt;p&gt;我认为一旦拥有了人形机器人和深度智能，基本上就拥有了无限的产品和服务。随着特斯拉正在制造最先进的人形机器人，那么这些人形机器人可以由数据中心级的深度智能来驱动，可以说，你可以生产任何产品，提供任何服务。&lt;/p&gt;
 &lt;p&gt;那时经济实际上也没有了限制，你可以创造一切东西。所以到那时我甚至不太确定金钱是否还有意义，也许没有意义了，因为经济产出取决于人均生产力和人口数量，如果人形机器人的数量不受限制，机器人几乎可以胜任一切工作，我们将进入一个普遍高收入的时代。任何人都可以获得尽可能多的，他们想要的产品和服务；&lt;/p&gt;
 &lt;p&gt;稀缺性的东西除外，比如一件特定的艺术品之类的。但对于任何商品和服务，每个人都可以使用它们，这将是一个截然不同的世界。金钱实际上是一种用于资源分配的数据库或信息系统，但如果资源不再稀缺，不清楚金钱还有什么用途。&lt;/p&gt;
@@ -126,10 +126,10 @@
     
     <item>
       <title>设置 org-refile 的行为</title>
-      <link>https://www.gtdstudy.com/posts/config-org-refile/</link>
+      <link>http://localhost:1313/posts/config-org-refile/</link>
       <pubDate>Wed, 19 Feb 2025 18:52:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/config-org-refile/</guid>
+      <guid>http://localhost:1313/posts/config-org-refile/</guid>
       <description>&lt;p&gt;来自 &lt;a href=&#34;https://www.reddit.com/r/emacs/comments/4366f9/comment/czg008y/&#34;&gt;Reddit&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;(setq org-refile-targets &amp;#39;((nil :maxlevel . 9)        ; 这里定义 org-refile 感知的 org 标题层级
                                 (org-agenda-files :maxlevel . 9)))
@@ -146,10 +146,10 @@
     
     <item>
       <title>作为 Emacs 用户一直很羡慕 markdown 有很多丰富的插件，将网页直接保存为 md 文件，在朋友 J 的鼓励下，我开发了 Copy as Org-mode Chrome，解决了长久以来的困扰</title>
-      <link>https://www.gtdstudy.com/posts/publish-copy-as-org-mode-chrome/</link>
+      <link>http://localhost:1313/posts/publish-copy-as-org-mode-chrome/</link>
       <pubDate>Tue, 18 Feb 2025 21:23:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/publish-copy-as-org-mode-chrome/</guid>
+      <guid>http://localhost:1313/posts/publish-copy-as-org-mode-chrome/</guid>
       <description>&lt;p&gt;项目地址：&lt;a href=&#34;https://github.com/yibie/Copy-as-org-mode-chrome&#34;&gt;https://github.com/yibie/Copy-as-org-mode-chrome&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;直接将网页里的文本，直接转换成 org-mode 格式，拷贝到剪贴板&lt;/li&gt;
@@ -168,10 +168,10 @@
     
     <item>
       <title>我一直很想知道 Lex Fridman Podcast 到底采访了哪些嘉宾，以及这些嘉宾的博客或相关网站是什么，所以我做了一个脚本，来爬取他的 youtube 视频下的描述，自动生成文件，我将目前已经爬取到的内容，都放到 github 上了，一共 459 期，包括最新那期讨论 DeepSeek 的</title>
-      <link>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</link>
+      <link>http://localhost:1313/posts/publish-lex-fridman-podcast-list/</link>
       <pubDate>Mon, 17 Feb 2025 16:07:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</guid>
+      <guid>http://localhost:1313/posts/publish-lex-fridman-podcast-list/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/Lex-Fridman-Podcast/&#34;&gt;https://github.com/yibie/Lex-Fridman-Podcast/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;刚刚升级了脚本，清理了无关的内容，包括赞助人之类的。&lt;/p&gt;
 
@@ -185,10 +185,10 @@
     
     <item>
       <title>一直想着把 org-mode 笔记里有价值的部分，转换成图片，然后分享出去，之前都需要其它工具来完成，现在我开发了 org-headline-card，将 org 标题以及标题包含的内容转换成图片</title>
-      <link>https://www.gtdstudy.com/posts/publish-org-headline-card/</link>
+      <link>http://localhost:1313/posts/publish-org-headline-card/</link>
       <pubDate>Sat, 15 Feb 2025 16:10:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/publish-org-headline-card/</guid>
+      <guid>http://localhost:1313/posts/publish-org-headline-card/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;可以自定义主题&lt;/li&gt;
 &lt;li&gt;内置多个主题&lt;/li&gt;
@@ -205,10 +205,10 @@
     
     <item>
       <title>维护一个繁荣的环境</title>
-      <link>https://www.gtdstudy.com/posts/control-the-information-input/</link>
+      <link>http://localhost:1313/posts/control-the-information-input/</link>
       <pubDate>Thu, 13 Feb 2025 22:19:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/control-the-information-input/</guid>
+      <guid>http://localhost:1313/posts/control-the-information-input/</guid>
       <description>&lt;p&gt;有的人，目光只盯第一，而第二、第三在他的眼里，如浮云过眼。我不一样，我愿意给一定的机会让第二、第三名出现在我的眼前。&lt;/p&gt;
 &lt;p&gt;我这么做，只有一个原因，保证自己拥有第二选择，这是一种自我保护的权力。我明白，当市场一家独大的时候，那么作为使用者的我，马上面临无选择权的风险。——实际上，过度关注第一，让第二、第三或者第四、第五没办法发育，这就是「繁荣性贫乏」的根源，因为我们自己就已经将资源过度集中到几个选项里，市场的增长只来自有限的几家公司，那么这个所谓市场的繁荣只不过是描述了几家公司的繁荣，而市场可能是凋敝的，因为再没有更多公司参与竞争，也不会有足够差异化的服务与产品。&lt;/p&gt;
 &lt;p&gt;多样性的缺失，就是一个地方失去活力的开始。就好像郁郁葱葱的森林，里面绝不止一种植物，一种动物，一种鸟类在里面生活，这不足以称之为生态。&lt;/p&gt;
@@ -225,10 +225,10 @@
     
     <item>
       <title>美国智库的分析显示，在美国企业和研究机构任职的杰出的AI研究人员中，中国的大学毕业生占到约40%。已经超过了美国大学毕业生，成为主力。</title>
-      <link>https://www.gtdstudy.com/posts/40-percent-ai-researchers-come-from-china/</link>
+      <link>http://localhost:1313/posts/40-percent-ai-researchers-come-from-china/</link>
       <pubDate>Tue, 11 Feb 2025 18:17:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/40-percent-ai-researchers-come-from-china/</guid>
+      <guid>http://localhost:1313/posts/40-percent-ai-researchers-come-from-china/</guid>
       <description>&lt;p&gt;想起了之前一个笑话，一个投资人做背调，发现团队里有白人、黑人、印度人但没有亚裔。&lt;/p&gt;
 &lt;p&gt;这个投资人问，那么，你团队的活儿到底谁来干呢？&lt;/p&gt;
 
@@ -242,10 +242,10 @@
     
     <item>
       <title>如果某个新事物的出现，遭到某一个群体的集体的嘲讽、抵制、反对、厌恶——那么大概率值得跟，以上表现足证明新事物具备重新定义利益链的潜能</title>
-      <link>https://www.gtdstudy.com/posts/if-new-things-show-up/</link>
+      <link>http://localhost:1313/posts/if-new-things-show-up/</link>
       <pubDate>Tue, 11 Feb 2025 16:41:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/if-new-things-show-up/</guid>
+      <guid>http://localhost:1313/posts/if-new-things-show-up/</guid>
       <description>
       </description>
       
@@ -257,10 +257,10 @@
     
     <item>
       <title>很多人会问，无聊的时候，你会做什么？我觉得这个问法有点问题，如果是我，我会问：有什么时候，你会感到无聊？我觉得无聊只是一个感受，理解感受比消灭感受要重要。</title>
-      <link>https://www.gtdstudy.com/posts/what-do-you-do-when-you-feeling-boring/</link>
+      <link>http://localhost:1313/posts/what-do-you-do-when-you-feeling-boring/</link>
       <pubDate>Tue, 11 Feb 2025 16:34:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/what-do-you-do-when-you-feeling-boring/</guid>
+      <guid>http://localhost:1313/posts/what-do-you-do-when-you-feeling-boring/</guid>
       <description>
       </description>
       
@@ -272,10 +272,10 @@
     
     <item>
       <title>学到新词，处女作通病</title>
-      <link>https://www.gtdstudy.com/posts/learned-a-new-concept-maide-work/</link>
+      <link>http://localhost:1313/posts/learned-a-new-concept-maide-work/</link>
       <pubDate>Tue, 11 Feb 2025 16:32:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/learned-a-new-concept-maide-work/</guid>
+      <guid>http://localhost:1313/posts/learned-a-new-concept-maide-work/</guid>
       <description>&lt;p&gt;电影界的大部分导演在处女作的时候基本会把自己知道或者想要尝试的所有技法都尽量用到作品里去。&lt;/p&gt;
 &lt;p&gt;我觉得这个通病不光是导演才会有，只要是制作什么东西的人，在对待第一个作品的时候，都会有处女作通病。&lt;/p&gt;
 
@@ -289,10 +289,10 @@
     
     <item>
       <title>Vim 针对一段长文本的导航</title>
-      <link>https://www.gtdstudy.com/posts/vim-navigation-in-long-line/</link>
+      <link>http://localhost:1313/posts/vim-navigation-in-long-line/</link>
       <pubDate>Tue, 11 Feb 2025 10:11:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/vim-navigation-in-long-line/</guid>
+      <guid>http://localhost:1313/posts/vim-navigation-in-long-line/</guid>
       <description>&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -330,10 +330,10 @@
     
     <item>
       <title>Vim 使用 Ctrl &#43; o 回到之前的光标位置</title>
-      <link>https://www.gtdstudy.com/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</link>
+      <link>http://localhost:1313/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</link>
       <pubDate>Tue, 11 Feb 2025 10:08:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</guid>
+      <guid>http://localhost:1313/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</guid>
       <description>&lt;p&gt;如果想知道之前的光标位置的记录，可以输入 &lt;code&gt;:jumps&lt;/code&gt; 就能看到之前光标位置记录的列表。&lt;/p&gt;
 
       </description>
@@ -346,10 +346,10 @@
     
     <item>
       <title>愿你 AI IDE 阅尽，归来仍是 VSCode.</title>
-      <link>https://www.gtdstudy.com/posts/use-many-ai-ides-but-go-back-to-vscode/</link>
+      <link>http://localhost:1313/posts/use-many-ai-ides-but-go-back-to-vscode/</link>
       <pubDate>Mon, 10 Feb 2025 11:10:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/use-many-ai-ides-but-go-back-to-vscode/</guid>
+      <guid>http://localhost:1313/posts/use-many-ai-ides-but-go-back-to-vscode/</guid>
       <description>
       </description>
       
@@ -361,10 +361,10 @@
     
     <item>
       <title>HUGO 主题 hugo-theme-deck 上线</title>
-      <link>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</link>
+      <link>http://localhost:1313/posts/hugo-theme-deck-online/</link>
       <pubDate>Sun, 09 Feb 2025 10:54:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</guid>
+      <guid>http://localhost:1313/posts/hugo-theme-deck-online/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/hugo-theme-deck&#34;&gt;https://github.com/yibie/hugo-theme-deck&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;以列作为主题展示&lt;/li&gt;
@@ -383,10 +383,10 @@
     
     <item>
       <title>读完《软件设计的哲学》</title>
-      <link>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</link>
+      <link>http://localhost:1313/posts/finishing-reading-the-philosophy-of-software-design/</link>
       <pubDate>Sat, 01 Feb 2025 18:09:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</guid>
+      <guid>http://localhost:1313/posts/finishing-reading-the-philosophy-of-software-design/</guid>
       <description>&lt;p&gt;整本书的思想是关于软件开发时，预防、控制复杂度的发生。但我觉得，这实际上是一种思想。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;复杂度是熵&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;这是我第一重感悟。在本书中，开题就已经说明了，一切和复杂度有关（It&amp;rsquo;s All About Complextiy）。复杂度就如宇宙中的熵一样，无处不在。它就好像是埋藏在诸多事物下的真相一样，看上去不会引发任何问题，但任何问题都可能和它有关。&lt;/p&gt;

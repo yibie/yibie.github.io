@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Now - Space Looming</title>
-    <link>https://www.gtdstudy.com/categories/now/</link>
+    <link>http://localhost:1313/categories/now/</link>
     <description>Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Fri, 21 Feb 2025 21:37:00 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/categories/now/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/now/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>发布 float-narrow-indriect</title>
-      <link>https://www.gtdstudy.com/posts/released-float-narrow-indirect/released-float-narrow-indirect/</link>
+      <link>http://localhost:1313/posts/released-float-narrow-indirect/released-float-narrow-indirect/</link>
       <pubDate>Fri, 21 Feb 2025 21:37:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/released-float-narrow-indirect/released-float-narrow-indirect/</guid>
+      <guid>http://localhost:1313/posts/released-float-narrow-indirect/released-float-narrow-indirect/</guid>
       <description>&lt;p&gt;项目地址：&lt;a href=&#34;https://github.com/yibie/float-narrow-indirect&#34;&gt;https://github.com/yibie/float-narrow-indirect&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在 Emacs 中同时查看、对比或编辑文件的多个部分时，传统的分屏方式可能会让屏幕变得拥挤。float-narrow-indirect 提供了一个优雅的解决方案——它能让你将选中的文本区域&amp;quot;提取&amp;quot;到独立的浮动窗口中。&lt;/p&gt;
 &lt;p&gt;本次开发时间，2.5 小时左右。&lt;/p&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>作为 Emacs 用户一直很羡慕 markdown 有很多丰富的插件，将网页直接保存为 md 文件，在朋友 J 的鼓励下，我开发了 Copy as Org-mode Chrome，解决了长久以来的困扰</title>
-      <link>https://www.gtdstudy.com/posts/publish-copy-as-org-mode-chrome/</link>
+      <link>http://localhost:1313/posts/publish-copy-as-org-mode-chrome/</link>
       <pubDate>Tue, 18 Feb 2025 21:23:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/publish-copy-as-org-mode-chrome/</guid>
+      <guid>http://localhost:1313/posts/publish-copy-as-org-mode-chrome/</guid>
       <description>&lt;p&gt;项目地址：&lt;a href=&#34;https://github.com/yibie/Copy-as-org-mode-chrome&#34;&gt;https://github.com/yibie/Copy-as-org-mode-chrome&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;直接将网页里的文本，直接转换成 org-mode 格式，拷贝到剪贴板&lt;/li&gt;
@@ -57,10 +57,10 @@
     
     <item>
       <title>我一直很想知道 Lex Fridman Podcast 到底采访了哪些嘉宾，以及这些嘉宾的博客或相关网站是什么，所以我做了一个脚本，来爬取他的 youtube 视频下的描述，自动生成文件，我将目前已经爬取到的内容，都放到 github 上了，一共 459 期，包括最新那期讨论 DeepSeek 的</title>
-      <link>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</link>
+      <link>http://localhost:1313/posts/publish-lex-fridman-podcast-list/</link>
       <pubDate>Mon, 17 Feb 2025 16:07:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</guid>
+      <guid>http://localhost:1313/posts/publish-lex-fridman-podcast-list/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/Lex-Fridman-Podcast/&#34;&gt;https://github.com/yibie/Lex-Fridman-Podcast/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;刚刚升级了脚本，清理了无关的内容，包括赞助人之类的。&lt;/p&gt;
 
@@ -74,10 +74,10 @@
     
     <item>
       <title>一直想着把 org-mode 笔记里有价值的部分，转换成图片，然后分享出去，之前都需要其它工具来完成，现在我开发了 org-headline-card，将 org 标题以及标题包含的内容转换成图片</title>
-      <link>https://www.gtdstudy.com/posts/publish-org-headline-card/</link>
+      <link>http://localhost:1313/posts/publish-org-headline-card/</link>
       <pubDate>Sat, 15 Feb 2025 16:10:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/publish-org-headline-card/</guid>
+      <guid>http://localhost:1313/posts/publish-org-headline-card/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;可以自定义主题&lt;/li&gt;
 &lt;li&gt;内置多个主题&lt;/li&gt;
@@ -94,10 +94,10 @@
     
     <item>
       <title>如果某个新事物的出现，遭到某一个群体的集体的嘲讽、抵制、反对、厌恶——那么大概率值得跟，以上表现足证明新事物具备重新定义利益链的潜能</title>
-      <link>https://www.gtdstudy.com/posts/if-new-things-show-up/</link>
+      <link>http://localhost:1313/posts/if-new-things-show-up/</link>
       <pubDate>Tue, 11 Feb 2025 16:41:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/if-new-things-show-up/</guid>
+      <guid>http://localhost:1313/posts/if-new-things-show-up/</guid>
       <description>
       </description>
       
@@ -109,10 +109,10 @@
     
     <item>
       <title>很多人会问，无聊的时候，你会做什么？我觉得这个问法有点问题，如果是我，我会问：有什么时候，你会感到无聊？我觉得无聊只是一个感受，理解感受比消灭感受要重要。</title>
-      <link>https://www.gtdstudy.com/posts/what-do-you-do-when-you-feeling-boring/</link>
+      <link>http://localhost:1313/posts/what-do-you-do-when-you-feeling-boring/</link>
       <pubDate>Tue, 11 Feb 2025 16:34:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/what-do-you-do-when-you-feeling-boring/</guid>
+      <guid>http://localhost:1313/posts/what-do-you-do-when-you-feeling-boring/</guid>
       <description>
       </description>
       
@@ -124,10 +124,10 @@
     
     <item>
       <title>学到新词，处女作通病</title>
-      <link>https://www.gtdstudy.com/posts/learned-a-new-concept-maide-work/</link>
+      <link>http://localhost:1313/posts/learned-a-new-concept-maide-work/</link>
       <pubDate>Tue, 11 Feb 2025 16:32:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/learned-a-new-concept-maide-work/</guid>
+      <guid>http://localhost:1313/posts/learned-a-new-concept-maide-work/</guid>
       <description>&lt;p&gt;电影界的大部分导演在处女作的时候基本会把自己知道或者想要尝试的所有技法都尽量用到作品里去。&lt;/p&gt;
 &lt;p&gt;我觉得这个通病不光是导演才会有，只要是制作什么东西的人，在对待第一个作品的时候，都会有处女作通病。&lt;/p&gt;
 
@@ -141,10 +141,10 @@
     
     <item>
       <title>HUGO 主题 hugo-theme-deck 上线</title>
-      <link>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</link>
+      <link>http://localhost:1313/posts/hugo-theme-deck-online/</link>
       <pubDate>Sun, 09 Feb 2025 10:54:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</guid>
+      <guid>http://localhost:1313/posts/hugo-theme-deck-online/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/hugo-theme-deck&#34;&gt;https://github.com/yibie/hugo-theme-deck&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;以列作为主题展示&lt;/li&gt;
@@ -163,10 +163,10 @@
     
     <item>
       <title>org-luhmann 获得知名开发者关注</title>
-      <link>https://www.gtdstudy.com/posts/org-luhmann-stars/</link>
+      <link>http://localhost:1313/posts/org-luhmann-stars/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/org-luhmann-stars/</guid>
+      <guid>http://localhost:1313/posts/org-luhmann-stars/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 受到两位 emacs 圈著名的开发者 Star， 一位是开发了 org-tranclusion 的 nobit，一位是 magit 的开发者 tarsius，哈哈哈&lt;/p&gt;
 
       </description>
@@ -179,10 +179,10 @@
     
     <item>
       <title>org-luhmann 发布：基于情境的卢曼笔记编号工具</title>
-      <link>https://www.gtdstudy.com/posts/org-luhmann-release/</link>
+      <link>http://localhost:1313/posts/org-luhmann-release/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/org-luhmann-release/</guid>
+      <guid>http://localhost:1313/posts/org-luhmann-release/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 发布，一个给 org-headline 添加卢曼式笔记编号的工具，它的特点在于基于情境，让用户进行选择，而不是自动化编号&lt;/p&gt;
 
       </description>
@@ -195,10 +195,10 @@
     
     <item>
       <title>org-supertag 2.0.0 版本发布</title>
-      <link>https://www.gtdstudy.com/posts/org-supertag-2-release/</link>
+      <link>http://localhost:1313/posts/org-supertag-2-release/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/org-supertag-2-release/</guid>
+      <guid>http://localhost:1313/posts/org-supertag-2-release/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 2.0.0 版本发布，增加了定时任务，增加移动节点的用户交互命令，在行为系统里增加行为定义模板变量&lt;/p&gt;
 
       </description>
@@ -211,10 +211,10 @@
     
     <item>
       <title>org-supertag 登陆 Hacker News 首页</title>
-      <link>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</link>
+      <link>http://localhost:1313/posts/org-supertag-hacker-news/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</guid>
+      <guid>http://localhost:1313/posts/org-supertag-hacker-news/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 登陆 Hacker News 首页，获得 84 个 Upvote，同日 org-supertag 的 Star 数达到 100&lt;/p&gt;
 
       </description>
@@ -227,10 +227,10 @@
     
     <item>
       <title>2024 年，对自己较为满意。</title>
-      <link>https://www.gtdstudy.com/posts/summary-2024/</link>
+      <link>http://localhost:1313/posts/summary-2024/</link>
       <pubDate>Wed, 01 Jan 2025 09:42:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/summary-2024/</guid>
+      <guid>http://localhost:1313/posts/summary-2024/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;《得到 Prompt 系列》入选智谱清言的案例库，同时也被小七姐转发&lt;/li&gt;
 &lt;li&gt;开发了一套网站模板&lt;/li&gt;
@@ -254,10 +254,10 @@
     
     <item>
       <title>org-supertag 1.0 发布：添加行为系统</title>
-      <link>https://www.gtdstudy.com/posts/org-supertag-1-release/</link>
+      <link>http://localhost:1313/posts/org-supertag-1-release/</link>
       <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/org-supertag-1-release/</guid>
+      <guid>http://localhost:1313/posts/org-supertag-1-release/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 正式发布 1.0，添加了&lt;strong&gt;行为系统&lt;/strong&gt;，可以组成自动工作流&lt;/p&gt;
 
       </description>
@@ -270,10 +270,10 @@
     
     <item>
       <title>org-supertag 发布到 Reddit</title>
-      <link>https://www.gtdstudy.com/posts/org-supertag-reddit-launch/</link>
+      <link>http://localhost:1313/posts/org-supertag-reddit-launch/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/org-supertag-reddit-launch/</guid>
+      <guid>http://localhost:1313/posts/org-supertag-reddit-launch/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 上线，发布到 Reddit，得到了鼓励和支持&lt;/p&gt;
 
       </description>
@@ -286,10 +286,10 @@
     
     <item>
       <title>与 Emacs 群友 Eval Exec 面基</title>
-      <link>https://www.gtdstudy.com/posts/meeting-with-eval-exec/</link>
+      <link>http://localhost:1313/posts/meeting-with-eval-exec/</link>
       <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/meeting-with-eval-exec/</guid>
+      <guid>http://localhost:1313/posts/meeting-with-eval-exec/</guid>
       <description>&lt;p&gt;与 Emacs 群友 &lt;a href=&#34;https://evex.one/&#34;&gt;Eval Exec&lt;/a&gt; 面基，反应很敏锐，做什么都速度感很强，指尖在 Emacs 上跳跃，行云流水&lt;/p&gt;
 
       </description>
@@ -302,10 +302,10 @@
     
     <item>
       <title>org-zettel-ref-mode 0.5：支持高亮标记</title>
-      <link>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-5/</link>
+      <link>http://localhost:1313/posts/org-zettel-ref-mode-0-5/</link>
       <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-5/</guid>
+      <guid>http://localhost:1313/posts/org-zettel-ref-mode-0-5/</guid>
       <description>&lt;p&gt;将 org-zettel-ref-mode 升级到 0.5，支持高亮标记，以及更换了笔记的样式&lt;/p&gt;
 
       </description>
@@ -318,10 +318,10 @@
     
     <item>
       <title>org-zettel-ref-mode 0.4：添加源文件管理面板</title>
-      <link>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-4/</link>
+      <link>http://localhost:1313/posts/org-zettel-ref-mode-0-4/</link>
       <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/org-zettel-ref-mode-0-4/</guid>
+      <guid>http://localhost:1313/posts/org-zettel-ref-mode-0-4/</guid>
       <description>&lt;p&gt;将 org-zettel-ref-mode 升级到 0.4，增加了管理源文件的可视化面板, 非常好用&lt;/p&gt;
 
       </description>
@@ -334,10 +334,10 @@
     
     <item>
       <title>博客添加 Waline 评论系统</title>
-      <link>https://www.gtdstudy.com/posts/blog-waline/</link>
+      <link>http://localhost:1313/posts/blog-waline/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/blog-waline/</guid>
+      <guid>http://localhost:1313/posts/blog-waline/</guid>
       <description>&lt;p&gt;为本博客添加评论系统 Waline&lt;/p&gt;
 
       </description>
@@ -350,10 +350,10 @@
     
     <item>
       <title>博客添加友情链接</title>
-      <link>https://www.gtdstudy.com/posts/blog-friends/</link>
+      <link>http://localhost:1313/posts/blog-friends/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/blog-friends/</guid>
+      <guid>http://localhost:1313/posts/blog-friends/</guid>
       <description>&lt;p&gt;为博客添加 Friends, 存放友情链接 (或者说, 朋友的博客)&lt;/p&gt;
 
       </description>

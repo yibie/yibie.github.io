@@ -31,6 +31,10 @@
   /* 添加移动端的宽度变量 */
   --header-width-mobile: 0px;
   --content-margin-left-mobile: 0px;
+
+  /* 为了实现渐变效果，需要添加 RGB 变量 */
+  --color-primary-rgb: 55, 92, 217;
+  /* 对应 #375CD9 */
 }
 
 /* 暗色主题变量 */
@@ -51,6 +55,10 @@
   --color-code-string: #98c379;
   --color-code-number: #d19a66;
   --color-code-function: #61afef;
+
+  /* 为了实现渐变效果，需要添加 RGB 变量 */
+  --color-primary-rgb: 92, 124, 255;
+  /* 对应 #5C7CFF */
 }
 
 /* 2. 基础样式重置和全局样式 */
@@ -1608,50 +1616,80 @@ pre code {
 /* 分类列表样式 */
 .taxonomy-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* 减小卡片最小宽度 */
+  gap: 1.25rem;
   margin-top: 2rem;
+  padding: 0.5rem;
 }
 
 /* 分类卡片样式 */
 .taxonomy-card {
-  padding: 1.5rem;
+  padding: 1.25rem;
   background: var(--color-bg);
-  border: 1px solid var(--color-border);
-  border-radius: 12px;
-  transition: all 0.2s ease;
+  border: 2px solid var(--color-border);
+  /* 加粗边框 */
+  border-radius: 16px;
+  /* 更圆润的边角 */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  /* 更柔和的动画 */
+  position: relative;
+  overflow: hidden;
 }
 
+/* 可爱的悬停效果 */
 .taxonomy-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transform: translateY(-3px) scale(1.02);
+  /* 更明显的浮动效果 */
   border-color: var(--color-primary);
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.05),
+    0 4px 8px rgba(0, 0, 0, 0.04);
 }
 
+/* 标题样式 */
 .taxonomy-card__title {
-  font-size: 1.25rem;
-  margin: 0 0 1rem;
+  font-size: 1.15rem;
+  margin: 0 0 0.75rem;
   line-height: 1.4;
+  text-align: center;
+  /* 居中对齐 */
 }
 
 .taxonomy-card__title a {
   color: var(--color-text);
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
+  padding: 0.25rem 0.5rem;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 .taxonomy-card__title a:hover {
   color: var(--color-primary);
+  background: rgba(var(--color-primary-rgb), 0.05);
+  /* 添加背景色 */
 }
 
-.taxonomy-card__summary {
-  font-size: 0.875rem;
-  line-height: 1.6;
-  color: var(--color-text);
-  opacity: 0.8;
+/* 添加装饰性元素 */
+.taxonomy-card::before {
+  content: "#";
+  position: absolute;
+  top: 0.5rem;
+  left: 0.75rem;
+  font-size: 1.5rem;
+  opacity: 0.1;
+  color: var(--color-primary);
 }
 
 /* 暗色主题适配 */
+:root[data-theme="dark"] .taxonomy-card {
+  background: rgba(255, 255, 255, 0.02);
+}
+
 :root[data-theme="dark"] .taxonomy-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.2),
+    0 4px 8px rgba(0, 0, 0, 0.1);
 }
