@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>人生 - Space Looming</title>
-    <link>https://www.gtdstudy.com/tags/%E4%BA%BA%E7%94%9F/</link>
+    <link>http://localhost:1313/tags/%E4%BA%BA%E7%94%9F/</link>
     <description>Recent content in 人生 on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Sat, 20 Nov 2021 09:11:56 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/tags/%E4%BA%BA%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E4%BA%BA%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>人生：人的痛苦来自 3 种信念</title>
-      <link>https://www.gtdstudy.com/posts/three-type-of-pain/</link>
+      <link>http://localhost:1313/posts/three-type-of-pain/</link>
       <pubDate>Sat, 20 Nov 2021 09:11:56 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/three-type-of-pain/</guid>
+      <guid>http://localhost:1313/posts/three-type-of-pain/</guid>
       <description>&lt;p&gt;心理学家阿尔伯特.埃利斯说：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;我必须要把事情做好，得到表扬，否则我就很烂。&lt;/li&gt;

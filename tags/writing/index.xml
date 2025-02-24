@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writing - Space Looming</title>
-    <link>https://www.gtdstudy.com/tags/writing/</link>
+    <link>http://localhost:1313/tags/writing/</link>
     <description>Recent content in Writing on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Working on improving the Hugo Theme Deck</title>
-      <link>https://www.gtdstudy.com/posts/now-example/</link>
+      <link>http://localhost:1313/posts/now-example/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/now-example/</guid>
+      <guid>http://localhost:1313/posts/now-example/</guid>
       <description>&lt;p&gt;Working on improving the Hugo Theme Deck documentation and adding more example posts to demonstrate different column styles. 🚀&lt;/p&gt;</description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TIL - Space Looming</title>
-    <link>https://www.gtdstudy.com/categories/til/</link>
+    <link>http://localhost:1313/categories/til/</link>
     <description>Recent content in TIL on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Thu, 20 Feb 2025 16:38:00 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/til/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Org-mode 自带类似 Workflwoy 的 focus 功能</title>
-      <link>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</link>
+      <link>http://localhost:1313/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</link>
       <pubDate>Thu, 20 Feb 2025 16:38:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</guid>
+      <guid>http://localhost:1313/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</guid>
       <description>&lt;p&gt;以前把玩 Workflowy 的时候，有一个功能我很喜欢，但它没具体名字，在 Workflowy 的首页上，是这么介绍的：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Zoom into your notes and focus on just one part
@@ -34,10 +34,10 @@
     
     <item>
       <title>设置 org-refile 的行为</title>
-      <link>https://www.gtdstudy.com/posts/config-org-refile/</link>
+      <link>http://localhost:1313/posts/config-org-refile/</link>
       <pubDate>Wed, 19 Feb 2025 18:52:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/config-org-refile/</guid>
+      <guid>http://localhost:1313/posts/config-org-refile/</guid>
       <description>&lt;p&gt;来自 &lt;a href=&#34;https://www.reddit.com/r/emacs/comments/4366f9/comment/czg008y/&#34;&gt;Reddit&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;(setq org-refile-targets &amp;#39;((nil :maxlevel . 9)        ; 这里定义 org-refile 感知的 org 标题层级
                                 (org-agenda-files :maxlevel . 9)))
@@ -48,10 +48,10 @@
     
     <item>
       <title>Vim 针对一段长文本的导航</title>
-      <link>https://www.gtdstudy.com/posts/vim-navigation-in-long-line/</link>
+      <link>http://localhost:1313/posts/vim-navigation-in-long-line/</link>
       <pubDate>Tue, 11 Feb 2025 10:11:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/vim-navigation-in-long-line/</guid>
+      <guid>http://localhost:1313/posts/vim-navigation-in-long-line/</guid>
       <description>&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -82,19 +82,19 @@
     
     <item>
       <title>Vim 使用 Ctrl &#43; o 回到之前的光标位置</title>
-      <link>https://www.gtdstudy.com/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</link>
+      <link>http://localhost:1313/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</link>
       <pubDate>Tue, 11 Feb 2025 10:08:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</guid>
+      <guid>http://localhost:1313/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</guid>
       <description>&lt;p&gt;如果想知道之前的光标位置的记录，可以输入 &lt;code&gt;:jumps&lt;/code&gt; 就能看到之前光标位置记录的列表。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本</title>
-      <link>https://www.gtdstudy.com/posts/emacs-keep-flush-lines/</link>
+      <link>http://localhost:1313/posts/emacs-keep-flush-lines/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/emacs-keep-flush-lines/</guid>
+      <guid>http://localhost:1313/posts/emacs-keep-flush-lines/</guid>
       <description>&lt;p&gt;如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;keep-lines&lt;/code&gt; 的意思就是，保留你输入关键字的文本行。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;flush-lines&lt;/code&gt; 的意思是，排除你输入关键字的文本行。&lt;/p&gt;
@@ -103,20 +103,20 @@
     
     <item>
       <title>实施加载 Emacs 的包文件</title>
-      <link>https://www.gtdstudy.com/posts/emacs-load-library/</link>
+      <link>http://localhost:1313/posts/emacs-load-library/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/emacs-load-library/</guid>
+      <guid>http://localhost:1313/posts/emacs-load-library/</guid>
       <description>&lt;p&gt;运行这个命令： &lt;code&gt;load-library&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;在调试开发 Emacs 的第三方包时，运行这一个命令可以避免每一次每一次修改都重启 Emacs。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>让 org-mode 的 tag 一直处于 Emacs 窗口的最右方</title>
-      <link>https://www.gtdstudy.com/posts/org-mode-tag-align-right/</link>
+      <link>http://localhost:1313/posts/org-mode-tag-align-right/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/org-mode-tag-align-right/</guid>
+      <guid>http://localhost:1313/posts/org-mode-tag-align-right/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(add-to-list &amp;#39;font-lock-extra-managed-props &amp;#39;display)
 (font-lock-add-keywords &amp;#39;org-mode
                         `((&amp;#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]+:\\)$&amp;#34;
@@ -128,30 +128,30 @@
     
     <item>
       <title>使用「Shift &#43; 方向键」在 Emacs Calendar 里自由选择日期</title>
-      <link>https://www.gtdstudy.com/posts/emacs-calendar-shift-select/</link>
+      <link>http://localhost:1313/posts/emacs-calendar-shift-select/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/emacs-calendar-shift-select/</guid>
+      <guid>http://localhost:1313/posts/emacs-calendar-shift-select/</guid>
       <description>&lt;p&gt;在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 +1、+2 这种方式来选择未来的日期。&lt;/p&gt;
 &lt;p&gt;这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift + 上下左右方向键，将可以自由移动 Emacs Calendar 里的光标，从从容容地选择日日期。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>加快 macOS 里光标的移动速度</title>
-      <link>https://www.gtdstudy.com/posts/macos-cursor-speed/</link>
+      <link>http://localhost:1313/posts/macos-cursor-speed/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/macos-cursor-speed/</guid>
+      <guid>http://localhost:1313/posts/macos-cursor-speed/</guid>
       <description>&lt;p&gt;找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。&lt;/p&gt;
 &lt;p&gt;效果拔群！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Ant Design 组件基本分类</title>
-      <link>https://www.gtdstudy.com/posts/antd-component-architecture/</link>
+      <link>http://localhost:1313/posts/antd-component-architecture/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/antd-component-architecture/</guid>
+      <guid>http://localhost:1313/posts/antd-component-architecture/</guid>
       <description>&lt;h2 id=&#34;架构设计&#34;&gt;架构设计&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;分层
@@ -188,10 +188,10 @@
     
     <item>
       <title>给 Emacs 打 Patch</title>
-      <link>https://www.gtdstudy.com/posts/emacs-patch/</link>
+      <link>http://localhost:1313/posts/emacs-patch/</link>
       <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/emacs-patch/</guid>
+      <guid>http://localhost:1313/posts/emacs-patch/</guid>
       <description>&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;: Telegram 群组 &amp;ldquo;Emacs_CN Lite 轻聊版&amp;rdquo; @Lucius_Chen&lt;/p&gt;
 &lt;p&gt;在 &lt;code&gt;/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/&lt;/code&gt; 下的 &lt;code&gt;emacs-plus@31.rb&lt;/code&gt; 文件需要修改 &lt;code&gt;Path&lt;/code&gt; 栏的 &lt;code&gt;local_path&lt;/code&gt; 和 &lt;code&gt;commit&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;如果需要打 patch，可以将 patch 文件放在：
@@ -200,10 +200,10 @@
     
     <item>
       <title>Vim 命令 - Scroll &amp; Move</title>
-      <link>https://www.gtdstudy.com/posts/vim-scroll-move/</link>
+      <link>http://localhost:1313/posts/vim-scroll-move/</link>
       <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/vim-scroll-move/</guid>
+      <guid>http://localhost:1313/posts/vim-scroll-move/</guid>
       <description>&lt;h2 id=&#34;scroll&#34;&gt;Scroll&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;滚动一页: &lt;code&gt;C-f&lt;/code&gt; / &lt;code&gt;C-b&lt;/code&gt;&lt;/li&gt;
@@ -234,10 +234,10 @@
     
     <item>
       <title>解决一个神出鬼没的 Bug</title>
-      <link>https://www.gtdstudy.com/posts/debugging-mysterious-bug/</link>
+      <link>http://localhost:1313/posts/debugging-mysterious-bug/</link>
       <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/debugging-mysterious-bug/</guid>
+      <guid>http://localhost:1313/posts/debugging-mysterious-bug/</guid>
       <description>&lt;h2 id=&#34;一句话说明问题&#34;&gt;一句话说明问题&lt;/h2&gt;
 &lt;p&gt;升级 &lt;code&gt;org-zettel-ref-mode&lt;/code&gt; 的数据库格式导致加载数据库的函数无法读取正确的数据库，结果引发内存错误链。报错信息仅显示 &amp;ldquo;let*: End of file during parsing&amp;rdquo;，未提供具体细节。&lt;/p&gt;
 &lt;h2 id=&#34;辛苦的过程&#34;&gt;辛苦的过程&lt;/h2&gt;
@@ -263,20 +263,20 @@
     
     <item>
       <title>让大陆用户顺利访问部署在 Vercel 上的网站程序</title>
-      <link>https://www.gtdstudy.com/posts/vercel-china-access/</link>
+      <link>http://localhost:1313/posts/vercel-china-access/</link>
       <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/vercel-china-access/</guid>
+      <guid>http://localhost:1313/posts/vercel-china-access/</guid>
       <description>&lt;p&gt;在域名服务商的 DNS 记录中使用：
 &lt;code&gt;cname-china.vercel-dns.com&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>使用 Emacs 的 Register 方便工作</title>
-      <link>https://www.gtdstudy.com/posts/emacs-register-usage/</link>
+      <link>http://localhost:1313/posts/emacs-register-usage/</link>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/emacs-register-usage/</guid>
+      <guid>http://localhost:1313/posts/emacs-register-usage/</guid>
       <description>&lt;p&gt;观看视频 &lt;em&gt;Emacs: Store anything with registers and bookmarks&lt;/em&gt; 后，更清楚 Register 的作用。&lt;/p&gt;
 &lt;h2 id=&#34;register-的特点&#34;&gt;Register 的特点&lt;/h2&gt;
 &lt;ul&gt;
@@ -296,10 +296,10 @@
     
     <item>
       <title>Emacs 不移动光标的情况下滚动行</title>
-      <link>https://www.gtdstudy.com/posts/emacs-scroll-line/</link>
+      <link>http://localhost:1313/posts/emacs-scroll-line/</link>
       <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/emacs-scroll-line/</guid>
+      <guid>http://localhost:1313/posts/emacs-scroll-line/</guid>
       <description>&lt;p&gt;Emacs 内置了两个命令：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;scroll-up-line&lt;/code&gt;&lt;/li&gt;
@@ -309,10 +309,10 @@
     
     <item>
       <title>软件工程的性能测试</title>
-      <link>https://www.gtdstudy.com/posts/software-engineering-profiler/</link>
+      <link>http://localhost:1313/posts/software-engineering-profiler/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/software-engineering-profiler/</guid>
+      <guid>http://localhost:1313/posts/software-engineering-profiler/</guid>
       <description>&lt;p&gt;所有软件工程都应通过 Profiler 测试性能。Emacs 中可以通过以下命令实现：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;启动性能测试: &lt;code&gt;M-x profiler-start&lt;/code&gt;
@@ -325,10 +325,10 @@
     
     <item>
       <title>TIL</title>
-      <link>https://www.gtdstudy.com/til/</link>
+      <link>http://localhost:1313/til/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/til/</guid>
+      <guid>http://localhost:1313/til/</guid>
       <description>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
 &lt;h1 id=&#34;2025-01-21-emacs-中综合使用-keep-lines-和-flush-lines-过滤多行文本&#34;&gt;2025-01-21 Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本&lt;/h1&gt;
 &lt;p&gt;如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。&lt;/p&gt;
@@ -351,20 +351,20 @@
     
     <item>
       <title>TIL: Hugo&#39;s Page Resources</title>
-      <link>https://www.gtdstudy.com/posts/til-example/</link>
+      <link>http://localhost:1313/posts/til-example/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/til-example/</guid>
+      <guid>http://localhost:1313/posts/til-example/</guid>
       <description>&lt;p&gt;Today I learned that Hugo&amp;rsquo;s Page Resources feature allows you to co-locate images and other assets with your content files.&lt;/p&gt;
 &lt;p&gt;This makes it easier to organize and maintain your content, as all related files are kept together.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>如何在 M1 MacBook 上玩游戏</title>
-      <link>https://www.gtdstudy.com/posts/how-to-play-games-with-m1-macbook/</link>
+      <link>http://localhost:1313/posts/how-to-play-games-with-m1-macbook/</link>
       <pubDate>Fri, 09 Sep 2022 16:53:38 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/how-to-play-games-with-m1-macbook/</guid>
+      <guid>http://localhost:1313/posts/how-to-play-games-with-m1-macbook/</guid>
       <description>&lt;p&gt;因为把 Switch 留在了深圳，我不得不开发在 MacBook 上玩游戏的技能。&lt;/p&gt;
 &lt;h2 id=&#34;windows-游戏&#34;&gt;Windows 游戏&lt;/h2&gt;
 &lt;p&gt;直接下载 Steam 的 Mac 版，会失望的发现，很多好玩的游戏，平台只支持 Windows。所以，参考 2 条哔哩哔哩的视频教程，一步一步跟着走：&lt;/p&gt;
@@ -411,10 +411,10 @@
     
     <item>
       <title>PhotoShop：如何画优美的曲线</title>
-      <link>https://www.gtdstudy.com/posts/how-to-draw-bezier-curve/</link>
+      <link>http://localhost:1313/posts/how-to-draw-bezier-curve/</link>
       <pubDate>Sun, 08 May 2022 23:23:16 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/how-to-draw-bezier-curve/</guid>
+      <guid>http://localhost:1313/posts/how-to-draw-bezier-curve/</guid>
       <description>&lt;p&gt;原来 PhotoShop 里的钢笔工具，是贝济埃曲线（又称贝塞尔曲线）的应用，所以用好钢笔工具，应该用符合绘制贝济埃曲线的方法，这样子会比较容易得到好的结果。&lt;/p&gt;
 &lt;p&gt;通过 B 站的 &lt;a href=&#34;https://www.bilibili.com/video/BV19i4y1c76i/?spm_id_from=autoNext&#34;&gt;oooooohmygosh&lt;/a&gt; 学习到，画贝济埃曲线的规范：
 1、尽量让节点放在「极值点」的位置
@@ -426,10 +426,10 @@
     
     <item>
       <title>Wi-F：如何寻找 Wi-Fi 密码</title>
-      <link>https://www.gtdstudy.com/posts/how-to-find-wifi-password/</link>
+      <link>http://localhost:1313/posts/how-to-find-wifi-password/</link>
       <pubDate>Sun, 08 May 2022 23:12:32 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/how-to-find-wifi-password/</guid>
+      <guid>http://localhost:1313/posts/how-to-find-wifi-password/</guid>
       <description>&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
 &lt;p&gt;进入 “网络和共享中心” 菜单。右键单击 Wi-Fi 网络连接图标→“无线网络属性”。点击 “显示字符” 字段，显示 Wi-Fi 网络密码。&lt;/p&gt;
 &lt;h2 id=&#34;macos&#34;&gt;macOS&lt;/h2&gt;
@@ -438,10 +438,10 @@
     
     <item>
       <title>苹果：Mac Studio 为何不能更换普通的 SSD 硬盘</title>
-      <link>https://www.gtdstudy.com/posts/why-mac-studio-can-not-change-ssds/</link>
+      <link>http://localhost:1313/posts/why-mac-studio-can-not-change-ssds/</link>
       <pubDate>Sat, 26 Mar 2022 23:04:47 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/why-mac-studio-can-not-change-ssds/</guid>
+      <guid>http://localhost:1313/posts/why-mac-studio-can-not-change-ssds/</guid>
       <description>&lt;p&gt;极客风范浓厚醇正的 &lt;a href=&#34;https://arstechnica.com/gadgets/2022/03/explaining-the-mac-studios-removable-ssds-and-why-you-cant-just-swap-them-out/&#34;&gt;ArsTechnica&lt;/a&gt; 也注意到 Mac Studio 不能随意更换 SSD 硬盘一事。它给出了一个很简单的答案：&lt;/p&gt;
 &lt;p&gt;所有 SSD 硬盘的结构至少包含 2 样东西，用于存储数据 NAND 芯片和 SSD 控制芯片。在 PC 上，SSD 硬盘基本都包含这两样，所以它们更换起来很方便。&lt;/p&gt;
 &lt;p&gt;但苹果在推出 T2 芯片之后，选择「功能集成到一个芯片里」，SSD 控制芯片的功能也不例外，被苹果集成在 T2，以及后续的 M1 系列里。&lt;/p&gt;
@@ -452,10 +452,10 @@
     
     <item>
       <title>图床：把 Github 当做博客图床</title>
-      <link>https://www.gtdstudy.com/posts/how-to-make-github-to-be-your-blog-image-server/</link>
+      <link>http://localhost:1313/posts/how-to-make-github-to-be-your-blog-image-server/</link>
       <pubDate>Fri, 04 Feb 2022 11:37:52 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/how-to-make-github-to-be-your-blog-image-server/</guid>
+      <guid>http://localhost:1313/posts/how-to-make-github-to-be-your-blog-image-server/</guid>
       <description>&lt;p&gt;我之前的博客基本以纯文字为主，但最近因为博客新开了「产品」和「技巧」这两个分类，为了「把事情说明白」，发现还是需要「文字+图片」。由于本博客没有采用博客服务（比如 WordPress），就存在图片放哪儿的问题。&lt;/p&gt;
 &lt;p&gt;幸运的是，我发现通过 PicGo 可以方便地将图片上传到 Github 上，只需要自己设置一个「仓库」，生成「token」即可。&lt;/p&gt;
 &lt;p&gt;1、首先，注册一个 Github 账号&lt;/p&gt;
@@ -467,10 +467,10 @@
     
     <item>
       <title>PhotoShop：通过「色彩范围」工具来快速抠图的方法</title>
-      <link>https://www.gtdstudy.com/posts/photoshop-tips-1-fast-cutout/</link>
+      <link>http://localhost:1313/posts/photoshop-tips-1-fast-cutout/</link>
       <pubDate>Sat, 29 Jan 2022 20:28:54 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/photoshop-tips-1-fast-cutout/</guid>
+      <guid>http://localhost:1313/posts/photoshop-tips-1-fast-cutout/</guid>
       <description>&lt;p&gt;今天看了少数派的《&lt;a href=&#34;https://sspai.com/post/71224&#34;&gt;Keynote 贺卡制作指南&lt;/a&gt;》，用里面的 PhotoShop 抠图小技巧，顺利地制作了属于自己的拜年贺卡。&lt;/p&gt;
 &lt;p&gt;技巧记录如下：&lt;/p&gt;
 &lt;ol&gt;

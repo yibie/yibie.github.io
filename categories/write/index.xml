@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Write - Space Looming</title>
-    <link>https://www.gtdstudy.com/categories/write/</link>
+    <link>http://localhost:1313/categories/write/</link>
     <description>Recent content in Write on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Thu, 13 Feb 2025 22:19:00 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/categories/write/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/write/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>维护一个繁荣的环境</title>
-      <link>https://www.gtdstudy.com/posts/control-the-information-input/</link>
+      <link>http://localhost:1313/posts/control-the-information-input/</link>
       <pubDate>Thu, 13 Feb 2025 22:19:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/control-the-information-input/</guid>
+      <guid>http://localhost:1313/posts/control-the-information-input/</guid>
       <description>&lt;p&gt;有的人，目光只盯第一，而第二、第三在他的眼里，如浮云过眼。我不一样，我愿意给一定的机会让第二、第三名出现在我的眼前。&lt;/p&gt;
 &lt;p&gt;我这么做，只有一个原因，保证自己拥有第二选择，这是一种自我保护的权力。我明白，当市场一家独大的时候，那么作为使用者的我，马上面临无选择权的风险。——实际上，过度关注第一，让第二、第三或者第四、第五没办法发育，这就是「繁荣性贫乏」的根源，因为我们自己就已经将资源过度集中到几个选项里，市场的增长只来自有限的几家公司，那么这个所谓市场的繁荣只不过是描述了几家公司的繁荣，而市场可能是凋敝的，因为再没有更多公司参与竞争，也不会有足够差异化的服务与产品。&lt;/p&gt;
 &lt;p&gt;多样性的缺失，就是一个地方失去活力的开始。就好像郁郁葱葱的森林，里面绝不止一种植物，一种动物，一种鸟类在里面生活，这不足以称之为生态。&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>狂想：汉字为何是象形字</title>
-      <link>https://www.gtdstudy.com/posts/why-hanzi/</link>
+      <link>http://localhost:1313/posts/why-hanzi/</link>
       <pubDate>Wed, 22 Jan 2025 15:12:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/why-hanzi/</guid>
+      <guid>http://localhost:1313/posts/why-hanzi/</guid>
       <description>&lt;p&gt;这是一篇狂想，未免有不合理，大家不予苟同之处。&lt;/p&gt;
 &lt;p&gt;昨晚痛风发作，躺在床上什么都做不了，迷迷糊糊之际，突然间想起看过的东西，大意是：&lt;/p&gt;
 &lt;p&gt;题主让学习了中文的老外朋友看甲骨文，结果老外对甲骨文的解释，角度清奇，他说，“你们的祖宗从一开始就考虑了，如何将生产的知识传递下去，你看这个字，讲了田要围起来，然后把水引进来。”他还从类似的角度解释了其它的字。&lt;/p&gt;
@@ -70,10 +70,10 @@
     
     <item>
       <title>用 AI 辅助开发的经验二三则(3)</title>
-      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/</link>
+      <link>http://localhost:1313/posts/learned-from-using-ai-develop-software-3/</link>
       <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/</guid>
+      <guid>http://localhost:1313/posts/learned-from-using-ai-develop-software-3/</guid>
       <description>&lt;p&gt;早两日，我发布了 org-supertag，一个新的 Emacs 第三方扩展包。本来这个项目，我计划是 3-5 天完成，结果花费的时间比预计要超出 3 倍有多。不禁让我想起了一个段子：不管下属报的时间期限多长，总之乘以 3 倍就对了。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;多出来的时间花在哪儿了？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;先简单介绍 org-supertag 是干嘛的，它借鉴了 Tana 强大的 Super Tag 功能，增强 Org-mode 原本的标签系统。强大这个描述，转换视角，往往意味着复杂。不过对于我来说，梳理 Tana 的功能，以及理清它概念之间的&lt;a href=&#34;https://emacs-china.org/t/emacs-tana-supertag/28407/4&#34;&gt;关系&lt;/a&gt;，并没有花我太长时间。&lt;/p&gt;
@@ -88,10 +88,10 @@
     
     <item>
       <title>时至今日, 我们对论语的解读是如此单一</title>
-      <link>https://www.gtdstudy.com/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/</link>
+      <link>http://localhost:1313/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/</link>
       <pubDate>Sun, 10 Nov 2024 09:53:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/</guid>
+      <guid>http://localhost:1313/posts/our-interpretation-of-the-analects-remains-so-one-dimensional/</guid>
       <description>&lt;p&gt;在了解西方人如何解读《论语》，以及为什么认为《论语》是思想经典后。会发现，《论语》的内涵如此丰富，&lt;/p&gt;
 &lt;p&gt;我想《论语》之所以可以流传下来，绝非是因为它摘录了孔夫子的语录，而是学徒们觉得孔夫子这些话很重要，才摘录。&lt;/p&gt;
 &lt;p&gt;重要，就是信息密度，以及可解读的信息层次。&lt;/p&gt;
@@ -101,10 +101,10 @@
     
     <item>
       <title>用 AI 辅助开发的经验二三则(2)</title>
-      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/</link>
+      <link>http://localhost:1313/posts/learned-from-using-ai-develop-software-2/</link>
       <pubDate>Thu, 07 Nov 2024 14:00:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/</guid>
+      <guid>http://localhost:1313/posts/learned-from-using-ai-develop-software-2/</guid>
       <description>&lt;p&gt;最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。&lt;/p&gt;
 &lt;p&gt;OZR 新的版本，增加了一个新功能，用于管理引用来源文件的可视化面板。这句话看上去很简单，但背后的工作量并不小。前端改一个词，足以让后端跑断腿。出现产品经理被砍这样的新闻，也不必奇怪了。&lt;/p&gt;
 &lt;p&gt;可视化面板，是很多产品里常见的特性，它的功能就是，让用户更加舒服地查看、管理特定的对象。在 OZR 里，其管理对象是，一个个被充当引用来源的参考文件。&lt;/p&gt;
@@ -140,10 +140,10 @@ Map 表的职责:
     
     <item>
       <title>最小练习单位</title>
-      <link>https://www.gtdstudy.com/posts/the-minimum-practice-unit/</link>
+      <link>http://localhost:1313/posts/the-minimum-practice-unit/</link>
       <pubDate>Tue, 05 Nov 2024 18:37:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/the-minimum-practice-unit/</guid>
+      <guid>http://localhost:1313/posts/the-minimum-practice-unit/</guid>
       <description>&lt;p&gt;之前, 我发展了一个概念, 叫 &amp;ldquo;&lt;a href=&#34;https://www.gtdstudy.com/posts/minimum-creation-unit/&#34;&gt;最小创造单位&lt;/a&gt;&amp;rdquo;. 它大概面对的情景是, 自己闲着, 不知道自己干点什么的时候, 想一想能够在很有限的时间里, 捣鼓点什么出来, 是一个无中生有的过程.&lt;/p&gt;
 &lt;p&gt;今天我想把 &amp;ldquo;最小单位&amp;rdquo; 这个概念, 再延伸一点, 叫 &amp;ldquo;最小练习单位&amp;rdquo;. 起因是, 每天需要学习的东西很多, 有时候会陷入犹豫, 在确定自己练习什么的时候, 太阳西下, 天色也昏沉. 此时惊觉, 一天已过.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;犹豫就会败北!&amp;rdquo; 所以, 我刻意地想提 &amp;ldquo;最小练习单位&amp;rdquo;, 将自己从踌躇不决的境地里拯救出来.&lt;/p&gt;
@@ -155,10 +155,10 @@ Map 表的职责:
     
     <item>
       <title>博客 = 人性的补完</title>
-      <link>https://www.gtdstudy.com/posts/blog-the-complementation-of-humanity/</link>
+      <link>http://localhost:1313/posts/blog-the-complementation-of-humanity/</link>
       <pubDate>Sat, 19 Oct 2024 17:23:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/blog-the-complementation-of-humanity/</guid>
+      <guid>http://localhost:1313/posts/blog-the-complementation-of-humanity/</guid>
       <description>&lt;p&gt;其实我很不愿意写关于博客本身的任何话题. 反复自证, 非我所好. 再说, 博客也断断续续, 写了老长一段时间, 即便是不写的那些日子里, 域名费也乖乖地交了.&lt;/p&gt;
 &lt;p&gt;博客, 于我而言, 是再自然不过的, 我无需为它解释什么, 更不用解释 &amp;ldquo;为什么写博客&amp;rdquo; 这种问题. 而且, 既然已经上线一个博客, 老是写关于博客的话题是有点奇怪的 &amp;ndash; 一个自留地, 访客来去自如, 不必为流量烦扰. 毕竟, 博客的原始词义, 是线上日记本.&lt;/p&gt;
 &lt;p&gt;日记本, 就不是给外人看的. 保持这一份纯粹, 在一个越来越呈现 &amp;ldquo;繁荣性贫乏&amp;rdquo; 的互联网里, 反而难淂. 无所图, 必有获.&lt;/p&gt;
@@ -169,10 +169,10 @@ Map 表的职责:
     
     <item>
       <title>最小创造单位</title>
-      <link>https://www.gtdstudy.com/posts/minimum-creation-unit/</link>
+      <link>http://localhost:1313/posts/minimum-creation-unit/</link>
       <pubDate>Fri, 18 Oct 2024 20:47:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/minimum-creation-unit/</guid>
+      <guid>http://localhost:1313/posts/minimum-creation-unit/</guid>
       <description>&lt;p&gt;很多事情都可视为「最小创造单位」：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;认真的写一篇帖子
 学习新的菜
@@ -201,10 +201,10 @@ Map 表的职责:
     
     <item>
       <title>用 AI 辅助开发的经验二三则</title>
-      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/</link>
+      <link>http://localhost:1313/posts/learned-from-using-ai-develop-software/</link>
       <pubDate>Mon, 14 Oct 2024 06:04:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software/</guid>
+      <guid>http://localhost:1313/posts/learned-from-using-ai-develop-software/</guid>
       <description>&lt;p&gt;&lt;strong&gt;缘起&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;2024 年的 8 月中旬, 我开始开发一个 Emacs 插件. 对 elisp 一窍不通的我, 通过 AI, 开始大家所说的 &amp;ldquo;自然语言编程&amp;rdquo;. 从那时起计算, 终于在 9 月 28 日发布了版本号为 0.3.5 的稳定版.&lt;/p&gt;
 &lt;p&gt;这是我人生中, 第一次开发出, 可以稳定运行的, 可供他人使用的软件产品, 不管盈利与否, 不管是否流行, 我都觉得意义重大. 换一个角度, 作为一个开源项目， org-zettel-ref-mode 已经收获 25 个 Star, 我无论如何, 都不能把它视为一个无人问津的产品.&lt;/p&gt;
@@ -216,10 +216,10 @@ Map 表的职责:
     
     <item>
       <title>Write Column Example</title>
-      <link>https://www.gtdstudy.com/posts/write-example/</link>
+      <link>http://localhost:1313/posts/write-example/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/write-example/</guid>
+      <guid>http://localhost:1313/posts/write-example/</guid>
       <description>&lt;p&gt;This is a summary paragraph that will be shown in the write column card. It should be concise and informative, giving readers a quick overview of the article.&lt;/p&gt;
 &lt;h2 id=&#34;markdown-features&#34;&gt;Markdown Features&lt;/h2&gt;
 &lt;p&gt;Here&amp;rsquo;s a demonstration of various markdown features that work in the single post view:&lt;/p&gt;
@@ -244,10 +244,10 @@ Map 表的职责:
     
     <item>
       <title>以史为鉴：摸着日本过河，新消费时代的决策</title>
-      <link>https://www.gtdstudy.com/posts/learn-from-japan/</link>
+      <link>http://localhost:1313/posts/learn-from-japan/</link>
       <pubDate>Fri, 16 Sep 2022 00:42:41 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/learn-from-japan/</guid>
+      <guid>http://localhost:1313/posts/learn-from-japan/</guid>
       <description>&lt;h2 id=&#34;为何读这本书&#34;&gt;为何读这本书？&lt;/h2&gt;
 &lt;p&gt;现在中美关系神似当年日美关系，而中国社会结构与日本社会结构也很相似。因此，如果想知道中国接下来有什么发展机会，研究日本经济、社会的变迁，会有所借鉴。&lt;/p&gt;
 &lt;p&gt;作者房家毅在早稻田大学毕业，中间在几个日本零售巨头里就职，最后去了野村证券，具备宏观、微观的视角，可靠的逻辑，来分析日本快消品行业的发展。&lt;/p&gt;
@@ -368,10 +368,10 @@ Map 表的职责:
     
     <item>
       <title>如何衡量一个 idea 的商业价值</title>
-      <link>https://www.gtdstudy.com/posts/what-is-business-value/</link>
+      <link>http://localhost:1313/posts/what-is-business-value/</link>
       <pubDate>Sat, 20 Aug 2022 10:06:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/what-is-business-value/</guid>
+      <guid>http://localhost:1313/posts/what-is-business-value/</guid>
       <description>&lt;p&gt;深夜一点，手机「叮」的一声，看到朋友 T 发来短信，「什么是商业价值？」本来已昏昏沉沉的我，突然一个激灵，大脑突然变得清醒，开始不受控制，高速运转。这也是一个曾经令我非常困惑的问题。&lt;/p&gt;
 &lt;p&gt;先不说 T 礼貌不礼貌，他看上去已经为该问题困扰许久。我能理解，这个世界上有很多词汇，我第一次看到它时，以为自己看懂了，但如果别人让我来解释它，我得思考很久才能说出个一二三四来。而「商业价值」，就属于这种一看就懂，一讲就卡壳的类型。&lt;/p&gt;
 &lt;p&gt;不同角度来看「商业价值」，会有不同的解释。T 现在想做自己的事业，在跟别人讨论的时候，别人说他的 idea，商业价值不够。所以，我会从进入某种行业，开展某种事业的角度来解释商业价值。它有可能和现在的教材不一样——因为它有一个很强的目的性，就是如何衡量我持续做的某件事情的价值，它是否足以让我全身心投入超过 5 年的时间。&lt;/p&gt;
@@ -393,10 +393,10 @@ Map 表的职责:
     
     <item>
       <title>我，西西弗斯</title>
-      <link>https://www.gtdstudy.com/posts/sisyphean/</link>
+      <link>http://localhost:1313/posts/sisyphean/</link>
       <pubDate>Mon, 20 Jun 2022 13:45:12 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/sisyphean/</guid>
+      <guid>http://localhost:1313/posts/sisyphean/</guid>
       <description>&lt;p&gt;看着眼前的石头从我的手中滑走，不知几千几百次滚到山脚，等着我再一次把它推到山顶。但是，我，西西弗斯，距离山顶永远只差最后一步。&lt;/p&gt;
 &lt;p&gt;石头，已经经历了不知多少次的滚动，从最初的棱棱角角，到现在几乎成为标准几何里的球体，由于每天都被我推着滚上山，石头表面已非常光滑，看不到所谓历史的痕迹，它就好像最初我见到的那样新鲜。没有青苔，没有疤痕，只是很奇怪，普通的石头即便在河流里，经过漫长的时间，体积也会逐渐变小，而它只有越变越光滑，体积却一点变化都没有。&lt;/p&gt;
 &lt;p&gt;现在是我短暂的休息时间，我用文字写一点断断续续的思考。我经历着漫长的苦刑，这不是考验，是希腊众神对我的惩罚。他们欺骗我，说只要我把石头推到山顶，我就可以从苦海中解脱。但他们又偷偷地给石头下了个诅咒，只要到山顶的前一刻，它就会自动地从我手中脱离，滚到山底，等着我再一次把它滚上来。&lt;/p&gt;
@@ -410,10 +410,10 @@ Map 表的职责:
     
     <item>
       <title>沟通：论废话</title>
-      <link>https://www.gtdstudy.com/posts/talks-about-nonsense/</link>
+      <link>http://localhost:1313/posts/talks-about-nonsense/</link>
       <pubDate>Mon, 16 May 2022 13:33:53 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/talks-about-nonsense/</guid>
+      <guid>http://localhost:1313/posts/talks-about-nonsense/</guid>
       <description>&lt;p&gt;作者朱自清&lt;/p&gt;
 &lt;h2 id=&#34;无用即是废&#34;&gt;无用即是废&lt;/h2&gt;
 &lt;p&gt;“废话！”“别费话！”“少说费话！”都是些不客气的语句，用来批评或阻止别人的话的。这可以是严厉的申斥，可以只是亲密的玩笑，要看参加的人，说的话，和用这些语句的口气。“废”和“费”两个不同的字，一般好像表示同样的意思，其实有分别。 &lt;code&gt;旧小说里似乎多用“费话”，现代才多用“废话”。前者着重在啰唆，啰唆所以无用；后者着重在无用，无用就觉啰唆。&lt;/code&gt; 平常说“废物”，“废料”，都指斥无用，“废话”正是一类。“费”是“白费”，“浪费”，虽然指斥，还是就原说话人自己着想，好像还在给他打算似的。“废”却是听话的人直截指斥，不再拐那个弯儿，细味起来该是更不客气些。不过约定俗成，我们还是用“废”为正字。&lt;/p&gt;
@@ -428,10 +428,10 @@ Map 表的职责:
     
     <item>
       <title>你做过不在乎结果的项目吗？</title>
-      <link>https://www.gtdstudy.com/posts/do-you-runed-some-project-that-you-dont-care-result/</link>
+      <link>http://localhost:1313/posts/do-you-runed-some-project-that-you-dont-care-result/</link>
       <pubDate>Sat, 14 May 2022 14:25:24 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/do-you-runed-some-project-that-you-dont-care-result/</guid>
+      <guid>http://localhost:1313/posts/do-you-runed-some-project-that-you-dont-care-result/</guid>
       <description>&lt;p&gt;这个问题来自阮一峰所写的《科技爱好者周刊（第 195 期）》。他逛 Hacker News 这一社区时，看到有人提问，「你做过不在乎结果的项目吗？」，引起了大量的回帖。&lt;/p&gt;
 &lt;p&gt;阮一峰说，中国的职业程序员极少会处于纯粹个出于兴趣去做无所谓结果的个人项目，原因是 996 式工作，压力很大，大家变得实际，每个项目追求明确的结果，“要么为了考核、绩效和晋升，要么为了赚钱。”&lt;/p&gt;
 &lt;p&gt;阮一峰认为，不管多忙也应该留点时间放在自己的兴趣项目上，哪怕得不到任何结果。他列举了 2 点原因，而我对第二点原因深表赞同：&lt;/p&gt;
@@ -454,10 +454,10 @@ Map 表的职责:
     
     <item>
       <title>知识：隐性知识更值得记录</title>
-      <link>https://www.gtdstudy.com/posts/about-which-knowledge-shuld-be-write-down/</link>
+      <link>http://localhost:1313/posts/about-which-knowledge-shuld-be-write-down/</link>
       <pubDate>Sat, 07 May 2022 09:19:38 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/about-which-knowledge-shuld-be-write-down/</guid>
+      <guid>http://localhost:1313/posts/about-which-knowledge-shuld-be-write-down/</guid>
       <description>&lt;p&gt;在即刻上，我表达了「隐性知识更值得记录」的观点——&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;明面可总结为结构性知识的，不需太重点的记录，就好像工具书，有一个梗概索引，方便自己忘了之后回忆查找就行。非常值得重点记录的，是隐性的知识，尤其是那行关系重大的，这类知识不易获得，同时对框架有重要影响，随时可以因为这类知识而重塑整个架构。&lt;/p&gt;
@@ -484,10 +484,10 @@ Map 表的职责:
     
     <item>
       <title>企业家：日本当代的企业家——小林一三</title>
-      <link>https://www.gtdstudy.com/posts/japanese-entrepreneur-kobayashi-ichizo/</link>
+      <link>http://localhost:1313/posts/japanese-entrepreneur-kobayashi-ichizo/</link>
       <pubDate>Wed, 13 Apr 2022 20:49:21 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/japanese-entrepreneur-kobayashi-ichizo/</guid>
+      <guid>http://localhost:1313/posts/japanese-entrepreneur-kobayashi-ichizo/</guid>
       <description>&lt;p&gt;如果说松下是开创了日本电器这一行业，那么小林一三富于大胆创新精神，则引领了日本的娱乐业、铁道事业、百货业、房地产行业，而且，每一行他都以耳目一新的打法开创一片新天地：&lt;/p&gt;
 &lt;p&gt;1、将铁道事业和房地产结合在一起，在铁道沿线购置地皮，建设房屋，吸引消费者购买房产，确保了铁道有足够的人流，同时铁道作为人员的流通也令沿线的房产有了升值的保障；&lt;/p&gt;
 &lt;p&gt;2、与铁道事业结合的娱乐业，向日本国内引进、推广了西方歌剧文化，为此特地成立音乐学校和至今演出百年的宝冢歌剧团，深刻地影响日本国民的审美情趣；并最终成立了对日本娱乐业影响至深的「东宝」；&lt;/p&gt;
@@ -502,10 +502,10 @@ Map 表的职责:
     
     <item>
       <title>AR：超过 2 亿人在 Snapchat 上体验 AR</title>
-      <link>https://www.gtdstudy.com/posts/snapchat-ar-business/</link>
+      <link>http://localhost:1313/posts/snapchat-ar-business/</link>
       <pubDate>Sat, 12 Mar 2022 18:47:10 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/snapchat-ar-business/</guid>
+      <guid>http://localhost:1313/posts/snapchat-ar-business/</guid>
       <description>&lt;p&gt;原文来自&lt;a href=&#34;https://36kr.com/p/1646086572794497&#34;&gt;36kr&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;当前-snapchat-是美国-z-世代最常用的社交平台&#34;&gt;当前 Snapchat 是美国 Z 世代最常用的社交平台&lt;/h2&gt;
 &lt;p&gt;eMarketer 发布的《美国 Z 世代用户科技与媒体使用情况报告》显示，Z世代用户每月最常使用的社交平台榜首位是【Snapchat(4200 万)】，接下来社交媒体的排名依次是 TikTok(3730 万)和 Instagram(3330 万)，根据预测，排名前三的平台未来还将会以不同的速度持续呈现增长，而目前的这个排名分布将会持续至 2025 年。Snapchat 表示，去年第三季度用户同比增长了 23%，这表明它目前处于持续高增长态势。&lt;/p&gt;
@@ -519,10 +519,10 @@ Map 表的职责:
     
     <item>
       <title>乔布斯：鲜为人知的狂热爱好</title>
-      <link>https://www.gtdstudy.com/posts/steve-jobs-loves-shin-hanga/</link>
+      <link>http://localhost:1313/posts/steve-jobs-loves-shin-hanga/</link>
       <pubDate>Thu, 17 Feb 2022 19:36:14 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/steve-jobs-loves-shin-hanga/</guid>
+      <guid>http://localhost:1313/posts/steve-jobs-loves-shin-hanga/</guid>
       <description>&lt;p&gt;根据 NHK 的纪录片《乔布斯鲜为人知的狂热爱好》，乔布斯非常喜欢日本的「新版画」这类艺术作品。&lt;/p&gt;
 &lt;p&gt;他第一次购买新版画，是在银座的兜屋画廊，当时的松岗春夫进行了接待。&lt;/p&gt;
 &lt;p&gt;乔布斯尤其喜欢川濑巴水的作品，他购入了一共 25 幅巴水的作品。他从买入第一幅新版画开始，一共买了 43 幅新版画，还预订了 33 幅。&lt;/p&gt;
@@ -531,10 +531,10 @@ Map 表的职责:
     
     <item>
       <title>稻盛和夫：穷人为什么难翻身</title>
-      <link>https://www.gtdstudy.com/posts/why-poor-people-hard-to-get-rich/</link>
+      <link>http://localhost:1313/posts/why-poor-people-hard-to-get-rich/</link>
       <pubDate>Sun, 30 Jan 2022 16:44:49 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/why-poor-people-hard-to-get-rich/</guid>
+      <guid>http://localhost:1313/posts/why-poor-people-hard-to-get-rich/</guid>
       <description>&lt;p&gt;来自稻盛和夫的书《给年轻人一点忠告》&lt;/p&gt;
 &lt;h2 id=&#34;成熟晚&#34;&gt;成熟晚&lt;/h2&gt;
 &lt;p&gt;他们中大多要到 30 多岁，才能明白社会的运行逻辑和人性，俗话说，穷人家的孩子早当家，其实哪里是早当家，只是在极端环境下掌握了一些基本生存技巧而己。&lt;/p&gt;
@@ -546,10 +546,10 @@ Map 表的职责:
     
     <item>
       <title>做一个普通而自信的人（下）：最是难得平常心</title>
-      <link>https://www.gtdstudy.com/posts/be-a-normal-and-confident-people-2/</link>
+      <link>http://localhost:1313/posts/be-a-normal-and-confident-people-2/</link>
       <pubDate>Sat, 15 Jan 2022 15:45:47 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/be-a-normal-and-confident-people-2/</guid>
+      <guid>http://localhost:1313/posts/be-a-normal-and-confident-people-2/</guid>
       <description>&lt;p&gt;原本以为，我写完上篇之后，很快把下篇写完。但生活总有意外，比如说，昨天晚上一直在处理一张电商活动海报图，从没用过 PhotoShop 的我，硬着头皮，施展搜索大法，找素材，拼拼凑凑，居然完成了这张图。效果不能和顶级的电商设计相比，至少效果还过得去，达到了可用、大方、美观的程度。&lt;/p&gt;
 &lt;p&gt;如果是以前的我，在遇到这种意外的时候，内心应该会骂声娘，「这种破事怎么发生在我的身上？」现在则不然，骂娘归骂娘，事情只要有一丝可能性可实现，还是努力去做。很多人选择不做，是因为担心最后花了时间，却还有承担责任，亏大发了。但我得说，世界有时候的确是不公平的。然而，从长期来看，只要人生旅途中，一直执行正确的策略，总归能够得到较为令人满意的结果。&lt;/p&gt;
 &lt;p&gt;假如，我一晚上做图，最终得不到自己满意的效果，我会不会感到失落呢？肯定会的。人之常情。但我现在会看看我自己到底是否已经尽了自己最大的努力。回顾这张电商活动海报图，在完全是现学现卖地理解 PhotoShop 上的每一个按钮的用途，以及直接搜索网络上的素材，并把现有的素材拼凑进去。这个过程，我确实做完所有自己能做的事情了，问心无愧。即便是其他人问起，如果这个图片实现的效果不够好，也可以直接回应，我已经做完所有能做的事情，那么这个结果就应该是一个正确的结果，无可指责。&lt;/p&gt;
@@ -565,10 +565,10 @@ Map 表的职责:
     
     <item>
       <title>做一个普通而自信的人（上）：为什么我们不能做一个普通人？</title>
-      <link>https://www.gtdstudy.com/posts/be-a-normal-and-confident-people/</link>
+      <link>http://localhost:1313/posts/be-a-normal-and-confident-people/</link>
       <pubDate>Sat, 01 Jan 2022 22:06:35 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/be-a-normal-and-confident-people/</guid>
+      <guid>http://localhost:1313/posts/be-a-normal-and-confident-people/</guid>
       <description>&lt;p&gt;我经常不看脱口秀，但也知道杨笠那句出名的讽刺，「为什么有的男人看上去明明那么普通，却那么自信？」当然，她群嘲的对象，是那些不知好歹，一看到女的就精虫上脑，而且丝毫不懂得尊重女性的男人贱狗。而我，只是平静下来后，想谈谈我对待之后的工作和生活，所持有的人生态度。&lt;/p&gt;
 &lt;p&gt;于一个常抱有少年中二幻想的男性而言，承认自己的普通，很难的。我记得，在初中时，学校会发一张学生证，上面有一处，写自我简介，我当时写的是，「不是一个普通人。」到初三临毕业，当时的同学这么评价我，「怪怪的。」当时的我听到这一点，心里还有点高兴，「怪」不就是不普通了吗？回首过去，我的「怪」并不是自己显得多么出色，而实际上是落在了不太与身边的同学互动上。同学不了解我，所以觉得我「怪」。当时情商着实不高，居然觉得高兴，现在看，有点可笑。&lt;/p&gt;
 &lt;p&gt;之前知乎有个问题，「为什么有的人喜欢删掉自己过去发的微博或朋友圈？」下面有网友回答，那是因为，看到过去自己发的言论，觉得愚蠢而可笑，显得过于丢脸，忍不住把它们删掉，以免贻笑大方。所以，现在的自己，回望过去的自己，总会觉得多多少少有点可笑。我认为，这是正常的。假使我今天回首过去，不觉得之前做出的种种可笑行为可笑，那也就意味着，我在这段时间里，只是一味重复自己。苏格拉底说过，「未经过审视的人生是不值得的。」那么，嘲笑过去做了傻事的自己，这一定是在审视了。&lt;/p&gt;
@@ -584,10 +584,10 @@ Map 表的职责:
     
     <item>
       <title>消费心理：依云在星巴克卖得这么差，为什么这家著名的咖啡贩卖公司还在卖依云？</title>
-      <link>https://www.gtdstudy.com/posts/why-starbuck-sales-evan/</link>
+      <link>http://localhost:1313/posts/why-starbuck-sales-evan/</link>
       <pubDate>Sat, 04 Dec 2021 10:54:02 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/why-starbuck-sales-evan/</guid>
+      <guid>http://localhost:1313/posts/why-starbuck-sales-evan/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25274607&#34;&gt;https://zhuanlan.zhihu.com/p/25274607&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;3-个错误答案&#34;&gt;3 个错误答案&lt;/h2&gt;
 &lt;p&gt;回答这个问题，先要过滤掉三个错误的答案。&lt;/p&gt;
@@ -607,10 +607,10 @@ Map 表的职责:
     
     <item>
       <title>在管理中，遇到自己看着不爽，又暂时干不掉的员工怎么办呢？</title>
-      <link>https://www.gtdstudy.com/posts/when-you-are-manager-but-you-stuffs-are-not-so-good/</link>
+      <link>http://localhost:1313/posts/when-you-are-manager-but-you-stuffs-are-not-so-good/</link>
       <pubDate>Tue, 09 Nov 2021 08:02:42 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/when-you-are-manager-but-you-stuffs-are-not-so-good/</guid>
+      <guid>http://localhost:1313/posts/when-you-are-manager-but-you-stuffs-are-not-so-good/</guid>
       <description>&lt;p&gt;我们在管理员工的时候，遇到自己看着不爽，但是能力或者业绩突出，暂时又换不掉的员工怎么办？&lt;/p&gt;
 &lt;p&gt;如果放任不管，任由这样发展下去，那么有一天会为这次懈怠的管理后悔&lt;/p&gt;
 &lt;p&gt;甚至他们还会抱团取暖，把一些原本老实干货的好员工挤走，提出各自各样不合理的要求，一起要挟和老板对抗，公司陷入死循环。&lt;/p&gt;
@@ -644,10 +644,10 @@ Map 表的职责:
     
     <item>
       <title>摄影的第三个世代</title>
-      <link>https://www.gtdstudy.com/posts/about-the-third-generation-of-photography/</link>
+      <link>http://localhost:1313/posts/about-the-third-generation-of-photography/</link>
       <pubDate>Fri, 01 Oct 2021 20:15:47 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/about-the-third-generation-of-photography/</guid>
+      <guid>http://localhost:1313/posts/about-the-third-generation-of-photography/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;这篇文章本来是为《离线》的一期以「滤镜」为主题的特刊而写。由于我今年工作任务繁重，实在抽不出时间完成这一主题，因此在今年 6 月退出写作组。在退出之前，我的朋友、《离线》的主编李婷希望我写一篇结语。这篇就是那篇结语了。经过李婷的允许，这篇结语我可以当成自己的作品，自由发表。所以，首先发表在自己的博客上。李婷说，因为主题策划，和内容的写作上，我大力协助，因此在最终出版时，将会把我列进 credit 里。总之，十分感谢李婷带给我这么有趣的话题，在思维激荡的过程中，我收获了很多的乐趣，最后我并不是作者，也能够列进 credit 里，更要多说一声谢谢了。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;摄影的第三个世代，我单纯是指进入移动互联网的最近十年。这十年，我将它定义为「世代」。为什么不用大家都比较惯常用的「年代」，而偏要用「世代」来形容摄影当前所处的发展阶段呢？简而言之，是因为摄影在当代，和过去历史上所定义的摄影，无论从哪一个角度来看，它都是不同的，可以和摄影以往任何一个阶段割裂开来，无法以时间的角度，来确定当代摄影是否还包括过去摄影所经常囊括的元素。鉴于此，我不能用「年代」来形容，因为摄影在当代，与过去以往，不存在时空上的延续性。我必须用「世代」来形容，以表明摄影进入一个全新的阶段。&lt;/p&gt;
@@ -660,10 +660,10 @@ Map 表的职责:
     
     <item>
       <title>青年们正在经历的中年危机</title>
-      <link>https://www.gtdstudy.com/posts/whenyouinmiddleage/</link>
+      <link>http://localhost:1313/posts/whenyouinmiddleage/</link>
       <pubDate>Sun, 27 Dec 2020 13:20:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/whenyouinmiddleage/</guid>
+      <guid>http://localhost:1313/posts/whenyouinmiddleage/</guid>
       <description>&lt;p&gt;最近蛋壳公寓暴雷，不光投资人蒙受巨大损失，还令大量在一线城市就业的青年流离失所。引爆了青年人的中年危机。我想我不必解释中年危机是什么。但那些在一线城市打工的，怀抱着梦想人青年人，在被房东赶出去那一刻起，应该对中年危机这四个字有着深刻的体会。&lt;/p&gt;
 &lt;p&gt;只不过，我感到疑惑，过去所说的中年危机是 40 岁左右的人所遭遇的生存压力，但现在的中年危机看上去已经提前到 35 岁了。也许再过几年，中年危机发生的时间点，将提前到 30 岁？&lt;/p&gt;
 &lt;h2 id=&#34;35-岁职场诅咒-与一个人的-社会有效时间&#34;&gt;35 岁职场诅咒，与一个人的「社会有效时间」&lt;/h2&gt;
@@ -690,10 +690,10 @@ Map 表的职责:
     
     <item>
       <title>Live, Social, and Shoppable: The Future of Video</title>
-      <link>https://www.gtdstudy.com/posts/readaboutlivesocalandshopping/</link>
+      <link>http://localhost:1313/posts/readaboutlivesocalandshopping/</link>
       <pubDate>Tue, 08 Dec 2020 22:48:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/readaboutlivesocalandshopping/</guid>
+      <guid>http://localhost:1313/posts/readaboutlivesocalandshopping/</guid>
       <description>&lt;p&gt;原文地址：&lt;a href=&#34;https://a16z.com/2020/12/07/social-strikes-back-video/&#34;&gt;https://a16z.com/2020/12/07/social-strikes-back-video/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;这篇文章来自顶级投资机构 A16Z 的官方博客，全文只有一个中心思想，就是「视频化在美国是购物的未来」，主要分析的对象是今年的传奇主角 Tik Tok。&lt;/p&gt;
 &lt;p&gt;本文主要将 Tik Tok 与 YouTub 进行了比较详细的对比，没有和 Instagram、Snapchat 是比较遗憾的，毕竟后两者也提供了比较强的商品展示空间。&lt;/p&gt;
@@ -709,10 +709,10 @@ Map 表的职责:
     
     <item>
       <title>我该如何以心学的方式对待痛风</title>
-      <link>https://www.gtdstudy.com/posts/how-to-treat-metabolicarthritis-by-philosophy-of-the-mind/</link>
+      <link>http://localhost:1313/posts/how-to-treat-metabolicarthritis-by-philosophy-of-the-mind/</link>
       <pubDate>Mon, 07 Dec 2020 23:16:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/how-to-treat-metabolicarthritis-by-philosophy-of-the-mind/</guid>
+      <guid>http://localhost:1313/posts/how-to-treat-metabolicarthritis-by-philosophy-of-the-mind/</guid>
       <description>&lt;p&gt;上午发布了一篇以生命观的角度，来看待第一次痛风。这篇文章顾名思义，就是解释如何以心学的角度，来对待自己第一次痛风这件事。这篇文章可能是有点奇怪的，有病就治，又何必与哲学扯上话题？&lt;/p&gt;
 &lt;h2 id=&#34;为何生病与哲学有关&#34;&gt;为何生病与哲学有关&lt;/h2&gt;
 &lt;p&gt;我认为，思想不是嘴上说说，它还必须体现在行动上。&lt;/p&gt;
@@ -750,10 +750,10 @@ Map 表的职责:
     
     <item>
       <title>2021 年，痛风给了我一个大锤</title>
-      <link>https://www.gtdstudy.com/posts/thinkaboutmetabolicarthritis/</link>
+      <link>http://localhost:1313/posts/thinkaboutmetabolicarthritis/</link>
       <pubDate>Sun, 29 Nov 2020 22:22:52 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/thinkaboutmetabolicarthritis/</guid>
+      <guid>http://localhost:1313/posts/thinkaboutmetabolicarthritis/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;痛风的学名叫代谢性关节炎，顾名思义，身体的新陈代谢出了问题，无法把尿酸完全排解出体外，所以导致的。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;痛风很痛-以后都不想再经历了&#34;&gt;痛风很痛，以后都不想再经历了&lt;/h2&gt;
@@ -836,10 +836,10 @@ Map 表的职责:
     
     <item>
       <title>初识心学</title>
-      <link>https://www.gtdstudy.com/posts/%E5%BF%83%E5%AD%A6%E6%9C%89%E5%85%B3/</link>
+      <link>http://localhost:1313/posts/%E5%BF%83%E5%AD%A6%E6%9C%89%E5%85%B3/</link>
       <pubDate>Sun, 29 Nov 2020 22:22:52 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/%E5%BF%83%E5%AD%A6%E6%9C%89%E5%85%B3/</guid>
+      <guid>http://localhost:1313/posts/%E5%BF%83%E5%AD%A6%E6%9C%89%E5%85%B3/</guid>
       <description>&lt;p&gt;我今年十一的时候，认真学习了心学，终于找到了一个适合自己，可帮助自己找到自我的落脚点，以及正确地应对外界万事万物的方式。&lt;/p&gt;
 &lt;p&gt;首先儒家的目标，「存天理，灭人欲」。这句话里的，「天理」和「人欲」和我们从字面上的理解不同。天理，包含了事物与方法两个层面的含义，事物是指客观、理性选择下，对自己也对别人有价值的事物，而要用符合儒家道德观、合适的方式方法去完成；「人欲」主要类似基督教里所定的七大罪，人性的负面。&lt;/p&gt;
 &lt;p&gt;或者这么说会比较好，天理代表着事物最终达到的一个完满的状态，所以在儒家的学说里，天理=中庸，中庸=中和。实际上，中和就是指事物达到完满的一种极致的状态。&lt;/p&gt;
