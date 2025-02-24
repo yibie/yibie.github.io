@@ -15,6 +15,16 @@
     
     
     <item>
+      <title>感觉大家慢慢正在达成一个共识，那就是大部分人自己直接写的 prompt 都是不合格的，DeepSeek R1 的最佳使用场景不是直接用来输出，而是一个 prompt 优化器。通过推理过程把初始 prompt 优化之后再喂给 instruct 模型。</title>
+      <link>https://www.gtdstudy.com/posts/use-deepseek-r1-prompt-optimizer-for-instruct-model/use-deepseek-r1-prompt-optimizer-for-instruct-model/</link>
+      <pubDate>Mon, 24 Feb 2025 23:20:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/use-deepseek-r1-prompt-optimizer-for-instruct-model/use-deepseek-r1-prompt-optimizer-for-instruct-model/</guid>
+      <description>&lt;p&gt;十分同意 Jarod 的观点，实际上写 Prompt 对于普通用户来说，要求也太高了。以及，由于大模型的不稳定性，如果为一次性任务写 Prompt，代价过高。但是，对于日常情景来说，大部分 AI 接到的可能是一次性任务——如果自己很快就能做完，可能也就不必想着问 AI。&lt;/p&gt;
+&lt;p&gt;在这种情况下，使用一个表现较好的模型，对用户的需求进行预处理，那么就可以令产品本身的表现变得稳定。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>人一旦确认了自己的本真，什么事情是真正的属于自己的，剩下的就是用自己的直觉，经验，肌肉记忆，所有属于自己肉身的东西，成为自己战场上的拿破仑。理性属于注定要做牛马的一群聪明人。</title>
       <link>https://www.gtdstudy.com/posts/quote-laobianji-te-be-myself/quote-laobianji-te-be-myself/</link>
       <pubDate>Sun, 23 Feb 2025 22:00:00 +0800</pubDate>
@@ -415,26 +425,6 @@
                                      display (space :align-to (- right ,(org-string-width (match-string 2)) 3)))
                               prepend))) t)
 &lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>2024 年，对自己较为满意。</title>
-      <link>https://www.gtdstudy.com/posts/summary-2024/</link>
-      <pubDate>Wed, 01 Jan 2025 09:42:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/summary-2024/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;《得到 Prompt 系列》入选智谱清言的案例库，同时也被小七姐转发&lt;/li&gt;
-&lt;li&gt;开发了一套网站模板&lt;/li&gt;
-&lt;li&gt;5 个 emacs 插件&lt;/li&gt;
-&lt;li&gt;一个 lisp prompt 生成器&lt;/li&gt;
-&lt;li&gt;认识不少新朋友&lt;/li&gt;
-&lt;li&gt;专注度得到提升&lt;/li&gt;
-&lt;li&gt;饮食更加规律&lt;/li&gt;
-&lt;li&gt;更加喜欢做饭&lt;/li&gt;
-&lt;li&gt;体重有所减轻&lt;/li&gt;
-&lt;li&gt;精力比去年好&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
     
   </channel>
