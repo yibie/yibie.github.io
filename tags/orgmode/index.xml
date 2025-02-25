@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Orgmode - Space Looming</title>
-    <link>http://localhost:1313/tags/orgmode/</link>
+    <link>https://www.gtdstudy.com/tags/orgmode/</link>
     <description>Recent content in Orgmode on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Thu, 20 Feb 2025 16:38:00 +0800</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/tags/orgmode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/tags/orgmode/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Org-mode 自带类似 Workflwoy 的 focus 功能</title>
-      <link>http://localhost:1313/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</link>
+      <link>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</link>
       <pubDate>Thu, 20 Feb 2025 16:38:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</guid>
+      <guid>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</guid>
       <description>&lt;p&gt;以前把玩 Workflowy 的时候，有一个功能我很喜欢，但它没具体名字，在 Workflowy 的首页上，是这么介绍的：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Zoom into your notes and focus on just one part
