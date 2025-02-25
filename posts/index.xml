@@ -15,6 +15,17 @@
     
     
     <item>
+      <title>难道我发现了大模型的基本逻辑？</title>
+      <link>https://www.gtdstudy.com/posts/set-theory-catergory-theory-view-of-tag-system/set-theory-and-catergory-theory-view-of-tag-system/</link>
+      <pubDate>Tue, 25 Feb 2025 22:21:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/set-theory-catergory-theory-view-of-tag-system/set-theory-and-catergory-theory-view-of-tag-system/</guid>
+      <description>&lt;p&gt;今天在思考，集合论、范畴论视角下的标签体系。毫不意外，涉及到了文本相似度计算这一基础算法。但这套算法还是比较机械的，不具备语义性。&lt;/p&gt;
+&lt;p&gt;然后，当我要求从语义出发，去寻找文本的相似性时，一切都有趣起来了——最终和 AI 聊天得到的结果是，只要从这个逻辑出发， AI 就会告诉我一大堆大模型的基础实现方法。&lt;/p&gt;
+&lt;p&gt;集合论、范畴论视角下的标签体系（系统），是大模型设计的基本角度吗？看上去是。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>能动性 &gt; 智力</title>
       <link>https://www.gtdstudy.com/posts/agency-bigger-than-intelligence/agency-bigger-than-intelligence/</link>
       <pubDate>Tue, 25 Feb 2025 17:56:00 +0800</pubDate>
@@ -417,15 +428,6 @@
       
       <guid>https://www.gtdstudy.com/posts/org-supertag-2-release/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 2.0.0 版本发布，增加了定时任务，增加移动节点的用户交互命令，在行为系统里增加行为定义模板变量&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>org-supertag 登陆 Hacker News 首页</title>
-      <link>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</link>
-      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/org-supertag-hacker-news/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-supertag&#34;&gt;org-supertag&lt;/a&gt; 登陆 Hacker News 首页，获得 84 个 Upvote，同日 org-supertag 的 Star 数达到 100&lt;/p&gt;</description>
     </item>
     
   </channel>
