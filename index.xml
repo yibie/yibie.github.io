@@ -20,7 +20,7 @@
       <pubDate>Fri, 28 Feb 2025 13:11:00 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/posts/shared-context-window-of-understanding/shared-context-window-of-understanding/</guid>
-      <description>&lt;p&gt;这两天流行一张图，将如何给推理型大模型写 Prompt，主要分为 3 部分：&lt;/p&gt;
+      <description>&lt;p&gt;这两天流行一张图，将如何给推理型大模型写 Prompt，主要分为 4 部分：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;目标&lt;/li&gt;
 &lt;li&gt;回复的格式&lt;/li&gt;
