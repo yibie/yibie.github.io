@@ -9,10 +9,32 @@
     
     
     
-    <lastBuildDate>Fri, 21 Feb 2025 21:37:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 13:11:00 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/now/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>默契 = 共享的上下文窗口</title>
+      <link>https://www.gtdstudy.com/posts/shared-context-window-of-understanding/shared-context-window-of-understanding/</link>
+      <pubDate>Fri, 28 Feb 2025 13:11:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/shared-context-window-of-understanding/shared-context-window-of-understanding/</guid>
+      <description>&lt;p&gt;这两天流行一张图，将如何给推理型大模型写 Prompt，主要分为 3 部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;目标&lt;/li&gt;
+&lt;li&gt;回复的格式&lt;/li&gt;
+&lt;li&gt;限制条件（或如果不这么做的后果）&lt;/li&gt;
+&lt;li&gt;上下文说明&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;刚好今天在群里朋友们讨论起，到底 Prompt 还有无必要，我觉得有必要：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;基本的 context 是必须的，因为 AI 只会通过概率，以最常用的视角给你回答，如果你有上下文，这样子才能够生成一个准确的回答（对个人而言）。&lt;/p&gt;
+&lt;p&gt;[如果大模型回答混乱]，这个混乱一般来自，大模型不知道用什么视角来解读你的问题，所以它不知道用什么视角来回答（注意力机制没有产生对应的切换）。&lt;/p&gt;
+&lt;p&gt;其实就好像我们人类沟通一样，视角的切换本来也很难，尤其是缺乏上下文交流的情景里。只不过，如果有熟悉的好朋友，或者关系好的同事，这个上下文在长期的协作中，会形成默契。&lt;/p&gt;
+&lt;p&gt;默契 = 共享的上下文窗口&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;换言之，Prompt 的必要性是存在的，其意义不是让大模型发挥出超越平时的能力，而是属于人机交互中必要的一环。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>发布 float-narrow-indriect</title>

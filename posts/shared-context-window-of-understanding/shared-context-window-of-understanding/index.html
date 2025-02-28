@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>默契 = 共享的上下文窗口 - Space Looming</title>
+<meta name="description"
+    content="这两天流行一张图，将如何给推理型大模型写 Prompt，主要分为 3 部分：
+目标 回复的格式 限制条件（或如果不这么做的后果） 上下文说明 刚好今天在群里朋友们讨论起，到底 Prompt 还有无必要，我觉得有必要：
+基本的 context 是必须的，因为 AI 只会通过概率，以最常用的视角给你回答，如果你有上下文，这样子才能够生成一个准确的回答（对个人而言）。
+[如果大模型回答混乱]，这个混乱一般来自，大模型不知道用什么视角来解读你的问题，所以它不知道用什么视角来回答（注意力机制没有产生对应的切换）。
+其实就好像我们人类沟通一样，视角的切换本来也很难，尤其是缺乏上下文交流的情景里。只不过，如果有熟悉的好朋友，或者关系好的同事，这个上下文在长期的协作中，会形成默契。
+默契 = 共享的上下文窗口
+换言之，Prompt 的必要性是存在的，其意义不是让大模型发挥出超越平时的能力，而是属于人机交互中必要的一环。
+">
+
+
+<meta property="og:title"
+    content="默契 = 共享的上下文窗口 - Space Looming">
+<meta property="og:description"
+    content="这两天流行一张图，将如何给推理型大模型写 Prompt，主要分为 3 部分：
+目标 回复的格式 限制条件（或如果不这么做的后果） 上下文说明 刚好今天在群里朋友们讨论起，到底 Prompt 还有无必要，我觉得有必要：
+基本的 context 是必须的，因为 AI 只会通过概率，以最常用的视角给你回答，如果你有上下文，这样子才能够生成一个准确的回答（对个人而言）。
+[如果大模型回答混乱]，这个混乱一般来自，大模型不知道用什么视角来解读你的问题，所以它不知道用什么视角来回答（注意力机制没有产生对应的切换）。
+其实就好像我们人类沟通一样，视角的切换本来也很难，尤其是缺乏上下文交流的情景里。只不过，如果有熟悉的好朋友，或者关系好的同事，这个上下文在长期的协作中，会形成默契。
+默契 = 共享的上下文窗口
+换言之，Prompt 的必要性是存在的，其意义不是让大模型发挥出超越平时的能力，而是属于人机交互中必要的一环。
+">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.gtdstudy.com/posts/shared-context-window-of-understanding/shared-context-window-of-understanding/">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title"
+    content="默契 = 共享的上下文窗口 - Space Looming">
+<meta name="twitter:description"
+    content="这两天流行一张图，将如何给推理型大模型写 Prompt，主要分为 3 部分：
+目标 回复的格式 限制条件（或如果不这么做的后果） 上下文说明 刚好今天在群里朋友们讨论起，到底 Prompt 还有无必要，我觉得有必要：
+基本的 context 是必须的，因为 AI 只会通过概率，以最常用的视角给你回答，如果你有上下文，这样子才能够生成一个准确的回答（对个人而言）。
+[如果大模型回答混乱]，这个混乱一般来自，大模型不知道用什么视角来解读你的问题，所以它不知道用什么视角来回答（注意力机制没有产生对应的切换）。
+其实就好像我们人类沟通一样，视角的切换本来也很难，尤其是缺乏上下文交流的情景里。只不过，如果有熟悉的好朋友，或者关系好的同事，这个上下文在长期的协作中，会形成默契。
+默契 = 共享的上下文窗口
+换言之，Prompt 的必要性是存在的，其意义不是让大模型发挥出超越平时的能力，而是属于人机交互中必要的一环。
+">
+
+
+
+<link rel="canonical" href="https://www.gtdstudy.com/posts/shared-context-window-of-understanding/shared-context-window-of-understanding/">
+
+
+      <link rel="stylesheet" href="/css/main.min.4689108137e621ad921404fed6342d5fdb04d7f73585d57d3d324647627878ba.css" integrity="sha256-RokQgTfmIa2SFAT&#43;1jQtX9sE1/c1hdV9PTJGR2J4eLo=" crossorigin="anonymous">
+
+
+      <script src="/js/main.cae3d9eba4e54c3d685682c303a39b0cc30e2473ee5331e21ead03ee70507a6e.js" integrity="sha256-yuPZ66TlTD1oVoLDA6ObDMMOJHPuUzHiHq0D7nBQem4=" crossorigin="anonymous"></script>
+
+
+
+<script>
+    
+    (function () {
+        const theme = localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+    })();
+</script>
+
+
+
+<link rel="stylesheet" href="/css/main.min.css">
+
+
+
+  
+  <link rel="stylesheet" href="/css/main.min.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-content">
+        
+        <div class="site-branding">
+            <h1 class="site-title">
+                <a href="/">Space Looming</a>
+            </h1>
+            
+            <p class="site-subtitle">无垠的太空中，传来宇宙的轰鸣</p>
+            
+        </div>
+
+        
+        
+        <div class="site-bio">
+            <div class="bio-content"><p>大家好，我是一个喜欢阅读、思考以及交流的人。</p>
+<p>最近在 AI 辅助编程方面取得了不少进展。</p>
+<p>我评测过很多产品，写过很多行业预测，写了不少 Prompt，开发了 4 个 Emacs Package。</p>
+</div>
+        </div>
+        
+
+        
+        <nav class="site-nav">
+            <ul class="menu-list">
+                
+                <li class="menu-item">
+                    <a href="/">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/posts">Posts</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/tags">Tags</a>
+                </li>
+                
+                
+                <li class="menu-item">
+                    <a href="/index.xml">Rss</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        
+        <div class="theme-toggle">
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle__icon">🌓</span>
+            </button>
+        </div>
+
+        
+        <div class="site-footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="copyright">© 2025 Yibie</p>
+                    <p class="powered-by">Powered by <a href="https://gohugo.io" target="_blank">Hugo</a></p>
+                    <p class="theme-info">Theme <a href="https://github.com/yibie/hugo-theme-deck"
+                            target="_blank">Deck</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const html = document.documentElement;
+        const themeToggle = document.getElementById('theme-toggle');
+
+        
+        themeToggle.addEventListener('click', function () {
+            const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+
+        
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+        prefersDark.addListener((e) => {
+            if (!localStorage.getItem('theme')) {
+                const systemTheme = e.matches ? 'dark' : 'light';
+                html.setAttribute('data-theme', systemTheme);
+                localStorage.setItem('theme', systemTheme);
+            }
+        });
+    });
+</script>
+  <main>
+    
+<div class="single-main">
+  <article class="single-post">
+    <header class="post-header">
+      <h1 class="post-title">默契 = 共享的上下文窗口</h1>
+
+      <div class="post-meta">
+        <time datetime=" 2025-02-28">
+          February 28, 2025
+        </time>
+
+        
+        <div class="post-categories">
+          
+          <span class="category">now</span>
+          
+        </div>
+        
+      </div>
+    </header>
+
+    <div class="post-content">
+      <p>这两天流行一张图，将如何给推理型大模型写 Prompt，主要分为 3 部分：</p>
+<ul>
+<li>目标</li>
+<li>回复的格式</li>
+<li>限制条件（或如果不这么做的后果）</li>
+<li>上下文说明</li>
+</ul>
+<p>刚好今天在群里朋友们讨论起，到底 Prompt 还有无必要，我觉得有必要：</p>
+<blockquote>
+<p>基本的 context 是必须的，因为 AI 只会通过概率，以最常用的视角给你回答，如果你有上下文，这样子才能够生成一个准确的回答（对个人而言）。</p>
+<p>[如果大模型回答混乱]，这个混乱一般来自，大模型不知道用什么视角来解读你的问题，所以它不知道用什么视角来回答（注意力机制没有产生对应的切换）。</p>
+<p>其实就好像我们人类沟通一样，视角的切换本来也很难，尤其是缺乏上下文交流的情景里。只不过，如果有熟悉的好朋友，或者关系好的同事，这个上下文在长期的协作中，会形成默契。</p>
+<p>默契 = 共享的上下文窗口</p></blockquote>
+<p>换言之，Prompt 的必要性是存在的，其意义不是让大模型发挥出超越平时的能力，而是属于人机交互中必要的一环。</p>
+
+    </div>
+
+    
+  </article>
+</div>
+
+  </main>
+</body>
+
+</html>
