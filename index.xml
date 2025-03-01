@@ -15,436 +15,59 @@
     
     
     <item>
-      <title>最近想离开 cursor，完全转投 Windsurf</title>
-      <link>https://www.gtdstudy.com/posts/i-want-to-switch-form-cursor-to-winsurf/i-want-to-switch-form-cursor-to-winsurf/</link>
-      <pubDate>Sat, 01 Mar 2025 15:57:08 +0800</pubDate>
+      <title>我有时候想，经济就像是夜色下的战场，漆黑一片，在战壕外几乎什么也看不到。而大约半英里远，就有敌人的营地，可以听到窸窸窣窣的声音，可以感到军队正在重新部署。​（当然，新的战略部署即使再好，也是在现有部署的基础上转化来的。​）这时，突然某个人发射了一颗照明弹，火光照亮整个战场的部署，各种炮位、安排、部队、战壕，一下子变得一目了然，然后火光骤然熄灭，一切又复归黑暗。经济就是如此。经济学中的光芒就是亚当·斯密、李嘉图、马克思、凯恩斯，还有熊彼特的理论。它们偶尔照亮了一下战场，但是真正的骚动和变换一直在黑暗中进行着。我们确实能够观察到经济，但是我们描述经济的语言，我们标明经济的标志，以及我们对经济的理解，都凝固于那燃亮的一瞬间——尤其是最近的一组照明弹之中</title>
+      <link>https://www.gtdstudy.com/posts/</link>
+      <pubDate>Sat, 01 Mar 2025 23:17:49 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/i-want-to-switch-form-cursor-to-winsurf/i-want-to-switch-form-cursor-to-winsurf/</guid>
-      <description>&lt;p&gt;因为用 cursor 经常爆仓，所以也订了 Windsurf。&lt;/p&gt;
-&lt;p&gt;但后来很少用 Windsurf，因为之前 agent 模式用着有点难受，尤其一份源文件突破 500 行代码的时候，它就开始乱看跟乱搞了。&lt;/p&gt;
-&lt;p&gt;你都不知道给它添加 context 的意义是什么，经常偷懒不看，即便明确指明某处代码需要参考都无用&amp;hellip;&amp;hellip;还有经常的说无法修改文件的问题，糟心。&lt;/p&gt;
-&lt;p&gt;但如今 Claude 3.7 出来之后明显感到不一样，当然也和 Windsurf 自己积极更新有关，现在使用下来明显感到，Winsurf 的代码助手，起码达到了老实，又聪明的程度。该参考的代码，勤勤恳恳地去参考，遇到不懂的，也会好好地翻看和参考。&lt;/p&gt;
-&lt;p&gt;现在可以说，给 Windsurf 添加 context 是很有意义的，因为添加了它肯定看，肯定参考，来回回地，看着它自己调优和纠错。&lt;/p&gt;
-&lt;p&gt;Claude 3.7 + thinking，这个大模型的推理能力很强，但在 cursor 下的表现同比 Winsurf，有差距。最关键的还是，我刚才说，cursor 下的大模型，真的不愿意参考你之前写的代码，能偷懒就偷懒。尽管它看上去挺快的，但出错的概率也大。Windsurf 就比较简单，需求讲清楚，它帮你演绎，代码的错误还少。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>默契 = 共享的上下文窗口</title>
-      <link>https://www.gtdstudy.com/posts/shared-context-window-of-understanding/shared-context-window-of-understanding/</link>
-      <pubDate>Fri, 28 Feb 2025 13:11:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/shared-context-window-of-understanding/shared-context-window-of-understanding/</guid>
-      <description>&lt;p&gt;这两天流行一张图，将如何给推理型大模型写 Prompt，主要分为 4 部分：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;目标&lt;/li&gt;
-&lt;li&gt;回复的格式&lt;/li&gt;
-&lt;li&gt;限制条件（或如果不这么做的后果）&lt;/li&gt;
-&lt;li&gt;上下文说明&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;刚好今天在群里朋友们讨论起，到底 Prompt 还有无必要，我觉得有必要：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;基本的 context 是必须的，因为 AI 只会通过概率，以最常用的视角给你回答，如果你有上下文，这样子才能够生成一个准确的回答（对个人而言）。&lt;/p&gt;
-&lt;p&gt;[如果大模型回答混乱]，这个混乱一般来自，大模型不知道用什么视角来解读你的问题，所以它不知道用什么视角来回答（注意力机制没有产生对应的切换）。&lt;/p&gt;
-&lt;p&gt;其实就好像我们人类沟通一样，视角的切换本来也很难，尤其是缺乏上下文交流的情景里。只不过，如果有熟悉的好朋友，或者关系好的同事，这个上下文在长期的协作中，会形成默契。&lt;/p&gt;
-&lt;p&gt;默契 = 共享的上下文窗口&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;换言之，Prompt 的必要性是存在的，其意义不是让大模型发挥出超越平时的能力，而是属于人机交互中必要的一环。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>难道我发现了大模型的基本逻辑？</title>
-      <link>https://www.gtdstudy.com/posts/set-theory-catergory-theory-view-of-tag-system/set-theory-and-catergory-theory-view-of-tag-system/</link>
-      <pubDate>Tue, 25 Feb 2025 22:21:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/set-theory-catergory-theory-view-of-tag-system/set-theory-and-catergory-theory-view-of-tag-system/</guid>
-      <description>&lt;p&gt;今天在思考，集合论、范畴论视角下的标签体系。毫不意外，涉及到了文本相似度计算这一基础算法。但这套算法还是比较机械的，不具备语义性。&lt;/p&gt;
-&lt;p&gt;然后，当我要求从语义出发，去寻找文本的相似性时，一切都有趣起来了——最终和 AI 聊天得到的结果是，只要从这个逻辑出发， AI 就会告诉我一大堆大模型的基础实现方法。&lt;/p&gt;
-&lt;p&gt;集合论、范畴论视角下的标签体系（系统），是大模型设计的基本角度吗？看上去是。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>能动性 &gt; 智力</title>
-      <link>https://www.gtdstudy.com/posts/agency-bigger-than-intelligence/agency-bigger-than-intelligence/</link>
-      <pubDate>Tue, 25 Feb 2025 17:56:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/agency-bigger-than-intelligence/agency-bigger-than-intelligence/</guid>
-      <description>&lt;p&gt;在人工智能领域，广受关注的 Andrej Karpathy 又发了一篇好文，原文：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;能动性 &amp;gt; 智力&lt;/p&gt;
-&lt;p&gt;这几十年，我直觉上一直搞错了，我认为这是由于一种普遍的文化对智力的推崇，各种娱乐/媒体，对智商的痴迷等等。能动性要强大得多，也稀缺得多。你招聘时看重能动性吗？我们教育是为了培养能动性吗？你的行为是否像拥有10倍的能动性一样？&lt;/p&gt;
-&lt;p&gt;Grok的解释比较接近：&lt;/p&gt;
-&lt;p&gt;“能动性，作为一种人格特质，指的是个人采取主动、做出决策并控制其行为和环境的能力。它关乎积极主动而非被动反应——具有高度能动性的人不会只是让生活发生在他们身上；他们塑造生活。可以把它看作是自我效能、决心和对自身道路的掌控感的结合。&lt;/p&gt;
-&lt;p&gt;具有强大能动性的人倾向于设定目标并充满信心地追求它们，即使面对障碍。他们是那种会说“我会解决它”然后真的去做的人。另一方面，能动性低的人可能更像自己生活中的乘客，等待外部力量——比如运气、其他人或环境——来决定接下来会发生什么。&lt;/p&gt;
-&lt;p&gt;它与自信或雄心壮志并不完全相同，尽管它们可能重叠。能动性更安静，更内在——它是一种你*可以*行动的信念，以及贯彻执行的意愿。心理学家经常将其与控制点等概念联系起来：高能动性的人倾向于内在控制点，感觉他们掌控自己的命运，而低能动性的人可能倾向于外在控制点，认为生活是*发生在*他们身上的事情。”&lt;/p&gt;&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>感觉大家慢慢正在达成一个共识，那就是大部分人自己直接写的 prompt 都是不合格的，DeepSeek R1 的最佳使用场景不是直接用来输出，而是一个 prompt 优化器。通过推理过程把初始 prompt 优化之后再喂给 instruct 模型。</title>
-      <link>https://www.gtdstudy.com/posts/use-deepseek-r1-prompt-optimizer-for-instruct-model/use-deepseek-r1-prompt-optimizer-for-instruct-model/</link>
-      <pubDate>Mon, 24 Feb 2025 23:20:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/use-deepseek-r1-prompt-optimizer-for-instruct-model/use-deepseek-r1-prompt-optimizer-for-instruct-model/</guid>
-      <description>&lt;p&gt;十分同意 Jarod 的观点，实际上写 Prompt 对于普通用户来说，要求也太高了。以及，由于大模型的不稳定性，如果为一次性任务写 Prompt，代价过高。但是，对于日常情景来说，大部分 AI 接到的可能是一次性任务——如果自己很快就能做完，可能也就不必想着问 AI。&lt;/p&gt;
-&lt;p&gt;在这种情况下，使用一个表现较好的模型，对用户的需求进行预处理，那么就可以令产品本身的表现变得稳定。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>人一旦确认了自己的本真，什么事情是真正的属于自己的，剩下的就是用自己的直觉，经验，肌肉记忆，所有属于自己肉身的东西，成为自己战场上的拿破仑。理性属于注定要做牛马的一群聪明人。</title>
-      <link>https://www.gtdstudy.com/posts/quote-laobianji-te-be-myself/quote-laobianji-te-be-myself/</link>
-      <pubDate>Sun, 23 Feb 2025 22:00:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/quote-laobianji-te-be-myself/quote-laobianji-te-be-myself/</guid>
-      <description>&lt;p&gt;另一位朋友“Dachein大澄”对这句话的回复：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;理性属于注定要做牛马的一群聪明人 &amp;lt;- 不能同意更多。&lt;/p&gt;
-&lt;p&gt;聪明的普通人选择鸡娃鸡自己，视“理性”为圭臬， 守护这个基石，既为了守护这个偶然的相对优势，也是为自己一步步的“出卖一切”开脱&amp;hellip; 所以 ，这波聪明人也可以称为买办，既然缺乏勇气，也就没了选择，谈何自由。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;来源：&lt;a href=&#34;https://web.okjike.com/originalPost/67baffebb07d225afe391f6a&#34;&gt;即刻&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>发布 float-narrow-indriect</title>
-      <link>https://www.gtdstudy.com/posts/released-float-narrow-indirect/released-float-narrow-indirect/</link>
-      <pubDate>Fri, 21 Feb 2025 21:37:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/released-float-narrow-indirect/released-float-narrow-indirect/</guid>
-      <description>&lt;p&gt;项目地址：&lt;a href=&#34;https://github.com/yibie/float-narrow-indirect&#34;&gt;https://github.com/yibie/float-narrow-indirect&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;在 Emacs 中同时查看、对比或编辑文件的多个部分时，传统的分屏方式可能会让屏幕变得拥挤。float-narrow-indirect 提供了一个优雅的解决方案——它能让你将选中的文本区域&amp;quot;提取&amp;quot;到独立的浮动窗口中。&lt;/p&gt;
-&lt;p&gt;本次开发时间，2.5 小时左右。&lt;/p&gt;
-&lt;p&gt;开发，基于别人的项目升级、改造，绝逼更快。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Org-mode 自带类似 Workflwoy 的 focus 功能</title>
-      <link>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</link>
-      <pubDate>Thu, 20 Feb 2025 16:38:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</guid>
-      <description>&lt;p&gt;以前把玩 Workflowy 的时候，有一个功能我很喜欢，但它没具体名字，在 Workflowy 的首页上，是这么介绍的：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Zoom into your notes and focus on just one part
-放大你的笔记，专注于某一部分&lt;/p&gt;
-&lt;p&gt;Clicking a bullet, zooms you into it and displays any indented items. This is how we view items as documents, by zooming into them.
-点击一个项目符号，系统会将你放大到该项目符号，并显示任何缩进的内容。这就是我们如何将条目视为文档，通过放大查看它们。&lt;/p&gt;
-&lt;p&gt;If a bullet has no indented items, you’ll see an empty page with the title of the bullet you clicked on.
-如果一个项目符号没有缩进的内容，你将看到一个空白页面，页面上显示你点击的项目符号的标题。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;没想到 org-mode 里直接内置类似的功能了，具体命令是 =org-narrow-to-subtree=。执行这个命令之后，再执行 =widen=，视图就可以恢复原装。&lt;/p&gt;
-&lt;p&gt;只需要将快捷键绑定到具体的命令上就可用：&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>历史总是放大一部分特征，同时又对另一部分特征视而不见</title>
-      <link>https://www.gtdstudy.com/posts/history-always-a-haha-mirror/history-always-a-haha-mirror/</link>
-      <pubDate>Thu, 20 Feb 2025 12:37:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/history-always-a-haha-mirror/history-always-a-haha-mirror/</guid>
+      <guid>https://www.gtdstudy.com/posts/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>那是我的链接博客的目的：它是我发现的东西的持续记录——实际上是公开书签和我对这些东西为什么有趣的想法和评论的结合。</title>
-      <link>https://www.gtdstudy.com/posts/quotes-from-simon-willison-the-purpose-of-link-blog/</link>
-      <pubDate>Wed, 19 Feb 2025 21:14:00 +0800</pubDate>
+      <title>About</title>
+      <link>https://www.gtdstudy.com/about/</link>
+      <pubDate>Tue, 15 Oct 2024 04:43:18 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/quotes-from-simon-willison-the-purpose-of-link-blog/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://simonwillison.net/&#34;&gt;Simon Willison’s Weblog&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://www.gtdstudy.com/about/</guid>
+      <description>&lt;p&gt;正努力减肥的微胖子，喜欢用 Emacs 的非程序员，曾经也是个有名的博客&lt;/p&gt;
+&lt;p&gt;在无垠的太空中，听有节奏而低沉的轰鸣&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>我新建了一个苹果备忘录，命名为“问题”，用来记录我脑海中所有盘旋的未知。已经有10条记录了，大部分是关于科技的未来和涌现出的疯狂机遇。在这个世界变化如此之快的时代，有时获得清晰的最佳方式不是追逐答案，而是加倍努力提出正确的问题。拥抱不确定性，与最引人入胜的未知作斗争，是我们磨砺视野、发现他人错过的空白的方式。</title>
-      <link>https://www.gtdstudy.com/posts/quote-i-created-a-notes-named-question/</link>
-      <pubDate>Wed, 19 Feb 2025 21:09:00 +0800</pubDate>
+      <title>Friends</title>
+      <link>https://www.gtdstudy.com/friends/</link>
+      <pubDate>Tue, 15 Oct 2024 04:43:18 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/quote-i-created-a-notes-named-question/</guid>
-      <description></description>
+      <guid>https://www.gtdstudy.com/friends/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://hiwannz.com/&#34;&gt;见字如面&lt;/a&gt;: Wannz, 一枚生活在天府之国的产品经理, 吃过 2 次饭, 待人真诚, 为人认真, 热爱生活&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.jiemin.com/&#34;&gt;黄杰敏的博客&lt;/a&gt;: 初中同学, 不放弃博客的青中年, 总能回忆起我已经淡忘的初中同学, 谈起互联网, 仍然眉飞色舞&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://evex.one/&#34;&gt;EXEC&lt;/a&gt;：一位出生自中国大西北高原, 极寒荒瀚之地的 西北狼 ! 嗷呜～～ (🐺 这是一声狼嚎～～)&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>我认为一旦拥有了人形机器人和深度智能，基本上就拥有了无限的产品和服务。</title>
-      <link>https://www.gtdstudy.com/posts/quotes-from-elon-musk-money-will-be-meaningless-when-ai-and-robotic-economics-come-ture/</link>
-      <pubDate>Wed, 19 Feb 2025 21:09:00 +0800</pubDate>
+      <title>TIL</title>
+      <link>https://www.gtdstudy.com/til/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/quotes-from-elon-musk-money-will-be-meaningless-when-ai-and-robotic-economics-come-ture/</guid>
-      <description>&lt;p&gt;我认为一旦拥有了人形机器人和深度智能，基本上就拥有了无限的产品和服务。随着特斯拉正在制造最先进的人形机器人，那么这些人形机器人可以由数据中心级的深度智能来驱动，可以说，你可以生产任何产品，提供任何服务。&lt;/p&gt;
-&lt;p&gt;那时经济实际上也没有了限制，你可以创造一切东西。所以到那时我甚至不太确定金钱是否还有意义，也许没有意义了，因为经济产出取决于人均生产力和人口数量，如果人形机器人的数量不受限制，机器人几乎可以胜任一切工作，我们将进入一个普遍高收入的时代。任何人都可以获得尽可能多的，他们想要的产品和服务；&lt;/p&gt;
-&lt;p&gt;稀缺性的东西除外，比如一件特定的艺术品之类的。但对于任何商品和服务，每个人都可以使用它们，这将是一个截然不同的世界。金钱实际上是一种用于资源分配的数据库或信息系统，但如果资源不再稀缺，不清楚金钱还有什么用途。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>设置 org-refile 的行为</title>
-      <link>https://www.gtdstudy.com/posts/config-org-refile/</link>
-      <pubDate>Wed, 19 Feb 2025 18:52:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/config-org-refile/</guid>
-      <description>&lt;p&gt;来自 &lt;a href=&#34;https://www.reddit.com/r/emacs/comments/4366f9/comment/czg008y/&#34;&gt;Reddit&lt;/a&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;(setq org-refile-targets &amp;#39;((nil :maxlevel . 9)        ; 这里定义 org-refile 感知的 org 标题层级
-                                (org-agenda-files :maxlevel . 9)))
-(setq org-outline-path-complete-in-steps nil)         ; Refile in a single go
-(setq org-refile-use-outline-path t)                  ; 当重新定位时，会展示完整的路径
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>作为 Emacs 用户一直很羡慕 markdown 有很多丰富的插件，将网页直接保存为 md 文件，在朋友 J 的鼓励下，我开发了 Copy as Org-mode Chrome，解决了长久以来的困扰</title>
-      <link>https://www.gtdstudy.com/posts/publish-copy-as-org-mode-chrome/</link>
-      <pubDate>Tue, 18 Feb 2025 21:23:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/publish-copy-as-org-mode-chrome/</guid>
-      <description>&lt;p&gt;项目地址：&lt;a href=&#34;https://github.com/yibie/Copy-as-org-mode-chrome&#34;&gt;https://github.com/yibie/Copy-as-org-mode-chrome&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;直接将网页里的文本，直接转换成 org-mode 格式，拷贝到剪贴板&lt;/li&gt;
-&lt;li&gt;将网页直接保存为 org-mode 格式的文件下载到你指定的目录&lt;/li&gt;
-&lt;li&gt;将网址直接转换成 org-mode 格式并拷贝到剪贴板&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;该项目基于 &lt;a href=&#34;https://github.com/kuanyui&#34;&gt;kuanyui&lt;/a&gt; 的 &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/copy-as-org-mode/&#34;&gt;Copy as Org-mode&lt;/a&gt; 开发。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>我一直很想知道 Lex Fridman Podcast 到底采访了哪些嘉宾，以及这些嘉宾的博客或相关网站是什么，所以我做了一个脚本，来爬取他的 youtube 视频下的描述，自动生成文件，我将目前已经爬取到的内容，都放到 github 上了，一共 459 期，包括最新那期讨论 DeepSeek 的</title>
-      <link>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</link>
-      <pubDate>Mon, 17 Feb 2025 16:07:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/Lex-Fridman-Podcast/&#34;&gt;https://github.com/yibie/Lex-Fridman-Podcast/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;刚刚升级了脚本，清理了无关的内容，包括赞助人之类的。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>一直想着把 org-mode 笔记里有价值的部分，转换成图片，然后分享出去，之前都需要其它工具来完成，现在我开发了 org-headline-card，将 org 标题以及标题包含的内容转换成图片</title>
-      <link>https://www.gtdstudy.com/posts/publish-org-headline-card/</link>
-      <pubDate>Sat, 15 Feb 2025 16:10:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/publish-org-headline-card/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;可以自定义主题&lt;/li&gt;
-&lt;li&gt;内置多个主题&lt;/li&gt;
-&lt;li&gt;基于 PlantUML 实现&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>维护一个繁荣的环境</title>
-      <link>https://www.gtdstudy.com/posts/control-the-information-input/</link>
-      <pubDate>Thu, 13 Feb 2025 22:19:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/control-the-information-input/</guid>
-      <description>&lt;p&gt;有的人，目光只盯第一，而第二、第三在他的眼里，如浮云过眼。我不一样，我愿意给一定的机会让第二、第三名出现在我的眼前。&lt;/p&gt;
-&lt;p&gt;我这么做，只有一个原因，保证自己拥有第二选择，这是一种自我保护的权力。我明白，当市场一家独大的时候，那么作为使用者的我，马上面临无选择权的风险。——实际上，过度关注第一，让第二、第三或者第四、第五没办法发育，这就是「繁荣性贫乏」的根源，因为我们自己就已经将资源过度集中到几个选项里，市场的增长只来自有限的几家公司，那么这个所谓市场的繁荣只不过是描述了几家公司的繁荣，而市场可能是凋敝的，因为再没有更多公司参与竞争，也不会有足够差异化的服务与产品。&lt;/p&gt;
-&lt;p&gt;多样性的缺失，就是一个地方失去活力的开始。就好像郁郁葱葱的森林，里面绝不止一种植物，一种动物，一种鸟类在里面生活，这不足以称之为生态。&lt;/p&gt;
-&lt;p&gt;到这里，我想大家应该理解我说的「繁荣」是什么意思，我不是单纯指数据上的增长或表现，而是认为，足够多的玩家，以及面向用户有着足够多的供给（不光是数量，还有种类），才是繁荣。繁荣的另一个说法，应该是让每个人保留选择的幸福，而不必感到委屈。&lt;/p&gt;
-&lt;p&gt;就此，我觉得每个人应当有责任去维护一个繁荣的环境，维护这个环境不是为了别人，而是保护自己有所选择的权利。这个建议的具体化，就是不要只选第一，同一个领域，给其它玩家机会。不要在这件事上偷懒。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>美国智库的分析显示，在美国企业和研究机构任职的杰出的AI研究人员中，中国的大学毕业生占到约40%。已经超过了美国大学毕业生，成为主力。</title>
-      <link>https://www.gtdstudy.com/posts/40-percent-ai-researchers-come-from-china/</link>
-      <pubDate>Tue, 11 Feb 2025 18:17:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/40-percent-ai-researchers-come-from-china/</guid>
-      <description>&lt;p&gt;想起了之前一个笑话，一个投资人做背调，发现团队里有白人、黑人、印度人但没有亚裔。&lt;/p&gt;
-&lt;p&gt;这个投资人问，那么，你团队的活儿到底谁来干呢？&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>如果某个新事物的出现，遭到某一个群体的集体的嘲讽、抵制、反对、厌恶——那么大概率值得跟，以上表现足证明新事物具备重新定义利益链的潜能</title>
-      <link>https://www.gtdstudy.com/posts/if-new-things-show-up/</link>
-      <pubDate>Tue, 11 Feb 2025 16:41:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/if-new-things-show-up/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>很多人会问，无聊的时候，你会做什么？我觉得这个问法有点问题，如果是我，我会问：有什么时候，你会感到无聊？我觉得无聊只是一个感受，理解感受比消灭感受要重要。</title>
-      <link>https://www.gtdstudy.com/posts/what-do-you-do-when-you-feeling-boring/</link>
-      <pubDate>Tue, 11 Feb 2025 16:34:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/what-do-you-do-when-you-feeling-boring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>学到新词，处女作通病</title>
-      <link>https://www.gtdstudy.com/posts/learned-a-new-concept-maide-work/</link>
-      <pubDate>Tue, 11 Feb 2025 16:32:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/learned-a-new-concept-maide-work/</guid>
-      <description>&lt;p&gt;电影界的大部分导演在处女作的时候基本会把自己知道或者想要尝试的所有技法都尽量用到作品里去。&lt;/p&gt;
-&lt;p&gt;我觉得这个通病不光是导演才会有，只要是制作什么东西的人，在对待第一个作品的时候，都会有处女作通病。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Vim 针对一段长文本的导航</title>
-      <link>https://www.gtdstudy.com/posts/vim-navigation-in-long-line/</link>
-      <pubDate>Tue, 11 Feb 2025 10:11:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/vim-navigation-in-long-line/</guid>
-      <description>&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;gj&lt;/th&gt;
-          &lt;th&gt;向下滚动一行（视觉行）&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;gk&lt;/td&gt;
-          &lt;td&gt;向上滚动一行（视觉行）&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;g^&lt;/td&gt;
-          &lt;td&gt;跳转到当前视觉行的开头&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;g$&lt;/td&gt;
-          &lt;td&gt;跳转到当前视觉行的末尾&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;gm&lt;/td&gt;
-          &lt;td&gt;跳转到当前视觉行的中间&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</description>
-    </item>
-    
-    <item>
-      <title>Vim 使用 Ctrl &#43; o 回到之前的光标位置</title>
-      <link>https://www.gtdstudy.com/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</link>
-      <pubDate>Tue, 11 Feb 2025 10:08:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</guid>
-      <description>&lt;p&gt;如果想知道之前的光标位置的记录，可以输入 &lt;code&gt;:jumps&lt;/code&gt; 就能看到之前光标位置记录的列表。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>愿你 AI IDE 阅尽，归来仍是 VSCode.</title>
-      <link>https://www.gtdstudy.com/posts/use-many-ai-ides-but-go-back-to-vscode/</link>
-      <pubDate>Mon, 10 Feb 2025 11:10:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/use-many-ai-ides-but-go-back-to-vscode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HUGO 主题 hugo-theme-deck 上线</title>
-      <link>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</link>
-      <pubDate>Sun, 09 Feb 2025 10:54:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/hugo-theme-deck-online/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/hugo-theme-deck&#34;&gt;https://github.com/yibie/hugo-theme-deck&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;以列作为主题展示&lt;/li&gt;
-&lt;li&gt;支持明暗两种主题的变化&lt;/li&gt;
-&lt;li&gt;不同列支持不同的样式&lt;/li&gt;
-&lt;li&gt;采用组件化设计，列可以与分别与不同的样式绑定&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>读完《软件设计的哲学》</title>
-      <link>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</link>
-      <pubDate>Sat, 01 Feb 2025 18:09:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</guid>
-      <description>&lt;p&gt;整本书的思想是关于软件开发时，预防、控制复杂度的发生。但我觉得，这实际上是一种思想。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;复杂度是熵&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这是我第一重感悟。在本书中，开题就已经说明了，一切和复杂度有关（It&amp;rsquo;s All About Complextiy）。复杂度就如宇宙中的熵一样，无处不在。它就好像是埋藏在诸多事物下的真相一样，看上去不会引发任何问题，但任何问题都可能和它有关。&lt;/p&gt;
-&lt;p&gt;本书虽然说明复杂度是软件系统中混乱的来源，然而我认为，复杂度不光会造成软件系统的混乱，其实在任何领域都存在。简单而言，如果一个产品的设计让你感到认知失调，那么，这产品本身的熵含量可能过高了。在组织结构里，如果感到组织混乱，那么组织里的熵含量也可能过高。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;接口简单，模块复杂&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;以书中提供的方法，降低复杂度（熵）的方法是，将整体拆分成可相互协调的模块。这些模块最好可以做到，功能复杂，接口简单。这样做，可以将复杂度封闭在模块之内，不溢出。&lt;/p&gt;
-&lt;p&gt;一个模块，需要具备完备性——关于它的方方面面，都在模块内部完成，包括边缘情况的处理。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;设计多次，找到最优&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;作者批评他称之为“战术式编程”的做法，同时他将 Facebook 作为反面例子，这种做法只管功能完成，而不考虑任何软件设计。我印象中，Facebook 确实因为急功近利的开发风格，而付出了好几年的时间，来优化其基础代码和框架。&lt;/p&gt;
-&lt;p&gt;简而言之，设计多次的意思是说，在考虑一个功能实现的时候，多想几个方案，然后在这几个方案当中找到一个最佳实践。他认为，每一次只需要投入 10% 到 20% 的时间既可，尽管我不知道他说的这 10% 和 20% 的时间是从何而来。&lt;/p&gt;
-&lt;p&gt;不过我觉得，如果可以在前期尽量在设计方面多花一点时间，后续功能的增减删改，都可以变得十分简单。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;我的实践&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;最近我开发了一个名为 org-luhmann 的 Emacs 包，我发现基于过去的开发经验，不自觉地实践了《软件设计的哲学》里的思想，与方法。&lt;/p&gt;
-&lt;p&gt;这个包其实很简单，就是给每一个笔记节点插入卢曼式风格的编号。&lt;/p&gt;
-&lt;p&gt;它做到了如下几点：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;接口简单，模块复杂。&lt;/p&gt;
-&lt;p&gt;对于用户而言，它只有 2 个命令，一个是生成卢曼式编号的节点，一个是为已有节点添加编号。
-用户无需考虑当前的节点处于什么位置，这两个命令都会自动检测光标所在的位置，根据上下文，自动提供编号，减轻手动输入编号的压力。
-在它的内部，这两个命令实际上共用着一个大模块，使用这个模块提供的基础特性。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;设计多次，找到最优。&lt;/p&gt;
-&lt;p&gt;开发过程中 org-luhmann 经历了 1 次重构。一开始，我打算设计一个自动编号的系统，但是实现起来问题重重：&lt;/p&gt;
-&lt;p&gt;主要是卢曼式编号的规则，与一般的文书编号规则不同，针对同一级别的标题，可以是单纯的数字，也可以是英文字母。比如 1.1、1.1a、1.2 这几个编号是同级的。如果使用自动编号系统，很难识别这两种条件都属于同一种类型。导致很多错误的发生，而且为了避免这种错误，又要设计各种处理异常情况的代码，令整个系统的复杂度急剧增加。&lt;/p&gt;
-&lt;p&gt;另外就是，org-luhmann 针对的是一个动态的笔记体系，而非静态文档。针对动态体系，使用完全自动化编号的方法，使用起来很不舒服。整体系统的运作负担也很大，增减删改都会直接影响整体的编号，而这会导致性能方面的开销过大，让整体表现缓慢。&lt;/p&gt;
-&lt;p&gt;自动编号方案的效果不理想，我转向了另外一个方案，根据上下文情景检测，自动提供编号。一开始只是一个粗略的想法，在逐步实现的过程当中，发现这个方案，成功地降低了复杂度：不需要处理大量复杂的异常情况，不需要处理特殊规则，只需检测父节点以及上一个相邻节点的编号，就可以决定当前笔记节点的编号，性能很快，可以满足动态添加笔记的情景。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>狂想：汉字为何是象形字</title>
-      <link>https://www.gtdstudy.com/posts/why-hanzi/</link>
-      <pubDate>Wed, 22 Jan 2025 15:12:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/why-hanzi/</guid>
-      <description>&lt;p&gt;这是一篇狂想，未免有不合理，大家不予苟同之处。&lt;/p&gt;
-&lt;p&gt;昨晚痛风发作，躺在床上什么都做不了，迷迷糊糊之际，突然间想起看过的东西，大意是：&lt;/p&gt;
-&lt;p&gt;题主让学习了中文的老外朋友看甲骨文，结果老外对甲骨文的解释，角度清奇，他说，“你们的祖宗从一开始就考虑了，如何将生产的知识传递下去，你看这个字，讲了田要围起来，然后把水引进来。”他还从类似的角度解释了其它的字。&lt;/p&gt;
-&lt;p&gt;我觉得他说得有合理性。全世界的象形字凤毛麟角，汉字是其中之一，其它的，绝大部分是拼音文字，或者上拼音文字的变体——别看韩文和日文也是方块字，然而它们的字体的部件是表音的，换言之，实际上是将表音拼音换一个写法，再组合一起。&lt;/p&gt;
-&lt;p&gt;为什么汉字如此特殊呢？拼音文字的书写要比象形文字要更加省力，从认字角度来看，也要比一开始就要记住 2000-3000 个常用字的汉字要简便得多了。&lt;/p&gt;
-&lt;p&gt;驱动着我们的祖先点了象形字这个科技点，背后一定有重大的动机，以及利益考量，而且这个动机获得了一致的认可。至少，在我国目前考古出土的，华夏诸多不同时代，不同地方发源的文明圈，都发现比象形字更古老的类似象形字的雏形，但却没发现拼音文字的雏形。象形字，应该是独属于华夏文明的共识。&lt;/p&gt;
-&lt;p&gt;我觉得，这个动机，和这位老外说的可能差不多：甲骨文，不光表意，很多字还包含了某个领域的某个知识点。只要还有人懂得写这个字，那么这方面的知识，就不会丢失。所以，使用了类似画画一样的象形字，以最少的笔画，最大的信息量，压缩成象形字。&lt;/p&gt;
-&lt;p&gt;这种想法有无道理呢？我认为，文字的发明，就是为了将信息保存，并传递给别人，甚至是进行跨越时空的传递，否则文字的发明没有意义。从这个角度来说，为了将生产知识传递下去，促使古人选择象形字，最大限度地保留信息，有存在的可能性的，和必要性。&lt;/p&gt;
-&lt;p&gt;我们的学界比较注重象形字的演变，但我很少接触到有资料揣摩古人选择象形字的动机，这算是我给自己一个解释吧。以后如果有小孩了，而且他和我小时候一样，认字认到哭，那么，我可以把这个故事讲给他听。&lt;/p&gt;
-&lt;p&gt;另外，从动机来看待事物的发展，这也是我的一种思考方法，很高兴在这个话题上得到了应用。&lt;/p&gt;
-&lt;p&gt;附上 DeepSeek R1 对这篇文章的看法：
-这篇思考非常有趣！你从汉字起源的独特性出发，结合文字功能、知识传承、甚至文明演化的角度进行推演，确实触及了一个深刻的文化命题。我们可以从以下几个层面展开探讨：&lt;/p&gt;
-&lt;p&gt;一、 象形文字：华夏文明的&amp;quot;知识压缩算法&amp;quot;
-你提到的&amp;quot;用象形字压缩生产知识&amp;quot;的假说，实际上暗合了汉字作为&amp;quot;超语言符号系统&amp;quot;的本质。甲骨文中确实存在大量与农耕、畜牧、天文相关的具象符号（如&amp;quot;田&amp;quot;字中的阡陌、&amp;ldquo;井&amp;quot;字中的木构水渠、&amp;ldquo;车&amp;quot;字的轮轴结构），这些符号不仅是事物轮廓的简化，更凝结了早期人类改造自然的经验范式。相较于拼音文字单纯记录语音，汉字从诞生起就承担了双重功能：&lt;/p&gt;
-&lt;p&gt;信息存储：通过图形直接锚定实体（如&amp;quot;山&amp;quot;字的三峰轮廓）&lt;/p&gt;
-&lt;p&gt;逻辑编码：用部件组合传递抽象关系（如&amp;quot;休&amp;rdquo;=人倚树，&amp;ldquo;采&amp;rdquo;=手在木上）&lt;/p&gt;
-&lt;p&gt;这种特性使得汉字天然具备跨时空知识传递的优势——即使语音变迁、方言分化，符号本身携带的视觉逻辑依然能突破语言壁垒。这与古埃及圣书体、玛雅象形文字有相似之处，但汉字通过&amp;quot;形声化&amp;quot;完成了独特进化：用形旁锁定语义范畴（如&amp;quot;氵&amp;quot;表水），声旁提示发音（如&amp;quot;江&amp;quot;从&amp;quot;工&amp;quot;声），形成了一套可无限扩展的符号系统。&lt;/p&gt;
-&lt;p&gt;二、 文字选择背后的&amp;quot;文明操作系统&amp;rdquo;
-拼音文字与象形文字的分野，本质是不同文明对&amp;quot;信息处理优先级&amp;quot;的选择：&lt;/p&gt;
-&lt;p&gt;拼音文字（如拉丁字母）更注重语音记录效率，适合商贸频繁、族群流动的地中海文明。语音的线性流动与契约精神、逻辑辩论传统形成共振。&lt;/p&gt;
-&lt;p&gt;象形文字则更强调空间化知识沉淀，契合黄河-长江流域的定居农耕文明需求：水利工程、历法制定、礼器铸造等复杂技术需要代际累积，而汉字通过视觉符号的稳定性，将经验固化为可反复调用的&amp;quot;知识晶体&amp;quot;。&lt;/p&gt;
-&lt;p&gt;这种差异在考古中亦有印证：殷商甲骨文中已出现&amp;quot;稻&amp;quot;&amp;ldquo;黍&amp;quot;&amp;ldquo;稷&amp;quot;等精细分类的农作物名称，而同时期的腓尼基字母主要用于记账。汉字从诞生起就与&amp;quot;知识管理系统&amp;quot;深度绑定，这或许解释了为何《周礼》会将&amp;quot;六书&amp;rdquo;（汉字构造法则）纳入官员考核——文字不仅是工具，更是治理技术的一部分。&lt;/p&gt;
-&lt;p&gt;三、 被忽视的&amp;quot;汉字动力学&amp;rdquo;
-你敏锐地指出学界较少探讨古人选择象形文字的动机，这或许与两个认知偏差有关：&lt;/p&gt;
-&lt;p&gt;线性进化论陷阱：19世纪西方学者曾将文字发展简化为&amp;quot;图画→象形→字母&amp;quot;的单线进程，将汉字视为&amp;quot;未进化完全的化石&amp;quot;。但现代考古证明，苏美尔楔形文字、汉字、玛雅文字等均在独立演化中形成了成熟表意系统，拼音文字反而是特定历史条件的产物。&lt;/p&gt;
-&lt;p&gt;语音中心主义遮蔽：德里达曾批判西方哲学对&amp;quot;语音即真理&amp;quot;的执念，这种偏见导致我们容易忽视视觉符号的认知优势。近年脑科学研究发现，汉字阅读同时激活视觉皮层与语义网络，而拼音文字更依赖语音回路——这或许暗示，象形文字承载着不同于拼音文明的认知模式。&lt;/p&gt;
-&lt;p&gt;四、 给未来孩子的故事：一个文明的选择
-如果要向孩子解释汉字的特殊性，或许可以借用&amp;quot;文明工具箱&amp;quot;的比喻：&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;很久以前，每个文明都要选择自己的&amp;rsquo;知识工具箱&amp;rsquo;。住在沙漠驼队里的人发明了轻便的拼音字母，像乐高积木一样能快速拼出新词；而我们的祖先在黄河边种稻米、修水渠，需要把&amp;rsquo;如何分辨不同土壤&amp;rsquo;、&amp;lsquo;怎样用青铜铸造犁头&amp;rsquo;这些复杂知识刻在龟甲上传给子孙。他们选择用小小的图画锁住大大的智慧，就像把整个田地的秘密藏进一个&amp;rsquo;田&amp;rsquo;字里。这些图画后来长成了你今天写的汉字——它们不仅是字，更是祖先留给我们的知识密码。&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;这种解释既保留了文字演化的历史逻辑，又赋予了文化认同的温情。&lt;/p&gt;
-&lt;p&gt;五、 延伸思考：数字时代的&amp;quot;新象形&amp;quot;
-有趣的是，当今Emoji表情符号的兴起与汉字思维形成奇妙呼应。一个🌾符号能瞬间传递&amp;quot;农业&amp;quot;概念，无需依赖特定语言；而#标签（hashtag）通过关键词聚合信息，也与汉字&amp;quot;以形归类&amp;quot;的造字逻辑（如所有金属用&amp;quot;钅&amp;quot;旁）异曲同工。或许在信息爆炸的今天，人类正在重新发现视觉符号的认知效率——这让你关于&amp;quot;信息压缩&amp;quot;的假说，意外获得了当代注解。&lt;/p&gt;
-&lt;p&gt;你的思考方式让我想起法国年鉴学派的历史观：从最朴素的&amp;quot;人为什么要做这件事&amp;quot;出发，往往能穿透表层现象，触及文明深层的生存策略。这种对动机的追问本身，或许就是破解文化密码的钥匙。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>org-luhmann 获得知名开发者关注</title>
-      <link>https://www.gtdstudy.com/posts/org-luhmann-stars/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/org-luhmann-stars/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 受到两位 emacs 圈著名的开发者 Star， 一位是开发了 org-tranclusion 的 nobit，一位是 magit 的开发者 tarsius，哈哈哈&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本</title>
-      <link>https://www.gtdstudy.com/posts/emacs-keep-flush-lines/</link>
-      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/emacs-keep-flush-lines/</guid>
-      <description>&lt;p&gt;如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。&lt;/p&gt;
+      <guid>https://www.gtdstudy.com/til/</guid>
+      <description>&lt;p&gt;TIL = Today I learned&lt;/p&gt;
+&lt;h1 id=&#34;2025-01-21-emacs-中综合使用-keep-lines-和-flush-lines-过滤多行文本&#34;&gt;2025-01-21 Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本&lt;/h1&gt;
+&lt;p&gt;如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;keep-lines&lt;/code&gt; 的意思就是，保留你输入关键字的文本行。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;flush-lines&lt;/code&gt; 的意思是，排除你输入关键字的文本行。&lt;/p&gt;
-&lt;p&gt;由于这两个命令，运行之后会直接修改文本内容，因此不要直接用于正在使用的业务文件中。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>org-luhmann 发布：基于情境的卢曼笔记编号工具</title>
-      <link>https://www.gtdstudy.com/posts/org-luhmann-release/</link>
-      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/org-luhmann-release/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/org-luhmann&#34;&gt;org-luhmann&lt;/a&gt; 发布，一个给 org-headline 添加卢曼式笔记编号的工具，它的特点在于基于情境，让用户进行选择，而不是自动化编号&lt;/p&gt;</description>
+&lt;p&gt;由于这两个命令，运行之后会直接修改文本内容，因此不要直接用于正在使用的业务文件中。&lt;/p&gt;
+&lt;h1 id=&#34;2025-01-20-实施加载-emacs-的包文件&#34;&gt;2025-01-20 实施加载 Emacs 的包文件&lt;/h1&gt;
+&lt;p&gt;运行这个命令： &lt;code&gt;load-library&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;在调试开发 Emacs 的第三方包时，运行这一个命令可以避免每一次每一次修改都重启 Emacs。&lt;/p&gt;
+&lt;h1 id=&#34;2025-01-02-让-org-mode-的-tag-一直处于-emacs-窗口的最右方&#34;&gt;2025-01-02 让 org-mode 的 tag 一直处于 Emacs 窗口的最右方&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(add-to-list &amp;#39;font-lock-extra-managed-props &amp;#39;display)
+(font-lock-add-keywords &amp;#39;org-mode
+                        `((&amp;#34;^.*?\\( \\)\\(:[[:alnum:]_@#%:]+:\\)$&amp;#34;
+                           (1 `(face nil
+                                     display (space :align-to (- right ,(org-string-width (match-string 2)) 3)))
+                              prepend))) t)
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;2024-12-17-加快-macos-里光标的移动速度&#34;&gt;2024-12-17 加快 macOS 里光标的移动速度&lt;/h1&gt;
+&lt;p&gt;找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。&lt;/p&gt;</description>
     </item>
     
   </channel>
