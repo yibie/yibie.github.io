@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quotes - Space Looming</title>
-    <link>http://localhost:1313/categories/quotes/</link>
+    <link>https://www.gtdstudy.com/categories/quotes/</link>
     <description>Recent content in Quotes on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Sat, 01 Mar 2025 23:17:49 +0800</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/categories/quotes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/categories/quotes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>我有时候想，经济就像是夜色下的战场，漆黑一片，在战壕外几乎什么也看不到。而大约半英里远，就有敌人的营地，可以听到窸窸窣窣的声音，可以感到军队正在重新部署。​（当然，新的战略部署即使再好，也是在现有部署的基础上转化来的。​）这时，突然某个人发射了一颗照明弹，火光照亮整个战场的部署，各种炮位、安排、部队、战壕，一下子变得一目了然，然后火光骤然熄灭，一切又复归黑暗。经济就是如此。经济学中的光芒就是亚当·斯密、李嘉图、马克思、凯恩斯，还有熊彼特的理论。它们偶尔照亮了一下战场，但是真正的骚动和变换一直在黑暗中进行着。我们确实能够观察到经济，但是我们描述经济的语言，我们标明经济的标志，以及我们对经济的理解，都凝固于那燃亮的一瞬间——尤其是最近的一组照明弹之中</title>
-      <link>http://localhost:1313/posts/</link>
+      <link>https://www.gtdstudy.com/posts/</link>
       <pubDate>Sat, 01 Mar 2025 23:17:49 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/</guid>
+      <guid>https://www.gtdstudy.com/posts/</guid>
       <description></description>
     </item>
     
