@@ -9,10 +9,19 @@
     
     
     
-    <lastBuildDate>Mon, 03 Mar 2025 22:20:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 05 Mar 2025 09:52:36 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Now</title>
+      <link>https://www.gtdstudy.com/categories/now/</link>
+      <pubDate>Wed, 05 Mar 2025 09:52:36 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/categories/now/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Write</title>
@@ -29,15 +38,6 @@
       <pubDate>Mon, 03 Mar 2025 16:20:00 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/categories/quotes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Now</title>
-      <link>https://www.gtdstudy.com/categories/now/</link>
-      <pubDate>Sat, 01 Mar 2025 15:57:08 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/categories/now/</guid>
       <description></description>
     </item>
     

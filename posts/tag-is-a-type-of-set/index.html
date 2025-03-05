@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>org-supertag 2.5 发布，发现标签关系，标签探索面板，多列视图 - Space Looming</title>
+<meta name="description"
+    content="由于自己开发了一个叫 org-supertag 的 Emacs 插件，一直在思考：
+为什么标签难以在大众层面流行 为什么标签很有用，但看上去很难用得好 身边好几个朋友跟我说他们放弃了标签的使用 总之，结合最近的思考，我给 org-supertag 开发了新的功能，对以上这 3 个问题进行了回应：
+标签是一种集合，共同添加到同一对象上的标签具备联系
+很多人抱怨标签不好用，尤其使用一段时间后，标签数量膨胀，像多年未整理的仓库，让人失去整理动力。这种痛苦源于工具将标签视为简单标记，仅用于搜集资料，忽视层级与分类。更关键的是，工具缺乏对标签的组织和管理能力，导致数量过多时，用户陷入管理无能的困境，标签从帮手变成负担。
+我在思考“标签如何更有用”时，发现标签本质上是一种集合，汇聚被标记事物的共性。例如，“工作”标签集合会议记录、任务清单和邮件，“学习”标签包括笔记、文章和视频。这种集合视角让我联想到推荐算法——大数据和AI通过为数据打标签，并挖掘标签间联系，实现精准推荐。
+我想将推荐算法的机制应用于个人管理中。如果把标签视为动态集合，并赋予标签间关系，就能形成网络状结构化体系。例如：
+“工作”与“deadline”关联，提醒任务紧急性；
+“读书”与“笔记”形成层级，梳理学习脉络；
+“旅行”与“预算”并列，方便规划。
+这样的系统能消除标签数量膨胀带来的混乱，让用户在信息中自由切换视角。例如，面对项目，你可通过“时间”查看进度，“团队”检查分工，或“资源”评估需求。这种多维度思考是网络化标签的核心优势。
+所以，我为 org-supertag 新增加了如下功能：
+## 为标签与标签之间设定关系 org-supertag-relation-manage
+在如何帮助人发现标签关系这件事上，我进一步思考，发现不少标签会添加到同一个对象上。这意味着，这这些同时出现的标签，存在着内部关系。我们可以快速通过「同现」这一关系，找到相互关联的标签。
+因此，在标签关系的管理界面可以看到「Co-occurrence Tags」这一栏，可以直接看到一起出现过的标签。在我们添加标签关系时有重要的参考意义。
+org-supertag-relaiton-manager
+这里有两个小功能：
+Find By Relation，可以找到存在着关系的标签。 Find By Relation Group，可以基于标签关系组找到存在着关系的标签。 这两点可以提供比较丰富的发现维度。
+隐式发现信息结构 org-supertag-tag-discover
+标签发现面板，是一种渐进式过滤的机制。可以在添加了一个标签的同时，添加另外的标签，寻找位于两个标签之间的交集里的笔记（笔记节点）。
+org-supertag-tag-discovery
+同样，它会有 Co-occurring Tags 一栏，可以看到此间一起出现过的标签，并将它们直接添加为过滤条件，像放大镜一样，一点点变得具体。
+换言之，这里存在着一种发现路径，这个发现路径将你第一次添加为过滤条件的标签，视为一个入口。如果这是一个箱庭世界，就可以通过不断添加标签，从而方便自己回顾和寻找对应的笔记。
+在这个过程中，如果不断重复这一发现过程，路径本身就是结构化的象征，自然而然，在不断设计标签关系，以及发现标签的交集时，这种结构化自然地会印在脑海里。
+多列对比视图 org-supertag-column
+如果把标签视为集合，为了方便不同的集合之间的对比，应该以一种列状视图来表现。
+在 Multi-Colmn Tag View 中，可以快速地添加标签，进行对比，同时，还可以通过 Add Realated Tag，来将相关联的标签放在一起进行对比。
+org-supertag-columnn
+内联标签 org-supertag-inline-insert-tag
+当然，将多个标签添加到同一个对象是吃力的。尤其是当前大部分工具添加标签的过程，在思考标签的时候都花了太多时间。
+我提出的解决方案是，让 org-supertag 支持内联标签。让人在自然输入的过程中，直接输入标签。以 # 作为前缀。
+">
+
+
+<meta property="og:title"
+    content="org-supertag 2.5 发布，发现标签关系，标签探索面板，多列视图 - Space Looming">
+<meta property="og:description"
+    content="由于自己开发了一个叫 org-supertag 的 Emacs 插件，一直在思考：
+为什么标签难以在大众层面流行 为什么标签很有用，但看上去很难用得好 身边好几个朋友跟我说他们放弃了标签的使用 总之，结合最近的思考，我给 org-supertag 开发了新的功能，对以上这 3 个问题进行了回应：
+标签是一种集合，共同添加到同一对象上的标签具备联系
+很多人抱怨标签不好用，尤其使用一段时间后，标签数量膨胀，像多年未整理的仓库，让人失去整理动力。这种痛苦源于工具将标签视为简单标记，仅用于搜集资料，忽视层级与分类。更关键的是，工具缺乏对标签的组织和管理能力，导致数量过多时，用户陷入管理无能的困境，标签从帮手变成负担。
+我在思考“标签如何更有用”时，发现标签本质上是一种集合，汇聚被标记事物的共性。例如，“工作”标签集合会议记录、任务清单和邮件，“学习”标签包括笔记、文章和视频。这种集合视角让我联想到推荐算法——大数据和AI通过为数据打标签，并挖掘标签间联系，实现精准推荐。
+我想将推荐算法的机制应用于个人管理中。如果把标签视为动态集合，并赋予标签间关系，就能形成网络状结构化体系。例如：
+“工作”与“deadline”关联，提醒任务紧急性；
+“读书”与“笔记”形成层级，梳理学习脉络；
+“旅行”与“预算”并列，方便规划。
+这样的系统能消除标签数量膨胀带来的混乱，让用户在信息中自由切换视角。例如，面对项目，你可通过“时间”查看进度，“团队”检查分工，或“资源”评估需求。这种多维度思考是网络化标签的核心优势。
+所以，我为 org-supertag 新增加了如下功能：
+## 为标签与标签之间设定关系 org-supertag-relation-manage
+在如何帮助人发现标签关系这件事上，我进一步思考，发现不少标签会添加到同一个对象上。这意味着，这这些同时出现的标签，存在着内部关系。我们可以快速通过「同现」这一关系，找到相互关联的标签。
+因此，在标签关系的管理界面可以看到「Co-occurrence Tags」这一栏，可以直接看到一起出现过的标签。在我们添加标签关系时有重要的参考意义。
+org-supertag-relaiton-manager
+这里有两个小功能：
+Find By Relation，可以找到存在着关系的标签。 Find By Relation Group，可以基于标签关系组找到存在着关系的标签。 这两点可以提供比较丰富的发现维度。
+隐式发现信息结构 org-supertag-tag-discover
+标签发现面板，是一种渐进式过滤的机制。可以在添加了一个标签的同时，添加另外的标签，寻找位于两个标签之间的交集里的笔记（笔记节点）。
+org-supertag-tag-discovery
+同样，它会有 Co-occurring Tags 一栏，可以看到此间一起出现过的标签，并将它们直接添加为过滤条件，像放大镜一样，一点点变得具体。
+换言之，这里存在着一种发现路径，这个发现路径将你第一次添加为过滤条件的标签，视为一个入口。如果这是一个箱庭世界，就可以通过不断添加标签，从而方便自己回顾和寻找对应的笔记。
+在这个过程中，如果不断重复这一发现过程，路径本身就是结构化的象征，自然而然，在不断设计标签关系，以及发现标签的交集时，这种结构化自然地会印在脑海里。
+多列对比视图 org-supertag-column
+如果把标签视为集合，为了方便不同的集合之间的对比，应该以一种列状视图来表现。
+在 Multi-Colmn Tag View 中，可以快速地添加标签，进行对比，同时，还可以通过 Add Realated Tag，来将相关联的标签放在一起进行对比。
+org-supertag-columnn
+内联标签 org-supertag-inline-insert-tag
+当然，将多个标签添加到同一个对象是吃力的。尤其是当前大部分工具添加标签的过程，在思考标签的时候都花了太多时间。
+我提出的解决方案是，让 org-supertag 支持内联标签。让人在自然输入的过程中，直接输入标签。以 # 作为前缀。
+">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.gtdstudy.com/posts/tag-is-a-type-of-set/">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title"
+    content="org-supertag 2.5 发布，发现标签关系，标签探索面板，多列视图 - Space Looming">
+<meta name="twitter:description"
+    content="由于自己开发了一个叫 org-supertag 的 Emacs 插件，一直在思考：
+为什么标签难以在大众层面流行 为什么标签很有用，但看上去很难用得好 身边好几个朋友跟我说他们放弃了标签的使用 总之，结合最近的思考，我给 org-supertag 开发了新的功能，对以上这 3 个问题进行了回应：
+标签是一种集合，共同添加到同一对象上的标签具备联系
+很多人抱怨标签不好用，尤其使用一段时间后，标签数量膨胀，像多年未整理的仓库，让人失去整理动力。这种痛苦源于工具将标签视为简单标记，仅用于搜集资料，忽视层级与分类。更关键的是，工具缺乏对标签的组织和管理能力，导致数量过多时，用户陷入管理无能的困境，标签从帮手变成负担。
+我在思考“标签如何更有用”时，发现标签本质上是一种集合，汇聚被标记事物的共性。例如，“工作”标签集合会议记录、任务清单和邮件，“学习”标签包括笔记、文章和视频。这种集合视角让我联想到推荐算法——大数据和AI通过为数据打标签，并挖掘标签间联系，实现精准推荐。
+我想将推荐算法的机制应用于个人管理中。如果把标签视为动态集合，并赋予标签间关系，就能形成网络状结构化体系。例如：
+“工作”与“deadline”关联，提醒任务紧急性；
+“读书”与“笔记”形成层级，梳理学习脉络；
+“旅行”与“预算”并列，方便规划。
+这样的系统能消除标签数量膨胀带来的混乱，让用户在信息中自由切换视角。例如，面对项目，你可通过“时间”查看进度，“团队”检查分工，或“资源”评估需求。这种多维度思考是网络化标签的核心优势。
+所以，我为 org-supertag 新增加了如下功能：
+## 为标签与标签之间设定关系 org-supertag-relation-manage
+在如何帮助人发现标签关系这件事上，我进一步思考，发现不少标签会添加到同一个对象上。这意味着，这这些同时出现的标签，存在着内部关系。我们可以快速通过「同现」这一关系，找到相互关联的标签。
+因此，在标签关系的管理界面可以看到「Co-occurrence Tags」这一栏，可以直接看到一起出现过的标签。在我们添加标签关系时有重要的参考意义。
+org-supertag-relaiton-manager
+这里有两个小功能：
+Find By Relation，可以找到存在着关系的标签。 Find By Relation Group，可以基于标签关系组找到存在着关系的标签。 这两点可以提供比较丰富的发现维度。
+隐式发现信息结构 org-supertag-tag-discover
+标签发现面板，是一种渐进式过滤的机制。可以在添加了一个标签的同时，添加另外的标签，寻找位于两个标签之间的交集里的笔记（笔记节点）。
+org-supertag-tag-discovery
+同样，它会有 Co-occurring Tags 一栏，可以看到此间一起出现过的标签，并将它们直接添加为过滤条件，像放大镜一样，一点点变得具体。
+换言之，这里存在着一种发现路径，这个发现路径将你第一次添加为过滤条件的标签，视为一个入口。如果这是一个箱庭世界，就可以通过不断添加标签，从而方便自己回顾和寻找对应的笔记。
+在这个过程中，如果不断重复这一发现过程，路径本身就是结构化的象征，自然而然，在不断设计标签关系，以及发现标签的交集时，这种结构化自然地会印在脑海里。
+多列对比视图 org-supertag-column
+如果把标签视为集合，为了方便不同的集合之间的对比，应该以一种列状视图来表现。
+在 Multi-Colmn Tag View 中，可以快速地添加标签，进行对比，同时，还可以通过 Add Realated Tag，来将相关联的标签放在一起进行对比。
+org-supertag-columnn
+内联标签 org-supertag-inline-insert-tag
+当然，将多个标签添加到同一个对象是吃力的。尤其是当前大部分工具添加标签的过程，在思考标签的时候都花了太多时间。
+我提出的解决方案是，让 org-supertag 支持内联标签。让人在自然输入的过程中，直接输入标签。以 # 作为前缀。
+">
+
+
+
+<link rel="canonical" href="https://www.gtdstudy.com/posts/tag-is-a-type-of-set/">
+
+
+      <link rel="stylesheet" href="/css/main.min.4689108137e621ad921404fed6342d5fdb04d7f73585d57d3d324647627878ba.css" integrity="sha256-RokQgTfmIa2SFAT&#43;1jQtX9sE1/c1hdV9PTJGR2J4eLo=" crossorigin="anonymous">
+
+
+      <script src="/js/main.cae3d9eba4e54c3d685682c303a39b0cc30e2473ee5331e21ead03ee70507a6e.js" integrity="sha256-yuPZ66TlTD1oVoLDA6ObDMMOJHPuUzHiHq0D7nBQem4=" crossorigin="anonymous"></script>
+
+
+
+<script>
+    
+    (function () {
+        const theme = localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+    })();
+</script>
+
+
+
+<link rel="stylesheet" href="/css/main.min.css">
+
+
+
+  
+  <link rel="stylesheet" href="/css/main.min.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-content">
+        
+        <div class="site-branding">
+            <h1 class="site-title">
+                <a href="/">Space Looming</a>
+            </h1>
+            
+            <p class="site-subtitle">无垠的太空中，传来宇宙的轰鸣</p>
+            
+        </div>
+
+        
+        
+        <div class="site-bio">
+            <div class="bio-content"><p>大家好，我是一个喜欢阅读、思考以及交流的人。</p>
+<p>最近在 AI 辅助编程方面取得了不少进展。</p>
+<p>我评测过很多产品，写过很多行业预测，写了不少 Prompt，开发了 4 个 Emacs Package。</p>
+</div>
+        </div>
+        
+
+        
+        <nav class="site-nav">
+            <ul class="menu-list">
+                
+                <li class="menu-item">
+                    <a href="/">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/posts">Posts</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/tags">Tags</a>
+                </li>
+                
+                
+                <li class="menu-item">
+                    <a href="/index.xml">Rss</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        
+        <div class="theme-toggle">
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle__icon">🌓</span>
+            </button>
+        </div>
+
+        
+        <div class="site-footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="copyright">© 2025 Yibie</p>
+                    <p class="powered-by">Powered by <a href="https://gohugo.io" target="_blank">Hugo</a></p>
+                    <p class="theme-info">Theme <a href="https://github.com/yibie/hugo-theme-deck"
+                            target="_blank">Deck</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const html = document.documentElement;
+        const themeToggle = document.getElementById('theme-toggle');
+
+        
+        themeToggle.addEventListener('click', function () {
+            const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+
+        
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+        prefersDark.addListener((e) => {
+            if (!localStorage.getItem('theme')) {
+                const systemTheme = e.matches ? 'dark' : 'light';
+                html.setAttribute('data-theme', systemTheme);
+                localStorage.setItem('theme', systemTheme);
+            }
+        });
+    });
+</script>
+  <main>
+    
+<div class="single-main">
+  <article class="single-post">
+    <header class="post-header">
+      <h1 class="post-title">org-supertag 2.5 发布，发现标签关系，标签探索面板，多列视图</h1>
+
+      <div class="post-meta">
+        <time datetime=" 2025-03-05">
+          March 5, 2025
+        </time>
+
+        
+        <div class="post-categories">
+          
+          <span class="category">now</span>
+          
+        </div>
+        
+      </div>
+    </header>
+
+    <div class="post-content">
+      <p>由于自己开发了一个叫 org-supertag 的 Emacs 插件，一直在思考：</p>
+<ul>
+<li>为什么标签难以在大众层面流行</li>
+<li>为什么标签很有用，但看上去很难用得好</li>
+<li>身边好几个朋友跟我说他们放弃了标签的使用</li>
+</ul>
+<p>总之，结合最近的思考，我给 org-supertag 开发了新的功能，对以上这 3 个问题进行了回应：</p>
+<p><strong>标签是一种集合，共同添加到同一对象上的标签具备联系</strong></p>
+<p>很多人抱怨标签不好用，尤其使用一段时间后，标签数量膨胀，像多年未整理的仓库，让人失去整理动力。这种痛苦源于工具将标签视为简单标记，仅用于搜集资料，忽视层级与分类。更关键的是，工具缺乏对标签的组织和管理能力，导致数量过多时，用户陷入管理无能的困境，标签从帮手变成负担。</p>
+<p>我在思考“标签如何更有用”时，发现标签本质上是一种集合，汇聚被标记事物的共性。例如，“工作”标签集合会议记录、任务清单和邮件，“学习”标签包括笔记、文章和视频。这种集合视角让我联想到推荐算法——大数据和AI通过为数据打标签，并挖掘标签间联系，实现精准推荐。</p>
+<p>我想将推荐算法的机制应用于个人管理中。如果把标签视为动态集合，并赋予标签间关系，就能形成网络状结构化体系。例如：</p>
+<p>“工作”与“deadline”关联，提醒任务紧急性；</p>
+<p>“读书”与“笔记”形成层级，梳理学习脉络；</p>
+<p>“旅行”与“预算”并列，方便规划。</p>
+<p>这样的系统能消除标签数量膨胀带来的混乱，让用户在信息中自由切换视角。例如，面对项目，你可通过“时间”查看进度，“团队”检查分工，或“资源”评估需求。这种多维度思考是网络化标签的核心优势。</p>
+<p>所以，我为 org-supertag 新增加了如下功能：</p>
+<p>## 为标签与标签之间设定关系 org-supertag-relation-manage</p>
+<p>在如何帮助人发现标签关系这件事上，我进一步思考，发现不少标签会添加到同一个对象上。这意味着，这这些同时出现的标签，存在着内部关系。我们可以快速通过「同现」这一关系，找到相互关联的标签。</p>
+<p>因此，在标签关系的管理界面可以看到「Co-occurrence Tags」这一栏，可以直接看到一起出现过的标签。在我们添加标签关系时有重要的参考意义。</p>
+<p><a href="/org-supertag-relation-manager.png">org-supertag-relaiton-manager</a></p>
+<p>这里有两个小功能：</p>
+<p>Find By Relation，可以找到存在着关系的标签。
+Find By Relation Group，可以基于标签关系组找到存在着关系的标签。
+这两点可以提供比较丰富的发现维度。</p>
+<p><strong>隐式发现信息结构 org-supertag-tag-discover</strong></p>
+<p>标签发现面板，是一种渐进式过滤的机制。可以在添加了一个标签的同时，添加另外的标签，寻找位于两个标签之间的交集里的笔记（笔记节点）。</p>
+<p><a href="/org-supertag-tag-discovery.png">org-supertag-tag-discovery</a></p>
+<p>同样，它会有 Co-occurring Tags 一栏，可以看到此间一起出现过的标签，并将它们直接添加为过滤条件，像放大镜一样，一点点变得具体。</p>
+<p>换言之，这里存在着一种发现路径，这个发现路径将你第一次添加为过滤条件的标签，视为一个入口。如果这是一个箱庭世界，就可以通过不断添加标签，从而方便自己回顾和寻找对应的笔记。</p>
+<p>在这个过程中，如果不断重复这一发现过程，路径本身就是结构化的象征，自然而然，在不断设计标签关系，以及发现标签的交集时，这种结构化自然地会印在脑海里。</p>
+<p><strong>多列对比视图 org-supertag-column</strong></p>
+<p>如果把标签视为集合，为了方便不同的集合之间的对比，应该以一种列状视图来表现。</p>
+<p>在 Multi-Colmn Tag View 中，可以快速地添加标签，进行对比，同时，还可以通过 Add Realated Tag，来将相关联的标签放在一起进行对比。</p>
+<p><a href="/org-supertag-column.png">org-supertag-columnn</a></p>
+<p><strong>内联标签 org-supertag-inline-insert-tag</strong></p>
+<p>当然，将多个标签添加到同一个对象是吃力的。尤其是当前大部分工具添加标签的过程，在思考标签的时候都花了太多时间。</p>
+<p>我提出的解决方案是，让 org-supertag 支持内联标签。让人在自然输入的过程中，直接输入标签。以 # 作为前缀。</p>
+<p>比如：</p>
+<p>This is a #book, named #harry_portter</p>
+<p>这两个标签，基于「同现」的统计，可以轻易地发现，以及方便为它们添加关系。</p>
+<p>org-supertag-inline-insert-tag 不光可以用于 heading 下方的内容，写在标题中。比如：</p>
+<p>This is a #book, named #harry_portter</p>
+<p>和 org-supertag 里添加普通的标签一样，这个标签关系同样会记录。只不过不会显示为 org-mode 里的标签格式 :tag:。</p>
+<p>目前，我在积极实践这套自己提出的想法、方法、工具。尽管记录的标签数量还不够多，但现在记录标签的积极性大大地提高了。</p>
+
+    </div>
+
+    
+  </article>
+</div>
+
+  </main>
+</body>
+
+</html>

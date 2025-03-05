@@ -15,6 +15,51 @@
     
     
     <item>
+      <title>org-supertag 2.5 发布，发现标签关系，标签探索面板，多列视图</title>
+      <link>https://www.gtdstudy.com/posts/tag-is-a-type-of-set/</link>
+      <pubDate>Wed, 05 Mar 2025 09:52:36 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/tag-is-a-type-of-set/</guid>
+      <description>&lt;p&gt;由于自己开发了一个叫 org-supertag 的 Emacs 插件，一直在思考：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;为什么标签难以在大众层面流行&lt;/li&gt;
+&lt;li&gt;为什么标签很有用，但看上去很难用得好&lt;/li&gt;
+&lt;li&gt;身边好几个朋友跟我说他们放弃了标签的使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;总之，结合最近的思考，我给 org-supertag 开发了新的功能，对以上这 3 个问题进行了回应：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;标签是一种集合，共同添加到同一对象上的标签具备联系&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;很多人抱怨标签不好用，尤其使用一段时间后，标签数量膨胀，像多年未整理的仓库，让人失去整理动力。这种痛苦源于工具将标签视为简单标记，仅用于搜集资料，忽视层级与分类。更关键的是，工具缺乏对标签的组织和管理能力，导致数量过多时，用户陷入管理无能的困境，标签从帮手变成负担。&lt;/p&gt;
+&lt;p&gt;我在思考“标签如何更有用”时，发现标签本质上是一种集合，汇聚被标记事物的共性。例如，“工作”标签集合会议记录、任务清单和邮件，“学习”标签包括笔记、文章和视频。这种集合视角让我联想到推荐算法——大数据和AI通过为数据打标签，并挖掘标签间联系，实现精准推荐。&lt;/p&gt;
+&lt;p&gt;我想将推荐算法的机制应用于个人管理中。如果把标签视为动态集合，并赋予标签间关系，就能形成网络状结构化体系。例如：&lt;/p&gt;
+&lt;p&gt;“工作”与“deadline”关联，提醒任务紧急性；&lt;/p&gt;
+&lt;p&gt;“读书”与“笔记”形成层级，梳理学习脉络；&lt;/p&gt;
+&lt;p&gt;“旅行”与“预算”并列，方便规划。&lt;/p&gt;
+&lt;p&gt;这样的系统能消除标签数量膨胀带来的混乱，让用户在信息中自由切换视角。例如，面对项目，你可通过“时间”查看进度，“团队”检查分工，或“资源”评估需求。这种多维度思考是网络化标签的核心优势。&lt;/p&gt;
+&lt;p&gt;所以，我为 org-supertag 新增加了如下功能：&lt;/p&gt;
+&lt;p&gt;## 为标签与标签之间设定关系 org-supertag-relation-manage&lt;/p&gt;
+&lt;p&gt;在如何帮助人发现标签关系这件事上，我进一步思考，发现不少标签会添加到同一个对象上。这意味着，这这些同时出现的标签，存在着内部关系。我们可以快速通过「同现」这一关系，找到相互关联的标签。&lt;/p&gt;
+&lt;p&gt;因此，在标签关系的管理界面可以看到「Co-occurrence Tags」这一栏，可以直接看到一起出现过的标签。在我们添加标签关系时有重要的参考意义。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.gtdstudy.com/org-supertag-relation-manager.png&#34;&gt;org-supertag-relaiton-manager&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这里有两个小功能：&lt;/p&gt;
+&lt;p&gt;Find By Relation，可以找到存在着关系的标签。
+Find By Relation Group，可以基于标签关系组找到存在着关系的标签。
+这两点可以提供比较丰富的发现维度。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;隐式发现信息结构 org-supertag-tag-discover&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;标签发现面板，是一种渐进式过滤的机制。可以在添加了一个标签的同时，添加另外的标签，寻找位于两个标签之间的交集里的笔记（笔记节点）。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.gtdstudy.com/org-supertag-tag-discovery.png&#34;&gt;org-supertag-tag-discovery&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;同样，它会有 Co-occurring Tags 一栏，可以看到此间一起出现过的标签，并将它们直接添加为过滤条件，像放大镜一样，一点点变得具体。&lt;/p&gt;
+&lt;p&gt;换言之，这里存在着一种发现路径，这个发现路径将你第一次添加为过滤条件的标签，视为一个入口。如果这是一个箱庭世界，就可以通过不断添加标签，从而方便自己回顾和寻找对应的笔记。&lt;/p&gt;
+&lt;p&gt;在这个过程中，如果不断重复这一发现过程，路径本身就是结构化的象征，自然而然，在不断设计标签关系，以及发现标签的交集时，这种结构化自然地会印在脑海里。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;多列对比视图 org-supertag-column&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果把标签视为集合，为了方便不同的集合之间的对比，应该以一种列状视图来表现。&lt;/p&gt;
+&lt;p&gt;在 Multi-Colmn Tag View 中，可以快速地添加标签，进行对比，同时，还可以通过 Add Realated Tag，来将相关联的标签放在一起进行对比。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.gtdstudy.com/org-supertag-column.png&#34;&gt;org-supertag-columnn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;内联标签 org-supertag-inline-insert-tag&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当然，将多个标签添加到同一个对象是吃力的。尤其是当前大部分工具添加标签的过程，在思考标签的时候都花了太多时间。&lt;/p&gt;
+&lt;p&gt;我提出的解决方案是，让 org-supertag 支持内联标签。让人在自然输入的过程中，直接输入标签。以 # 作为前缀。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>谈谈封装为什么很适合形容商业</title>
       <link>https://www.gtdstudy.com/posts/explore-the-reasons-behind-the-aptness-of-encapsulation-as-a-metaphor-for-commercial-translation/explore-the-reasons-behind-the-aptness-of-encapsulation-as-a-metaphor-for-commercial-translation/</link>
       <pubDate>Mon, 03 Mar 2025 22:20:00 +0800</pubDate>
@@ -404,47 +449,6 @@
 &lt;p&gt;自动编号方案的效果不理想，我转向了另外一个方案，根据上下文情景检测，自动提供编号。一开始只是一个粗略的想法，在逐步实现的过程当中，发现这个方案，成功地降低了复杂度：不需要处理大量复杂的异常情况，不需要处理特殊规则，只需检测父节点以及上一个相邻节点的编号，就可以决定当前笔记节点的编号，性能很快，可以满足动态添加笔记的情景。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>狂想：汉字为何是象形字</title>
-      <link>https://www.gtdstudy.com/posts/why-hanzi/</link>
-      <pubDate>Wed, 22 Jan 2025 15:12:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/why-hanzi/</guid>
-      <description>&lt;p&gt;这是一篇狂想，未免有不合理，大家不予苟同之处。&lt;/p&gt;
-&lt;p&gt;昨晚痛风发作，躺在床上什么都做不了，迷迷糊糊之际，突然间想起看过的东西，大意是：&lt;/p&gt;
-&lt;p&gt;题主让学习了中文的老外朋友看甲骨文，结果老外对甲骨文的解释，角度清奇，他说，“你们的祖宗从一开始就考虑了，如何将生产的知识传递下去，你看这个字，讲了田要围起来，然后把水引进来。”他还从类似的角度解释了其它的字。&lt;/p&gt;
-&lt;p&gt;我觉得他说得有合理性。全世界的象形字凤毛麟角，汉字是其中之一，其它的，绝大部分是拼音文字，或者上拼音文字的变体——别看韩文和日文也是方块字，然而它们的字体的部件是表音的，换言之，实际上是将表音拼音换一个写法，再组合一起。&lt;/p&gt;
-&lt;p&gt;为什么汉字如此特殊呢？拼音文字的书写要比象形文字要更加省力，从认字角度来看，也要比一开始就要记住 2000-3000 个常用字的汉字要简便得多了。&lt;/p&gt;
-&lt;p&gt;驱动着我们的祖先点了象形字这个科技点，背后一定有重大的动机，以及利益考量，而且这个动机获得了一致的认可。至少，在我国目前考古出土的，华夏诸多不同时代，不同地方发源的文明圈，都发现比象形字更古老的类似象形字的雏形，但却没发现拼音文字的雏形。象形字，应该是独属于华夏文明的共识。&lt;/p&gt;
-&lt;p&gt;我觉得，这个动机，和这位老外说的可能差不多：甲骨文，不光表意，很多字还包含了某个领域的某个知识点。只要还有人懂得写这个字，那么这方面的知识，就不会丢失。所以，使用了类似画画一样的象形字，以最少的笔画，最大的信息量，压缩成象形字。&lt;/p&gt;
-&lt;p&gt;这种想法有无道理呢？我认为，文字的发明，就是为了将信息保存，并传递给别人，甚至是进行跨越时空的传递，否则文字的发明没有意义。从这个角度来说，为了将生产知识传递下去，促使古人选择象形字，最大限度地保留信息，有存在的可能性的，和必要性。&lt;/p&gt;
-&lt;p&gt;我们的学界比较注重象形字的演变，但我很少接触到有资料揣摩古人选择象形字的动机，这算是我给自己一个解释吧。以后如果有小孩了，而且他和我小时候一样，认字认到哭，那么，我可以把这个故事讲给他听。&lt;/p&gt;
-&lt;p&gt;另外，从动机来看待事物的发展，这也是我的一种思考方法，很高兴在这个话题上得到了应用。&lt;/p&gt;
-&lt;p&gt;附上 DeepSeek R1 对这篇文章的看法：
-这篇思考非常有趣！你从汉字起源的独特性出发，结合文字功能、知识传承、甚至文明演化的角度进行推演，确实触及了一个深刻的文化命题。我们可以从以下几个层面展开探讨：&lt;/p&gt;
-&lt;p&gt;一、 象形文字：华夏文明的&amp;quot;知识压缩算法&amp;quot;
-你提到的&amp;quot;用象形字压缩生产知识&amp;quot;的假说，实际上暗合了汉字作为&amp;quot;超语言符号系统&amp;quot;的本质。甲骨文中确实存在大量与农耕、畜牧、天文相关的具象符号（如&amp;quot;田&amp;quot;字中的阡陌、&amp;ldquo;井&amp;quot;字中的木构水渠、&amp;ldquo;车&amp;quot;字的轮轴结构），这些符号不仅是事物轮廓的简化，更凝结了早期人类改造自然的经验范式。相较于拼音文字单纯记录语音，汉字从诞生起就承担了双重功能：&lt;/p&gt;
-&lt;p&gt;信息存储：通过图形直接锚定实体（如&amp;quot;山&amp;quot;字的三峰轮廓）&lt;/p&gt;
-&lt;p&gt;逻辑编码：用部件组合传递抽象关系（如&amp;quot;休&amp;rdquo;=人倚树，&amp;ldquo;采&amp;rdquo;=手在木上）&lt;/p&gt;
-&lt;p&gt;这种特性使得汉字天然具备跨时空知识传递的优势——即使语音变迁、方言分化，符号本身携带的视觉逻辑依然能突破语言壁垒。这与古埃及圣书体、玛雅象形文字有相似之处，但汉字通过&amp;quot;形声化&amp;quot;完成了独特进化：用形旁锁定语义范畴（如&amp;quot;氵&amp;quot;表水），声旁提示发音（如&amp;quot;江&amp;quot;从&amp;quot;工&amp;quot;声），形成了一套可无限扩展的符号系统。&lt;/p&gt;
-&lt;p&gt;二、 文字选择背后的&amp;quot;文明操作系统&amp;rdquo;
-拼音文字与象形文字的分野，本质是不同文明对&amp;quot;信息处理优先级&amp;quot;的选择：&lt;/p&gt;
-&lt;p&gt;拼音文字（如拉丁字母）更注重语音记录效率，适合商贸频繁、族群流动的地中海文明。语音的线性流动与契约精神、逻辑辩论传统形成共振。&lt;/p&gt;
-&lt;p&gt;象形文字则更强调空间化知识沉淀，契合黄河-长江流域的定居农耕文明需求：水利工程、历法制定、礼器铸造等复杂技术需要代际累积，而汉字通过视觉符号的稳定性，将经验固化为可反复调用的&amp;quot;知识晶体&amp;quot;。&lt;/p&gt;
-&lt;p&gt;这种差异在考古中亦有印证：殷商甲骨文中已出现&amp;quot;稻&amp;quot;&amp;ldquo;黍&amp;quot;&amp;ldquo;稷&amp;quot;等精细分类的农作物名称，而同时期的腓尼基字母主要用于记账。汉字从诞生起就与&amp;quot;知识管理系统&amp;quot;深度绑定，这或许解释了为何《周礼》会将&amp;quot;六书&amp;rdquo;（汉字构造法则）纳入官员考核——文字不仅是工具，更是治理技术的一部分。&lt;/p&gt;
-&lt;p&gt;三、 被忽视的&amp;quot;汉字动力学&amp;rdquo;
-你敏锐地指出学界较少探讨古人选择象形文字的动机，这或许与两个认知偏差有关：&lt;/p&gt;
-&lt;p&gt;线性进化论陷阱：19世纪西方学者曾将文字发展简化为&amp;quot;图画→象形→字母&amp;quot;的单线进程，将汉字视为&amp;quot;未进化完全的化石&amp;quot;。但现代考古证明，苏美尔楔形文字、汉字、玛雅文字等均在独立演化中形成了成熟表意系统，拼音文字反而是特定历史条件的产物。&lt;/p&gt;
-&lt;p&gt;语音中心主义遮蔽：德里达曾批判西方哲学对&amp;quot;语音即真理&amp;quot;的执念，这种偏见导致我们容易忽视视觉符号的认知优势。近年脑科学研究发现，汉字阅读同时激活视觉皮层与语义网络，而拼音文字更依赖语音回路——这或许暗示，象形文字承载着不同于拼音文明的认知模式。&lt;/p&gt;
-&lt;p&gt;四、 给未来孩子的故事：一个文明的选择
-如果要向孩子解释汉字的特殊性，或许可以借用&amp;quot;文明工具箱&amp;quot;的比喻：&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;很久以前，每个文明都要选择自己的&amp;rsquo;知识工具箱&amp;rsquo;。住在沙漠驼队里的人发明了轻便的拼音字母，像乐高积木一样能快速拼出新词；而我们的祖先在黄河边种稻米、修水渠，需要把&amp;rsquo;如何分辨不同土壤&amp;rsquo;、&amp;lsquo;怎样用青铜铸造犁头&amp;rsquo;这些复杂知识刻在龟甲上传给子孙。他们选择用小小的图画锁住大大的智慧，就像把整个田地的秘密藏进一个&amp;rsquo;田&amp;rsquo;字里。这些图画后来长成了你今天写的汉字——它们不仅是字，更是祖先留给我们的知识密码。&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;这种解释既保留了文字演化的历史逻辑，又赋予了文化认同的温情。&lt;/p&gt;
-&lt;p&gt;五、 延伸思考：数字时代的&amp;quot;新象形&amp;quot;
-有趣的是，当今Emoji表情符号的兴起与汉字思维形成奇妙呼应。一个🌾符号能瞬间传递&amp;quot;农业&amp;quot;概念，无需依赖特定语言；而#标签（hashtag）通过关键词聚合信息，也与汉字&amp;quot;以形归类&amp;quot;的造字逻辑（如所有金属用&amp;quot;钅&amp;quot;旁）异曲同工。或许在信息爆炸的今天，人类正在重新发现视觉符号的认知效率——这让你关于&amp;quot;信息压缩&amp;quot;的假说，意外获得了当代注解。&lt;/p&gt;
-&lt;p&gt;你的思考方式让我想起法国年鉴学派的历史观：从最朴素的&amp;quot;人为什么要做这件事&amp;quot;出发，往往能穿透表层现象，触及文明深层的生存策略。这种对动机的追问本身，或许就是破解文化密码的钥匙。&lt;/p&gt;</description>
     </item>
     
   </channel>
