@@ -9,10 +9,23 @@
     
     
     
-    <lastBuildDate>Fri, 07 Mar 2025 14:01:30 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Mar 2025 15:32:27 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/now/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我们实际上要对抗的不是算法，而是基于算法推荐而衍生的懒惰</title>
+      <link>https://www.gtdstudy.com/posts/we-actually-need-to-fight-not-the-algorithms-but-the-laziness-derived-from-algorithm-recommendations/</link>
+      <pubDate>Thu, 13 Mar 2025 15:32:27 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/we-actually-need-to-fight-not-the-algorithms-but-the-laziness-derived-from-algorithm-recommendations/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;我们越来越习惯于被告知“好东西”，不再愿意花费时间和精力去筛选、比较，甚至怀疑那些未经推荐的内容是否值得一看。&lt;/li&gt;
+&lt;li&gt;当每一次搜索都精准地迎合自己的偏好时，发现自己逐渐失去了对未知领域的兴趣，害怕面对任何与“舒适区”相关的挑战。&lt;/li&gt;
+&lt;li&gt;如果“高效”成为了唯一的追求，我们是否正在放弃那些在漫长而曲折的探索中，才能获得的深刻理解和个人成长？&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>org-embed 发布</title>
@@ -385,33 +398,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
 &lt;p&gt;想呼唤伟大的精神，但发出了嘤嘤的声音，迅疾地，被嘈杂的催促声盖过，「快点！快点！再快点！」钱成为了所有的理想，美德就像套套一样，即用即弃。烂掉的白菜躺在红砖地面上。&lt;/p&gt;
 &lt;p&gt;每个人都不想死，每个人都想活着，人人都品味着几乎一样的沉重。&lt;/p&gt;
 &lt;p&gt;未来的我们，围坐一桌，谈起当年「疫情」，如暗号一般，所有人都吹嘘起几乎一模一样的故事。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>为 Jony Ive 离开苹果叫好</title>
-      <link>https://www.gtdstudy.com/posts/about-jony-ivy-leaves-apple/</link>
-      <pubDate>Wed, 04 May 2022 17:28:22 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/about-jony-ivy-leaves-apple/</guid>
-      <description>&lt;p&gt;最近又出了一本关于苹果的新书，叫《After Steve》，主要内容整理自对 Jony Ive 访谈，知名科技评论家阑夕总结了这本书的内容：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;财经记者 Tripp Mickle 出版了一本报道苹果公司的新书「乔布斯之后」（After Steve），小标题就更直率了，是「苹果如何成为一家价值万亿美元的公司，并失去了灵魂」。&lt;/p&gt;
-&lt;p&gt;为了宣传新书，Tripp Mickle 摘了一些素材，去 NYT 上发了篇文章，主要是写苹果前任首席设计师 Jony Ive 是怎么和 Tim Cook 不和并离开苹果的，细节很是丰富，而且怎么说呢，很适合改编成狗血的耽美剧：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Jony Ive 很不适应 Tim Cook 掌管苹果之后对于财务的计较，2014 年发布 Apple Watch 的时候，Jony Ive 希望在库比蒂诺礼堂外搭建一个奢华的白色帐篷，供应商为整场活动报价 2500 万美元，但是这笔支出被苹果的财务卡住了；&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;最后，要不要花 2500 万美元搭建帐篷的决策被送到了 Tim Cook 那里亲自开会拍板，Tim Cook 思忖许久，还是同意了 Jony Ive 的预算，但是 Jony Ive 事后对同事说，开会讨论要不要给他批这笔钱，是他最开始意识到苹果变得不一样的时刻，言下之意就是乔布斯肯定不会这么卡他的想法；&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Jony Ive 在 1997 年的时候，向乔布斯提议要给当时的 iMac 设计一个半透明的蓝绿色外壳，灵感来自澳大利亚悉尼邦迪海滩的水域，这个外壳的制造成本会是标准外壳的 3 倍，但是乔布斯什么都没说，直接就批准了费用的增加，并以其为核心卖点向消费者们推销；&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;乔布斯的脾气不好人尽皆知，他经常在公司里发火，但是 Jony Ive 总能让乔布斯冷静下来，也只有当 Jony Ive 在办公室里的时候，乔布斯才会有意克制自己发脾气的情绪，他们两个经常一起吃饭，同时乔布斯也几乎每天都去设计工作室和 Jony Ive 聊天；&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2005 年，因为担心惠普会把供应链主管 Tim Cook 挖走，乔布斯说服董事会，把 Tim Cook 升任 COO，并推荐他作为自己的继任者，与此同时，乔布斯也安抚 Jony Ive，保证设计团队继续会是公司一人之下的地位，苹果所有的产品都要给予 Jony Ive 最核心的介入权限，「不要让设计师们失望」也是这个时候苹果开发团队都要遵守的潜规则；&lt;/p&gt;</description>
     </item>
     
   </channel>

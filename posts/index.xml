@@ -15,6 +15,19 @@
     
     
     <item>
+      <title>我们实际上要对抗的不是算法，而是基于算法推荐而衍生的懒惰</title>
+      <link>https://www.gtdstudy.com/posts/we-actually-need-to-fight-not-the-algorithms-but-the-laziness-derived-from-algorithm-recommendations/</link>
+      <pubDate>Thu, 13 Mar 2025 15:32:27 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/we-actually-need-to-fight-not-the-algorithms-but-the-laziness-derived-from-algorithm-recommendations/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;我们越来越习惯于被告知“好东西”，不再愿意花费时间和精力去筛选、比较，甚至怀疑那些未经推荐的内容是否值得一看。&lt;/li&gt;
+&lt;li&gt;当每一次搜索都精准地迎合自己的偏好时，发现自己逐渐失去了对未知领域的兴趣，害怕面对任何与“舒适区”相关的挑战。&lt;/li&gt;
+&lt;li&gt;如果“高效”成为了唯一的追求，我们是否正在放弃那些在漫长而曲折的探索中，才能获得的深刻理解和个人成长？&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>2025 年 2 月 jenni.ai 流量分析</title>
       <link>https://www.gtdstudy.com/posts/website-analysis-about-jenni-ai-video-in-25-feb/</link>
       <pubDate>Thu, 13 Mar 2025 11:30:36 +0800</pubDate>
@@ -685,15 +698,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</description>
-    </item>
-    
-    <item>
-      <title>Vim 使用 Ctrl &#43; o 回到之前的光标位置</title>
-      <link>https://www.gtdstudy.com/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</link>
-      <pubDate>Tue, 11 Feb 2025 10:08:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/</guid>
-      <description>&lt;p&gt;如果想知道之前的光标位置的记录，可以输入 &lt;code&gt;:jumps&lt;/code&gt; 就能看到之前光标位置记录的列表。&lt;/p&gt;</description>
     </item>
     
   </channel>
