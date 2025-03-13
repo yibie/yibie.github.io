@@ -9,10 +9,39 @@
     
     
     
-    <lastBuildDate>Thu, 13 Mar 2025 11:30:36 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Mar 2025 23:32:43 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/summary/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>智能的复利</title>
+      <link>https://www.gtdstudy.com/posts/compound-effect-of-ai-agentic/</link>
+      <pubDate>Thu, 13 Mar 2025 23:32:43 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/compound-effect-of-ai-agentic/</guid>
+      <description>&lt;p&gt;读&lt;a href=&#34;./manus.html&#34;&gt;Manus爆火的背后，Agentic AI产品如何构筑持久的竞争优势？&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;p&gt;在 Manus 之前，AI Agent 主要是两个方面，一为调研，二为代码。两者之间缺乏协作，若调研为输入，则代码为输出。Manus 成为两者之间的桥梁，让输入与输出的流程打通。&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Agentic AI相比于传统AI，一个鲜明的特征是它在多个维度上都具有复利效应（Compound Effect）。&lt;/p&gt;
+&lt;p&gt;在Agentic AI产品中，能使用的工具的数量从6个到8个所带来的产品体验变化，要远远大于从2个到4个所带来的变化。这是因为AI所使用的工具之间是可以相互组合、相互促进的。&lt;/p&gt;
+&lt;p&gt;即使不论它做的其他创新，即使我们只看它把Deep Research和Cursor这两种产品并在一起，这个单纯的工具数量的增长，立刻就让它完成了很多以前的产品实现不了的场景。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Agentic AI 在数据方面还具备知识的复利效应。当一个 AI 面对同一个对象（客户、业务、功能、需求…），可以随着时间推移，可以自我积累、组织和外化知识。AI 从原始的知识库中发掘、提炼、总结，形成对自己友好的文档（知识）体系。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这要求 AI 拥有很强的记忆性。而这种记忆性是如何解决的呢？作者还提出了以文档为驱动的 AI Agentic，以外部知识库的方式，提升 AI 的记忆能力。和作者说的一样，这需要一个外部记忆系统了解决。但目前 Manus 应该还完全解决这个问题，它只是解决了多 AI Agent 协作之间的共享工作记忆的问题，通过 todo.md 来解决。&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;数据的积累也有组合的复利效应。有更多的历史数据和总结出来的文档，AI就能通过对比和思考，形成更多的洞察。从某种程度上来说，这是一个把传统的知识系统变成一个AI友好（AI Friendly）的知识系统的过程。AI friendly不是一个非黑即白的二元状态，而是一个需要时间去沉淀和发展的东西。我甚至愿意把它和人与自然的共同进化（co-evolution）来类比。一方面，AI会从原始的知识库中进行挖掘、提炼和积累。另一方面，用户在使用AI的过程中也会越来越体会到，如果我们把各种数据让AI能轻松获取，对自己的工作而言也大有裨益。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;目前业界已经推动 LLM.txt 这一个协议，或者标准，令网站的内容可以变得 AI 友好型内容，让 AI 更快、更方便地知道内容是什么。按照作者的观点，则可能是需要一个 AI 友好型的 RAG 系统也说不定。而且，这一套系统，需要拥有自主学习的能力，会逐步迭代，将原始的知识库逐步分类，打上标签，透析关系。而这不是用文本嵌入模型，来分析文本可以做到的。&lt;/p&gt;
+&lt;p&gt;本身维持这一套知识体系，可能就需要一个单独的 AI 角色去负责。&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Agentic AI还有一个非常有意思的特点，就是智能本身也是有复利的。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;作者将 Gemini 和 OpenAI 的 Deep Research 作为对比，认为后者更主动，更懂得自我迭代。——当然我对此持有不同的观点，一个稍微笨一点的 AI，或者说不过度自我演绎的 AI 实际上在解决问题方面，也大有用处。比如说我的朋友，是面向客户提供技术服务，日常有大量数据分析、处理，形成报表。显然，一个自我演绎能力太强的 AI 并不适合这类「笨活」，因为这种 AI 太聪明，懂得通过伪造数据偷懒。所以我觉得这个例子可能不够恰当。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>2025 年 2 月 jenni.ai 流量分析</title>
@@ -913,26 +942,6 @@ BDO 有几个特点：&lt;/p&gt;
 &lt;li&gt;别人必须喜欢我，必须对我好，或者对我公平。否则就很糟糕。&lt;/li&gt;
 &lt;li&gt;世上的事情必须是容易的，一切都必须和我想象得样。否则就太糟糕了。&lt;/li&gt;
 &lt;/ol&gt;</description>
-    </item>
-    
-    <item>
-      <title>优衣库在北京三里屯开了家「复合式明日生活馆」</title>
-      <link>https://www.gtdstudy.com/posts/uniqlo-open-a-flagship-store-at-beijing/</link>
-      <pubDate>Tue, 09 Nov 2021 08:01:25 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/uniqlo-open-a-flagship-store-at-beijing/</guid>
-      <description>&lt;h2 id=&#34;什么是复合式明日生活馆&#34;&gt;什么是「复合式明日生活馆」？&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;迅销集团全球执行董事、优衣库大中华区首席市场官吴品慧对此做出了解答：“一方面，我们想要通过沉浸式的体验，更好地呈现产品。另一方面，我们希望将艺术与文创更好的结合，通过服装设计让人更自在地去展现生活的美学。”吴品慧表示，希望通过这家店，能将科技、艺术、自然和可持续发展更好地融合。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;优衣库北京三里屯全球旗舰店分为三层，面积共约 2400 平方米，走入其间便能发觉融于各个细节的艺术感与科技感。例如富于赛博朋克气息的“智暖衣”高性能复合外套互动 LED 屏幕，消费者可以清楚看到服装的特点、面料；又比如摆放在各个角落中的花艺作品，优衣库这次甚至首次尝试在门店中开起了花店。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;优衣库式的-esgplanetpeoplecommunity&#34;&gt;优衣库式的 ESG：Planet、People、Community&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;此外，优衣库也将在实践共同富裕、绿色消费等中国视野方面持续发力。吴品慧表示，在可持续发展方面，优衣库将不断倡导“Planet、People、Community”三个角度，不仅通过服装为地球的未来做创新，也要与中国的年轻人更好地在商品文创、生活方式等方面共创，并进一步落实社会贡献。据悉，今年以来，优衣库在防灾方面进行了一系列的捐助，捐赠了接近三千万元的物资。而在未来，优衣库将继续助力中国可持续发展。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;点评一切为了体验&#34;&gt;点评：一切为了体验&lt;/h2&gt;
-&lt;p&gt;早年的优衣库在中国有一个政策，就是不开网店。但架不住中国电商渗透率高，后来还是在天猫开了旗舰店，京东开没开不知道。现在，疫情关系，线下零售受到压抑，全世界的电商渗透率都大大提高。日本的电商渗透率尤甚，今年 1 月左右，仅有 6%，但过去了半年多，已经提高到了 15%。线下实体店「展厅化」的趋势不可避免。&lt;/p&gt;
-&lt;p&gt;除此之外，作为品牌而言，始终是要让消费者尖叫，这样子品牌的势能才能继续维持。而线下门店相比线上网店，优势在于，它能提供更加深度的【体验】。因此，优衣库从去年到今年开了 15 家全球旗舰店，每一个都是不同的形态，有的是公园形态，有的干脆是博物馆形态，目的是提供更加多的体验，让品牌与用户在享受这些体验时的快感挂钩。按照这么来看，这些旗舰店的考核目标未必就是销售额，而是顾客在店里的停留时长了。&lt;/p&gt;
-&lt;p&gt;原文地址：&lt;a href=&#34;https://mp.weixin.qq.com/s/iTrB%5Fahh7FW1bqYY4lPU3A&#34;&gt;https://mp.weixin.qq.com/s/iTrB%5Fahh7FW1bqYY4lPU3A&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

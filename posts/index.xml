@@ -15,6 +15,35 @@
     
     
     <item>
+      <title>智能的复利</title>
+      <link>https://www.gtdstudy.com/posts/compound-effect-of-ai-agentic/</link>
+      <pubDate>Thu, 13 Mar 2025 23:32:43 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/compound-effect-of-ai-agentic/</guid>
+      <description>&lt;p&gt;读&lt;a href=&#34;./manus.html&#34;&gt;Manus爆火的背后，Agentic AI产品如何构筑持久的竞争优势？&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;p&gt;在 Manus 之前，AI Agent 主要是两个方面，一为调研，二为代码。两者之间缺乏协作，若调研为输入，则代码为输出。Manus 成为两者之间的桥梁，让输入与输出的流程打通。&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Agentic AI相比于传统AI，一个鲜明的特征是它在多个维度上都具有复利效应（Compound Effect）。&lt;/p&gt;
+&lt;p&gt;在Agentic AI产品中，能使用的工具的数量从6个到8个所带来的产品体验变化，要远远大于从2个到4个所带来的变化。这是因为AI所使用的工具之间是可以相互组合、相互促进的。&lt;/p&gt;
+&lt;p&gt;即使不论它做的其他创新，即使我们只看它把Deep Research和Cursor这两种产品并在一起，这个单纯的工具数量的增长，立刻就让它完成了很多以前的产品实现不了的场景。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Agentic AI 在数据方面还具备知识的复利效应。当一个 AI 面对同一个对象（客户、业务、功能、需求…），可以随着时间推移，可以自我积累、组织和外化知识。AI 从原始的知识库中发掘、提炼、总结，形成对自己友好的文档（知识）体系。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这要求 AI 拥有很强的记忆性。而这种记忆性是如何解决的呢？作者还提出了以文档为驱动的 AI Agentic，以外部知识库的方式，提升 AI 的记忆能力。和作者说的一样，这需要一个外部记忆系统了解决。但目前 Manus 应该还完全解决这个问题，它只是解决了多 AI Agent 协作之间的共享工作记忆的问题，通过 todo.md 来解决。&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;数据的积累也有组合的复利效应。有更多的历史数据和总结出来的文档，AI就能通过对比和思考，形成更多的洞察。从某种程度上来说，这是一个把传统的知识系统变成一个AI友好（AI Friendly）的知识系统的过程。AI friendly不是一个非黑即白的二元状态，而是一个需要时间去沉淀和发展的东西。我甚至愿意把它和人与自然的共同进化（co-evolution）来类比。一方面，AI会从原始的知识库中进行挖掘、提炼和积累。另一方面，用户在使用AI的过程中也会越来越体会到，如果我们把各种数据让AI能轻松获取，对自己的工作而言也大有裨益。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;目前业界已经推动 LLM.txt 这一个协议，或者标准，令网站的内容可以变得 AI 友好型内容，让 AI 更快、更方便地知道内容是什么。按照作者的观点，则可能是需要一个 AI 友好型的 RAG 系统也说不定。而且，这一套系统，需要拥有自主学习的能力，会逐步迭代，将原始的知识库逐步分类，打上标签，透析关系。而这不是用文本嵌入模型，来分析文本可以做到的。&lt;/p&gt;
+&lt;p&gt;本身维持这一套知识体系，可能就需要一个单独的 AI 角色去负责。&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Agentic AI还有一个非常有意思的特点，就是智能本身也是有复利的。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;作者将 Gemini 和 OpenAI 的 Deep Research 作为对比，认为后者更主动，更懂得自我迭代。——当然我对此持有不同的观点，一个稍微笨一点的 AI，或者说不过度自我演绎的 AI 实际上在解决问题方面，也大有用处。比如说我的朋友，是面向客户提供技术服务，日常有大量数据分析、处理，形成报表。显然，一个自我演绎能力太强的 AI 并不适合这类「笨活」，因为这种 AI 太聪明，懂得通过伪造数据偷懒。所以我觉得这个例子可能不够恰当。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>我们实际上要对抗的不是算法，而是基于算法推荐而衍生的懒惰</title>
       <link>https://www.gtdstudy.com/posts/we-actually-need-to-fight-not-the-algorithms-but-the-laziness-derived-from-algorithm-recommendations/</link>
       <pubDate>Thu, 13 Mar 2025 15:32:27 +0800</pubDate>
@@ -664,40 +693,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
       <guid>https://www.gtdstudy.com/posts/learned-a-new-concept-maide-work/</guid>
       <description>&lt;p&gt;电影界的大部分导演在处女作的时候基本会把自己知道或者想要尝试的所有技法都尽量用到作品里去。&lt;/p&gt;
 &lt;p&gt;我觉得这个通病不光是导演才会有，只要是制作什么东西的人，在对待第一个作品的时候，都会有处女作通病。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Vim 针对一段长文本的导航</title>
-      <link>https://www.gtdstudy.com/posts/vim-navigation-in-long-line/</link>
-      <pubDate>Tue, 11 Feb 2025 10:11:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/vim-navigation-in-long-line/</guid>
-      <description>&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;gj&lt;/th&gt;
-          &lt;th&gt;向下滚动一行（视觉行）&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;gk&lt;/td&gt;
-          &lt;td&gt;向上滚动一行（视觉行）&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;g^&lt;/td&gt;
-          &lt;td&gt;跳转到当前视觉行的开头&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;g$&lt;/td&gt;
-          &lt;td&gt;跳转到当前视觉行的末尾&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;gm&lt;/td&gt;
-          &lt;td&gt;跳转到当前视觉行的中间&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</description>
     </item>
     
   </channel>
