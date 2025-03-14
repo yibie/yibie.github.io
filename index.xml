@@ -15,6 +15,26 @@
     
     
     <item>
+      <title>As coding becomes easier, more people should code, not fewer!</title>
+      <link>https://www.gtdstudy.com/posts/andrew-ng-more-people-should-code-not-fewer/</link>
+      <pubDate>Sat, 15 Mar 2025 06:46:57 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/andrew-ng-more-people-should-code-not-fewer/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;吴恩达在推特上表示，有了 AI，会令更多人编程，而不是更少：&lt;/p&gt;
+&lt;p&gt;如今，一些人以人工智能将实现编程自动化为由，劝阻他人学习编程。这种建议日后恐怕会被视为最糟糕的职业建议之一。我并不认同某位图灵奖及诺贝尔奖得主所言：“相较于编程职业变得无所不能，其更有可能走向消亡……计算机将越来越多地自行完成编程。”此类劝阻人们学习编程的言论实属有害！&lt;/p&gt;
+&lt;p&gt;回顾20世纪60年代，编程方式从打孔卡（程序员需在实体卡片上逐字逐孔地编写代码，费时费力）转变为键盘与终端设备，编程的门槛得以降低。那一时期开始学习编程，较之以往任何时候都要更为有利。然而，正是在那个年代，诺贝尔奖得主赫布·西蒙写下了上文引用的观点。如今劝人放弃学习编程的论调，仍与他的看法遥相呼应。&lt;/p&gt;
+&lt;p&gt;编程越是变得简易，越应当有更多人投身其中，而非减少！&lt;/p&gt;
+&lt;p&gt;过去几十年间，编程语言从汇编语言演进至C等高级语言，开发环境从桌面转向云端，工具从纯文本编辑器升级为集成开发环境（IDE），乃至如今的AI辅助编程——有时甚至无需细审生成的代码（近期一些程序员戏称为“氛围编程”），每一步都让编程更为简便。（顺带一提，若欲深入了解AI辅助编程，可参阅我们的纯视频短期课程《利用Windsurf的AI编码助手开发应用》。）&lt;/p&gt;
+&lt;p&gt;我曾撰文指出，我认为技术娴熟者将通过协调AI工具，逐步成为“10倍专业人士”——即在自身领域内影响力超出常人十倍的个体。我愈发坚信，对许多人而言，实现这一目标的最佳途径并非仅作为AI应用的被动使用者，而是通过学习编程，掌握足以有效运用AI辅助编码工具的技能。&lt;/p&gt;
+&lt;p&gt;我常被问及，若有人担忧AI取代工作，该如何应对？我的回答是：深入了解AI并加以掌控。因为未来至关重要的技能之一，便是能够清晰地向计算机传达你的需求，使其为你执行任务。编程（或借助AI完成编程）正是实现这一目标的最佳方式。&lt;/p&gt;
+&lt;p&gt;在开发《人人生成式AI》课程时，我需要为背景图像生成AI艺术作品。当时，我与一位研究过艺术史、熟谙艺术语言的伙伴合作。他通过Midjourney输入基于历史风格、色彩搭配及艺术家灵感等术语的提示词——以艺术的语言表达需求，最终获得了理想效果。而我因不谙此道，仅凭简单尝试提示，效果远不及他。&lt;/p&gt;
+&lt;p&gt;同样地，科学家、分析师、市场营销人员、招聘专员，以及各行各业的从业者，若通过学习编程掌握了软件语言，便能更精确地向大型语言模型（LLM）或AI赋能的IDE表达需求，从而获得更优结果。随着这些工具持续降低编程难度，此刻正是学习编程、掌握软件语言、指挥计算机精确执行你意图的最佳时机。&lt;/p&gt;
+&lt;p&gt;不断前行吧！&lt;/p&gt;
+&lt;p&gt;安德鲁&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
       <title>2025 年 2 月 searrt.ai 流量分析</title>
       <link>https://www.gtdstudy.com/posts/website-analysis-about-seart-ai-in-25-feb/</link>
       <pubDate>Fri, 14 Mar 2025 16:09:52 +0800</pubDate>
@@ -819,15 +839,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
       <pubDate>Tue, 11 Feb 2025 16:41:00 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/posts/if-new-things-show-up/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>很多人会问，无聊的时候，你会做什么？我觉得这个问法有点问题，如果是我，我会问：有什么时候，你会感到无聊？我觉得无聊只是一个感受，理解感受比消灭感受要重要。</title>
-      <link>https://www.gtdstudy.com/posts/what-do-you-do-when-you-feeling-boring/</link>
-      <pubDate>Tue, 11 Feb 2025 16:34:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/what-do-you-do-when-you-feeling-boring/</guid>
       <description></description>
     </item>
     
