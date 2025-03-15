@@ -9,7 +9,7 @@
     
     
     
-    <lastBuildDate>Fri, 14 Mar 2025 16:09:52 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Mar 2025 17:25:23 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/summary/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
     <item>
       <title>2025 年 2 月 searrt.ai 流量分析</title>
       <link>https://www.gtdstudy.com/posts/website-analysis-about-seart-ai-in-25-feb/</link>
-      <pubDate>Fri, 14 Mar 2025 16:09:52 +0800</pubDate>
+      <pubDate>Sat, 15 Mar 2025 17:25:23 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/posts/website-analysis-about-seart-ai-in-25-feb/</guid>
       <description>&lt;h2 id=&#34;域名信息&#34;&gt;域名信息&lt;/h2&gt;
@@ -44,25 +44,15 @@
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;流量来源渠道&lt;/th&gt;
+          &lt;th&gt;百分比%&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;流量来源渠道&lt;/td&gt;
-          &lt;td&gt;百分比%&lt;/td&gt;
+          &lt;td&gt;直接&lt;/td&gt;
+          &lt;td&gt;49.75&lt;/td&gt;
       &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;直接&lt;/th&gt;
-          &lt;th&gt;49.75&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;自然搜索&lt;/td&gt;
           &lt;td&gt;40.83&lt;/td&gt;
