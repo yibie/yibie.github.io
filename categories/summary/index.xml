@@ -9,10 +9,152 @@
     
     
     
-    <lastBuildDate>Sat, 15 Mar 2025 17:25:23 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Mar 2025 15:30:00 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/summary/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2025 年 2 月 klingai.com 流量分析</title>
+      <link>https://www.gtdstudy.com/posts/website-analysis-about-klingai-com-in-25-feb/</link>
+      <pubDate>Sun, 16 Mar 2025 15:30:00 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/website-analysis-about-klingai-com-in-25-feb/</guid>
+      <description>&lt;h2 id=&#34;域名信息&#34;&gt;域名信息&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;注册日期&lt;/th&gt;
+          &lt;th&gt;2024年3月26日&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;注册商&lt;/td&gt;
+          &lt;td&gt;22net, Inc.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;基础流量数据-by-siminerweb&#34;&gt;基础流量数据（by SiminerWeb）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Fab 25&lt;/strong&gt;&lt;/strong&gt;: 15.91M&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Jan 25&lt;/strong&gt;&lt;/strong&gt;: 17M&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;strong&gt;2月流量同比&lt;/strong&gt;&lt;/strong&gt;: -6.62%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;流量来源渠道&lt;/th&gt;
+          &lt;th&gt;百分比%&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;直接&lt;/td&gt;
+          &lt;td&gt;61.10&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;自然搜索&lt;/td&gt;
+          &lt;td&gt;28.85&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;付费搜索&lt;/td&gt;
+          &lt;td&gt;2.57&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;外链&lt;/td&gt;
+          &lt;td&gt;2.85&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;展示广告&lt;/td&gt;
+          &lt;td&gt;0.12&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;社交&lt;/td&gt;
+          &lt;td&gt;4.49&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;电子邮件&lt;/td&gt;
+          &lt;td&gt;0.02&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;主要流量来源国别&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;国家&lt;/th&gt;
+          &lt;th&gt;占比%&lt;/th&gt;
+          &lt;th&gt;变动%&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;美国&lt;/td&gt;
+          &lt;td&gt;14.18&lt;/td&gt;
+          &lt;td&gt;-12.86&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;印尼&lt;/td&gt;
+          &lt;td&gt;11.46&lt;/td&gt;
+          &lt;td&gt;-9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;巴西&lt;/td&gt;
+          &lt;td&gt;5.96&lt;/td&gt;
+          &lt;td&gt;-10.11&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;越南&lt;/td&gt;
+          &lt;td&gt;5.32&lt;/td&gt;
+          &lt;td&gt;84.29&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;印度&lt;/td&gt;
+          &lt;td&gt;5.06&lt;/td&gt;
+          &lt;td&gt;-29.55&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;其它主要数据&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;UV&lt;/th&gt;
+          &lt;th&gt;3.755M&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;访问页面数&lt;/td&gt;
+          &lt;td&gt;7.26&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;停留时长&lt;/td&gt;
+          &lt;td&gt;9:33&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;跳出率&lt;/td&gt;
+          &lt;td&gt;36.58%&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;桌面端&lt;/td&gt;
+          &lt;td&gt;9.4M&lt;/td&gt;
+          &lt;td&gt;59.1%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;移动端&lt;/td&gt;
+          &lt;td&gt;6.5M&lt;/td&gt;
+          &lt;td&gt;41.9%&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;大家都知道可灵是快手旗下的视频生成网站，之前一直很受关注。从流量结构来看，直接流量占比高，远高于自然搜索的流量占比，只有大约三成流量来自自然搜索，类似的网站比如 seaart.ai 其自然搜索量占比足有四成半多。这种情况可以两面分析，可以说，可灵的重复访客多，这是一件好事；也可以说，可灵的外部引流做得还不够好。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>2025 年 2 月 searrt.ai 流量分析</title>
@@ -1043,27 +1185,6 @@ BDO 有几个特点：&lt;/p&gt;
 &lt;p&gt;小红书博主 10 万粉丝以上的博主，广子月销量最高破 30 万一个月，1 个人带着 3 个小助理一起干，不做其他的，就是发帖子，存图，发帖子，选品接单；&lt;/p&gt;
 &lt;p&gt;小红书商业化明显比 B 站更成功，小红书博主比 B 站更吃香。&lt;/p&gt;
 &lt;p&gt;但是 B 站明明是最有质量的中长视频生产者集聚地啊。表示很遗憾。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>数字化转型：安踏数字化转型</title>
-      <link>https://www.gtdstudy.com/posts/digitization-of-the-sport-brand-anta/</link>
-      <pubDate>Sat, 20 Nov 2021 09:13:58 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/digitization-of-the-sport-brand-anta/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://page.om.qq.com/page/OTyr5xeUY2xWQTptkiGcJmGw0&#34;&gt;https://page.om.qq.com/page/OTyr5xeUY2xWQTptkiGcJmGw0&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;数字化转型取得阶段性的胜利&#34;&gt;数字化转型取得阶段性的胜利&lt;/h2&gt;
-&lt;p&gt;安踏体育用品有限公司（以下简称“安踏集团”）从 2020 年下半年开始，全面推进数字化转型战略，已经取得了阶段性成果。安踏集团是一家独到的公司，2021 年上半年收益超过 228 亿元，增速超过 55%，不仅在中国体育用品企业里一骑绝尘，而且在中国市场超过阿迪达斯。&lt;/p&gt;
-&lt;h2 id=&#34;安踏数字化转型的目标&#34;&gt;安踏数字化转型的目标&lt;/h2&gt;
-&lt;p&gt;安踏集团的数字化转型还有一个量化的目标：到 2025 年，集团线上业务占比超过 40%，DTC（直面消费者）业务占比达到 70%。从 2021 年上半年数据来看，数字化转型已经带动安踏集团电商收益持续高增长，同比增加 61%；DTC 成果显现，OTO 流水增长超 1.5 倍；天猫平台数据显示，安踏集团 1-7 月线上总流水排名位居所有体育用品企业第一位。&lt;/p&gt;
-&lt;h2 id=&#34;数字化落地的四大项目&#34;&gt;数字化落地的四大项目&lt;/h2&gt;
-&lt;p&gt;第一个项目围绕人展开，规划了【会员价值项目】。目的是实现与会员的连接和互动，增加会员的黏性和忠诚度，提高商品的复购率。&lt;/p&gt;
-&lt;p&gt;第二个项目围绕场展开，打造【品牌私域流量中心】（私域指的是安踏集团自己的用户）。安踏集团通过优化对消费者大数据的精准洞察，加强各品牌的消费者触点，建立品牌私域流量中心。这个项目能够重构全渠道模式，精准定义内容和场景，加强与消费者全方位连接和互动，提升品牌黏性和消费者体验。&lt;/p&gt;
-&lt;p&gt;第三个项目围绕商品（货）展开，实现【商品智能化运营】。这个项目以消费者大数据驱动商品运营，逐步实现商品全价值链从自动化到智能化的进阶，提升商品效率。&lt;/p&gt;
-&lt;p&gt;第四个项目是【数字中台】的构建。为了支撑以上三个项目，安踏的数字化需要一个技术底座，就是数字中台——以平台化的方式，打造一个覆盖全集团、多品牌、全价值链、线上线下打通并且能够支持国际化业务的技术中台。&lt;/p&gt;
-&lt;p&gt;安踏数字化转型对业务的推动比较明显。数字化零售管理方面，集团自主研发的零售系统及电商中台系统，可每日实时处理 50 万行销售小票、100 多万条库存移动单据，双 11 期间订单处理量超过 1500 万张。&lt;/p&gt;
-&lt;h2 id=&#34;安踏数字化阶段&#34;&gt;安踏数字化阶段&lt;/h2&gt;
-&lt;p&gt;安踏集团数字化转型的战略蓝图正是分阶段的，现在正处在 1.0 阶段，到 2022 年年底结束，预期目标是实现系统的平台化和分析的可视化。2.0 阶段会从 2021 年下半年开始（与 1.0 是并行关系），希望到 2023 年年底实现集团运营的数字化、决策的智能化，做到数智化赋能业务。到 2025 年，安踏集团的数字化达到 3.0 阶段，那时集团的运营平台和技术平台实现百分之百的自主研发，形成端到端的全价值链数字化解决方案，并能给行业输出经验。&lt;/p&gt;</description>
     </item>
     
   </channel>
