@@ -12,7 +12,7 @@
 可以看到，这是一个树形列表，不过它会按照「年-月-日」来排列。
 我一直以来也是按照这种方式来组织自己的日志，不过以前是自己手动操作，以及方式有点不一样，我喜欢按照周数来排列。
 原本我以为需要自己写一个自定义配置什么的，但没想到 org-mode 里面已经包含了这一功能。
-需要在设置 org-capture 模板时，指定使用 file&#43;datetree 的方式，这样在 capture 时会自动在对应的日期下创建对应的标题 org-mode 提供了 :tree-type 参数控制日期树的组织方式，有两个参数：month 仅按月组织；week 则按照周数组织。 按周组织日期树是长什么样的呢？
+需要在设置 org-capture 模板时，指定使用 file&#43;datetree 的方式，这样在 capture 时会自动在对应的日期下创建对应的标题 org-mode 提供了 :tree-type 参数控制日期树的组织方式，有两个参数：=month= 仅按月组织；=week= 则按照周数组织。 按周组织日期树是长什么样的呢？
 可以看到，它不再以月份作为二级标题，而是使用 2025-W11 这个格式来表示第 xx 周。
 基本的配置方式如下，可以拿去参考。
 (&#34;j&#34; &#34;Journal&#34; entry (file&#43;datetree &#34;~/Documents/notes/diary.org&#34;) &#34;* %? %U&#34; :tree-type week :empty-lines 1) ">
@@ -27,7 +27,7 @@
 可以看到，这是一个树形列表，不过它会按照「年-月-日」来排列。
 我一直以来也是按照这种方式来组织自己的日志，不过以前是自己手动操作，以及方式有点不一样，我喜欢按照周数来排列。
 原本我以为需要自己写一个自定义配置什么的，但没想到 org-mode 里面已经包含了这一功能。
-需要在设置 org-capture 模板时，指定使用 file&#43;datetree 的方式，这样在 capture 时会自动在对应的日期下创建对应的标题 org-mode 提供了 :tree-type 参数控制日期树的组织方式，有两个参数：month 仅按月组织；week 则按照周数组织。 按周组织日期树是长什么样的呢？
+需要在设置 org-capture 模板时，指定使用 file&#43;datetree 的方式，这样在 capture 时会自动在对应的日期下创建对应的标题 org-mode 提供了 :tree-type 参数控制日期树的组织方式，有两个参数：=month= 仅按月组织；=week= 则按照周数组织。 按周组织日期树是长什么样的呢？
 可以看到，它不再以月份作为二级标题，而是使用 2025-W11 这个格式来表示第 xx 周。
 基本的配置方式如下，可以拿去参考。
 (&#34;j&#34; &#34;Journal&#34; entry (file&#43;datetree &#34;~/Documents/notes/diary.org&#34;) &#34;* %? %U&#34; :tree-type week :empty-lines 1) ">
@@ -46,7 +46,7 @@
 可以看到，这是一个树形列表，不过它会按照「年-月-日」来排列。
 我一直以来也是按照这种方式来组织自己的日志，不过以前是自己手动操作，以及方式有点不一样，我喜欢按照周数来排列。
 原本我以为需要自己写一个自定义配置什么的，但没想到 org-mode 里面已经包含了这一功能。
-需要在设置 org-capture 模板时，指定使用 file&#43;datetree 的方式，这样在 capture 时会自动在对应的日期下创建对应的标题 org-mode 提供了 :tree-type 参数控制日期树的组织方式，有两个参数：month 仅按月组织；week 则按照周数组织。 按周组织日期树是长什么样的呢？
+需要在设置 org-capture 模板时，指定使用 file&#43;datetree 的方式，这样在 capture 时会自动在对应的日期下创建对应的标题 org-mode 提供了 :tree-type 参数控制日期树的组织方式，有两个参数：=month= 仅按月组织；=week= 则按照周数组织。 按周组织日期树是长什么样的呢？
 可以看到，它不再以月份作为二级标题，而是使用 2025-W11 这个格式来表示第 xx 周。
 基本的配置方式如下，可以拿去参考。
 (&#34;j&#34; &#34;Journal&#34; entry (file&#43;datetree &#34;~/Documents/notes/diary.org&#34;) &#34;* %? %U&#34; :tree-type week :empty-lines 1) ">
@@ -205,7 +205,7 @@
 <p>原本我以为需要自己写一个自定义配置什么的，但没想到 org-mode 里面已经包含了这一功能。</p>
 <ol>
 <li>需要在设置 org-capture 模板时，指定使用 <code>file+datetree</code> 的方式，这样在 capture 时会自动在对应的日期下创建对应的标题</li>
-<li>org-mode 提供了 <code>:tree-type</code> 参数控制日期树的组织方式，有两个参数：<del>month</del> 仅按月组织；<del>week</del> 则按照周数组织。</li>
+<li>org-mode 提供了 <code>:tree-type</code> 参数控制日期树的组织方式，有两个参数：=month= 仅按月组织；=week= 则按照周数组织。</li>
 </ol>
 <p>按周组织日期树是长什么样的呢？</p>
 <figure><img src="/posts/automatically-date-stamp-org-capture-entries/PixPin_2025-03-16_18-39-24.png">
