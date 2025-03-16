@@ -15,6 +15,38 @@
     
     
     <item>
+      <title>让 org-capture 收集项可以自动归于某一日期下</title>
+      <link>https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/</link>
+      <pubDate>Sun, 16 Mar 2025 18:43:21 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/</guid>
+      <description>&lt;p&gt;这么拗口的标题真是对不起，主要是找不到合适的词。&lt;/p&gt;
+&lt;p&gt;是这样的，以前看 org-mode 的黑客们会炫出自己的日志文件，里面的组织方式，在 org-mode 官方教程里叫「日期树」&lt;/p&gt;
+&lt;p&gt;它大概是这样子排列：&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/image.jpg&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;可以看到，这是一个树形列表，不过它会按照「年-月-日」来排列。&lt;/p&gt;
+&lt;p&gt;我一直以来也是按照这种方式来组织自己的日志，不过以前是自己手动操作，以及方式有点不一样，我喜欢按照周数来排列。&lt;/p&gt;
+&lt;p&gt;原本我以为需要自己写一个自定义配置什么的，但没想到 org-mode 里面已经包含了这一功能。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;需要在设置 org-capture 模板时，指定使用 &lt;code&gt;file+datetree&lt;/code&gt; 的方式，这样在 capture 时会自动在对应的日期下创建对应的标题&lt;/li&gt;
+&lt;li&gt;org-mode 提供了 &lt;code&gt;:tree-type&lt;/code&gt; 参数控制日期树的组织方式，有两个参数：&lt;del&gt;month&lt;/del&gt; 仅按月组织；&lt;del&gt;week&lt;/del&gt; 则按照周数组织。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;按周组织日期树是长什么样的呢？&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/PixPin_2025-03-16_18-39-24.png&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;可以看到，它不再以月份作为二级标题，而是使用 2025-W11 这个格式来表示第 xx 周。&lt;/p&gt;
+&lt;p&gt;基本的配置方式如下，可以拿去参考。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;j&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Journal&amp;#34;&lt;/span&gt; entry (file+datetree &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/Documents/notes/diary.org&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;* %? %U&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; :tree-type week
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; :empty-lines &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>2025 年 2 月 klingai.com 流量分析</title>
       <link>https://www.gtdstudy.com/posts/website-analysis-about-klingai-com-in-25-feb/</link>
       <pubDate>Sun, 16 Mar 2025 15:30:00 +0800</pubDate>
@@ -953,16 +985,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
 &lt;p&gt;多样性的缺失，就是一个地方失去活力的开始。就好像郁郁葱葱的森林，里面绝不止一种植物，一种动物，一种鸟类在里面生活，这不足以称之为生态。&lt;/p&gt;
 &lt;p&gt;到这里，我想大家应该理解我说的「繁荣」是什么意思，我不是单纯指数据上的增长或表现，而是认为，足够多的玩家，以及面向用户有着足够多的供给（不光是数量，还有种类），才是繁荣。繁荣的另一个说法，应该是让每个人保留选择的幸福，而不必感到委屈。&lt;/p&gt;
 &lt;p&gt;就此，我觉得每个人应当有责任去维护一个繁荣的环境，维护这个环境不是为了别人，而是保护自己有所选择的权利。这个建议的具体化，就是不要只选第一，同一个领域，给其它玩家机会。不要在这件事上偷懒。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>美国智库的分析显示，在美国企业和研究机构任职的杰出的AI研究人员中，中国的大学毕业生占到约40%。已经超过了美国大学毕业生，成为主力。</title>
-      <link>https://www.gtdstudy.com/posts/40-percent-ai-researchers-come-from-china/</link>
-      <pubDate>Tue, 11 Feb 2025 18:17:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/40-percent-ai-researchers-come-from-china/</guid>
-      <description>&lt;p&gt;想起了之前一个笑话，一个投资人做背调，发现团队里有白人、黑人、印度人但没有亚裔。&lt;/p&gt;
-&lt;p&gt;这个投资人问，那么，你团队的活儿到底谁来干呢？&lt;/p&gt;</description>
     </item>
     
   </channel>

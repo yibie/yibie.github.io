@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Orgmode - Space Looming</title>
-    <link>https://www.gtdstudy.com/tags/orgmode/</link>
-    <description>Recent content in Orgmode on Space Looming</description>
+    <title>Orgcapture - Space Looming</title>
+    <link>https://www.gtdstudy.com/tags/orgcapture/</link>
+    <description>Recent content in Orgcapture on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,7 +11,7 @@
     
     <lastBuildDate>Sun, 16 Mar 2025 18:43:21 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/tags/orgmode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/tags/orgcapture/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -44,24 +44,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; :tree-type week
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; :empty-lines &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Org-mode 自带类似 Workflwoy 的 focus 功能</title>
-      <link>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</link>
-      <pubDate>Thu, 20 Feb 2025 16:38:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</guid>
-      <description>&lt;p&gt;以前把玩 Workflowy 的时候，有一个功能我很喜欢，但它没具体名字，在 Workflowy 的首页上，是这么介绍的：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Zoom into your notes and focus on just one part
-放大你的笔记，专注于某一部分&lt;/p&gt;
-&lt;p&gt;Clicking a bullet, zooms you into it and displays any indented items. This is how we view items as documents, by zooming into them.
-点击一个项目符号，系统会将你放大到该项目符号，并显示任何缩进的内容。这就是我们如何将条目视为文档，通过放大查看它们。&lt;/p&gt;
-&lt;p&gt;If a bullet has no indented items, you’ll see an empty page with the title of the bullet you clicked on.
-如果一个项目符号没有缩进的内容，你将看到一个空白页面，页面上显示你点击的项目符号的标题。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;没想到 org-mode 里直接内置类似的功能了，具体命令是 =org-narrow-to-subtree=。执行这个命令之后，再执行 =widen=，视图就可以恢复原装。&lt;/p&gt;
-&lt;p&gt;只需要将快捷键绑定到具体的命令上就可用：&lt;/p&gt;</description>
     </item>
     
   </channel>
