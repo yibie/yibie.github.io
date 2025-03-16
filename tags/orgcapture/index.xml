@@ -9,7 +9,7 @@
     
     
     
-    <lastBuildDate>Sun, 16 Mar 2025 18:43:21 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Mar 2025 18:45:44 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/tags/orgcapture/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,13 +17,13 @@
     <item>
       <title>让 org-capture 收集项可以自动归于某一日期下</title>
       <link>https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/</link>
-      <pubDate>Sun, 16 Mar 2025 18:43:21 +0800</pubDate>
+      <pubDate>Sun, 16 Mar 2025 18:45:44 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/</guid>
       <description>&lt;p&gt;这么拗口的标题真是对不起，主要是找不到合适的词。&lt;/p&gt;
 &lt;p&gt;是这样的，以前看 org-mode 的黑客们会炫出自己的日志文件，里面的组织方式，在 org-mode 官方教程里叫「日期树」&lt;/p&gt;
 &lt;p&gt;它大概是这样子排列：&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/image.jpg&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/images.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;可以看到，这是一个树形列表，不过它会按照「年-月-日」来排列。&lt;/p&gt;
