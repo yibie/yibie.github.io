@@ -15,6 +15,33 @@
     
     
     <item>
+      <title>和 AI 一起打造一把椅子</title>
+      <link>https://www.gtdstudy.com/posts/make-a-chair-with-ai/</link>
+      <pubDate>Fri, 21 Mar 2025 22:23:53 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/make-a-chair-with-ai/</guid>
+      <description>&lt;p&gt;这大概是我今天读过最有意思的&lt;a href=&#34;https://booktwo.org/notebook/ai-chair-1-0/&#34;&gt;文章&lt;/a&gt;——&lt;/p&gt;
+&lt;p&gt;作者与 ChatGPT 沟通，一起打造一把椅子。&lt;/p&gt;
+&lt;p&gt;首先，作者提供了一些闲置木料的描述给 AI，让 AI 提出设计方案。&lt;/p&gt;
+&lt;p&gt;不过，过程没有那么顺利，在经历了一番顺利带着挣扎的沟通之后，作者终于得到了一个比较完整的计划表：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Materials Needed:&lt;/p&gt;
+&lt;p&gt;Plywood Sheet: For the seat.
+Pine Panels: For the backrest.
+Wood Beams: For legs and support structure.
+Dowel: For additional bracing.
+Tools: Saw, drill, screws, and wood glue.
+Cutting Plan:&lt;/p&gt;
+&lt;p&gt;Seat: Use the plywood sheet to cut a rectangular seat, 480 mm x 400 mm.
+Backrest: Select one pine panel (255 mm x 490 mm) and trim if necessary to match the width of the seat for aesthetic continuity.
+Legs/Support Structure:
+Front Legs: Cut two pieces from the beams to the desired seat height (about 450 mm).
+Rear Legs/Backrest Support: Use the longer beams (980 mm or 1030 mm) and cut them so they can serve both as rear legs and extend upward to support the backrest. The total length should support a standard seat height plus the backrest height, roughly 900-1000 mm depending on your desired backrest angle and height.
+Seat Supports: Use leftover wood or the pine/fir plank to create support planks that run underneath the seat for added stability. Cut these to match the width of the seat (400 mm).
+Assembly:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>2025 年 2 月 cutout.pro 流量分析</title>
       <link>https://www.gtdstudy.com/posts/website-analysis-about-cutout-pro-in-25-feb/</link>
       <pubDate>Fri, 21 Mar 2025 19:33:39 +0800</pubDate>
@@ -1304,16 +1331,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
 &lt;li&gt;将网址直接转换成 org-mode 格式并拷贝到剪贴板&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;该项目基于 &lt;a href=&#34;https://github.com/kuanyui&#34;&gt;kuanyui&lt;/a&gt; 的 &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/copy-as-org-mode/&#34;&gt;Copy as Org-mode&lt;/a&gt; 开发。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>我一直很想知道 Lex Fridman Podcast 到底采访了哪些嘉宾，以及这些嘉宾的博客或相关网站是什么，所以我做了一个脚本，来爬取他的 youtube 视频下的描述，自动生成文件，我将目前已经爬取到的内容，都放到 github 上了，一共 459 期，包括最新那期讨论 DeepSeek 的</title>
-      <link>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</link>
-      <pubDate>Mon, 17 Feb 2025 16:07:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/publish-lex-fridman-podcast-list/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/yibie/Lex-Fridman-Podcast/&#34;&gt;https://github.com/yibie/Lex-Fridman-Podcast/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;刚刚升级了脚本，清理了无关的内容，包括赞助人之类的。&lt;/p&gt;</description>
     </item>
     
   </channel>

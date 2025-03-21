@@ -9,10 +9,37 @@
     
     
     
-    <lastBuildDate>Fri, 21 Mar 2025 19:33:39 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 22:23:53 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/summary/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>和 AI 一起打造一把椅子</title>
+      <link>https://www.gtdstudy.com/posts/make-a-chair-with-ai/</link>
+      <pubDate>Fri, 21 Mar 2025 22:23:53 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/make-a-chair-with-ai/</guid>
+      <description>&lt;p&gt;这大概是我今天读过最有意思的&lt;a href=&#34;https://booktwo.org/notebook/ai-chair-1-0/&#34;&gt;文章&lt;/a&gt;——&lt;/p&gt;
+&lt;p&gt;作者与 ChatGPT 沟通，一起打造一把椅子。&lt;/p&gt;
+&lt;p&gt;首先，作者提供了一些闲置木料的描述给 AI，让 AI 提出设计方案。&lt;/p&gt;
+&lt;p&gt;不过，过程没有那么顺利，在经历了一番顺利带着挣扎的沟通之后，作者终于得到了一个比较完整的计划表：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Materials Needed:&lt;/p&gt;
+&lt;p&gt;Plywood Sheet: For the seat.
+Pine Panels: For the backrest.
+Wood Beams: For legs and support structure.
+Dowel: For additional bracing.
+Tools: Saw, drill, screws, and wood glue.
+Cutting Plan:&lt;/p&gt;
+&lt;p&gt;Seat: Use the plywood sheet to cut a rectangular seat, 480 mm x 400 mm.
+Backrest: Select one pine panel (255 mm x 490 mm) and trim if necessary to match the width of the seat for aesthetic continuity.
+Legs/Support Structure:
+Front Legs: Cut two pieces from the beams to the desired seat height (about 450 mm).
+Rear Legs/Backrest Support: Use the longer beams (980 mm or 1030 mm) and cut them so they can serve both as rear legs and extend upward to support the backrest. The total length should support a standard seat height plus the backrest height, roughly 900-1000 mm depending on your desired backrest angle and height.
+Seat Supports: Use leftover wood or the pine/fir plank to create support planks that run underneath the seat for added stability. Cut these to match the width of the seat (400 mm).
+Assembly:&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>2025 年 2 月 cutout.pro 流量分析</title>
@@ -1457,57 +1484,6 @@ BDO 有几个特点：&lt;/p&gt;
 &lt;p&gt;也因为对爱和生活的珍惜，我们都很谨慎地对待着各种人生选择，不让虚荣、野心或者欲望太多地控制自己，走入到需要用结果合理化过程，用灵魂交换名利的游戏当中去。我们都是对自己很诚实的人，知道倘若身处泥泞浑浊之中，任何人都有可能迷失自己，然后用谎言填塞空洞的内心。所以爱的精髓也是自律和自省，是确保自己不完美的人性不会太过放肆。&lt;/p&gt;
 &lt;p&gt;其实王力宏的确是我人生中最接近偶像位置的男星之一，他的才华即便此刻我也毫不怀疑。今天看到微博还是有些幻灭感，所以我才不得不撒了一波强力狗粮来平衡自己。幸好我自己也栽培出了属于自己的爱，它比任何偶像更能支持我的内心。我希望，如果你刚好也陷入深深的失望和怀疑当中的话，我讲的这些也可以让你看到一点不同的可能性。&lt;/p&gt;
 &lt;p&gt;人不要膜拜你向往的生活，而是要活出你的向往。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>摘录：Beyond Smart</title>
-      <link>https://www.gtdstudy.com/posts/beyond-smart/</link>
-      <pubDate>Fri, 17 Dec 2021 23:20:47 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/beyond-smart/</guid>
-      <description>&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
-&lt;p&gt;本文来自 Paul Graham，由公众号硅发布翻译简写。本文提出了一个非常好的观点，那就是聪明并没有什么厉害的，厉害的是拥有「新想法」，同时还提出了几个拥有新想法的要点——&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;对特定主题拥有强烈的兴趣&lt;/li&gt;
-&lt;li&gt;独立思考的能力&lt;/li&gt;
-&lt;li&gt;拥有写作能力，有一些新想法，最好通过写文章和写书来发现&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;正文&#34;&gt;正文&lt;/h2&gt;
-&lt;p&gt;如果你问爱因斯坦有什么特别之处，大多数人会回答说：爱因斯坦真的很聪明。&lt;/p&gt;
-&lt;p&gt;即便是试图给出一个更复杂答案的人，首先想到的可能也是这一点。直到几年前，我自己给出的答案也一样。但这并不是爱因斯坦的特别之处。&lt;/p&gt;
-&lt;p&gt;爱因斯坦的特别之处是：他有“重要”的“新的”思想。&lt;/p&gt;
-&lt;p&gt;一个人非常聪明，是他/她拥有新想法的必要前提。但聪明和拥有新思想，本质上是不完全相同的。&lt;/p&gt;
-&lt;p&gt;这两者有很大的差距。任何花过时间在大学和研究实验室呆过的人都知道这种差距有多大：有很多真正聪明的人，并没有取得很大的成就。&lt;/p&gt;
-&lt;p&gt;我从小就认为：聪明是最值得期待的事。你也许也一样，但我敢打赌：这不是你真正想要的东西。&lt;/p&gt;
-&lt;p&gt;想象一下：你必须在非常聪明但是没有新发现，以及和不太聪明但正在发现大量的新想法之间做选择，你会选择哪个？你肯定会选后者。&lt;/p&gt;
-&lt;p&gt;我也是。尽管这个选择让我感到不舒服，但当你看到它们如此明确地排列在一起时，哪个更好一目了然。&lt;/p&gt;
-&lt;p&gt;我之所以会感到不舒服的原因是：聪明，仍然在感觉上让人们觉得很重要，即便我在理智上知道它不是。而童年的环境，是培养这种错觉的完美风暴。&lt;/p&gt;
-&lt;p&gt;智力比新想法的价值，更容易被衡量，而且，你经常性地被它所评判。与此同时，即便是最终会发现新事物的孩子们，也不能经常性地“发现”新想法。对于有这种倾向的孩子来说，智力是城里唯一的游戏。&lt;/p&gt;
-&lt;p&gt;还有一些更微妙的原因，它们会一直持续到成年之后。&lt;/p&gt;
-&lt;p&gt;智力让人们在对话中取胜，从而成为支配等级地位的基础。再加上，拥有新想法这件事，在历史上其实是相当新鲜的一件事，直到现在，也很少有人能够做到，所以社会还没有“吸收”这样一个事实，即：拥有新想法，才是真正的目的，而智力，只是达到这个目的的一种手段。&lt;/p&gt;
-&lt;p&gt;为什么这么多的聪明人都不能够发现新东西？&lt;/p&gt;
-&lt;p&gt;显然，智力不是拥有新想法的唯一因素，那么其他因素是什么？这些因素是可以后天培养的吗？&lt;/p&gt;
-&lt;p&gt;他们说：智力的问题，在于它大部分是天生的。我不打算对此进行讨论，因为我更关心的是产生新思想的其他成分，而且很明显，这些成分是可以后天培养的。&lt;/p&gt;
-&lt;p&gt;我关心这些是因为：这意味着，真相与我小时候得到的那些故事，有着令人兴奋的不同。&lt;/p&gt;
-&lt;p&gt;如果说智力是最重要的，且大部分是天生的，那么作为一个自然而然的结果，你能做的最好事情，就是去弄清你有哪种工作上的&amp;quot;天赋&amp;quot;，这样你与生俱来的智力，至少可以得到最好的利用，然后，尽可能努力地去做。&lt;/p&gt;
-&lt;p&gt;而如果智力，实际上只是最重要的几个因素之一，且其中许多因素不是天生的，那么事情就变得更加的有趣了。这意味着：你对自己的发展有更多的控制权，但就因此，你将如何安排你的生活，这个问题也将变得更加复杂。&lt;/p&gt;
-&lt;p&gt;那么，拥有新想法的其他成分到底是什么呢？&lt;/p&gt;
-&lt;p&gt;我不打算尝试在此提供一份完整的目录。因为这也是我第一次以这样的方式提问我自己，我想我可能需要一段时间来回答。但最近，我写了一篇关于这些答案中最重要的一个品质，那就是：&lt;/p&gt;
-&lt;p&gt;对特定主题的强烈的兴趣。而这一点，绝对是可以培养的。&lt;/p&gt;
-&lt;p&gt;为了获得新想法，你还需要的另一个品质是：独立思考的能力。我不想说独立思考与智力有什么不同，因为我不愿称没有独立思想的人为聪明人，但尽管智力主要是与生俱来的，而独立思考这个品质，某种程度上似乎仍然是可以培养的。&lt;/p&gt;
-&lt;p&gt;此外，还有一些一般性的技巧。&lt;/p&gt;
-&lt;p&gt;比如说，你在自己的项目上工作，以及，克服你在早期工作中面临的障碍。这些，都可以学习。其中一些，你可以通过社会来学习。还有一些，则用于产生特定类型的新想法的技术集合，例如：创业想法和论文题目。&lt;/p&gt;
-&lt;p&gt;当然，在发现新想法方面，也有很多相当平凡的成分，比如努力工作；有足够的睡眠；避免某些类型的压力；有合适的同事，以及找到技巧来做你想做的事，即便这不是你应该做的工作。&lt;/p&gt;
-&lt;p&gt;任何阻碍人们完成出色工作的事物，都有一个相反的方向，可以帮他们达到目标。而这类成分，并不像乍看起来那么的乏味。例如，&lt;/p&gt;
-&lt;p&gt;拥有新想法通常和年轻人有关。但这也许不是因为年轻人本身产生了新想法，而是年轻人所带来的那些特定的特质，例如：他们身体健康、缺乏责任感。对此进行调查，可能会产生一些有助于任何年龄段的人获得更好想法的策略。&lt;/p&gt;
-&lt;p&gt;当然，拥有新想法的最令人惊讶的因素之一，是写作能力。&lt;/p&gt;
-&lt;p&gt;有一类新想法，你最好就是通过写文章和写书来发现。&lt;/p&gt;
-&lt;p&gt;为什么是必须通过“写”来发现呢？因为你实际上不是先想到了这些想法，然后，你把它们写下来。实际上，有一种特定类型的思考，是通过“写作”这个过程，来完成的。&lt;/p&gt;
-&lt;p&gt;写作，其实是一种思维方式。如果你笨拙于写作，或者你根本就不享受于写东西，当你试图做这种类型的思考时，这些习惯就会妨碍你。&lt;/p&gt;
-&lt;p&gt;这篇文章就是这样一个奇怪的例子。它一开始，是一篇有关于写作能力的文章。但当我谈到智力与拥有新想法之间的区别时，我突然发现：这似乎是一个更重要的命题，以至于我把原来想写的文章翻了个底朝天，把这个题目和我原来的题目，作为了我在这篇文章中叙述的一个点。&lt;/p&gt;
-&lt;p&gt;就像在其他许多领域一样，一旦你有了大量的实践，这种程度的“再创作”，就更容易思考到了。&lt;/p&gt;
-&lt;p&gt;我预测：智力和拥有新思想之间的差距，将会变成为一个有趣的地方。&lt;/p&gt;
-&lt;p&gt;如果我们仅仅把这种差距，看作为是：对未实现的潜力的衡量，那么它就会成为一种我们试图匆匆穿过的荒地，而我们却视而不见。但是如果，我们是把这个问题翻过来，开始探究它所暗示的新思想中所必须存在的其他成分，我们就可以在这个差距中，挖掘出关于这种发现的更多的发现。&lt;/p&gt;</description>
     </item>
     
   </channel>
