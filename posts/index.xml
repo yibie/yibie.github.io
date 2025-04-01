@@ -15,6 +15,19 @@
     
     
     <item>
+      <title>不要带着目标去学习， 不要带着对过去的懊悔去学习， 不要带着对未来的期待去学习。</title>
+      <link>https://www.gtdstudy.com/posts/do-not-study-with-specific-target/</link>
+      <pubDate>Tue, 01 Apr 2025 16:25:09 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/do-not-study-with-specific-target/</guid>
+      <description>&lt;p&gt;学习是一种自然而然的状态，不是一种要求。其实学习有很多种形式，并非只有上学读书，或者是做练习册，填笔记，这些个反人类的形式。&lt;/p&gt;
+&lt;p&gt;学习首先是一种观察，简单来讲，观察一个鸟的飞行，或者是观察一个人的深情，这些都是学习。&lt;/p&gt;
+&lt;p&gt;有时候，我们会发现，很多大老板本身的学历不高，但不能说他们不聪明，他们的学习是社会化学习，通过一点一点观察别人，观察这个世界而来。&lt;/p&gt;
+&lt;p&gt;我觉得这更加是一种高级的学习能力。因为观察与模仿，通常是学习的第一步。&lt;/p&gt;
+&lt;p&gt;会背书不见得是会学习。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>和 AI 一起打造一把椅子</title>
       <link>https://www.gtdstudy.com/posts/make-a-chair-with-ai/</link>
       <pubDate>Fri, 21 Mar 2025 22:23:53 +0800</pubDate>
@@ -1316,21 +1329,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
 (setq org-outline-path-complete-in-steps nil)         ; Refile in a single go
 (setq org-refile-use-outline-path t)                  ; 当重新定位时，会展示完整的路径
 &lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>作为 Emacs 用户一直很羡慕 markdown 有很多丰富的插件，将网页直接保存为 md 文件，在朋友 J 的鼓励下，我开发了 Copy as Org-mode Chrome，解决了长久以来的困扰</title>
-      <link>https://www.gtdstudy.com/posts/publish-copy-as-org-mode-chrome/</link>
-      <pubDate>Tue, 18 Feb 2025 21:23:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/publish-copy-as-org-mode-chrome/</guid>
-      <description>&lt;p&gt;项目地址：&lt;a href=&#34;https://github.com/yibie/Copy-as-org-mode-chrome&#34;&gt;https://github.com/yibie/Copy-as-org-mode-chrome&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;直接将网页里的文本，直接转换成 org-mode 格式，拷贝到剪贴板&lt;/li&gt;
-&lt;li&gt;将网页直接保存为 org-mode 格式的文件下载到你指定的目录&lt;/li&gt;
-&lt;li&gt;将网址直接转换成 org-mode 格式并拷贝到剪贴板&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;该项目基于 &lt;a href=&#34;https://github.com/kuanyui&#34;&gt;kuanyui&lt;/a&gt; 的 &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/copy-as-org-mode/&#34;&gt;Copy as Org-mode&lt;/a&gt; 开发。&lt;/p&gt;</description>
     </item>
     
   </channel>
