@@ -406,6 +406,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;并不是只有多级标签，更重要的是网状的关联&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;!--quoteend--&gt;
 &lt;blockquote&gt;
 &lt;p&gt;目前的双链软件与这种标签系统还有些距离
 以 logseq 为例，笔记的「标题」被赋予了太高的重要性。在我看来笔记标题不应该特殊化。&lt;/p&gt;

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project - Space Looming</title>
+    <link>https://www.gtdstudy.com/tags/project/</link>
+    <description>Recent content in Project on Space Looming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    
+    
+    <lastBuildDate>Wed, 02 Apr 2025 22:48:01 +0800</lastBuildDate>
+    
+    <atom:link href="https://www.gtdstudy.com/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>用 AI 辅助开发的经验二三则（4）</title>
+      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-4/</link>
+      <pubDate>Wed, 02 Apr 2025 22:48:01 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-4/</guid>
+      <description>&lt;p&gt;这是一个搏斗的故事。&lt;/p&gt;
+&lt;p&gt;起源是我开发的 org-supertag，项目的初心是希望将 Tana 的笔记体验迁移到 Emacs，在我开发了一个极简原型之后就面临一个问题——&lt;/p&gt;
+&lt;p&gt;如果 org-supertag 想像 Tana 那样快速展示一个标签所关联的节点，不能使用纯文本检索的方法。这种方法直接使用检索所有文件，通过正则提取相关的数据，速度慢不说，还会令 Emacs 卡顿。简而言之，这种体验，谁都不能忍。&lt;/p&gt;
+&lt;p&gt;后来我借鉴自己另外一个项目 org-zettel-ref-mode （以下简称 orz） 的经验，它直接使用哈希表作为数据库，成功地令两个文件的数据通过数据库进行关联，理所当然的，我将这个经验迁移到 org-supertag 上。&lt;/p&gt;
+&lt;p&gt;这就是搏斗的开始。&lt;/p&gt;
+&lt;p&gt;org-supertag 的目标不是将两个文件之间的数据进行关联，而是要在数据库里同步在 org-mode 里操作过的数据（CRUD）。很显然，我的第一个想法是，只要用户执行了对应的命令，就会将更改过的数据保存到数据库。&lt;/p&gt;
+&lt;p&gt;这方法看上去是没啥问题的，然而 Emacs 是一个文本编辑器，org-mode 又已经有很多强大的命令。只要用户不使用 org-supertag 提供的命令，数据就不能保存到数据库中。这是一种困扰：用户必须执行某个命令，才能让数据记录到数据库。这实际上是强迫用户必须使用命令，才能够保证自己的数据记录的安全的。而这通常无法办到，因为人是依照直觉行动的生物，尤其是，当一个人有想法的时候，你不能勉强他，必须使用命令才能开始记录。而是应该让他马上直接记录下来，而不用去担心其它问题。&lt;/p&gt;
+&lt;p&gt;让我来简化问题：如果用户只是输入了一个标题（尚未赋予 ID），我如何保证这个标题，在用户不执行任何 org-supertag命令的情况下，可以及时地记录到数据库中呢？&lt;/p&gt;
+&lt;p&gt;这是 org-supertag-sync 这个组件的起源，也是第二次搏斗的开始。它的设计思想是，通过定期扫描用户打开过，修改过的文件，然后通过 org-mode 内置的语法解析器，扫描每一个标题，将其记录成一个数据结构，然后覆盖到数据库对应的记录中。这样子，就不必担心用户新建了标题，而没有同步到数据库的情况。&lt;/p&gt;
+&lt;p&gt;此时，如何知道一个文件是修改过的，显得尤为重要。我当时想的办法是，为文件生成一个哈希值，通过对比文件的哈希值，就能够知道一个文件是否已经修改过。以此决定，是否扫描一整份文档。&lt;/p&gt;
+&lt;p&gt;这个方案看上去还行对不对？只要是用户写了标题，就会通过扫描自动同步到数据库，数据的完备性方面是不用考虑了。直到有一天，我发现问题，数据库中出现了重复的记录、通过寻找节点的命令却无法定位该节点的位置……这意味着之前的方法有着很重大的缺陷。是的，这个方法还不行。因为，它只扫描并将一个文件里的节点全部同步到数据库，但无法覆盖以下情形：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;节点从一个文件移动到另外一个文件；&lt;/li&gt;
+&lt;li&gt;节点已删除；&lt;/li&gt;
+&lt;li&gt;节点重命名；&lt;/li&gt;
+&lt;li&gt;&amp;hellip;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;换言之，除了将节点的信息同步到数据库之外，同步的颗粒度，不能光是关注文件的变化，还要关心节点的变化。于是， org-supertag-sync 再一次迎来重构。这一次，我决心解决这个问题。这就是我与数据一致性的第三次搏斗。&lt;/p&gt;
+&lt;p&gt;这一次策略变得更加细致一些，依然还是从具体文件的变化入手（因为 Emacs 是一个文本编辑器），然后为每一个节点建立一个哈希值，记录到数据库中。具体是这样的：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;获取修改过的文件（基于文件时间戳）&lt;/li&gt;
+&lt;li&gt;扫描这些文件中的节点：
+&lt;ol&gt;
+&lt;li&gt;提取节点 ID&lt;/li&gt;
+&lt;li&gt;计算节点哈希值&lt;/li&gt;
+&lt;li&gt;与数据库中的哈希值比较&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;只对发生变化的节点进行处理：
+&lt;ul&gt;
+&lt;li&gt;删除：在修改的文件中，找不到该节点，则从数据库移除&lt;/li&gt;
+&lt;li&gt;移动：在修改的文件中，找到该节点，但文件路径记录有所更换，则在数据库中更新节点的位置信息，保持哈希值&lt;/li&gt;
+&lt;li&gt;更新：节点的内容发生了变化，则重新同步内容和，更新哈希值&lt;/li&gt;
+&lt;li&gt;创建：赋予 ID，计算哈希值并存储&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;终于，我找到办法，解决纯文本与数据库的数据一致性的问题。你说这有什么大不了的？&lt;/p&gt;
+&lt;p&gt;我在 X 上谈到了：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;其实 Logseq 要走纯数据库这一步，是可以预见的。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss> 
