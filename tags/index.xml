@@ -9,10 +9,19 @@
     
     
     
-    <lastBuildDate>Thu, 03 Apr 2025 00:16:11 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Apr 2025 08:08:34 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deepseek</title>
+      <link>https://www.gtdstudy.com/tags/deepseek/</link>
+      <pubDate>Tue, 15 Apr 2025 08:08:34 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/tags/deepseek/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Org-Mode</title>
