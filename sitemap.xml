@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.gtdstudy.com/tags/%23book/</loc>
-    <lastmod>2025-04-21T14:59:36+08:00</lastmod>
-  </url><url>
     <loc>https://www.gtdstudy.com/categories/</loc>
+    <lastmod>2025-04-22T14:57:53+08:00</lastmod>
+  </url><url>
+    <loc>https://www.gtdstudy.com/categories/quote/</loc>
+    <lastmod>2025-04-22T14:57:53+08:00</lastmod>
+  </url><url>
+    <loc>https://www.gtdstudy.com/posts/first-user-is-llm/</loc>
+    <lastmod>2025-04-22T14:57:53+08:00</lastmod>
+  </url><url>
+    <loc>https://www.gtdstudy.com/tags/%23book/</loc>
     <lastmod>2025-04-21T14:59:36+08:00</lastmod>
   </url><url>
     <loc>https://www.gtdstudy.com/categories/summary/</loc>
@@ -391,9 +397,6 @@
   </url><url>
     <loc>https://www.gtdstudy.com/posts/ideas-make-a-poem/</loc>
     <lastmod>2022-06-03T10:21:37+08:00</lastmod>
-  </url><url>
-    <loc>https://www.gtdstudy.com/categories/quote/</loc>
-    <lastmod>2022-05-31T10:52:44+08:00</lastmod>
   </url><url>
     <loc>https://www.gtdstudy.com/posts/the-internet-make-people-feel-more-lonelier-than-ever/</loc>
     <lastmod>2022-05-31T10:52:44+08:00</lastmod>
