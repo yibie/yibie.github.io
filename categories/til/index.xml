@@ -9,7 +9,7 @@
     
     
     
-    <lastBuildDate>Tue, 22 Apr 2025 15:31:28 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 22 Apr 2025 15:33:31 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/til/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
     <item>
       <title>使用命令行检查文件/文件夹大小</title>
       <link>https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/</link>
-      <pubDate>Tue, 22 Apr 2025 15:31:28 +0800</pubDate>
+      <pubDate>Tue, 22 Apr 2025 15:33:31 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/</guid>
       <description>&lt;p&gt;背景：我使用 macOS。&lt;/p&gt;
