@@ -9,7 +9,7 @@
     
     
     
-    <lastBuildDate>Tue, 22 Apr 2025 15:33:31 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 22 Apr 2025 21:59:49 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/til/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,16 +17,16 @@
     <item>
       <title>使用命令行检查文件/文件夹大小</title>
       <link>https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/</link>
-      <pubDate>Tue, 22 Apr 2025 15:33:31 +0800</pubDate>
+      <pubDate>Tue, 22 Apr 2025 21:59:49 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/</guid>
       <description>&lt;p&gt;背景：我使用 macOS。&lt;/p&gt;
 &lt;p&gt;在命令行工具里，有很多工具可以知道文件大小:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;ls -la&lt;/code&gt;   一般情况下使用，可以直观的文件大小，缺点是不知道文件夹大小
-&lt;code&gt;du *&lt;/code&gt;     会列出当前目录下所有文件夹内，所有文件的大小
-&lt;code&gt;du -hxd1&lt;/code&gt; 会列出当前目录下，所有子文件夹的的大小
-&lt;code&gt;gdu&lt;/code&gt;      用 golang 写的，支持多线程，作用和 &lt;code&gt;du *&lt;/code&gt; 一样，有点是性能好，速度快&lt;/p&gt;
-&lt;p&gt;不过我自己偏好 &lt;del&gt;ncdu&lt;/del&gt;，有可视化界面，会显示子文件/子文件夹占用的空间百分比，还可以直接简单操作：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ls -la&lt;/code&gt;   一般情况下使用，可以直观的文件大小，缺点是不知道文件夹大小&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;du *&lt;/code&gt;     会列出当前目录下所有文件夹内，所有文件的大小&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;du -hxd1&lt;/code&gt; 会列出当前目录下，所有子文件夹的的大小&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gdu&lt;/code&gt;      用 golang 写的，支持多线程，作用和 &lt;code&gt;du *&lt;/code&gt; 一样，有点是性能好，速度快&lt;/p&gt;
+&lt;p&gt;不过我自己偏好 &lt;code&gt;ncdu&lt;/code&gt; ，有可视化界面，会显示子文件/子文件夹占用的空间百分比，还可以直接简单操作：&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/data/5E/19FC18-A239-4559-894B-DCB822FFF065/dbb41ef312c6d8eb305457b40bcb8676278ec0478068c6f20bd38f4cb8501b0f.png&#34;&gt;
 &lt;/figure&gt;
 
