@@ -9,7 +9,7 @@
     
     
     
-    <lastBuildDate>Tue, 22 Apr 2025 15:29:23 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 22 Apr 2025 15:31:28 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/til/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
     <item>
       <title>使用命令行检查文件/文件夹大小</title>
       <link>https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/</link>
-      <pubDate>Tue, 22 Apr 2025 15:29:23 +0800</pubDate>
+      <pubDate>Tue, 22 Apr 2025 15:31:28 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/</guid>
       <description>&lt;p&gt;背景：我使用 macOS。&lt;/p&gt;
@@ -30,7 +30,8 @@
 &lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/data/5E/19FC18-A239-4559-894B-DCB822FFF065/dbb41ef312c6d8eb305457b40bcb8676278ec0478068c6f20bd38f4cb8501b0f.png&#34;&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;code&gt;ncdu&lt;/code&gt; 执行速度没有 &lt;code&gt;gdu&lt;/code&gt; 快——但最新版本提供了多线程的实验特性，输入 &lt;code&gt;ncdu -t8&lt;/code&gt; 即可调用，速度要快上不少。&lt;/p&gt;</description>
+&lt;p&gt;&lt;code&gt;ncdu&lt;/code&gt; 执行速度没有 &lt;code&gt;gdu&lt;/code&gt; 快——但最新版本提供了多线程的实验特性，输入 &lt;code&gt;ncdu -t8&lt;/code&gt; 即可调用，速度要快上不少。&lt;/p&gt;
+&lt;p&gt;PS：谢谢「Emacs 中文」 里各位认真有趣的群友。&lt;/p&gt;</description>
     </item>
     
     <item>
