@@ -15,6 +15,25 @@
     
     
     <item>
+      <title>使用命令行检查文件/文件夹大小</title>
+      <link>https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/</link>
+      <pubDate>Tue, 22 Apr 2025 15:29:23 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/</guid>
+      <description>&lt;p&gt;背景：我使用 macOS。&lt;/p&gt;
+&lt;p&gt;在命令行工具里，有很多工具可以知道文件大小:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ls -la&lt;/code&gt;   一般情况下使用，可以直观的文件大小，缺点是不知道文件夹大小
+&lt;code&gt;du *&lt;/code&gt;     会列出当前目录下所有文件夹内，所有文件的大小
+&lt;code&gt;du -hxd1&lt;/code&gt; 会列出当前目录下，所有子文件夹的的大小
+&lt;code&gt;gdu&lt;/code&gt;      用 golang 写的，支持多线程，作用和 &lt;code&gt;du *&lt;/code&gt; 一样，有点是性能好，速度快&lt;/p&gt;
+&lt;p&gt;不过我自己偏好 &lt;del&gt;ncdu&lt;/del&gt;，有可视化界面，会显示子文件/子文件夹占用的空间百分比，还可以直接简单操作：&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/data/5E/19FC18-A239-4559-894B-DCB822FFF065/dbb41ef312c6d8eb305457b40bcb8676278ec0478068c6f20bd38f4cb8501b0f.png&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;code&gt;ncdu&lt;/code&gt; 执行速度没有 &lt;code&gt;gdu&lt;/code&gt; 快——但最新版本提供了多线程的实验特性，输入 &lt;code&gt;ncdu -t8&lt;/code&gt; 即可调用，速度要快上不少。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>你所提供的产品、服务或库现在首要用户变成了LLM（大型语言模型），而不是人类。</title>
       <link>https://www.gtdstudy.com/posts/first-user-is-llm/</link>
       <pubDate>Tue, 22 Apr 2025 15:04:21 +0800</pubDate>
@@ -1428,24 +1447,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
 &lt;p&gt;在 Emacs 中同时查看、对比或编辑文件的多个部分时，传统的分屏方式可能会让屏幕变得拥挤。float-narrow-indirect 提供了一个优雅的解决方案——它能让你将选中的文本区域&amp;quot;提取&amp;quot;到独立的浮动窗口中。&lt;/p&gt;
 &lt;p&gt;本次开发时间，2.5 小时左右。&lt;/p&gt;
 &lt;p&gt;开发，基于别人的项目升级、改造，绝逼更快。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Org-mode 自带类似 Workflwoy 的 focus 功能</title>
-      <link>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</link>
-      <pubDate>Thu, 20 Feb 2025 16:38:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/</guid>
-      <description>&lt;p&gt;以前把玩 Workflowy 的时候，有一个功能我很喜欢，但它没具体名字，在 Workflowy 的首页上，是这么介绍的：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Zoom into your notes and focus on just one part
-放大你的笔记，专注于某一部分&lt;/p&gt;
-&lt;p&gt;Clicking a bullet, zooms you into it and displays any indented items. This is how we view items as documents, by zooming into them.
-点击一个项目符号，系统会将你放大到该项目符号，并显示任何缩进的内容。这就是我们如何将条目视为文档，通过放大查看它们。&lt;/p&gt;
-&lt;p&gt;If a bullet has no indented items, you’ll see an empty page with the title of the bullet you clicked on.
-如果一个项目符号没有缩进的内容，你将看到一个空白页面，页面上显示你点击的项目符号的标题。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;没想到 org-mode 里直接内置类似的功能了，具体命令是 =org-narrow-to-subtree=。执行这个命令之后，再执行 =widen=，视图就可以恢复原装。&lt;/p&gt;
-&lt;p&gt;只需要将快捷键绑定到具体的命令上就可用：&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -4,29 +4,44 @@
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Categories - Space Looming</title>
+<title>使用命令行检查文件/文件夹大小 - Space Looming</title>
 <meta name="description"
-    content="">
+    content="背景：我使用 macOS。
+在命令行工具里，有很多工具可以知道文件大小:
+ls -la 一般情况下使用，可以直观的文件大小，缺点是不知道文件夹大小 du * 会列出当前目录下所有文件夹内，所有文件的大小 du -hxd1 会列出当前目录下，所有子文件夹的的大小 gdu 用 golang 写的，支持多线程，作用和 du * 一样，有点是性能好，速度快
+不过我自己偏好 ncdu，有可视化界面，会显示子文件/子文件夹占用的空间百分比，还可以直接简单操作：
+ncdu 执行速度没有 gdu 快——但最新版本提供了多线程的实验特性，输入 ncdu -t8 即可调用，速度要快上不少。
+">
 
 
 <meta property="og:title"
-    content="Categories - Space Looming">
+    content="使用命令行检查文件/文件夹大小 - Space Looming">
 <meta property="og:description"
-    content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.gtdstudy.com/categories/">
+    content="背景：我使用 macOS。
+在命令行工具里，有很多工具可以知道文件大小:
+ls -la 一般情况下使用，可以直观的文件大小，缺点是不知道文件夹大小 du * 会列出当前目录下所有文件夹内，所有文件的大小 du -hxd1 会列出当前目录下，所有子文件夹的的大小 gdu 用 golang 写的，支持多线程，作用和 du * 一样，有点是性能好，速度快
+不过我自己偏好 ncdu，有可视化界面，会显示子文件/子文件夹占用的空间百分比，还可以直接简单操作：
+ncdu 执行速度没有 gdu 快——但最新版本提供了多线程的实验特性，输入 ncdu -t8 即可调用，速度要快上不少。
+">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/">
 
 
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title"
-    content="Categories - Space Looming">
+    content="使用命令行检查文件/文件夹大小 - Space Looming">
 <meta name="twitter:description"
-    content="">
+    content="背景：我使用 macOS。
+在命令行工具里，有很多工具可以知道文件大小:
+ls -la 一般情况下使用，可以直观的文件大小，缺点是不知道文件夹大小 du * 会列出当前目录下所有文件夹内，所有文件的大小 du -hxd1 会列出当前目录下，所有子文件夹的的大小 gdu 用 golang 写的，支持多线程，作用和 du * 一样，有点是性能好，速度快
+不过我自己偏好 ncdu，有可视化界面，会显示子文件/子文件夹占用的空间百分比，还可以直接简单操作：
+ncdu 执行速度没有 gdu 快——但最新版本提供了多线程的实验特性，输入 ncdu -t8 即可调用，速度要快上不少。
+">
 
 
 
-<link rel="canonical" href="https://www.gtdstudy.com/categories/">
+<link rel="canonical" href="https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/">
 
 
       <link rel="stylesheet" href="/css/main.min.e779ea60fb72420fead23cbcf2f223b22fe0f72af166fd0c9468e413d24a1528.css" integrity="sha256-53nqYPtyQg/q0jy88vIjsi/g9yrxZv0MlGjkE9JKFSg=" crossorigin="anonymous">
@@ -51,8 +66,6 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
-
-<link rel="alternate" type="application/rss+xml" href="https://www.gtdstudy.com/categories/index.xml" title="Space Looming" />
 
   
   <link rel="stylesheet" href="/css/main.min.css">
@@ -149,85 +162,43 @@
 </script>
   <main>
     
-<div class="list-container">
-    <header class="list-header">
-        <h1 class="list-title">Categories</h1>
+<div class="single-main">
+  <article class="single-post">
+    <header class="post-header">
+      <h1 class="post-title">使用命令行检查文件/文件夹大小</h1>
+
+      <div class="post-meta">
+        <time datetime=" 2025-04-22">
+          April 22, 2025
+        </time>
+
         
+        <div class="post-categories">
+          
+          <span class="category">til</span>
+          
+        </div>
+        
+      </div>
     </header>
 
-    <div class="taxonomy-list">
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/til/">TIL</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/quotes/">Quotes</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/summary/">Summary</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/write/">Write</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/now/">Now</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/read/">Read</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/about/">About</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/wirte/">Wirte</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/quote/">Quote</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/%E9%98%85%E8%AF%BB/">阅读</a>
-            </h2>
-            
-        </article>
-        
+    <div class="post-content">
+      <p>背景：我使用 macOS。</p>
+<p>在命令行工具里，有很多工具可以知道文件大小:</p>
+<p><code>ls -la</code>   一般情况下使用，可以直观的文件大小，缺点是不知道文件夹大小
+<code>du *</code>     会列出当前目录下所有文件夹内，所有文件的大小
+<code>du -hxd1</code> 会列出当前目录下，所有子文件夹的的大小
+<code>gdu</code>      用 golang 写的，支持多线程，作用和 <code>du *</code> 一样，有点是性能好，速度快</p>
+<p>不过我自己偏好 <del>ncdu</del>，有可视化界面，会显示子文件/子文件夹占用的空间百分比，还可以直接简单操作：</p>
+<figure><img src="/posts/check-file-folder-size-via-terminal/data/5E/19FC18-A239-4559-894B-DCB822FFF065/dbb41ef312c6d8eb305457b40bcb8676278ec0478068c6f20bd38f4cb8501b0f.png">
+</figure>
+
+<p><code>ncdu</code> 执行速度没有 <code>gdu</code> 快——但最新版本提供了多线程的实验特性，输入 <code>ncdu -t8</code> 即可调用，速度要快上不少。</p>
+
     </div>
+
+    
+  </article>
 </div>
 
   </main>
