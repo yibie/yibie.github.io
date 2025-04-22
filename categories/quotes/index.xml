@@ -9,7 +9,7 @@
     
     
     
-    <lastBuildDate>Tue, 22 Apr 2025 15:00:54 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 22 Apr 2025 15:04:21 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/quotes/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
     <item>
       <title>你所提供的产品、服务或库现在首要用户变成了LLM（大型语言模型），而不是人类。</title>
       <link>https://www.gtdstudy.com/posts/first-user-is-llm/</link>
-      <pubDate>Tue, 22 Apr 2025 15:00:54 +0800</pubDate>
+      <pubDate>Tue, 22 Apr 2025 15:04:21 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/posts/first-user-is-llm/</guid>
       <description>&lt;p&gt;Andrej Karpathy 在 &lt;a href=&#34;https://x.com/karpathy/status/1914494203696177444&#34;&gt;X&lt;/a&gt; 说，很多产品和服务的第一个用户，可能不是人类，原文：&lt;/p&gt;
@@ -25,15 +25,15 @@
 &lt;p&gt;公告：这是人机工效学的新纪元&lt;/p&gt;
 &lt;p&gt;你所提供的产品、服务或库现在首要用户变成了LLM（大型语言模型），而不是人类。&lt;/p&gt;
 &lt;p&gt;以下是一些需要注意的地方：&lt;/p&gt;
-&lt;p&gt;LLM更喜欢抓取网页内容，而不是导航。
-它们更喜欢阅读文本，而不是查看图像。
-它们更偏好使用curl命令获取内容，而不是点击按钮。
-等等。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;LLM更喜欢抓取网页内容，而不是导航。&lt;/p&gt;
+&lt;p&gt;它们更喜欢阅读文本，而不是查看图像。&lt;/p&gt;
+&lt;p&gt;它们更偏好使用curl命令获取内容，而不是点击按钮。&lt;/p&gt;
+&lt;p&gt;等等。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;还有人在下面评论补充：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;它们不太喜欢浏览，但更喜欢获取（fetch）内容。
-它们不太喜欢观看内容，但更喜欢解析（parse）文本。
-它们不太喜欢滚动浏览，但更喜欢查询（query）信息。&lt;/p&gt;&lt;/blockquote&gt;</description>
+&lt;p&gt;它们不太喜欢浏览，但更喜欢获取（fetch）内容。&lt;/p&gt;
+&lt;p&gt;它们不太喜欢观看内容，但更喜欢解析（parse）文本。&lt;/p&gt;
+&lt;p&gt;它们不太喜欢滚动浏览，但更喜欢查询（query）信息。&lt;/p&gt;&lt;/blockquote&gt;</description>
     </item>
     
     <item>
