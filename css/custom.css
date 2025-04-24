@@ -1,0 +1,8 @@
+/* 自定义样式 - 确保图片宽度与文章内容区域一致 */
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 4px;
+}
