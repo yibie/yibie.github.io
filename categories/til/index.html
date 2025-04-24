@@ -152,251 +152,435 @@
 <div class="list-container">
     <header class="list-header">
         <h1 class="list-title">TIL</h1>
+        
     </header>
 
-    <div class="term-list">
+    <div class="taxonomy-list">
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/check-file-folder-size-via-terminal/">使用命令行检查文件/文件夹大小</a>
             </h2>
-            <time class="term-card__time" datetime=" 2025-04-22">
-                Apr 22, 2025
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>背景：我使用 macOS。</p>
+<p>在命令行工具里，有很多工具可以知道文件大小:</p>
+<p><code>ls -la</code>   一般情况下使用，可以直观的文件大小，缺点是不知道文件夹大小</p>
+<p><code>du *</code>     会列出当前目录下所有文件夹内，所有文件的大小</p>
+<p><code>du -hxd1</code> 会列出当前目录下，所有子文件夹的的大小</p>
+<p><code>gdu …</code></p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/automatically-date-stamp-org-capture-entries/">让 org-capture 收集项可以自动归于某一日期下</a>
             </h2>
-            <time class="term-card__time" datetime=" 2025-03-16">
-                Mar 16, 2025
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>这么拗口的标题真是对不起，主要是找不到合适的词。</p>
+<p>是这样的，以前看 org-mode 的黑客们会炫出自己的日志文件，里面的组织方式，在 org-mode 官方教程里叫「日期树」</p>
+<p>它大概是这样子排列：</p>
+<figure><img src="/posts/automatically-date-stamp-org-capture-entries/images.png">
+</figure>
+
+<p>可以看到，这是一个树形列表，不过它会按照「年-月-日」来排列。</p>
+<p>我一直以来也是按照这种方式来组 …</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/">Org-mode 自带类似 Workflwoy 的 focus 功能</a>
             </h2>
-            <time class="term-card__time" datetime=" 2025-02-20">
-                Feb 20, 2025
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>以前把玩 Workflowy 的时候，有一个功能我很喜欢，但它没具体名字，在 Workflowy 的首页上，是这么介绍的：</p>
+<blockquote>
+<p>Zoom into your notes and focus on just one part
+放大你的笔记，专注于某一部分</p>
+<p>Clicking a bullet, zooms …</p></blockquote>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/config-org-refile/">设置 org-refile 的行为</a>
             </h2>
-            <time class="term-card__time" datetime=" 2025-02-19">
-                Feb 19, 2025
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>来自 <a href="https://www.reddit.com/r/emacs/comments/4366f9/comment/czg008y/">Reddit</a></p>
+<pre tabindex="0"><code class="language-nil" data-lang="nil">(setq org-refile-targets &#39;((nil :maxlevel . 9)        ; 这里定义 org-refile 感知的 org 标题层级
+                                (org-agenda-files …</code></pre>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/vim-navigation-in-long-line/">Vim 针对一段长文本的导航</a>
             </h2>
-            <time class="term-card__time" datetime=" 2025-02-11">
-                Feb 11, 2025
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <table>
+  <thead>
+      <tr>
+          <th>gj</th>
+          <th>向下滚动一行（视觉行）</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>gk</td>
+          <td>向上滚动一行（视觉行）</td>
+      </tr>
+      <tr>
+          <td>g^ …</td></tr></tbody></table>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/use-ctrl-o-in-vim-to-go-back-previous-cursor-position/">Vim 使用 Ctrl &#43; o 回到之前的光标位置</a>
             </h2>
-            <time class="term-card__time" datetime=" 2025-02-11">
-                Feb 11, 2025
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>如果想知道之前的光标位置的记录，可以输入 <code>:jumps</code> 就能看到之前光标位置记录的列表。</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/emacs-keep-flush-lines/">Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本</a>
             </h2>
-            <time class="term-card__time" datetime=" 2025-01-21">
-                Jan 21, 2025
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。</p>
+<p><code>keep-lines</code> 的意思就是，保留你输入关键字的文本行。</p>
+<p><code>flush-lines</code> 的意思是，排除你输入关键字的文本行。</p>
+<p>由于这两个命令，运行之后会直接修改文本内容，因此不要直 …</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/emacs-load-library/">实施加载 Emacs 的包文件</a>
             </h2>
-            <time class="term-card__time" datetime=" 2025-01-20">
-                Jan 20, 2025
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>运行这个命令： <code>load-library</code>。</p>
+<p>在调试开发 Emacs 的第三方包时，运行这一个命令可以避免每一次每一次修改都重启 Emacs。</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/org-mode-tag-align-right/">让 org-mode 的 tag 一直处于 Emacs 窗口的最右方</a>
             </h2>
-            <time class="term-card__time" datetime=" 2025-01-02">
-                Jan 2, 2025
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <pre tabindex="0"><code>(add-to-list &#39;font-lock-extra-managed-props &#39;display)
+(font-lock-add-keywords &#39;org-mode
+                        `((&#34;^.*?\\( …</code></pre>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/emacs-calendar-shift-select/">使用「Shift &#43; 方向键」在 Emacs Calendar 里自由选择日期</a>
             </h2>
-            <time class="term-card__time" datetime=" 2024-12-17">
-                Dec 17, 2024
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>在 org-mode 里，按下 C-c C-s 会出现一个日历视图（Emacs Calendar），可以让人直接输入 +1、+2 这种方式来选择未来的日期。</p>
+<p>这种方式不够直观、方便，今天发现，在唤出日历视图后，可以直接按着 Shift + 上下左右方向键，将可以自由移动 Emacs Calendar …</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/macos-cursor-speed/">加快 macOS 里光标的移动速度</a>
             </h2>
-            <time class="term-card__time" datetime=" 2024-12-17">
-                Dec 17, 2024
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>找到「系统设置（Sytem Setting」里的「键盘（Keyboard）」，将里面的「Key repeat rate」调向 fast 以及「Delay until repeat」调向 short。</p>
+<p>效果拔群！</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/antd-component-architecture/">Ant Design 组件基本分类</a>
             </h2>
-            <time class="term-card__time" datetime=" 2024-11-24">
-                Nov 24, 2024
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <h2 id="架构设计">架构设计</h2>
+<ul>
+<li>分层
+<ul>
+<li>基础组件</li>
+<li>样式体系</li>
+<li>复合组件</li>
+<li>业务组件</li>
+</ul>
+</li>
+<li>解耦
+<ul>
+<li>对于每个组件都要定义：样式、ts 类型、基础操作、工具方法</li>
+</ul>
+</li>
+<li>响应式设计</li>
+</ul>
+<h2 id="状态管理">状态管理</h2>
+<ul>
+<li>状态管理
+<ul>
+<li>全局状态：在 react 使用 Context、useSyncExternailStore</li>
+<li>局部状态：受控组件， …</li></ul></li></ul></ul></li></li></ul></li></ul>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/emacs-patch/">给 Emacs 打 Patch</a>
             </h2>
-            <time class="term-card__time" datetime=" 2024-11-06">
-                Nov 6, 2024
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p><strong>来源</strong>: Telegram 群组 &ldquo;Emacs_CN Lite 轻聊版&rdquo; @Lucius_Chen</p>
+<p>在 <code>/opt/homebrew/Library/Taps/d12frosted/homebrew-emacs-plus/Formula/</code> 下的 <code>emacs-plus@31.rb</code>  …</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/vim-scroll-move/">Vim 命令 - Scroll &amp; Move</a>
             </h2>
-            <time class="term-card__time" datetime=" 2024-11-05">
-                Nov 5, 2024
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <h2 id="scroll">Scroll</h2>
+<ul>
+<li>滚动一页: <code>C-f</code> / <code>C-b</code></li>
+<li>滚动半页: <code>C-d</code> / <code>C-u</code></li>
+<li>滚动一行: <code>C-e</code> / <code>C-y</code></li>
+</ul>
+<h2 id="navigation">Navigation</h2>
+<h3 id="以词定位">以词定位</h3>
+<ul>
+<li>下一个单词的开头: <code>w</code> / <code>W</code>（<code>W</code> 更加直接）</li>
+<li>当前单词的末尾: <code>e</code> / <code>E</code></li>
+<li>上一个单词的开头: <code>b</code> / <code>B</code></li>
+</ul>
+<h3 id="以行定位">以行定位</h3>
+<ul>
+<li>去到行首: <code>0</code></li>
+<li>去到行尾: …</li></ul>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/debugging-mysterious-bug/">解决一个神出鬼没的 Bug</a>
             </h2>
-            <time class="term-card__time" datetime=" 2024-10-27">
-                Oct 27, 2024
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <h2 id="一句话说明问题">一句话说明问题</h2>
+<p>升级 <code>org-zettel-ref-mode</code> 的数据库格式导致加载数据库的函数无法读取正确的数据库，结果引发内存错误链。报错信息仅显示 &ldquo;let*: End of file during parsing&rdquo;，未提供具体细节。</p>
+<h2 id="辛苦的过程">辛苦的过程</h2>
+<ol>
+<li>起初以为是代码括号匹配 …</li></ol>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/vercel-china-access/">让大陆用户顺利访问部署在 Vercel 上的网站程序</a>
             </h2>
-            <time class="term-card__time" datetime=" 2024-10-20">
-                Oct 20, 2024
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>在域名服务商的 DNS 记录中使用：
+<code>cname-china.vercel-dns.com</code></p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/emacs-register-usage/">使用 Emacs 的 Register 方便工作</a>
             </h2>
-            <time class="term-card__time" datetime=" 2024-10-17">
-                Oct 17, 2024
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>观看视频 <em>Emacs: Store anything with registers and bookmarks</em> 后，更清楚 Register 的作用。</p>
+<h2 id="register-的特点">Register 的特点</h2>
+<ul>
+<li>临时保存：
+<ul>
+<li>光标位置</li>
+<li>窗口布局</li>
+<li>文件（需自定义命令）</li>
+</ul>
+</li>
+<li>内容会随 Emacs 重启或被覆盖而丢失。</li>
+<li>快速覆盖机制适合 …</li></li></ul></li></ul>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/emacs-scroll-line/">Emacs 不移动光标的情况下滚动行</a>
             </h2>
-            <time class="term-card__time" datetime=" 2024-10-16">
-                Oct 16, 2024
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>Emacs 内置了两个命令：</p>
+<ul>
+<li><code>scroll-up-line</code></li>
+<li><code>scroll-down-line</code></li>
+</ul>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/software-engineering-profiler/">软件工程的性能测试</a>
             </h2>
-            <time class="term-card__time" datetime=" 2024-10-07">
-                Oct 7, 2024
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>所有软件工程都应通过 Profiler 测试性能。Emacs 中可以通过以下命令实现：</p>
+<ul>
+<li>启动性能测试: <code>M-x profiler-start</code>
+<ul>
+<li>选择 CPU 消耗、内存消耗，或 CPU+内存消耗。</li>
+</ul>
+</li>
+</ul>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/til/">TIL</a>
             </h2>
-            <time class="term-card__time" datetime=" 2024-10-01">
-                Oct 1, 2024
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>TIL = Today I learned</p>
+<h1 id="2025-01-21-emacs-中综合使用-keep-lines-和-flush-lines-过滤多行文本">2025-01-21 Emacs 中综合使用 keep-lines 和 flush-lines 过滤多行文本</h1>
+<p>如果不想写正则表达式，可以多次使用 keep-lines 和 flush-lines 来达到筛选包含某些关键字的文本行。</p>
+<p><code>keep-lines</code> 的 …</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/til-example/">TIL: Hugo&#39;s Page Resources</a>
             </h2>
-            <time class="term-card__time" datetime=" 2024-03-14">
-                Mar 14, 2024
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>Today I learned that Hugo&rsquo;s Page Resources feature allows you to co-locate images and other assets with your content files.</p>
+<p>This makes it easier …</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/how-to-play-games-with-m1-macbook/">如何在 M1 MacBook 上玩游戏</a>
             </h2>
-            <time class="term-card__time" datetime=" 2022-09-09">
-                Sep 9, 2022
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>因为把 Switch 留在了深圳，我不得不开发在 MacBook 上玩游戏的技能。</p>
+<h2 id="windows-游戏">Windows 游戏</h2>
+<p>直接下载 Steam 的 Mac 版，会失望的发现，很多好玩的游戏，平台只支持 Windows。所以，参考 2 条哔哩哔哩的视频教程，一步一步跟着走：</p>
+<ul>
+<li>
+<p><a href="https://www.bilibili.com/video/BV1yZ4y1D74K?vd_source=1f7b4ab69df0282a1f07c30f52428cfa">【Mac 玩游戏】Crossover …</a></p></li></ul>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/how-to-draw-bezier-curve/">PhotoShop：如何画优美的曲线</a>
             </h2>
-            <time class="term-card__time" datetime=" 2022-05-08">
-                May 8, 2022
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>原来 PhotoShop 里的钢笔工具，是贝济埃曲线（又称贝塞尔曲线）的应用，所以用好钢笔工具，应该用符合绘制贝济埃曲线的方法，这样子会比较容易得到好的结果。</p>
+<p>通过 B 站的 <a href="https://www.bilibili.com/video/BV19i4y1c76i/?spm_id_from=autoNext">oooooohmygosh</a> 学习到，画贝济埃曲线的规范：
+1、尽量让节点放在「极值点」的位置
+2、让节点和手柄保持水平或垂直 …</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/how-to-find-wifi-password/">Wi-F：如何寻找 Wi-Fi 密码</a>
             </h2>
-            <time class="term-card__time" datetime=" 2022-05-08">
-                May 8, 2022
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <h2 id="windows">Windows</h2>
+<p>进入 “网络和共享中心” 菜单。右键单击 Wi-Fi 网络连接图标→“无线网络属性”。点击 “显示字符” 字段，显示 Wi-Fi 网络密码。</p>
+<h2 id="macos">macOS</h2>
+<p>所有密码都存储在钥匙串应用程序中。使用 Spotlight 搜索 “Keychain Access”。打开该应用程序，在保存的凭证 …</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/why-mac-studio-can-not-change-ssds/">苹果：Mac Studio 为何不能更换普通的 SSD 硬盘</a>
             </h2>
-            <time class="term-card__time" datetime=" 2022-03-26">
-                Mar 26, 2022
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>极客风范浓厚醇正的 <a href="https://arstechnica.com/gadgets/2022/03/explaining-the-mac-studios-removable-ssds-and-why-you-cant-just-swap-them-out/">ArsTechnica</a> 也注意到 Mac Studio 不能随意更换 SSD 硬盘一事。它给出了一个很简单的答案：</p>
+<p>所有 SSD 硬盘的结构至少包含 2 样东西，用于存储数据 NAND 芯片和 SSD 控制芯片。在 PC 上，SSD 硬盘基本都包含这两样，所以它们更换起来很方便。 …</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/how-to-make-github-to-be-your-blog-image-server/">图床：把 Github 当做博客图床</a>
             </h2>
-            <time class="term-card__time" datetime=" 2022-02-04">
-                Feb 4, 2022
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>我之前的博客基本以纯文字为主，但最近因为博客新开了「产品」和「技巧」这两个分类，为了「把事情说明白」，发现还是需要「文字+图片」。由于本博客没有采用博客服务（比如 WordPress），就存在图片放哪儿的问题。</p>
+<p>幸运的是，我发现通过 PicGo 可以方便地将图片上传到 Github 上，只需要自己设 …</p>
+            </div>
+            
         </article>
         
-        <article class="term-card">
-            <h2 class="term-card__title">
+        <article class="taxonomy-card">
+            <h2 class="taxonomy-card__title">
                 <a href="/posts/photoshop-tips-1-fast-cutout/">PhotoShop：通过「色彩范围」工具来快速抠图的方法</a>
             </h2>
-            <time class="term-card__time" datetime=" 2022-01-29">
-                Jan 29, 2022
-            </time>
+            
+            <div class="taxonomy-card__summary">
+                <p>今天看了少数派的《<a href="https://sspai.com/post/71224">Keynote 贺卡制作指南</a>》，用里面的 PhotoShop 抠图小技巧，顺利地制作了属于自己的拜年贺卡。</p>
+<p>技巧记录如下：</p>
+<ol>
+<li>将图片导入 PhotoShop</li>
+<li>在图层工具栏里，解锁图层</li>
+<li>然后在「选择」菜单下找到「色彩范围」</li>
+<li>唤出「色彩范围」工具栏之后，把拾色器放在抠图的对象上</li>
+<li>如果发 …</li></ol>
+            </div>
+            
         </article>
         
     </div>
