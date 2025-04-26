@@ -6,18 +6,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Vim 中节约重复步骤的命令 - Space Looming</title>
 <meta name="description"
-    content=" . 重复上一步命令 ; 重复查找上一个字符 这两个命令组合起来，可以节约很多重复操作。
+    content=" . 重复上一步命令 ; 重复查找上一个字符 * 重复查找当前光标下的单词 这两个命令组合起来，可以节约很多重复操作。
 我举一个书上的例子，将以下代码中的 &#43; 两旁添加空格：
 var foo = &#34;method(&#34;&#43;argument1&#43;&#34;,&#34;&#43;argument2&#43;&#34;)&#34;; 此时使用 ; 和 . 的组合，就非常方便：
+另外如下例子中，则是 * 与 . 组合一起使用。先用 * 查找出相同的单词，在 cw 修改了之后，就可以按下 n 让光标跳转到下一个单词上，然后直接按下 . 即可：
 ">
 
 
 <meta property="og:title"
     content="Vim 中节约重复步骤的命令 - Space Looming">
 <meta property="og:description"
-    content=" . 重复上一步命令 ; 重复查找上一个字符 这两个命令组合起来，可以节约很多重复操作。
+    content=" . 重复上一步命令 ; 重复查找上一个字符 * 重复查找当前光标下的单词 这两个命令组合起来，可以节约很多重复操作。
 我举一个书上的例子，将以下代码中的 &#43; 两旁添加空格：
 var foo = &#34;method(&#34;&#43;argument1&#43;&#34;,&#34;&#43;argument2&#43;&#34;)&#34;; 此时使用 ; 和 . 的组合，就非常方便：
+另外如下例子中，则是 * 与 . 组合一起使用。先用 * 查找出相同的单词，在 cw 修改了之后，就可以按下 n 让光标跳转到下一个单词上，然后直接按下 . 即可：
 ">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://www.gtdstudy.com/posts/vim-repeat-step-saver/">
@@ -28,9 +30,10 @@ var foo = &#34;method(&#34;&#43;argument1&#43;&#34;,&#34;&#43;argument2&#43;&#34
 <meta name="twitter:title"
     content="Vim 中节约重复步骤的命令 - Space Looming">
 <meta name="twitter:description"
-    content=" . 重复上一步命令 ; 重复查找上一个字符 这两个命令组合起来，可以节约很多重复操作。
+    content=" . 重复上一步命令 ; 重复查找上一个字符 * 重复查找当前光标下的单词 这两个命令组合起来，可以节约很多重复操作。
 我举一个书上的例子，将以下代码中的 &#43; 两旁添加空格：
 var foo = &#34;method(&#34;&#43;argument1&#43;&#34;,&#34;&#43;argument2&#43;&#34;)&#34;; 此时使用 ; 和 . 的组合，就非常方便：
+另外如下例子中，则是 * 与 . 组合一起使用。先用 * 查找出相同的单词，在 cw 修改了之后，就可以按下 n 让光标跳转到下一个单词上，然后直接按下 . 即可：
 ">
 
 
@@ -180,14 +183,22 @@ var foo = &#34;method(&#34;&#43;argument1&#43;&#34;,&#34;&#43;argument2&#43;&#34
       <table>
   <thead>
       <tr>
-          <th><code>.</code></th>
-          <th>重复上一步命令</th>
+          <th></th>
+          <th></th>
       </tr>
   </thead>
   <tbody>
       <tr>
+          <td><code>.</code></td>
+          <td>重复上一步命令</td>
+      </tr>
+      <tr>
           <td><code>;</code></td>
           <td>重复查找上一个字符</td>
+      </tr>
+      <tr>
+          <td><code>*</code></td>
+          <td>重复查找当前光标下的单词</td>
       </tr>
   </tbody>
 </table>
@@ -196,6 +207,10 @@ var foo = &#34;method(&#34;&#43;argument1&#43;&#34;,&#34;&#43;argument2&#43;&#34
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">foo</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;method(&#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">argument1</span><span style="color:#f92672">+</span><span style="color:#e6db74">&#34;,&#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">argument2</span><span style="color:#f92672">+</span><span style="color:#e6db74">&#34;)&#34;</span>;
 </span></span></code></pre></div><p>此时使用 <code>;</code> 和 <code>.</code> 的组合，就非常方便：</p>
 <figure><img src="/posts/vim-repeat-step-saver/data/DF/1E2470-D87E-4F4C-9F9F-8C434A522407/PixPin_2025-04-26_12-08-23.gif">
+</figure>
+
+<p>另外如下例子中，则是 <code>*</code> 与 <code>.</code> 组合一起使用。先用 <code>*</code> 查找出相同的单词，在 <code>cw</code> 修改了之后，就可以按下 <code>n</code> 让光标跳转到下一个单词上，然后直接按下 <code>.</code> 即可：</p>
+<figure><img src="/posts/vim-repeat-step-saver/data/DF/1E2470-D87E-4F4C-9F9F-8C434A522407/PixPin_2025-04-26_13-26-22.gif">
 </figure>
 
 
