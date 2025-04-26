@@ -9,10 +9,19 @@
     
     
     
-    <lastBuildDate>Thu, 24 Apr 2025 16:51:08 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 12:10:07 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TIL</title>
+      <link>https://www.gtdstudy.com/categories/til/</link>
+      <pubDate>Sat, 26 Apr 2025 12:10:07 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/categories/til/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Read</title>
@@ -20,15 +29,6 @@
       <pubDate>Thu, 24 Apr 2025 16:51:08 +0800</pubDate>
       
       <guid>https://www.gtdstudy.com/categories/read/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TIL</title>
-      <link>https://www.gtdstudy.com/categories/til/</link>
-      <pubDate>Tue, 22 Apr 2025 21:59:49 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/categories/til/</guid>
       <description></description>
     </item>
     

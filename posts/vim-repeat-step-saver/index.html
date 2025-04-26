@@ -4,29 +4,38 @@
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Categories - Space Looming</title>
+<title>Vim 中节约重复步骤的命令 - Space Looming</title>
 <meta name="description"
-    content="">
+    content=" . 重复上一步命令 ; 重复查找上一个字符 这两个命令组合起来，可以节约很多重复操作。
+我举一个书上的例子，将以下代码中的 &#43; 两旁添加空格：
+var foo = &#34;method(&#34;&#43;argument1&#43;&#34;,&#34;&#43;argument2&#43;&#34;)&#34;; 此时使用 ; 和 . 的组合，就非常方便：
+">
 
 
 <meta property="og:title"
-    content="Categories - Space Looming">
+    content="Vim 中节约重复步骤的命令 - Space Looming">
 <meta property="og:description"
-    content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.gtdstudy.com/categories/">
+    content=" . 重复上一步命令 ; 重复查找上一个字符 这两个命令组合起来，可以节约很多重复操作。
+我举一个书上的例子，将以下代码中的 &#43; 两旁添加空格：
+var foo = &#34;method(&#34;&#43;argument1&#43;&#34;,&#34;&#43;argument2&#43;&#34;)&#34;; 此时使用 ; 和 . 的组合，就非常方便：
+">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.gtdstudy.com/posts/vim-repeat-step-saver/">
 
 
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title"
-    content="Categories - Space Looming">
+    content="Vim 中节约重复步骤的命令 - Space Looming">
 <meta name="twitter:description"
-    content="">
+    content=" . 重复上一步命令 ; 重复查找上一个字符 这两个命令组合起来，可以节约很多重复操作。
+我举一个书上的例子，将以下代码中的 &#43; 两旁添加空格：
+var foo = &#34;method(&#34;&#43;argument1&#43;&#34;,&#34;&#43;argument2&#43;&#34;)&#34;; 此时使用 ; 和 . 的组合，就非常方便：
+">
 
 
 
-<link rel="canonical" href="https://www.gtdstudy.com/categories/">
+<link rel="canonical" href="https://www.gtdstudy.com/posts/vim-repeat-step-saver/">
 
 
       <script src="/js/main.cae3d9eba4e54c3d685682c303a39b0cc30e2473ee5331e21ead03ee70507a6e.js" integrity="sha256-yuPZ66TlTD1oVoLDA6ObDMMOJHPuUzHiHq0D7nBQem4=" crossorigin="anonymous"></script>
@@ -47,8 +56,6 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
-
-<link rel="alternate" type="application/rss+xml" href="https://www.gtdstudy.com/categories/index.xml" title="Space Looming" />
 
   
   <link rel="stylesheet" href="/css/main.min.css">
@@ -149,85 +156,61 @@
 </script>
   <main>
     
-<div class="list-container">
-    <header class="list-header">
-        <h1 class="list-title">Categories</h1>
+<div class="single-main">
+  <article class="single-post">
+    <header class="post-header">
+      <h1 class="post-title">Vim 中节约重复步骤的命令</h1>
+
+      <div class="post-meta">
+        <time datetime=" 2025-04-26">
+          April 26, 2025
+        </time>
+
         
+        <div class="post-categories">
+          
+          <span class="category">til</span>
+          
+        </div>
+        
+      </div>
     </header>
 
-    <div class="taxonomy-list">
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/til/">TIL</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/read/">Read</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/quotes/">Quotes</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/summary/">Summary</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/write/">Write</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/now/">Now</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/about/">About</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/wirte/">Wirte</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/quote/">Quote</a>
-            </h2>
-            
-        </article>
-        
-        <article class="taxonomy-card">
-            <h2 class="taxonomy-card__title">
-                <a href="/categories/%E9%98%85%E8%AF%BB/">阅读</a>
-            </h2>
-            
-        </article>
-        
+    <div class="post-content">
+      <table>
+  <thead>
+      <tr>
+          <th><code>.</code></th>
+          <th>重复上一步命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>;</code></td>
+          <td>重复查找上一个字符</td>
+      </tr>
+  </tbody>
+</table>
+<p>这两个命令组合起来，可以节约很多重复操作。</p>
+<p>我举一个书上的例子，将以下代码中的 + 两旁添加空格：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">foo</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;method(&#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">argument1</span><span style="color:#f92672">+</span><span style="color:#e6db74">&#34;,&#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">argument2</span><span style="color:#f92672">+</span><span style="color:#e6db74">&#34;)&#34;</span>;
+</span></span></code></pre></div><p>此时使用 <code>;</code> 和 <code>.</code> 的组合，就非常方便：</p>
+<figure><img src="/posts/vim-repeat-step-saver/data/DF/1E2470-D87E-4F4C-9F9F-8C434A522407/PixPin_2025-04-26_12-08-23.gif">
+</figure>
+
+
     </div>
+
+    
+    <footer class="post-footer">
+      <div class="post-tags">
+        
+        <a href="/tags/vim" class="post-tag">vim</a>
+        
+      </div>
+    </footer>
+    
+  </article>
 </div>
 
   </main>

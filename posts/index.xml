@@ -15,6 +15,34 @@
     
     
     <item>
+      <title>Vim 中节约重复步骤的命令</title>
+      <link>https://www.gtdstudy.com/posts/vim-repeat-step-saver/</link>
+      <pubDate>Sat, 26 Apr 2025 12:10:07 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/vim-repeat-step-saver/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;code&gt;.&lt;/code&gt;&lt;/th&gt;
+          &lt;th&gt;重复上一步命令&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;重复查找上一个字符&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;这两个命令组合起来，可以节约很多重复操作。&lt;/p&gt;
+&lt;p&gt;我举一个书上的例子，将以下代码中的 + 两旁添加空格：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;foo&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;method(&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;argument1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;,&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;argument2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;)&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;此时使用 &lt;code&gt;;&lt;/code&gt; 和 &lt;code&gt;.&lt;/code&gt; 的组合，就非常方便：&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/vim-repeat-step-saver/data/DF/1E2470-D87E-4F4C-9F9F-8C434A522407/PixPin_2025-04-26_12-08-23.gif&#34;&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
       <title>#我是成龙</title>
       <link>https://www.gtdstudy.com/posts/read-i-am-jackie-chan/</link>
       <pubDate>Thu, 24 Apr 2025 16:51:08 +0800</pubDate>
@@ -1464,19 +1492,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
       <guid>https://www.gtdstudy.com/posts/use-deepseek-r1-prompt-optimizer-for-instruct-model/use-deepseek-r1-prompt-optimizer-for-instruct-model/</guid>
       <description>&lt;p&gt;十分同意 Jarod 的观点，实际上写 Prompt 对于普通用户来说，要求也太高了。以及，由于大模型的不稳定性，如果为一次性任务写 Prompt，代价过高。但是，对于日常情景来说，大部分 AI 接到的可能是一次性任务——如果自己很快就能做完，可能也就不必想着问 AI。&lt;/p&gt;
 &lt;p&gt;在这种情况下，使用一个表现较好的模型，对用户的需求进行预处理，那么就可以令产品本身的表现变得稳定。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>人一旦确认了自己的本真，什么事情是真正的属于自己的，剩下的就是用自己的直觉，经验，肌肉记忆，所有属于自己肉身的东西，成为自己战场上的拿破仑。理性属于注定要做牛马的一群聪明人。</title>
-      <link>https://www.gtdstudy.com/posts/quote-laobianji-te-be-myself/quote-laobianji-te-be-myself/</link>
-      <pubDate>Sun, 23 Feb 2025 22:00:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/quote-laobianji-te-be-myself/quote-laobianji-te-be-myself/</guid>
-      <description>&lt;p&gt;另一位朋友“Dachein大澄”对这句话的回复：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;理性属于注定要做牛马的一群聪明人 &amp;lt;- 不能同意更多。&lt;/p&gt;
-&lt;p&gt;聪明的普通人选择鸡娃鸡自己，视“理性”为圭臬， 守护这个基石，既为了守护这个偶然的相对优势，也是为自己一步步的“出卖一切”开脱&amp;hellip; 所以 ，这波聪明人也可以称为买办，既然缺乏勇气，也就没了选择，谈何自由。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;来源：&lt;a href=&#34;https://web.okjike.com/originalPost/67baffebb07d225afe391f6a&#34;&gt;即刻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

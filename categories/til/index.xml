@@ -9,10 +9,38 @@
     
     
     
-    <lastBuildDate>Tue, 22 Apr 2025 21:59:49 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 12:10:07 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/til/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vim 中节约重复步骤的命令</title>
+      <link>https://www.gtdstudy.com/posts/vim-repeat-step-saver/</link>
+      <pubDate>Sat, 26 Apr 2025 12:10:07 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/vim-repeat-step-saver/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;code&gt;.&lt;/code&gt;&lt;/th&gt;
+          &lt;th&gt;重复上一步命令&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;重复查找上一个字符&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;这两个命令组合起来，可以节约很多重复操作。&lt;/p&gt;
+&lt;p&gt;我举一个书上的例子，将以下代码中的 + 两旁添加空格：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;foo&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;method(&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;argument1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;,&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;argument2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;)&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;此时使用 &lt;code&gt;;&lt;/code&gt; 和 &lt;code&gt;.&lt;/code&gt; 的组合，就非常方便：&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/vim-repeat-step-saver/data/DF/1E2470-D87E-4F4C-9F9F-8C434A522407/PixPin_2025-04-26_12-08-23.gif&#34;&gt;
+&lt;/figure&gt;</description>
+    </item>
     
     <item>
       <title>使用命令行检查文件/文件夹大小</title>
