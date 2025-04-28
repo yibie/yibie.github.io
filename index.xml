@@ -15,6 +15,23 @@
     
     
     <item>
+      <title>张力所存在的地方，就是需求所在</title>
+      <link>https://www.gtdstudy.com/posts/there-is-tension-there-is-need/</link>
+      <pubDate>Mon, 28 Apr 2025 10:54:22 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/there-is-tension-there-is-need/</guid>
+      <description>&lt;p&gt;产品是矛盾统一论的实例。&lt;/p&gt;
+&lt;p&gt;例子：&lt;/p&gt;
+&lt;p&gt;桌面宠物&lt;/p&gt;
+&lt;p&gt;理性 vs 感性 =&amp;gt; 在理性的情景中，添加感性元素
+紧张 vs 放松 =&amp;gt; 在紧张的情景中，注入放松元素&lt;/p&gt;
+&lt;p&gt;那么这个例子反过来，也是可以的：&lt;/p&gt;
+&lt;p&gt;日记数据化&lt;/p&gt;
+&lt;p&gt;理性 vs 感性 =&amp;gt; 在感性的情境中，添加理性元素
+混乱 vs 有序 =&amp;gt; 在混乱的情境中，添加有序元素&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Vim 中节约重复步骤的命令</title>
       <link>https://www.gtdstudy.com/posts/vim-repeat-step-saver/</link>
       <pubDate>Sat, 26 Apr 2025 13:27:15 +0800</pubDate>
@@ -1494,16 +1511,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
 &lt;p&gt;“能动性，作为一种人格特质，指的是个人采取主动、做出决策并控制其行为和环境的能力。它关乎积极主动而非被动反应——具有高度能动性的人不会只是让生活发生在他们身上；他们塑造生活。可以把它看作是自我效能、决心和对自身道路的掌控感的结合。&lt;/p&gt;
 &lt;p&gt;具有强大能动性的人倾向于设定目标并充满信心地追求它们，即使面对障碍。他们是那种会说“我会解决它”然后真的去做的人。另一方面，能动性低的人可能更像自己生活中的乘客，等待外部力量——比如运气、其他人或环境——来决定接下来会发生什么。&lt;/p&gt;
 &lt;p&gt;它与自信或雄心壮志并不完全相同，尽管它们可能重叠。能动性更安静，更内在——它是一种你*可以*行动的信念，以及贯彻执行的意愿。心理学家经常将其与控制点等概念联系起来：高能动性的人倾向于内在控制点，感觉他们掌控自己的命运，而低能动性的人可能倾向于外在控制点，认为生活是*发生在*他们身上的事情。”&lt;/p&gt;&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>感觉大家慢慢正在达成一个共识，那就是大部分人自己直接写的 prompt 都是不合格的，DeepSeek R1 的最佳使用场景不是直接用来输出，而是一个 prompt 优化器。通过推理过程把初始 prompt 优化之后再喂给 instruct 模型。</title>
-      <link>https://www.gtdstudy.com/posts/use-deepseek-r1-prompt-optimizer-for-instruct-model/use-deepseek-r1-prompt-optimizer-for-instruct-model/</link>
-      <pubDate>Mon, 24 Feb 2025 23:20:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/use-deepseek-r1-prompt-optimizer-for-instruct-model/use-deepseek-r1-prompt-optimizer-for-instruct-model/</guid>
-      <description>&lt;p&gt;十分同意 Jarod 的观点，实际上写 Prompt 对于普通用户来说，要求也太高了。以及，由于大模型的不稳定性，如果为一次性任务写 Prompt，代价过高。但是，对于日常情景来说，大部分 AI 接到的可能是一次性任务——如果自己很快就能做完，可能也就不必想着问 AI。&lt;/p&gt;
-&lt;p&gt;在这种情况下，使用一个表现较好的模型，对用户的需求进行预处理，那么就可以令产品本身的表现变得稳定。&lt;/p&gt;</description>
     </item>
     
   </channel>
