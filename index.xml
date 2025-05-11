@@ -1,18 +1,108 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home - Space Looming</title>
+    <title>Space Looming</title>
     <link>https://www.gtdstudy.com/</link>
-    <description>Recent content in Home on Space Looming</description>
+    <description>Recent content on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
     
     
-    <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 11 May 2025 21:48:39 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eugene Yan</title>
+      <link>https://www.gtdstudy.com/posts/eugene-yan/</link>
+      <pubDate>Sun, 11 May 2025 21:48:39 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/eugene-yan/</guid>
+      <description>&lt;p&gt;#llm #ai #amazon&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/eugene-yan/Eugene_Yan/2025-05-11_21-22-33_eugeneyan_200px.png&#34;&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;喜欢动手实践产品原型的首席科学家&lt;/li&gt;
+&lt;li&gt;在博客中经常讨论如何将 LLM 落地应用在产品里&lt;/li&gt;
+&lt;li&gt;还主持了一个定期解读 AI 论文的 Club，每两周聚一次&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一些我觉得有意思的文章：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://applied-llms.org/&#34;&gt;https://applied-llms.org/&lt;/a&gt; 使用 LLM 一年之后，虽然成文时间是一年前，不过里面的结论目前来看，并未过时。有时间我会好好总结一下文章里的观点&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eugeneyan.com/writing/news-agents/&#34;&gt;https://eugeneyan.com/writing/news-agents/&lt;/a&gt; Eugene Yan 最新的产品原型，使用 Amanzon Q 和 MCP 来完成一个新闻简报 Agent 工作流&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eugeneyan.com/writing/recsys-llm/&#34;&gt;https://eugeneyan.com/writing/recsys-llm/&lt;/a&gt; 讨论如何用 LLM 提升推荐的效率，这是 Eugene Yan 的老本行，值得一看&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eugeneyan.com/writing/aireadingclub/&#34;&gt;https://eugeneyan.com/writing/aireadingclub/&lt;/a&gt; 这篇文章提到他如何设计一个 AI 辅助阅读助手&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eugeneyan.com/writing/prompting/&#34;&gt;https://eugeneyan.com/writing/prompting/&lt;/a&gt; 写出有效的提示词&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>开源硬件 | Flipper Zero</title>
+      <link>https://www.gtdstudy.com/posts/flipper-zero/</link>
+      <pubDate>Sun, 11 May 2025 21:47:55 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/flipper-zero/</guid>
+      <description>&lt;p&gt;#flipper_zero&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://x.com/IntEngineering/status/1921018602943377730&#34;&gt;X&lt;/a&gt; 上，我看到一则视频，看到有人用一个有趣的硬件，来复制大家常见的钥匙。后来经过一番搜索，发现该视频的制作人叫 &lt;a href=&#34;https://www.youtube.com/watch?v=djoC-wlKWPw&amp;amp;list=PLt5m_PYzyUoto-g_WtSbV_QimUUrNsG26&amp;amp;index=1&#34;&gt;LockPickNic&lt;/a&gt;，是一个 YouTuber，他非常着迷于现实中的锁，和钥匙。&lt;/p&gt;
+&lt;p&gt;在一个更详细的视频当中，他彻底展示，他如何通过一个叫 Flipper Zero 的开源硬件来复制钥匙。以下是我用 Gemini 总结的过程：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;*针对钥匙类型*：主要针对的是*基础的住宅钥匙*，视频中提到有90%的几率是美国的 *Schlage C 型*钥匙。&lt;/li&gt;
+&lt;li&gt;*技术方法*：
+&lt;ul&gt;
+&lt;li&gt;使用 Flipper Zero 进行钥匙解码。&lt;/li&gt;
+&lt;li&gt;重点提到了*3D 打印技术*来制作复制的钥匙。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;*讨论与疑问（来自评论区，可能在视频中有所涉及或引发的思考）*：
+&lt;ul&gt;
+&lt;li&gt;不同钥匙类型的适用性（如瑞士的 Kaba 钥匙、凹点钥匙）。&lt;/li&gt;
+&lt;li&gt;3D 打印的精度、材料选择（如 PLA, PETG-CF）以及可能遇到的问题（如柔韧性、断裂风险）。&lt;/li&gt;
+&lt;li&gt;如何定义和识别钥匙的 Warding 类型。&lt;/li&gt;
+&lt;li&gt;如何判断锁有多少个针脚（pins）。&lt;/li&gt;
+&lt;li&gt;Flipper Zero 生态系统中使用的具体应用程序。&lt;/li&gt;
+&lt;li&gt;与传统的钥匙复制方法（如钥匙铸造系统）的对比。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Flipper Zero 是什么？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是一款多功能便携式设备，主要面向对无线电、硬件和安全感兴趣的人（常被称为“极客”或“渗透测试员”）。&lt;/p&gt;
+&lt;p&gt;官网：&lt;a href=&#34;https://flipperzero.one/&#34;&gt;https://flipperzero.one/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;官网简介：Flipper Zero 是一个玩具般外形的便携式多功能工具，专为渗透测试人员和极客设计。它擅长破解数字设备，例如无线电协议、门禁系统、硬件等等。它完全开源且可定制，因此你可以根据自己的喜好进行扩展。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/flipper-zero/%E7%A1%AC%E4%BB%B6_%7C_%E5%A4%8D%E5%88%B6%E9%92%A5%E5%8C%99_Flipper_Zero/2025-05-11_09-54-44_tild3135-3238-4638-a336-663164393931__front_new.png&#34;&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/flipper-zero/%E7%A1%AC%E4%BB%B6_%7C_%E5%A4%8D%E5%88%B6%E9%92%A5%E5%8C%99_Flipper_Zero/2025-05-11_09-54-57_tild3135-3238-4638-a336-663164393931__front_new.png&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;它具备多种接口：&lt;/p&gt;
+&lt;p&gt;根据提供的内容，Flipper Zero 集成了以下主要功能模块或能力：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;*Sub-1 GHz 模块*：用于与各种无线设备（如遥控器、车库门、物联网传感器等）进行交互，支持315 MHz, 433 MHz, 868 MHz, 915 MHz 频段（取决于地区）。&lt;/li&gt;
+&lt;li&gt;*NFC (13.56 MHz)*：支持读写和模拟多种NFC卡片（如ISO-14443A/B, MIFARE Classic®, Ultralight®, DESFire®, FeliCa™, HID iClass™等）。&lt;/li&gt;
+&lt;li&gt;*RFID (125 kHz)*：支持读写和模拟多种低频RFID标签（如EM400x, HID, Indala, FDX, Pyramid, AWID, Viking等）。&lt;/li&gt;
+&lt;li&gt;*红外收发模块 (Infrared)*：可以学习和发送红外信号，用于控制电视、空调等设备，支持多种协议（NEC family, Kaseikyo, RCA, RC5, RC6, Samsung, SIRC等）。&lt;/li&gt;
+&lt;li&gt;*GPIO 接口*：用于连接外部硬件，进行固件烧录、调试、控制。它还具备：
+&lt;ul&gt;
+&lt;li&gt;SPI、UART、I2C 转 USB 转换器功能。&lt;/li&gt;
+&lt;li&gt;SPI Flash 编程器。&lt;/li&gt;
+&lt;li&gt;AVR ISP 编程器。&lt;/li&gt;
+&lt;li&gt;OpenDAP 调试。&lt;/li&gt;
+&lt;li&gt;提供 5V 和 3.3V 电源输出。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;*iButton (1-Wire)*：支持读写和模拟 Dallas DS199x、CYFRAL、Metakom 等接触式密钥。&lt;/li&gt;
+&lt;li&gt;*蓝牙 LE 5.4 (Bluetooth LE 5.4)*：用于低功耗蓝牙通信。&lt;/li&gt;
+&lt;li&gt;*USB Type-C 接口*：用于充电、数据传输，并可作为USB设备（如串口转换器）。&lt;/li&gt;
+&lt;li&gt;*Fuzzing 工具*：用于测试各种协议和信号。&lt;/li&gt;
+&lt;li&gt;*独立操作能力*：内置LCD显示屏、5向导航键+返回键、蜂鸣器、振动马达和锂电池（2100 mAh），无需PC即可操作。&lt;/li&gt;
+&lt;li&gt;*MicroSD 卡槽*：支持高达256GB的MicroSD卡（推荐2-32GB），用于存储数据，支持FAT12, FAT16, FAT32, exFAT文件系统。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/flipperdevices&#34;&gt;https://github.com/flipperdevices&lt;/a&gt; Flipper Zero 的官方 Github 仓库
+&lt;a href=&#34;https://github.com/Next-Flip/Momentum-Firmware&#34;&gt;https://github.com/Next-Flip/Momentum-Firmware&lt;/a&gt; Flipper Zero 自定义固件&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>张力所存在的地方，就是需求所在</title>
@@ -1488,33 +1578,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
 &lt;p&gt;其实就好像我们人类沟通一样，视角的切换本来也很难，尤其是缺乏上下文交流的情景里。只不过，如果有熟悉的好朋友，或者关系好的同事，这个上下文在长期的协作中，会形成默契。&lt;/p&gt;
 &lt;p&gt;默契 = 共享的上下文窗口&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;换言之，Prompt 的必要性是存在的，其意义不是让大模型发挥出超越平时的能力，而是属于人机交互中必要的一环。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>难道我发现了大模型的基本逻辑？</title>
-      <link>https://www.gtdstudy.com/posts/set-theory-catergory-theory-view-of-tag-system/set-theory-and-catergory-theory-view-of-tag-system/</link>
-      <pubDate>Tue, 25 Feb 2025 22:21:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/set-theory-catergory-theory-view-of-tag-system/set-theory-and-catergory-theory-view-of-tag-system/</guid>
-      <description>&lt;p&gt;今天在思考，集合论、范畴论视角下的标签体系。毫不意外，涉及到了文本相似度计算这一基础算法。但这套算法还是比较机械的，不具备语义性。&lt;/p&gt;
-&lt;p&gt;然后，当我要求从语义出发，去寻找文本的相似性时，一切都有趣起来了——最终和 AI 聊天得到的结果是，只要从这个逻辑出发， AI 就会告诉我一大堆大模型的基础实现方法。&lt;/p&gt;
-&lt;p&gt;集合论、范畴论视角下的标签体系（系统），是大模型设计的基本角度吗？看上去是。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>能动性 &gt; 智力</title>
-      <link>https://www.gtdstudy.com/posts/agency-bigger-than-intelligence/agency-bigger-than-intelligence/</link>
-      <pubDate>Tue, 25 Feb 2025 17:56:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/agency-bigger-than-intelligence/agency-bigger-than-intelligence/</guid>
-      <description>&lt;p&gt;在人工智能领域，广受关注的 Andrej Karpathy 又发了一篇好文，原文：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;能动性 &amp;gt; 智力&lt;/p&gt;
-&lt;p&gt;这几十年，我直觉上一直搞错了，我认为这是由于一种普遍的文化对智力的推崇，各种娱乐/媒体，对智商的痴迷等等。能动性要强大得多，也稀缺得多。你招聘时看重能动性吗？我们教育是为了培养能动性吗？你的行为是否像拥有10倍的能动性一样？&lt;/p&gt;
-&lt;p&gt;Grok的解释比较接近：&lt;/p&gt;
-&lt;p&gt;“能动性，作为一种人格特质，指的是个人采取主动、做出决策并控制其行为和环境的能力。它关乎积极主动而非被动反应——具有高度能动性的人不会只是让生活发生在他们身上；他们塑造生活。可以把它看作是自我效能、决心和对自身道路的掌控感的结合。&lt;/p&gt;
-&lt;p&gt;具有强大能动性的人倾向于设定目标并充满信心地追求它们，即使面对障碍。他们是那种会说“我会解决它”然后真的去做的人。另一方面，能动性低的人可能更像自己生活中的乘客，等待外部力量——比如运气、其他人或环境——来决定接下来会发生什么。&lt;/p&gt;
-&lt;p&gt;它与自信或雄心壮志并不完全相同，尽管它们可能重叠。能动性更安静，更内在——它是一种你*可以*行动的信念，以及贯彻执行的意愿。心理学家经常将其与控制点等概念联系起来：高能动性的人倾向于内在控制点，感觉他们掌控自己的命运，而低能动性的人可能倾向于外在控制点，认为生活是*发生在*他们身上的事情。”&lt;/p&gt;&lt;/blockquote&gt;</description>
     </item>
     
   </channel>
