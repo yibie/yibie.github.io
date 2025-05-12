@@ -9,10 +9,39 @@
     
     
     
-    <lastBuildDate>Tue, 15 Apr 2025 08:08:34 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 16:16:32 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/summary/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>超文本先驱 | Intermedia</title>
+      <link>https://www.gtdstudy.com/posts/hypertext-intermedia/</link>
+      <pubDate>Mon, 12 May 2025 16:16:32 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/hypertext-intermedia/</guid>
+      <description>&lt;p&gt;#brown_university #norman_meyrowitz #intermedia #hypertext&lt;/p&gt;
+&lt;p&gt;Intermedia 是来自布朗大学后来的第三个重要的超文本项目，此前有 HES (1967) 和 FRESS (1969)。Intermedia 于 1985 年由 Norman Meyrowitz 启动，他此前在布朗大学进行过超文本研究。Intermedia 项目与信息与学术研究机构 (IRIS) 的成立同时发生。 来自 Intermedia 的一些材料，由梅罗维茨（Nancy Meyrowitz）、加雷特（Karen Catlin）等人撰写，被用于 HTML 的开发。&lt;/p&gt;
+&lt;p&gt;WikiPedia 简介&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Intermedia_(hypertext)&#34;&gt;https://en.wikipedia.org/wiki/Intermedia_(hypertext)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;由 Norman K. Meyrowitz 在 HUMAN’20 大会上演示 Intermedia 的珍贵视频&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?app=desktop&amp;amp;v=bGGxdF0Pn4g&#34;&gt;https://www.youtube.com/watch?app=desktop&amp;amp;v=bGGxdF0Pn4g&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Intermedia: The Concet and the Construction of a Seamless Information Environment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一篇完整介绍 Intermedia 概念、机制的论文，这里称 Intermedia 力图打造的一种沉浸式的信息环境&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/research/wp-content/uploads/1988/01/The-Concept-and-the-Construction-of-a-Seamless-Information-Environment.pdf&#34;&gt;https://www.microsoft.com/en-us/research/wp-content/uploads/1988/01/The-Concept-and-the-Construction-of-a-Seamless-Information-Environment.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The History of Hypertext&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nngroup.com/articles/hypertext-history/&#34;&gt;https://www.nngroup.com/articles/hypertext-history/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;A Half-Century of Hypertext at Brown&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;布朗大学在 2019 年召开的一个报告会，报告人均是当年参与了超文本项目用于总结半个世纪以前，布朗大学在超文本领域u&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Links：说人话的 DeepSeek 论文解读</title>
@@ -1446,47 +1475,6 @@ BDO 有几个特点：&lt;/p&gt;
 &lt;p&gt;重视合规，不管在产品认证、履约、财务税务、平台以及渠道规则上的合规大家都需要重视；&lt;/p&gt;
 &lt;p&gt;过去跨境电商卖家们缺乏真正的“运营”，一个人把“选品”“投放”甚至供应链一条龙全干了，缺乏和用户真正的连接和运营；&lt;/p&gt;
 &lt;p&gt;接受并善用一些工具，比如客服、营销、ERP 等。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>摘录：Crazy new ideas</title>
-      <link>https://www.gtdstudy.com/posts/cray-new-ideas/</link>
-      <pubDate>Sat, 01 Jan 2022 21:28:18 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/cray-new-ideas/</guid>
-      <description>&lt;p&gt;本文来自公众号由鲸发布翻译。&lt;/p&gt;
-&lt;p&gt;Crazy New Ideas&lt;/p&gt;
-&lt;p&gt;有一种意见我非常害怕公开表达，那就是：如果我认识的某个人是一个领域的专家，又是一个很靠谱的人，提出了一个听起来很荒谬的想法时，我会非常不愿意说：&amp;ldquo;这行不通。&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;因为任何研究过思想史特别是科学史的人都知道：伟大事业是如何开始的。有人提出了一个听上去很疯狂的想法，大多数人对此不屑一顾，然后，它逐渐占领了全世界。&lt;/p&gt;
-&lt;p&gt;大多数听起来疯狂的想法，都是糟糕的，你可以放心地无视。但如果这种疯狂的想法，是由一个靠谱的某个领域的专家提出时，就不一样了。&lt;/p&gt;
-&lt;p&gt;如果提出这个想法的人，是靠谱的，他们其实知道这个想法听起来有多么不可信。他们提出了这个项目，就意味着：他们知道一些你不知道的东西。如果他们在自己的专业领域知识深厚，这些深厚的知识，可能就是这个想法的来源。&lt;/p&gt;
-&lt;p&gt;当然，这类想法，不保证一定会成功。其实，也没必要保证，只要它们是一个足够好的赌注就可以了，也就是说：只要它们有足够高的预期价值。而我认为平均而言，那些想法就是这样的。&lt;/p&gt;
-&lt;p&gt;我认为，如果你把赌注，押在靠谱的领域专家提出来的所有听起来不靠谱的想法上，最终，你会获得收益。&lt;/p&gt;
-&lt;p&gt;原因是：大家都太保守了。&lt;/p&gt;
-&lt;p&gt;我们都被&amp;quot;范式 &amp;ldquo;环绕和束缚得太厉害，即便是那些有新想法的人，最初，也会低估这些新想法的价值。这意味着，在他们达到公开提出这些想法的阶段之前，已经对这些新想法进行了过于严格的过滤。&lt;/p&gt;
-&lt;p&gt;对于这类想法，我认为明智的回应是：不发表你的意见，而是要提出问题，因为这里面，有真正值得思考的东西。&lt;/p&gt;
-&lt;p&gt;为什么这个聪明而理智的人，提出了一个看起来如此荒谬的想法？是他们搞错了，还是你搞错了？这里面，肯定有一个人是错的。如果你是错的，那挺好，意味着：在你的世界模型中，有一个漏洞。但即便是他们错了，了解他们错的原因，也很有趣。专家们踩过的坑，也是你要小心的。&lt;/p&gt;
-&lt;p&gt;我说的这些其实都挺显而易见的，但是显然，很多人在否定新想法时，不会像我一样恐惧。&lt;/p&gt;
-&lt;p&gt;他们为什么要这样做？为什么要冒着现在看起来像个混蛋，以后看起来像个傻瓜的风险，而不是先保留意见不做判断？&lt;/p&gt;
-&lt;p&gt;我认为这里有四个原因。&lt;/p&gt;
-&lt;p&gt;一个原因是：眼红。如果你提出一个激进的新想法并获得成功，你的声誉（也许还有你的财富）将相应地增加。如果这种情况发生，有些人会感到嫉妒，这种潜在的嫉妒又会传达一个信念：你一定是错的。&lt;/p&gt;
-&lt;p&gt;第二个原因是，这样做很简单，同时看上去很聪明。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;当一个新想法第一次出现时，通常没有影响力，它只是一个雏鸟。相比之下，多数人接受的观点就像是成熟的老鹰。所以，很容易对一个新想法发起毁灭性的攻击，而任何这样攻击的人，在那些不了解这种不对称性的人看来，都是聪明的。&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;这种现象，会因为致力于新想法的人，和那些攻击这些新想法的人所获得的奖励方式的不同，而更加的恶化。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;因为新想法的回报，是基于结果的价值，所以，如果某件事的成功概率是 10%，但是做成，需要让事情变好 10 倍以上。然而，攻击新想法的回报却几乎不变，不管攻击什么，回报都是：看上去是聪明的。&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;第三种情况是：当人们是旧思想的既得利益者时，他们也会攻击新思想。&lt;/p&gt;
-&lt;p&gt;这并不罕见，例如批评达尔文最厉害的一帮人，是教会人士。人的全部事业，如果是基于一些想法，当有人说他们是假的，或者过时的时候，这些人就会感到威胁。&lt;/p&gt;
-&lt;p&gt;最低级的否定，是党派之争：自动否定，任何与反对派有关的想法。最低级的否定同样是，只因为是某个人提出的，就直接否定。&lt;/p&gt;
-&lt;p&gt;但是，导致理智的人否定新想法的最主要原因，还是当前范式的普适性。这实际上，也是阻碍人们提出新想法的原因。&lt;/p&gt;
-&lt;p&gt;跳出当前的范式，只有少数人可以做到。而即使这些人，一开始，也不得不压制自己的直觉，就像一个在云层中飞行的飞行员，不得不相信他的仪器，而不是相信他自己的平衡感。&lt;/p&gt;
-&lt;p&gt;范式，不仅定义了我们现在的思维方式，还吸走了飞向它们的面包屑，导致我们对新想法的标准，高得难以企及。&lt;/p&gt;
-&lt;p&gt;因为在我们这些“后代”看来，目前在运行的范式，是如此完美，以至于我们会认为：它们一被发现，就立刻被接受了，仿佛这中间没有任何曲折艰难的过程。仿佛不管教会如何看待日心说，只要哥白尼一提出，天文学家们立马就被说服了。但事实并非如此，哥白尼在 1532 年发表了日心说，但直到 17 世纪中期，科学观点的天平才向它倾斜。&lt;/p&gt;
-&lt;p&gt;很少有人明白，新想法刚出现时，是有多么的孱弱。因此，如果你想自己能够提出新想法，你能够做的最有价值的事情之一，就是了解它们诞生时候的样子。&lt;/p&gt;
-&lt;p&gt;阅读关于新想法是如何产生的，并尝试，让自己进入当时的人的大脑。当新想法只完成了一半，甚至，拥有这个想法的人也只有一半的信心时，他们是如何看待这件事情的？&lt;/p&gt;
-&lt;p&gt;但是，你不必止步于历史。&lt;/p&gt;
-&lt;p&gt;你现在，就可以留心观察你周围的伟大的新想法。找到一个靠谱的领域专家，听他们说那些听起来不太对的想法。&lt;/p&gt;
-&lt;p&gt;如果你聪明又善良，你不仅不会去攻击这些人，你还会鼓励他们。&lt;/p&gt;
-&lt;p&gt;拥有新想法是孤独的，只有那些尝试过的人才知道，这有多孤独。这些人需要你的帮助，而如果你帮助了他们，你可能会在这其中学到东西。&lt;/p&gt;</description>
     </item>
     
   </channel>

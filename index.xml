@@ -9,10 +9,39 @@
     
     
     
-    <lastBuildDate>Mon, 12 May 2025 10:39:36 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 16:16:32 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>超文本先驱 | Intermedia</title>
+      <link>https://www.gtdstudy.com/posts/hypertext-intermedia/</link>
+      <pubDate>Mon, 12 May 2025 16:16:32 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/hypertext-intermedia/</guid>
+      <description>&lt;p&gt;#brown_university #norman_meyrowitz #intermedia #hypertext&lt;/p&gt;
+&lt;p&gt;Intermedia 是来自布朗大学后来的第三个重要的超文本项目，此前有 HES (1967) 和 FRESS (1969)。Intermedia 于 1985 年由 Norman Meyrowitz 启动，他此前在布朗大学进行过超文本研究。Intermedia 项目与信息与学术研究机构 (IRIS) 的成立同时发生。 来自 Intermedia 的一些材料，由梅罗维茨（Nancy Meyrowitz）、加雷特（Karen Catlin）等人撰写，被用于 HTML 的开发。&lt;/p&gt;
+&lt;p&gt;WikiPedia 简介&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Intermedia_(hypertext)&#34;&gt;https://en.wikipedia.org/wiki/Intermedia_(hypertext)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;由 Norman K. Meyrowitz 在 HUMAN’20 大会上演示 Intermedia 的珍贵视频&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?app=desktop&amp;amp;v=bGGxdF0Pn4g&#34;&gt;https://www.youtube.com/watch?app=desktop&amp;amp;v=bGGxdF0Pn4g&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Intermedia: The Concet and the Construction of a Seamless Information Environment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一篇完整介绍 Intermedia 概念、机制的论文，这里称 Intermedia 力图打造的一种沉浸式的信息环境&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/research/wp-content/uploads/1988/01/The-Concept-and-the-Construction-of-a-Seamless-Information-Environment.pdf&#34;&gt;https://www.microsoft.com/en-us/research/wp-content/uploads/1988/01/The-Concept-and-the-Construction-of-a-Seamless-Information-Environment.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The History of Hypertext&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nngroup.com/articles/hypertext-history/&#34;&gt;https://www.nngroup.com/articles/hypertext-history/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;A Half-Century of Hypertext at Brown&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;布朗大学在 2019 年召开的一个报告会，报告人均是当年参与了超文本项目用于总结半个世纪以前，布朗大学在超文本领域u&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[2025-05-12 Mon 10:06]  DeepWiki 有一个非常优秀的交互</title>
@@ -1562,20 +1591,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
       
       <guid>https://www.gtdstudy.com/posts/economics-as-a-battlefield-theories-illuminate-the-momentary-darkness/economics-as-a-battlefield-theories-illuminate-the-momentary-darkness/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>最近想离开 cursor，完全转投 Windsurf</title>
-      <link>https://www.gtdstudy.com/posts/i-want-to-switch-form-cursor-to-winsurf/i-want-to-switch-form-cursor-to-winsurf/</link>
-      <pubDate>Sat, 01 Mar 2025 15:57:08 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/i-want-to-switch-form-cursor-to-winsurf/i-want-to-switch-form-cursor-to-winsurf/</guid>
-      <description>&lt;p&gt;因为用 cursor 经常爆仓，所以也订了 Windsurf。&lt;/p&gt;
-&lt;p&gt;但后来很少用 Windsurf，因为之前 agent 模式用着有点难受，尤其一份源文件突破 500 行代码的时候，它就开始乱看跟乱搞了。&lt;/p&gt;
-&lt;p&gt;你都不知道给它添加 context 的意义是什么，经常偷懒不看，即便明确指明某处代码需要参考都无用&amp;hellip;&amp;hellip;还有经常的说无法修改文件的问题，糟心。&lt;/p&gt;
-&lt;p&gt;但如今 Claude 3.7 出来之后明显感到不一样，当然也和 Windsurf 自己积极更新有关，现在使用下来明显感到，Winsurf 的代码助手，起码达到了老实，又聪明的程度。该参考的代码，勤勤恳恳地去参考，遇到不懂的，也会好好地翻看和参考。&lt;/p&gt;
-&lt;p&gt;现在可以说，给 Windsurf 添加 context 是很有意义的，因为添加了它肯定看，肯定参考，来回回地，看着它自己调优和纠错。&lt;/p&gt;
-&lt;p&gt;Claude 3.7 + thinking，这个大模型的推理能力很强，但在 cursor 下的表现同比 Winsurf，有差距。最关键的还是，我刚才说，cursor 下的大模型，真的不愿意参考你之前写的代码，能偷懒就偷懒。尽管它看上去挺快的，但出错的概率也大。Windsurf 就比较简单，需求讲清楚，它帮你演绎，代码的错误还少。&lt;/p&gt;</description>
     </item>
     
   </channel>

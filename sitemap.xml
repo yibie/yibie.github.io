@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.gtdstudy.com/categories/</loc>
+    <lastmod>2025-05-12T16:16:32+08:00</lastmod>
+  </url><url>
+    <loc>https://www.gtdstudy.com/</loc>
+    <lastmod>2025-05-12T16:16:32+08:00</lastmod>
+  </url><url>
+    <loc>https://www.gtdstudy.com/categories/summary/</loc>
+    <lastmod>2025-05-12T16:16:32+08:00</lastmod>
+  </url><url>
+    <loc>https://www.gtdstudy.com/posts/hypertext-intermedia/</loc>
+    <lastmod>2025-05-12T16:16:32+08:00</lastmod>
+  </url><url>
     <loc>https://www.gtdstudy.com/posts/deepwiki-has-a-good-ux/</loc>
     <lastmod>2025-05-12T10:39:36+08:00</lastmod>
   </url><url>
-    <loc>https://www.gtdstudy.com/categories/</loc>
-    <lastmod>2025-05-12T10:39:36+08:00</lastmod>
-  </url><url>
     <loc>https://www.gtdstudy.com/categories/now/</loc>
-    <lastmod>2025-05-12T10:39:36+08:00</lastmod>
-  </url><url>
-    <loc>https://www.gtdstudy.com/</loc>
     <lastmod>2025-05-12T10:39:36+08:00</lastmod>
   </url><url>
     <loc>https://www.gtdstudy.com/posts/eugene-yan/</loc>
@@ -66,9 +72,6 @@
     <lastmod>2025-04-15T08:08:34+08:00</lastmod>
   </url><url>
     <loc>https://www.gtdstudy.com/posts/links-article-about-deepseek-method/</loc>
-    <lastmod>2025-04-15T08:08:34+08:00</lastmod>
-  </url><url>
-    <loc>https://www.gtdstudy.com/categories/summary/</loc>
     <lastmod>2025-04-15T08:08:34+08:00</lastmod>
   </url><url>
     <loc>https://www.gtdstudy.com/posts/act-immediately/</loc>
