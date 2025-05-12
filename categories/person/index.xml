@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Person - Space Looming</title>
-    <link>https://www.gtdstudy.com/categories/person/</link>
+    <link>http://localhost:1313/categories/person/</link>
     <description>Recent content in Person on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,17 +11,17 @@
     
     <lastBuildDate>Sun, 11 May 2025 21:48:39 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/categories/person/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/person/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Eugene Yan</title>
-      <link>https://www.gtdstudy.com/posts/eugene-yan/</link>
+      <link>http://localhost:1313/posts/eugene-yan/</link>
       <pubDate>Sun, 11 May 2025 21:48:39 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/eugene-yan/</guid>
+      <guid>http://localhost:1313/posts/eugene-yan/</guid>
       <description>&lt;p&gt;#llm #ai #amazon&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/eugene-yan/Eugene_Yan/2025-05-11_21-22-33_eugeneyan_200px.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/eugene-yan/Eugene_Yan/2025-05-11_21-22-33_eugeneyan_200px.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;ul&gt;

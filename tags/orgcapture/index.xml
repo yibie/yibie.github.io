@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Orgcapture - Space Looming</title>
-    <link>https://www.gtdstudy.com/tags/orgcapture/</link>
+    <link>http://localhost:1313/tags/orgcapture/</link>
     <description>Recent content in Orgcapture on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,19 +11,19 @@
     
     <lastBuildDate>Sun, 16 Mar 2025 18:46:42 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/tags/orgcapture/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/orgcapture/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>让 org-capture 收集项可以自动归于某一日期下</title>
-      <link>https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/</link>
+      <link>http://localhost:1313/posts/automatically-date-stamp-org-capture-entries/</link>
       <pubDate>Sun, 16 Mar 2025 18:46:42 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/</guid>
+      <guid>http://localhost:1313/posts/automatically-date-stamp-org-capture-entries/</guid>
       <description>&lt;p&gt;这么拗口的标题真是对不起，主要是找不到合适的词。&lt;/p&gt;
 &lt;p&gt;是这样的，以前看 org-mode 的黑客们会炫出自己的日志文件，里面的组织方式，在 org-mode 官方教程里叫「日期树」&lt;/p&gt;
 &lt;p&gt;它大概是这样子排列：&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/images.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/automatically-date-stamp-org-capture-entries/images.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;可以看到，这是一个树形列表，不过它会按照「年-月-日」来排列。&lt;/p&gt;
@@ -34,7 +34,7 @@
 &lt;li&gt;org-mode 提供了 &lt;code&gt;:tree-type&lt;/code&gt; 参数控制日期树的组织方式，有两个参数：=month= 仅按月组织；=week= 则按照周数组织。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;按周组织日期树是长什么样的呢？&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/PixPin_2025-03-16_18-39-24.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/automatically-date-stamp-org-capture-entries/PixPin_2025-03-16_18-39-24.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;可以看到，它不再以月份作为二级标题，而是使用 2025-W11 这个格式来表示第 xx 周。&lt;/p&gt;

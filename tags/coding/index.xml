@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coding - Space Looming</title>
-    <link>https://www.gtdstudy.com/tags/coding/</link>
+    <link>http://localhost:1313/tags/coding/</link>
     <description>Recent content in Coding on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     
     <lastBuildDate>Sat, 21 Dec 2024 13:00:00 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用 AI 辅助开发的经验二三则(3)</title>
-      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/</link>
+      <link>http://localhost:1313/posts/learned-from-using-ai-develop-software-3/</link>
       <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-3/</guid>
+      <guid>http://localhost:1313/posts/learned-from-using-ai-develop-software-3/</guid>
       <description>&lt;p&gt;早两日，我发布了 org-supertag，一个新的 Emacs 第三方扩展包。本来这个项目，我计划是 3-5 天完成，结果花费的时间比预计要超出 3 倍有多。不禁让我想起了一个段子：不管下属报的时间期限多长，总之乘以 3 倍就对了。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;多出来的时间花在哪儿了？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;先简单介绍 org-supertag 是干嘛的，它借鉴了 Tana 强大的 Super Tag 功能，增强 Org-mode 原本的标签系统。强大这个描述，转换视角，往往意味着复杂。不过对于我来说，梳理 Tana 的功能，以及理清它概念之间的&lt;a href=&#34;https://emacs-china.org/t/emacs-tana-supertag/28407/4&#34;&gt;关系&lt;/a&gt;，并没有花我太长时间。&lt;/p&gt;
@@ -34,10 +34,10 @@
     
     <item>
       <title>用 AI 辅助开发的经验二三则(2)</title>
-      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/</link>
+      <link>http://localhost:1313/posts/learned-from-using-ai-develop-software-2/</link>
       <pubDate>Thu, 07 Nov 2024 14:00:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-2/</guid>
+      <guid>http://localhost:1313/posts/learned-from-using-ai-develop-software-2/</guid>
       <description>&lt;p&gt;最新发布的 org-zettel-ref-mode （以下简称 OZR）版本号从 0.3.3 跳到 0.4，在这一轮冲刺中，我实现了比之前更加复杂的功能，更多的代码行数，更加复杂的结构。而所花费的时间，是过去的三分之一，我认为自己取得了可喜的进步。&lt;/p&gt;
 &lt;p&gt;OZR 新的版本，增加了一个新功能，用于管理引用来源文件的可视化面板。这句话看上去很简单，但背后的工作量并不小。前端改一个词，足以让后端跑断腿。出现产品经理被砍这样的新闻，也不必奇怪了。&lt;/p&gt;
 &lt;p&gt;可视化面板，是很多产品里常见的特性，它的功能就是，让用户更加舒服地查看、管理特定的对象。在 OZR 里，其管理对象是，一个个被充当引用来源的参考文件。&lt;/p&gt;
@@ -73,19 +73,19 @@ Map 表的职责:
     
     <item>
       <title>Working on improving the Hugo Theme Deck</title>
-      <link>https://www.gtdstudy.com/posts/now-example/</link>
+      <link>http://localhost:1313/posts/now-example/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/now-example/</guid>
+      <guid>http://localhost:1313/posts/now-example/</guid>
       <description>&lt;p&gt;Working on improving the Hugo Theme Deck documentation and adding more example posts to demonstrate different column styles. 🚀&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>用 AI 辅助开发的经验二三则</title>
-      <link>https://www.gtdstudy.com/posts/what-i-learned-from-using-ai-develop-software/</link>
+      <link>http://localhost:1313/posts/what-i-learned-from-using-ai-develop-software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/what-i-learned-from-using-ai-develop-software/</guid>
+      <guid>http://localhost:1313/posts/what-i-learned-from-using-ai-develop-software/</guid>
       <description>&lt;h2 id=&#34;缘起&#34;&gt;缘起&lt;/h2&gt;
 &lt;p&gt;2024 年的 8 月中旬, 我开始开发一个 Emacs 插件. 对 elisp 一窍不通的我, 通过 AI, 开始大家所说的 &amp;ldquo;自然语言编程&amp;rdquo;. 从那时起计算, 终于在 9 月 28 日发布了版本号为 0.3.5 的稳定版.&lt;/p&gt;
 &lt;p&gt;这是我人生中, 第一次开发出, 可以稳定运行的, 可供他人使用的软件产品, 不管盈利与否, 不管是否流行, 我都觉得意义重大. 换一个角度, 作为一个开源项目， org-zettel-ref-mode 已经收获 25 个 Star, 我无论如何, 都不能把它视为一个无人问津的产品.&lt;/p&gt;

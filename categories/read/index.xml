@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Read - Space Looming</title>
-    <link>https://www.gtdstudy.com/categories/read/</link>
+    <link>http://localhost:1313/categories/read/</link>
     <description>Recent content in Read on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,16 +11,16 @@
     
     <lastBuildDate>Thu, 24 Apr 2025 16:51:08 +0800</lastBuildDate>
     
-    <atom:link href="https://www.gtdstudy.com/categories/read/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/read/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>#我是成龙</title>
-      <link>https://www.gtdstudy.com/posts/read-i-am-jackie-chan/</link>
+      <link>http://localhost:1313/posts/read-i-am-jackie-chan/</link>
       <pubDate>Thu, 24 Apr 2025 16:51:08 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/read-i-am-jackie-chan/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-i-am-jackie-chan/data/5F/A0529E-DB8C-46EA-92F1-CF9BE479BD7F/a3e9a7313869f6230f655cae3dc92e8ebccb2213534e3c4854c41ed617843ed9.png&#34;&gt;
+      <guid>http://localhost:1313/posts/read-i-am-jackie-chan/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-i-am-jackie-chan/data/5F/A0529E-DB8C-46EA-92F1-CF9BE479BD7F/a3e9a7313869f6230f655cae3dc92e8ebccb2213534e3c4854c41ed617843ed9.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;点评&#34;&gt;点评&lt;/h2&gt;
@@ -54,18 +54,18 @@
     
     <item>
       <title>读完《#轻松主义》</title>
-      <link>https://www.gtdstudy.com/posts/read-effortless/</link>
+      <link>http://localhost:1313/posts/read-effortless/</link>
       <pubDate>Wed, 23 Apr 2025 04:28:21 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/read-effortless/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-effortless/data/C2/F21F2B-6EF6-422F-8F8A-08C8D0BEBC1F/6d13e48ab7dc9fa6d1f585d58738ca3f80f581de1dde99831d92f991d6a0866c.png&#34;&gt;
+      <guid>http://localhost:1313/posts/read-effortless/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-effortless/data/C2/F21F2B-6EF6-422F-8F8A-08C8D0BEBC1F/6d13e48ab7dc9fa6d1f585d58738ca3f80f581de1dde99831d92f991d6a0866c.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;不是所有的事情都一定要那么艰难地完成-不是要我们筋疲力尽事情才能取得进展-我们做出贡献也不必以身心健康为代价&#34;&gt;不是所有的事情都一定要那么艰难地完成，不是要我们筋疲力尽事情才能取得进展，我们做出贡献也不必以身心健康为代价。&lt;/h2&gt;
 &lt;h2 id=&#34;如果关键的事情做起来更容易-重要的事情做起来更轻松-你的生活会发生什么样的改变&#34;&gt;如果关键的事情做起来更容易，重要的事情做起来更轻松，你的生活会发生什么样的改变？&lt;/h2&gt;
 &lt;p&gt;这是一个很好的问题。和「不要没苦硬吃」是同一个道理。&lt;/p&gt;
 &lt;h2 id=&#34;完成重要事情的不同状态&#34;&gt;完成重要事情的不同状态 &lt;span class=&#34;tag&#34;&gt;&lt;span class=&#34;ATTACH&#34;&gt;ATTACH&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-effortless/data/54/DA9BB9-E4FE-4E16-AF3C-6717A97F4879/47affb53cb0708e309df2c989ad3d82c4bb8b251fa69d781c2d8b13b576123c6.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-effortless/data/54/DA9BB9-E4FE-4E16-AF3C-6717A97F4879/47affb53cb0708e309df2c989ad3d82c4bb8b251fa69d781c2d8b13b576123c6.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;轻松主义-同心圆&#34;&gt;轻松主义「同心圆」&lt;/h2&gt;
@@ -91,7 +91,7 @@
 &lt;p&gt;《敏捷软件开发宣言》的12条原则之一提道：​“简化是必不可少的，技巧是能不做就不做。​”[&amp;hellip;]我们可以把这个说法应用在任何日常事务之中：​“简化是必不可少的，它的技巧是能不做就不做。​”换句话说，不管我们的终极目标是什么，我们应该只专注于那些能够带来价值的步骤。&lt;/p&gt;
 &lt;h4 id=&#34;how-拥抱不完美的开始-快速检验想法&#34;&gt;HOW：拥抱不完美的开始，快速检验想法&lt;/h4&gt;
 &lt;h4 id=&#34;how-让事项把握在自己可承受范围之内-为重要事项设定上限和下限&#34;&gt;HOW：让事项把握在自己可承受范围之内，为重要事项设定上限和下限 &lt;span class=&#34;tag&#34;&gt;&lt;span class=&#34;ATTACH&#34;&gt;ATTACH&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
-&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-effortless/data/87/6CF890-7D63-4B59-9C76-1A0B268B40A5/3e92cb5e8544a9fc51f4d17555a5283ca35ed75d118091e578f4c95deebf1666.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-effortless/data/87/6CF890-7D63-4B59-9C76-1A0B268B40A5/3e92cb5e8544a9fc51f4d17555a5283ca35ed75d118091e578f4c95deebf1666.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;轻松成果&#34;&gt;轻松成果&lt;/h3&gt;
@@ -107,7 +107,7 @@
 &lt;li&gt;使用备忘录、清单记录步骤&lt;/li&gt;
 &lt;li&gt;为重要的事选择高技术含量的轻松路径，为小事情选择低技术含量的高成本路径。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-effortless/data/45/95A37A-DF9D-47C9-82D8-618C7CEB18CA/ffc7583a5d240464b60d43cfd58416033b2a3c8a1226507d7b165560a3bbb51a.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-effortless/data/45/95A37A-DF9D-47C9-82D8-618C7CEB18CA/ffc7583a5d240464b60d43cfd58416033b2a3c8a1226507d7b165560a3bbb51a.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&#34;how-在错误发生之前-砍断根源&#34;&gt;HOW：在错误发生之前，砍断根源&lt;/h4&gt;</description>
@@ -115,10 +115,10 @@
     
     <item>
       <title>读完《软件设计的哲学》</title>
-      <link>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</link>
+      <link>http://localhost:1313/posts/finishing-reading-the-philosophy-of-software-design/</link>
       <pubDate>Sat, 01 Feb 2025 18:09:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/finishing-reading-the-philosophy-of-software-design/</guid>
+      <guid>http://localhost:1313/posts/finishing-reading-the-philosophy-of-software-design/</guid>
       <description>&lt;p&gt;整本书的思想是关于软件开发时，预防、控制复杂度的发生。但我觉得，这实际上是一种思想。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;复杂度是熵&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;这是我第一重感悟。在本书中，开题就已经说明了，一切和复杂度有关（It&amp;rsquo;s All About Complextiy）。复杂度就如宇宙中的熵一样，无处不在。它就好像是埋藏在诸多事物下的真相一样，看上去不会引发任何问题，但任何问题都可能和它有关。&lt;/p&gt;
@@ -153,20 +153,20 @@
     
     <item>
       <title>The Pragmatic Programmer</title>
-      <link>https://www.gtdstudy.com/posts/read-example/</link>
+      <link>http://localhost:1313/posts/read-example/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/read-example/</guid>
+      <guid>http://localhost:1313/posts/read-example/</guid>
       <description>&lt;p&gt;A comprehensive review of this programming classic&amp;hellip;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;pragmatic-programmer.jpg&#34; alt=&#34;Book Cover&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《富兰克林传》</title>
-      <link>https://www.gtdstudy.com/posts/franklin-biography/</link>
+      <link>http://localhost:1313/posts/franklin-biography/</link>
       <pubDate>Mon, 24 Jan 2022 20:56:14 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/franklin-biography/</guid>
+      <guid>http://localhost:1313/posts/franklin-biography/</guid>
       <description>&lt;h2 id=&#34;富兰克林的十三种德行-以及习惯养成&#34;&gt;富兰克林的十三种德行，以及习惯养成&lt;/h2&gt;
 &lt;p&gt;富兰克林相信，「坏的习惯必须打破，好的习惯必须加以培养，然后我们才能希望我们的举止能够坚定不移始终如一地正确。」&lt;/p&gt;
 &lt;p&gt;首先，他参考了各家，制定了属于自己的德行分类。&lt;/p&gt;
@@ -201,10 +201,10 @@
     
     <item>
       <title>铃木敏夫谈他如何让吉卜力的电影大卖</title>
-      <link>https://www.gtdstudy.com/posts/whensuzukitoshiotalksabouthiswork/</link>
+      <link>http://localhost:1313/posts/whensuzukitoshiotalksabouthiswork/</link>
       <pubDate>Wed, 08 Sep 2021 08:57:53 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/whensuzukitoshiotalksabouthiswork/</guid>
+      <guid>http://localhost:1313/posts/whensuzukitoshiotalksabouthiswork/</guid>
       <description>&lt;p&gt;最近我很喜欢读日本企业家写的书，相比国内甚至美国的企业家所出的书，内容往往非常实在，也非常真诚。包括最近阅读的这一本《吉卜力的伙伴们：我是这样卖宫崎骏、高畑勋电影的》。这本书由吉卜力工作室的创始人（之一）铃木敏夫所写。&lt;/p&gt;
 &lt;p&gt;在这里，需要首先介绍清楚，铃木敏夫在吉卜力工作室的角色。他早年在报道动画、漫画的《Animage》担任记者，采访了年轻时的宫崎骏、高畑勋，并结下了深厚的友谊。宫崎骏在制作了《风之谷》之后，原本担任动画的公司 Topcraft 却在电影上映后解散。为了能够给两位天才动画导演提供稳定的创作环境，铃木敏夫与德间书店沟通，成立了「吉卜力工作室」。&lt;/p&gt;
 &lt;p&gt;成立了工作室之后，铃木敏夫长期担任宫崎骏、高畑勋多个作品的制片人——因此就如这本书的书名所揭示的，铃木敏夫大部分工作，就是保证两位大师的作品创作完成之后，卖出去，回笼资金，投资下一个作品。本书的内容，就是铃木敏夫谈自己的工作，没有太多专业的字眼。他把不同时期对电影宣发的理解，当时和什么人做了什么事情，都写了出来，整本书就好像流水账一样，没有太多的观点。这样的书反而开卷有益，因为都是讨论实际情况，不带半点虚的。&lt;/p&gt;
@@ -231,10 +231,10 @@
     
     <item>
       <title>《叙事经济学》</title>
-      <link>https://www.gtdstudy.com/posts/narrativeeconomics/</link>
+      <link>http://localhost:1313/posts/narrativeeconomics/</link>
       <pubDate>Sat, 04 Sep 2021 19:30:33 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/narrativeeconomics/</guid>
+      <guid>http://localhost:1313/posts/narrativeeconomics/</guid>
       <description>&lt;h2 id=&#34;叙事经济学是什么&#34;&gt;叙事经济学是什么？&lt;/h2&gt;
 &lt;p&gt;《叙事经济学》的作者是在耶鲁的经济学教授罗伯特·希勒（Robert J. Shiller），他在 2013 年获得诺贝尔经济学奖，被入选为全球 100 大最具影响力的个人。&lt;/p&gt;
 &lt;p&gt;叙事经济学说的是，在信息、概念影响之下的大众意识，如何影响普罗大众的经济活动，从而对经济本身造成影响。&lt;/p&gt;
@@ -267,10 +267,10 @@
     
     <item>
       <title>《一流的人读书，都在哪里划线？》</title>
-      <link>https://www.gtdstudy.com/posts/readforunkown/</link>
+      <link>http://localhost:1313/posts/readforunkown/</link>
       <pubDate>Fri, 19 Feb 2021 20:59:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/readforunkown/</guid>
+      <guid>http://localhost:1313/posts/readforunkown/</guid>
       <description>&lt;p&gt;《一流的人读书，都在哪里划线？》，本书既讨论读书的方法，也推荐一些很棒的书，我比较侧重方法，简要的概括：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;为了学习而读书，学习是让自己培养自己处事的能力，和培养自己的洞察力&lt;/li&gt;
@@ -286,10 +286,10 @@
     
     <item>
       <title>《秒懂传达力》</title>
-      <link>https://www.gtdstudy.com/posts/communicatwithheart/</link>
+      <link>http://localhost:1313/posts/communicatwithheart/</link>
       <pubDate>Fri, 19 Feb 2021 08:31:07 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/communicatwithheart/</guid>
+      <guid>http://localhost:1313/posts/communicatwithheart/</guid>
       <description>&lt;p&gt;读完岩田松雄的《秒懂传达力》。先介绍作者何许人也——岩田松雄每加入一家公司，就能够令那家公司扭亏为盈，就好像稻盛和夫一样。2000 年，他加入亏损 3 年的游戏制作公司阿特斯拉，最终扭亏为盈；2005 年加入美体小铺，4年时间让销售额倍增；2009 年，担任担任日本星巴克社长，创下日本星巴克史上最高营业额。&lt;/p&gt;
 &lt;p&gt;之后，岩田松雄创立「领导力咨询公司」，从此以领导力大师的面貌出现在业界。也因此，他写了很多书，来解释自己的管理理念。这本《秒懂传达力》也是其中之一。我读完之后，印象最深刻，反而不是他所说的那些原则，以身作则，建立信任感的原则，其实读一读每个小节的标题也就明白了。&lt;/p&gt;
 &lt;p&gt;我比较在意的是，他不断重复提到，他每个星期都会面向全体工作人员发一封邮件，邮件里会提及他对公司整体的想法，在意的事项。我认为这是非常高效的动作。&lt;/p&gt;
@@ -300,10 +300,10 @@
     
     <item>
       <title>「桂氏三角形定位模块」</title>
-      <link>https://www.gtdstudy.com/posts/yemingguipositionbrandstoryprotocl/</link>
+      <link>http://localhost:1313/posts/yemingguipositionbrandstoryprotocl/</link>
       <pubDate>Sat, 23 Jan 2021 09:39:47 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/yemingguipositionbrandstoryprotocl/</guid>
+      <guid>http://localhost:1313/posts/yemingguipositionbrandstoryprotocl/</guid>
       <description>&lt;h2 id=&#34;产品定位-一个小小的差异远比一个大大需求更具销售魅力&#34;&gt;产品定位 | 一个小小的差异远比一个大大需求更具销售魅力&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -363,10 +363,10 @@
     
     <item>
       <title>读王阳明《示弟立志说》</title>
-      <link>https://www.gtdstudy.com/posts/%E8%AF%BB%E7%8E%8B%E9%98%B3%E6%98%8E%E7%A4%BA%E5%BC%9F%E7%AB%8B%E5%BF%97%E8%AF%B4/</link>
+      <link>http://localhost:1313/posts/%E8%AF%BB%E7%8E%8B%E9%98%B3%E6%98%8E%E7%A4%BA%E5%BC%9F%E7%AB%8B%E5%BF%97%E8%AF%B4/</link>
       <pubDate>Sat, 03 Oct 2020 16:21:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/%E8%AF%BB%E7%8E%8B%E9%98%B3%E6%98%8E%E7%A4%BA%E5%BC%9F%E7%AB%8B%E5%BF%97%E8%AF%B4/</guid>
+      <guid>http://localhost:1313/posts/%E8%AF%BB%E7%8E%8B%E9%98%B3%E6%98%8E%E7%A4%BA%E5%BC%9F%E7%AB%8B%E5%BF%97%E8%AF%B4/</guid>
       <description>&lt;p&gt;王阳明的《示弟立志说》这篇文章十分经典，它解决了关于「立志」的几大问题：为何立志？立志了又如何？如何立志？读完就明白了王阳明对立志的观点。立志在心学里有非常重要的地位。我打算以点评的方式，来呈现我阅读之后的思考。其中我觉得比较重要的语句，以高亮标注。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;予弟守文来学，告之以立志。守文因请次第其语，使得时时观省；且请浅近其辞，则易于通晓也。因书以与之。&lt;/p&gt;
@@ -397,10 +397,10 @@
     
     <item>
       <title>《究极之宿——加贺屋的百年感动》</title>
-      <link>https://www.gtdstudy.com/posts/%E7%AC%94%E8%AE%B0%E7%A9%B6%E6%9E%81%E4%B9%8B%E5%AE%BF%E5%8A%A0%E8%B4%BA%E5%B1%8B%E7%9A%84%E7%99%BE%E5%B9%B4%E6%84%9F%E5%8A%A8/</link>
+      <link>http://localhost:1313/posts/%E7%AC%94%E8%AE%B0%E7%A9%B6%E6%9E%81%E4%B9%8B%E5%AE%BF%E5%8A%A0%E8%B4%BA%E5%B1%8B%E7%9A%84%E7%99%BE%E5%B9%B4%E6%84%9F%E5%8A%A8/</link>
       <pubDate>Tue, 01 Sep 2020 13:59:00 +0800</pubDate>
       
-      <guid>https://www.gtdstudy.com/posts/%E7%AC%94%E8%AE%B0%E7%A9%B6%E6%9E%81%E4%B9%8B%E5%AE%BF%E5%8A%A0%E8%B4%BA%E5%B1%8B%E7%9A%84%E7%99%BE%E5%B9%B4%E6%84%9F%E5%8A%A8/</guid>
+      <guid>http://localhost:1313/posts/%E7%AC%94%E8%AE%B0%E7%A9%B6%E6%9E%81%E4%B9%8B%E5%AE%BF%E5%8A%A0%E8%B4%BA%E5%B1%8B%E7%9A%84%E7%99%BE%E5%B9%B4%E6%84%9F%E5%8A%A8/</guid>
       <description>&lt;p&gt;在日本有一座十分传奇的旅馆，叫「加贺屋」，它获得无数殊荣，日本国民一生中想去住一次，曾经日本天皇天后亲自下榻，而且持续 30 年一直在日本的专家评选中获得综合第一。&lt;/p&gt;
 &lt;p&gt;它是怎么做到的呢？从《究极之宿——加贺屋的百年感动》中会发现，无微不至的客房服务体验，是它屹立不倒的原因。&lt;/p&gt;
 &lt;h2 id=&#34;信念-成为客户一定会再次光顾的旅馆&#34;&gt;信念：成为客户一定会再次光顾的旅馆&lt;/h2&gt;
