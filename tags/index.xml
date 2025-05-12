@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags - Space Looming</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://www.gtdstudy.com/tags/</link>
     <description>Recent content in Tags on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,177 +11,177 @@
     
     <lastBuildDate>Sat, 26 Apr 2025 13:27:15 +0800</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Vim</title>
-      <link>http://localhost:1313/tags/vim/</link>
+      <link>https://www.gtdstudy.com/tags/vim/</link>
       <pubDate>Sat, 26 Apr 2025 13:27:15 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/vim/</guid>
+      <guid>https://www.gtdstudy.com/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>#Book</title>
-      <link>http://localhost:1313/tags/%23book/</link>
+      <link>https://www.gtdstudy.com/tags/%23book/</link>
       <pubDate>Thu, 24 Apr 2025 16:51:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/%23book/</guid>
+      <guid>https://www.gtdstudy.com/tags/%23book/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deepseek</title>
-      <link>http://localhost:1313/tags/deepseek/</link>
+      <link>https://www.gtdstudy.com/tags/deepseek/</link>
       <pubDate>Tue, 15 Apr 2025 08:08:34 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/deepseek/</guid>
+      <guid>https://www.gtdstudy.com/tags/deepseek/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Org-Mode</title>
-      <link>http://localhost:1313/tags/org-mode/</link>
+      <link>https://www.gtdstudy.com/tags/org-mode/</link>
       <pubDate>Thu, 03 Apr 2025 00:16:11 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/org-mode/</guid>
+      <guid>https://www.gtdstudy.com/tags/org-mode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Org-Supertag</title>
-      <link>http://localhost:1313/tags/org-supertag/</link>
+      <link>https://www.gtdstudy.com/tags/org-supertag/</link>
       <pubDate>Thu, 03 Apr 2025 00:16:11 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/org-supertag/</guid>
+      <guid>https://www.gtdstudy.com/tags/org-supertag/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project</title>
-      <link>http://localhost:1313/tags/project/</link>
+      <link>https://www.gtdstudy.com/tags/project/</link>
       <pubDate>Thu, 03 Apr 2025 00:16:11 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/project/</guid>
+      <guid>https://www.gtdstudy.com/tags/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网站分析</title>
-      <link>http://localhost:1313/tags/%E7%BD%91%E7%AB%99%E5%88%86%E6%9E%90/</link>
+      <link>https://www.gtdstudy.com/tags/%E7%BD%91%E7%AB%99%E5%88%86%E6%9E%90/</link>
       <pubDate>Fri, 21 Mar 2025 19:33:39 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/%E7%BD%91%E7%AB%99%E5%88%86%E6%9E%90/</guid>
+      <guid>https://www.gtdstudy.com/tags/%E7%BD%91%E7%AB%99%E5%88%86%E6%9E%90/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Orgcapture</title>
-      <link>http://localhost:1313/tags/orgcapture/</link>
+      <link>https://www.gtdstudy.com/tags/orgcapture/</link>
       <pubDate>Sun, 16 Mar 2025 18:46:42 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/orgcapture/</guid>
+      <guid>https://www.gtdstudy.com/tags/orgcapture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Orgmode</title>
-      <link>http://localhost:1313/tags/orgmode/</link>
+      <link>https://www.gtdstudy.com/tags/orgmode/</link>
       <pubDate>Sun, 16 Mar 2025 18:46:42 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/orgmode/</guid>
+      <guid>https://www.gtdstudy.com/tags/orgmode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design</title>
-      <link>http://localhost:1313/tags/design/</link>
+      <link>https://www.gtdstudy.com/tags/design/</link>
       <pubDate>Sat, 01 Feb 2025 18:09:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/design/</guid>
+      <guid>https://www.gtdstudy.com/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>http://localhost:1313/tags/software/</link>
+      <link>https://www.gtdstudy.com/tags/software/</link>
       <pubDate>Sat, 01 Feb 2025 18:09:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/software/</guid>
+      <guid>https://www.gtdstudy.com/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ai</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://www.gtdstudy.com/tags/ai/</link>
       <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://www.gtdstudy.com/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coding</title>
-      <link>http://localhost:1313/tags/coding/</link>
+      <link>https://www.gtdstudy.com/tags/coding/</link>
       <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/coding/</guid>
+      <guid>https://www.gtdstudy.com/tags/coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Emacs</title>
-      <link>http://localhost:1313/tags/emacs/</link>
+      <link>https://www.gtdstudy.com/tags/emacs/</link>
       <pubDate>Sat, 21 Dec 2024 13:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/emacs/</guid>
+      <guid>https://www.gtdstudy.com/tags/emacs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Writing</title>
-      <link>http://localhost:1313/tags/writing/</link>
+      <link>https://www.gtdstudy.com/tags/writing/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/writing/</guid>
+      <guid>https://www.gtdstudy.com/tags/writing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Leadership</title>
-      <link>http://localhost:1313/tags/leadership/</link>
+      <link>https://www.gtdstudy.com/tags/leadership/</link>
       <pubDate>Sat, 18 Jun 2022 17:53:21 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/leadership/</guid>
+      <guid>https://www.gtdstudy.com/tags/leadership/</guid>
       <description></description>
     </item>
     
     <item>
       <title>人生</title>
-      <link>http://localhost:1313/tags/%E4%BA%BA%E7%94%9F/</link>
+      <link>https://www.gtdstudy.com/tags/%E4%BA%BA%E7%94%9F/</link>
       <pubDate>Sat, 20 Nov 2021 09:11:56 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/%E4%BA%BA%E7%94%9F/</guid>
+      <guid>https://www.gtdstudy.com/tags/%E4%BA%BA%E7%94%9F/</guid>
       <description></description>
     </item>
     
     <item>
       <title>痛苦</title>
-      <link>http://localhost:1313/tags/%E7%97%9B%E8%8B%A6/</link>
+      <link>https://www.gtdstudy.com/tags/%E7%97%9B%E8%8B%A6/</link>
       <pubDate>Sat, 20 Nov 2021 09:11:56 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/%E7%97%9B%E8%8B%A6/</guid>
+      <guid>https://www.gtdstudy.com/tags/%E7%97%9B%E8%8B%A6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Investment</title>
-      <link>http://localhost:1313/tags/investment/</link>
+      <link>https://www.gtdstudy.com/tags/investment/</link>
       <pubDate>Tue, 09 Feb 2021 22:56:22 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/investment/</guid>
+      <guid>https://www.gtdstudy.com/tags/investment/</guid>
       <description></description>
     </item>
     

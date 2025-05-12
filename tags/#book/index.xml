@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>#Book - Space Looming</title>
-    <link>http://localhost:1313/tags/%23book/</link>
+    <link>https://www.gtdstudy.com/tags/%23book/</link>
     <description>Recent content in #Book on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,16 +11,16 @@
     
     <lastBuildDate>Thu, 24 Apr 2025 16:51:08 +0800</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/tags/%23book/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/tags/%23book/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>#我是成龙</title>
-      <link>http://localhost:1313/posts/read-i-am-jackie-chan/</link>
+      <link>https://www.gtdstudy.com/posts/read-i-am-jackie-chan/</link>
       <pubDate>Thu, 24 Apr 2025 16:51:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/read-i-am-jackie-chan/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-i-am-jackie-chan/data/5F/A0529E-DB8C-46EA-92F1-CF9BE479BD7F/a3e9a7313869f6230f655cae3dc92e8ebccb2213534e3c4854c41ed617843ed9.png&#34;&gt;
+      <guid>https://www.gtdstudy.com/posts/read-i-am-jackie-chan/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-i-am-jackie-chan/data/5F/A0529E-DB8C-46EA-92F1-CF9BE479BD7F/a3e9a7313869f6230f655cae3dc92e8ebccb2213534e3c4854c41ed617843ed9.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;点评&#34;&gt;点评&lt;/h2&gt;
@@ -54,18 +54,18 @@
     
     <item>
       <title>读完《#轻松主义》</title>
-      <link>http://localhost:1313/posts/read-effortless/</link>
+      <link>https://www.gtdstudy.com/posts/read-effortless/</link>
       <pubDate>Wed, 23 Apr 2025 04:28:21 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/read-effortless/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-effortless/data/C2/F21F2B-6EF6-422F-8F8A-08C8D0BEBC1F/6d13e48ab7dc9fa6d1f585d58738ca3f80f581de1dde99831d92f991d6a0866c.png&#34;&gt;
+      <guid>https://www.gtdstudy.com/posts/read-effortless/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-effortless/data/C2/F21F2B-6EF6-422F-8F8A-08C8D0BEBC1F/6d13e48ab7dc9fa6d1f585d58738ca3f80f581de1dde99831d92f991d6a0866c.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;不是所有的事情都一定要那么艰难地完成-不是要我们筋疲力尽事情才能取得进展-我们做出贡献也不必以身心健康为代价&#34;&gt;不是所有的事情都一定要那么艰难地完成，不是要我们筋疲力尽事情才能取得进展，我们做出贡献也不必以身心健康为代价。&lt;/h2&gt;
 &lt;h2 id=&#34;如果关键的事情做起来更容易-重要的事情做起来更轻松-你的生活会发生什么样的改变&#34;&gt;如果关键的事情做起来更容易，重要的事情做起来更轻松，你的生活会发生什么样的改变？&lt;/h2&gt;
 &lt;p&gt;这是一个很好的问题。和「不要没苦硬吃」是同一个道理。&lt;/p&gt;
 &lt;h2 id=&#34;完成重要事情的不同状态&#34;&gt;完成重要事情的不同状态 &lt;span class=&#34;tag&#34;&gt;&lt;span class=&#34;ATTACH&#34;&gt;ATTACH&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-effortless/data/54/DA9BB9-E4FE-4E16-AF3C-6717A97F4879/47affb53cb0708e309df2c989ad3d82c4bb8b251fa69d781c2d8b13b576123c6.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-effortless/data/54/DA9BB9-E4FE-4E16-AF3C-6717A97F4879/47affb53cb0708e309df2c989ad3d82c4bb8b251fa69d781c2d8b13b576123c6.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;轻松主义-同心圆&#34;&gt;轻松主义「同心圆」&lt;/h2&gt;
@@ -91,7 +91,7 @@
 &lt;p&gt;《敏捷软件开发宣言》的12条原则之一提道：​“简化是必不可少的，技巧是能不做就不做。​”[&amp;hellip;]我们可以把这个说法应用在任何日常事务之中：​“简化是必不可少的，它的技巧是能不做就不做。​”换句话说，不管我们的终极目标是什么，我们应该只专注于那些能够带来价值的步骤。&lt;/p&gt;
 &lt;h4 id=&#34;how-拥抱不完美的开始-快速检验想法&#34;&gt;HOW：拥抱不完美的开始，快速检验想法&lt;/h4&gt;
 &lt;h4 id=&#34;how-让事项把握在自己可承受范围之内-为重要事项设定上限和下限&#34;&gt;HOW：让事项把握在自己可承受范围之内，为重要事项设定上限和下限 &lt;span class=&#34;tag&#34;&gt;&lt;span class=&#34;ATTACH&#34;&gt;ATTACH&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-effortless/data/87/6CF890-7D63-4B59-9C76-1A0B268B40A5/3e92cb5e8544a9fc51f4d17555a5283ca35ed75d118091e578f4c95deebf1666.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-effortless/data/87/6CF890-7D63-4B59-9C76-1A0B268B40A5/3e92cb5e8544a9fc51f4d17555a5283ca35ed75d118091e578f4c95deebf1666.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;轻松成果&#34;&gt;轻松成果&lt;/h3&gt;
@@ -107,7 +107,7 @@
 &lt;li&gt;使用备忘录、清单记录步骤&lt;/li&gt;
 &lt;li&gt;为重要的事选择高技术含量的轻松路径，为小事情选择低技术含量的高成本路径。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-effortless/data/45/95A37A-DF9D-47C9-82D8-618C7CEB18CA/ffc7583a5d240464b60d43cfd58416033b2a3c8a1226507d7b165560a3bbb51a.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-effortless/data/45/95A37A-DF9D-47C9-82D8-618C7CEB18CA/ffc7583a5d240464b60d43cfd58416033b2a3c8a1226507d7b165560a3bbb51a.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&#34;how-在错误发生之前-砍断根源&#34;&gt;HOW：在错误发生之前，砍断根源&lt;/h4&gt;</description>

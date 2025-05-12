@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts - Space Looming</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://www.gtdstudy.com/posts/</link>
     <description>Recent content in Posts on Space Looming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,17 +11,37 @@
     
     <lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.gtdstudy.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>[2025-05-12 Mon 10:06]  DeepWiki 有一个非常优秀的交互</title>
+      <link>https://www.gtdstudy.com/posts/deepwiki-has-a-good-ux/</link>
+      <pubDate>Mon, 12 May 2025 10:39:36 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/deepwiki-has-a-good-ux/</guid>
+      <description>&lt;p&gt;如果 Github 上的某一个仓库，未被索引。此时，它会显示如下页面，告诉用户这一信息，同时邀请用户填写邮箱，在索引完成之后发送通知。&lt;/p&gt;
+&lt;p&gt;一举多得：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;服务体验的完整性。这里实际上涉及到了「服务设计」，如果有一个仓库违背索引，此时用户的体验是最糟糕的时刻，所以提供完成通知，让用户有继续得到服务的感受，让人体验到一种完整的服务流程——服务设计的目标就是避免用户在所有流程环节里流失。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;合情、合理、合法地获取用户的邮箱。这一点在现在的社会、商业环境里是很难的。尽管邮件营销看上去很 Old School，但迄今为止，依然是有效的营销手段。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/deepwiki-has-a-good-ux/2025/2025-05-12_10-12-46_Fg8GKWQDSx_N0xqMvdErtwkiE9p0v3.png&#34;&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
       <title>Eugene Yan</title>
-      <link>http://localhost:1313/posts/eugene-yan/</link>
+      <link>https://www.gtdstudy.com/posts/eugene-yan/</link>
       <pubDate>Sun, 11 May 2025 21:48:39 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/eugene-yan/</guid>
+      <guid>https://www.gtdstudy.com/posts/eugene-yan/</guid>
       <description>&lt;p&gt;#llm #ai #amazon&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/eugene-yan/Eugene_Yan/2025-05-11_21-22-33_eugeneyan_200px.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/eugene-yan/Eugene_Yan/2025-05-11_21-22-33_eugeneyan_200px.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;ul&gt;
@@ -41,10 +61,10 @@
     
     <item>
       <title>开源硬件 | Flipper Zero</title>
-      <link>http://localhost:1313/posts/flipper-zero/</link>
+      <link>https://www.gtdstudy.com/posts/flipper-zero/</link>
       <pubDate>Sun, 11 May 2025 21:47:55 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/flipper-zero/</guid>
+      <guid>https://www.gtdstudy.com/posts/flipper-zero/</guid>
       <description>&lt;p&gt;#flipper_zero&lt;/p&gt;
 &lt;p&gt;在 &lt;a href=&#34;https://x.com/IntEngineering/status/1921018602943377730&#34;&gt;X&lt;/a&gt; 上，我看到一则视频，看到有人用一个有趣的硬件，来复制大家常见的钥匙。后来经过一番搜索，发现该视频的制作人叫 &lt;a href=&#34;https://www.youtube.com/watch?v=djoC-wlKWPw&amp;amp;list=PLt5m_PYzyUoto-g_WtSbV_QimUUrNsG26&amp;amp;index=1&#34;&gt;LockPickNic&lt;/a&gt;，是一个 YouTuber，他非常着迷于现实中的锁，和钥匙。&lt;/p&gt;
 &lt;p&gt;在一个更详细的视频当中，他彻底展示，他如何通过一个叫 Flipper Zero 的开源硬件来复制钥匙。以下是我用 Gemini 总结的过程：&lt;/p&gt;
@@ -71,10 +91,10 @@
 &lt;p&gt;这是一款多功能便携式设备，主要面向对无线电、硬件和安全感兴趣的人（常被称为“极客”或“渗透测试员”）。&lt;/p&gt;
 &lt;p&gt;官网：&lt;a href=&#34;https://flipperzero.one/&#34;&gt;https://flipperzero.one/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;官网简介：Flipper Zero 是一个玩具般外形的便携式多功能工具，专为渗透测试人员和极客设计。它擅长破解数字设备，例如无线电协议、门禁系统、硬件等等。它完全开源且可定制，因此你可以根据自己的喜好进行扩展。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/flipper-zero/%E7%A1%AC%E4%BB%B6_%7C_%E5%A4%8D%E5%88%B6%E9%92%A5%E5%8C%99_Flipper_Zero/2025-05-11_09-54-44_tild3135-3238-4638-a336-663164393931__front_new.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/flipper-zero/%E7%A1%AC%E4%BB%B6_%7C_%E5%A4%8D%E5%88%B6%E9%92%A5%E5%8C%99_Flipper_Zero/2025-05-11_09-54-44_tild3135-3238-4638-a336-663164393931__front_new.png&#34;&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/flipper-zero/%E7%A1%AC%E4%BB%B6_%7C_%E5%A4%8D%E5%88%B6%E9%92%A5%E5%8C%99_Flipper_Zero/2025-05-11_09-54-57_tild3135-3238-4638-a336-663164393931__front_new.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/flipper-zero/%E7%A1%AC%E4%BB%B6_%7C_%E5%A4%8D%E5%88%B6%E9%92%A5%E5%8C%99_Flipper_Zero/2025-05-11_09-54-57_tild3135-3238-4638-a336-663164393931__front_new.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;它具备多种接口：&lt;/p&gt;
@@ -106,10 +126,10 @@
     
     <item>
       <title>张力所存在的地方，就是需求所在</title>
-      <link>http://localhost:1313/posts/there-is-tension-there-is-need/</link>
+      <link>https://www.gtdstudy.com/posts/there-is-tension-there-is-need/</link>
       <pubDate>Mon, 28 Apr 2025 17:39:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/there-is-tension-there-is-need/</guid>
+      <guid>https://www.gtdstudy.com/posts/there-is-tension-there-is-need/</guid>
       <description>&lt;p&gt;产品是矛盾统一论的实例。&lt;/p&gt;
 &lt;p&gt;例子：&lt;/p&gt;
 &lt;p&gt;桌面宠物&lt;/p&gt;
@@ -127,10 +147,10 @@
     
     <item>
       <title>Vim 中节约重复步骤的命令</title>
-      <link>http://localhost:1313/posts/vim-repeat-step-saver/</link>
+      <link>https://www.gtdstudy.com/posts/vim-repeat-step-saver/</link>
       <pubDate>Sat, 26 Apr 2025 13:27:15 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/vim-repeat-step-saver/</guid>
+      <guid>https://www.gtdstudy.com/posts/vim-repeat-step-saver/</guid>
       <description>&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -157,21 +177,21 @@
 &lt;p&gt;我举一个书上的例子，将以下代码中的 + 两旁添加空格：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;foo&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;method(&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;argument1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;,&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;argument2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;)&amp;#34;&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;此时使用 &lt;code&gt;;&lt;/code&gt; 和 &lt;code&gt;.&lt;/code&gt; 的组合，就非常方便：&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/vim-repeat-step-saver/data/DF/1E2470-D87E-4F4C-9F9F-8C434A522407/PixPin_2025-04-26_12-08-23.gif&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/vim-repeat-step-saver/data/DF/1E2470-D87E-4F4C-9F9F-8C434A522407/PixPin_2025-04-26_12-08-23.gif&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;另外如下例子中，则是 &lt;code&gt;*&lt;/code&gt; 与 &lt;code&gt;.&lt;/code&gt; 组合一起使用。先用 &lt;code&gt;*&lt;/code&gt; 查找出相同的单词，在 &lt;code&gt;cw&lt;/code&gt; 修改了之后，就可以按下 &lt;code&gt;n&lt;/code&gt; 让光标跳转到下一个单词上，然后直接按下 &lt;code&gt;.&lt;/code&gt; 即可：&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/vim-repeat-step-saver/data/DF/1E2470-D87E-4F4C-9F9F-8C434A522407/PixPin_2025-04-26_13-26-22.gif&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/vim-repeat-step-saver/data/DF/1E2470-D87E-4F4C-9F9F-8C434A522407/PixPin_2025-04-26_13-26-22.gif&#34;&gt;
 &lt;/figure&gt;</description>
     </item>
     
     <item>
       <title>#我是成龙</title>
-      <link>http://localhost:1313/posts/read-i-am-jackie-chan/</link>
+      <link>https://www.gtdstudy.com/posts/read-i-am-jackie-chan/</link>
       <pubDate>Thu, 24 Apr 2025 16:51:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/read-i-am-jackie-chan/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-i-am-jackie-chan/data/5F/A0529E-DB8C-46EA-92F1-CF9BE479BD7F/a3e9a7313869f6230f655cae3dc92e8ebccb2213534e3c4854c41ed617843ed9.png&#34;&gt;
+      <guid>https://www.gtdstudy.com/posts/read-i-am-jackie-chan/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-i-am-jackie-chan/data/5F/A0529E-DB8C-46EA-92F1-CF9BE479BD7F/a3e9a7313869f6230f655cae3dc92e8ebccb2213534e3c4854c41ed617843ed9.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;点评&#34;&gt;点评&lt;/h2&gt;
@@ -205,18 +225,18 @@
     
     <item>
       <title>读完《#轻松主义》</title>
-      <link>http://localhost:1313/posts/read-effortless/</link>
+      <link>https://www.gtdstudy.com/posts/read-effortless/</link>
       <pubDate>Wed, 23 Apr 2025 04:28:21 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/read-effortless/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-effortless/data/C2/F21F2B-6EF6-422F-8F8A-08C8D0BEBC1F/6d13e48ab7dc9fa6d1f585d58738ca3f80f581de1dde99831d92f991d6a0866c.png&#34;&gt;
+      <guid>https://www.gtdstudy.com/posts/read-effortless/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-effortless/data/C2/F21F2B-6EF6-422F-8F8A-08C8D0BEBC1F/6d13e48ab7dc9fa6d1f585d58738ca3f80f581de1dde99831d92f991d6a0866c.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;不是所有的事情都一定要那么艰难地完成-不是要我们筋疲力尽事情才能取得进展-我们做出贡献也不必以身心健康为代价&#34;&gt;不是所有的事情都一定要那么艰难地完成，不是要我们筋疲力尽事情才能取得进展，我们做出贡献也不必以身心健康为代价。&lt;/h2&gt;
 &lt;h2 id=&#34;如果关键的事情做起来更容易-重要的事情做起来更轻松-你的生活会发生什么样的改变&#34;&gt;如果关键的事情做起来更容易，重要的事情做起来更轻松，你的生活会发生什么样的改变？&lt;/h2&gt;
 &lt;p&gt;这是一个很好的问题。和「不要没苦硬吃」是同一个道理。&lt;/p&gt;
 &lt;h2 id=&#34;完成重要事情的不同状态&#34;&gt;完成重要事情的不同状态 &lt;span class=&#34;tag&#34;&gt;&lt;span class=&#34;ATTACH&#34;&gt;ATTACH&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-effortless/data/54/DA9BB9-E4FE-4E16-AF3C-6717A97F4879/47affb53cb0708e309df2c989ad3d82c4bb8b251fa69d781c2d8b13b576123c6.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-effortless/data/54/DA9BB9-E4FE-4E16-AF3C-6717A97F4879/47affb53cb0708e309df2c989ad3d82c4bb8b251fa69d781c2d8b13b576123c6.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;轻松主义-同心圆&#34;&gt;轻松主义「同心圆」&lt;/h2&gt;
@@ -242,7 +262,7 @@
 &lt;p&gt;《敏捷软件开发宣言》的12条原则之一提道：​“简化是必不可少的，技巧是能不做就不做。​”[&amp;hellip;]我们可以把这个说法应用在任何日常事务之中：​“简化是必不可少的，它的技巧是能不做就不做。​”换句话说，不管我们的终极目标是什么，我们应该只专注于那些能够带来价值的步骤。&lt;/p&gt;
 &lt;h4 id=&#34;how-拥抱不完美的开始-快速检验想法&#34;&gt;HOW：拥抱不完美的开始，快速检验想法&lt;/h4&gt;
 &lt;h4 id=&#34;how-让事项把握在自己可承受范围之内-为重要事项设定上限和下限&#34;&gt;HOW：让事项把握在自己可承受范围之内，为重要事项设定上限和下限 &lt;span class=&#34;tag&#34;&gt;&lt;span class=&#34;ATTACH&#34;&gt;ATTACH&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-effortless/data/87/6CF890-7D63-4B59-9C76-1A0B268B40A5/3e92cb5e8544a9fc51f4d17555a5283ca35ed75d118091e578f4c95deebf1666.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-effortless/data/87/6CF890-7D63-4B59-9C76-1A0B268B40A5/3e92cb5e8544a9fc51f4d17555a5283ca35ed75d118091e578f4c95deebf1666.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;轻松成果&#34;&gt;轻松成果&lt;/h3&gt;
@@ -258,7 +278,7 @@
 &lt;li&gt;使用备忘录、清单记录步骤&lt;/li&gt;
 &lt;li&gt;为重要的事选择高技术含量的轻松路径，为小事情选择低技术含量的高成本路径。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/read-effortless/data/45/95A37A-DF9D-47C9-82D8-618C7CEB18CA/ffc7583a5d240464b60d43cfd58416033b2a3c8a1226507d7b165560a3bbb51a.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/read-effortless/data/45/95A37A-DF9D-47C9-82D8-618C7CEB18CA/ffc7583a5d240464b60d43cfd58416033b2a3c8a1226507d7b165560a3bbb51a.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&#34;how-在错误发生之前-砍断根源&#34;&gt;HOW：在错误发生之前，砍断根源&lt;/h4&gt;</description>
@@ -266,10 +286,10 @@
     
     <item>
       <title>使用命令行检查文件/文件夹大小</title>
-      <link>http://localhost:1313/posts/check-file-folder-size-via-terminal/</link>
+      <link>https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/</link>
       <pubDate>Tue, 22 Apr 2025 21:59:49 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/check-file-folder-size-via-terminal/</guid>
+      <guid>https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/</guid>
       <description>&lt;p&gt;背景：我使用 macOS。&lt;/p&gt;
 &lt;p&gt;在命令行工具里，有很多工具可以知道文件大小:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;ls -la&lt;/code&gt;   一般情况下使用，可以直观的文件大小，缺点是不知道文件夹大小&lt;/p&gt;
@@ -277,7 +297,7 @@
 &lt;p&gt;&lt;code&gt;du -hxd1&lt;/code&gt; 会列出当前目录下，所有子文件夹的的大小&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gdu&lt;/code&gt;      用 golang 写的，支持多线程，作用和 &lt;code&gt;du *&lt;/code&gt; 一样，有点是性能好，速度快&lt;/p&gt;
 &lt;p&gt;不过我自己偏好 &lt;code&gt;ncdu&lt;/code&gt; ，有可视化界面，会显示子文件/子文件夹占用的空间百分比，还可以直接简单操作：&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/check-file-folder-size-via-terminal/data/5E/19FC18-A239-4559-894B-DCB822FFF065/dbb41ef312c6d8eb305457b40bcb8676278ec0478068c6f20bd38f4cb8501b0f.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/check-file-folder-size-via-terminal/data/5E/19FC18-A239-4559-894B-DCB822FFF065/dbb41ef312c6d8eb305457b40bcb8676278ec0478068c6f20bd38f4cb8501b0f.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;code&gt;ncdu&lt;/code&gt; 执行速度没有 &lt;code&gt;gdu&lt;/code&gt; 快——但最新版本提供了多线程的实验特性，输入 &lt;code&gt;ncdu -t8&lt;/code&gt; 即可调用，速度要快上不少。&lt;/p&gt;
@@ -286,10 +306,10 @@
     
     <item>
       <title>你所提供的产品、服务或库现在首要用户变成了LLM（大型语言模型），而不是人类。</title>
-      <link>http://localhost:1313/posts/first-user-is-llm/</link>
+      <link>https://www.gtdstudy.com/posts/first-user-is-llm/</link>
       <pubDate>Tue, 22 Apr 2025 15:04:21 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/first-user-is-llm/</guid>
+      <guid>https://www.gtdstudy.com/posts/first-user-is-llm/</guid>
       <description>&lt;p&gt;Andrej Karpathy 在 &lt;a href=&#34;https://x.com/karpathy/status/1914494203696177444&#34;&gt;X&lt;/a&gt; 说，很多产品和服务的第一个用户，可能不是人类，原文：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;公告：这是人机工效学的新纪元&lt;/p&gt;
@@ -308,10 +328,10 @@
     
     <item>
       <title>Links：说人话的 DeepSeek 论文解读</title>
-      <link>http://localhost:1313/posts/links-article-about-deepseek-method/</link>
+      <link>https://www.gtdstudy.com/posts/links-article-about-deepseek-method/</link>
       <pubDate>Tue, 15 Apr 2025 08:08:34 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/links-article-about-deepseek-method/</guid>
+      <guid>https://www.gtdstudy.com/posts/links-article-about-deepseek-method/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;DeepSeek MLA &amp;ndash; 为成本优化而生的注意力机制&lt;/li&gt;
 &lt;/ul&gt;
@@ -330,10 +350,10 @@
     
     <item>
       <title>灵感是短暂易逝的，要立刻行动</title>
-      <link>http://localhost:1313/posts/act-immediately/</link>
+      <link>https://www.gtdstudy.com/posts/act-immediately/</link>
       <pubDate>Fri, 11 Apr 2025 11:29:58 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/act-immediately/</guid>
+      <guid>https://www.gtdstudy.com/posts/act-immediately/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;如果我受到启发想写一篇博客文章，我想在那一刻就做。&lt;/p&gt;
 &lt;p&gt;如果我受到启发想发一条推文，我想在那一刻就做。&lt;/p&gt;
@@ -348,10 +368,10 @@
     
     <item>
       <title>用 AI 辅助开发的经验二三则（4）</title>
-      <link>http://localhost:1313/posts/learned-from-using-ai-develop-software-4/</link>
+      <link>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-4/</link>
       <pubDate>Thu, 03 Apr 2025 00:16:11 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/learned-from-using-ai-develop-software-4/</guid>
+      <guid>https://www.gtdstudy.com/posts/learned-from-using-ai-develop-software-4/</guid>
       <description>&lt;p&gt;这是一个搏斗的故事。&lt;/p&gt;
 &lt;p&gt;起源是我开发的 org-supertag，项目的初心是希望将 Tana 的笔记体验迁移到 Emacs，在我开发了一个极简原型之后就面临一个问题——&lt;/p&gt;
 &lt;p&gt;如果 org-supertag 想像 Tana 那样快速展示一个标签所关联的节点，不能使用纯文本检索的方法。这种方法直接使用检索所有文件，通过正则提取相关的数据，速度慢不说，还会令 Emacs 卡顿。简而言之，这种体验，谁都不能忍。&lt;/p&gt;
@@ -397,10 +417,10 @@
     
     <item>
       <title>不要带着目标去学习， 不要带着对过去的懊悔去学习， 不要带着对未来的期待去学习。</title>
-      <link>http://localhost:1313/posts/do-not-study-with-specific-target/</link>
+      <link>https://www.gtdstudy.com/posts/do-not-study-with-specific-target/</link>
       <pubDate>Tue, 01 Apr 2025 16:34:21 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/do-not-study-with-specific-target/</guid>
+      <guid>https://www.gtdstudy.com/posts/do-not-study-with-specific-target/</guid>
       <description>&lt;p&gt;学习是一种自然而然的状态，不是一种要求。其实学习有很多种形式，并非只有上学读书，或者是做练习册，填笔记，这些个反人类的形式。&lt;/p&gt;
 &lt;p&gt;学习首先是一种观察，简单来讲，观察一个鸟的飞行，或者是观察一个人的神情，这些都是学习。&lt;/p&gt;
 &lt;p&gt;有时候，我们会发现，很多大老板本身的学历不高，但不能说他们不聪明，他们的学习是社会化学习，通过一点一点观察别人，观察这个世界而来。&lt;/p&gt;
@@ -410,10 +430,10 @@
     
     <item>
       <title>和 AI 一起打造一把椅子</title>
-      <link>http://localhost:1313/posts/make-a-chair-with-ai/</link>
+      <link>https://www.gtdstudy.com/posts/make-a-chair-with-ai/</link>
       <pubDate>Fri, 21 Mar 2025 22:23:53 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/make-a-chair-with-ai/</guid>
+      <guid>https://www.gtdstudy.com/posts/make-a-chair-with-ai/</guid>
       <description>&lt;p&gt;这大概是我今天读过最有意思的&lt;a href=&#34;https://booktwo.org/notebook/ai-chair-1-0/&#34;&gt;文章&lt;/a&gt;——&lt;/p&gt;
 &lt;p&gt;作者与 ChatGPT 沟通，一起打造一把椅子。&lt;/p&gt;
 &lt;p&gt;首先，作者提供了一些闲置木料的描述给 AI，让 AI 提出设计方案。&lt;/p&gt;
@@ -437,10 +457,10 @@ Assembly:&lt;/p&gt;</description>
     
     <item>
       <title>2025 年 2 月 cutout.pro 流量分析</title>
-      <link>http://localhost:1313/posts/website-analysis-about-cutout-pro-in-25-feb/</link>
+      <link>https://www.gtdstudy.com/posts/website-analysis-about-cutout-pro-in-25-feb/</link>
       <pubDate>Fri, 21 Mar 2025 19:33:39 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/website-analysis-about-cutout-pro-in-25-feb/</guid>
+      <guid>https://www.gtdstudy.com/posts/website-analysis-about-cutout-pro-in-25-feb/</guid>
       <description>&lt;h2 id=&#34;域名信息&#34;&gt;域名信息&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -654,10 +674,10 @@ Assembly:&lt;/p&gt;</description>
     
     <item>
       <title>2025 年 2 月 crushon.ai 流量分析</title>
-      <link>http://localhost:1313/posts/website-analysis-about-crushon-ai-in-25-feb/</link>
+      <link>https://www.gtdstudy.com/posts/website-analysis-about-crushon-ai-in-25-feb/</link>
       <pubDate>Tue, 18 Mar 2025 11:26:15 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/website-analysis-about-crushon-ai-in-25-feb/</guid>
+      <guid>https://www.gtdstudy.com/posts/website-analysis-about-crushon-ai-in-25-feb/</guid>
       <description>&lt;h2 id=&#34;域名信息&#34;&gt;域名信息&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -792,14 +812,14 @@ Assembly:&lt;/p&gt;</description>
     
     <item>
       <title>让 org-capture 收集项可以自动归于某一日期下</title>
-      <link>http://localhost:1313/posts/automatically-date-stamp-org-capture-entries/</link>
+      <link>https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/</link>
       <pubDate>Sun, 16 Mar 2025 18:46:42 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/automatically-date-stamp-org-capture-entries/</guid>
+      <guid>https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/</guid>
       <description>&lt;p&gt;这么拗口的标题真是对不起，主要是找不到合适的词。&lt;/p&gt;
 &lt;p&gt;是这样的，以前看 org-mode 的黑客们会炫出自己的日志文件，里面的组织方式，在 org-mode 官方教程里叫「日期树」&lt;/p&gt;
 &lt;p&gt;它大概是这样子排列：&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/automatically-date-stamp-org-capture-entries/images.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/images.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;可以看到，这是一个树形列表，不过它会按照「年-月-日」来排列。&lt;/p&gt;
@@ -810,7 +830,7 @@ Assembly:&lt;/p&gt;</description>
 &lt;li&gt;org-mode 提供了 &lt;code&gt;:tree-type&lt;/code&gt; 参数控制日期树的组织方式，有两个参数：=month= 仅按月组织；=week= 则按照周数组织。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;按周组织日期树是长什么样的呢？&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/automatically-date-stamp-org-capture-entries/PixPin_2025-03-16_18-39-24.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.gtdstudy.com/posts/automatically-date-stamp-org-capture-entries/PixPin_2025-03-16_18-39-24.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;可以看到，它不再以月份作为二级标题，而是使用 2025-W11 这个格式来表示第 xx 周。&lt;/p&gt;
@@ -824,10 +844,10 @@ Assembly:&lt;/p&gt;</description>
     
     <item>
       <title>2025 年 2 月 klingai.com 流量分析</title>
-      <link>http://localhost:1313/posts/website-analysis-about-klingai-com-in-25-feb/</link>
+      <link>https://www.gtdstudy.com/posts/website-analysis-about-klingai-com-in-25-feb/</link>
       <pubDate>Sun, 16 Mar 2025 15:30:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/website-analysis-about-klingai-com-in-25-feb/</guid>
+      <guid>https://www.gtdstudy.com/posts/website-analysis-about-klingai-com-in-25-feb/</guid>
       <description>&lt;h2 id=&#34;域名信息&#34;&gt;域名信息&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -966,10 +986,10 @@ Assembly:&lt;/p&gt;</description>
     
     <item>
       <title>2025 年 2 月 searrt.ai 流量分析</title>
-      <link>http://localhost:1313/posts/website-analysis-about-seart-ai-in-25-feb/</link>
+      <link>https://www.gtdstudy.com/posts/website-analysis-about-seart-ai-in-25-feb/</link>
       <pubDate>Sat, 15 Mar 2025 17:25:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/website-analysis-about-seart-ai-in-25-feb/</guid>
+      <guid>https://www.gtdstudy.com/posts/website-analysis-about-seart-ai-in-25-feb/</guid>
       <description>&lt;h2 id=&#34;域名信息&#34;&gt;域名信息&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -1102,10 +1122,10 @@ Assembly:&lt;/p&gt;</description>
     
     <item>
       <title>As coding becomes easier, more people should code, not fewer!</title>
-      <link>http://localhost:1313/posts/andrew-ng-more-people-should-code-not-fewer/</link>
+      <link>https://www.gtdstudy.com/posts/andrew-ng-more-people-should-code-not-fewer/</link>
       <pubDate>Sat, 15 Mar 2025 06:46:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/andrew-ng-more-people-should-code-not-fewer/</guid>
+      <guid>https://www.gtdstudy.com/posts/andrew-ng-more-people-should-code-not-fewer/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;吴恩达在推特上表示，有了 AI，会令更多人编程，而不是更少：&lt;/p&gt;
 &lt;p&gt;如今，一些人以人工智能将实现编程自动化为由，劝阻他人学习编程。这种建议日后恐怕会被视为最糟糕的职业建议之一。我并不认同某位图灵奖及诺贝尔奖得主所言：“相较于编程职业变得无所不能，其更有可能走向消亡……计算机将越来越多地自行完成编程。”此类劝阻人们学习编程的言论实属有害！&lt;/p&gt;
@@ -1122,10 +1142,10 @@ Assembly:&lt;/p&gt;</description>
     
     <item>
       <title>2025 年 2 月 hailuoai.video 流量分析</title>
-      <link>http://localhost:1313/posts/website-analysis-about-hailuoai-video-in-25-feb/</link>
+      <link>https://www.gtdstudy.com/posts/website-analysis-about-hailuoai-video-in-25-feb/</link>
       <pubDate>Fri, 14 Mar 2025 15:08:11 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/website-analysis-about-hailuoai-video-in-25-feb/</guid>
+      <guid>https://www.gtdstudy.com/posts/website-analysis-about-hailuoai-video-in-25-feb/</guid>
       <description>&lt;p&gt;&lt;strong&gt;域名信息&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -1268,10 +1288,10 @@ Jan 25 27.04M&lt;/p&gt;
     
     <item>
       <title>智能的复利</title>
-      <link>http://localhost:1313/posts/compound-effect-of-ai-agentic/</link>
+      <link>https://www.gtdstudy.com/posts/compound-effect-of-ai-agentic/</link>
       <pubDate>Thu, 13 Mar 2025 23:37:54 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/compound-effect-of-ai-agentic/</guid>
+      <guid>https://www.gtdstudy.com/posts/compound-effect-of-ai-agentic/</guid>
       <description>&lt;p&gt;读&lt;a href=&#34;https://yage.ai/manus.html&#34;&gt;Manus爆火的背后，Agentic AI产品如何构筑持久的竞争优势？&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;⸻&lt;/p&gt;
 &lt;p&gt;在 Manus 之前，AI Agent 主要是两个方面，一为调研，二为代码。两者之间缺乏协作，若调研为输入，则代码为输出。Manus 成为两者之间的桥梁，让输入与输出的流程打通。&lt;/p&gt;
@@ -1297,10 +1317,10 @@ Jan 25 27.04M&lt;/p&gt;
     
     <item>
       <title>我们实际上要对抗的不是算法，而是基于算法推荐而衍生的懒惰</title>
-      <link>http://localhost:1313/posts/we-actually-need-to-fight-not-the-algorithms-but-the-laziness-derived-from-algorithm-recommendations/</link>
+      <link>https://www.gtdstudy.com/posts/we-actually-need-to-fight-not-the-algorithms-but-the-laziness-derived-from-algorithm-recommendations/</link>
       <pubDate>Thu, 13 Mar 2025 15:32:27 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/we-actually-need-to-fight-not-the-algorithms-but-the-laziness-derived-from-algorithm-recommendations/</guid>
+      <guid>https://www.gtdstudy.com/posts/we-actually-need-to-fight-not-the-algorithms-but-the-laziness-derived-from-algorithm-recommendations/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;我们越来越习惯于被告知“好东西”，不再愿意花费时间和精力去筛选、比较，甚至怀疑那些未经推荐的内容是否值得一看。&lt;/li&gt;
 &lt;li&gt;当每一次搜索都精准地迎合自己的偏好时，发现自己逐渐失去了对未知领域的兴趣，害怕面对任何与“舒适区”相关的挑战。&lt;/li&gt;
@@ -1310,10 +1330,10 @@ Jan 25 27.04M&lt;/p&gt;
     
     <item>
       <title>2025 年 2 月 jenni.ai 流量分析</title>
-      <link>http://localhost:1313/posts/website-analysis-about-jenni-ai-video-in-25-feb/</link>
+      <link>https://www.gtdstudy.com/posts/website-analysis-about-jenni-ai-video-in-25-feb/</link>
       <pubDate>Thu, 13 Mar 2025 11:30:36 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/website-analysis-about-jenni-ai-video-in-25-feb/</guid>
+      <guid>https://www.gtdstudy.com/posts/website-analysis-about-jenni-ai-video-in-25-feb/</guid>
       <description>&lt;h2 id=&#34;域名信息&#34;&gt;域名信息&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -1446,10 +1466,10 @@ Jan 25 27.04M&lt;/p&gt;
     
     <item>
       <title>org-embed 发布</title>
-      <link>http://localhost:1313/posts/released-org-embed/</link>
+      <link>https://www.gtdstudy.com/posts/released-org-embed/</link>
       <pubDate>Fri, 07 Mar 2025 14:01:30 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/released-org-embed/</guid>
+      <guid>https://www.gtdstudy.com/posts/released-org-embed/</guid>
       <description>&lt;p&gt;终于实现了，在 org-mode 里直接嵌入视频、PDF、网页等多媒体内容了。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;支持在 Org-mode 中嵌入各种视频平台的视频
@@ -1471,10 +1491,10 @@ PDF 文件（本地）&lt;/p&gt;
     
     <item>
       <title>org-supertag 2.5 发布，发现标签关系，标签探索面板，多列视图</title>
-      <link>http://localhost:1313/posts/tag-is-a-type-of-set/</link>
+      <link>https://www.gtdstudy.com/posts/tag-is-a-type-of-set/</link>
       <pubDate>Wed, 05 Mar 2025 09:52:36 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tag-is-a-type-of-set/</guid>
+      <guid>https://www.gtdstudy.com/posts/tag-is-a-type-of-set/</guid>
       <description>&lt;p&gt;由于自己开发了一个叫 org-supertag 的 Emacs 插件，一直在思考：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;为什么标签难以在大众层面流行&lt;/li&gt;
@@ -1494,21 +1514,21 @@ PDF 文件（本地）&lt;/p&gt;
 &lt;p&gt;## 为标签与标签之间设定关系 org-supertag-relation-manage&lt;/p&gt;
 &lt;p&gt;在如何帮助人发现标签关系这件事上，我进一步思考，发现不少标签会添加到同一个对象上。这意味着，这这些同时出现的标签，存在着内部关系。我们可以快速通过「同现」这一关系，找到相互关联的标签。&lt;/p&gt;
 &lt;p&gt;因此，在标签关系的管理界面可以看到「Co-occurrence Tags」这一栏，可以直接看到一起出现过的标签。在我们添加标签关系时有重要的参考意义。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/org-supertag-relation-manager.png&#34;&gt;org-supertag-relaiton-manager&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.gtdstudy.com/org-supertag-relation-manager.png&#34;&gt;org-supertag-relaiton-manager&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;这里有两个小功能：&lt;/p&gt;
 &lt;p&gt;Find By Relation，可以找到存在着关系的标签。
 Find By Relation Group，可以基于标签关系组找到存在着关系的标签。
 这两点可以提供比较丰富的发现维度。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;隐式发现信息结构 org-supertag-tag-discover&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;标签发现面板，是一种渐进式过滤的机制。可以在添加了一个标签的同时，添加另外的标签，寻找位于两个标签之间的交集里的笔记（笔记节点）。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/org-supertag-tag-discovery.png&#34;&gt;org-supertag-tag-discovery&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.gtdstudy.com/org-supertag-tag-discovery.png&#34;&gt;org-supertag-tag-discovery&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;同样，它会有 Co-occurring Tags 一栏，可以看到此间一起出现过的标签，并将它们直接添加为过滤条件，像放大镜一样，一点点变得具体。&lt;/p&gt;
 &lt;p&gt;换言之，这里存在着一种发现路径，这个发现路径将你第一次添加为过滤条件的标签，视为一个入口。如果这是一个箱庭世界，就可以通过不断添加标签，从而方便自己回顾和寻找对应的笔记。&lt;/p&gt;
 &lt;p&gt;在这个过程中，如果不断重复这一发现过程，路径本身就是结构化的象征，自然而然，在不断设计标签关系，以及发现标签的交集时，这种结构化自然地会印在脑海里。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;多列对比视图 org-supertag-column&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如果把标签视为集合，为了方便不同的集合之间的对比，应该以一种列状视图来表现。&lt;/p&gt;
 &lt;p&gt;在 Multi-Colmn Tag View 中，可以快速地添加标签，进行对比，同时，还可以通过 Add Realated Tag，来将相关联的标签放在一起进行对比。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/org-supertag-column.png&#34;&gt;org-supertag-columnn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.gtdstudy.com/org-supertag-column.png&#34;&gt;org-supertag-columnn&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;内联标签 org-supertag-inline-insert-tag&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;当然，将多个标签添加到同一个对象是吃力的。尤其是当前大部分工具添加标签的过程，在思考标签的时候都花了太多时间。&lt;/p&gt;
 &lt;p&gt;我提出的解决方案是，让 org-supertag 支持内联标签。让人在自然输入的过程中，直接输入标签。以 # 作为前缀。&lt;/p&gt;</description>
@@ -1516,10 +1536,10 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
     
     <item>
       <title>谈谈封装为什么很适合形容商业</title>
-      <link>http://localhost:1313/posts/explore-the-reasons-behind-the-aptness-of-encapsulation-as-a-metaphor-for-commercial-translation/explore-the-reasons-behind-the-aptness-of-encapsulation-as-a-metaphor-for-commercial-translation/</link>
+      <link>https://www.gtdstudy.com/posts/explore-the-reasons-behind-the-aptness-of-encapsulation-as-a-metaphor-for-commercial-translation/explore-the-reasons-behind-the-aptness-of-encapsulation-as-a-metaphor-for-commercial-translation/</link>
       <pubDate>Mon, 03 Mar 2025 22:20:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/explore-the-reasons-behind-the-aptness-of-encapsulation-as-a-metaphor-for-commercial-translation/explore-the-reasons-behind-the-aptness-of-encapsulation-as-a-metaphor-for-commercial-translation/</guid>
+      <guid>https://www.gtdstudy.com/posts/explore-the-reasons-behind-the-aptness-of-encapsulation-as-a-metaphor-for-commercial-translation/explore-the-reasons-behind-the-aptness-of-encapsulation-as-a-metaphor-for-commercial-translation/</guid>
       <description>&lt;p&gt;我第一次知道到「封装」这个词，是初中时，当时买来第一本《微型计算机》兴致勃勃地翻看，里面介绍了基础 CPU 的运行原理，当然也提到了 CPU 制造完成之后，为了保护脆弱的硅晶片，需要在芯片之外进行封装，把它完全包起来。&lt;/p&gt;
 &lt;p&gt;在竞争激烈的商业世界里，将某样业务，某种技术发明，某种商业模式，某种资源，某种特权，完全包起来，是否可以视为一种「封装」？我认为，尽管作用对象不同，但动作定义一致，因此在谈及商业时，的确可以使用「封装」这个词。&lt;/p&gt;
 &lt;p&gt;我觉得这个「封装」，相比「垄断」这个单纯的名词，更能适合描述商业的基本的行为，以及可以解释处于正在发生时的现象。&lt;/p&gt;
@@ -1528,56 +1548,34 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
     
     <item>
       <title>我喜欢的元素是杂交的而不是纯种的；是妥协折中的而不是一以贯之的；是曲折蜿蜒的而不是直截了当的；是模糊歧义的而不是清晰缜密的。它们既客观又倔强，它们既无聊又有趣。它们是依惯例传统的而不是设计出来的；是随和迁就的而不是特立独行的；是冗余累赘的而不是简洁单纯的。它们既残缺不全又富于创新，是前后矛盾、模棱两可的而不是直接和清楚的。我赞同凌乱的活力优于明显的统一，我容纳不合理的结论。我赞成丰富和含义深长胜于含义清楚，我既赞同隐含的功能，又赞同外显的功能。</title>
-      <link>http://localhost:1313/posts/quotes-from-reobert-venturi-i-dont-like-pure-order/quotes-from-reobert-venturi-i-dont-like-pure-order/</link>
+      <link>https://www.gtdstudy.com/posts/quotes-from-reobert-venturi-i-dont-like-pure-order/quotes-from-reobert-venturi-i-dont-like-pure-order/</link>
       <pubDate>Mon, 03 Mar 2025 16:20:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/quotes-from-reobert-venturi-i-dont-like-pure-order/quotes-from-reobert-venturi-i-dont-like-pure-order/</guid>
+      <guid>https://www.gtdstudy.com/posts/quotes-from-reobert-venturi-i-dont-like-pure-order/quotes-from-reobert-venturi-i-dont-like-pure-order/</guid>
       <description></description>
     </item>
     
     <item>
       <title>我有时候想，经济就像是夜色下的战场，漆黑一片，在战壕外几乎什么也看不到。而大约半英里远，就有敌人的营地，可以听到窸窸窣窣的声音，可以感到军队正在重新部署。​（当然，新的战略部署即使再好，也是在现有部署的基础上转化来的。​）这时，突然某个人发射了一颗照明弹，火光照亮整个战场的部署，各种炮位、安排、部队、战壕，一下子变得一目了然，然后火光骤然熄灭，一切又复归黑暗。经济就是如此。经济学中的光芒就是亚当·斯密、李嘉图、马克思、凯恩斯，还有熊彼特的理论。它们偶尔照亮了一下战场，但是真正的骚动和变换一直在黑暗中进行着。我们确实能够观察到经济，但是我们描述经济的语言，我们标明经济的标志，以及我们对经济的理解，都凝固于那燃亮的一瞬间——尤其是最近的一组照明弹之中</title>
-      <link>http://localhost:1313/posts/economics-as-a-battlefield-theories-illuminate-the-momentary-darkness/economics-as-a-battlefield-theories-illuminate-the-momentary-darkness/</link>
+      <link>https://www.gtdstudy.com/posts/economics-as-a-battlefield-theories-illuminate-the-momentary-darkness/economics-as-a-battlefield-theories-illuminate-the-momentary-darkness/</link>
       <pubDate>Mon, 03 Mar 2025 15:35:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/economics-as-a-battlefield-theories-illuminate-the-momentary-darkness/economics-as-a-battlefield-theories-illuminate-the-momentary-darkness/</guid>
+      <guid>https://www.gtdstudy.com/posts/economics-as-a-battlefield-theories-illuminate-the-momentary-darkness/economics-as-a-battlefield-theories-illuminate-the-momentary-darkness/</guid>
       <description></description>
     </item>
     
     <item>
       <title>最近想离开 cursor，完全转投 Windsurf</title>
-      <link>http://localhost:1313/posts/i-want-to-switch-form-cursor-to-winsurf/i-want-to-switch-form-cursor-to-winsurf/</link>
+      <link>https://www.gtdstudy.com/posts/i-want-to-switch-form-cursor-to-winsurf/i-want-to-switch-form-cursor-to-winsurf/</link>
       <pubDate>Sat, 01 Mar 2025 15:57:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/i-want-to-switch-form-cursor-to-winsurf/i-want-to-switch-form-cursor-to-winsurf/</guid>
+      <guid>https://www.gtdstudy.com/posts/i-want-to-switch-form-cursor-to-winsurf/i-want-to-switch-form-cursor-to-winsurf/</guid>
       <description>&lt;p&gt;因为用 cursor 经常爆仓，所以也订了 Windsurf。&lt;/p&gt;
 &lt;p&gt;但后来很少用 Windsurf，因为之前 agent 模式用着有点难受，尤其一份源文件突破 500 行代码的时候，它就开始乱看跟乱搞了。&lt;/p&gt;
 &lt;p&gt;你都不知道给它添加 context 的意义是什么，经常偷懒不看，即便明确指明某处代码需要参考都无用&amp;hellip;&amp;hellip;还有经常的说无法修改文件的问题，糟心。&lt;/p&gt;
 &lt;p&gt;但如今 Claude 3.7 出来之后明显感到不一样，当然也和 Windsurf 自己积极更新有关，现在使用下来明显感到，Winsurf 的代码助手，起码达到了老实，又聪明的程度。该参考的代码，勤勤恳恳地去参考，遇到不懂的，也会好好地翻看和参考。&lt;/p&gt;
 &lt;p&gt;现在可以说，给 Windsurf 添加 context 是很有意义的，因为添加了它肯定看，肯定参考，来回回地，看着它自己调优和纠错。&lt;/p&gt;
 &lt;p&gt;Claude 3.7 + thinking，这个大模型的推理能力很强，但在 cursor 下的表现同比 Winsurf，有差距。最关键的还是，我刚才说，cursor 下的大模型，真的不愿意参考你之前写的代码，能偷懒就偷懒。尽管它看上去挺快的，但出错的概率也大。Windsurf 就比较简单，需求讲清楚，它帮你演绎，代码的错误还少。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>默契 = 共享的上下文窗口</title>
-      <link>http://localhost:1313/posts/shared-context-window-of-understanding/shared-context-window-of-understanding/</link>
-      <pubDate>Fri, 28 Feb 2025 13:11:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/shared-context-window-of-understanding/shared-context-window-of-understanding/</guid>
-      <description>&lt;p&gt;这两天流行一张图，将如何给推理型大模型写 Prompt，主要分为 4 部分：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;目标&lt;/li&gt;
-&lt;li&gt;回复的格式&lt;/li&gt;
-&lt;li&gt;限制条件（或如果不这么做的后果）&lt;/li&gt;
-&lt;li&gt;上下文说明&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;刚好今天在群里朋友们讨论起，到底 Prompt 还有无必要，我觉得有必要：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;基本的 context 是必须的，因为 AI 只会通过概率，以最常用的视角给你回答，如果你有上下文，这样子才能够生成一个准确的回答（对个人而言）。&lt;/p&gt;
-&lt;p&gt;[如果大模型回答混乱]，这个混乱一般来自，大模型不知道用什么视角来解读你的问题，所以它不知道用什么视角来回答（注意力机制没有产生对应的切换）。&lt;/p&gt;
-&lt;p&gt;其实就好像我们人类沟通一样，视角的切换本来也很难，尤其是缺乏上下文交流的情景里。只不过，如果有熟悉的好朋友，或者关系好的同事，这个上下文在长期的协作中，会形成默契。&lt;/p&gt;
-&lt;p&gt;默契 = 共享的上下文窗口&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;换言之，Prompt 的必要性是存在的，其意义不是让大模型发挥出超越平时的能力，而是属于人机交互中必要的一环。&lt;/p&gt;</description>
     </item>
     
   </channel>
