@@ -9,10 +9,20 @@
     
     
     
-    <lastBuildDate>Mon, 12 May 2025 10:39:36 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 14 May 2025 16:13:37 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/now/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[2025-05-14 Wed 16:10]  名为 notepad.exe 的笔记本</title>
+      <link>https://www.gtdstudy.com/posts/a-notepad-named-notepad-exe/</link>
+      <pubDate>Wed, 14 May 2025 16:13:37 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/a-notepad-named-notepad-exe/</guid>
+      <description>&lt;p&gt;[[&lt;img src=&#34;%5B2025-05-14_Wed_16:10%5D_%E5%90%8D%E4%B8%BA_notepad.exe_%E7%9A%84%E7%AC%94%E8%AE%B0%E6%9C%AC/2025-05-14_16-11-35_Gq3iJCMX0AABkuR.jpeg&#34; alt=&#34;&#34;&gt;]]&lt;/p&gt;
+&lt;p&gt;via @marckohlbruggfe&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[2025-05-12 Mon 10:06]  DeepWiki 有一个非常优秀的交互</title>
@@ -402,18 +412,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
       
       <guid>https://www.gtdstudy.com/posts/now-example/</guid>
       <description>&lt;p&gt;Working on improving the Hugo Theme Deck documentation and adding more example posts to demonstrate different column styles. 🚀&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>最近学习 Lisp 进度顺利</title>
-      <link>https://www.gtdstudy.com/posts/about-learning-lisp/</link>
-      <pubDate>Sat, 10 Sep 2022 23:06:59 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/about-learning-lisp/</guid>
-      <description>&lt;p&gt;近期更换了学习 lisp 的教材，进度可喜可贺，虽不能独立写出 package，然而在看 lisp 的代码时，开始具备一定的阅读能力，知道是什么顺序，大概会是什么作用。如果不知道，还可以直接查询函数。&lt;/p&gt;
-&lt;p&gt;近期的学习教材主要是《Practical Common Lisp》，我认为它的安排很好，一上来先教人安装了 lisp 的生产环境之后，就直接以一个「专辑数据库」为例子，让人直接上手，并从一步步的步骤中，理解自己所编写的代码，如何变成程序。对于一名非程序员来说，这种方式，可以很快地通过实操来理解代码的作用，找到感觉。&lt;/p&gt;
-&lt;p&gt;这和学习《 ANSI Common Lisp 中文版》的感受大不一样。ANSI Common Lisp，非常完整，十分细致，甚至有后面的练习题，来帮助人深入思考。但它太学术了，在学习过程中，总是不知道学了之后，用这些语法或函数能发挥什么作用。&lt;/p&gt;
-&lt;p&gt;所以我现在是《Practical Common Lisp》和 《 ANSI Common Lisp 中文版》一起结合来看。首先阅读前者，通过前者举的例子，来理解逻辑；而函数实际应用的细节，则查询后者——在逻辑理解了的情况下，阅读后者，往往很快就能理解，而且能够有一定的发散。这样子学，记得牢，学得快。&lt;/p&gt;</description>
     </item>
     
   </channel>
