@@ -9,10 +9,30 @@
     
     
     
-    <lastBuildDate>Thu, 03 Apr 2025 00:16:11 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 10 Sep 2025 17:20:06 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/write/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>写给编程小白看的 Vibe Debugging 注意事项（1）</title>
+      <link>https://www.gtdstudy.com/posts/vibe-debugging-tips-for-beginners-1/</link>
+      <pubDate>Wed, 10 Sep 2025 17:20:06 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/vibe-debugging-tips-for-beginners-1/</guid>
+      <description>&lt;p&gt;我认为我有资格谈论这个问题：&lt;/p&gt;
+&lt;p&gt;我在 Githuh 已经有 2 个超过 100 星标的开源项目。&lt;/p&gt;
+&lt;p&gt;截止文章开始写的时候，一个 267，一个 105。考虑到 Github 上绝大部分项目不超过 10 个星标，我的成绩自然是在水平线之上。&lt;/p&gt;
+&lt;p&gt;除了这 2 个破百星标的项目之外，我还有好几个 50 个星标的项目，一些 20 个星标的项目。&lt;/p&gt;
+&lt;p&gt;自从我 Vibe Coding 到现在，我一共开发了 12 个项目。没有一个项目低于 10 个星标。其中 2 个项目起码经历了大规模重构（几乎完全重写）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么标题不是 Vibe Coding 而是 Vibe Debugging？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果从生物学分类来看，Bug 是克鲁苏——不可名状，永恒存在，令人恐惧。&lt;/p&gt;
+&lt;p&gt;小白 Vibe Coding 到最后往往变成 Vibe Debugging，拼命打印调试日志，然后塞给大模型，祈求它这把能过。&lt;/p&gt;
+&lt;p&gt;抑或，在 Vibe Coding 爽撸一把之后，祈祷这把不会有 Bug。然而克鲁苏就是克鲁苏，Bug 不会因为你的诚意感天动地，就自动消失。曾经有科学家开玩笑， Bug 是唯一违反物理定律的东西，因为即便太阳系毁灭了，Bug 也会继续存在。&lt;/p&gt;
+&lt;p&gt;所以，我们在谈论小白 Vibe Coding 的时候，也是在讲 Vibe Debugging——请所有小白在尝试 Vibe Coding 之前，一定要清醒的明白一件事，很多时候你不是在编程，你只是在制造你无法解决的 Bug。这是我非常痛的领悟。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;想要减少 Bug 的出现，必须懂点软件工程&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;小白之所以无法控制 Bug 的产生，我觉得原因和会不会编程语言的关系不大。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>用 AI 辅助开发的经验二三则（4）</title>
@@ -759,25 +779,6 @@ Map 表的职责:
 &lt;p&gt;按照麦可思的《2019 年大学生就业报告》：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;2018 届大学毕业生的就业率为 91.5%。其中，本科毕业生就业率（91.0%）持续缓慢下降，较 2014 届（92.6%）下降 1.6 个百分点；高职高专毕业生就业率为 92.0%，较 2014 届（91.5%）上升 0.5 个百分点。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Live, Social, and Shoppable: The Future of Video</title>
-      <link>https://www.gtdstudy.com/posts/readaboutlivesocalandshopping/</link>
-      <pubDate>Tue, 08 Dec 2020 22:48:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/readaboutlivesocalandshopping/</guid>
-      <description>&lt;p&gt;原文地址：&lt;a href=&#34;https://a16z.com/2020/12/07/social-strikes-back-video/&#34;&gt;https://a16z.com/2020/12/07/social-strikes-back-video/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;这篇文章来自顶级投资机构 A16Z 的官方博客，全文只有一个中心思想，就是「视频化在美国是购物的未来」，主要分析的对象是今年的传奇主角 Tik Tok。&lt;/p&gt;
-&lt;p&gt;本文主要将 Tik Tok 与 YouTub 进行了比较详细的对比，没有和 Instagram、Snapchat 是比较遗憾的，毕竟后两者也提供了比较强的商品展示空间。&lt;/p&gt;
-&lt;p&gt;要点：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Tik Tok 成长速度飞快，从 0 到成长到一个亿级的平台，它所使用的时间只是 Facebook 的一半；&lt;/li&gt;
-&lt;li&gt;美国人每日平均消费视频时长突破 100 分钟，在这 5 年里增加了差不多 40 分钟；
-根据《2020 中国网络视听发展研究报告》，中国的短视频用户使用时长是 110 分钟。中美数据已经不相上下了；
-这意味着，在中国发生的故事，很可能会在美国重演。&lt;/li&gt;
-&lt;li&gt;文末看好任何一切 Video-first 的产品/平台，尤其是：在线教育、购物、技能分享。&lt;/li&gt;
-&lt;/ol&gt;</description>
     </item>
     
   </channel>
