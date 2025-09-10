@@ -15,6 +15,26 @@
     
     
     <item>
+      <title>写给编程小白看的 Vibe Debugging 注意事项（1）</title>
+      <link>https://www.gtdstudy.com/posts/vibe-debugging-tips-for-beginners-1/</link>
+      <pubDate>Wed, 10 Sep 2025 17:00:15 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/vibe-debugging-tips-for-beginners-1/</guid>
+      <description>&lt;p&gt;我认为我有资格谈论这个问题：&lt;/p&gt;
+&lt;p&gt;我在 Githuh 已经有 2 个超过 100 星标的开源项目。&lt;/p&gt;
+&lt;p&gt;截止文章开始写的时候，一个 267，一个 105。考虑到 Github 上绝大部分项目不超过 10 个星标，我的成绩自然是在水平线之上。&lt;/p&gt;
+&lt;p&gt;除了这 2 个破百星标的项目之外，我还有好几个 50 个星标的项目，一些 20 个星标的项目。&lt;/p&gt;
+&lt;p&gt;自从我 Vibe Coding 到现在，我一共开发了 12 个项目。没有一个项目低于 10 个星标。其中 2 个项目起码经历了大规模重构（几乎完全重写）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么标题不是 Vibe Coding 而是 Vibe Debugging？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果从生物学分类来看，Bug 是克鲁苏——不可名状，永恒存在，令人恐惧。&lt;/p&gt;
+&lt;p&gt;小白 Vibe Coding 到最后往往变成 Vibe Debugging，拼命打印调试日志，然后塞给大模型，祈求它这把能过。&lt;/p&gt;
+&lt;p&gt;抑或，在 Vibe Coding 爽撸一把之后，祈祷这把不会有 Bug。然而克鲁苏就是克鲁苏，Bug 不会因为你的诚意感天动地，就自动消失。曾经有科学家开玩笑， Bug 是唯一违反物理定律的东西，因为即便太阳系毁灭了，Bug 也会继续存在。&lt;/p&gt;
+&lt;p&gt;所以，我们在谈论小白 Vibe Coding 的时候，也是在讲 Vibe Debugging——请所有小白在尝试 Vibe Coding 之前，一定要清醒的明白一件事，很多时候你不是在编程，你只是在制造你无法解决的 Bug。这是我非常痛的领悟。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;想要减少 Bug 的出现，必须懂点软件工程&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;小白之所以无法控制 Bug 的产生，我觉得原因和会不会编程语言的关系不大。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>名为 notepad.exe 的笔记本</title>
       <link>https://www.gtdstudy.com/posts/a-notepad-named-notepad-exe/</link>
       <pubDate>Wed, 14 May 2025 16:15:07 +0800</pubDate>
@@ -61,7 +81,7 @@
     </item>
     
     <item>
-      <title>[2025-05-12 Mon 10:06]  DeepWiki 有一个非常优秀的交互</title>
+      <title>DeepWiki 有一个非常优秀的交互</title>
       <link>https://www.gtdstudy.com/posts/deepwiki-has-a-good-ux/</link>
       <pubDate>Mon, 12 May 2025 10:39:36 +0800</pubDate>
       
@@ -1590,15 +1610,6 @@ Find By Relation Group，可以基于标签关系组找到存在着关系的标�
 &lt;p&gt;在竞争激烈的商业世界里，将某样业务，某种技术发明，某种商业模式，某种资源，某种特权，完全包起来，是否可以视为一种「封装」？我认为，尽管作用对象不同，但动作定义一致，因此在谈及商业时，的确可以使用「封装」这个词。&lt;/p&gt;
 &lt;p&gt;我觉得这个「封装」，相比「垄断」这个单纯的名词，更能适合描述商业的基本的行为，以及可以解释处于正在发生时的现象。&lt;/p&gt;
 &lt;p&gt;作为一个动词， 「封装」更加形象的形容了商业竞争的本质，而且可以比垄断更早描述，而非等待一切尘埃落定，再用倒后镜视角来形容。「封装」永远在路上，每一个参与市场竞争的商业组织，都在试图把某样东西包起来。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>我喜欢的元素是杂交的而不是纯种的；是妥协折中的而不是一以贯之的；是曲折蜿蜒的而不是直截了当的；是模糊歧义的而不是清晰缜密的。它们既客观又倔强，它们既无聊又有趣。它们是依惯例传统的而不是设计出来的；是随和迁就的而不是特立独行的；是冗余累赘的而不是简洁单纯的。它们既残缺不全又富于创新，是前后矛盾、模棱两可的而不是直接和清楚的。我赞同凌乱的活力优于明显的统一，我容纳不合理的结论。我赞成丰富和含义深长胜于含义清楚，我既赞同隐含的功能，又赞同外显的功能。</title>
-      <link>https://www.gtdstudy.com/posts/quotes-from-reobert-venturi-i-dont-like-pure-order/quotes-from-reobert-venturi-i-dont-like-pure-order/</link>
-      <pubDate>Mon, 03 Mar 2025 16:20:00 +0800</pubDate>
-      
-      <guid>https://www.gtdstudy.com/posts/quotes-from-reobert-venturi-i-dont-like-pure-order/quotes-from-reobert-venturi-i-dont-like-pure-order/</guid>
-      <description></description>
     </item>
     
   </channel>

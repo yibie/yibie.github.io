@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>写给编程小白看的 Vibe Debugging 注意事项（1） - Space Looming</title>
+<meta name="description"
+    content="我认为我有资格谈论这个问题：
+我在 Githuh 已经有 2 个超过 100 星标的开源项目。
+截止文章开始写的时候，一个 267，一个 105。考虑到 Github 上绝大部分项目不超过 10 个星标，我的成绩自然是在水平线之上。
+除了这 2 个破百星标的项目之外，我还有好几个 50 个星标的项目，一些 20 个星标的项目。
+自从我 Vibe Coding 到现在，我一共开发了 12 个项目。没有一个项目低于 10 个星标。其中 2 个项目起码经历了大规模重构（几乎完全重写）。
+为什么标题不是 Vibe Coding 而是 Vibe Debugging？
+如果从生物学分类来看，Bug 是克鲁苏——不可名状，永恒存在，令人恐惧。
+小白 Vibe Coding 到最后往往变成 Vibe Debugging，拼命打印调试日志，然后塞给大模型，祈求它这把能过。
+抑或，在 Vibe Coding 爽撸一把之后，祈祷这把不会有 Bug。然而克鲁苏就是克鲁苏，Bug 不会因为你的诚意感天动地，就自动消失。曾经有科学家开玩笑， Bug 是唯一违反物理定律的东西，因为即便太阳系毁灭了，Bug 也会继续存在。
+所以，我们在谈论小白 Vibe Coding 的时候，也是在讲 Vibe Debugging——请所有小白在尝试 Vibe Coding 之前，一定要清醒的明白一件事，很多时候你不是在编程，你只是在制造你无法解决的 Bug。这是我非常痛的领悟。
+想要减少 Bug 的出现，必须懂点软件工程
+小白之所以无法控制 Bug 的产生，我觉得原因和会不会编程语言的关系不大。
+">
+
+
+<meta property="og:title"
+    content="写给编程小白看的 Vibe Debugging 注意事项（1） - Space Looming">
+<meta property="og:description"
+    content="我认为我有资格谈论这个问题：
+我在 Githuh 已经有 2 个超过 100 星标的开源项目。
+截止文章开始写的时候，一个 267，一个 105。考虑到 Github 上绝大部分项目不超过 10 个星标，我的成绩自然是在水平线之上。
+除了这 2 个破百星标的项目之外，我还有好几个 50 个星标的项目，一些 20 个星标的项目。
+自从我 Vibe Coding 到现在，我一共开发了 12 个项目。没有一个项目低于 10 个星标。其中 2 个项目起码经历了大规模重构（几乎完全重写）。
+为什么标题不是 Vibe Coding 而是 Vibe Debugging？
+如果从生物学分类来看，Bug 是克鲁苏——不可名状，永恒存在，令人恐惧。
+小白 Vibe Coding 到最后往往变成 Vibe Debugging，拼命打印调试日志，然后塞给大模型，祈求它这把能过。
+抑或，在 Vibe Coding 爽撸一把之后，祈祷这把不会有 Bug。然而克鲁苏就是克鲁苏，Bug 不会因为你的诚意感天动地，就自动消失。曾经有科学家开玩笑， Bug 是唯一违反物理定律的东西，因为即便太阳系毁灭了，Bug 也会继续存在。
+所以，我们在谈论小白 Vibe Coding 的时候，也是在讲 Vibe Debugging——请所有小白在尝试 Vibe Coding 之前，一定要清醒的明白一件事，很多时候你不是在编程，你只是在制造你无法解决的 Bug。这是我非常痛的领悟。
+想要减少 Bug 的出现，必须懂点软件工程
+小白之所以无法控制 Bug 的产生，我觉得原因和会不会编程语言的关系不大。
+">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.gtdstudy.com/posts/vibe-debugging-tips-for-beginners-1/">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title"
+    content="写给编程小白看的 Vibe Debugging 注意事项（1） - Space Looming">
+<meta name="twitter:description"
+    content="我认为我有资格谈论这个问题：
+我在 Githuh 已经有 2 个超过 100 星标的开源项目。
+截止文章开始写的时候，一个 267，一个 105。考虑到 Github 上绝大部分项目不超过 10 个星标，我的成绩自然是在水平线之上。
+除了这 2 个破百星标的项目之外，我还有好几个 50 个星标的项目，一些 20 个星标的项目。
+自从我 Vibe Coding 到现在，我一共开发了 12 个项目。没有一个项目低于 10 个星标。其中 2 个项目起码经历了大规模重构（几乎完全重写）。
+为什么标题不是 Vibe Coding 而是 Vibe Debugging？
+如果从生物学分类来看，Bug 是克鲁苏——不可名状，永恒存在，令人恐惧。
+小白 Vibe Coding 到最后往往变成 Vibe Debugging，拼命打印调试日志，然后塞给大模型，祈求它这把能过。
+抑或，在 Vibe Coding 爽撸一把之后，祈祷这把不会有 Bug。然而克鲁苏就是克鲁苏，Bug 不会因为你的诚意感天动地，就自动消失。曾经有科学家开玩笑， Bug 是唯一违反物理定律的东西，因为即便太阳系毁灭了，Bug 也会继续存在。
+所以，我们在谈论小白 Vibe Coding 的时候，也是在讲 Vibe Debugging——请所有小白在尝试 Vibe Coding 之前，一定要清醒的明白一件事，很多时候你不是在编程，你只是在制造你无法解决的 Bug。这是我非常痛的领悟。
+想要减少 Bug 的出现，必须懂点软件工程
+小白之所以无法控制 Bug 的产生，我觉得原因和会不会编程语言的关系不大。
+">
+
+
+
+<link rel="canonical" href="https://www.gtdstudy.com/posts/vibe-debugging-tips-for-beginners-1/">
+
+
+      <script src="/js/main.1703161c6e03c166ddff898c459c5f9d44aea1130a82e6953f0a1f7de46765a2.js" integrity="sha256-FwMWHG4DwWbd/4mMRZxfnUSuoRMKguaVPwoffeRnZaI=" crossorigin="anonymous"></script>
+
+
+
+<script>
+    
+    (function () {
+        const theme = localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+    })();
+</script>
+
+
+
+<link rel="stylesheet" href="/css/main.min.css">
+
+
+
+  
+  <link rel="stylesheet" href="/css/main.min.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-content">
+        
+        <div class="site-branding">
+            <h1 class="site-title">
+                <a href="/">Space Looming</a>
+            </h1>
+            
+            <p class="site-subtitle">无垠的太空中，传来宇宙的轰鸣</p>
+            
+        </div>
+
+        
+        
+        <div class="site-bio">
+            <div class="bio-content"><p>大家好，我是一个喜欢阅读、思考以及交流的人。</p>
+<p>最近在 AI 辅助编程方面取得了不少进展。</p>
+<p>我评测过很多产品，写过很多行业预测，写了不少 Prompt，开发了 4 个 Emacs Package。</p>
+</div>
+        </div>
+        
+
+        
+        <nav class="site-nav">
+            <ul class="menu-list">
+                
+                <li class="menu-item">
+                    <a href="/">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/posts">Posts</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/tags">Tags</a>
+                </li>
+                
+                
+                <li class="menu-item">
+                    <a href="/friends/">Friends</a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="/index.xml">Rss</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        
+        <div class="theme-toggle">
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle__icon">🌓</span>
+            </button>
+        </div>
+
+        
+        <div class="site-footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="copyright">© 2025 Yibie</p>
+                    <p class="powered-by">Powered by <a href="https://gohugo.io" target="_blank">Hugo</a></p>
+                    <p class="theme-info">Theme <a href="https://github.com/yibie/hugo-theme-deck"
+                            target="_blank">Deck</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const html = document.documentElement;
+        const themeToggle = document.getElementById('theme-toggle');
+
+        
+        themeToggle.addEventListener('click', function () {
+            const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+
+        
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+        prefersDark.addListener((e) => {
+            if (!localStorage.getItem('theme')) {
+                const systemTheme = e.matches ? 'dark' : 'light';
+                html.setAttribute('data-theme', systemTheme);
+                localStorage.setItem('theme', systemTheme);
+            }
+        });
+    });
+</script>
+  <main>
+    
+<div class="single-main">
+  <article class="single-post">
+    <header class="post-header">
+      <h1 class="post-title">写给编程小白看的 Vibe Debugging 注意事项（1）</h1>
+
+      <div class="post-meta">
+        <time datetime=" 2025-09-10">
+          September 10, 2025
+        </time>
+
+        
+      </div>
+    </header>
+
+    <div class="post-content">
+      <p>我认为我有资格谈论这个问题：</p>
+<p>我在 Githuh 已经有 2 个超过 100 星标的开源项目。</p>
+<p>截止文章开始写的时候，一个 267，一个 105。考虑到 Github 上绝大部分项目不超过 10 个星标，我的成绩自然是在水平线之上。</p>
+<p>除了这 2 个破百星标的项目之外，我还有好几个 50 个星标的项目，一些 20 个星标的项目。</p>
+<p>自从我 Vibe Coding 到现在，我一共开发了 12 个项目。没有一个项目低于 10 个星标。其中 2 个项目起码经历了大规模重构（几乎完全重写）。</p>
+<p><strong>为什么标题不是 Vibe Coding 而是 Vibe Debugging？</strong></p>
+<p>如果从生物学分类来看，Bug 是克鲁苏——不可名状，永恒存在，令人恐惧。</p>
+<p>小白 Vibe Coding 到最后往往变成 Vibe Debugging，拼命打印调试日志，然后塞给大模型，祈求它这把能过。</p>
+<p>抑或，在 Vibe Coding 爽撸一把之后，祈祷这把不会有 Bug。然而克鲁苏就是克鲁苏，Bug 不会因为你的诚意感天动地，就自动消失。曾经有科学家开玩笑， Bug 是唯一违反物理定律的东西，因为即便太阳系毁灭了，Bug 也会继续存在。</p>
+<p>所以，我们在谈论小白 Vibe Coding 的时候，也是在讲 Vibe Debugging——请所有小白在尝试 Vibe Coding 之前，一定要清醒的明白一件事，很多时候你不是在编程，你只是在制造你无法解决的 Bug。这是我非常痛的领悟。</p>
+<p><strong>想要减少 Bug 的出现，必须懂点软件工程</strong></p>
+<p>小白之所以无法控制 Bug 的产生，我觉得原因和会不会编程语言的关系不大。</p>
+<p>就我潜伏在 V2EX（中文最大的程序员线上社区）里观察，即使懂得编程语言，同样闯祸，很多时候还是一口大锅，搞得身边的同事恨不得给这种惹事精做开颅手术，瞧瞧脑袋里装的是啥。</p>
+<p>就我的 Vibe Coding 经验而言，真正令 Bug 减少的，是软件工程里的常识。也是让我觉得 Vibe Coding 时，不再害怕 Bug 出现的关键飞跃。</p>
+<p>Vibe Coding 领域的流行理论，从单纯的 Prompting 到 Context Prompting 再到现在的 Spec Programming，在我看来是毫不回头地朝着软件工程化的方向狂奔。</p>
+<p>所以，你还觉得不必了解一点软件工程吗？</p>
+<p><strong>想懂点软件工程，必须先拥有「组件化思维」</strong></p>
+<p>想知道 Bug 发生在哪里，为什么发生，固然是可以将日志直接塞给大模型——这是 Vibe Coding 的标准做法。</p>
+<p>但，难免会碰上大模型怎么改都改不好的克鲁苏级 Bug 出现。排查 Bug 的流程，首先肯定是定位问题。</p>
+<p>此时，拥有组件化思维的小白，会尚未拥有的小白，差距会十分明显。因为，前者通过脑子里清晰的结构，很快地定位到问题发生的那一段代码，以及它的相关因素。而后者，往往只能看到一个函数报错，但他只能重复地把错误日志塞给大模型。</p>
+<p>克鲁苏级 Bug 无法马上消灭，往往就藏在这个「相关因素」里。缺乏组件化思维，脑子里就缺了一张地图，无法找出这些个「相关因素」，那么，更不要说排查 Bug 了。这整个过程就好像排雷，雷通常是藏起来的，如果想全排除，只能用扫雷车一个地面都不放过地筛，但是如果连埋雷的地方都不知道，就谈不上排雷这件事了。</p>
+<p>现在，问题来了，如何拥有「组件化思维」呢？别急，往下看。</p>
+<p>*想懂「组件化思维」，必须了解基础概念「抽象*」</p>
+<p>我们通常接触到「抽象」这个词，往往和「抽象思维」这个词组密不可分。抽象思维，说的是迅速寻找事物的共性，总结特征。</p>
+<p>在计算机领域里，「抽象」也类似的含义，因为组件往往是由普通的代码抽象而来的，而这个抽象的过程，往往是因为代码当中存在着大量的重复。这些重复的部分，可以抽象成公共组件，为其它组件提供服务。</p>
+<p>还有另外一种抽象，是明确代码的边界，比如说，这几个函数是为同一个目的服务的，那么它们只需要面向这个目的进行设计即可。你可以认为，软件其实是一个流水线，这个流水线由不同的工序组成，从原材料放进传送带开始，一直到变成成品从传送带离开，每一道工序都负责加工上一道工序所传递过来的半成品——在软件里，工厂流水线里每一道独立工序都可以视为「组件」。</p>
+<p>实际上，现在的 Spec Programming 也不过是进化到，将软件里的所有组件也说清楚给大模型听，然后让大模型生成代码。</p>
+<p>换言之，如果你有能力在文档里描述不同的组件的作用，以及它们相互之间的关系，如何配合，那么你已经具备 Spec Programming 的能力。</p>
+<p>在设计组件的时候，软件开发领域的「DRY 原则」显得尤为重要，它有点像麦肯锡金字塔原理的「不重不漏」原则。每个组件必然不是重复的，而要让它们有机地写作，那么又缺一不可。</p>
+<p><strong>请期待下一篇</strong></p>
+<p>这一篇我已经说清楚非常基本的概念，这些概念对于小白来说是不可或缺的，必须掌握的背景知识。在这里我十分推荐《软件设计的哲学》这本书，它不长，但更好覆盖了必须了解的常识。</p>
+
+    </div>
+
+    
+  </article>
+</div>
+
+  </main>
+</body>
+
+</html>
