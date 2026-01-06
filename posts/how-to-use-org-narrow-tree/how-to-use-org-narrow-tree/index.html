@@ -12,7 +12,7 @@ Clicking a bullet, zooms you into it and displays any indented items. This is ho
 If a bullet has no indented items, you’ll see an empty page with the title of the bullet you clicked on. 如果一个项目符号没有缩进的内容，你将看到一个空白页面，页面上显示你点击的项目符号的标题。
 没想到 org-mode 里直接内置类似的功能了，具体命令是 =org-narrow-to-subtree=。执行这个命令之后，再执行 =widen=，视图就可以恢复原装。
 只需要将快捷键绑定到具体的命令上就可用：
-">
+(global-set-key (kbd &#34;C-c n&#34;) &#39;org-narrow-to-subtree) (global-set-key (kbd &#34;C-c w&#34;) &#39;widen) ">
 
 
 <meta property="og:title"
@@ -24,7 +24,7 @@ Clicking a bullet, zooms you into it and displays any indented items. This is ho
 If a bullet has no indented items, you’ll see an empty page with the title of the bullet you clicked on. 如果一个项目符号没有缩进的内容，你将看到一个空白页面，页面上显示你点击的项目符号的标题。
 没想到 org-mode 里直接内置类似的功能了，具体命令是 =org-narrow-to-subtree=。执行这个命令之后，再执行 =widen=，视图就可以恢复原装。
 只需要将快捷键绑定到具体的命令上就可用：
-">
+(global-set-key (kbd &#34;C-c n&#34;) &#39;org-narrow-to-subtree) (global-set-key (kbd &#34;C-c w&#34;) &#39;widen) ">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://www.gtdstudy.com/posts/how-to-use-org-narrow-tree/how-to-use-org-narrow-tree/">
 
@@ -40,7 +40,7 @@ Clicking a bullet, zooms you into it and displays any indented items. This is ho
 If a bullet has no indented items, you’ll see an empty page with the title of the bullet you clicked on. 如果一个项目符号没有缩进的内容，你将看到一个空白页面，页面上显示你点击的项目符号的标题。
 没想到 org-mode 里直接内置类似的功能了，具体命令是 =org-narrow-to-subtree=。执行这个命令之后，再执行 =widen=，视图就可以恢复原装。
 只需要将快捷键绑定到具体的命令上就可用：
-">
+(global-set-key (kbd &#34;C-c n&#34;) &#39;org-narrow-to-subtree) (global-set-key (kbd &#34;C-c w&#34;) &#39;widen) ">
 
 
 
@@ -67,7 +67,42 @@ If a bullet has no indented items, you’ll see an empty page with the title of 
 
 
   
-  <link rel="stylesheet" href="/css/main.min.css">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.min.ea4348b8913f1e3578962103dc591e9fa66e0a50fb4226c460d7a9749d67f50a.css" integrity="sha256-6kNIuJE/HjV4liED3Fken6ZuClD7QibEYNepdJ1n9Qo=">
 </head>
 
 <body>
@@ -130,7 +165,7 @@ If a bullet has no indented items, you’ll see an empty page with the title of 
         <div class="site-footer">
             <div class="footer-content">
                 <div class="footer-info">
-                    <p class="copyright">© 2025 Yibie</p>
+                    <p class="copyright">© 2026 Yibie</p>
                     <p class="powered-by">Powered by <a href="https://gohugo.io" target="_blank">Hugo</a></p>
                     <p class="theme-info">Theme <a href="https://github.com/yibie/hugo-theme-deck"
                             target="_blank">Deck</a></p>
@@ -165,52 +200,64 @@ If a bullet has no indented items, you’ll see an empty page with the title of 
 </script>
   <main>
     
+
+
+
+
+
+
+
+
+
+
+
 <div class="single-main">
-  <article class="single-post">
-    <header class="post-header">
-      <h1 class="post-title">Org-mode 自带类似 Workflwoy 的 focus 功能</h1>
+    <article class="single-post">
+        <header class="post-header">
+            <h1 class="post-title">Org-mode 自带类似 Workflwoy 的 focus 功能</h1>
 
-      <div class="post-meta">
-        <time datetime=" 2025-02-20">
-          February 20, 2025
-        </time>
+            <div class="post-meta">
+                <time datetime=" 2025-02-20">
+                    February 20, 2025
+                </time>
 
-        
-        <div class="post-categories">
-          
-          <span class="category">til</span>
-          
-        </div>
-        
-      </div>
-    </header>
+                
+                <div class="post-categories">
+                    
+                    <span class="category">til</span>
+                    
+                </div>
+                
+            </div>
+        </header>
 
-    <div class="post-content">
-      <p>以前把玩 Workflowy 的时候，有一个功能我很喜欢，但它没具体名字，在 Workflowy 的首页上，是这么介绍的：</p>
+        <div class="post-content">
+            <p>以前把玩 Workflowy 的时候，有一个功能我很喜欢，但它没具体名字，在 Workflowy 的首页上，是这么介绍的：</p>
 <blockquote>
 <p>Zoom into your notes and focus on just one part
 放大你的笔记，专注于某一部分</p>
 <p>Clicking a bullet, zooms you into it and displays any indented items. This is how we view items as documents, by zooming into them.
 点击一个项目符号，系统会将你放大到该项目符号，并显示任何缩进的内容。这就是我们如何将条目视为文档，通过放大查看它们。</p>
 <p>If a bullet has no indented items, you’ll see an empty page with the title of the bullet you clicked on.
-如果一个项目符号没有缩进的内容，你将看到一个空白页面，页面上显示你点击的项目符号的标题。</p></blockquote>
+如果一个项目符号没有缩进的内容，你将看到一个空白页面，页面上显示你点击的项目符号的标题。</p>
+</blockquote>
 <p>没想到 org-mode 里直接内置类似的功能了，具体命令是 =org-narrow-to-subtree=。执行这个命令之后，再执行 =widen=，视图就可以恢复原装。</p>
 <p>只需要将快捷键绑定到具体的命令上就可用：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(global-set-key (kbd <span style="color:#e6db74">&#34;C-c n&#34;</span>) <span style="color:#e6db74">&#39;org-narrow-to-subtree</span>)
 </span></span><span style="display:flex;"><span>(global-set-key (kbd <span style="color:#e6db74">&#34;C-c w&#34;</span>) <span style="color:#e6db74">&#39;widen</span>)
 </span></span></code></pre></div>
-    </div>
+        </div>
 
-    
-    <footer class="post-footer">
-      <div class="post-tags">
         
-        <a href="/tags/orgmode" class="post-tag">orgmode</a>
+        <footer class="post-footer">
+            <div class="post-tags">
+                
+                <a href="/tags/orgmode" class="post-tag">orgmode</a>
+                
+            </div>
+        </footer>
         
-      </div>
-    </footer>
-    
-  </article>
+    </article>
 </div>
 
   </main>

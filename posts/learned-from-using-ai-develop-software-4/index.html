@@ -97,7 +97,42 @@ org-supertag 的目标不是将两个文件之间的数据进行关联，而是�
 
 
   
-  <link rel="stylesheet" href="/css/main.min.css">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.min.ea4348b8913f1e3578962103dc591e9fa66e0a50fb4226c460d7a9749d67f50a.css" integrity="sha256-6kNIuJE/HjV4liED3Fken6ZuClD7QibEYNepdJ1n9Qo=">
 </head>
 
 <body>
@@ -160,7 +195,7 @@ org-supertag 的目标不是将两个文件之间的数据进行关联，而是�
         <div class="site-footer">
             <div class="footer-content">
                 <div class="footer-info">
-                    <p class="copyright">© 2025 Yibie</p>
+                    <p class="copyright">© 2026 Yibie</p>
                     <p class="powered-by">Powered by <a href="https://gohugo.io" target="_blank">Hugo</a></p>
                     <p class="theme-info">Theme <a href="https://github.com/yibie/hugo-theme-deck"
                             target="_blank">Deck</a></p>
@@ -195,28 +230,39 @@ org-supertag 的目标不是将两个文件之间的数据进行关联，而是�
 </script>
   <main>
     
+
+
+
+
+
+
+
+
+
+
+
 <div class="single-main">
-  <article class="single-post">
-    <header class="post-header">
-      <h1 class="post-title">用 AI 辅助开发的经验二三则（4）</h1>
+    <article class="single-post">
+        <header class="post-header">
+            <h1 class="post-title">用 AI 辅助开发的经验二三则（4）</h1>
 
-      <div class="post-meta">
-        <time datetime=" 2025-04-03">
-          April 3, 2025
-        </time>
+            <div class="post-meta">
+                <time datetime=" 2025-04-03">
+                    April 3, 2025
+                </time>
 
-        
-        <div class="post-categories">
-          
-          <span class="category">write</span>
-          
-        </div>
-        
-      </div>
-    </header>
+                
+                <div class="post-categories">
+                    
+                    <span class="category">write</span>
+                    
+                </div>
+                
+            </div>
+        </header>
 
-    <div class="post-content">
-      <p>这是一个搏斗的故事。</p>
+        <div class="post-content">
+            <p>这是一个搏斗的故事。</p>
 <p>起源是我开发的 org-supertag，项目的初心是希望将 Tana 的笔记体验迁移到 Emacs，在我开发了一个极简原型之后就面临一个问题——</p>
 <p>如果 org-supertag 想像 Tana 那样快速展示一个标签所关联的节点，不能使用纯文本检索的方法。这种方法直接使用检索所有文件，通过正则提取相关的数据，速度慢不说，还会令 Emacs 卡顿。简而言之，这种体验，谁都不能忍。</p>
 <p>后来我借鉴自己另外一个项目 org-zettel-ref-mode （以下简称 orz） 的经验，它直接使用哈希表作为数据库，成功地令两个文件的数据通过数据库进行关联，理所当然的，我将这个经验迁移到 org-supertag 上。</p>
@@ -257,29 +303,30 @@ org-supertag 的目标不是将两个文件之间的数据进行关联，而是�
 <p>我在 X 上谈到了：</p>
 <blockquote>
 <p>其实 Logseq 要走纯数据库这一步，是可以预见的。</p>
-<p>将纯文本内容同步到另外一个数据库之中，然后再校验双方的一致性。这非常麻烦而且困难。</p></blockquote>
+<p>将纯文本内容同步到另外一个数据库之中，然后再校验双方的一致性。这非常麻烦而且困难。</p>
+</blockquote>
 <p>Logseq 重构 DB 版，从去年开始，到现在尚未正式发布。已经超过了 6 个月的时间。要知道，就连 Shopify 的创始人都在用 Logseq 呢。</p>
 <p>BTW：</p>
 <p>有耐心看到文末的你，会疑问：这篇东西和 AI 辅助开发有啥关系？</p>
 <p>有的，有的。我没有任何开发数据库的经验，所以，所有这些数据库实现的方式，都是 AI 建议的。——三次搏斗的起源，就是来自 AI 不靠谱的建议。</p>
 <p>所以在第三次，我靠自己的想法（当然还有之前各种跳坑的经验），终于终于迈过数据一致性的坎。</p>
 
-    </div>
+        </div>
 
-    
-    <footer class="post-footer">
-      <div class="post-tags">
         
-        <a href="/tags/org-mode" class="post-tag">org-mode</a>
+        <footer class="post-footer">
+            <div class="post-tags">
+                
+                <a href="/tags/org-mode" class="post-tag">org-mode</a>
+                
+                <a href="/tags/org-supertag" class="post-tag">org-supertag</a>
+                
+                <a href="/tags/project" class="post-tag">project</a>
+                
+            </div>
+        </footer>
         
-        <a href="/tags/org-supertag" class="post-tag">org-supertag</a>
-        
-        <a href="/tags/project" class="post-tag">project</a>
-        
-      </div>
-    </footer>
-    
-  </article>
+    </article>
 </div>
 
   </main>
