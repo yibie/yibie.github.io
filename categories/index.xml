@@ -9,10 +9,19 @@
     
     
     
-    <lastBuildDate>Tue, 30 Sep 2025 11:34:32 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 07:04:56 +0800</lastBuildDate>
     
     <atom:link href="https://www.gtdstudy.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Writing</title>
+      <link>https://www.gtdstudy.com/categories/writing/</link>
+      <pubDate>Thu, 08 Jan 2026 07:04:56 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/categories/writing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Write</title>

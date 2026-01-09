@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing - Space Looming</title>
+    <link>https://www.gtdstudy.com/categories/writing/</link>
+    <description>Recent content in Writing on Space Looming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    
+    
+    <lastBuildDate>Thu, 08 Jan 2026 07:04:56 +0800</lastBuildDate>
+    
+    <atom:link href="https://www.gtdstudy.com/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>谈谈自己的 2025，看看 2026</title>
+      <link>https://www.gtdstudy.com/posts/2025-2026/</link>
+      <pubDate>Thu, 08 Jan 2026 07:04:56 +0800</pubDate>
+      
+      <guid>https://www.gtdstudy.com/posts/2025-2026/</guid>
+      <description>&lt;p&gt;人最难的是，就是面对自己。一到年底，谈到一年的回顾，总觉得自己做得不够好。后来我想，可能浸淫在功绩主义的氛围里太久了，谈到回顾，总是想着自己哪些做得好，哪些做得不好。&lt;/p&gt;
+&lt;p&gt;生命的体验，不独功过是非，还是以感受为主。&lt;/p&gt;
+&lt;p&gt;以下是我 2025 年的感受，有关于自己的，有关于这个世界的，我没有单独地分开，因为我的问题也是世界的问题，而世界的问题也是我的问题：&lt;/p&gt;
+&lt;h2 id=&#34;2025&#34;&gt;2025&lt;/h2&gt;
+&lt;h3 id=&#34;vibe-coding&#34;&gt;Vibe Coding&lt;/h3&gt;
+&lt;p&gt;今年是 Vibe Coding 奋进一年。得益于大模型能力地持续提高，尤其是大家都更加注重编程这个场景，所有大模型在编程方面的进步是相当显著的。&lt;/p&gt;
+&lt;p&gt;我印象最深刻的是 Claude 4 Sonnet 出来的时候，它的表现真的相当惊艳，之前 3.5 时，对话过长掉入循环怪圈的问题，在 4.0 得到了解决。然后就是 Claude 4.5 Opus 的出现，进一步提高了大模型在编程方面的能力上限——无论是对话轮次，解决问题的能力，然而，Anthropic 提供的上下文长度还是太有限，这限制了 Claude 4.5 Opus 的表现。这给 OpenAI 的 GPT 5.0 Codex 机会——后者提供强的任务表现，更稳定的输出。&lt;/p&gt;
+&lt;p&gt;我觉得，如果是一般的日常使用，Claude 4.5 Sonnet 基本上一把过的概率是很高的。不过，这里存在一个悖论，当我求人帮忙的时候，肯定是因为自己某方面能力不行，这和我使用 AI 的场景类似，我更多使用 AI 来补齐自己的短板，而在自己自信的地方（比如写这篇博客），我则很少打算让 AI 帮忙。&lt;/p&gt;
+&lt;p&gt;这样的场景，要求所有的大模型公司，都拼命地提高 AI 的能力上限，反应在公司的财报上则是训练大模型的成本，非常夸张——OpenAI 曾经分享过自己的财务数据，尽管用户的订阅收入很快已经达到了 10 亿美元的规模，但是所有赚到、融到的钱，转眼又投进大模型的训练当中。这不是健康的商务模式，一个工厂生产的产品，不可能无止境地投入到工厂生产线的升级上。如果制造业是这样的商业模式，早早破产。&lt;/p&gt;
+&lt;p&gt;但另外一个问题来了，大模型会是另外一个蒸汽机吗？如果大模型是蒸汽机，那么当前的海量投入是否合理？我的观点是，大模型绝对是蒸汽机时刻，只不过工业革命的发生需要上百年，而当今的世界运转速度是 300 年前的百倍不止，大模型对社会的深刻影响，将集中在几年的时间内呈现。无疑，这对所有人都是剧烈的。&lt;/p&gt;
+&lt;p&gt;可能真的进入了这样一个分水岭，人类自我进化的速度，开始落后于技术的进化速度。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我当前的 Vibe Coding 常用工具是：&lt;code&gt;Codex + Gemini CLI + Antigravity&lt;/code&gt;。有没发现很有意思的情况，我其实使用最多的是 Google 的产品？&lt;/p&gt;
+&lt;p&gt;Claude Code 虽好，但老封号，太烦人了。我有限的生命，不想陷入与 Anthropic 的封号政策斗争中去；我的时间和精力，应该投入到实现优秀的作品上。Gemini 在升级到 2.5 Pro 之后，其模型能力已经得到了进化，各方面都进步很大但仍然有问题（幻觉很严重，会制造幻觉函数），直到 Gemini 3 Pro 的出现——一个综合能力更强，上下文更加出色的大模型。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss> 
