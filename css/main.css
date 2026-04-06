@@ -16,6 +16,7 @@
 
   --font-body:     "Source Han Serif CN VF", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", "宋体", serif;
   --font-title:     "QIJIFALLBACK", "Kaiti SC", "Kaiti TC", "STKaiti", "KaiTi", "楷体", serif;
+  --font-title-latin: "Cormorant Garamond", "Times New Roman", serif;
   --font-signature: "LXGW WenKai Mono Screen", "Kaiti SC", "Kaiti TC", "STKaiti", "KaiTi", "楷体", serif;
 
   --width-content: 44rem;
@@ -579,6 +580,13 @@ body[data-dappled="off"] .sunlight-scene {
   line-height: 1.4;
 }
 
+.title-latin {
+  font-family: var(--font-title-latin);
+  font-size: 0.92em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 .letter-body h1,
 .letter-body h2,
 .letter-body h3,
@@ -694,6 +702,10 @@ body[data-dappled="off"] .sunlight-scene {
 .letter-nav__title {
   font-size: 0.95rem;
   line-height: 1.4;
+}
+
+.letter-nav__title .title-latin {
+  font-size: 0.96em;
 }
 
 @keyframes sunlightLeafDrift {
