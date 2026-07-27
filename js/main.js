@@ -56,13 +56,7 @@
   blurFilter('dw-sharp', '0.22'); // 近焦：锐利枝影
   blurFilter('dw-mid', '0.7');    // 中焦
   blurFilter('dw-soft', '1.5');   // 远焦：糊而有形（再重就成雾斑了）
-  blurFilter('dw-cloud', '0.18'); // 云体：近乎锐利，只消除硬边
-  blurFilter('dw-cloud-soft', '0.7');
-
-  var cloudBody = el('linearGradient', { id: 'dw-cloud-body', x1: '0', y1: '0', x2: '0', y2: '1' }, defs);
-  el('stop', { offset: '0%', 'stop-color': '#fffdf7' }, cloudBody);
-  el('stop', { offset: '58%', 'stop-color': '#eef8ff' }, cloudBody);
-  el('stop', { offset: '100%', 'stop-color': '#a8d5f2' }, cloudBody);
+  blurFilter('dw-cloud', '1.1');  // 云：轮廓可辨的软边
 
   function sway(gEl, ox, oy, name, dur) {
     if (reducedMotion) return;
@@ -250,71 +244,36 @@
     return g;
   }
 
-  var cloudSeq = 0;
-
-  // ── 积云：连续云冠 + 裁切在轮廓内的云腹与受光面（sky 用）──
+  // ── 白云：经典积云轮廓——宽平的底 + 顶部一排大小渐变的圆拱（sky 用）──
+  // 天蓝底上云必须是亮色；深色团块会读作污渍
   function cloud(cx, cy, size, op) {
-    var g = el('g', { opacity: op.toFixed(2), stroke: 'none' }, svg);
-    var baseRy = size * rr(0.3, 0.38);
-    var domes = 5 + Math.floor(R() * 3);
-    var left = cx - size;
-    var right = cx + size;
-    var bottom = cy + baseRy * 0.68;
-    var step = size * 2 / domes;
-    var lobes = [];
-    var d = 'M' + left.toFixed(1) + ' ' + bottom.toFixed(1) +
-      'C' + (left - size * 0.05).toFixed(1) + ' ' + cy.toFixed(1) +
-      ' ' + left.toFixed(1) + ' ' + cy.toFixed(1) +
-      ' ' + left.toFixed(1) + ' ' + cy.toFixed(1);
-
-    for (var i = 0; i < domes; i++) {
-      var x0 = left + i * step;
-      var x1 = x0 + step;
-      var centerWeight = Math.sin((i + 0.5) / domes * Math.PI);
-      var nextWeight = Math.sin((i + 1) / domes * Math.PI);
-      var height = size * (0.11 + centerWeight * 0.26) * rr(0.88, 1.1);
-      var endY = cy - nextWeight * size * 0.08;
-      var apexY = Math.min(cy, endY) - height;
-      d += 'C' + (x0 + step * 0.08).toFixed(1) + ' ' + apexY.toFixed(1) +
-        ' ' + (x1 - step * 0.08).toFixed(1) + ' ' + apexY.toFixed(1) +
-        ' ' + x1.toFixed(1) + ' ' + endY.toFixed(1);
-      lobes.push({ x: x0 + step * 0.5, y: apexY, h: height, w: step });
-    }
-    d += 'C' + (right + size * 0.06).toFixed(1) + ' ' + cy.toFixed(1) +
-      ' ' + (right + size * 0.04).toFixed(1) + ' ' + bottom.toFixed(1) +
-      ' ' + right.toFixed(1) + ' ' + bottom.toFixed(1) +
-      'C' + (cx + size * 0.45).toFixed(1) + ' ' + (bottom + baseRy * 0.42).toFixed(1) +
-      ' ' + (cx - size * 0.45).toFixed(1) + ' ' + (bottom + baseRy * 0.42).toFixed(1) +
-      ' ' + left.toFixed(1) + ' ' + bottom.toFixed(1) + 'Z';
-
-    var clipId = 'dw-cloud-clip-' + cloudSeq++;
-    var clip = el('clipPath', { id: clipId }, defs);
-    el('path', { d: d }, clip);
-    el('path', { d: d, fill: 'url(#dw-cloud-body)', filter: 'url(#dw-cloud)' }, g);
-
-    var volume = el('g', { 'clip-path': 'url(#' + clipId + ')' }, g);
+    var g = el('g', {
+      fill: 'rgba(255, 255, 255, 0.96)', 'fill-opacity': op.toFixed(2), stroke: 'none',
+      filter: 'url(#dw-cloud)'
+    }, svg);
+    // 云底淡影：一道体积感
     el('ellipse', {
-      cx: (cx + size * 0.08).toFixed(1), cy: (cy + baseRy * 0.72).toFixed(1),
-      rx: (size * 1.02).toFixed(1), ry: (baseRy * 0.88).toFixed(1),
-      fill: '#679fd4', 'fill-opacity': '0.52', filter: 'url(#dw-cloud-soft)'
-    }, volume);
-
-    for (var j = 0; j < lobes.length; j++) {
-      var lobe = lobes[j];
-      el('ellipse', {
-        cx: (lobe.x + lobe.w * 0.14).toFixed(1), cy: (lobe.y + lobe.h * 0.58).toFixed(1),
-        rx: (lobe.w * 0.82).toFixed(1), ry: (lobe.h * 0.28).toFixed(1),
-        fill: '#6f9fd2', 'fill-opacity': rr(0.42, 0.58).toFixed(2),
-        filter: 'url(#dw-cloud-soft)'
-      }, volume);
-      el('ellipse', {
-        cx: (lobe.x - lobe.w * 0.14).toFixed(1), cy: (lobe.y + lobe.h * 0.16).toFixed(1),
-        rx: (lobe.w * 0.52).toFixed(1), ry: (lobe.h * 0.18).toFixed(1),
-        fill: '#fff4df', 'fill-opacity': rr(0.68, 0.88).toFixed(2),
-        filter: 'url(#dw-cloud)'
-      }, volume);
+      cx: (cx + size * 0.12).toFixed(1), cy: (cy + size * rr(0.16, 0.24)).toFixed(1),
+      rx: (size * 0.85).toFixed(1), ry: (size * 0.2).toFixed(1),
+      fill: 'var(--dappled-shadow-color)', 'fill-opacity': '0.45'
+    }, g);
+    // 平底
+    var baseRy = size * rr(0.3, 0.38);
+    el('ellipse', {
+      cx: cx.toFixed(1), cy: cy.toFixed(1),
+      rx: size.toFixed(1), ry: baseRy.toFixed(1)
+    }, g);
+    // 顶部圆拱：中间最大，向两侧递减
+    var domes = 3 + Math.floor(R() * 3);
+    for (var i = 0; i < domes; i++) {
+      var t = domes === 1 ? 0 : i / (domes - 1) - 0.5;      // -0.5..0.5
+      var r = size * (0.5 - Math.abs(t) * 0.42) * rr(0.85, 1.1);
+      el('circle', {
+        cx: (cx + t * size * rr(1.2, 1.5)).toFixed(1),
+        cy: (cy - baseRy * 0.5 - r * rr(0.35, 0.6)).toFixed(1),
+        r: r.toFixed(1)
+      }, g);
     }
-
     if (!reducedMotion) {
       g.style.transformBox = 'view-box';
       var dur = rr(38, 70);
@@ -448,20 +407,16 @@
     clump(VW * rr(0.3, 0.45), rr(-10, -4), rr(1.9, 2.3), 0.9, P.op1, 'dw-sharp');
   }
 
-  // sky 天空：大云压画面两侧，小云拉开远近，中央留给信纸。
+  // sky 天空 → 云影悠悠：积云剪影重糊慢移，两层视差
   function sceneClouds(P) {
-    cloud(rr(-6, 2), rr(8, 16), rr(17, 21), rr(0.72, 0.82));
-    cloud(rr(-3, 5), rr(34, 44), rr(24, 29), rr(0.88, 0.96));
-    cloud(rr(2, 10), rr(64, 74), rr(21, 26), rr(0.8, 0.9));
-    cloud(rr(6, 14), rr(88, 96), rr(16, 20), rr(0.62, 0.74));
-    cloud(rr(154, 162), rr(10, 18), rr(18, 22), rr(0.74, 0.84));
-    cloud(rr(151, 159), rr(36, 46), rr(25, 30), rr(0.9, 0.97));
-    cloud(rr(146, 154), rr(66, 76), rr(22, 27), rr(0.82, 0.92));
-    cloud(rr(142, 150), rr(88, 96), rr(17, 21), rr(0.64, 0.76));
+    // 信纸是半透明毛玻璃：云从其下方经过即可，无须避让——自然满幅布局
+    cloud(rr(15, 55), rr(6, 18), rr(14, 19), rr(0.75, 0.9));
+    cloud(rr(90, 140), rr(14, 30), rr(11, 16), rr(0.7, 0.85));
+    cloud(rr(50, 110), rr(34, 48), rr(8, 12), rr(0.5, 0.65));
     if (!mobile) {
-      cloud(rr(38, 52), rr(7, 13), rr(5, 7), rr(0.34, 0.46));
-      cloud(rr(72, 86), rr(12, 18), rr(4, 6), rr(0.28, 0.4));
-      cloud(rr(108, 122), rr(8, 15), rr(5, 7), rr(0.32, 0.44));
+      cloud(rr(0, 40), rr(50, 68), rr(7, 10), rr(0.45, 0.6));
+      cloud(rr(120, 160), rr(55, 72), rr(7, 10), rr(0.45, 0.6));
+      cloud(rr(60, 100), rr(2, 8), rr(5, 8), rr(0.4, 0.55));
     }
   }
 
