@@ -668,8 +668,8 @@ body[data-dappled="off"] {
 }
 
 [data-style="sky"] {
-  --dappled-paper-alpha: 0.72;
-  --dappled-shadow-color: rgba(34, 66, 98, 0.54);
+  --dappled-paper-alpha: 0.78;
+  --dappled-shadow-color: rgba(69, 132, 188, 0.68);
   --dappled-bokeh-color: rgba(240, 250, 255, 0.82);
   --dappled-bokeh-blur: 14px;
   --dappled-bokeh-opacity: 0.92;
@@ -734,11 +734,11 @@ body[data-dappled="off"] .dappled-layer {
   filter: blur(38px);
 }
 
-/* sky：上深下浅的天空蓝渐变——白云需要蓝天作底 */
+/* sky：高饱和夏日蓝天，承接 SVG 的多层积云 */
 [data-style="sky"] .dappled-layer__wash {
   background:
-    linear-gradient(180deg, rgba(110, 165, 215, 0.55) 0%, rgba(150, 195, 235, 0.3) 40%, rgba(200, 228, 248, 0.1) 75%, transparent 100%),
-    radial-gradient(42rem 28rem at 82% 4%, rgba(255, 255, 255, 0.35) 0%, transparent 56%);
+    linear-gradient(180deg, rgba(28, 145, 238, 0.72) 0%, rgba(73, 180, 242, 0.5) 48%, rgba(181, 226, 250, 0.16) 82%, transparent 100%),
+    radial-gradient(46rem 30rem at 78% 2%, rgba(255, 255, 255, 0.4) 0%, transparent 58%);
 }
 
 /* 枝影由 SVG 绘制（锐/柔焦平面在 SVG 分组滤镜里），容器不再整体模糊 */
@@ -755,6 +755,10 @@ body[data-dappled="off"] .dappled-layer {
   width: 100%;
   height: 100%;
   filter: url(#dw-wind);
+}
+
+[data-style="sky"] .dappled-svg {
+  filter: none;
 }
 
 /* Firefox 的 SVG 位移滤镜走 CPU，太贵：关掉风动，保留摇曳动画 */
