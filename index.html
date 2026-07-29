@@ -22,10 +22,10 @@
 
 <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
 
-<link rel="stylesheet" href="/css/main.css?v=1785282600">
+<link rel="stylesheet" href="/css/main.css?v=1785299784">
 
 
-<link rel="stylesheet" href="/css/custom.css?v=1785282600">
+<link rel="stylesheet" href="/css/custom.css?v=1785299784">
 
 
 <link rel="stylesheet" href="https://chinese-fonts-cdn.deno.dev/packages/syst/dist/SourceHanSerifCN/result.css">
@@ -51,58 +51,58 @@
 <div class="sidebar-overlay" id="sidebar-overlay" aria-hidden="true"></div>
     <aside class="sidebar" id="sidebar" role="complementary" aria-label="信件归档"><nav class="archive" id="sidebar">
   <h2 class="archive-title">往来书信</h2>
-  
+
   <div class="year-group">
     <button class="year-toggle" aria-expanded="true">
       2026
     </button>
     <div class="month-list">
-      
+
       <div class="month-group">
         <span class="month-label">Jul</span>
         <ul>
-          
+
           <li>
             <a href="https://www.gtdstudy.com/posts/without-shell-ghost-is-nothing/">
               <time datetime="2026-07-11">07-11</time>
               没有了 Shell，Ghost 什么也不是
             </a>
           </li>
-          
+
         </ul>
       </div>
-      
+
       <div class="month-group">
         <span class="month-label">Mar</span>
         <ul>
-          
+
           <li>
             <a href="https://www.gtdstudy.com/posts/2026-04-05-to-be-human/">
               <time datetime="2026-03-15">03-15</time>
               在等待 AI 的时候，干些什么好？
             </a>
           </li>
-          
+
           <li>
             <a href="https://www.gtdstudy.com/posts/2026-03-16-about-speed/">
               <time datetime="2026-03-15">03-15</time>
               推背感
             </a>
           </li>
-          
+
           <li>
             <a href="https://www.gtdstudy.com/posts/first-post/">
               <time datetime="2026-03-09">03-09</time>
               谈谈写信
             </a>
           </li>
-          
+
         </ul>
       </div>
-      
+
     </div>
   </div>
-  
+
 
   <div class="archive-old">
     <a href="https://www.gtdstudy.com/old/" class="archive-old__link">← 旧博客</a>
@@ -118,9 +118,9 @@
     <h1 class="letter-title">没有了 Shell，Ghost 什么也不是</h1>
   </header>
 
-  
+
   <p class="salutation">见字如晤，</p>
-  
+
 
   <div class="letter-body">
     <p>最近的天气愈发郁热，要么下一天的雨，要么太阳出来将前一天的雨蒸发。出门在外，见到谁，我都情不自禁的感慨一句，「最近真的太湿，太热了！」在这样的日子里，却有着激动人心的故事，非洲西边的小岛国佛得角首次进入世界杯 16 强，但藏在数字背后的是，佛得角实际上抽中的死亡签，在阿根廷队淘汰之前，它的对手是葡萄牙，西班牙等强队。即便是对战阿根廷，佛得角铁壁般的防守让阿根廷在上半场找不到任何机会，而球王梅西几次起脚射门，意图都被佛得角门神沃西尼亚轻松识破，一直到加时赛，阿根廷才踢出了一个运气球，让比分超出，终结比赛。</p>
@@ -176,13 +176,67 @@
     </time>
   </footer>
 
+  <section class="correspondence" id="correspondence" aria-label="往来">
+
+  <header class="correspondence-header">
+    <h2>往来</h2>
+  </header>
+  <p class="correspondence-empty">这封信还没有回音。你可以写下第一封来信。</p>
+
+<form class="guestbook-form" id="guestbook-form" action="https://epistle-guestbook-worker.yibie.workers.dev/v1/submissions" method="post" data-guestbook-form data-status-id="guestbook-form-status">
+  <input type="hidden" name="source_path" value="/posts/without-shell-ghost-is-nothing/">
+  <div class="guestbook-form__identity">
+    <div class="guestbook-field">
+      <label for="guestbook-name">称呼</label>
+      <input id="guestbook-name" name="display_name" autocomplete="name" maxlength="80" placeholder="匿名读者" aria-describedby="guestbook-name-error">
+      <p class="guestbook-error" id="guestbook-name-error"></p>
+    </div>
+
+    <div class="guestbook-field">
+      <label for="guestbook-email">邮箱</label>
+      <input id="guestbook-email" name="email" type="email" autocomplete="email" maxlength="254" placeholder="仅用于回信" aria-describedby="guestbook-email-error">
+      <p class="guestbook-error" id="guestbook-email-error"></p>
+    </div>
+  </div>
+
+  <div class="guestbook-field">
+    <label for="guestbook-message">写下你的来信</label>
+    <textarea id="guestbook-message" name="message" required minlength="1" maxlength="5000" rows="6" placeholder="关于这封信，你想说些什么？" aria-describedby="guestbook-message-error"></textarea>
+    <p class="guestbook-error" id="guestbook-message-error"></p>
+  </div>
+
+  <div class="guestbook-field guestbook-field--consent">
+    <label for="guestbook-consent">
+      <input id="guestbook-consent" name="publish_consent" type="checkbox">
+      允许隐去邮箱后，摘录这封来信与作者回信
+    </label>
+    <p class="guestbook-help">不勾选也可以寄出；来信将留在私人收件箱。</p>
+  </div>
+
+  <div class="guestbook-field guestbook-field--turnstile">
+    <div class="cf-turnstile" data-sitekey="0x4AAAAAAEAUvWBGamy1wcqZ" data-action="guestbook-submit"></div>
+    <p class="guestbook-error" id="guestbook-turnstile-error"></p>
+  </div>
+
+  <div class="guestbook-form__footer">
+    <button class="guestbook-submit" type="submit">寄出这封信</button>
+    <p class="guestbook-status" id="guestbook-form-status" role="status" aria-live="polite"></p>
+  </div>
+</form>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+
+
+</section>
+<script src="/js/guestbook.js?v=1785299784"></script>
+
   <nav class="letter-nav" aria-label="信件导航">
-    
+
     <a href="https://www.gtdstudy.com/posts/2026-04-05-to-be-human/" class="letter-nav__link letter-nav__link--next">
       <span class="letter-nav__label">下一封</span>
       <span class="letter-nav__title">在等待 AI 的时候，干些什么好？</span>
     </a>
-    
+
   </nav>
 </article>
 
@@ -197,6 +251,6 @@
   <script>
     const heti = new Heti('.heti');
     heti.autoSpacing();
-  </script><script src="/js/main.js?v=1785282600"></script>
+  </script><script src="/js/main.js?v=1785299784"></script>
 </body>
 </html>
