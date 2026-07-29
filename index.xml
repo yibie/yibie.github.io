@@ -6,13 +6,20 @@
 		<description>Recent content on 纸短情长</description>
 		<generator>Hugo</generator>
 		<language>zh-cn</language>
-		
-		
-		
-		
-			<lastBuildDate>Sat, 11 Jul 2026 19:03:34 +0800</lastBuildDate>
-		
+
+
+
+
+			<lastBuildDate>Wed, 29 Jul 2026 06:31:06 +0000</lastBuildDate>
+
 			<atom:link href="https://www.gtdstudy.com/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>来信 · 莫良</title>
+				<link>https://www.gtdstudy.com/guestbook/5c18fc62-248c-4191-8ce9-e99382aeaa21/</link>
+				<pubDate>Wed, 29 Jul 2026 06:14:52 +0000</pubDate>
+				<guid>https://www.gtdstudy.com/guestbook/5c18fc62-248c-4191-8ce9-e99382aeaa21/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>没有了 Shell，Ghost 什么也不是</title>
 				<link>https://www.gtdstudy.com/posts/without-shell-ghost-is-nothing/</link>

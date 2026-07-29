@@ -23,10 +23,10 @@
 
 <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
 
-<link rel="stylesheet" href="/css/main.css?v=1785299784">
+<link rel="stylesheet" href="/css/main.css?v=1785308028">
 
 
-<link rel="stylesheet" href="/css/custom.css?v=1785299784">
+<link rel="stylesheet" href="/css/custom.css?v=1785308028">
 
 
 <link rel="stylesheet" href="https://chinese-fonts-cdn.deno.dev/packages/syst/dist/SourceHanSerifCN/result.css">
@@ -62,6 +62,13 @@
       <div class="month-group">
         <span class="month-label">Jul</span>
         <ul>
+
+          <li>
+            <a href="https://www.gtdstudy.com/guestbook/5c18fc62-248c-4191-8ce9-e99382aeaa21/">
+              <time datetime="2026-07-29">07-29</time>
+              来信 · 莫良
+            </a>
+          </li>
 
           <li>
             <a href="https://www.gtdstudy.com/posts/without-shell-ghost-is-nothing/">
@@ -155,6 +162,7 @@
 
 <form class="guestbook-form" id="guestbook-form" action="https://epistle-guestbook-worker.yibie.workers.dev/v1/submissions" method="post" data-guestbook-form data-status-id="guestbook-form-status">
   <input type="hidden" name="source_path" value="/posts/2026-04-05-to-be-human/">
+  <input type="hidden" name="publish_consent" value="true">
   <div class="guestbook-form__identity">
     <div class="guestbook-field">
       <label for="guestbook-name">称呼</label>
@@ -175,13 +183,7 @@
     <p class="guestbook-error" id="guestbook-message-error"></p>
   </div>
 
-  <div class="guestbook-field guestbook-field--consent">
-    <label for="guestbook-consent">
-      <input id="guestbook-consent" name="publish_consent" type="checkbox">
-      允许隐去邮箱后，摘录这封来信与作者回信
-    </label>
-    <p class="guestbook-help">不勾选也可以寄出；来信将留在私人收件箱。</p>
-  </div>
+  <p class="guestbook-help guestbook-publication-notice">来信有可能被摘录公开；邮箱不会公开。请不要写下你不愿公开的信息。</p>
 
   <div class="guestbook-field guestbook-field--turnstile">
     <div class="cf-turnstile" data-sitekey="0x4AAAAAAEAUvWBGamy1wcqZ" data-action="guestbook-submit"></div>
@@ -198,7 +200,7 @@
 
 
 </section>
-<script src="/js/guestbook.js?v=1785299784"></script>
+<script src="/js/guestbook.js?v=1785308028"></script>
 
   <nav class="letter-nav" aria-label="信件导航">
 
@@ -226,6 +228,6 @@
   <script>
     const heti = new Heti('.heti');
     heti.autoSpacing();
-  </script><script src="/js/main.js?v=1785299784"></script>
+  </script><script src="/js/main.js?v=1785308028"></script>
 </body>
 </html>
